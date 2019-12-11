@@ -320,7 +320,7 @@ Text Label 11850 6150 2    50   ~ 10
 DDR3_DQ13
 Text Label 11850 6050 2    50   ~ 10
 DDR3_DQ14
-Text Label 11850 5950 2    50   ~ 10
+Text Label 11400 5950 0    50   ~ 10
 DDR3_DQ15
 Entry Wire Line
 	11950 7550 11850 7450

@@ -1,18 +1,13 @@
 # Marble board
 
-LBNL-Creotech collaboration: Dual FMC (LPC) NAD/AMC Carrier
+LBNL: Dual FMC (HPC & LPC) NAD/AMC Carrier
 
 A general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications
 
-## Original concept:
-
-![block diagram](block_3.png)
+Status: under development
 
 ## [Specifications](specs.md)
 
-## (Almost) Reality:
-
-![layout](marble_top.png)
 
 ## Tools
 
@@ -22,12 +17,11 @@ in this repo, or will save files that are not compatible with
 collaborators' reference installations.
 We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
 
-Note: Electrical Rules Checker reports 10 errors and 11  warnings. All of them are caused by errors in the library models. In order to remove them, the corresponding ERC settings should be deactivated (for errors: Output pin <-> Output pin, Power output pin <-> Power output pin, Power output pin <-> Output pin, Open collector <-> Output pin, and for warnings: Power output pin <-> Bidirectional pin).  
 
 ## Major Parts
 
-* U1: Xilinx [XC7A100T-2FGG484](https://www.xilinx.com/products/silicon-devices/fpga/artix-7.html) FPGA (see note)
-* U2: NXP [LPC1776FET180](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/lpc-cortex-m-mcus/lpc1700-cortex-m3:MC_1403790745385#/) Microcontroller
+* U1: Xilinx [XC7K160T-FFG676](https://www.xilinx.com/products/silicon-devices/fpga/kintex-7.html) FPGA (see note)
+* U2: ST [STM32L083VZT](https://www.st.com/resource/en/datasheet/stm32l083vz.pdf) Microcontroller
 * U3: Micron [MT41K512M16HA](https://www.micron.com/products/dram/ddr3-sdram/part-catalog/mt41k512m16ha-125) or similar DDR3 x16 memory up to 8Gb
 * U4: Marvell [88E1512](https://www.marvell.com/documents/eoxwrbluvwybgxvagkkf/) Ethernet PHY
 * U20: TI [CDCM61004](http://www.ti.com/product/CDCM61004) Clock Generator
@@ -35,8 +29,6 @@ Note: Electrical Rules Checker reports 10 errors and 11  warnings. All of them a
 * U35: Maxlinear [XRP7724](https://www.maxlinear.com/product/power-management/universal-pmics/universal-pmics/xrp7724) Quad PWM Power Controller
 * Y2: Mercury [VM53S3-25.000](https://docs-apac.rs-online.com/webdocs/151c/0900766b8151cb85.pdf) 25 MHz VCTCXO
 
-Note: U1 is compatible with XC7A35T through XC7A200T; need XC7A75T or larger
-to get all User I/O of dual-LPC-FMC
 
 ## Xilinx constrain file
 
