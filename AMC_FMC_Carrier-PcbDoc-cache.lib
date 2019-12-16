@@ -3554,6 +3554,136 @@ X VSS 9 -200 -1600 200 R 60 60 0 1 W
 ENDDRAW
 ENDDEF
 #
+# Analog_&_Interface_PI3DBS12212AZBSEX
+#
+DEF Analog_&_Interface_PI3DBS12212AZBSEX IC 0 50 Y Y 1 L N
+F0 "IC" 500 50 50 H V C CNN
+F1 "Analog_&_Interface_PI3DBS12212AZBSEX" 0 -1775 50 H I L CNN
+F2 "ICs And Semiconductors SMD:PERICOM_ZBS20" 0 -1850 50 H I L CNN
+F3 " " 0 -1925 50 H I L CNN
+F4 "PI3DBS12212AZBSEX" 0 -2000 50 H I L CNN "Part Number"
+F5 "PI3DBS12212AZBSEX" 0 -2075 50 H I L CNN "Library Ref"
+F6 "SchLib\\Analog & Interface.SchLib" 0 -2150 50 H I L CNN "Library Path"
+F7 "PI3DBS12212AZBSEX" 0 -2225 50 H I L CNN "Comment"
+F8 "Standard" 0 -2300 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -2375 50 H I L CNN "Component Type"
+F10 "PI3DBS12212AZBSEX" 0 -2450 50 H I L CNN "Device"
+F11 "PERICOM TQFN Code ZBS20, 0.50mm Pitch, Rect.; 20 Pin, 2.50mm L X 4.50mm W X 1.00mm H Body (W/Thermal Tab 1.2mm X 3.2mm)" 0 -2525 50 H I L CNN "PackageDescription"
+F12 "Not Recommended" 0 -2600 50 H I L CNN "Status"
+F13 "3.3V, 1-12Gbps 1-Lane 2:1 Mux/De-Mux Switch" 0 -2675 50 H I L CNN "Part Description"
+F14 "PERICOM" 0 -2750 50 H I L CNN "Manufacturer"
+F15 "PI3DBS12212AZBSEX" 0 -2825 50 H I L CNN "Manufacturer Part Number"
+F16 "21" 0 -2900 50 H I L CNN "Pin Count"
+F17 "TQFN20" 0 -2975 50 H I L CNN "Case"
+F18 "Yes" 0 -3050 50 H I L CNN "Mounted"
+F19 "No" 0 -3125 50 H I L CNN "Socket"
+F20 "Yes" 0 -3200 50 H I L CNN "SMD"
+F21 "No" 0 -3275 50 H I L CNN "PressFit"
+F22 "Yes" 0 -3350 50 H I L CNN "Sense"
+F23 "Solder Paste Deposition Limitation" 0 -3425 50 H I L CNN "Sense Comment"
+F24 "No" 0 -3500 50 H I L CNN "Bonding"
+F25 "Sensitive (See Sensitive Field)" 0 -3575 50 H I L CNN "Status Comment"
+F26 "1mm" 0 -3650 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3725 50 H I L CNN "Footprint Path"
+F28 "PERICOM_ZBS20" 0 -3800 50 H I L CNN "Footprint Ref"
+F29 "CERN DEM JLC" 0 -3875 50 H I L CNN "Author"
+F30 " " 0 -3950 50 H I L CNN "ComponentLink2Description"
+F31 " " 0 -4025 50 H I L CNN "ComponentLink1Description"
+F32 "08/09/17 00:00:00" 0 -4100 50 H I L CNN "CreateDate"
+F33 "08/09/17 00:00:00" 0 -4175 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -4250 50 H I L CNN "SCEM"
+F35 "Analog & Interface" 0 -4325 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -4400 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -4475 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -4550 50 H I L CNN "License"
+DRAW
+C 300 -400 10 0 1 10 N
+C 340 -300 10 0 1 10 N
+C 380 -200 10 0 1 10 N
+C 420 -100 10 0 1 10 N
+C 460 -900 10 0 1 10 N
+C 590 -900 10 0 1 10 N
+S 0 -1600 1000 0 0 1 0 f
+S 980 -1550 1000 -1450 0 1 0 F
+P 2 0 1 0 250 -900 400 -900 N
+P 2 0 1 10 250 -400 460 -400 N
+P 2 0 1 10 250 -300 460 -300 N
+P 2 0 1 10 250 -200 460 -200 N
+P 2 0 1 10 250 -100 460 -100 N
+P 2 0 1 10 300 -800 300 -400 N
+P 2 0 1 10 300 -800 600 -800 N
+P 2 0 1 10 340 -700 340 -300 N
+P 2 0 1 10 340 -700 600 -700 N
+P 2 0 1 10 380 -600 380 -200 N
+P 2 0 1 10 380 -600 600 -600 N
+P 2 0 1 10 400 -930 450 -900 N
+P 2 0 1 10 400 -870 400 -930 N
+P 2 0 1 10 420 -500 420 -100 N
+P 2 0 1 10 420 -500 600 -500 N
+P 2 0 1 10 450 -900 400 -870 N
+P 2 0 1 10 460 -400 530 -360 N
+P 2 0 1 10 460 -300 530 -260 N
+P 2 0 1 10 460 -200 530 -160 N
+P 2 0 1 10 460 -100 530 -60 N
+P 2 0 1 0 470 -900 530 -900 N
+P 2 0 1 0 500 -80 500 -900 N
+P 2 0 1 10 520 -400 530 -390 N
+P 2 0 1 10 520 -300 530 -290 N
+P 2 0 1 10 520 -200 530 -190 N
+P 2 0 1 10 520 -100 530 -90 N
+P 2 0 1 10 530 -930 580 -900 N
+P 2 0 1 10 530 -870 530 -930 N
+P 2 0 1 10 540 -400 530 -390 N
+P 2 0 1 10 540 -300 530 -290 N
+P 2 0 1 10 540 -200 530 -190 N
+P 2 0 1 10 540 -100 530 -90 N
+P 2 0 1 10 580 -900 530 -870 N
+P 2 0 1 0 600 -900 630 -900 N
+P 2 0 1 10 600 -800 670 -760 N
+P 2 0 1 10 600 -700 670 -660 N
+P 2 0 1 10 600 -600 670 -560 N
+P 2 0 1 10 600 -500 670 -460 N
+P 2 0 1 0 630 -480 630 -900 N
+P 2 0 1 10 660 -800 670 -790 N
+P 2 0 1 10 660 -700 670 -690 N
+P 2 0 1 10 660 -600 670 -590 N
+P 2 0 1 10 660 -500 670 -490 N
+P 2 0 1 10 680 -800 670 -790 N
+P 2 0 1 10 680 -700 670 -690 N
+P 2 0 1 10 680 -600 670 -590 N
+P 2 0 1 10 680 -500 670 -490 N
+P 2 0 1 10 750 -800 660 -800 N
+P 2 0 1 10 750 -700 660 -700 N
+P 2 0 1 10 750 -600 660 -600 N
+P 2 0 1 10 750 -500 660 -500 N
+P 2 0 1 10 750 -400 520 -400 N
+P 2 0 1 10 750 -300 520 -300 N
+P 2 0 1 10 750 -200 520 -200 N
+P 2 0 1 10 750 -100 520 -100 N
+X VDD 1 -200 -1300 200 R 60 60 0 1 W
+X VDD 10 -200 -1500 200 R 60 60 0 1 W
+X GND 11 1200 -1300 200 L 60 60 0 1 W
+X C1- 12 1200 -800 200 L 60 60 0 1 B
+X C1+ 13 1200 -700 200 L 60 60 0 1 B
+X C0- 14 1200 -600 200 L 60 60 0 1 B
+X C0+ 15 1200 -500 200 L 60 60 0 1 B
+X B1- 16 1200 -400 200 L 60 60 0 1 B
+X B1+ 17 1200 -300 200 L 60 60 0 1 B
+X B0- 18 1200 -200 200 L 60 60 0 1 B
+X B0+ 19 1200 -100 200 L 60 60 0 1 B
+X PD 2 -200 -1100 200 R 60 60 0 1 I
+X GND 20 1200 -1400 200 L 60 60 0 1 W
+X GND 21 1200 -1500 200 L 60 60 0 1 W
+X A0+ 3 -200 -100 200 R 60 60 0 1 B
+X A0- 4 -200 -200 200 R 60 60 0 1 B
+X GND 5 1200 -1200 200 L 60 60 0 1 W
+X VDD 6 -200 -1400 200 R 60 60 0 1 W
+X A1+ 7 -200 -300 200 R 60 60 0 1 B
+X A1- 8 -200 -400 200 R 60 60 0 1 B
+X SEL 9 -200 -900 200 R 60 60 0 1 I
+ENDDRAW
+ENDDEF
+#
 # Analog_&_Interface_TXS0102DCUR
 #
 DEF Analog_&_Interface_TXS0102DCUR IC 0 50 Y Y 1 L N
@@ -11257,6 +11387,88 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Switches_SW_DIPTRONICS_DHA-04TQ
+#
+DEF Switches_SW_DIPTRONICS_DHA-04TQ SW 0 50 Y Y 1 L N
+F0 "SW" 200 50 50 H V C CNN
+F1 "Switches_SW_DIPTRONICS_DHA-04TQ" 0 -575 50 H I L CNN
+F2 "Switches:SW_DIPTRONICS_DHA-04TQ" 0 -650 50 H I L CNN
+F3 " " 0 -725 50 H I L CNN
+F4 "Switch" 200 -80 50 H I R CNN "Family"
+F5 "SW_DIPTRONICS_DHA-04TQ" 0 -800 50 H I L CNN "Part Number"
+F6 "SW 4x SPST DIP Switch" 0 -875 50 H I L CNN "Library Ref"
+F7 "SchLib\\Switches.SchLib" 0 -950 50 H I L CNN "Library Path"
+F8 " " 0 -1025 50 H I L CNN "Comment"
+F9 "Standard" 0 -1100 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -1175 50 H I L CNN "Component Type"
+F11 "8" 0 -1250 50 H I L CNN "Pin Count"
+F12 " " 0 -1325 50 H I L CNN "Case"
+F13 "PcbLib\\Switches.PcbLib" 0 -1400 50 H I L CNN "Footprint Path"
+F14 "SW_DIPTRONICS_DHA-04TQ" 0 -1475 50 H I L CNN "Footprint Ref"
+F15 "Pitch 1.27mm,  Body 6.2x6.2mm, 4 Ways SPST Surface-Mount DIP Switch, DIPTRONICS DHA Series" 0 -1550 50 H I L CNN "PackageDescription"
+F16 "Switch" 0 -1625 50 H I L CNN "Family"
+F17 "Yes" 0 -1700 50 H I L CNN "Mounted"
+F18 "No" 0 -1775 50 H I L CNN "Socket"
+F19 "Yes" 0 -1850 50 H I L CNN "SMD"
+F20 "No" 0 -1925 50 H I L CNN "PressFit"
+F21 "No" 0 -2000 50 H I L CNN "Sense"
+F22 " " 0 -2075 50 H I L CNN "Sense Comment"
+F23 "None" 0 -2150 50 H I L CNN "Status"
+F24 " " 0 -2225 50 H I L CNN "Status Comment"
+F25 " " 0 -2300 50 H I L CNN "SCEM"
+F26 "4 Way SPST SMD DIP Switch, Latched, Contact Rating 25mA 24VDC, DHA Series" 0 -2375 50 H I L CNN "Part Description"
+F27 "DIPTRONICS" 0 -2450 50 H I L CNN "Manufacturer"
+F28 "DHA-04TQ" 0 -2525 50 H I L CNN "Manufacturer Part Number"
+F29 "2.3mm" 0 -2600 50 H I L CNN "ComponentHeight"
+F30 " " 0 -2675 50 H I L CNN "Manufacturer1 Example"
+F31 " " 0 -2750 50 H I L CNN "Manufacturer1 Part Number"
+F32 " " 0 -2825 50 H I L CNN "Manufacturer1 ComponentHeight"
+F33 " " 0 -2900 50 H I L CNN "ComponentLink1Description"
+F34 " " 0 -2975 50 H I L CNN "ComponentLink2Description"
+F35 "CERN DEM JLC" 0 -3050 50 H I L CNN "Author"
+F36 "05/30/17 00:00:00" 0 -3125 50 H I L CNN "CreateDate"
+F37 "05/30/17 00:00:00" 0 -3200 50 H I L CNN "LatestRevisionDate"
+F38 "Switches" 0 -3275 50 H I L CNN "Database Table Name"
+F39 "Eletro-mechanical.DbLib" 0 -3350 50 H I L CNN "Library Name"
+F40 "Switches" 0 -3425 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3500 50 H I L CNN "License"
+DRAW
+C 100 -400 20 0 1 0 N
+C 100 -300 20 0 1 0 N
+C 100 -200 20 0 1 0 N
+C 100 -100 20 0 1 0 N
+C 300 -400 20 0 1 0 N
+C 300 -300 20 0 1 0 N
+C 300 -200 20 0 1 0 N
+C 300 -100 20 0 1 0 N
+T 0 190 -40 40 1 0 1 1 Normal 0 C C
+T 0 190 -130 40 1 0 1 2 Normal 0 C C
+T 0 190 -230 40 1 0 1 3 Normal 0 C C
+T 0 190 -330 40 1 0 1 4 Normal 0 C C
+S 0 -500 400 0 0 1 0 f
+P 2 0 1 10 0 -400 80 -400 N
+P 2 0 1 10 0 -300 80 -300 N
+P 2 0 1 10 0 -200 80 -200 N
+P 2 0 1 10 0 -100 80 -100 N
+P 2 0 1 10 280 -350 120 -390 N
+P 2 0 1 10 280 -250 120 -290 N
+P 2 0 1 10 280 -150 120 -190 N
+P 2 0 1 10 280 -50 120 -90 N
+P 2 0 1 10 320 -400 400 -400 N
+P 2 0 1 10 320 -300 400 -300 N
+P 2 0 1 10 320 -200 400 -200 N
+P 2 0 1 10 320 -100 400 -100 N
+X 1 1 -200 -100 200 R 60 0 0 1 B
+X 2 2 -200 -200 200 R 60 0 0 1 B
+X 3 3 -200 -300 200 R 60 0 0 1 B
+X 4 4 -200 -400 200 R 60 0 0 1 B
+X 5 5 600 -400 200 L 60 0 0 1 B
+X 6 6 600 -300 200 L 60 0 0 1 B
+X 7 7 600 -200 200 L 60 0 0 1 B
+X 8 8 600 -100 200 L 60 0 0 1 B
 ENDDRAW
 ENDDEF
 #
