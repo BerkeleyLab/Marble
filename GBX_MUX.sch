@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 23 25
+Sheet 25 25
 Title ""
 Date ""
 Rev ""
@@ -115,53 +115,53 @@ Connection ~ 3300 2400
 $Comp
 L Analog_&_Interface:PI3DBS12212AZBSEX U45
 U 1 1 5E2EF777
-P 3500 3600
-F 0 "U45" H 4000 3765 50  0000 C CNN
-F 1 "PI3DBS12212AZBSEX" H 4000 3674 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:PERICOM_ZBS20" H 3500 1750 50  0001 L CNN
-F 3 " " H 3500 1675 50  0001 L CNN
-F 4 "PI3DBS12212AZBSEX" H 3500 1600 50  0001 L CNN "Part Number"
-F 5 "PI3DBS12212AZBSEX" H 3500 1525 50  0001 L CNN "Library Ref"
-F 6 "SchLib\\Analog & Interface.SchLib" H 3500 1450 50  0001 L CNN "Library Path"
-F 7 "PI3DBS12212AZBSEX" H 3500 1375 50  0001 L CNN "Comment"
-F 8 "Standard" H 3500 1300 50  0001 L CNN "Component Kind"
-F 9 "Standard" H 3500 1225 50  0001 L CNN "Component Type"
-F 10 "PI3DBS12212AZBSEX" H 3500 1150 50  0001 L CNN "Device"
-F 11 "PERICOM TQFN Code ZBS20, 0.50mm Pitch, Rect.; 20 Pin, 2.50mm L X 4.50mm W X 1.00mm H Body (W/Thermal Tab 1.2mm X 3.2mm)" H 3500 1075 50  0001 L CNN "PackageDescription"
-F 12 "Not Recommended" H 3500 1000 50  0001 L CNN "Status"
-F 13 "3.3V, 1-12Gbps 1-Lane 2:1 Mux/De-Mux Switch" H 3500 925 50  0001 L CNN "Part Description"
-F 14 "PERICOM" H 3500 850 50  0001 L CNN "Manufacturer"
-F 15 "PI3DBS12212AZBSEX" H 3500 775 50  0001 L CNN "Manufacturer Part Number"
-F 16 "21" H 3500 700 50  0001 L CNN "Pin Count"
-F 17 "TQFN20" H 3500 625 50  0001 L CNN "Case"
-F 18 "Yes" H 3500 550 50  0001 L CNN "Mounted"
-F 19 "No" H 3500 475 50  0001 L CNN "Socket"
-F 20 "Yes" H 3500 400 50  0001 L CNN "SMD"
-F 21 "No" H 3500 325 50  0001 L CNN "PressFit"
-F 22 "Yes" H 3500 250 50  0001 L CNN "Sense"
-F 23 "Solder Paste Deposition Limitation" H 3500 175 50  0001 L CNN "Sense Comment"
-F 24 "No" H 3500 100 50  0001 L CNN "Bonding"
-F 25 "Sensitive (See Sensitive Field)" H 3500 25  50  0001 L CNN "Status Comment"
-F 26 "1mm" H 3500 -50 50  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 3500 -125 50  0001 L CNN "Footprint Path"
-F 28 "PERICOM_ZBS20" H 3500 -200 50  0001 L CNN "Footprint Ref"
-F 29 "CERN DEM JLC" H 3500 -275 50  0001 L CNN "Author"
-F 30 " " H 3500 -350 50  0001 L CNN "ComponentLink2Description"
-F 31 " " H 3500 -425 50  0001 L CNN "ComponentLink1Description"
-F 32 "08/09/17 00:00:00" H 3500 -500 50  0001 L CNN "CreateDate"
-F 33 "08/09/17 00:00:00" H 3500 -575 50  0001 L CNN "LatestRevisionDate"
-F 34 " " H 3500 -650 50  0001 L CNN "SCEM"
-F 35 "Analog & Interface" H 3500 -725 50  0001 L CNN "Database Table Name"
-F 36 "ICs And Semiconductors.DbLib" H 3500 -800 50  0001 L CNN "Library Name"
-F 37 "ICs And Semiconductors SMD" H 3500 -875 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 -950 50  0001 L CNN "License"
-	1    3500 3600
+P 3500 4000
+F 0 "U45" H 4000 4165 50  0000 C CNN
+F 1 "PI3DBS12212AZBSEX" H 4000 4074 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:PERICOM_ZBS20" H 3500 2150 50  0001 L CNN
+F 3 " " H 3500 2075 50  0001 L CNN
+F 4 "PI3DBS12212AZBSEX" H 3500 2000 50  0001 L CNN "Part Number"
+F 5 "PI3DBS12212AZBSEX" H 3500 1925 50  0001 L CNN "Library Ref"
+F 6 "SchLib\\Analog & Interface.SchLib" H 3500 1850 50  0001 L CNN "Library Path"
+F 7 "PI3DBS12212AZBSEX" H 3500 1775 50  0001 L CNN "Comment"
+F 8 "Standard" H 3500 1700 50  0001 L CNN "Component Kind"
+F 9 "Standard" H 3500 1625 50  0001 L CNN "Component Type"
+F 10 "PI3DBS12212AZBSEX" H 3500 1550 50  0001 L CNN "Device"
+F 11 "PERICOM TQFN Code ZBS20, 0.50mm Pitch, Rect.; 20 Pin, 2.50mm L X 4.50mm W X 1.00mm H Body (W/Thermal Tab 1.2mm X 3.2mm)" H 3500 1475 50  0001 L CNN "PackageDescription"
+F 12 "Not Recommended" H 3500 1400 50  0001 L CNN "Status"
+F 13 "3.3V, 1-12Gbps 1-Lane 2:1 Mux/De-Mux Switch" H 3500 1325 50  0001 L CNN "Part Description"
+F 14 "PERICOM" H 3500 1250 50  0001 L CNN "Manufacturer"
+F 15 "PI3DBS12212AZBSEX" H 3500 1175 50  0001 L CNN "Manufacturer Part Number"
+F 16 "21" H 3500 1100 50  0001 L CNN "Pin Count"
+F 17 "TQFN20" H 3500 1025 50  0001 L CNN "Case"
+F 18 "Yes" H 3500 950 50  0001 L CNN "Mounted"
+F 19 "No" H 3500 875 50  0001 L CNN "Socket"
+F 20 "Yes" H 3500 800 50  0001 L CNN "SMD"
+F 21 "No" H 3500 725 50  0001 L CNN "PressFit"
+F 22 "Yes" H 3500 650 50  0001 L CNN "Sense"
+F 23 "Solder Paste Deposition Limitation" H 3500 575 50  0001 L CNN "Sense Comment"
+F 24 "No" H 3500 500 50  0001 L CNN "Bonding"
+F 25 "Sensitive (See Sensitive Field)" H 3500 425 50  0001 L CNN "Status Comment"
+F 26 "1mm" H 3500 350 50  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 3500 275 50  0001 L CNN "Footprint Path"
+F 28 "PERICOM_ZBS20" H 3500 200 50  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM JLC" H 3500 125 50  0001 L CNN "Author"
+F 30 " " H 3500 50  50  0001 L CNN "ComponentLink2Description"
+F 31 " " H 3500 -25 50  0001 L CNN "ComponentLink1Description"
+F 32 "08/09/17 00:00:00" H 3500 -100 50  0001 L CNN "CreateDate"
+F 33 "08/09/17 00:00:00" H 3500 -175 50  0001 L CNN "LatestRevisionDate"
+F 34 " " H 3500 -250 50  0001 L CNN "SCEM"
+F 35 "Analog & Interface" H 3500 -325 50  0001 L CNN "Database Table Name"
+F 36 "ICs And Semiconductors.DbLib" H 3500 -400 50  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors SMD" H 3500 -475 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3500 -550 50  0001 L CNN "License"
+	1    3500 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E2EF77D
-P 4700 5200
+P 4700 5600
 AR Path="/5BD32060/5E2EF77D" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5E2EF77D" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5E2EF77D" Ref="#PWR?"  Part="1" 
@@ -171,45 +171,45 @@ AR Path="/5CC8AFE1/5E2EF77D" Ref="#PWR?"  Part="1"
 AR Path="/5C907554/5C417BCB/5E2EF77D" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5DCA928C/5E2EF77D" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5DCA928C/5E003981/5E2EF77D" Ref="#PWR0698"  Part="1" 
-F 0 "#PWR0698" H 4700 4950 50  0001 C CNN
-F 1 "GND" H 4705 5027 50  0000 C CNN
-F 2 "" H 4700 5200 50  0001 C CNN
-F 3 "" H 4700 5200 50  0001 C CNN
-	1    4700 5200
+F 0 "#PWR0698" H 4700 5350 50  0001 C CNN
+F 1 "GND" H 4705 5427 50  0000 C CNN
+F 2 "" H 4700 5600 50  0001 C CNN
+F 3 "" H 4700 5600 50  0001 C CNN
+	1    4700 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 4800 4700 4900
-Connection ~ 4700 4900
+	4700 5200 4700 5300
+Connection ~ 4700 5300
 Wire Wire Line
-	4700 4900 4700 5000
-Connection ~ 4700 5000
+	4700 5300 4700 5400
+Connection ~ 4700 5400
 Wire Wire Line
-	4700 5000 4700 5100
-Connection ~ 4700 5100
+	4700 5400 4700 5500
+Connection ~ 4700 5500
 Wire Wire Line
-	4700 5100 4700 5200
+	4700 5500 4700 5600
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E2EF78A
-P 3150 5000
+P 3150 5400
 AR Path="/5BD32060/5E2EF78A" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5C417BCB/5E2EF78A" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5E2EF78A" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5CAAC367/5E2EF78A" Ref="#PWR?"  Part="1" 
 AR Path="/5C907554/5DCA928C/5E003981/5E2EF78A" Ref="#PWR0696"  Part="1" 
-F 0 "#PWR0696" H 3150 4850 50  0001 C CNN
-F 1 "+3V3" H 3165 5173 50  0000 C CNN
-F 2 "" H 3150 5000 50  0001 C CNN
-F 3 "" H 3150 5000 50  0001 C CNN
-	1    3150 5000
+F 0 "#PWR0696" H 3150 5250 50  0001 C CNN
+F 1 "+3V3" H 3165 5573 50  0000 C CNN
+F 2 "" H 3150 5400 50  0001 C CNN
+F 3 "" H 3150 5400 50  0001 C CNN
+	1    3150 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 5000 3150 5000
+	3300 5400 3150 5400
 Wire Wire Line
-	3300 5100 3300 5000
-Connection ~ 3300 5000
+	3300 5500 3300 5400
+Connection ~ 3300 5400
 $Comp
 L Analog_&_Interface:PI3DBS12212AZBSEX U46
 U 1 1 5E2FBBB2
@@ -318,193 +318,181 @@ Wire Wire Line
 	4700 4300 7450 4300
 Wire Wire Line
 	4700 4400 7450 4400
-Text Label 2750 1100 0    50   ~ 10
-MGT_TX_6_P
-Text Label 2750 1200 0    50   ~ 10
-MGT_TX_6_N
-Text Label 2750 3700 0    50   ~ 10
-MGT_TX_7_P
-Text Label 2750 3800 0    50   ~ 10
-MGT_TX_7_N
 Text Label 2750 1300 0    50   ~ 10
-MGT_RX_6_P
+MGT_TX_6_P
 Text Label 2750 1400 0    50   ~ 10
+MGT_TX_6_N
+Text Label 2750 4300 0    50   ~ 10
+MGT_TX_7_P
+Text Label 2750 4400 0    50   ~ 10
+MGT_TX_7_N
+Text Label 2750 1100 0    50   ~ 10
+MGT_RX_6_P
+Text Label 2750 1200 0    50   ~ 10
 MGT_RX_6_N
-Text Label 2750 3900 0    50   ~ 10
+Text Label 2750 4100 0    50   ~ 10
 MGT_RX_7_P
-Text Label 2750 4000 0    50   ~ 10
+Text Label 2750 4200 0    50   ~ 10
 MGT_RX_7_N
-Text Label 8900 4500 0    50   ~ 10
+Text Label 8900 4300 0    50   ~ 10
 MGT_TX_7_SFP_P
-Text Label 8900 4600 0    50   ~ 10
+Text Label 8900 4400 0    50   ~ 10
 MGT_TX_7_SFP_N
-Text Label 8900 4700 0    50   ~ 10
+Text Label 8900 4100 0    50   ~ 10
 MGT_RX_7_SFP_P
-Text Label 8900 4800 0    50   ~ 10
+Text Label 8900 4200 0    50   ~ 10
 MGT_RX_7_SFP_N
-Text Label 4750 3700 0    50   ~ 10
+Text Label 8900 4700 0    50   ~ 10
 MGT_TX_7_FMC1_P
-Text Label 4750 3800 0    50   ~ 10
+Text Label 8900 4800 0    50   ~ 10
 MGT_TX_7_FMC1_N
-Text Label 4750 3900 0    50   ~ 10
+Text Label 8900 4500 0    50   ~ 10
 MGT_RX_7_FMC1_P
-Text Label 4750 4000 0    50   ~ 10
+Text Label 8900 4600 0    50   ~ 10
 MGT_RX_7_FMC1_N
-Text Label 4750 1100 0    50   ~ 10
-MGT_TX_6_FMC1_P
-Text Label 4750 1200 0    50   ~ 10
-MGT_TX_6_FMC1_N
-Text Label 4750 1300 0    50   ~ 10
-MGT_RX_6_FMC1_P
-Text Label 4750 1400 0    50   ~ 10
-MGT_RX_6_FMC1_N
-Wire Wire Line
-	4700 1100 5550 1100
-Wire Wire Line
-	4700 1200 5550 1200
-Wire Wire Line
-	4700 1300 5550 1300
-Wire Wire Line
-	4700 1400 5550 1400
-Text Label 4750 1500 0    50   ~ 10
-MGT_TX_6_FMC2_P
-Text Label 4750 1600 0    50   ~ 10
-MGT_TX_6_FMC2_N
 Text Label 4750 1700 0    50   ~ 10
-MGT_RX_6_FMC2_P
+MGT_TX_6_FMC1_P
 Text Label 4750 1800 0    50   ~ 10
-MGT_RX_6_FMC2_N
-Wire Wire Line
-	4700 1500 5550 1500
-Wire Wire Line
-	4700 1600 5550 1600
+MGT_TX_6_FMC1_N
+Text Label 4750 1500 0    50   ~ 10
+MGT_RX_6_FMC1_P
+Text Label 4750 1600 0    50   ~ 10
+MGT_RX_6_FMC1_N
 Wire Wire Line
 	4700 1700 5550 1700
 Wire Wire Line
 	4700 1800 5550 1800
 Wire Wire Line
-	4700 3700 5500 3700
+	4700 1500 5550 1500
 Wire Wire Line
-	4700 3800 5500 3800
+	4700 1600 5550 1600
+Text Label 4750 1300 0    50   ~ 10
+MGT_TX_6_FMC2_P
+Text Label 4750 1400 0    50   ~ 10
+MGT_TX_6_FMC2_N
+Text Label 4750 1100 0    50   ~ 10
+MGT_RX_6_FMC2_P
+Text Label 4750 1200 0    50   ~ 10
+MGT_RX_6_FMC2_N
 Wire Wire Line
-	4700 3900 5500 3900
+	4700 1300 5550 1300
 Wire Wire Line
-	4700 4000 5500 4000
-Text Label 8900 4100 0    50   ~ 10
-MGT_TX_7_FMC2_P
-Text Label 8900 4200 0    50   ~ 10
-MGT_TX_7_FMC2_N
-Text Label 8900 4300 0    50   ~ 10
+	4700 1400 5550 1400
+Wire Wire Line
+	4700 1100 5550 1100
+Wire Wire Line
+	4700 1200 5550 1200
+Wire Wire Line
+	8850 4700 9650 4700
+Wire Wire Line
+	8850 4800 9650 4800
+Wire Wire Line
+	8850 4500 9650 4500
+Wire Wire Line
+	8850 4600 9650 4600
+Text Label 4750 4500 0    50   ~ 10
 MGT_RX_7_FMC2_P
-Text Label 8900 4400 0    50   ~ 10
+Text Label 4750 4600 0    50   ~ 10
 MGT_RX_7_FMC2_N
-Text Label 4750 4100 0    50   ~ 10
-MGT_TX_7_MUX_P
-Text Label 4750 4200 0    50   ~ 10
-MGT_TX_7_MUX_N
 Text Label 4750 4300 0    50   ~ 10
-MGT_RX_7_MUX_P
+MGT_TX_7_MUX_P
 Text Label 4750 4400 0    50   ~ 10
+MGT_TX_7_MUX_N
+Text Label 4750 4100 0    50   ~ 10
+MGT_RX_7_MUX_P
+Text Label 4750 4200 0    50   ~ 10
 MGT_RX_7_MUX_N
-Text HLabel 2650 1100 0    50   Input ~ 10
+Text HLabel 2650 1300 0    50   Input ~ 10
 MGT_TX_6_P
-Text HLabel 2650 1200 0    50   Input ~ 10
+Text HLabel 2650 1400 0    50   Input ~ 10
 MGT_TX_6_N
-Text HLabel 2650 1300 0    50   Output ~ 10
+Text HLabel 2650 1100 0    50   Output ~ 10
 MGT_RX_6_P
-Text HLabel 2650 1400 0    50   Output ~ 10
+Text HLabel 2650 1200 0    50   Output ~ 10
 MGT_RX_6_N
-Wire Wire Line
-	2650 1100 3300 1100
-Wire Wire Line
-	2650 1200 3300 1200
 Wire Wire Line
 	2650 1300 3300 1300
 Wire Wire Line
 	2650 1400 3300 1400
-Text HLabel 2650 3700 0    50   Input ~ 10
+Wire Wire Line
+	2650 1100 3300 1100
+Wire Wire Line
+	2650 1200 3300 1200
+Text HLabel 2650 4300 0    50   Input ~ 10
 MGT_TX_7_P
-Text HLabel 2650 3800 0    50   Input ~ 10
+Text HLabel 2650 4400 0    50   Input ~ 10
 MGT_TX_7_N
-Text HLabel 2650 3900 0    50   Output ~ 10
+Text HLabel 2650 4100 0    50   Output ~ 10
 MGT_RX_7_P
-Text HLabel 2650 4000 0    50   Output ~ 10
+Text HLabel 2650 4200 0    50   Output ~ 10
 MGT_RX_7_N
 Wire Wire Line
-	2650 3700 3300 3700
+	2650 4300 3300 4300
 Wire Wire Line
-	2650 3800 3300 3800
+	2650 4400 3300 4400
 Wire Wire Line
-	2650 3900 3300 3900
+	2650 4100 3300 4100
 Wire Wire Line
-	2650 4000 3300 4000
-Text HLabel 5550 1100 2    50   Output ~ 10
+	2650 4200 3300 4200
+Text HLabel 5550 1700 2    50   Output ~ 10
 MGT_TX_6_FMC1_P
-Text HLabel 5550 1200 2    50   Output ~ 10
+Text HLabel 5550 1800 2    50   Output ~ 10
 MGT_TX_6_FMC1_N
-Text HLabel 5550 1300 2    50   Input ~ 10
+Text HLabel 5550 1500 2    50   Input ~ 10
 MGT_RX_6_FMC1_P
-Text HLabel 5550 1400 2    50   Input ~ 10
+Text HLabel 5550 1600 2    50   Input ~ 10
 MGT_RX_6_FMC1_N
-Text HLabel 5550 1500 2    50   Output ~ 10
+Text HLabel 5550 1300 2    50   Output ~ 10
 MGT_TX_6_FMC2_P
-Text HLabel 5550 1600 2    50   Output ~ 10
+Text HLabel 5550 1400 2    50   Output ~ 10
 MGT_TX_6_FMC2_N
-Text HLabel 5550 1700 2    50   Input ~ 10
+Text HLabel 5550 1100 2    50   Input ~ 10
 MGT_RX_6_FMC2_P
-Text HLabel 5550 1800 2    50   Input ~ 10
+Text HLabel 5550 1200 2    50   Input ~ 10
 MGT_RX_6_FMC2_N
-Text HLabel 5500 3700 2    50   Output ~ 10
+Text HLabel 9650 4700 2    50   Output ~ 10
 MGT_TX_7_FMC1_P
-Text HLabel 5500 3800 2    50   Output ~ 10
+Text HLabel 9650 4800 2    50   Output ~ 10
 MGT_TX_7_FMC1_N
-Text HLabel 5500 3900 2    50   Input ~ 10
+Text HLabel 9650 4500 2    50   Input ~ 10
 MGT_RX_7_FMC1_P
-Text HLabel 5500 4000 2    50   Input ~ 10
+Text HLabel 9650 4600 2    50   Input ~ 10
 MGT_RX_7_FMC1_N
-Text HLabel 9750 4100 2    50   Output ~ 10
-MGT_TX_7_FMC2_P
-Text HLabel 9750 4200 2    50   Output ~ 10
-MGT_TX_7_FMC2_N
-Text HLabel 9750 4300 2    50   Input ~ 10
+Text HLabel 5600 4500 2    50   Input ~ 10
 MGT_RX_7_FMC2_P
-Text HLabel 9750 4400 2    50   Input ~ 10
+Text HLabel 5600 4600 2    50   Input ~ 10
 MGT_RX_7_FMC2_N
-Text HLabel 9750 4500 2    50   Output ~ 10
+Text HLabel 9750 4300 2    50   Output ~ 10
 MGT_TX_7_SFP_P
-Text HLabel 9750 4600 2    50   Output ~ 10
+Text HLabel 9750 4400 2    50   Output ~ 10
 MGT_TX_7_SFP_N
-Text HLabel 9750 4700 2    50   Input ~ 10
+Text HLabel 9750 4100 2    50   Input ~ 10
 MGT_RX_7_SFP_P
-Text HLabel 9750 4800 2    50   Input ~ 10
+Text HLabel 9750 4200 2    50   Input ~ 10
 MGT_RX_7_SFP_N
 Wire Wire Line
-	8850 4100 9750 4100
+	4700 4500 5600 4500
 Wire Wire Line
-	8850 4200 9750 4200
+	4700 4600 5600 4600
 Wire Wire Line
 	8850 4300 9750 4300
 Wire Wire Line
 	8850 4400 9750 4400
 Wire Wire Line
-	8850 4500 9750 4500
+	8850 4100 9750 4100
 Wire Wire Line
-	8850 4600 9750 4600
-Wire Wire Line
-	8850 4700 9750 4700
-Wire Wire Line
-	8850 4800 9750 4800
+	8850 4200 9750 4200
 Wire Wire Line
 	2800 2100 3300 2100
 Wire Wire Line
-	3300 4900 3300 5000
+	3300 5300 3300 5400
 Wire Wire Line
 	3300 2300 3300 2400
 Text Label 2800 2100 0    50   ~ 0
 MGT_MUX_PD
 Wire Wire Line
-	2800 4700 3300 4700
-Text Label 2800 4700 0    50   ~ 0
+	2800 5100 3300 5100
+Text Label 2800 5100 0    50   ~ 0
 MGT_MUX_PD
 Wire Wire Line
 	6950 5100 7450 5100
@@ -1136,8 +1124,8 @@ Wire Wire Line
 Text Label 2800 1900 0    50   ~ 0
 MUX1_SEL
 Wire Wire Line
-	2800 4500 3300 4500
-Text Label 2800 4500 0    50   ~ 0
+	2800 4900 3300 4900
+Text Label 2800 4900 0    50   ~ 0
 MUX2_SEL
 Wire Wire Line
 	6950 4900 7450 4900
@@ -1908,4 +1896,16 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    5100 6500
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4700 4800 5600 4800
+Wire Wire Line
+	4700 4700 5600 4700
+Text HLabel 5600 4800 2    50   Output ~ 10
+MGT_TX_7_FMC2_N
+Text HLabel 5600 4700 2    50   Output ~ 10
+MGT_TX_7_FMC2_P
+Text Label 4750 4800 0    50   ~ 10
+MGT_TX_7_FMC2_N
+Text Label 4750 4700 0    50   ~ 10
+MGT_TX_7_FMC2_P
 $EndSCHEMATC

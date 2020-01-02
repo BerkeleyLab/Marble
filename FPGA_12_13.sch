@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 27 25
+Sheet 23 25
 Title ""
 Date ""
 Rev ""
@@ -28,172 +28,156 @@ F 3 "" H 8600 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11350 5950 10600 5950
-Wire Wire Line
-	11350 6050 10600 6050
-Wire Wire Line
-	11350 6150 10600 6150
-Wire Wire Line
-	11350 6250 10600 6250
-Wire Wire Line
-	11350 6350 10600 6350
-Wire Wire Line
-	11350 6450 10600 6450
-Wire Wire Line
-	11350 6550 10600 6550
-Wire Wire Line
-	11350 6650 10600 6650
-Wire Wire Line
-	11350 6750 10600 6750
-Wire Wire Line
-	11350 6850 10600 6850
-Text GLabel 11350 5950 2    50   Input ~ 0
-FMC2_HB03_P
-Text GLabel 11350 6050 2    50   Input ~ 0
-FMC2_HB03_N
-Text GLabel 11350 6150 2    50   Input ~ 0
-FMC2_HB05_P
-Text GLabel 11350 6250 2    50   Input ~ 0
-FMC2_HB05_N
-Text GLabel 11350 6350 2    50   Input ~ 0
-FMC2_HB09_P
-Text GLabel 11350 6450 2    50   Input ~ 0
-FMC2_HB09_N
-Text GLabel 11350 6550 2    50   Input ~ 0
-FMC2_HB13_P
-Text GLabel 11350 6650 2    50   Input ~ 0
-FMC2_HB13_N
-Text GLabel 11350 6750 2    50   Input ~ 0
-FMC2_HB19_P
-Text GLabel 11350 6850 2    50   Input ~ 0
-FMC2_HB19_N
-Wire Wire Line
-	11350 3150 10600 3150
-Wire Wire Line
-	11350 3250 10600 3250
-Wire Wire Line
-	11350 3350 10600 3350
-Wire Wire Line
-	11350 3450 10600 3450
-Wire Wire Line
-	11350 3550 10600 3550
-Wire Wire Line
-	11350 3650 10600 3650
-Wire Wire Line
-	11350 3750 10600 3750
-Wire Wire Line
-	11350 3850 10600 3850
-Wire Wire Line
-	11350 3950 10600 3950
-Wire Wire Line
-	11350 4050 10600 4050
-Wire Wire Line
-	11350 4150 10600 4150
-Wire Wire Line
-	11350 4250 10600 4250
-Text GLabel 11350 3150 2    50   Input ~ 0
-FMC2_HB02_P
-Text GLabel 11350 3250 2    50   Input ~ 0
-FMC2_HB02_N
-Text GLabel 11350 3350 2    50   Input ~ 0
-FMC2_HB04_P
-Text GLabel 11350 3450 2    50   Input ~ 0
-FMC2_HB04_N
-Text GLabel 11350 3550 2    50   Input ~ 0
-FMC2_HB08_P
-Text GLabel 11350 3650 2    50   Input ~ 0
-FMC2_HB08_N
-Text GLabel 11350 3750 2    50   Input ~ 0
-FMC2_HB12_P
-Text GLabel 11350 3850 2    50   Input ~ 0
-FMC2_HB12_N
-Text GLabel 11350 3950 2    50   Input ~ 0
-FMC2_HB16_P
-Text GLabel 11350 4050 2    50   Input ~ 0
-FMC2_HB16_N
-Text GLabel 11350 4150 2    50   Input ~ 0
-FMC2_HB20_P
-Text GLabel 11350 4250 2    50   Input ~ 0
-FMC2_HB20_N
-Wire Wire Line
-	11350 5750 10600 5750
-Wire Wire Line
-	11350 5850 10600 5850
-Wire Wire Line
 	11350 7150 10600 7150
 Wire Wire Line
 	11350 7250 10600 7250
-Wire Wire Line
-	11350 7350 10600 7350
-Wire Wire Line
-	11350 7450 10600 7450
 Wire Wire Line
 	11350 7550 10600 7550
 Wire Wire Line
 	11350 7650 10600 7650
 Wire Wire Line
+	11350 4150 10600 4150
+Wire Wire Line
+	11350 4250 10600 4250
+Wire Wire Line
 	11350 7750 10600 7750
 Wire Wire Line
 	11350 7850 10600 7850
-Text GLabel 11350 5750 2    50   Input ~ 0
-FMC2_HB01_P
-Text GLabel 11350 5850 2    50   Input ~ 0
-FMC2_HB01_N
+Wire Wire Line
+	11350 3750 10600 3750
+Wire Wire Line
+	11350 3850 10600 3850
 Text GLabel 11350 7150 2    50   Input ~ 0
-FMC2_HB07_P
+FMC2_HB03_P
 Text GLabel 11350 7250 2    50   Input ~ 0
-FMC2_HB07_N
-Text GLabel 11350 7350 2    50   Input ~ 0
-FMC2_HB11_P
-Text GLabel 11350 7450 2    50   Input ~ 0
-FMC2_HB11_N
+FMC2_HB03_N
 Text GLabel 11350 7550 2    50   Input ~ 0
-FMC2_HB15_P
+FMC2_HB05_P
 Text GLabel 11350 7650 2    50   Input ~ 0
-FMC2_HB15_N
+FMC2_HB05_N
+Text GLabel 11350 4150 2    50   Input ~ 0
+FMC2_HB09_P
+Text GLabel 11350 4250 2    50   Input ~ 0
+FMC2_HB09_N
 Text GLabel 11350 7750 2    50   Input ~ 0
-FMC2_HB18_P
+FMC2_HB13_P
 Text GLabel 11350 7850 2    50   Input ~ 0
-FMC2_HB18_N
+FMC2_HB13_N
+Text GLabel 11350 3750 2    50   Input ~ 0
+FMC2_HB19_P
+Text GLabel 11350 3850 2    50   Input ~ 0
+FMC2_HB19_N
+Wire Wire Line
+	11350 6550 10600 6550
+Wire Wire Line
+	11350 6650 10600 6650
+Wire Wire Line
+	11350 6350 10600 6350
+Wire Wire Line
+	11350 6450 10600 6450
+Wire Wire Line
+	11350 5950 10600 5950
+Wire Wire Line
+	11350 6050 10600 6050
+Wire Wire Line
+	11350 3950 10600 3950
+Wire Wire Line
+	11350 4050 10600 4050
+Wire Wire Line
+	11350 7350 10600 7350
+Wire Wire Line
+	11350 7450 10600 7450
+Wire Wire Line
+	11350 3150 10600 3150
+Wire Wire Line
+	11350 3250 10600 3250
+Text GLabel 11350 6550 2    50   Input ~ 0
+FMC2_HB02_P
+Text GLabel 11350 6650 2    50   Input ~ 0
+FMC2_HB02_N
+Text GLabel 11350 6350 2    50   Input ~ 0
+FMC2_HB04_P
+Text GLabel 11350 6450 2    50   Input ~ 0
+FMC2_HB04_N
+Text GLabel 11350 5950 2    50   Input ~ 0
+FMC2_HB08_P
+Text GLabel 11350 6050 2    50   Input ~ 0
+FMC2_HB08_N
+Text GLabel 11350 3950 2    50   Input ~ 0
+FMC2_HB12_P
+Text GLabel 11350 4050 2    50   Input ~ 0
+FMC2_HB12_N
+Text GLabel 11350 7350 2    50   Input ~ 0
+FMC2_HB16_P
+Text GLabel 11350 7450 2    50   Input ~ 0
+FMC2_HB16_N
+Text GLabel 11350 3150 2    50   Input ~ 0
+FMC2_HB20_P
+Text GLabel 11350 3250 2    50   Input ~ 0
+FMC2_HB20_N
+Wire Wire Line
+	11350 6750 10600 6750
+Wire Wire Line
+	11350 6850 10600 6850
+Wire Wire Line
+	11350 5750 10600 5750
+Wire Wire Line
+	11350 5850 10600 5850
+Wire Wire Line
+	11350 6150 10600 6150
+Wire Wire Line
+	11350 6250 10600 6250
+Wire Wire Line
+	11350 3550 10600 3550
+Wire Wire Line
+	11350 3650 10600 3650
+Text GLabel 11350 6750 2    50   Input ~ 0
+FMC2_HB01_P
+Text GLabel 11350 6850 2    50   Input ~ 0
+FMC2_HB01_N
+Text GLabel 11350 5750 2    50   Input ~ 0
+FMC2_HB07_P
+Text GLabel 11350 5850 2    50   Input ~ 0
+FMC2_HB07_N
+Text GLabel 11350 6150 2    50   Input ~ 0
+FMC2_HB11_P
+Text GLabel 11350 6250 2    50   Input ~ 0
+FMC2_HB11_N
+Text GLabel 11350 3550 2    50   Input ~ 0
+FMC2_HB15_P
+Text GLabel 11350 3650 2    50   Input ~ 0
+FMC2_HB15_N
+Wire Wire Line
+	11350 5550 10600 5550
+Wire Wire Line
+	11350 5650 10600 5650
 Wire Wire Line
 	11350 5150 10600 5150
 Wire Wire Line
 	11350 5250 10600 5250
 Wire Wire Line
+	11350 3350 10600 3350
+Wire Wire Line
+	11350 3450 10600 3450
+Wire Wire Line
 	11350 5350 10600 5350
 Wire Wire Line
 	11350 5450 10600 5450
-Wire Wire Line
-	11350 4350 10600 4350
-Wire Wire Line
-	11350 4450 10600 4450
-Wire Wire Line
-	11350 4550 10600 4550
-Wire Wire Line
-	11350 4650 10600 4650
-Wire Wire Line
-	11350 5550 10600 5550
-Wire Wire Line
-	11350 5650 10600 5650
-Text GLabel 11350 5150 2    50   Input ~ 0
-FMC2_HB00_CC_P
-Text GLabel 11350 5250 2    50   Input ~ 0
-FMC2_HB00_CC_N
-Text GLabel 11350 5350 2    50   Input ~ 0
-FMC2_HB06_CC_P
-Text GLabel 11350 5450 2    50   Input ~ 0
-FMC2_HB06_CC_N
-Text GLabel 11350 4350 2    50   Input ~ 0
-FMC2_HB10_P
-Text GLabel 11350 4450 2    50   Input ~ 0
-FMC2_HB10_N
-Text GLabel 11350 4550 2    50   Input ~ 0
-FMC2_HB14_P
-Text GLabel 11350 4650 2    50   Input ~ 0
-FMC2_HB14_N
 Text GLabel 11350 5550 2    50   Input ~ 0
-FMC2_HB17_CC_P
+FMC2_HB00_CC_P
 Text GLabel 11350 5650 2    50   Input ~ 0
+FMC2_HB00_CC_N
+Text GLabel 11350 5150 2    50   Input ~ 0
+FMC2_HB06_CC_P
+Text GLabel 11350 5250 2    50   Input ~ 0
+FMC2_HB06_CC_N
+Text GLabel 11350 3350 2    50   Input ~ 0
+FMC2_HB10_P
+Text GLabel 11350 3450 2    50   Input ~ 0
+FMC2_HB10_N
+Text GLabel 11350 5350 2    50   Input ~ 0
+FMC2_HB17_CC_P
+Text GLabel 11350 5450 2    50   Input ~ 0
 FMC2_HB17_CC_N
 Text GLabel 11350 7050 2    50   Input ~ 0
 FMC2_HB21_N
@@ -278,12 +262,10 @@ Text Label 5950 6350 0    50   ~ 10
 FMC2_LA_19_P
 Text Label 5950 4750 0    50   ~ 10
 FMC2_LA_20_P
-Text Label 5950 3950 0    50   ~ 10
+Text Label 5950 7350 0    50   ~ 10
 FMC2_LA_21_P
 Text Label 5950 6150 0    50   ~ 10
 FMC2_LA_22_P
-Text Label 5950 7350 0    50   ~ 10
-FMC2_LA_24_P
 Text Label 5950 4150 0    50   ~ 10
 FMC2_LA_25_P
 Text Label 5950 5750 0    50   ~ 10
@@ -296,12 +278,10 @@ Text Label 5950 6450 0    50   ~ 10
 FMC2_LA_19_N
 Text Label 5950 4850 0    50   ~ 10
 FMC2_LA_20_N
-Text Label 5950 4050 0    50   ~ 10
+Text Label 5950 7450 0    50   ~ 10
 FMC2_LA_21_N
 Text Label 5950 6250 0    50   ~ 10
 FMC2_LA_22_N
-Text Label 5950 7450 0    50   ~ 10
-FMC2_LA_24_N
 Text Label 5950 4250 0    50   ~ 10
 FMC2_LA_25_N
 Text Label 5950 5850 0    50   ~ 10
@@ -316,18 +296,14 @@ Text GLabel 5750 4750 0    50   BiDi ~ 10
 FMC2_LA_20_P
 Text GLabel 5750 4850 0    50   BiDi ~ 10
 FMC2_LA_20_N
-Text GLabel 5750 3950 0    50   BiDi ~ 10
+Text GLabel 5750 7350 0    50   BiDi ~ 10
 FMC2_LA_21_P
-Text GLabel 5750 4050 0    50   BiDi ~ 10
+Text GLabel 5750 7450 0    50   BiDi ~ 10
 FMC2_LA_21_N
 Text GLabel 5750 6150 0    50   BiDi ~ 10
 FMC2_LA_22_P
 Text GLabel 5750 6250 0    50   BiDi ~ 10
 FMC2_LA_22_N
-Text GLabel 5750 7350 0    50   BiDi ~ 10
-FMC2_LA_24_P
-Text GLabel 5750 7450 0    50   BiDi ~ 10
-FMC2_LA_24_N
 Text GLabel 5750 4150 0    50   BiDi ~ 10
 FMC2_LA_25_P
 Text GLabel 5750 4250 0    50   BiDi ~ 10
@@ -357,17 +333,13 @@ Wire Wire Line
 Wire Wire Line
 	5750 4850 6600 4850
 Wire Wire Line
-	5750 3950 6600 3950
+	5750 7350 6600 7350
 Wire Wire Line
-	5750 4050 6600 4050
+	5750 7450 6600 7450
 Wire Wire Line
 	5750 6150 6600 6150
 Wire Wire Line
 	5750 6250 6600 6250
-Wire Wire Line
-	5750 7350 6600 7350
-Wire Wire Line
-	5750 7450 6600 7450
 Wire Wire Line
 	5750 4150 6600 4150
 Wire Wire Line
@@ -413,20 +385,20 @@ FMC2_LA_23_N
 Text Label 5950 7750 0    50   ~ 10
 FMC2_LA_23_P
 Wire Wire Line
-	5750 3850 6600 3850
+	5750 4050 6600 4050
 Wire Wire Line
-	5750 3750 6600 3750
-Text GLabel 5750 3850 0    50   BiDi ~ 10
+	5750 3950 6600 3950
+Text GLabel 5750 4050 0    50   BiDi ~ 10
 FMC2_LA_26_N
-Text GLabel 5750 3750 0    50   BiDi ~ 10
+Text GLabel 5750 3950 0    50   BiDi ~ 10
 FMC2_LA_26_P
 Text Label 5950 3450 0    50   ~ 10
 FMC2_LA_33_N
 Text Label 5950 3350 0    50   ~ 10
 FMC2_LA_33_P
-Text Label 5950 3850 0    50   ~ 10
+Text Label 5950 4050 0    50   ~ 10
 FMC2_LA_26_N
-Text Label 5950 3750 0    50   ~ 10
+Text Label 5950 3950 0    50   ~ 10
 FMC2_LA_26_P
 Wire Wire Line
 	5750 5450 6600 5450
@@ -476,4 +448,32 @@ Text GLabel 5750 4650 0    50   BiDi ~ 10
 FMC2_LA_31_N
 Text GLabel 5750 4550 0    50   BiDi ~ 10
 FMC2_LA_31_P
+Text GLabel 11350 4650 2    50   Input ~ 0
+FMC2_HB18_N
+Text GLabel 11350 4550 2    50   Input ~ 0
+FMC2_HB18_P
+Wire Wire Line
+	11350 4650 10600 4650
+Wire Wire Line
+	11350 4550 10600 4550
+Text GLabel 11350 4450 2    50   Input ~ 0
+FMC2_HB14_N
+Text GLabel 11350 4350 2    50   Input ~ 0
+FMC2_HB14_P
+Wire Wire Line
+	11350 4450 10600 4450
+Wire Wire Line
+	11350 4350 10600 4350
+Wire Wire Line
+	5750 3850 6600 3850
+Wire Wire Line
+	5750 3750 6600 3750
+Text GLabel 5750 3850 0    50   BiDi ~ 10
+FMC2_LA_24_N
+Text GLabel 5750 3750 0    50   BiDi ~ 10
+FMC2_LA_24_P
+Text Label 5950 3850 0    50   ~ 10
+FMC2_LA_24_N
+Text Label 5950 3750 0    50   ~ 10
+FMC2_LA_24_P
 $EndSCHEMATC

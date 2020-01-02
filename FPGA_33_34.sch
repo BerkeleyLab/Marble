@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 24 25
+Sheet 21 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -553,90 +553,78 @@ Wire Wire Line
 	10350 4550 10800 4550
 Text Label 10400 3750 0    50   ~ 10
 DDR3_A15
-Text Label 6200 5250 2    50   ~ 10
-FMC2_LA_0_P
 Text Label 6200 4650 2    50   ~ 10
-FMC2_LA_1_P
-Text Label 6200 5350 2    50   ~ 10
-FMC2_LA_0_N
+FMC2_LA_0_P
 Text Label 6200 4750 2    50   ~ 10
-FMC2_LA_1_N
-Text Label 6200 2850 2    50   ~ 10
+FMC2_LA_0_N
+Text Label 6200 3250 2    50   ~ 10
 FMC2_LA_3_P
-Text Label 6200 5650 2    50   ~ 10
+Text Label 6200 5450 2    50   ~ 10
 FMC2_LA_4_P
 Text Label 6200 3650 2    50   ~ 10
 FMC2_LA_5_P
 Text Label 6200 4250 2    50   ~ 10
 FMC2_LA_6_P
-Text Label 6200 6650 2    50   ~ 10
+Text Label 6200 6450 2    50   ~ 10
 FMC2_LA_7_P
 Text Label 6200 5850 2    50   ~ 10
 FMC2_LA_8_P
-Text Label 6200 3450 2    50   ~ 10
+Text Label 6200 6050 2    50   ~ 10
 FMC2_LA_10_P
-Text Label 6200 4050 2    50   ~ 10
-FMC2_LA_11_P
-Text Label 6200 5450 2    50   ~ 10
+Text Label 6200 6650 2    50   ~ 10
 FMC2_LA_12_P
-Text Label 6200 6250 2    50   ~ 10
+Text Label 6200 4050 2    50   ~ 10
 FMC2_LA_13_P
-Text Label 6200 3850 2    50   ~ 10
+Text Label 6200 5650 2    50   ~ 10
 FMC2_LA_14_P
-Text Label 6200 4450 2    50   ~ 10
-FMC2_LA_15_P
 Text Label 6200 2650 2    50   ~ 10
-FMC2_LA_16_P
-Text Label 6200 2950 2    50   ~ 10
+FMC2_LA_15_P
+Text Label 6200 3350 2    50   ~ 10
 FMC2_LA_3_N
-Text Label 6200 5750 2    50   ~ 10
+Text Label 6200 5550 2    50   ~ 10
 FMC2_LA_4_N
 Text Label 6200 3750 2    50   ~ 10
 FMC2_LA_5_N
 Text Label 6200 4350 2    50   ~ 10
 FMC2_LA_6_N
-Text Label 6200 6750 2    50   ~ 10
+Text Label 6200 6550 2    50   ~ 10
 FMC2_LA_7_N
 Text Label 6200 5950 2    50   ~ 10
 FMC2_LA_8_N
-Text Label 6200 3550 2    50   ~ 10
+Text Label 6200 6150 2    50   ~ 10
 FMC2_LA_10_N
-Text Label 6200 4150 2    50   ~ 10
-FMC2_LA_11_N
-Text Label 6200 5550 2    50   ~ 10
+Text Label 6200 6750 2    50   ~ 10
 FMC2_LA_12_N
-Text Label 6200 6350 2    50   ~ 10
+Text Label 6200 4150 2    50   ~ 10
 FMC2_LA_13_N
-Text Label 6200 3950 2    50   ~ 10
+Text Label 6200 5750 2    50   ~ 10
 FMC2_LA_14_N
-Text Label 6200 4550 2    50   ~ 10
-FMC2_LA_15_N
 Text Label 6200 2750 2    50   ~ 10
-FMC2_LA_16_N
+FMC2_LA_15_N
 Text Label 6300 5050 2    50   ~ 10
 FMC2_CLK1_M2C_P
 Text Label 6300 5150 2    50   ~ 10
 FMC2_CLK1_M2C_N
-Text Label 6300 4850 2    50   ~ 10
+Text Label 4150 4900 2    50   ~ 10
 FMC2_CLK0_M2C_P
-Text Label 6300 4950 2    50   ~ 10
+Text Label 4150 5000 2    50   ~ 10
 FMC2_CLK0_M2C_N
 Text HLabel 5400 5050 0    50   Input ~ 10
 FMC2_CLK1_M2C_P
 Text HLabel 5400 5150 0    50   Input ~ 10
 FMC2_CLK1_M2C_N
-Text HLabel 5400 4850 0    50   Input ~ 10
+Text HLabel 3250 4900 0    50   Input ~ 10
 FMC2_CLK0_M2C_P
-Text HLabel 5400 4950 0    50   Input ~ 10
+Text HLabel 3250 5000 0    50   Input ~ 10
 FMC2_CLK0_M2C_N
 Wire Wire Line
 	6350 5050 5400 5050
 Wire Wire Line
 	6350 5150 5400 5150
 Wire Wire Line
-	6350 4850 5400 4850
+	4200 4900 3250 4900
 Wire Wire Line
-	6350 4950 5400 4950
+	4200 5000 3250 5000
 Text HLabel 5750 7250 0    50   Input ~ 10
 FPGA_RTS
 Text HLabel 5750 7450 0    50   Input ~ 10
@@ -649,18 +637,18 @@ Wire Wire Line
 	5750 7350 6350 7350
 Wire Wire Line
 	5750 7250 6350 7250
-Text Label 6200 3350 2    50   ~ 10
+Text Label 6200 2950 2    50   ~ 10
 FMC2_LA_2_N
-Text Label 6200 3250 2    50   ~ 10
+Text Label 6200 2850 2    50   ~ 10
 FMC2_LA_2_P
-Wire Wire Line
-	5550 3250 6350 3250
-Wire Wire Line
-	5550 3350 6350 3350
 Wire Wire Line
 	5550 2850 6350 2850
 Wire Wire Line
 	5550 2950 6350 2950
+Wire Wire Line
+	5550 3250 6350 3250
+Wire Wire Line
+	5550 3350 6350 3350
 Wire Wire Line
 	5550 3650 6350 3650
 Wire Wire Line
@@ -670,20 +658,20 @@ Wire Wire Line
 Wire Wire Line
 	5550 4350 6350 4350
 Wire Wire Line
-	5550 6650 6350 6650
+	5550 6450 6350 6450
 Wire Wire Line
-	5550 6750 6350 6750
+	5550 6550 6350 6550
 Wire Wire Line
 	5550 5850 6350 5850
 Wire Wire Line
 	5550 5950 6350 5950
-Text GLabel 5550 3250 0    50   BiDi ~ 10
-FMC2_LA_2_P
-Text GLabel 5550 3350 0    50   BiDi ~ 10
-FMC2_LA_2_N
 Text GLabel 5550 2850 0    50   BiDi ~ 10
-FMC2_LA_3_P
+FMC2_LA_2_P
 Text GLabel 5550 2950 0    50   BiDi ~ 10
+FMC2_LA_2_N
+Text GLabel 5550 3250 0    50   BiDi ~ 10
+FMC2_LA_3_P
+Text GLabel 5550 3350 0    50   BiDi ~ 10
 FMC2_LA_3_N
 Text GLabel 5550 3650 0    50   BiDi ~ 10
 FMC2_LA_5_P
@@ -693,105 +681,79 @@ Text GLabel 5550 4250 0    50   BiDi ~ 10
 FMC2_LA_6_P
 Text GLabel 5550 4350 0    50   BiDi ~ 10
 FMC2_LA_6_N
-Text GLabel 5550 6650 0    50   BiDi ~ 10
+Text GLabel 5550 6450 0    50   BiDi ~ 10
 FMC2_LA_7_P
-Text GLabel 5550 6750 0    50   BiDi ~ 10
+Text GLabel 5550 6550 0    50   BiDi ~ 10
 FMC2_LA_7_N
 Text GLabel 5550 5850 0    50   BiDi ~ 10
 FMC2_LA_8_P
 Text GLabel 5550 5950 0    50   BiDi ~ 10
 FMC2_LA_8_N
-Text GLabel 5550 5450 0    50   BiDi ~ 10
+Text GLabel 5550 6650 0    50   BiDi ~ 10
 FMC2_LA_12_P
-Text GLabel 5550 5550 0    50   BiDi ~ 10
+Text GLabel 5550 6750 0    50   BiDi ~ 10
 FMC2_LA_12_N
-Text GLabel 5550 3450 0    50   BiDi ~ 10
+Text GLabel 5550 6050 0    50   BiDi ~ 10
 FMC2_LA_10_P
-Text GLabel 5550 3550 0    50   BiDi ~ 10
+Text GLabel 5550 6150 0    50   BiDi ~ 10
 FMC2_LA_10_N
 Text GLabel 5550 4050 0    50   BiDi ~ 10
-FMC2_LA_11_P
-Text GLabel 5550 4150 0    50   BiDi ~ 10
-FMC2_LA_11_N
-Text GLabel 5550 6250 0    50   BiDi ~ 10
 FMC2_LA_13_P
-Text GLabel 5550 6350 0    50   BiDi ~ 10
+Text GLabel 5550 4150 0    50   BiDi ~ 10
 FMC2_LA_13_N
-Text GLabel 5550 5250 0    50   BiDi ~ 10
+Text GLabel 5550 4650 0    50   BiDi ~ 10
 FMC2_LA_0_P
-Text GLabel 5550 5350 0    50   BiDi ~ 10
+Text GLabel 5550 4750 0    50   BiDi ~ 10
 FMC2_LA_0_N
 Wire Wire Line
-	5550 5450 6350 5450
+	5550 6650 6350 6650
 Wire Wire Line
-	5550 5550 6350 5550
+	5550 6750 6350 6750
 Wire Wire Line
-	5550 3450 6350 3450
+	5550 6050 6350 6050
 Wire Wire Line
-	5550 3550 6350 3550
+	5550 6150 6350 6150
 Wire Wire Line
 	5550 4050 6350 4050
 Wire Wire Line
 	5550 4150 6350 4150
 Wire Wire Line
-	5550 6250 6350 6250
+	5550 4650 6350 4650
 Wire Wire Line
-	5550 6350 6350 6350
-Wire Wire Line
-	5550 5250 6350 5250
-Wire Wire Line
-	5550 5350 6350 5350
-Text GLabel 5600 4650 0    50   BiDi ~ 10
-FMC2_LA_1_P
-Text GLabel 5600 4750 0    50   BiDi ~ 10
-FMC2_LA_1_N
-Text GLabel 5600 4450 0    50   BiDi ~ 10
-FMC2_LA_15_P
-Text GLabel 5600 4550 0    50   BiDi ~ 10
-FMC2_LA_15_N
+	5550 4750 6350 4750
 Text GLabel 5600 2650 0    50   BiDi ~ 10
-FMC2_LA_16_P
+FMC2_LA_15_P
 Text GLabel 5600 2750 0    50   BiDi ~ 10
-FMC2_LA_16_N
-Text GLabel 5600 5650 0    50   BiDi ~ 10
+FMC2_LA_15_N
+Text GLabel 5600 5450 0    50   BiDi ~ 10
 FMC2_LA_4_P
-Text GLabel 5600 5750 0    50   BiDi ~ 10
+Text GLabel 5600 5550 0    50   BiDi ~ 10
 FMC2_LA_4_N
-Text GLabel 5550 6150 0    50   BiDi ~ 10
+Text GLabel 5550 3550 0    50   BiDi ~ 10
 FMC2_LA_9_N
-Text GLabel 5600 3850 0    50   BiDi ~ 10
+Text GLabel 5600 5650 0    50   BiDi ~ 10
 FMC2_LA_14_P
-Text GLabel 5600 3950 0    50   BiDi ~ 10
+Text GLabel 5600 5750 0    50   BiDi ~ 10
 FMC2_LA_14_N
-Wire Wire Line
-	5600 4650 6350 4650
-Wire Wire Line
-	5600 4750 6350 4750
-Wire Wire Line
-	5600 4450 6350 4450
-Wire Wire Line
-	5600 4550 6350 4550
 Wire Wire Line
 	5600 2650 6350 2650
 Wire Wire Line
 	5600 2750 6350 2750
 Wire Wire Line
+	5600 5450 6350 5450
+Wire Wire Line
+	5600 5550 6350 5550
+Wire Wire Line
 	5600 5650 6350 5650
 Wire Wire Line
 	5600 5750 6350 5750
-Wire Wire Line
-	5600 3850 6350 3850
-Wire Wire Line
-	5600 3950 6350 3950
 NoConn ~ 6350 2550
 NoConn ~ 6350 3050
 NoConn ~ 6350 3150
-NoConn ~ 6350 6450
-NoConn ~ 6350 6550
 NoConn ~ 6350 6850
 NoConn ~ 6350 6950
-NoConn ~ 6350 7050
-NoConn ~ 6350 7150
+NoConn ~ 6350 4450
+NoConn ~ 6350 4550
 $Comp
 L FPGA_Xilinx_Kintex7:XC7K160T-FFG676 U?
 U 4 1 5DBE3995
@@ -839,16 +801,65 @@ Wire Wire Line
 	10800 7350 10350 7350
 Text Label 10400 7350 0    50   ~ 10
 DDR3_CAS
-Text GLabel 5550 6050 0    50   BiDi ~ 10
+Text GLabel 5550 3450 0    50   BiDi ~ 10
 FMC2_LA_9_P
-Text Label 6150 6150 2    50   ~ 10
+Text Label 6150 3550 2    50   ~ 10
 FMC2_LA_9_N
-Text Label 6150 6050 2    50   ~ 10
+Text Label 6150 3450 2    50   ~ 10
 FMC2_LA_9_P
 Wire Wire Line
-	5550 6050 6350 6050
+	5550 3450 6350 3450
 Wire Wire Line
-	5550 6150 6350 6150
+	5550 3550 6350 3550
+Wire Wire Line
+	5600 5350 6350 5350
+Wire Wire Line
+	5600 5250 6350 5250
+Text GLabel 5600 5350 0    50   BiDi ~ 10
+FMC2_LA_1_N
+Text GLabel 5600 5250 0    50   BiDi ~ 10
+FMC2_LA_1_P
+Text Label 6200 5350 2    50   ~ 10
+FMC2_LA_1_N
+Text Label 6200 5250 2    50   ~ 10
+FMC2_LA_1_P
+Text Notes 4850 4950 0    50   ~ 0
+REF CLK for RAM
+Text Label 6300 4850 2    50   ~ 10
+REF_CLK_P
+Text Label 6300 4950 2    50   ~ 10
+REF_CLK_N
+Wire Wire Line
+	6350 4850 5400 4850
+Wire Wire Line
+	6350 4950 5400 4950
+Text Label 6200 6250 2    50   ~ 10
+FMC2_LA_11_P
+Text Label 6200 6350 2    50   ~ 10
+FMC2_LA_11_N
+Text GLabel 5550 6250 0    50   BiDi ~ 10
+FMC2_LA_11_P
+Text GLabel 5550 6350 0    50   BiDi ~ 10
+FMC2_LA_11_N
+Wire Wire Line
+	5550 6250 6350 6250
+Wire Wire Line
+	5550 6350 6350 6350
+Wire Wire Line
+	5600 7150 6350 7150
+Wire Wire Line
+	5600 7050 6350 7050
+Text GLabel 5600 7150 0    50   BiDi ~ 10
+FMC2_LA_16_N
+Text GLabel 5600 7050 0    50   BiDi ~ 10
+FMC2_LA_16_P
+Text Label 6200 7150 2    50   ~ 10
+FMC2_LA_16_N
+Text Label 6200 7050 2    50   ~ 10
+FMC2_LA_16_P
+NoConn ~ 6400 3800
+NoConn ~ 6350 3850
+NoConn ~ 6350 3950
 Wire Bus Line
 	12000 1900 12000 2200
 Wire Bus Line

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 16 25
+Sheet 13 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -1893,10 +1893,6 @@ $EndComp
 NoConn ~ 11250 1650
 Text Notes 10450 1650 0    50   ~ 10
 FMC1_VREF_A_M2C
-NoConn ~ 3550 1750
-NoConn ~ 3550 1850
-NoConn ~ 3550 2150
-NoConn ~ 3550 2250
 Text Notes 2650 1750 0    50   ~ 10
 FMC1_DP0_C2M_P
 Text Notes 2650 1850 0    50   ~ 10
@@ -1945,4 +1941,20 @@ Text Notes 5300 5050 0    50   ~ 10
 GA1_1
 Wire Wire Line
 	2200 5050 2700 5050
+Text GLabel 2350 1750 0    50   Input ~ 10
+FMC1_DP0_C2M_P
+Text GLabel 2350 1850 0    50   Input ~ 10
+FMC1_DP0_C2M_N
+Text GLabel 2350 2150 0    50   Input ~ 10
+FMC1_DP0_M2C_P
+Text GLabel 2350 2250 0    50   Input ~ 10
+FMC1_DP0_M2C_N
+Wire Wire Line
+	2350 2150 3550 2150
+Wire Wire Line
+	2350 2250 3550 2250
+Wire Wire Line
+	2350 1750 3550 1750
+Wire Wire Line
+	2350 1850 3550 1850
 $EndSCHEMATC

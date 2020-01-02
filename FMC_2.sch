@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 2 25
 Title "Marble"
@@ -646,20 +646,20 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5C2E6711
-P 6100 6500
+P 14250 5000
 AR Path="/5BD32060/5C2E6711" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/5C2E6711" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/5C2E6711" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 6100 6250 50  0001 C CNN
-F 1 "GND" H 6105 6327 50  0000 C CNN
-F 2 "" H 6100 6500 50  0001 C CNN
-F 3 "" H 6100 6500 50  0001 C CNN
-	1    6100 6500
+F 0 "#PWR07" H 14250 4750 50  0001 C CNN
+F 1 "GND" H 14255 4827 50  0000 C CNN
+F 2 "" H 14250 5000 50  0001 C CNN
+F 3 "" H 14250 5000 50  0001 C CNN
+	1    14250 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 6500 6100 6500
-Text Label 5650 6200 0    50   ~ 10
+	13800 5000 14250 5000
+Text Label 13800 4700 0    50   ~ 10
 FMC2_3P3VAUX
 Text HLabel 14600 950  2    50   Output ~ 10
 FMC2_PG_C2M
@@ -677,7 +677,7 @@ F 3 "" H 2200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 6200 7000 6200
+	15000 4700 15150 4700
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5C506817
@@ -1041,54 +1041,54 @@ Connection ~ 2200 4950
 $Comp
 L Fuses:FUS0603_BOURNS-SF-0603F050-2 F?
 U 1 1 5DA6452C
-P 6550 6200
+P 14700 4700
 AR Path="/5BD31F9A/5DA6452C" Ref="F?"  Part="1" 
 AR Path="/5BD31F9F/5DA6452C" Ref="F1"  Part="1" 
-F 0 "F1" H 6700 6397 50  0000 C CNN
-F 1 "FUS0603_BOURNS-SF-0603F050-2" H 6550 5980 60  0001 L CNN
-F 2 "FUSC1608X55N" H 6550 5170 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FUSE_BOURNS_SF-0603F.pdf" H 6550 5800 60  0001 L CNN
-F 4 "500mA-50V" H 6700 6306 50  0000 C CNN "~"
-F 5 "FUS0603_BOURNS-SF-0603F050-2" H 6550 5710 60  0001 L CNN "Part Number"
-F 6 "Fuse" H 6550 5620 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Fuses.SchLib" H 6550 5530 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6550 5440 60  0001 L CNN "Comment"
-F 9 "Standard" H 6550 5350 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 6550 5260 60  0001 L CNN "Component Type"
-F 11 "2" H 6550 5080 60  0001 L CNN "Pin Count"
-F 12 "~~" H 6550 4990 60  0001 L CNN "Case"
-F 13 "PcbLib\\Fuses.PcbLib" H 6550 4900 60  0001 L CNN "Footprint Path"
-F 14 "FUSC1608X55N" H 6550 4810 60  0001 L CNN "Footprint Ref"
-F 15 "Chip Fuse, 2-Leads, Body 1.6mm x 0.8mm, IPC Medium Density" H 6550 4720 60  0001 L CNN "PackageDescription"
-F 16 "Fuse" H 6550 4630 60  0001 L CNN "Family"
-F 17 "Yes" H 6550 4540 60  0001 L CNN "Mounted"
-F 18 "No" H 6550 4450 60  0001 L CNN "Socket"
-F 19 "Yes" H 6550 4360 60  0001 L CNN "SMD"
-F 20 "No" H 6550 4270 60  0001 L CNN "PressFit"
-F 21 "No" H 6550 4180 60  0001 L CNN "Sense"
-F 22 "~~" H 6550 4090 60  0001 L CNN "Sense Comment"
-F 23 "~~" H 6550 4000 60  0001 L CNN "Status"
-F 24 "~~" H 6550 3910 60  0001 L CNN "Status Comment"
-F 25 "~~" H 6550 3820 60  0001 L CNN "SCEM"
-F 26 "500mA-50V" H 6550 3730 60  0001 L CNN "Val"
-F 27 "Thin Film Chip Fuse" H 6550 3640 60  0001 L CNN "Part Description"
-F 28 "BOURNS" H 6550 3550 60  0001 L CNN "Manufacturer"
-F 29 "SF-0603F050-2" H 6550 3460 60  0001 L CNN "Manufacturer Part Number"
-F 30 "0.55mm" H 6550 3370 60  0001 L CNN "ComponentHeight"
-F 31 "~~" H 6550 3280 60  0001 L CNN "Manufacturer1 Example"
-F 32 "~~" H 6550 3190 60  0001 L CNN "Manufacturer1 Part Number"
-F 33 "~~" H 6550 3100 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 34 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FUSE_BOURNS_SF-0603F.pdf" H 6550 3010 60  0001 L CNN "HelpURL"
-F 35 "~~" H 6550 2920 60  0001 L CNN "ComponentLink1URL"
-F 36 "~~" H 6550 2830 60  0001 L CNN "ComponentLink1Description"
-F 37 "~~" H 6550 2740 60  0001 L CNN "ComponentLink2URL"
-F 38 "~~" H 6550 2650 60  0001 L CNN "ComponentLink2Description"
-F 39 "CERN DEM JLC" H 6550 2560 60  0001 L CNN "Author"
-F 40 "02/01/17 00:00:00" H 6550 2470 60  0001 L CNN "CreateDate"
-F 41 "02/01/17 00:00:00" H 6550 2380 60  0001 L CNN "LatestRevisionDate"
-F 42 "Fuses" H 6550 2290 60  0001 L CNN "Library Name"
-F 43 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6550 2200 60  0001 L CNN "License"
-	1    6550 6200
+F 0 "F1" H 14850 4897 50  0000 C CNN
+F 1 "FUS0603_BOURNS-SF-0603F050-2" H 14700 4480 60  0001 L CNN
+F 2 "FUSC1608X55N" H 14700 3670 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FUSE_BOURNS_SF-0603F.pdf" H 14700 4300 60  0001 L CNN
+F 4 "500mA-50V" H 14850 4806 50  0000 C CNN "~"
+F 5 "FUS0603_BOURNS-SF-0603F050-2" H 14700 4210 60  0001 L CNN "Part Number"
+F 6 "Fuse" H 14700 4120 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Fuses.SchLib" H 14700 4030 60  0001 L CNN "Library Path"
+F 8 "=Value" H 14700 3940 60  0001 L CNN "Comment"
+F 9 "Standard" H 14700 3850 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 14700 3760 60  0001 L CNN "Component Type"
+F 11 "2" H 14700 3580 60  0001 L CNN "Pin Count"
+F 12 "~~" H 14700 3490 60  0001 L CNN "Case"
+F 13 "PcbLib\\Fuses.PcbLib" H 14700 3400 60  0001 L CNN "Footprint Path"
+F 14 "FUSC1608X55N" H 14700 3310 60  0001 L CNN "Footprint Ref"
+F 15 "Chip Fuse, 2-Leads, Body 1.6mm x 0.8mm, IPC Medium Density" H 14700 3220 60  0001 L CNN "PackageDescription"
+F 16 "Fuse" H 14700 3130 60  0001 L CNN "Family"
+F 17 "Yes" H 14700 3040 60  0001 L CNN "Mounted"
+F 18 "No" H 14700 2950 60  0001 L CNN "Socket"
+F 19 "Yes" H 14700 2860 60  0001 L CNN "SMD"
+F 20 "No" H 14700 2770 60  0001 L CNN "PressFit"
+F 21 "No" H 14700 2680 60  0001 L CNN "Sense"
+F 22 "~~" H 14700 2590 60  0001 L CNN "Sense Comment"
+F 23 "~~" H 14700 2500 60  0001 L CNN "Status"
+F 24 "~~" H 14700 2410 60  0001 L CNN "Status Comment"
+F 25 "~~" H 14700 2320 60  0001 L CNN "SCEM"
+F 26 "500mA-50V" H 14700 2230 60  0001 L CNN "Val"
+F 27 "Thin Film Chip Fuse" H 14700 2140 60  0001 L CNN "Part Description"
+F 28 "BOURNS" H 14700 2050 60  0001 L CNN "Manufacturer"
+F 29 "SF-0603F050-2" H 14700 1960 60  0001 L CNN "Manufacturer Part Number"
+F 30 "0.55mm" H 14700 1870 60  0001 L CNN "ComponentHeight"
+F 31 "~~" H 14700 1780 60  0001 L CNN "Manufacturer1 Example"
+F 32 "~~" H 14700 1690 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "~~" H 14700 1600 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 34 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FUSE_BOURNS_SF-0603F.pdf" H 14700 1510 60  0001 L CNN "HelpURL"
+F 35 "~~" H 14700 1420 60  0001 L CNN "ComponentLink1URL"
+F 36 "~~" H 14700 1330 60  0001 L CNN "ComponentLink1Description"
+F 37 "~~" H 14700 1240 60  0001 L CNN "ComponentLink2URL"
+F 38 "~~" H 14700 1150 60  0001 L CNN "ComponentLink2Description"
+F 39 "CERN DEM JLC" H 14700 1060 60  0001 L CNN "Author"
+F 40 "02/01/17 00:00:00" H 14700 970 60  0001 L CNN "CreateDate"
+F 41 "02/01/17 00:00:00" H 14700 880 60  0001 L CNN "LatestRevisionDate"
+F 42 "Fuses" H 14700 790 60  0001 L CNN "Library Name"
+F 43 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14700 700 60  0001 L CNN "License"
+	1    14700 4700
 	1    0    0    -1  
 $EndComp
 Text GLabel 10200 1850 0    50   BiDi ~ 10
@@ -1336,144 +1336,144 @@ Wire Wire Line
 $Comp
 L power:+3.3VP #PWR?
 U 1 1 5DDA87F3
-P 7000 6200
+P 15150 4700
 AR Path="/5C16C03C/5DDA87F3" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA39/5DDA87F3" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5DDA87F3" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/5DDA87F3" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/5DDA87F3" Ref="#PWR0549"  Part="1" 
 AR Path="/5DDA87F3" Ref="#PWR0549"  Part="1" 
-F 0 "#PWR0549" H 7000 6050 50  0001 C CNN
-F 1 "+3V3MP" V 7000 6450 50  0000 C CNN
-F 2 "" H 7000 6200 50  0001 C CNN
-F 3 "" H 7000 6200 50  0001 C CNN
-	1    7000 6200
+F 0 "#PWR0549" H 15150 4550 50  0001 C CNN
+F 1 "+3V3MP" V 15150 4950 50  0000 C CNN
+F 2 "" H 15150 4700 50  0001 C CNN
+F 3 "" H 15150 4700 50  0001 C CNN
+	1    15150 4700
 	0    1    1    0   
 $EndComp
-Text HLabel 4500 6200 0    50   Output ~ 0
+Text HLabel 12650 4700 0    50   Output ~ 0
 FMC2_FUSE
 Wire Wire Line
-	4500 6200 5050 6200
-Text Label 4550 6200 0    50   ~ 0
+	12650 4700 13200 4700
+Text Label 12700 4700 0    50   ~ 0
 FMC2_FUSE
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5D163CC6
-P 5050 6200
+P 13200 4700
 AR Path="/5BD31F9A/5D163CC6" Ref="R?"  Part="1" 
 AR Path="/5BD31F9F/5D163CC6" Ref="R258"  Part="1" 
-F 0 "R258" V 5154 6260 50  0000 L CNN
-F 1 "R0402_10K_1%_0.0625W_100PPM" H 5050 5990 60  0001 L CNN
-F 2 "RESC1005X40N" H 5050 5180 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5050 5810 60  0001 L CNN
-F 4 "10k" V 5245 6260 50  0000 L CNN "~"
-F 5 "R0402_10K_1%_0.0625W_100PPM" H 5050 5720 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 5050 5630 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 5050 5540 60  0001 L CNN "Library Path"
-F 8 "=Value" H 5050 5450 60  0001 L CNN "Comment"
-F 9 "Standard" H 5050 5360 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 5050 5270 60  0001 L CNN "Component Type"
-F 11 "~~" H 5050 5090 60  0001 L CNN "PackageDescription"
-F 12 "2" H 5050 5000 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 5050 4910 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 5050 4820 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 5050 4730 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 5050 4640 60  0001 L CNN "Status"
-F 17 "0.0625W" H 5050 4550 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 5050 4460 60  0001 L CNN "TC"
-F 19 "~~" H 5050 4370 60  0001 L CNN "Voltage"
-F 20 "±1%" H 5050 4280 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 5050 4190 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 5050 4100 60  0001 L CNN "Manufacturer"
-F 23 "R0402_10K_1%_0.0625W_100PPM" H 5050 4010 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 5050 3920 60  0001 L CNN "Case"
-F 25 "No" H 5050 3830 60  0001 L CNN "PressFit"
-F 26 "Yes" H 5050 3740 60  0001 L CNN "Mounted"
-F 27 "~~" H 5050 3650 60  0001 L CNN "Sense Comment"
-F 28 "No" H 5050 3560 60  0001 L CNN "Sense"
-F 29 "~~" H 5050 3470 60  0001 L CNN "Status Comment"
-F 30 "No" H 5050 3380 60  0001 L CNN "Socket"
-F 31 "Yes" H 5050 3290 60  0001 L CNN "SMD"
-F 32 "~~" H 5050 3200 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 5050 3110 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270671003L" H 5050 3020 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 5050 2930 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5050 2840 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 5050 2750 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 5050 2660 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 5050 2570 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 5050 2480 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5050 2390 60  0001 L CNN "License"
-	1    5050 6200
+F 0 "R258" V 13304 4760 50  0000 L CNN
+F 1 "R0402_10K_1%_0.0625W_100PPM" H 13200 4490 60  0001 L CNN
+F 2 "RESC1005X40N" H 13200 3680 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 13200 4310 60  0001 L CNN
+F 4 "10k" V 13395 4760 50  0000 L CNN "~"
+F 5 "R0402_10K_1%_0.0625W_100PPM" H 13200 4220 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 13200 4130 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 13200 4040 60  0001 L CNN "Library Path"
+F 8 "=Value" H 13200 3950 60  0001 L CNN "Comment"
+F 9 "Standard" H 13200 3860 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 13200 3770 60  0001 L CNN "Component Type"
+F 11 "~~" H 13200 3590 60  0001 L CNN "PackageDescription"
+F 12 "2" H 13200 3500 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 13200 3410 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 13200 3320 60  0001 L CNN "Footprint Ref"
+F 15 "10k" H 13200 3230 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 13200 3140 60  0001 L CNN "Status"
+F 17 "0.0625W" H 13200 3050 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 13200 2960 60  0001 L CNN "TC"
+F 19 "~~" H 13200 2870 60  0001 L CNN "Voltage"
+F 20 "±1%" H 13200 2780 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 13200 2690 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 13200 2600 60  0001 L CNN "Manufacturer"
+F 23 "R0402_10K_1%_0.0625W_100PPM" H 13200 2510 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 13200 2420 60  0001 L CNN "Case"
+F 25 "No" H 13200 2330 60  0001 L CNN "PressFit"
+F 26 "Yes" H 13200 2240 60  0001 L CNN "Mounted"
+F 27 "~~" H 13200 2150 60  0001 L CNN "Sense Comment"
+F 28 "No" H 13200 2060 60  0001 L CNN "Sense"
+F 29 "~~" H 13200 1970 60  0001 L CNN "Status Comment"
+F 30 "No" H 13200 1880 60  0001 L CNN "Socket"
+F 31 "Yes" H 13200 1790 60  0001 L CNN "SMD"
+F 32 "~~" H 13200 1700 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 13200 1610 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671003L" H 13200 1520 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 13200 1430 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 13200 1340 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 13200 1250 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 13200 1160 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 13200 1070 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 13200 980 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13200 890 60  0001 L CNN "License"
+	1    13200 4700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D1ACA98
-P 5050 6500
+P 13200 5000
 AR Path="/5BD32060/5D1ACA98" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/5D1ACA98" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/5D1ACA98" Ref="#PWR0149"  Part="1" 
-F 0 "#PWR0149" H 5050 6250 50  0001 C CNN
-F 1 "GND" H 5055 6327 50  0000 C CNN
-F 2 "" H 5050 6500 50  0001 C CNN
-F 3 "" H 5050 6500 50  0001 C CNN
-	1    5050 6500
+F 0 "#PWR0149" H 13200 4750 50  0001 C CNN
+F 1 "GND" H 13205 4827 50  0000 C CNN
+F 2 "" H 13200 5000 50  0001 C CNN
+F 3 "" H 13200 5000 50  0001 C CNN
+	1    13200 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 6200 5050 6200
-Connection ~ 5050 6200
+	13350 4700 13200 4700
+Connection ~ 13200 4700
 $Comp
 L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
 U 1 1 5CC978F1
-P 5500 6200
+P 13650 4700
 AR Path="/5C16BF8E/5CC978F1" Ref="R?"  Part="1" 
 AR Path="/5C16BF8E/5DB9B7E6/5CC978F1" Ref="R?"  Part="1" 
 AR Path="/5BD31F9F/5CC978F1" Ref="R259"  Part="1" 
-F 0 "R259" H 5550 6100 50  0000 L CNN
-F 1 "R0402_1K_1%_0.0625W_100PPM" H 5500 5990 60  0001 L CNN
-F 2 "RESC1005X40N" H 5500 5180 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5500 5810 60  0001 L CNN
-F 4 "1k" H 5600 6300 50  0000 L CNN "~"
-F 5 "R0402_1K_1%_0.0625W_100PPM" H 5500 5720 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 5500 5630 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 5500 5540 60  0001 L CNN "Library Path"
-F 8 "=Value" H 5500 5450 60  0001 L CNN "Comment"
-F 9 "Standard" H 5500 5360 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 5500 5270 60  0001 L CNN "Component Type"
-F 11 "~~" H 5500 5090 60  0001 L CNN "PackageDescription"
-F 12 "2" H 5500 5000 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 5500 4910 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 5500 4820 60  0001 L CNN "Footprint Ref"
-F 15 "1k" H 5500 4730 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 5500 4640 60  0001 L CNN "Status"
-F 17 "0.0625W" H 5500 4550 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 5500 4460 60  0001 L CNN "TC"
-F 19 "~~" H 5500 4370 60  0001 L CNN "Voltage"
-F 20 "±1%" H 5500 4280 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 5500 4190 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 5500 4100 60  0001 L CNN "Manufacturer"
-F 23 "R0402_1K_1%_0.0625W_100PPM" H 5500 4010 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 5500 3920 60  0001 L CNN "Case"
-F 25 "No" H 5500 3830 60  0001 L CNN "PressFit"
-F 26 "Yes" H 5500 3740 60  0001 L CNN "Mounted"
-F 27 "~~" H 5500 3650 60  0001 L CNN "Sense Comment"
-F 28 "No" H 5500 3560 60  0001 L CNN "Sense"
-F 29 "~~" H 5500 3470 60  0001 L CNN "Status Comment"
-F 30 "No" H 5500 3380 60  0001 L CNN "Socket"
-F 31 "Yes" H 5500 3290 60  0001 L CNN "SMD"
-F 32 "~~" H 5500 3200 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 5500 3110 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270671002L" H 5500 3020 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 5500 2930 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5500 2840 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 5500 2750 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 5500 2660 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 5500 2570 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 5500 2480 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5500 2390 60  0001 L CNN "License"
-	1    5500 6200
+F 0 "R259" H 13700 4600 50  0000 L CNN
+F 1 "R0402_1K_1%_0.0625W_100PPM" H 13650 4490 60  0001 L CNN
+F 2 "RESC1005X40N" H 13650 3680 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 13650 4310 60  0001 L CNN
+F 4 "1k" H 13750 4800 50  0000 L CNN "~"
+F 5 "R0402_1K_1%_0.0625W_100PPM" H 13650 4220 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 13650 4130 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 13650 4040 60  0001 L CNN "Library Path"
+F 8 "=Value" H 13650 3950 60  0001 L CNN "Comment"
+F 9 "Standard" H 13650 3860 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 13650 3770 60  0001 L CNN "Component Type"
+F 11 "~~" H 13650 3590 60  0001 L CNN "PackageDescription"
+F 12 "2" H 13650 3500 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 13650 3410 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 13650 3320 60  0001 L CNN "Footprint Ref"
+F 15 "1k" H 13650 3230 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 13650 3140 60  0001 L CNN "Status"
+F 17 "0.0625W" H 13650 3050 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 13650 2960 60  0001 L CNN "TC"
+F 19 "~~" H 13650 2870 60  0001 L CNN "Voltage"
+F 20 "±1%" H 13650 2780 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 13650 2690 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 13650 2600 60  0001 L CNN "Manufacturer"
+F 23 "R0402_1K_1%_0.0625W_100PPM" H 13650 2510 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 13650 2420 60  0001 L CNN "Case"
+F 25 "No" H 13650 2330 60  0001 L CNN "PressFit"
+F 26 "Yes" H 13650 2240 60  0001 L CNN "Mounted"
+F 27 "~~" H 13650 2150 60  0001 L CNN "Sense Comment"
+F 28 "No" H 13650 2060 60  0001 L CNN "Sense"
+F 29 "~~" H 13650 1970 60  0001 L CNN "Status Comment"
+F 30 "No" H 13650 1880 60  0001 L CNN "Socket"
+F 31 "Yes" H 13650 1790 60  0001 L CNN "SMD"
+F 32 "~~" H 13650 1700 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 13650 1610 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671002L" H 13650 1520 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 13650 1430 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 13650 1340 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 13650 1250 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 13650 1160 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 13650 1070 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 13650 980 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13650 890 60  0001 L CNN "License"
+	1    13650 4700
 	-1   0    0    1   
 $EndComp
 Text Notes 2650 1350 0    50   ~ 10
@@ -1484,10 +1484,6 @@ Text Notes 2650 1750 0    50   ~ 10
 FMC2_DP0_M2C_P
 Text Notes 2650 1850 0    50   ~ 10
 FMC2_DP0_M2C_N
-NoConn ~ 3550 1350
-NoConn ~ 3550 1450
-NoConn ~ 3550 1750
-NoConn ~ 3550 1850
 NoConn ~ 11250 1250
 Text Notes 10450 1250 0    50   ~ 10
 FMC2_VREF_A_M2C
@@ -1572,118 +1568,118 @@ $EndComp
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5D625236
-P 5650 6200
+P 13800 4700
 AR Path="/5C16BF8E/5DB9B7E6/5D625236" Ref="C?"  Part="1" 
 AR Path="/5BCEDA3D/5D625236" Ref="C?"  Part="1" 
 AR Path="/5CC393D3/5D625236" Ref="C?"  Part="1" 
 AR Path="/5BABAC65/5D625236" Ref="C?"  Part="1" 
 AR Path="/5BD31F9F/5D625236" Ref="C9"  Part="1" 
-F 0 "C9" V 5754 6310 50  0000 L CNN
-F 1 "CC0201_100NF_6.3V_10%_X5R" H 5650 5940 60  0001 L CNN
-F 2 "CAPC0603X33N" H 5650 5130 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 5650 5760 60  0001 L CNN
-F 4 "100nF" V 5845 6310 50  0000 L CNN "~"
-F 5 "CC0201_100NF_6.3V_10%_X5R" H 5650 5670 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 5650 5580 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 5650 5490 60  0001 L CNN "Library Path"
-F 8 "=Value" H 5650 5400 60  0001 L CNN "Comment"
-F 9 "Standard" H 5650 5310 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 5650 5220 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 5650 5040 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 5650 4950 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 5650 4860 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 5650 4770 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 5650 4680 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 5650 4590 60  0001 L CNN "Status"
-F 17 "~~" H 5650 4500 60  0001 L CNN "Status Comment"
-F 18 "6.3V" H 5650 4410 60  0001 L CNN "Voltage"
-F 19 "X5R" H 5650 4320 60  0001 L CNN "TC"
-F 20 "±10%" H 5650 4230 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 5650 4140 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 5650 4050 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_100NF_6.3V_10%_X5R" H 5650 3960 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 5650 3870 60  0001 L CNN "Case"
-F 25 "Yes" H 5650 3780 60  0001 L CNN "Mounted"
-F 26 "No" H 5650 3690 60  0001 L CNN "Socket"
-F 27 "Yes" H 5650 3600 60  0001 L CNN "SMD"
-F 28 "~~" H 5650 3510 60  0001 L CNN "PressFit"
-F 29 "No" H 5650 3420 60  0001 L CNN "Sense"
-F 30 "~~" H 5650 3330 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 5650 3240 60  0001 L CNN "ComponentHeight"
-F 32 "AVX" H 5650 3150 60  0001 L CNN "Manufacturer1 Example"
-F 33 "02016D104KAT2A" H 5650 3060 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 5650 2970 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 5650 2880 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 5650 2790 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 5650 2700 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 5650 2610 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 5650 2520 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5650 2430 60  0001 L CNN "License"
-	1    5650 6200
+F 0 "C9" V 13904 4810 50  0000 L CNN
+F 1 "CC0201_100NF_6.3V_10%_X5R" H 13800 4440 60  0001 L CNN
+F 2 "CAPC0603X33N" H 13800 3630 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 13800 4260 60  0001 L CNN
+F 4 "100nF" V 13995 4810 50  0000 L CNN "~"
+F 5 "CC0201_100NF_6.3V_10%_X5R" H 13800 4170 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 13800 4080 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 13800 3990 60  0001 L CNN "Library Path"
+F 8 "=Value" H 13800 3900 60  0001 L CNN "Comment"
+F 9 "Standard" H 13800 3810 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 13800 3720 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 13800 3540 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 13800 3450 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 13800 3360 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 13800 3270 60  0001 L CNN "PackageDescription"
+F 15 "100nF" H 13800 3180 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 13800 3090 60  0001 L CNN "Status"
+F 17 "~~" H 13800 3000 60  0001 L CNN "Status Comment"
+F 18 "6.3V" H 13800 2910 60  0001 L CNN "Voltage"
+F 19 "X5R" H 13800 2820 60  0001 L CNN "TC"
+F 20 "±10%" H 13800 2730 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 13800 2640 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 13800 2550 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_100NF_6.3V_10%_X5R" H 13800 2460 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 13800 2370 60  0001 L CNN "Case"
+F 25 "Yes" H 13800 2280 60  0001 L CNN "Mounted"
+F 26 "No" H 13800 2190 60  0001 L CNN "Socket"
+F 27 "Yes" H 13800 2100 60  0001 L CNN "SMD"
+F 28 "~~" H 13800 2010 60  0001 L CNN "PressFit"
+F 29 "No" H 13800 1920 60  0001 L CNN "Sense"
+F 30 "~~" H 13800 1830 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 13800 1740 60  0001 L CNN "ComponentHeight"
+F 32 "AVX" H 13800 1650 60  0001 L CNN "Manufacturer1 Example"
+F 33 "02016D104KAT2A" H 13800 1560 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 13800 1470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 13800 1380 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 13800 1290 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 13800 1200 60  0001 L CNN "CreateDate"
+F 38 "12/03/07 00:00:00" H 13800 1110 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 13800 1020 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13800 930 60  0001 L CNN "License"
+	1    13800 4700
 	0    1    1    0   
 $EndComp
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5D63AE1C
-P 6100 6200
+P 14250 4700
 AR Path="/5C16BF8E/5DB9B7E6/5D63AE1C" Ref="C?"  Part="1" 
 AR Path="/5BCEDA3D/5D63AE1C" Ref="C?"  Part="1" 
 AR Path="/5CC393D3/5D63AE1C" Ref="C?"  Part="1" 
 AR Path="/5BABAC65/5D63AE1C" Ref="C?"  Part="1" 
 AR Path="/5BD31F9F/5D63AE1C" Ref="C10"  Part="1" 
-F 0 "C10" V 6204 6310 50  0000 L CNN
-F 1 "CC0201_100NF_6.3V_10%_X5R" H 6100 5940 60  0001 L CNN
-F 2 "CAPC0603X33N" H 6100 5130 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 6100 5760 60  0001 L CNN
-F 4 "100nF" V 6295 6310 50  0000 L CNN "~"
-F 5 "CC0201_100NF_6.3V_10%_X5R" H 6100 5670 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 6100 5580 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 6100 5490 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6100 5400 60  0001 L CNN "Comment"
-F 9 "Standard" H 6100 5310 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 6100 5220 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 6100 5040 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 6100 4950 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 6100 4860 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 6100 4770 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 6100 4680 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 6100 4590 60  0001 L CNN "Status"
-F 17 "~~" H 6100 4500 60  0001 L CNN "Status Comment"
-F 18 "6.3V" H 6100 4410 60  0001 L CNN "Voltage"
-F 19 "X5R" H 6100 4320 60  0001 L CNN "TC"
-F 20 "±10%" H 6100 4230 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 6100 4140 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 6100 4050 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_100NF_6.3V_10%_X5R" H 6100 3960 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 6100 3870 60  0001 L CNN "Case"
-F 25 "Yes" H 6100 3780 60  0001 L CNN "Mounted"
-F 26 "No" H 6100 3690 60  0001 L CNN "Socket"
-F 27 "Yes" H 6100 3600 60  0001 L CNN "SMD"
-F 28 "~~" H 6100 3510 60  0001 L CNN "PressFit"
-F 29 "No" H 6100 3420 60  0001 L CNN "Sense"
-F 30 "~~" H 6100 3330 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 6100 3240 60  0001 L CNN "ComponentHeight"
-F 32 "AVX" H 6100 3150 60  0001 L CNN "Manufacturer1 Example"
-F 33 "02016D104KAT2A" H 6100 3060 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 6100 2970 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 6100 2880 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 6100 2790 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 6100 2700 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 6100 2610 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 6100 2520 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6100 2430 60  0001 L CNN "License"
-	1    6100 6200
+F 0 "C10" V 14354 4810 50  0000 L CNN
+F 1 "CC0201_100NF_6.3V_10%_X5R" H 14250 4440 60  0001 L CNN
+F 2 "CAPC0603X33N" H 14250 3630 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 14250 4260 60  0001 L CNN
+F 4 "100nF" V 14445 4810 50  0000 L CNN "~"
+F 5 "CC0201_100NF_6.3V_10%_X5R" H 14250 4170 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 14250 4080 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 14250 3990 60  0001 L CNN "Library Path"
+F 8 "=Value" H 14250 3900 60  0001 L CNN "Comment"
+F 9 "Standard" H 14250 3810 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 14250 3720 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 14250 3540 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 14250 3450 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 14250 3360 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 14250 3270 60  0001 L CNN "PackageDescription"
+F 15 "100nF" H 14250 3180 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 14250 3090 60  0001 L CNN "Status"
+F 17 "~~" H 14250 3000 60  0001 L CNN "Status Comment"
+F 18 "6.3V" H 14250 2910 60  0001 L CNN "Voltage"
+F 19 "X5R" H 14250 2820 60  0001 L CNN "TC"
+F 20 "±10%" H 14250 2730 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 14250 2640 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 14250 2550 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_100NF_6.3V_10%_X5R" H 14250 2460 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 14250 2370 60  0001 L CNN "Case"
+F 25 "Yes" H 14250 2280 60  0001 L CNN "Mounted"
+F 26 "No" H 14250 2190 60  0001 L CNN "Socket"
+F 27 "Yes" H 14250 2100 60  0001 L CNN "SMD"
+F 28 "~~" H 14250 2010 60  0001 L CNN "PressFit"
+F 29 "No" H 14250 1920 60  0001 L CNN "Sense"
+F 30 "~~" H 14250 1830 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 14250 1740 60  0001 L CNN "ComponentHeight"
+F 32 "AVX" H 14250 1650 60  0001 L CNN "Manufacturer1 Example"
+F 33 "02016D104KAT2A" H 14250 1560 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 14250 1470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 14250 1380 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 14250 1290 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 14250 1200 60  0001 L CNN "CreateDate"
+F 38 "12/03/07 00:00:00" H 14250 1110 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 14250 1020 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14250 930 60  0001 L CNN "License"
+	1    14250 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5500 6200 5650 6200
-Connection ~ 5650 6200
+	13650 4700 13800 4700
+Connection ~ 13800 4700
 Wire Wire Line
-	5650 6200 6100 6200
-Connection ~ 6100 6200
+	13800 4700 14250 4700
+Connection ~ 14250 4700
 Wire Wire Line
-	6100 6200 6550 6200
-Connection ~ 6100 6500
+	14250 4700 14700 4700
+Connection ~ 14250 5000
 Wire Wire Line
 	4400 5300 4850 5300
 Connection ~ 4850 5300
@@ -1754,97 +1750,97 @@ Wire Wire Line
 $Comp
 L SAMTEC:SAMTEC_ASP-134486-01 P2
 U 1 1 5F675AFB
-P 2300 7600
+P 2500 6500
 AR Path="/5F675AFB" Ref="P2"  Part="1" 
 AR Path="/5BD31F9F/5F675AFB" Ref="P2"  Part="1" 
-F 0 "P2" H 2300 7650 50  0000 L CNN
-F 1 "SAMTEC_ASP-134486-01" H 2300 3425 50  0001 L CNN
-F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 2300 3350 50  0001 L CNN
-F 3 " " H 2300 3275 50  0001 L CNN
-F 4 "VITA 57" H 2300 2300 50  0001 L CNN "Family"
-F 5 "SAMTEC_ASP-134486-01" H 2300 3200 50  0001 L CNN "Part Number"
-F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 2300 3125 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 2300 3050 50  0001 L CNN "Library Path"
-F 8 " " H 2300 2975 50  0001 L CNN "Comment"
-F 9 "Standard" H 2300 2900 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 2300 2825 50  0001 L CNN "Component Type"
-F 11 " " H 2300 2750 50  0001 L CNN "Device"
-F 12 " " H 2300 2675 50  0001 L CNN "PackageDescription"
-F 13 "400" H 2300 2600 50  0001 L CNN "Pin Count"
-F 14 " " H 2300 2525 50  0001 L CNN "Case"
-F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 2300 2450 50  0001 L CNN "Footprint Path"
-F 16 "SAMTEC_ASP-134486-01" H 2300 2375 50  0001 L CNN "Footprint Ref"
-F 17 "Yes" H 2300 2225 50  0001 L CNN "Mounted"
-F 18 "No" H 2300 2150 50  0001 L CNN "Socket"
-F 19 "No" H 2300 2075 50  0001 L CNN "PressFit"
-F 20 "No" H 2300 2000 50  0001 L CNN "Sense"
-F 21 " " H 2300 1925 50  0001 L CNN "Sense Comment"
-F 22 "Yes" H 2300 1850 50  0001 L CNN "SMD"
-F 23 " " H 2300 1775 50  0001 L CNN "Status Comment"
-F 24 "None" H 2300 1700 50  0001 L CNN "Status"
-F 25 " " H 2300 1625 50  0001 L CNN "SCEM"
-F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 2300 1550 50  0001 L CNN "Part Description"
-F 27 "SAMTEC" H 2300 1475 50  0001 L CNN "Manufacturer"
-F 28 "ASP-134486-01" H 2300 1400 50  0001 L CNN "Manufacturer Part Number"
-F 29 "6.55mm" H 2300 1325 50  0001 L CNN "ComponentHeight"
-F 30 " " H 2300 1250 50  0001 L CNN "ComponentLink1Description"
-F 31 " " H 2300 1175 50  0001 L CNN "ComponentLink2Description"
-F 32 "CERN DEM JLC" H 2300 1100 50  0001 L CNN "Author"
-F 33 "04/30/09 00:00:00" H 2300 1025 50  0001 L CNN "CreateDate"
-F 34 "08/17/09 00:00:00" H 2300 950 50  0001 L CNN "LatestRevisionDate"
-F 35 "SAMTEC" H 2300 875 50  0001 L CNN "Database Table Name"
-F 36 "Connectors.DbLib" H 2300 800 50  0001 L CNN "Library Name"
-F 37 "SAMTEC SMD" H 2300 725 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2300 650 50  0001 L CNN "License"
-	1    2300 7600
+F 0 "P2" H 2500 6550 50  0000 L CNN
+F 1 "SAMTEC_ASP-134486-01" H 2500 2325 50  0001 L CNN
+F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 2500 2250 50  0001 L CNN
+F 3 " " H 2500 2175 50  0001 L CNN
+F 4 "VITA 57" H 2500 1200 50  0001 L CNN "Family"
+F 5 "SAMTEC_ASP-134486-01" H 2500 2100 50  0001 L CNN "Part Number"
+F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 2500 2025 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 2500 1950 50  0001 L CNN "Library Path"
+F 8 " " H 2500 1875 50  0001 L CNN "Comment"
+F 9 "Standard" H 2500 1800 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 2500 1725 50  0001 L CNN "Component Type"
+F 11 " " H 2500 1650 50  0001 L CNN "Device"
+F 12 " " H 2500 1575 50  0001 L CNN "PackageDescription"
+F 13 "400" H 2500 1500 50  0001 L CNN "Pin Count"
+F 14 " " H 2500 1425 50  0001 L CNN "Case"
+F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 2500 1350 50  0001 L CNN "Footprint Path"
+F 16 "SAMTEC_ASP-134486-01" H 2500 1275 50  0001 L CNN "Footprint Ref"
+F 17 "Yes" H 2500 1125 50  0001 L CNN "Mounted"
+F 18 "No" H 2500 1050 50  0001 L CNN "Socket"
+F 19 "No" H 2500 975 50  0001 L CNN "PressFit"
+F 20 "No" H 2500 900 50  0001 L CNN "Sense"
+F 21 " " H 2500 825 50  0001 L CNN "Sense Comment"
+F 22 "Yes" H 2500 750 50  0001 L CNN "SMD"
+F 23 " " H 2500 675 50  0001 L CNN "Status Comment"
+F 24 "None" H 2500 600 50  0001 L CNN "Status"
+F 25 " " H 2500 525 50  0001 L CNN "SCEM"
+F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 2500 450 50  0001 L CNN "Part Description"
+F 27 "SAMTEC" H 2500 375 50  0001 L CNN "Manufacturer"
+F 28 "ASP-134486-01" H 2500 300 50  0001 L CNN "Manufacturer Part Number"
+F 29 "6.55mm" H 2500 225 50  0001 L CNN "ComponentHeight"
+F 30 " " H 2500 150 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 2500 75  50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 2500 0   50  0001 L CNN "Author"
+F 33 "04/30/09 00:00:00" H 2500 -75 50  0001 L CNN "CreateDate"
+F 34 "08/17/09 00:00:00" H 2500 -150 50  0001 L CNN "LatestRevisionDate"
+F 35 "SAMTEC" H 2500 -225 50  0001 L CNN "Database Table Name"
+F 36 "Connectors.DbLib" H 2500 -300 50  0001 L CNN "Library Name"
+F 37 "SAMTEC SMD" H 2500 -375 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2500 -450 50  0001 L CNN "License"
+	1    2500 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L SAMTEC:SAMTEC_ASP-134486-01 P2
 U 2 1 5F697096
-P 4550 7600
+P 4250 6500
 AR Path="/5F697096" Ref="P2"  Part="2" 
 AR Path="/5BD31F9F/5F697096" Ref="P2"  Part="2" 
-F 0 "P2" H 4550 7650 50  0000 L CNN
-F 1 "SAMTEC_ASP-134486-01" H 4550 3425 50  0001 L CNN
-F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 4550 3350 50  0001 L CNN
-F 3 " " H 4550 3275 50  0001 L CNN
-F 4 "VITA 57" H 4550 2300 50  0001 L CNN "Family"
-F 5 "SAMTEC_ASP-134486-01" H 4550 3200 50  0001 L CNN "Part Number"
-F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 4550 3125 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 4550 3050 50  0001 L CNN "Library Path"
-F 8 " " H 4550 2975 50  0001 L CNN "Comment"
-F 9 "Standard" H 4550 2900 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 4550 2825 50  0001 L CNN "Component Type"
-F 11 " " H 4550 2750 50  0001 L CNN "Device"
-F 12 " " H 4550 2675 50  0001 L CNN "PackageDescription"
-F 13 "400" H 4550 2600 50  0001 L CNN "Pin Count"
-F 14 " " H 4550 2525 50  0001 L CNN "Case"
-F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 4550 2450 50  0001 L CNN "Footprint Path"
-F 16 "SAMTEC_ASP-134486-01" H 4550 2375 50  0001 L CNN "Footprint Ref"
-F 17 "Yes" H 4550 2225 50  0001 L CNN "Mounted"
-F 18 "No" H 4550 2150 50  0001 L CNN "Socket"
-F 19 "No" H 4550 2075 50  0001 L CNN "PressFit"
-F 20 "No" H 4550 2000 50  0001 L CNN "Sense"
-F 21 " " H 4550 1925 50  0001 L CNN "Sense Comment"
-F 22 "Yes" H 4550 1850 50  0001 L CNN "SMD"
-F 23 " " H 4550 1775 50  0001 L CNN "Status Comment"
-F 24 "None" H 4550 1700 50  0001 L CNN "Status"
-F 25 " " H 4550 1625 50  0001 L CNN "SCEM"
-F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 4550 1550 50  0001 L CNN "Part Description"
-F 27 "SAMTEC" H 4550 1475 50  0001 L CNN "Manufacturer"
-F 28 "ASP-134486-01" H 4550 1400 50  0001 L CNN "Manufacturer Part Number"
-F 29 "6.55mm" H 4550 1325 50  0001 L CNN "ComponentHeight"
-F 30 " " H 4550 1250 50  0001 L CNN "ComponentLink1Description"
-F 31 " " H 4550 1175 50  0001 L CNN "ComponentLink2Description"
-F 32 "CERN DEM JLC" H 4550 1100 50  0001 L CNN "Author"
-F 33 "04/30/09 00:00:00" H 4550 1025 50  0001 L CNN "CreateDate"
-F 34 "08/17/09 00:00:00" H 4550 950 50  0001 L CNN "LatestRevisionDate"
-F 35 "SAMTEC" H 4550 875 50  0001 L CNN "Database Table Name"
-F 36 "Connectors.DbLib" H 4550 800 50  0001 L CNN "Library Name"
-F 37 "SAMTEC SMD" H 4550 725 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4550 650 50  0001 L CNN "License"
-	2    4550 7600
+F 0 "P2" H 4250 6550 50  0000 L CNN
+F 1 "SAMTEC_ASP-134486-01" H 4250 2325 50  0001 L CNN
+F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 4250 2250 50  0001 L CNN
+F 3 " " H 4250 2175 50  0001 L CNN
+F 4 "VITA 57" H 4250 1200 50  0001 L CNN "Family"
+F 5 "SAMTEC_ASP-134486-01" H 4250 2100 50  0001 L CNN "Part Number"
+F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 4250 2025 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 4250 1950 50  0001 L CNN "Library Path"
+F 8 " " H 4250 1875 50  0001 L CNN "Comment"
+F 9 "Standard" H 4250 1800 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 4250 1725 50  0001 L CNN "Component Type"
+F 11 " " H 4250 1650 50  0001 L CNN "Device"
+F 12 " " H 4250 1575 50  0001 L CNN "PackageDescription"
+F 13 "400" H 4250 1500 50  0001 L CNN "Pin Count"
+F 14 " " H 4250 1425 50  0001 L CNN "Case"
+F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 4250 1350 50  0001 L CNN "Footprint Path"
+F 16 "SAMTEC_ASP-134486-01" H 4250 1275 50  0001 L CNN "Footprint Ref"
+F 17 "Yes" H 4250 1125 50  0001 L CNN "Mounted"
+F 18 "No" H 4250 1050 50  0001 L CNN "Socket"
+F 19 "No" H 4250 975 50  0001 L CNN "PressFit"
+F 20 "No" H 4250 900 50  0001 L CNN "Sense"
+F 21 " " H 4250 825 50  0001 L CNN "Sense Comment"
+F 22 "Yes" H 4250 750 50  0001 L CNN "SMD"
+F 23 " " H 4250 675 50  0001 L CNN "Status Comment"
+F 24 "None" H 4250 600 50  0001 L CNN "Status"
+F 25 " " H 4250 525 50  0001 L CNN "SCEM"
+F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 4250 450 50  0001 L CNN "Part Description"
+F 27 "SAMTEC" H 4250 375 50  0001 L CNN "Manufacturer"
+F 28 "ASP-134486-01" H 4250 300 50  0001 L CNN "Manufacturer Part Number"
+F 29 "6.55mm" H 4250 225 50  0001 L CNN "ComponentHeight"
+F 30 " " H 4250 150 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 4250 75  50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 4250 0   50  0001 L CNN "Author"
+F 33 "04/30/09 00:00:00" H 4250 -75 50  0001 L CNN "CreateDate"
+F 34 "08/17/09 00:00:00" H 4250 -150 50  0001 L CNN "LatestRevisionDate"
+F 35 "SAMTEC" H 4250 -225 50  0001 L CNN "Database Table Name"
+F 36 "Connectors.DbLib" H 4250 -300 50  0001 L CNN "Library Name"
+F 37 "SAMTEC SMD" H 4250 -375 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4250 -450 50  0001 L CNN "License"
+	2    4250 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1946,97 +1942,97 @@ $EndComp
 $Comp
 L SAMTEC:SAMTEC_ASP-134486-01 P2
 U 5 1 5F6E248C
-P 7650 7600
+P 6450 6500
 AR Path="/5F6E248C" Ref="P2"  Part="5" 
 AR Path="/5BD31F9F/5F6E248C" Ref="P2"  Part="5" 
-F 0 "P2" H 7650 7650 50  0000 L CNN
-F 1 "SAMTEC_ASP-134486-01" H 7650 3425 50  0001 L CNN
-F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 7650 3350 50  0001 L CNN
-F 3 " " H 7650 3275 50  0001 L CNN
-F 4 "VITA 57" H 7650 2300 50  0001 L CNN "Family"
-F 5 "SAMTEC_ASP-134486-01" H 7650 3200 50  0001 L CNN "Part Number"
-F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 7650 3125 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 7650 3050 50  0001 L CNN "Library Path"
-F 8 " " H 7650 2975 50  0001 L CNN "Comment"
-F 9 "Standard" H 7650 2900 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 7650 2825 50  0001 L CNN "Component Type"
-F 11 " " H 7650 2750 50  0001 L CNN "Device"
-F 12 " " H 7650 2675 50  0001 L CNN "PackageDescription"
-F 13 "400" H 7650 2600 50  0001 L CNN "Pin Count"
-F 14 " " H 7650 2525 50  0001 L CNN "Case"
-F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 7650 2450 50  0001 L CNN "Footprint Path"
-F 16 "SAMTEC_ASP-134486-01" H 7650 2375 50  0001 L CNN "Footprint Ref"
-F 17 "Yes" H 7650 2225 50  0001 L CNN "Mounted"
-F 18 "No" H 7650 2150 50  0001 L CNN "Socket"
-F 19 "No" H 7650 2075 50  0001 L CNN "PressFit"
-F 20 "No" H 7650 2000 50  0001 L CNN "Sense"
-F 21 " " H 7650 1925 50  0001 L CNN "Sense Comment"
-F 22 "Yes" H 7650 1850 50  0001 L CNN "SMD"
-F 23 " " H 7650 1775 50  0001 L CNN "Status Comment"
-F 24 "None" H 7650 1700 50  0001 L CNN "Status"
-F 25 " " H 7650 1625 50  0001 L CNN "SCEM"
-F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 7650 1550 50  0001 L CNN "Part Description"
-F 27 "SAMTEC" H 7650 1475 50  0001 L CNN "Manufacturer"
-F 28 "ASP-134486-01" H 7650 1400 50  0001 L CNN "Manufacturer Part Number"
-F 29 "6.55mm" H 7650 1325 50  0001 L CNN "ComponentHeight"
-F 30 " " H 7650 1250 50  0001 L CNN "ComponentLink1Description"
-F 31 " " H 7650 1175 50  0001 L CNN "ComponentLink2Description"
-F 32 "CERN DEM JLC" H 7650 1100 50  0001 L CNN "Author"
-F 33 "04/30/09 00:00:00" H 7650 1025 50  0001 L CNN "CreateDate"
-F 34 "08/17/09 00:00:00" H 7650 950 50  0001 L CNN "LatestRevisionDate"
-F 35 "SAMTEC" H 7650 875 50  0001 L CNN "Database Table Name"
-F 36 "Connectors.DbLib" H 7650 800 50  0001 L CNN "Library Name"
-F 37 "SAMTEC SMD" H 7650 725 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7650 650 50  0001 L CNN "License"
-	5    7650 7600
+F 0 "P2" H 6450 6550 50  0000 L CNN
+F 1 "SAMTEC_ASP-134486-01" H 6450 2325 50  0001 L CNN
+F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 6450 2250 50  0001 L CNN
+F 3 " " H 6450 2175 50  0001 L CNN
+F 4 "VITA 57" H 6450 1200 50  0001 L CNN "Family"
+F 5 "SAMTEC_ASP-134486-01" H 6450 2100 50  0001 L CNN "Part Number"
+F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 6450 2025 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 6450 1950 50  0001 L CNN "Library Path"
+F 8 " " H 6450 1875 50  0001 L CNN "Comment"
+F 9 "Standard" H 6450 1800 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6450 1725 50  0001 L CNN "Component Type"
+F 11 " " H 6450 1650 50  0001 L CNN "Device"
+F 12 " " H 6450 1575 50  0001 L CNN "PackageDescription"
+F 13 "400" H 6450 1500 50  0001 L CNN "Pin Count"
+F 14 " " H 6450 1425 50  0001 L CNN "Case"
+F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 6450 1350 50  0001 L CNN "Footprint Path"
+F 16 "SAMTEC_ASP-134486-01" H 6450 1275 50  0001 L CNN "Footprint Ref"
+F 17 "Yes" H 6450 1125 50  0001 L CNN "Mounted"
+F 18 "No" H 6450 1050 50  0001 L CNN "Socket"
+F 19 "No" H 6450 975 50  0001 L CNN "PressFit"
+F 20 "No" H 6450 900 50  0001 L CNN "Sense"
+F 21 " " H 6450 825 50  0001 L CNN "Sense Comment"
+F 22 "Yes" H 6450 750 50  0001 L CNN "SMD"
+F 23 " " H 6450 675 50  0001 L CNN "Status Comment"
+F 24 "None" H 6450 600 50  0001 L CNN "Status"
+F 25 " " H 6450 525 50  0001 L CNN "SCEM"
+F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 6450 450 50  0001 L CNN "Part Description"
+F 27 "SAMTEC" H 6450 375 50  0001 L CNN "Manufacturer"
+F 28 "ASP-134486-01" H 6450 300 50  0001 L CNN "Manufacturer Part Number"
+F 29 "6.55mm" H 6450 225 50  0001 L CNN "ComponentHeight"
+F 30 " " H 6450 150 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 6450 75  50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 6450 0   50  0001 L CNN "Author"
+F 33 "04/30/09 00:00:00" H 6450 -75 50  0001 L CNN "CreateDate"
+F 34 "08/17/09 00:00:00" H 6450 -150 50  0001 L CNN "LatestRevisionDate"
+F 35 "SAMTEC" H 6450 -225 50  0001 L CNN "Database Table Name"
+F 36 "Connectors.DbLib" H 6450 -300 50  0001 L CNN "Library Name"
+F 37 "SAMTEC SMD" H 6450 -375 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6450 -450 50  0001 L CNN "License"
+	5    6450 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L SAMTEC:SAMTEC_ASP-134486-01 P2
 U 6 1 5F6EEE69
-P 9650 7600
+P 8450 6500
 AR Path="/5F6EEE69" Ref="P2"  Part="6" 
 AR Path="/5BD31F9F/5F6EEE69" Ref="P2"  Part="6" 
-F 0 "P2" H 9650 7650 50  0000 L CNN
-F 1 "SAMTEC_ASP-134486-01" H 9650 3425 50  0001 L CNN
-F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 9650 3350 50  0001 L CNN
-F 3 " " H 9650 3275 50  0001 L CNN
-F 4 "VITA 57" H 9650 2300 50  0001 L CNN "Family"
-F 5 "SAMTEC_ASP-134486-01" H 9650 3200 50  0001 L CNN "Part Number"
-F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 9650 3125 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 9650 3050 50  0001 L CNN "Library Path"
-F 8 " " H 9650 2975 50  0001 L CNN "Comment"
-F 9 "Standard" H 9650 2900 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 9650 2825 50  0001 L CNN "Component Type"
-F 11 " " H 9650 2750 50  0001 L CNN "Device"
-F 12 " " H 9650 2675 50  0001 L CNN "PackageDescription"
-F 13 "400" H 9650 2600 50  0001 L CNN "Pin Count"
-F 14 " " H 9650 2525 50  0001 L CNN "Case"
-F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 9650 2450 50  0001 L CNN "Footprint Path"
-F 16 "SAMTEC_ASP-134486-01" H 9650 2375 50  0001 L CNN "Footprint Ref"
-F 17 "Yes" H 9650 2225 50  0001 L CNN "Mounted"
-F 18 "No" H 9650 2150 50  0001 L CNN "Socket"
-F 19 "No" H 9650 2075 50  0001 L CNN "PressFit"
-F 20 "No" H 9650 2000 50  0001 L CNN "Sense"
-F 21 " " H 9650 1925 50  0001 L CNN "Sense Comment"
-F 22 "Yes" H 9650 1850 50  0001 L CNN "SMD"
-F 23 " " H 9650 1775 50  0001 L CNN "Status Comment"
-F 24 "None" H 9650 1700 50  0001 L CNN "Status"
-F 25 " " H 9650 1625 50  0001 L CNN "SCEM"
-F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 9650 1550 50  0001 L CNN "Part Description"
-F 27 "SAMTEC" H 9650 1475 50  0001 L CNN "Manufacturer"
-F 28 "ASP-134486-01" H 9650 1400 50  0001 L CNN "Manufacturer Part Number"
-F 29 "6.55mm" H 9650 1325 50  0001 L CNN "ComponentHeight"
-F 30 " " H 9650 1250 50  0001 L CNN "ComponentLink1Description"
-F 31 " " H 9650 1175 50  0001 L CNN "ComponentLink2Description"
-F 32 "CERN DEM JLC" H 9650 1100 50  0001 L CNN "Author"
-F 33 "04/30/09 00:00:00" H 9650 1025 50  0001 L CNN "CreateDate"
-F 34 "08/17/09 00:00:00" H 9650 950 50  0001 L CNN "LatestRevisionDate"
-F 35 "SAMTEC" H 9650 875 50  0001 L CNN "Database Table Name"
-F 36 "Connectors.DbLib" H 9650 800 50  0001 L CNN "Library Name"
-F 37 "SAMTEC SMD" H 9650 725 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9650 650 50  0001 L CNN "License"
-	6    9650 7600
+F 0 "P2" H 8450 6550 50  0000 L CNN
+F 1 "SAMTEC_ASP-134486-01" H 8450 2325 50  0001 L CNN
+F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 8450 2250 50  0001 L CNN
+F 3 " " H 8450 2175 50  0001 L CNN
+F 4 "VITA 57" H 8450 1200 50  0001 L CNN "Family"
+F 5 "SAMTEC_ASP-134486-01" H 8450 2100 50  0001 L CNN "Part Number"
+F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 8450 2025 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 8450 1950 50  0001 L CNN "Library Path"
+F 8 " " H 8450 1875 50  0001 L CNN "Comment"
+F 9 "Standard" H 8450 1800 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 8450 1725 50  0001 L CNN "Component Type"
+F 11 " " H 8450 1650 50  0001 L CNN "Device"
+F 12 " " H 8450 1575 50  0001 L CNN "PackageDescription"
+F 13 "400" H 8450 1500 50  0001 L CNN "Pin Count"
+F 14 " " H 8450 1425 50  0001 L CNN "Case"
+F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 8450 1350 50  0001 L CNN "Footprint Path"
+F 16 "SAMTEC_ASP-134486-01" H 8450 1275 50  0001 L CNN "Footprint Ref"
+F 17 "Yes" H 8450 1125 50  0001 L CNN "Mounted"
+F 18 "No" H 8450 1050 50  0001 L CNN "Socket"
+F 19 "No" H 8450 975 50  0001 L CNN "PressFit"
+F 20 "No" H 8450 900 50  0001 L CNN "Sense"
+F 21 " " H 8450 825 50  0001 L CNN "Sense Comment"
+F 22 "Yes" H 8450 750 50  0001 L CNN "SMD"
+F 23 " " H 8450 675 50  0001 L CNN "Status Comment"
+F 24 "None" H 8450 600 50  0001 L CNN "Status"
+F 25 " " H 8450 525 50  0001 L CNN "SCEM"
+F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 8450 450 50  0001 L CNN "Part Description"
+F 27 "SAMTEC" H 8450 375 50  0001 L CNN "Manufacturer"
+F 28 "ASP-134486-01" H 8450 300 50  0001 L CNN "Manufacturer Part Number"
+F 29 "6.55mm" H 8450 225 50  0001 L CNN "ComponentHeight"
+F 30 " " H 8450 150 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 8450 75  50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 8450 0   50  0001 L CNN "Author"
+F 33 "04/30/09 00:00:00" H 8450 -75 50  0001 L CNN "CreateDate"
+F 34 "08/17/09 00:00:00" H 8450 -150 50  0001 L CNN "LatestRevisionDate"
+F 35 "SAMTEC" H 8450 -225 50  0001 L CNN "Database Table Name"
+F 36 "Connectors.DbLib" H 8450 -300 50  0001 L CNN "Library Name"
+F 37 "SAMTEC SMD" H 8450 -375 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8450 -450 50  0001 L CNN "License"
+	6    8450 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2138,1269 +2134,1285 @@ $EndComp
 $Comp
 L SAMTEC:SAMTEC_ASP-134486-01 P2
 U 9 1 5F75E13A
-P 12600 7600
+P 10700 6500
 AR Path="/5F75E13A" Ref="P2"  Part="9" 
 AR Path="/5BD31F9F/5F75E13A" Ref="P2"  Part="9" 
-F 0 "P2" H 12600 7650 50  0000 L CNN
-F 1 "SAMTEC_ASP-134486-01" H 12600 3425 50  0001 L CNN
-F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 12600 3350 50  0001 L CNN
-F 3 " " H 12600 3275 50  0001 L CNN
-F 4 "VITA 57" H 12600 2300 50  0001 L CNN "Family"
-F 5 "SAMTEC_ASP-134486-01" H 12600 3200 50  0001 L CNN "Part Number"
-F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 12600 3125 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 12600 3050 50  0001 L CNN "Library Path"
-F 8 " " H 12600 2975 50  0001 L CNN "Comment"
-F 9 "Standard" H 12600 2900 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 12600 2825 50  0001 L CNN "Component Type"
-F 11 " " H 12600 2750 50  0001 L CNN "Device"
-F 12 " " H 12600 2675 50  0001 L CNN "PackageDescription"
-F 13 "400" H 12600 2600 50  0001 L CNN "Pin Count"
-F 14 " " H 12600 2525 50  0001 L CNN "Case"
-F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 12600 2450 50  0001 L CNN "Footprint Path"
-F 16 "SAMTEC_ASP-134486-01" H 12600 2375 50  0001 L CNN "Footprint Ref"
-F 17 "Yes" H 12600 2225 50  0001 L CNN "Mounted"
-F 18 "No" H 12600 2150 50  0001 L CNN "Socket"
-F 19 "No" H 12600 2075 50  0001 L CNN "PressFit"
-F 20 "No" H 12600 2000 50  0001 L CNN "Sense"
-F 21 " " H 12600 1925 50  0001 L CNN "Sense Comment"
-F 22 "Yes" H 12600 1850 50  0001 L CNN "SMD"
-F 23 " " H 12600 1775 50  0001 L CNN "Status Comment"
-F 24 "None" H 12600 1700 50  0001 L CNN "Status"
-F 25 " " H 12600 1625 50  0001 L CNN "SCEM"
-F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 12600 1550 50  0001 L CNN "Part Description"
-F 27 "SAMTEC" H 12600 1475 50  0001 L CNN "Manufacturer"
-F 28 "ASP-134486-01" H 12600 1400 50  0001 L CNN "Manufacturer Part Number"
-F 29 "6.55mm" H 12600 1325 50  0001 L CNN "ComponentHeight"
-F 30 " " H 12600 1250 50  0001 L CNN "ComponentLink1Description"
-F 31 " " H 12600 1175 50  0001 L CNN "ComponentLink2Description"
-F 32 "CERN DEM JLC" H 12600 1100 50  0001 L CNN "Author"
-F 33 "04/30/09 00:00:00" H 12600 1025 50  0001 L CNN "CreateDate"
-F 34 "08/17/09 00:00:00" H 12600 950 50  0001 L CNN "LatestRevisionDate"
-F 35 "SAMTEC" H 12600 875 50  0001 L CNN "Database Table Name"
-F 36 "Connectors.DbLib" H 12600 800 50  0001 L CNN "Library Name"
-F 37 "SAMTEC SMD" H 12600 725 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12600 650 50  0001 L CNN "License"
-	9    12600 7600
+F 0 "P2" H 10700 6550 50  0000 L CNN
+F 1 "SAMTEC_ASP-134486-01" H 10700 2325 50  0001 L CNN
+F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 10700 2250 50  0001 L CNN
+F 3 " " H 10700 2175 50  0001 L CNN
+F 4 "VITA 57" H 10700 1200 50  0001 L CNN "Family"
+F 5 "SAMTEC_ASP-134486-01" H 10700 2100 50  0001 L CNN "Part Number"
+F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 10700 2025 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 10700 1950 50  0001 L CNN "Library Path"
+F 8 " " H 10700 1875 50  0001 L CNN "Comment"
+F 9 "Standard" H 10700 1800 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 10700 1725 50  0001 L CNN "Component Type"
+F 11 " " H 10700 1650 50  0001 L CNN "Device"
+F 12 " " H 10700 1575 50  0001 L CNN "PackageDescription"
+F 13 "400" H 10700 1500 50  0001 L CNN "Pin Count"
+F 14 " " H 10700 1425 50  0001 L CNN "Case"
+F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 10700 1350 50  0001 L CNN "Footprint Path"
+F 16 "SAMTEC_ASP-134486-01" H 10700 1275 50  0001 L CNN "Footprint Ref"
+F 17 "Yes" H 10700 1125 50  0001 L CNN "Mounted"
+F 18 "No" H 10700 1050 50  0001 L CNN "Socket"
+F 19 "No" H 10700 975 50  0001 L CNN "PressFit"
+F 20 "No" H 10700 900 50  0001 L CNN "Sense"
+F 21 " " H 10700 825 50  0001 L CNN "Sense Comment"
+F 22 "Yes" H 10700 750 50  0001 L CNN "SMD"
+F 23 " " H 10700 675 50  0001 L CNN "Status Comment"
+F 24 "None" H 10700 600 50  0001 L CNN "Status"
+F 25 " " H 10700 525 50  0001 L CNN "SCEM"
+F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 10700 450 50  0001 L CNN "Part Description"
+F 27 "SAMTEC" H 10700 375 50  0001 L CNN "Manufacturer"
+F 28 "ASP-134486-01" H 10700 300 50  0001 L CNN "Manufacturer Part Number"
+F 29 "6.55mm" H 10700 225 50  0001 L CNN "ComponentHeight"
+F 30 " " H 10700 150 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 10700 75  50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 10700 0   50  0001 L CNN "Author"
+F 33 "04/30/09 00:00:00" H 10700 -75 50  0001 L CNN "CreateDate"
+F 34 "08/17/09 00:00:00" H 10700 -150 50  0001 L CNN "LatestRevisionDate"
+F 35 "SAMTEC" H 10700 -225 50  0001 L CNN "Database Table Name"
+F 36 "Connectors.DbLib" H 10700 -300 50  0001 L CNN "Library Name"
+F 37 "SAMTEC SMD" H 10700 -375 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10700 -450 50  0001 L CNN "License"
+	9    10700 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L SAMTEC:SAMTEC_ASP-134486-01 P2
 U 10 1 5F776A01
-P 15000 7600
+P 13350 5550
 AR Path="/5F776A01" Ref="P2"  Part="10" 
 AR Path="/5BD31F9F/5F776A01" Ref="P2"  Part="10" 
-F 0 "P2" H 15000 7650 50  0000 L CNN
-F 1 "SAMTEC_ASP-134486-01" H 15000 3425 50  0001 L CNN
-F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 15000 3350 50  0001 L CNN
-F 3 " " H 15000 3275 50  0001 L CNN
-F 4 "VITA 57" H 15000 2300 50  0001 L CNN "Family"
-F 5 "SAMTEC_ASP-134486-01" H 15000 3200 50  0001 L CNN "Part Number"
-F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 15000 3125 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 15000 3050 50  0001 L CNN "Library Path"
-F 8 " " H 15000 2975 50  0001 L CNN "Comment"
-F 9 "Standard" H 15000 2900 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 15000 2825 50  0001 L CNN "Component Type"
-F 11 " " H 15000 2750 50  0001 L CNN "Device"
-F 12 " " H 15000 2675 50  0001 L CNN "PackageDescription"
-F 13 "400" H 15000 2600 50  0001 L CNN "Pin Count"
-F 14 " " H 15000 2525 50  0001 L CNN "Case"
-F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 15000 2450 50  0001 L CNN "Footprint Path"
-F 16 "SAMTEC_ASP-134486-01" H 15000 2375 50  0001 L CNN "Footprint Ref"
-F 17 "Yes" H 15000 2225 50  0001 L CNN "Mounted"
-F 18 "No" H 15000 2150 50  0001 L CNN "Socket"
-F 19 "No" H 15000 2075 50  0001 L CNN "PressFit"
-F 20 "No" H 15000 2000 50  0001 L CNN "Sense"
-F 21 " " H 15000 1925 50  0001 L CNN "Sense Comment"
-F 22 "Yes" H 15000 1850 50  0001 L CNN "SMD"
-F 23 " " H 15000 1775 50  0001 L CNN "Status Comment"
-F 24 "None" H 15000 1700 50  0001 L CNN "Status"
-F 25 " " H 15000 1625 50  0001 L CNN "SCEM"
-F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 15000 1550 50  0001 L CNN "Part Description"
-F 27 "SAMTEC" H 15000 1475 50  0001 L CNN "Manufacturer"
-F 28 "ASP-134486-01" H 15000 1400 50  0001 L CNN "Manufacturer Part Number"
-F 29 "6.55mm" H 15000 1325 50  0001 L CNN "ComponentHeight"
-F 30 " " H 15000 1250 50  0001 L CNN "ComponentLink1Description"
-F 31 " " H 15000 1175 50  0001 L CNN "ComponentLink2Description"
-F 32 "CERN DEM JLC" H 15000 1100 50  0001 L CNN "Author"
-F 33 "04/30/09 00:00:00" H 15000 1025 50  0001 L CNN "CreateDate"
-F 34 "08/17/09 00:00:00" H 15000 950 50  0001 L CNN "LatestRevisionDate"
-F 35 "SAMTEC" H 15000 875 50  0001 L CNN "Database Table Name"
-F 36 "Connectors.DbLib" H 15000 800 50  0001 L CNN "Library Name"
-F 37 "SAMTEC SMD" H 15000 725 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 15000 650 50  0001 L CNN "License"
-	10   15000 7600
+F 0 "P2" H 13350 5600 50  0000 L CNN
+F 1 "SAMTEC_ASP-134486-01" H 13350 1375 50  0001 L CNN
+F 2 "SAMTEC SMD:SAMTEC_ASP-134486-01" H 13350 1300 50  0001 L CNN
+F 3 " " H 13350 1225 50  0001 L CNN
+F 4 "VITA 57" H 13350 250 50  0001 L CNN "Family"
+F 5 "SAMTEC_ASP-134486-01" H 13350 1150 50  0001 L CNN "Part Number"
+F 6 "Connector VITA 57 400 Female (abcdefghjk)" H 13350 1075 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 13350 1000 50  0001 L CNN "Library Path"
+F 8 " " H 13350 925 50  0001 L CNN "Comment"
+F 9 "Standard" H 13350 850 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 13350 775 50  0001 L CNN "Component Type"
+F 11 " " H 13350 700 50  0001 L CNN "Device"
+F 12 " " H 13350 625 50  0001 L CNN "PackageDescription"
+F 13 "400" H 13350 550 50  0001 L CNN "Pin Count"
+F 14 " " H 13350 475 50  0001 L CNN "Case"
+F 15 "PcbLib\\SAMTEC SMD.PcbLib" H 13350 400 50  0001 L CNN "Footprint Path"
+F 16 "SAMTEC_ASP-134486-01" H 13350 325 50  0001 L CNN "Footprint Ref"
+F 17 "Yes" H 13350 175 50  0001 L CNN "Mounted"
+F 18 "No" H 13350 100 50  0001 L CNN "Socket"
+F 19 "No" H 13350 25  50  0001 L CNN "PressFit"
+F 20 "No" H 13350 -50 50  0001 L CNN "Sense"
+F 21 " " H 13350 -125 50  0001 L CNN "Sense Comment"
+F 22 "Yes" H 13350 -200 50  0001 L CNN "SMD"
+F 23 " " H 13350 -275 50  0001 L CNN "Status Comment"
+F 24 "None" H 13350 -350 50  0001 L CNN "Status"
+F 25 " " H 13350 -425 50  0001 L CNN "SCEM"
+F 26 "400 contacts (10 rows abcdefghj) Surface Mount Female Connector, VITA 57 (CC-HPC-10)" H 13350 -500 50  0001 L CNN "Part Description"
+F 27 "SAMTEC" H 13350 -575 50  0001 L CNN "Manufacturer"
+F 28 "ASP-134486-01" H 13350 -650 50  0001 L CNN "Manufacturer Part Number"
+F 29 "6.55mm" H 13350 -725 50  0001 L CNN "ComponentHeight"
+F 30 " " H 13350 -800 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 13350 -875 50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 13350 -950 50  0001 L CNN "Author"
+F 33 "04/30/09 00:00:00" H 13350 -1025 50  0001 L CNN "CreateDate"
+F 34 "08/17/09 00:00:00" H 13350 -1100 50  0001 L CNN "LatestRevisionDate"
+F 35 "SAMTEC" H 13350 -1175 50  0001 L CNN "Database Table Name"
+F 36 "Connectors.DbLib" H 13350 -1250 50  0001 L CNN "Library Name"
+F 37 "SAMTEC SMD" H 13350 -1325 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13350 -1400 50  0001 L CNN "License"
+	10   13350 5550
 	1    0    0    -1  
 $EndComp
-Text Label 1350 9000 0    50   ~ 0
+Text Label 1550 7900 0    50   ~ 0
 FMC2_DP4_M2C_P
-Text Label 1350 9100 0    50   ~ 0
+Text Label 1550 8000 0    50   ~ 0
 FMC2_DP4_M2C_N
-Text Label 1350 9400 0    50   ~ 0
+Text Label 1550 8300 0    50   ~ 0
 FMC2_DP5_M2C_P
-Text Label 1350 9500 0    50   ~ 0
+Text Label 1550 8400 0    50   ~ 0
 FMC2_DP5_M2C_N
-Text Label 1350 11000 0    50   ~ 0
+Text Label 1550 9900 0    50   ~ 0
 FMC2_DP4_C2M_P
-Text Label 1350 11100 0    50   ~ 0
+Text Label 1550 10000 0    50   ~ 0
 FMC2_DP4_C2M_N
-Text Label 1350 11400 0    50   ~ 0
+Text Label 1550 10300 0    50   ~ 0
 FMC2_DP5_C2M_P
-Text Label 1350 11500 0    50   ~ 0
+Text Label 1550 10400 0    50   ~ 0
 FMC2_DP5_C2M_N
 Wire Wire Line
-	1950 7700 1950 8000
+	2150 6600 2150 6900
 Wire Wire Line
-	1950 7700 2100 7700
+	2150 6600 2300 6600
 Wire Wire Line
-	1950 8000 2100 8000
-Connection ~ 1950 8000
+	2150 6900 2300 6900
+Connection ~ 2150 6900
 Wire Wire Line
-	1950 8000 1950 8100
+	2150 6900 2150 7000
 Wire Wire Line
-	1950 8100 2100 8100
-Connection ~ 1950 8100
+	2150 7000 2300 7000
+Connection ~ 2150 7000
 Wire Wire Line
-	1950 8100 1950 8400
+	2150 7000 2150 7300
 Wire Wire Line
-	1950 8400 2100 8400
-Connection ~ 1950 8400
+	2150 7300 2300 7300
+Connection ~ 2150 7300
 Wire Wire Line
-	1950 8400 1950 8500
+	2150 7300 2150 7400
 Wire Wire Line
-	1950 8500 2100 8500
-Connection ~ 1950 8500
+	2150 7400 2300 7400
+Connection ~ 2150 7400
 Wire Wire Line
-	1950 8500 1950 8800
+	2150 7400 2150 7700
 Wire Wire Line
-	1950 8800 2100 8800
-Connection ~ 1950 8800
+	2150 7700 2300 7700
+Connection ~ 2150 7700
 Wire Wire Line
-	1950 8800 1950 8900
+	2150 7700 2150 7800
 Wire Wire Line
-	1950 8900 2100 8900
-Connection ~ 1950 8900
+	2150 7800 2300 7800
+Connection ~ 2150 7800
 Wire Wire Line
-	1950 8900 1950 9200
+	2150 7800 2150 8100
 Wire Wire Line
-	1950 9200 2100 9200
-Connection ~ 1950 9200
+	2150 8100 2300 8100
+Connection ~ 2150 8100
 Wire Wire Line
-	1950 9200 1950 9300
+	2150 8100 2150 8200
 Wire Wire Line
-	1950 9300 2100 9300
-Connection ~ 1950 9300
+	2150 8200 2300 8200
+Connection ~ 2150 8200
 Wire Wire Line
-	1950 9300 1950 9600
+	2150 8200 2150 8500
 Wire Wire Line
-	1950 9600 2100 9600
-Connection ~ 1950 9600
+	2150 8500 2300 8500
+Connection ~ 2150 8500
 Wire Wire Line
-	1950 9600 1950 9700
+	2150 8500 2150 8600
 Wire Wire Line
-	1950 9700 2100 9700
-Connection ~ 1950 9700
+	2150 8600 2300 8600
+Connection ~ 2150 8600
 Wire Wire Line
-	1950 9700 1950 10000
+	2150 8600 2150 8900
 Wire Wire Line
-	1950 10000 2100 10000
-Connection ~ 1950 10000
+	2150 8900 2300 8900
+Connection ~ 2150 8900
 Wire Wire Line
-	1950 10000 1950 10100
+	2150 8900 2150 9000
 Wire Wire Line
-	1950 10100 2100 10100
-Connection ~ 1950 10100
+	2150 9000 2300 9000
+Connection ~ 2150 9000
 Wire Wire Line
-	1950 10100 1950 10400
+	2150 9000 2150 9300
 Wire Wire Line
-	1950 10400 2100 10400
-Connection ~ 1950 10400
+	2150 9300 2300 9300
+Connection ~ 2150 9300
 Wire Wire Line
-	1950 10400 1950 10500
+	2150 9300 2150 9400
 Wire Wire Line
-	1950 10500 2100 10500
-Connection ~ 1950 10500
+	2150 9400 2300 9400
+Connection ~ 2150 9400
 Wire Wire Line
-	1950 10500 1950 10800
+	2150 9400 2150 9700
 Wire Wire Line
-	1950 10800 2100 10800
-Connection ~ 1950 10800
+	2150 9700 2300 9700
+Connection ~ 2150 9700
 Wire Wire Line
-	1950 10800 1950 10900
+	2150 9700 2150 9800
 Wire Wire Line
-	1950 10900 2100 10900
-Connection ~ 1950 10900
+	2150 9800 2300 9800
+Connection ~ 2150 9800
 Wire Wire Line
-	1950 10900 1950 11200
+	2150 9800 2150 10100
 Wire Wire Line
-	1950 11200 2100 11200
-Connection ~ 1950 11200
+	2150 10100 2300 10100
+Connection ~ 2150 10100
 Wire Wire Line
-	1950 11200 1950 11300
+	2150 10100 2150 10200
 Wire Wire Line
-	1950 11300 2100 11300
-Connection ~ 1950 11300
+	2150 10200 2300 10200
+Connection ~ 2150 10200
 Wire Wire Line
-	2100 11600 1950 11600
+	2300 10500 2150 10500
 Wire Wire Line
-	1350 7800 2100 7800
+	1550 6700 2300 6700
 Wire Wire Line
-	1350 7900 2100 7900
+	1550 6800 2300 6800
 Wire Wire Line
-	1350 8200 2100 8200
+	1550 7100 2300 7100
 Wire Wire Line
-	1350 8300 2100 8300
+	1550 7200 2300 7200
 Wire Wire Line
-	1350 8600 2100 8600
+	1550 7500 2300 7500
 Wire Wire Line
-	1350 8700 2100 8700
+	1550 7600 2300 7600
 Wire Wire Line
-	1350 9000 2100 9000
+	1550 7900 2300 7900
 Wire Wire Line
-	1350 9100 2100 9100
+	1550 8000 2300 8000
 Wire Wire Line
-	1350 9400 2100 9400
+	1550 8300 2300 8300
 Wire Wire Line
-	1350 9500 2100 9500
+	1550 8400 2300 8400
 Wire Wire Line
-	1350 9800 2100 9800
+	1550 8700 2300 8700
 Wire Wire Line
-	1350 9900 2100 9900
+	1550 8800 2300 8800
 Wire Wire Line
-	1350 10200 2100 10200
+	1550 9100 2300 9100
 Wire Wire Line
-	1350 10300 2100 10300
+	1550 9200 2300 9200
 Wire Wire Line
-	1350 10600 2100 10600
+	1550 9500 2300 9500
 Wire Wire Line
-	1350 10700 2100 10700
+	1550 9600 2300 9600
 Wire Wire Line
-	1350 11000 2100 11000
+	1550 9900 2300 9900
 Wire Wire Line
-	1350 11100 2100 11100
+	1550 10000 2300 10000
 Wire Wire Line
-	1350 11400 2100 11400
+	1550 10300 2300 10300
 Wire Wire Line
-	1350 11500 2100 11500
-Text Label 3600 8000 0    50   ~ 0
+	1550 10400 2300 10400
+Text Label 3300 6900 0    50   ~ 0
 FMC2_DP9_M2C_P
-Text Label 3600 8100 0    50   ~ 0
+Text Label 3300 7000 0    50   ~ 0
 FMC2_DP9_M2C_N
 Wire Wire Line
-	3600 8000 4350 8000
+	3300 6900 4050 6900
 Wire Wire Line
-	3600 8100 4350 8100
-Text Label 3600 8400 0    50   ~ 0
+	3300 7000 4050 7000
+Text Label 3300 7300 0    50   ~ 0
 FMC2_DP8_M2C_P
-Text Label 3600 8500 0    50   ~ 0
+Text Label 3300 7400 0    50   ~ 0
 FMC2_DP8_M2C_N
 Wire Wire Line
-	3600 8400 4350 8400
+	3300 7300 4050 7300
 Wire Wire Line
-	3600 8500 4350 8500
-Text Label 3600 8800 0    50   ~ 0
+	3300 7400 4050 7400
+Text Label 3300 7700 0    50   ~ 0
 FMC2_DP7_M2C_P
-Text Label 3600 8900 0    50   ~ 0
+Text Label 3300 7800 0    50   ~ 0
 FMC2_DP7_M2C_N
 Wire Wire Line
-	3600 8800 4350 8800
+	3300 7700 4050 7700
 Wire Wire Line
-	3600 8900 4350 8900
-Text Label 3600 9200 0    50   ~ 0
+	3300 7800 4050 7800
+Text Label 3300 8100 0    50   ~ 0
 FMC2_DP6_M2C_P
-Text Label 3600 9300 0    50   ~ 0
+Text Label 3300 8200 0    50   ~ 0
 FMC2_DP6_M2C_N
 Wire Wire Line
-	3600 9200 4350 9200
+	3300 8100 4050 8100
 Wire Wire Line
-	3600 9300 4350 9300
+	3300 8200 4050 8200
 Wire Wire Line
-	3600 7700 4350 7700
-Text Label 3600 7700 0    50   ~ 0
+	3300 6600 4050 6600
+Text Label 3300 6600 0    50   ~ 0
 CLK_DIR
 Wire Wire Line
-	4200 8200 4350 8200
-Connection ~ 4200 8200
+	3900 7100 4050 7100
+Connection ~ 3900 7100
 Wire Wire Line
-	4200 8200 4200 8300
+	3900 7100 3900 7200
 Wire Wire Line
-	4200 8300 4350 8300
-Connection ~ 4200 8300
+	3900 7200 4050 7200
+Connection ~ 3900 7200
 Wire Wire Line
-	4350 7800 4200 7800
+	4050 6700 3900 6700
 Wire Wire Line
-	4200 7800 4200 7900
+	3900 6700 3900 6800
 Wire Wire Line
-	4350 7900 4200 7900
-Connection ~ 4200 7900
+	4050 6800 3900 6800
+Connection ~ 3900 6800
 Wire Wire Line
-	4200 7900 4200 8200
+	3900 6800 3900 7100
 Wire Wire Line
-	4200 11500 4350 11500
+	3900 10400 4050 10400
 Wire Wire Line
-	4200 8300 4200 8600
+	3900 7200 3900 7500
 Wire Wire Line
-	4200 8600 4350 8600
-Connection ~ 4200 8600
+	3900 7500 4050 7500
+Connection ~ 3900 7500
 Wire Wire Line
-	4200 8600 4200 8700
+	3900 7500 3900 7600
 Wire Wire Line
-	4200 8700 4350 8700
-Connection ~ 4200 8700
+	3900 7600 4050 7600
+Connection ~ 3900 7600
 Wire Wire Line
-	4200 8700 4200 9000
+	3900 7600 3900 7900
 Wire Wire Line
-	4200 9000 4350 9000
-Connection ~ 4200 9000
+	3900 7900 4050 7900
+Connection ~ 3900 7900
 Wire Wire Line
-	4200 9000 4200 9100
+	3900 7900 3900 8000
 Wire Wire Line
-	4200 9100 4350 9100
-Connection ~ 4200 9100
+	3900 8000 4050 8000
+Connection ~ 3900 8000
 Wire Wire Line
-	4200 9100 4200 9400
-Text Label 3550 9600 0    50   ~ 0
+	3900 8000 3900 8300
+Text Label 3250 8500 0    50   ~ 0
 GBTCLK1_M2C_P
-Text Label 3550 9700 0    50   ~ 0
+Text Label 3250 8600 0    50   ~ 0
 GBTCLK1_M2C_N
 Wire Wire Line
-	3550 9600 4350 9600
+	3250 8500 4050 8500
 Wire Wire Line
-	3550 9700 4350 9700
+	3250 8600 4050 8600
 Wire Wire Line
-	4200 11400 4350 11400
-Connection ~ 4200 11400
+	3900 10300 4050 10300
+Connection ~ 3900 10300
 Wire Wire Line
-	4200 11400 4200 11500
-Text Label 3600 11200 0    50   ~ 0
+	3900 10300 3900 10400
+Text Label 3300 10100 0    50   ~ 0
 FMC2_DP6_C2M_P
-Text Label 3600 11300 0    50   ~ 0
+Text Label 3300 10200 0    50   ~ 0
 FMC2_DP6_C2M_N
 Wire Wire Line
-	3600 11200 4350 11200
+	3300 10100 4050 10100
 Wire Wire Line
-	3600 11300 4350 11300
-Text Label 3600 10800 0    50   ~ 0
+	3300 10200 4050 10200
+Text Label 3300 9700 0    50   ~ 0
 FMC2_DP7_C2M_P
-Text Label 3600 10900 0    50   ~ 0
+Text Label 3300 9800 0    50   ~ 0
 FMC2_DP7_C2M_N
 Wire Wire Line
-	3600 10800 4350 10800
+	3300 9700 4050 9700
 Wire Wire Line
-	3600 10900 4350 10900
-Text Label 3600 10400 0    50   ~ 0
+	3300 9800 4050 9800
+Text Label 3300 9300 0    50   ~ 0
 FMC2_DP8_C2M_P
-Text Label 3600 10500 0    50   ~ 0
+Text Label 3300 9400 0    50   ~ 0
 FMC2_DP8_C2M_N
 Wire Wire Line
-	3600 10400 4350 10400
+	3300 9300 4050 9300
 Wire Wire Line
-	3600 10500 4350 10500
-Text Label 3600 10000 0    50   ~ 0
+	3300 9400 4050 9400
+Text Label 3300 8900 0    50   ~ 0
 FMC2_DP9_C2M_P
-Text Label 3600 10100 0    50   ~ 0
+Text Label 3300 9000 0    50   ~ 0
 FMC2_DP9_C2M_N
 Wire Wire Line
-	3600 10000 4350 10000
+	3300 8900 4050 8900
 Wire Wire Line
-	3600 10100 4350 10100
+	3300 9000 4050 9000
 Wire Wire Line
-	4200 9400 4350 9400
-Connection ~ 4200 9400
+	3900 8300 4050 8300
+Connection ~ 3900 8300
 Wire Wire Line
-	4200 9400 4200 9500
+	3900 8300 3900 8400
 Wire Wire Line
-	4200 9500 4350 9500
-Connection ~ 4200 9500
+	3900 8400 4050 8400
+Connection ~ 3900 8400
 Wire Wire Line
-	4200 9500 4200 9800
+	3900 8400 3900 8700
 Wire Wire Line
-	4200 9800 4350 9800
-Connection ~ 4200 9800
+	3900 8700 4050 8700
+Connection ~ 3900 8700
 Wire Wire Line
-	4200 9800 4200 9900
+	3900 8700 3900 8800
 Wire Wire Line
-	4200 9900 4350 9900
-Connection ~ 4200 9900
+	3900 8800 4050 8800
+Connection ~ 3900 8800
 Wire Wire Line
-	4200 9900 4200 10200
+	3900 8800 3900 9100
 Wire Wire Line
-	4200 10200 4350 10200
-Connection ~ 4200 10200
+	3900 9100 4050 9100
+Connection ~ 3900 9100
 Wire Wire Line
-	4200 10200 4200 10300
+	3900 9100 3900 9200
 Wire Wire Line
-	4200 10300 4350 10300
-Connection ~ 4200 10300
+	3900 9200 4050 9200
+Connection ~ 3900 9200
 Wire Wire Line
-	4200 10300 4200 10600
+	3900 9200 3900 9500
 Wire Wire Line
-	4200 10600 4350 10600
-Connection ~ 4200 10600
+	3900 9500 4050 9500
+Connection ~ 3900 9500
 Wire Wire Line
-	4200 10600 4200 10700
+	3900 9500 3900 9600
 Wire Wire Line
-	4200 10700 4350 10700
-Connection ~ 4200 10700
+	3900 9600 4050 9600
+Connection ~ 3900 9600
 Wire Wire Line
-	4200 10700 4200 11000
+	3900 9600 3900 9900
 Wire Wire Line
-	4200 11000 4350 11000
-Connection ~ 4200 11000
+	3900 9900 4050 9900
+Connection ~ 3900 9900
 Wire Wire Line
-	4200 11000 4200 11100
+	3900 9900 3900 10000
 Wire Wire Line
-	4200 11100 4350 11100
-Connection ~ 4200 11100
+	3900 10000 4050 10000
+Connection ~ 3900 10000
 Wire Wire Line
-	4200 11100 4200 11400
+	3900 10000 3900 10300
 Wire Wire Line
-	3600 11600 4350 11600
-Text Label 3600 11600 0    50   ~ 0
+	3300 10500 4050 10500
+Text Label 3300 10500 0    50   ~ 0
 RES0
 $Comp
 L power:GND #PWR?
 U 1 1 61D4E4AE
-P 4200 11750
+P 3900 10650
 AR Path="/5BD32060/61D4E4AE" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/61D4E4AE" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/61D4E4AE" Ref="#PWR0428"  Part="1" 
-F 0 "#PWR0428" H 4200 11500 50  0001 C CNN
-F 1 "GND" H 4205 11577 50  0000 C CNN
-F 2 "" H 4200 11750 50  0001 C CNN
-F 3 "" H 4200 11750 50  0001 C CNN
-	1    4200 11750
+F 0 "#PWR0428" H 3900 10400 50  0001 C CNN
+F 1 "GND" H 3905 10477 50  0000 C CNN
+F 2 "" H 3900 10650 50  0001 C CNN
+F 3 "" H 3900 10650 50  0001 C CNN
+	1    3900 10650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 11500 4200 11750
-Connection ~ 4200 11500
+	3900 10400 3900 10650
+Connection ~ 3900 10400
 $Comp
 L power:GND #PWR?
 U 1 1 61E70D7A
-P 1950 11800
+P 2150 10700
 AR Path="/5BD32060/61E70D7A" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/61E70D7A" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/61E70D7A" Ref="#PWR0423"  Part="1" 
-F 0 "#PWR0423" H 1950 11550 50  0001 C CNN
-F 1 "GND" H 1955 11627 50  0000 C CNN
-F 2 "" H 1950 11800 50  0001 C CNN
-F 3 "" H 1950 11800 50  0001 C CNN
-	1    1950 11800
+F 0 "#PWR0423" H 2150 10450 50  0001 C CNN
+F 1 "GND" H 2155 10527 50  0000 C CNN
+F 2 "" H 2150 10700 50  0001 C CNN
+F 3 "" H 2150 10700 50  0001 C CNN
+	1    2150 10700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 11300 1950 11600
+	2150 10200 2150 10500
 Wire Wire Line
-	1950 11600 1950 11800
-Connection ~ 1950 11600
+	2150 10500 2150 10700
+Connection ~ 2150 10500
 Wire Wire Line
-	6700 7800 7450 7800
+	5500 6700 6250 6700
 Wire Wire Line
-	6700 7900 7450 7900
+	5500 6800 6250 6800
 Wire Wire Line
-	6700 8200 7450 8200
+	5500 7100 6250 7100
 Wire Wire Line
-	6700 8300 7450 8300
+	5500 7200 6250 7200
 Wire Wire Line
-	6700 8500 7450 8500
+	5500 7400 6250 7400
 Wire Wire Line
-	6700 8600 7450 8600
+	5500 7500 6250 7500
 Wire Wire Line
-	6700 8800 7450 8800
+	5500 7700 6250 7700
 Wire Wire Line
-	6700 8900 7450 8900
+	5500 7800 6250 7800
 Wire Wire Line
-	6700 9100 7450 9100
+	5500 8000 6250 8000
 Wire Wire Line
-	6700 9200 7450 9200
+	5500 8100 6250 8100
 Wire Wire Line
-	6700 9400 7450 9400
+	5500 8300 6250 8300
 Wire Wire Line
-	6700 9500 7450 9500
+	5500 8400 6250 8400
 Wire Wire Line
-	6700 9700 7450 9700
+	5500 8600 6250 8600
 Wire Wire Line
-	6700 9800 7450 9800
+	5500 8700 6250 8700
 Wire Wire Line
-	6700 10000 7450 10000
+	5500 8900 6250 8900
 Wire Wire Line
-	6700 10100 7450 10100
+	5500 9000 6250 9000
 Wire Wire Line
-	6700 10300 7450 10300
+	5500 9200 6250 9200
 Wire Wire Line
-	6700 10400 7450 10400
+	5500 9300 6250 9300
 Wire Wire Line
-	6700 10600 7450 10600
+	5500 9500 6250 9500
 Wire Wire Line
-	6700 10700 7450 10700
+	5500 9600 6250 9600
 Wire Wire Line
-	6700 10900 7450 10900
+	5500 9800 6250 9800
 Wire Wire Line
-	6700 11000 7450 11000
+	5500 9900 6250 9900
 Wire Wire Line
-	6700 11200 7450 11200
+	5500 10100 6250 10100
 Wire Wire Line
-	6700 11300 7450 11300
+	5500 10200 6250 10200
 Wire Wire Line
-	7450 7700 7300 7700
+	6250 6600 6100 6600
 Wire Wire Line
-	7300 11400 7450 11400
-Connection ~ 7300 11400
+	6100 10300 6250 10300
+Connection ~ 6100 10300
 Wire Wire Line
-	7300 11400 7300 11600
+	6100 10300 6100 10500
 Wire Wire Line
-	7300 11600 7450 11600
-Connection ~ 7300 11600
+	6100 10500 6250 10500
+Connection ~ 6100 10500
 Wire Wire Line
-	7300 11600 7300 11750
+	6100 10500 6100 10650
 Wire Wire Line
-	7300 11100 7450 11100
-Connection ~ 7300 11100
+	6100 10000 6250 10000
+Connection ~ 6100 10000
 Wire Wire Line
-	7300 11100 7300 11400
+	6100 10000 6100 10300
 Wire Wire Line
-	7300 10800 7450 10800
-Connection ~ 7300 10800
+	6100 9700 6250 9700
+Connection ~ 6100 9700
 Wire Wire Line
-	7300 10800 7300 11100
+	6100 9700 6100 10000
 Wire Wire Line
-	7300 10500 7450 10500
-Connection ~ 7300 10500
+	6100 9400 6250 9400
+Connection ~ 6100 9400
 Wire Wire Line
-	7300 10500 7300 10800
+	6100 9400 6100 9700
 Wire Wire Line
-	7300 10200 7450 10200
-Connection ~ 7300 10200
+	6100 9100 6250 9100
+Connection ~ 6100 9100
 Wire Wire Line
-	7300 10200 7300 10500
+	6100 9100 6100 9400
 Wire Wire Line
-	7300 7700 7300 8000
+	6100 6600 6100 6900
 Wire Wire Line
-	7300 9900 7450 9900
-Connection ~ 7300 9900
+	6100 8800 6250 8800
+Connection ~ 6100 8800
 Wire Wire Line
-	7300 9900 7300 10200
-Connection ~ 7300 9600
+	6100 8800 6100 9100
+Connection ~ 6100 8500
 Wire Wire Line
-	7300 9600 7300 9900
+	6100 8500 6100 8800
 Wire Wire Line
-	7300 9600 7450 9600
+	6100 8500 6250 8500
 Wire Wire Line
-	7300 9300 7450 9300
-Connection ~ 7300 9300
+	6100 8200 6250 8200
+Connection ~ 6100 8200
 Wire Wire Line
-	7300 9300 7300 9600
+	6100 8200 6100 8500
 Wire Wire Line
-	7300 9000 7450 9000
-Connection ~ 7300 9000
+	6100 7900 6250 7900
+Connection ~ 6100 7900
 Wire Wire Line
-	7300 9000 7300 9300
+	6100 7900 6100 8200
 Wire Wire Line
-	7300 8700 7450 8700
-Connection ~ 7300 8700
+	6100 7600 6250 7600
+Connection ~ 6100 7600
 Wire Wire Line
-	7300 8700 7300 9000
+	6100 7600 6100 7900
 Wire Wire Line
-	7300 8400 7450 8400
-Connection ~ 7300 8400
+	6100 7300 6250 7300
+Connection ~ 6100 7300
 Wire Wire Line
-	7300 8400 7300 8700
+	6100 7300 6100 7600
 Wire Wire Line
-	7300 8100 7450 8100
-Connection ~ 7300 8100
+	6100 7000 6250 7000
+Connection ~ 6100 7000
 Wire Wire Line
-	7300 8100 7300 8400
+	6100 7000 6100 7300
 Wire Wire Line
-	7300 8000 7450 8000
-Connection ~ 7300 8000
+	6100 6900 6250 6900
+Connection ~ 6100 6900
 Wire Wire Line
-	7300 8000 7300 8100
+	6100 6900 6100 7000
 Wire Wire Line
-	8700 7700 9450 7700
+	7500 6600 8250 6600
 Wire Wire Line
-	8700 8000 9450 8000
+	7500 6900 8250 6900
 Wire Wire Line
-	8700 8100 9450 8100
+	7500 7000 8250 7000
 Wire Wire Line
-	8700 8300 9450 8300
+	7500 7200 8250 7200
 Wire Wire Line
-	8700 8400 9450 8400
+	7500 7300 8250 7300
 Wire Wire Line
-	8700 8600 9450 8600
+	7500 7500 8250 7500
 Wire Wire Line
-	8700 8700 9450 8700
+	7500 7600 8250 7600
 Wire Wire Line
-	8700 8900 9450 8900
+	7500 7800 8250 7800
 Wire Wire Line
-	8700 9000 9450 9000
+	7500 7900 8250 7900
 Wire Wire Line
-	8700 9200 9450 9200
+	7500 8100 8250 8100
 Wire Wire Line
-	8700 9300 9450 9300
+	7500 8200 8250 8200
 Wire Wire Line
-	8700 9500 9450 9500
+	7500 8400 8250 8400
 Wire Wire Line
-	8700 9600 9450 9600
+	7500 8500 8250 8500
 Wire Wire Line
-	8700 9800 9450 9800
+	7500 8700 8250 8700
 Wire Wire Line
-	8700 9900 9450 9900
+	7500 8800 8250 8800
 Wire Wire Line
-	8700 10100 9450 10100
+	7500 9000 8250 9000
 Wire Wire Line
-	8700 10200 9450 10200
+	7500 9100 8250 9100
 Wire Wire Line
-	8700 10400 9450 10400
+	7500 9300 8250 9300
 Wire Wire Line
-	8700 10500 9450 10500
+	7500 9400 8250 9400
 Wire Wire Line
-	8700 10700 9450 10700
+	7500 9600 8250 9600
 Wire Wire Line
-	8700 10800 9450 10800
+	7500 9700 8250 9700
 Wire Wire Line
-	8700 11000 9450 11000
+	7500 9900 8250 9900
 Wire Wire Line
-	8700 11100 9450 11100
+	7500 10000 8250 10000
 Wire Wire Line
-	8700 11300 9450 11300
+	7500 10200 8250 10200
 Wire Wire Line
-	8700 11400 9450 11400
+	7500 10300 8250 10300
 Wire Wire Line
-	8700 11600 9450 11600
+	7500 10500 8250 10500
 Wire Wire Line
-	6700 11500 7450 11500
+	5500 10400 6250 10400
 Wire Wire Line
-	9450 7800 9300 7800
+	8250 6700 8100 6700
 Wire Wire Line
-	9300 7800 9300 7900
+	8100 6700 8100 6800
 Wire Wire Line
-	9300 11500 9450 11500
+	8100 10400 8250 10400
 Wire Wire Line
-	9300 11200 9450 11200
-Connection ~ 9300 11200
+	8100 10100 8250 10100
+Connection ~ 8100 10100
 Wire Wire Line
-	9300 11200 9300 11500
+	8100 10100 8100 10400
 Wire Wire Line
-	9300 10900 9450 10900
-Connection ~ 9300 10900
+	8100 9800 8250 9800
+Connection ~ 8100 9800
 Wire Wire Line
-	9300 10900 9300 11200
+	8100 9800 8100 10100
 Wire Wire Line
-	9300 10600 9450 10600
-Connection ~ 9300 10600
+	8100 9500 8250 9500
+Connection ~ 8100 9500
 Wire Wire Line
-	9300 10600 9300 10900
+	8100 9500 8100 9800
 Wire Wire Line
-	9300 10300 9450 10300
-Connection ~ 9300 10300
+	8100 9200 8250 9200
+Connection ~ 8100 9200
 Wire Wire Line
-	9300 10300 9300 10600
+	8100 9200 8100 9500
 Wire Wire Line
-	9300 10000 9450 10000
-Connection ~ 9300 10000
+	8100 8900 8250 8900
+Connection ~ 8100 8900
 Wire Wire Line
-	9300 10000 9300 10300
+	8100 8900 8100 9200
 Wire Wire Line
-	9300 9700 9450 9700
-Connection ~ 9300 9700
+	8100 8600 8250 8600
+Connection ~ 8100 8600
 Wire Wire Line
-	9300 9700 9300 10000
+	8100 8600 8100 8900
 Wire Wire Line
-	9300 9400 9450 9400
-Connection ~ 9300 9400
+	8100 8300 8250 8300
+Connection ~ 8100 8300
 Wire Wire Line
-	9300 9400 9300 9700
+	8100 8300 8100 8600
 Wire Wire Line
-	9300 9100 9450 9100
-Connection ~ 9300 9100
+	8100 8000 8250 8000
+Connection ~ 8100 8000
 Wire Wire Line
-	9300 9100 9300 9400
+	8100 8000 8100 8300
 Wire Wire Line
-	9300 8800 9450 8800
-Connection ~ 9300 8800
+	8100 7700 8250 7700
+Connection ~ 8100 7700
 Wire Wire Line
-	9300 8800 9300 9100
+	8100 7700 8100 8000
 Wire Wire Line
-	9300 8500 9450 8500
-Connection ~ 9300 8500
+	8100 7400 8250 7400
+Connection ~ 8100 7400
 Wire Wire Line
-	9300 8500 9300 8800
+	8100 7400 8100 7700
 Wire Wire Line
-	9300 8200 9450 8200
-Connection ~ 9300 8200
+	8100 7100 8250 7100
+Connection ~ 8100 7100
 Wire Wire Line
-	9300 8200 9300 8500
+	8100 7100 8100 7400
 Wire Wire Line
-	9300 7900 9450 7900
-Connection ~ 9300 7900
+	8100 6800 8250 6800
+Connection ~ 8100 6800
 Wire Wire Line
-	9300 7900 9300 8200
+	8100 6800 8100 7100
 Wire Wire Line
-	12400 7700 12250 7700
+	10500 6600 10350 6600
 Wire Wire Line
-	12250 8000 12400 8000
+	10350 6900 10500 6900
 Wire Wire Line
-	12400 8100 12250 8100
+	10500 7000 10350 7000
 Wire Wire Line
-	12250 8000 12250 8100
-Connection ~ 12250 8000
+	10350 6900 10350 7000
+Connection ~ 10350 6900
 $Comp
 L power:GND #PWR?
 U 1 1 6D8AA274
-P 7300 11750
+P 6100 10650
 AR Path="/5BD32060/6D8AA274" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/6D8AA274" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/6D8AA274" Ref="#PWR0669"  Part="1" 
-F 0 "#PWR0669" H 7300 11500 50  0001 C CNN
-F 1 "GND" H 7305 11577 50  0000 C CNN
-F 2 "" H 7300 11750 50  0001 C CNN
-F 3 "" H 7300 11750 50  0001 C CNN
-	1    7300 11750
+F 0 "#PWR0669" H 6100 10400 50  0001 C CNN
+F 1 "GND" H 6105 10477 50  0000 C CNN
+F 2 "" H 6100 10650 50  0001 C CNN
+F 3 "" H 6100 10650 50  0001 C CNN
+	1    6100 10650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6D916D4E
-P 9300 11750
+P 8100 10650
 AR Path="/5BD32060/6D916D4E" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/6D916D4E" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/6D916D4E" Ref="#PWR0670"  Part="1" 
-F 0 "#PWR0670" H 9300 11500 50  0001 C CNN
-F 1 "GND" H 9305 11577 50  0000 C CNN
-F 2 "" H 9300 11750 50  0001 C CNN
-F 3 "" H 9300 11750 50  0001 C CNN
-	1    9300 11750
+F 0 "#PWR0670" H 8100 10400 50  0001 C CNN
+F 1 "GND" H 8105 10477 50  0000 C CNN
+F 2 "" H 8100 10650 50  0001 C CNN
+F 3 "" H 8100 10650 50  0001 C CNN
+	1    8100 10650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6D9D0D7B
-P 12250 11750
+P 10350 10650
 AR Path="/5BD32060/6D9D0D7B" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/6D9D0D7B" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/6D9D0D7B" Ref="#PWR0671"  Part="1" 
-F 0 "#PWR0671" H 12250 11500 50  0001 C CNN
-F 1 "GND" H 12255 11577 50  0000 C CNN
-F 2 "" H 12250 11750 50  0001 C CNN
-F 3 "" H 12250 11750 50  0001 C CNN
-	1    12250 11750
+F 0 "#PWR0671" H 10350 10400 50  0001 C CNN
+F 1 "GND" H 10355 10477 50  0000 C CNN
+F 2 "" H 10350 10650 50  0001 C CNN
+F 3 "" H 10350 10650 50  0001 C CNN
+	1    10350 10650
 	1    0    0    -1  
 $EndComp
-Connection ~ 12250 8100
+Connection ~ 10350 7000
 Wire Wire Line
-	12250 8100 12250 8400
+	10350 7000 10350 7300
 Wire Wire Line
-	12250 7700 12250 8000
+	10350 6600 10350 6900
 Wire Wire Line
-	11650 8200 12400 8200
+	9750 7100 10500 7100
 Wire Wire Line
-	11650 8300 12400 8300
+	9750 7200 10500 7200
 Wire Wire Line
-	11650 8500 12400 8500
+	9750 7400 10500 7400
 Wire Wire Line
-	11650 8600 12400 8600
+	9750 7500 10500 7500
 Wire Wire Line
-	11650 8800 12400 8800
+	9750 7700 10500 7700
 Wire Wire Line
-	11650 8900 12400 8900
+	9750 7800 10500 7800
 Wire Wire Line
-	11650 9100 12400 9100
+	9750 8000 10500 8000
 Wire Wire Line
-	11650 9200 12400 9200
+	9750 8100 10500 8100
 Wire Wire Line
-	11650 9400 12400 9400
+	9750 8300 10500 8300
 Wire Wire Line
-	11650 9500 12400 9500
+	9750 8400 10500 8400
 Wire Wire Line
-	11650 9700 12400 9700
+	9750 8600 10500 8600
 Wire Wire Line
-	11650 9800 12400 9800
+	9750 8700 10500 8700
 Wire Wire Line
-	11650 10000 12400 10000
+	9750 8900 10500 8900
 Wire Wire Line
-	11650 10100 12400 10100
+	9750 9000 10500 9000
 Wire Wire Line
-	11650 10300 12400 10300
+	9750 9200 10500 9200
 Wire Wire Line
-	11650 10400 12400 10400
+	9750 9300 10500 9300
 Wire Wire Line
-	11650 10600 12400 10600
+	9750 9500 10500 9500
 Wire Wire Line
-	11650 10700 12400 10700
+	9750 9600 10500 9600
 Wire Wire Line
-	11650 10900 12400 10900
+	9750 9800 10500 9800
 Wire Wire Line
-	11650 11000 12400 11000
+	9750 9900 10500 9900
 Wire Wire Line
-	11650 11200 12400 11200
+	9750 10100 10500 10100
 Wire Wire Line
-	11650 11300 12400 11300
+	9750 10200 10500 10200
 Wire Wire Line
-	12250 11400 12400 11400
-Connection ~ 12250 11400
+	10350 10300 10500 10300
+Connection ~ 10350 10300
 Wire Wire Line
-	12250 11400 12250 11600
+	10350 10300 10350 10500
 Wire Wire Line
-	12250 11600 12400 11600
+	10350 10500 10500 10500
 Wire Wire Line
-	12250 11100 12400 11100
-Connection ~ 12250 11100
+	10350 10000 10500 10000
+Connection ~ 10350 10000
 Wire Wire Line
-	12250 11100 12250 11400
+	10350 10000 10350 10300
 Wire Wire Line
-	12250 10800 12400 10800
-Connection ~ 12250 10800
+	10350 9700 10500 9700
+Connection ~ 10350 9700
 Wire Wire Line
-	12250 10800 12250 11100
+	10350 9700 10350 10000
 Wire Wire Line
-	12250 10500 12400 10500
-Connection ~ 12250 10500
+	10350 9400 10500 9400
+Connection ~ 10350 9400
 Wire Wire Line
-	12250 10500 12250 10800
+	10350 9400 10350 9700
 Wire Wire Line
-	12250 10200 12400 10200
-Connection ~ 12250 10200
+	10350 9100 10500 9100
+Connection ~ 10350 9100
 Wire Wire Line
-	12250 10200 12250 10500
+	10350 9100 10350 9400
 Wire Wire Line
-	12250 9900 12400 9900
-Connection ~ 12250 9900
+	10350 8800 10500 8800
+Connection ~ 10350 8800
 Wire Wire Line
-	12250 9900 12250 10200
+	10350 8800 10350 9100
 Wire Wire Line
-	12250 9600 12400 9600
-Connection ~ 12250 9600
+	10350 8500 10500 8500
+Connection ~ 10350 8500
 Wire Wire Line
-	12250 9600 12250 9900
+	10350 8500 10350 8800
 Wire Wire Line
-	12250 9300 12400 9300
-Connection ~ 12250 9300
+	10350 8200 10500 8200
+Connection ~ 10350 8200
 Wire Wire Line
-	12250 9300 12250 9600
+	10350 8200 10350 8500
 Wire Wire Line
-	12250 9000 12400 9000
-Connection ~ 12250 9000
+	10350 7900 10500 7900
+Connection ~ 10350 7900
 Wire Wire Line
-	12250 9000 12250 9300
+	10350 7900 10350 8200
 Wire Wire Line
-	12250 8700 12400 8700
-Connection ~ 12250 8700
+	10350 7600 10500 7600
+Connection ~ 10350 7600
 Wire Wire Line
-	12250 8700 12250 9000
+	10350 7600 10350 7900
 Wire Wire Line
-	12250 8400 12400 8400
-Connection ~ 12250 8400
+	10350 7300 10500 7300
+Connection ~ 10350 7300
 Wire Wire Line
-	12250 8400 12250 8700
+	10350 7300 10350 7600
 Wire Wire Line
-	11650 11500 12400 11500
+	9750 10400 10500 10400
 Wire Wire Line
-	14800 7800 14650 7800
+	13150 5750 13000 5750
 Wire Wire Line
-	14650 7800 14650 7900
+	13000 5750 13000 5850
 Wire Wire Line
-	14650 7900 14800 7900
+	13000 5850 13150 5850
 Wire Wire Line
-	14800 8200 14650 8200
+	13150 6150 13000 6150
 Wire Wire Line
-	14650 8200 14650 7900
-Connection ~ 14650 7900
+	13000 6150 13000 5850
+Connection ~ 13000 5850
 Wire Wire Line
-	14650 8200 14650 8500
-Connection ~ 14650 8200
+	13000 6150 13000 6450
+Connection ~ 13000 6150
 $Comp
 L power:GND #PWR?
 U 1 1 6F46EFD7
-P 14650 11750
+P 13000 9700
 AR Path="/5BD32060/6F46EFD7" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9A/6F46EFD7" Ref="#PWR?"  Part="1" 
 AR Path="/5BD31F9F/6F46EFD7" Ref="#PWR0672"  Part="1" 
-F 0 "#PWR0672" H 14650 11500 50  0001 C CNN
-F 1 "GND" H 14655 11577 50  0000 C CNN
-F 2 "" H 14650 11750 50  0001 C CNN
-F 3 "" H 14650 11750 50  0001 C CNN
-	1    14650 11750
+F 0 "#PWR0672" H 13000 9450 50  0001 C CNN
+F 1 "GND" H 13005 9527 50  0000 C CNN
+F 2 "" H 13000 9700 50  0001 C CNN
+F 3 "" H 13000 9700 50  0001 C CNN
+	1    13000 9700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 11750 12250 11600
-Connection ~ 12250 11600
+	10350 10650 10350 10500
+Connection ~ 10350 10500
 Wire Wire Line
-	9300 11750 9300 11500
-Connection ~ 9300 11500
+	8100 10650 8100 10400
+Connection ~ 8100 10400
 Wire Wire Line
-	14050 8300 14800 8300
+	12400 6250 13150 6250
 Wire Wire Line
-	14050 8400 14800 8400
+	12400 6350 13150 6350
 Wire Wire Line
-	14050 8600 14800 8600
+	12400 6550 13150 6550
 Wire Wire Line
-	14050 8700 14800 8700
+	12400 6650 13150 6650
 Wire Wire Line
-	14050 8900 14800 8900
+	12400 6850 13150 6850
 Wire Wire Line
-	14050 9000 14800 9000
+	12400 6950 13150 6950
 Wire Wire Line
-	14050 9200 14800 9200
+	12400 7150 13150 7150
 Wire Wire Line
-	14050 9300 14800 9300
+	12400 7250 13150 7250
 Wire Wire Line
-	14050 9500 14800 9500
+	12400 7450 13150 7450
 Wire Wire Line
-	14050 9600 14800 9600
+	12400 7550 13150 7550
 Wire Wire Line
-	14050 9800 14800 9800
+	12400 7750 13150 7750
 Wire Wire Line
-	14050 9900 14800 9900
+	12400 7850 13150 7850
 Wire Wire Line
-	14050 10100 14800 10100
+	12400 8050 13150 8050
 Wire Wire Line
-	14050 10200 14800 10200
+	12400 8150 13150 8150
 Wire Wire Line
-	14050 10400 14800 10400
+	12400 8350 13150 8350
 Wire Wire Line
-	14050 10500 14800 10500
+	12400 8450 13150 8450
 Wire Wire Line
-	14050 10700 14800 10700
+	12400 8650 13150 8650
 Wire Wire Line
-	14050 10800 14800 10800
+	12400 8750 13150 8750
 Wire Wire Line
-	14050 11000 14800 11000
+	12400 8950 13150 8950
 Wire Wire Line
-	14050 11100 14800 11100
+	12400 9050 13150 9050
 Wire Wire Line
-	14050 11300 14800 11300
+	12400 9250 13150 9250
 Wire Wire Line
-	14050 11400 14800 11400
+	12400 9350 13150 9350
 Wire Wire Line
-	14650 8500 14800 8500
-Connection ~ 14650 8500
+	13000 6450 13150 6450
+Connection ~ 13000 6450
 Wire Wire Line
-	14650 8500 14650 8800
+	13000 6450 13000 6750
 Wire Wire Line
-	14650 8800 14800 8800
-Connection ~ 14650 8800
+	13000 6750 13150 6750
+Connection ~ 13000 6750
 Wire Wire Line
-	14650 8800 14650 9100
+	13000 6750 13000 7050
 Wire Wire Line
-	14650 9100 14800 9100
-Connection ~ 14650 9100
+	13000 7050 13150 7050
+Connection ~ 13000 7050
 Wire Wire Line
-	14650 9100 14650 9400
+	13000 7050 13000 7350
 Wire Wire Line
-	14650 9400 14800 9400
-Connection ~ 14650 9400
+	13000 7350 13150 7350
+Connection ~ 13000 7350
 Wire Wire Line
-	14650 9400 14650 9700
+	13000 7350 13000 7650
 Wire Wire Line
-	14650 9700 14800 9700
-Connection ~ 14650 9700
+	13000 7650 13150 7650
+Connection ~ 13000 7650
 Wire Wire Line
-	14650 9700 14650 10000
+	13000 7650 13000 7950
 Wire Wire Line
-	14650 10000 14800 10000
-Connection ~ 14650 10000
+	13000 7950 13150 7950
+Connection ~ 13000 7950
 Wire Wire Line
-	14650 10000 14650 10300
+	13000 7950 13000 8250
 Wire Wire Line
-	14650 10300 14800 10300
-Connection ~ 14650 10300
+	13000 8250 13150 8250
+Connection ~ 13000 8250
 Wire Wire Line
-	14650 10300 14650 10600
+	13000 8250 13000 8550
 Wire Wire Line
-	14650 10600 14800 10600
-Connection ~ 14650 10600
+	13000 8550 13150 8550
+Connection ~ 13000 8550
 Wire Wire Line
-	14650 10600 14650 10900
+	13000 8550 13000 8850
 Wire Wire Line
-	14650 10900 14800 10900
-Connection ~ 14650 10900
+	13000 8850 13150 8850
+Connection ~ 13000 8850
 Wire Wire Line
-	14650 10900 14650 11200
+	13000 8850 13000 9150
 Wire Wire Line
-	14650 11200 14800 11200
-Connection ~ 14650 11200
+	13000 9150 13150 9150
+Connection ~ 13000 9150
 Wire Wire Line
-	14650 11200 14650 11500
+	13000 9150 13000 9450
 Wire Wire Line
-	14650 11500 14800 11500
-Connection ~ 14650 11500
+	13000 9450 13150 9450
+Connection ~ 13000 9450
 Wire Wire Line
-	14650 11500 14650 11750
+	13000 9450 13000 9700
 Wire Wire Line
-	14050 11600 14800 11600
+	12400 9550 13150 9550
 Wire Wire Line
-	14050 7700 14800 7700
-Text Label 14000 8000 0    50   ~ 0
+	12400 5650 13150 5650
+Text Label 12350 5950 0    50   ~ 0
 GBTCLK2_M2C_P
-Text Label 14000 8100 0    50   ~ 0
+Text Label 12350 6050 0    50   ~ 0
 GBTCLK2_M2C_N
-Text Label 11600 7800 0    50   ~ 0
+Text Label 9700 6700 0    50   ~ 0
 GBTCLK3_M2C_P
-Text Label 11600 7900 0    50   ~ 0
+Text Label 9700 6800 0    50   ~ 0
 GBTCLK3_M2C_N
 Wire Wire Line
-	14000 8000 14800 8000
+	12350 5950 13150 5950
 Wire Wire Line
-	14000 8100 14800 8100
+	12350 6050 13150 6050
 Wire Wire Line
-	11600 7800 12400 7800
+	9700 6700 10500 6700
 Wire Wire Line
-	11600 7900 12400 7900
-Text GLabel 1350 7800 0    50   Input ~ 0
+	9700 6800 10500 6800
+Text GLabel 1550 6700 0    50   Input ~ 0
 FMC2_DP1_M2C_P
-Text GLabel 1350 7900 0    50   Input ~ 0
+Text GLabel 1550 6800 0    50   Input ~ 0
 FMC2_DP1_M2C_N
-Text GLabel 1350 8200 0    50   Input ~ 0
+Text GLabel 1550 7100 0    50   Input ~ 0
 FMC2_DP2_M2C_P
-Text GLabel 1350 8300 0    50   Input ~ 0
+Text GLabel 1550 7200 0    50   Input ~ 0
 FMC2_DP2_M2C_N
-Text GLabel 1350 8600 0    50   Input ~ 0
+Text GLabel 1550 7500 0    50   Input ~ 0
 FMC2_DP3_M2C_P
-Text GLabel 1350 8700 0    50   Input ~ 0
+Text GLabel 1550 7600 0    50   Input ~ 0
 FMC2_DP3_M2C_N
-Text GLabel 1350 9800 0    50   Input ~ 0
+Text GLabel 1550 8700 0    50   Input ~ 0
 FMC2_DP1_C2M_P
-Text GLabel 1350 9900 0    50   Input ~ 0
+Text GLabel 1550 8800 0    50   Input ~ 0
 FMC2_DP1_C2M_N
-Text GLabel 1350 10200 0    50   Input ~ 0
+Text GLabel 1550 9100 0    50   Input ~ 0
 FMC2_DP2_C2M_P
-Text GLabel 1350 10300 0    50   Input ~ 0
+Text GLabel 1550 9200 0    50   Input ~ 0
 FMC2_DP2_C2M_N
-Text GLabel 1350 10600 0    50   Input ~ 0
+Text GLabel 1550 9500 0    50   Input ~ 0
 FMC2_DP3_C2M_P
-Text GLabel 1350 10700 0    50   Input ~ 0
+Text GLabel 1550 9600 0    50   Input ~ 0
 FMC2_DP3_C2M_N
-Text GLabel 6700 7800 0    50   Input ~ 0
+Text GLabel 5500 6700 0    50   Input ~ 0
 FMC2_HA01_CC_P
-Text GLabel 6700 7900 0    50   Input ~ 0
+Text GLabel 5500 6800 0    50   Input ~ 0
 FMC2_HA01_CC_N
-Text GLabel 6700 8200 0    50   Input ~ 0
+Text GLabel 5500 7100 0    50   Input ~ 0
 FMC2_HA05_P
-Text GLabel 6700 8300 0    50   Input ~ 0
+Text GLabel 5500 7200 0    50   Input ~ 0
 FMC2_HA05_N
-Text GLabel 6700 8500 0    50   Input ~ 0
+Text GLabel 5500 7400 0    50   Input ~ 0
 FMC2_HA09_P
-Text GLabel 6700 8600 0    50   Input ~ 0
+Text GLabel 5500 7500 0    50   Input ~ 0
 FMC2_HA09_N
-Text GLabel 6700 8800 0    50   Input ~ 0
+Text GLabel 5500 7700 0    50   Input ~ 0
 FMC2_HA13_P
-Text GLabel 6700 8900 0    50   Input ~ 0
+Text GLabel 5500 7800 0    50   Input ~ 0
 FMC2_HA13_N
-Text GLabel 6700 9100 0    50   Input ~ 0
+Text GLabel 5500 8000 0    50   Input ~ 0
 FMC2_HA16_P
-Text GLabel 6700 9200 0    50   Input ~ 0
+Text GLabel 5500 8100 0    50   Input ~ 0
 FMC2_HA16_N
-Text GLabel 6700 9400 0    50   Input ~ 0
+Text GLabel 5500 8300 0    50   Input ~ 0
 FMC2_HA20_P
-Text GLabel 6700 9500 0    50   Input ~ 0
+Text GLabel 5500 8400 0    50   Input ~ 0
 FMC2_HA20_N
-Text GLabel 6700 9700 0    50   Input ~ 0
+Text GLabel 5500 8600 0    50   Input ~ 0
 FMC2_HB03_P
-Text GLabel 6700 9800 0    50   Input ~ 0
+Text GLabel 5500 8700 0    50   Input ~ 0
 FMC2_HB03_N
-Text GLabel 6700 10000 0    50   Input ~ 0
+Text GLabel 5500 8900 0    50   Input ~ 0
 FMC2_HB05_P
-Text GLabel 6700 10100 0    50   Input ~ 0
+Text GLabel 5500 9000 0    50   Input ~ 0
 FMC2_HB05_N
-Text GLabel 6700 10300 0    50   Input ~ 0
+Text GLabel 5500 9200 0    50   Input ~ 0
 FMC2_HB09_P
-Text GLabel 6700 10400 0    50   Input ~ 0
+Text GLabel 5500 9300 0    50   Input ~ 0
 FMC2_HB09_N
-Text GLabel 6700 10600 0    50   Input ~ 0
+Text GLabel 5500 9500 0    50   Input ~ 0
 FMC2_HB13_P
-Text GLabel 6700 10700 0    50   Input ~ 0
+Text GLabel 5500 9600 0    50   Input ~ 0
 FMC2_HB13_N
-Text GLabel 6700 10900 0    50   Input ~ 0
+Text GLabel 5500 9800 0    50   Input ~ 0
 FMC2_HB19_P
-Text GLabel 6700 11000 0    50   Input ~ 0
+Text GLabel 5500 9900 0    50   Input ~ 0
 FMC2_HB19_N
-Text GLabel 6700 11200 0    50   Input ~ 0
+Text GLabel 5500 10100 0    50   Input ~ 0
 FMC2_HB21_P
-Text GLabel 6700 11300 0    50   Input ~ 0
+Text GLabel 5500 10200 0    50   Input ~ 0
 FMC2_HB21_N
-Text GLabel 8700 8000 0    50   Input ~ 0
+Text GLabel 7500 6900 0    50   Input ~ 0
 FMC2_HA00_CC_P
-Text GLabel 8700 8100 0    50   Input ~ 0
+Text GLabel 7500 7000 0    50   Input ~ 0
 FMC2_HA00_CC_N
-Text GLabel 8700 8300 0    50   Input ~ 0
+Text GLabel 7500 7200 0    50   Input ~ 0
 FMC2_HA04_P
-Text GLabel 8700 8400 0    50   Input ~ 0
+Text GLabel 7500 7300 0    50   Input ~ 0
 FMC2_HA04_N
-Text GLabel 8700 8600 0    50   Input ~ 0
+Text GLabel 7500 7500 0    50   Input ~ 0
 FMC2_HA08_P
-Text GLabel 8700 8700 0    50   Input ~ 0
+Text GLabel 7500 7600 0    50   Input ~ 0
 FMC2_HA08_N
-Text GLabel 8700 8900 0    50   Input ~ 0
+Text GLabel 7500 7800 0    50   Input ~ 0
 FMC2_HA12_P
-Text GLabel 8700 9000 0    50   Input ~ 0
+Text GLabel 7500 7900 0    50   Input ~ 0
 FMC2_HA12_N
-Text GLabel 8700 9200 0    50   Input ~ 0
+Text GLabel 7500 8100 0    50   Input ~ 0
 FMC2_HA15_P
-Text GLabel 8700 9300 0    50   Input ~ 0
+Text GLabel 7500 8200 0    50   Input ~ 0
 FMC2_HA15_N
-Text GLabel 8700 9500 0    50   Input ~ 0
+Text GLabel 7500 8400 0    50   Input ~ 0
 FMC2_HA19_P
-Text GLabel 8700 9600 0    50   Input ~ 0
+Text GLabel 7500 8500 0    50   Input ~ 0
 FMC2_HA19_N
-Text GLabel 8700 9800 0    50   Input ~ 0
+Text GLabel 7500 8700 0    50   Input ~ 0
 FMC2_HB02_P
-Text GLabel 8700 9900 0    50   Input ~ 0
+Text GLabel 7500 8800 0    50   Input ~ 0
 FMC2_HB02_N
-Text GLabel 8700 10100 0    50   Input ~ 0
+Text GLabel 7500 9000 0    50   Input ~ 0
 FMC2_HB04_P
-Text GLabel 8700 10200 0    50   Input ~ 0
+Text GLabel 7500 9100 0    50   Input ~ 0
 FMC2_HB04_N
-Text GLabel 8700 10400 0    50   Input ~ 0
+Text GLabel 7500 9300 0    50   Input ~ 0
 FMC2_HB08_P
-Text GLabel 8700 10500 0    50   Input ~ 0
+Text GLabel 7500 9400 0    50   Input ~ 0
 FMC2_HB08_N
-Text GLabel 8700 10700 0    50   Input ~ 0
+Text GLabel 7500 9600 0    50   Input ~ 0
 FMC2_HB12_P
-Text GLabel 8700 10800 0    50   Input ~ 0
+Text GLabel 7500 9700 0    50   Input ~ 0
 FMC2_HB12_N
-Text GLabel 8700 11000 0    50   Input ~ 0
+Text GLabel 7500 9900 0    50   Input ~ 0
 FMC2_HB16_P
-Text GLabel 8700 11100 0    50   Input ~ 0
+Text GLabel 7500 10000 0    50   Input ~ 0
 FMC2_HB16_N
-Text GLabel 8700 11300 0    50   Input ~ 0
+Text GLabel 7500 10200 0    50   Input ~ 0
 FMC2_HB20_P
-Text GLabel 8700 11400 0    50   Input ~ 0
+Text GLabel 7500 10300 0    50   Input ~ 0
 FMC2_HB20_N
-Text GLabel 11650 8200 0    50   Input ~ 0
+Text GLabel 9750 7100 0    50   Input ~ 0
 FMC2_HA03_P
-Text GLabel 11650 8300 0    50   Input ~ 0
+Text GLabel 9750 7200 0    50   Input ~ 0
 FMC2_HA03_N
-Text GLabel 11650 8500 0    50   Input ~ 0
+Text GLabel 9750 7400 0    50   Input ~ 0
 FMC2_HA07_P
-Text GLabel 11650 8600 0    50   Input ~ 0
+Text GLabel 9750 7500 0    50   Input ~ 0
 FMC2_HA07_N
-Text GLabel 11650 8800 0    50   Input ~ 0
+Text GLabel 9750 7700 0    50   Input ~ 0
 FMC2_HA11_P
-Text GLabel 11650 8900 0    50   Input ~ 0
+Text GLabel 9750 7800 0    50   Input ~ 0
 FMC2_HA11_N
-Text GLabel 11650 9100 0    50   Input ~ 0
+Text GLabel 9750 8000 0    50   Input ~ 0
 FMC2_HA14_P
-Text GLabel 11650 9200 0    50   Input ~ 0
+Text GLabel 9750 8100 0    50   Input ~ 0
 FMC2_HA14_N
-Text GLabel 11650 9400 0    50   Input ~ 0
+Text GLabel 9750 8300 0    50   Input ~ 0
 FMC2_HA18_P
-Text GLabel 11650 9500 0    50   Input ~ 0
+Text GLabel 9750 8400 0    50   Input ~ 0
 FMC2_HA18_N
-Text GLabel 11650 9700 0    50   Input ~ 0
+Text GLabel 9750 8600 0    50   Input ~ 0
 FMC2_HA22_P
-Text GLabel 11650 9800 0    50   Input ~ 0
+Text GLabel 9750 8700 0    50   Input ~ 0
 FMC2_HA22_N
-Text GLabel 11650 10000 0    50   Input ~ 0
+Text GLabel 9750 8900 0    50   Input ~ 0
 FMC2_HB01_P
-Text GLabel 11650 10100 0    50   Input ~ 0
+Text GLabel 9750 9000 0    50   Input ~ 0
 FMC2_HB01_N
-Text GLabel 11650 10300 0    50   Input ~ 0
+Text GLabel 9750 9200 0    50   Input ~ 0
 FMC2_HB07_P
-Text GLabel 11650 10400 0    50   Input ~ 0
+Text GLabel 9750 9300 0    50   Input ~ 0
 FMC2_HB07_N
-Text GLabel 11650 10600 0    50   Input ~ 0
+Text GLabel 9750 9500 0    50   Input ~ 0
 FMC2_HB11_P
-Text GLabel 11650 10700 0    50   Input ~ 0
+Text GLabel 9750 9600 0    50   Input ~ 0
 FMC2_HB11_N
-Text GLabel 11650 10900 0    50   Input ~ 0
+Text GLabel 9750 9800 0    50   Input ~ 0
 FMC2_HB15_P
-Text GLabel 11650 11000 0    50   Input ~ 0
+Text GLabel 9750 9900 0    50   Input ~ 0
 FMC2_HB15_N
-Text GLabel 11650 11200 0    50   Input ~ 0
+Text GLabel 9750 10100 0    50   Input ~ 0
 FMC2_HB18_P
-Text GLabel 11650 11300 0    50   Input ~ 0
+Text GLabel 9750 10200 0    50   Input ~ 0
 FMC2_HB18_N
-Text GLabel 14050 8300 0    50   Input ~ 0
+Text GLabel 12400 6250 0    50   Input ~ 0
 FMC2_HA02_P
-Text GLabel 14050 8400 0    50   Input ~ 0
+Text GLabel 12400 6350 0    50   Input ~ 0
 FMC2_HA02_N
-Text GLabel 14050 8600 0    50   Input ~ 0
+Text GLabel 12400 6550 0    50   Input ~ 0
 FMC2_HA06_P
-Text GLabel 14050 8700 0    50   Input ~ 0
+Text GLabel 12400 6650 0    50   Input ~ 0
 FMC2_HA06_N
-Text GLabel 14050 8900 0    50   Input ~ 0
+Text GLabel 12400 6850 0    50   Input ~ 0
 FMC2_HA10_P
-Text GLabel 14050 9000 0    50   Input ~ 0
+Text GLabel 12400 6950 0    50   Input ~ 0
 FMC2_HA10_N
-Text GLabel 14050 9200 0    50   Input ~ 0
+Text GLabel 12400 7150 0    50   Input ~ 0
 FMC2_HA17_CC_P
-Text GLabel 14050 9300 0    50   Input ~ 0
+Text GLabel 12400 7250 0    50   Input ~ 0
 FMC2_HA17_CC_N
-Text GLabel 14050 9500 0    50   Input ~ 0
+Text GLabel 12400 7450 0    50   Input ~ 0
 FMC2_HA21_P
-Text GLabel 14050 9600 0    50   Input ~ 0
+Text GLabel 12400 7550 0    50   Input ~ 0
 FMC2_HA21_N
-Text GLabel 14050 9800 0    50   Input ~ 0
+Text GLabel 12400 7750 0    50   Input ~ 0
 FMC2_HA23_P
-Text GLabel 14050 9900 0    50   Input ~ 0
+Text GLabel 12400 7850 0    50   Input ~ 0
 FMC2_HA23_N
-Text GLabel 14050 10100 0    50   Input ~ 0
+Text GLabel 12400 8050 0    50   Input ~ 0
 FMC2_HB00_CC_P
-Text GLabel 14050 10200 0    50   Input ~ 0
+Text GLabel 12400 8150 0    50   Input ~ 0
 FMC2_HB00_CC_N
-Text GLabel 14050 10400 0    50   Input ~ 0
+Text GLabel 12400 8350 0    50   Input ~ 0
 FMC2_HB06_CC_P
-Text GLabel 14050 10500 0    50   Input ~ 0
+Text GLabel 12400 8450 0    50   Input ~ 0
 FMC2_HB06_CC_N
-Text GLabel 14050 10700 0    50   Input ~ 0
+Text GLabel 12400 8650 0    50   Input ~ 0
 FMC2_HB10_P
-Text GLabel 14050 10800 0    50   Input ~ 0
+Text GLabel 12400 8750 0    50   Input ~ 0
 FMC2_HB10_N
-Text GLabel 14050 11000 0    50   Input ~ 0
+Text GLabel 12400 8950 0    50   Input ~ 0
 FMC2_HB14_P
-Text GLabel 14050 11100 0    50   Input ~ 0
+Text GLabel 12400 9050 0    50   Input ~ 0
 FMC2_HB14_N
-Text GLabel 14050 11300 0    50   Input ~ 0
+Text GLabel 12400 9250 0    50   Input ~ 0
 FMC2_HB17_CC_P
-Text GLabel 14050 11400 0    50   Input ~ 0
+Text GLabel 12400 9350 0    50   Input ~ 0
 FMC2_HB17_CC_N
-Text Label 14050 7700 0    50   ~ 0
+Text Label 12400 5650 0    50   ~ 0
 VREF_B_M2C
-Text Label 8700 7700 0    50   ~ 0
+Text Label 7500 6600 0    50   ~ 0
 PG_M2C
 $Comp
 L power:+2V5 #PWR0678
 U 1 1 5D9281BB
-P 14050 11600
-F 0 "#PWR0678" H 14050 11450 50  0001 C CNN
-F 1 "+2V5" V 14065 11728 50  0000 L CNN
-F 2 "" H 14050 11600 50  0001 C CNN
-F 3 "" H 14050 11600 50  0001 C CNN
-	1    14050 11600
+P 12400 9550
+F 0 "#PWR0678" H 12400 9400 50  0001 C CNN
+F 1 "+2V5" V 12415 9678 50  0000 L CNN
+F 2 "" H 12400 9550 50  0001 C CNN
+F 3 "" H 12400 9550 50  0001 C CNN
+	1    12400 9550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+2V5 #PWR0679
 U 1 1 5D931FAD
-P 11650 11500
-F 0 "#PWR0679" H 11650 11350 50  0001 C CNN
-F 1 "+2V5" V 11665 11628 50  0000 L CNN
-F 2 "" H 11650 11500 50  0001 C CNN
-F 3 "" H 11650 11500 50  0001 C CNN
-	1    11650 11500
+P 9750 10400
+F 0 "#PWR0679" H 9750 10250 50  0001 C CNN
+F 1 "+2V5" V 9765 10528 50  0000 L CNN
+F 2 "" H 9750 10400 50  0001 C CNN
+F 3 "" H 9750 10400 50  0001 C CNN
+	1    9750 10400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+2V5 #PWR0685
 U 1 1 5DA2C420
-P 8700 11600
-F 0 "#PWR0685" H 8700 11450 50  0001 C CNN
-F 1 "+2V5" V 8715 11728 50  0000 L CNN
-F 2 "" H 8700 11600 50  0001 C CNN
-F 3 "" H 8700 11600 50  0001 C CNN
-	1    8700 11600
+P 7500 10500
+F 0 "#PWR0685" H 7500 10350 50  0001 C CNN
+F 1 "+2V5" V 7515 10628 50  0000 L CNN
+F 2 "" H 7500 10500 50  0001 C CNN
+F 3 "" H 7500 10500 50  0001 C CNN
+	1    7500 10500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+2V5 #PWR0686
 U 1 1 5DA96A98
-P 6700 11500
-F 0 "#PWR0686" H 6700 11350 50  0001 C CNN
-F 1 "+2V5" V 6715 11628 50  0000 L CNN
-F 2 "" H 6700 11500 50  0001 C CNN
-F 3 "" H 6700 11500 50  0001 C CNN
-	1    6700 11500
+P 5500 10400
+F 0 "#PWR0686" H 5500 10250 50  0001 C CNN
+F 1 "+2V5" V 5515 10528 50  0000 L CNN
+F 2 "" H 5500 10400 50  0001 C CNN
+F 3 "" H 5500 10400 50  0001 C CNN
+	1    5500 10400
 	0    -1   -1   0   
 $EndComp
+Text GLabel 2450 1350 0    50   Input ~ 10
+FMC2_DP0_C2M_P
+Text GLabel 2450 1450 0    50   Input ~ 10
+FMC2_DP0_C2M_N
+Text GLabel 2450 1750 0    50   Input ~ 10
+FMC2_DP0_M2C_P
+Text GLabel 2450 1850 0    50   Input ~ 10
+FMC2_DP0_M2C_N
+Wire Wire Line
+	3550 1350 2450 1350
+Wire Wire Line
+	3550 1450 2450 1450
+Wire Wire Line
+	3550 1750 2450 1750
+Wire Wire Line
+	2450 1850 3550 1850
 $EndSCHEMATC

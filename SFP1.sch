@@ -1425,225 +1425,39 @@ Wire Wire Line
 	6250 3550 6250 4000
 Connection ~ 4300 3350
 $Comp
-L TYCO:TYCO_2007132-1 Cage?
-U 1 1 5C969AAE
-P 2550 4100
-AR Path="/5C969AAE" Ref="Cage?"  Part="1" 
-AR Path="/5BABAC65/5C969AAE" Ref="Cage1"  Part="1" 
-F 0 "Cage1" H 3050 4265 50  0000 C CNN
-F 1 "TYCO_2007132-1" H 2550 1110 60  0001 L CNN
-F 2 "TYCO THD:TYCO_2007132-1" H 2550 300 60  0001 L CNN
-F 3 "" H 2550 930 60  0001 L CNN
-F 4 "SFP+" H 3050 4174 50  0000 C CNN "~"
-F 5 "TYCO_2007132-1" H 2550 840 60  0001 L CNN "Part Number"
-F 6 "SFP+ 1x4 Cage (46Pins)" H 2550 750 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Connectors.SchLib" H 2550 660 60  0001 L CNN "Library Path"
-F 8 "~~" H 2550 570 60  0001 L CNN "Comment"
-F 9 "Standard" H 2550 480 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 2550 390 60  0001 L CNN "Component Type"
-F 11 "~~" H 2550 210 60  0001 L CNN "PackageDescription"
-F 12 "46" H 2550 120 60  0001 L CNN "Pin Count"
-F 13 "~~" H 2550 30  60  0001 L CNN "Case"
-F 14 "PcbLib\\TYCO THD.PcbLib" H 2550 -60 60  0001 L CNN "Footprint Path"
-F 15 "TYCO_2007132-1" H 2550 -150 60  0001 L CNN "Footprint Ref"
-F 16 "SFP+" H 2550 -240 60  0001 L CNN "Family"
-F 17 "Yes" H 2550 -330 60  0001 L CNN "Mounted"
-F 18 "No" H 2550 -420 60  0001 L CNN "Socket"
-F 19 "No" H 2550 -510 60  0001 L CNN "SMD"
-F 20 "Yes" H 2550 -600 60  0001 L CNN "PressFit"
-F 21 "No" H 2550 -690 60  0001 L CNN "Sense"
-F 22 "~~" H 2550 -780 60  0001 L CNN "Sense Comment"
-F 23 "None" H 2550 -870 60  0001 L CNN "Status"
-F 24 "~~" H 2550 -960 60  0001 L CNN "Status Comment"
-F 25 "~~" H 2550 -1050 60  0001 L CNN "SCEM"
-F 26 "~~" H 2550 -1140 60  0001 L CNN "Device"
-F 27 "1x4 Press Fit Cage For Use with SFP+ Connector (Small Form-factor Pluggable)" H 2550 -1230 60  0001 L CNN "Part Description"
-F 28 "TYCO ELECTRONICS" H 2550 -1320 60  0001 L CNN "Manufacturer"
-F 29 "2007132-1" H 2550 -1410 60  0001 L CNN "Manufacturer Part Number"
-F 30 "9.7mm" H 2550 -1500 60  0001 L CNN "ComponentHeight"
-F 31 "~~" H 2550 -1590 60  0001 L CNN "ComponentLink1URL"
-F 32 "~~" H 2550 -1680 60  0001 L CNN "ComponentLink1Description"
-F 33 "~~" H 2550 -1770 60  0001 L CNN "ComponentLink2URL"
-F 34 "~~" H 2550 -1860 60  0001 L CNN "ComponentLink2Description"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\TYCO_2007132-1.pdf" H 2550 -1950 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 2550 -2040 60  0001 L CNN "Author"
-F 37 "06/04/13 00:00:00" H 2550 -2130 60  0001 L CNN "CreateDate"
-F 38 "06/12/13 00:00:00" H 2550 -2220 60  0001 L CNN "LatestRevisionDate"
-F 39 "TYCO THD" H 2550 -2310 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 -2400 60  0001 L CNN "License"
-	1    2550 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5C96B561
-P 2350 7200
+P 4300 5900
 AR Path="/5BD32060/5C96B561" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5C96B561" Ref="#PWR046"  Part="1" 
 AR Path="/5CC24E97/5C96B561" Ref="#PWR?"  Part="1" 
 AR Path="/5CC393D3/5C96B561" Ref="#PWR?"  Part="1" 
 AR Path="/5CC6DBF7/5C96B561" Ref="#PWR?"  Part="1" 
 AR Path="/5CC8AFE1/5C96B561" Ref="#PWR?"  Part="1" 
-F 0 "#PWR046" H 2350 6950 50  0001 C CNN
-F 1 "GND" H 2355 7027 50  0000 C CNN
-F 2 "" H 2350 7200 50  0001 C CNN
-F 3 "" H 2350 7200 50  0001 C CNN
-	1    2350 7200
+F 0 "#PWR046" H 4300 5650 50  0001 C CNN
+F 1 "GND" H 4305 5727 50  0000 C CNN
+F 2 "" H 4300 5900 50  0001 C CNN
+F 3 "" H 4300 5900 50  0001 C CNN
+	1    4300 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C96F31B
-P 3750 7200
+P 5700 5900
 AR Path="/5BD32060/5C96F31B" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5C96F31B" Ref="#PWR0105"  Part="1" 
 AR Path="/5CC24E97/5C96F31B" Ref="#PWR?"  Part="1" 
 AR Path="/5CC393D3/5C96F31B" Ref="#PWR?"  Part="1" 
 AR Path="/5CC6DBF7/5C96F31B" Ref="#PWR?"  Part="1" 
 AR Path="/5CC8AFE1/5C96F31B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0105" H 3750 6950 50  0001 C CNN
-F 1 "GND" H 3755 7027 50  0000 C CNN
-F 2 "" H 3750 7200 50  0001 C CNN
-F 3 "" H 3750 7200 50  0001 C CNN
-	1    3750 7200
+F 0 "#PWR0105" H 5700 5650 50  0001 C CNN
+F 1 "GND" H 5705 5727 50  0000 C CNN
+F 2 "" H 5700 5900 50  0001 C CNN
+F 3 "" H 5700 5900 50  0001 C CNN
+	1    5700 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 4300 3750 4400
-Connection ~ 3750 4400
-Wire Wire Line
-	3750 4400 3750 4500
-Connection ~ 3750 4500
-Wire Wire Line
-	3750 4500 3750 4600
-Connection ~ 3750 4600
-Wire Wire Line
-	3750 4600 3750 4700
-Connection ~ 3750 4700
-Wire Wire Line
-	3750 4700 3750 4800
-Connection ~ 3750 4800
-Wire Wire Line
-	3750 4800 3750 4900
-Connection ~ 3750 4900
-Wire Wire Line
-	3750 4900 3750 5000
-Connection ~ 3750 5000
-Wire Wire Line
-	3750 5000 3750 5100
-Connection ~ 3750 5100
-Wire Wire Line
-	3750 5100 3750 5200
-Connection ~ 3750 5200
-Wire Wire Line
-	3750 5200 3750 5300
-Connection ~ 3750 5300
-Wire Wire Line
-	3750 5300 3750 5400
-Connection ~ 3750 5400
-Wire Wire Line
-	3750 5400 3750 5500
-Connection ~ 3750 5500
-Wire Wire Line
-	3750 5500 3750 5600
-Connection ~ 3750 5600
-Wire Wire Line
-	3750 5600 3750 5700
-Connection ~ 3750 5700
-Wire Wire Line
-	3750 5700 3750 5800
-Connection ~ 3750 5800
-Wire Wire Line
-	3750 5800 3750 5900
-Connection ~ 3750 5900
-Wire Wire Line
-	3750 5900 3750 6000
-Connection ~ 3750 6000
-Wire Wire Line
-	3750 6000 3750 6100
-Connection ~ 3750 6100
-Wire Wire Line
-	3750 6100 3750 6200
-Connection ~ 3750 6200
-Wire Wire Line
-	3750 6200 3750 7200
-Wire Wire Line
-	2350 4300 2350 4400
-Connection ~ 2350 4400
-Wire Wire Line
-	2350 4400 2350 4500
-Connection ~ 2350 4500
-Wire Wire Line
-	2350 4500 2350 4600
-Connection ~ 2350 4600
-Wire Wire Line
-	2350 4600 2350 4700
-Connection ~ 2350 4700
-Wire Wire Line
-	2350 4700 2350 4800
-Connection ~ 2350 4800
-Wire Wire Line
-	2350 4800 2350 4900
-Connection ~ 2350 4900
-Wire Wire Line
-	2350 4900 2350 5000
-Connection ~ 2350 5000
-Wire Wire Line
-	2350 5000 2350 5100
-Connection ~ 2350 5100
-Wire Wire Line
-	2350 5100 2350 5200
-Connection ~ 2350 5200
-Wire Wire Line
-	2350 5200 2350 5300
-Connection ~ 2350 5300
-Wire Wire Line
-	2350 5300 2350 5400
-Connection ~ 2350 5400
-Wire Wire Line
-	2350 5400 2350 5500
-Connection ~ 2350 5500
-Wire Wire Line
-	2350 5500 2350 5600
-Connection ~ 2350 5600
-Wire Wire Line
-	2350 5600 2350 5700
-Connection ~ 2350 5700
-Wire Wire Line
-	2350 5700 2350 5800
-Connection ~ 2350 5800
-Wire Wire Line
-	2350 5800 2350 5900
-Connection ~ 2350 5900
-Wire Wire Line
-	2350 5900 2350 6000
-Connection ~ 2350 6000
-Wire Wire Line
-	2350 6000 2350 6100
-Connection ~ 2350 6100
-Wire Wire Line
-	2350 6100 2350 6200
-Connection ~ 2350 6200
-Wire Wire Line
-	2350 6200 2350 6300
-Connection ~ 2350 6300
-Wire Wire Line
-	2350 6300 2350 6400
-Connection ~ 2350 6400
-Wire Wire Line
-	2350 6400 2350 6500
-Connection ~ 2350 6500
-Wire Wire Line
-	2350 6500 2350 6600
-Connection ~ 2350 6600
-Wire Wire Line
-	2350 6600 2350 6700
-Connection ~ 2350 6700
-Wire Wire Line
-	2350 6700 2350 6800
-Connection ~ 2350 6800
-Wire Wire Line
-	2350 6800 2350 7200
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D0FB044
@@ -1666,4 +1480,108 @@ F 3 "~" H 3500 1950 50  0001 C CNN
 	1    3500 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L TYCO:TYCO_2007198-1 Cage1
+U 1 1 636F4740
+P 4500 4600
+F 0 "Cage1" H 5000 4673 50  0000 C CNN
+F 1 "TYCO_2007198-1" H 4500 3225 50  0001 L CNN
+F 2 "TYCO THD:TYCO_2007198-1" H 4500 3150 50  0001 L CNN
+F 3 " " H 4500 3075 50  0001 L CNN
+F 4 "SFP+" H 4500 2175 50  0001 L CNN "Family"
+F 5 "TYCO_2007198-1" H 4500 3000 50  0001 L CNN "Part Number"
+F 6 "SFP+ 1x1 Cage (20Pins)" H 4500 2925 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Connectors.SchLib" H 4500 2850 50  0001 L CNN "Library Path"
+F 8 " " H 4500 2775 50  0001 L CNN "Comment"
+F 9 "Standard" H 4500 2700 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 4500 2625 50  0001 L CNN "Component Type"
+F 11 " " H 4500 2550 50  0001 L CNN "PackageDescription"
+F 12 "20" H 4500 2475 50  0001 L CNN "Pin Count"
+F 13 " " H 4500 2400 50  0001 L CNN "Case"
+F 14 "PcbLib\\TYCO THD.PcbLib" H 4500 2325 50  0001 L CNN "Footprint Path"
+F 15 "TYCO_2007198-1" H 4500 2250 50  0001 L CNN "Footprint Ref"
+F 16 "Yes" H 4500 2100 50  0001 L CNN "Mounted"
+F 17 "No" H 4500 2025 50  0001 L CNN "Socket"
+F 18 "No" H 4500 1950 50  0001 L CNN "SMD"
+F 19 "Yes" H 4500 1875 50  0001 L CNN "PressFit"
+F 20 "No" H 4500 1800 50  0001 L CNN "Sense"
+F 21 " " H 4500 1725 50  0001 L CNN "Sense Comment"
+F 22 "None" H 4500 1650 50  0001 L CNN "Status"
+F 23 " " H 4500 1575 50  0001 L CNN "Status Comment"
+F 24 " " H 4500 1500 50  0001 L CNN "SCEM"
+F 25 " " H 4500 1425 50  0001 L CNN "Device"
+F 26 "1x1 Press Fit Cage For Use with SFP+ Connector (Small Form-factor Pluggable)" H 4500 1350 50  0001 L CNN "Part Description"
+F 27 "TYCO ELECTRONICS" H 4500 1275 50  0001 L CNN "Manufacturer"
+F 28 "2007198-1" H 4500 1200 50  0001 L CNN "Manufacturer Part Number"
+F 29 "9.7mm" H 4500 1125 50  0001 L CNN "ComponentHeight"
+F 30 " " H 4500 1050 50  0001 L CNN "ComponentLink1Description"
+F 31 " " H 4500 975 50  0001 L CNN "ComponentLink2Description"
+F 32 "CERN DEM JLC" H 4500 900 50  0001 L CNN "Author"
+F 33 "06/04/13 00:00:00" H 4500 825 50  0001 L CNN "CreateDate"
+F 34 "06/12/13 00:00:00" H 4500 750 50  0001 L CNN "LatestRevisionDate"
+F 35 "TYCO" H 4500 675 50  0001 L CNN "Database Table Name"
+F 36 "Connectors.DbLib" H 4500 600 50  0001 L CNN "Library Name"
+F 37 "TYCO THD" H 4500 525 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4500 450 50  0001 L CNN "License"
+	1    4500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4800 4300 4900
+Connection ~ 4300 4900
+Wire Wire Line
+	4300 4900 4300 5000
+Connection ~ 4300 5000
+Wire Wire Line
+	4300 5000 4300 5100
+Connection ~ 4300 5100
+Wire Wire Line
+	4300 5100 4300 5200
+Connection ~ 4300 5200
+Wire Wire Line
+	4300 5200 4300 5300
+Connection ~ 4300 5300
+Wire Wire Line
+	4300 5300 4300 5400
+Connection ~ 4300 5400
+Wire Wire Line
+	4300 5400 4300 5500
+Connection ~ 4300 5500
+Wire Wire Line
+	4300 5500 4300 5600
+Connection ~ 4300 5600
+Wire Wire Line
+	4300 5600 4300 5700
+Connection ~ 4300 5700
+Wire Wire Line
+	4300 5700 4300 5900
+Wire Wire Line
+	5700 4800 5700 4900
+Connection ~ 5700 4900
+Wire Wire Line
+	5700 4900 5700 5000
+Connection ~ 5700 5000
+Wire Wire Line
+	5700 5000 5700 5100
+Connection ~ 5700 5100
+Wire Wire Line
+	5700 5100 5700 5200
+Connection ~ 5700 5200
+Wire Wire Line
+	5700 5200 5700 5300
+Connection ~ 5700 5300
+Wire Wire Line
+	5700 5300 5700 5400
+Connection ~ 5700 5400
+Wire Wire Line
+	5700 5400 5700 5500
+Connection ~ 5700 5500
+Wire Wire Line
+	5700 5500 5700 5600
+Connection ~ 5700 5600
+Wire Wire Line
+	5700 5600 5700 5700
+Connection ~ 5700 5700
+Wire Wire Line
+	5700 5700 5700 5900
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 28 25
+Sheet 17 25
 Title ""
 Date ""
 Rev ""
@@ -1547,102 +1547,102 @@ Text HLabel 9850 4400 2    50   Input ~ 0
 QSFP_SCL
 Text HLabel 9850 4500 2    50   BiDi ~ 0
 QSFP_SDA
-Text Label 6250 1650 0    50   ~ 10
+Text Label 6200 2050 0    50   ~ 10
 MGT_TX_1_P
-Text Label 6250 1750 0    50   ~ 10
+Text Label 6200 1950 0    50   ~ 10
 MGT_TX_1_N
-Text Label 8550 2850 0    50   ~ 10
+Text Label 8500 3150 0    50   ~ 10
 MGT_TX_2_P
-Text Label 8550 2950 0    50   ~ 10
+Text Label 8500 3250 0    50   ~ 10
 MGT_TX_2_N
-Text Label 6250 1950 0    50   ~ 10
+Text Label 8950 2850 2    50   ~ 10
 MGT_TX_3_P
-Text Label 6250 2050 0    50   ~ 10
+Text Label 8950 2950 2    50   ~ 10
 MGT_TX_3_N
-Text Label 6250 3150 0    50   ~ 10
+Text Label 8950 1750 2    50   ~ 10
 MGT_RX_0_P
-Text Label 6250 3250 0    50   ~ 10
+Text Label 8950 1650 2    50   ~ 10
 MGT_RX_0_N
-Text Label 8550 1650 0    50   ~ 10
+Text Label 8500 2050 0    50   ~ 10
 MGT_RX_1_P
-Text Label 8550 1750 0    50   ~ 10
+Text Label 8500 1950 0    50   ~ 10
 MGT_RX_1_N
-Text Label 6250 2850 0    50   ~ 10
+Text Label 6200 3150 0    50   ~ 10
 MGT_RX_2_P
-Text Label 6250 2950 0    50   ~ 10
+Text Label 6200 3250 0    50   ~ 10
 MGT_RX_2_N
-Text Label 8550 1950 0    50   ~ 10
+Text Label 6650 2850 2    50   ~ 10
 MGT_RX_3_P
-Text Label 8550 2050 0    50   ~ 10
+Text Label 6650 2950 2    50   ~ 10
 MGT_RX_3_N
-Text Label 8550 3250 0    50   ~ 10
+Text Label 6650 1650 2    50   ~ 10
 MGT_TX_0_N
-Text Label 8550 3150 0    50   ~ 10
+Text Label 6650 1750 2    50   ~ 10
 MGT_TX_0_P
-Text HLabel 9150 3150 2    50   Input ~ 10
-MGT_TX_0_P
-Text HLabel 9150 3250 2    50   Input ~ 10
-MGT_TX_0_N
-Text HLabel 6050 1650 0    50   Input ~ 10
-MGT_TX_1_P
 Text HLabel 6050 1750 0    50   Input ~ 10
-MGT_TX_1_N
-Text HLabel 9150 2850 2    50   Input ~ 10
-MGT_TX_2_P
-Text HLabel 9150 2950 2    50   Input ~ 10
-MGT_TX_2_N
-Text HLabel 6050 1950 0    50   Input ~ 10
-MGT_TX_3_P
+MGT_TX_0_P
+Text HLabel 6050 1650 0    50   Input ~ 10
+MGT_TX_0_N
 Text HLabel 6050 2050 0    50   Input ~ 10
+MGT_TX_1_P
+Text HLabel 6050 1950 0    50   Input ~ 10
+MGT_TX_1_N
+Text HLabel 9150 3150 2    50   Input ~ 10
+MGT_TX_2_P
+Text HLabel 9150 3250 2    50   Input ~ 10
+MGT_TX_2_N
+Text HLabel 9150 2850 2    50   Input ~ 10
+MGT_TX_3_P
+Text HLabel 9150 2950 2    50   Input ~ 10
 MGT_TX_3_N
-Text HLabel 6050 3150 0    50   Output ~ 10
-MGT_RX_0_P
-Text HLabel 6050 3250 0    50   Output ~ 10
-MGT_RX_0_N
-Text HLabel 9150 1650 2    50   Output ~ 10
-MGT_RX_1_P
 Text HLabel 9150 1750 2    50   Output ~ 10
-MGT_RX_1_N
-Text HLabel 6050 2850 0    50   Output ~ 10
-MGT_RX_2_P
-Text HLabel 6050 2950 0    50   Output ~ 10
-MGT_RX_2_N
-Text HLabel 9150 1950 2    50   Output ~ 10
-MGT_RX_3_P
+MGT_RX_0_P
+Text HLabel 9150 1650 2    50   Output ~ 10
+MGT_RX_0_N
 Text HLabel 9150 2050 2    50   Output ~ 10
+MGT_RX_1_P
+Text HLabel 9150 1950 2    50   Output ~ 10
+MGT_RX_1_N
+Text HLabel 6050 3150 0    50   Output ~ 10
+MGT_RX_2_P
+Text HLabel 6050 3250 0    50   Output ~ 10
+MGT_RX_2_N
+Text HLabel 6050 2850 0    50   Output ~ 10
+MGT_RX_3_P
+Text HLabel 6050 2950 0    50   Output ~ 10
 MGT_RX_3_N
-Wire Wire Line
-	6050 1650 6900 1650
-Wire Wire Line
-	6050 1750 6900 1750
-Wire Wire Line
-	6050 1950 6900 1950
 Wire Wire Line
 	6050 2050 6900 2050
 Wire Wire Line
-	6050 2850 6900 2850
+	6050 1950 6900 1950
 Wire Wire Line
-	6050 2950 6900 2950
+	9150 2850 8300 2850
+Wire Wire Line
+	9150 2950 8300 2950
 Wire Wire Line
 	6050 3150 6900 3150
 Wire Wire Line
 	6050 3250 6900 3250
 Wire Wire Line
-	8300 2850 9150 2850
+	9150 1750 8300 1750
 Wire Wire Line
-	8300 2950 9150 2950
+	9150 1650 8300 1650
 Wire Wire Line
 	8300 3150 9150 3150
 Wire Wire Line
 	8300 3250 9150 3250
 Wire Wire Line
-	8300 1650 9150 1650
+	6900 1750 6050 1750
 Wire Wire Line
-	8300 1750 9150 1750
+	6900 1650 6050 1650
+Wire Wire Line
+	8300 2050 9150 2050
 Wire Wire Line
 	8300 1950 9150 1950
 Wire Wire Line
-	8300 2050 9150 2050
+	6900 2850 6050 2850
+Wire Wire Line
+	6900 2950 6050 2950
 Connection ~ 9650 2250
 Wire Wire Line
 	9500 2250 9650 2250

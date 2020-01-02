@@ -1,4 +1,4 @@
-update=9/9/2019 3:22:10 PM
+update=02.01.2020 11:21:21
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.076
+MinTrackWidth=0
 MinViaDiameter=0.35
 MinViaDrill=0.152
 MinMicroViaDiameter=0.35
@@ -311,6 +311,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
+Name=SE55DE100
+Clearance=0.102
+TrackWidth=0.13
+ViaDiameter=0.35
+ViaDrill=0.152
+uViaDiameter=0.508
+uViaDrill=0.127
+dPairWidth=0.13
+dPairGap=0.2
+dPairViaGap=0.25
+[pcbnew/Netclasses/6]
 Name=SE60DE100
 Clearance=0.127
 TrackWidth=0.254

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 24 25
+Sheet 21 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -2181,21 +2181,17 @@ Wire Wire Line
 Wire Wire Line
 	4500 4600 5250 4600
 Wire Wire Line
+	4500 6100 5250 6100
+Wire Wire Line
+	4500 6200 5250 6200
+Wire Wire Line
+	4500 5700 5250 5700
+Wire Wire Line
+	4500 5800 5250 5800
+Wire Wire Line
 	4500 3700 5250 3700
 Wire Wire Line
 	4500 3800 5250 3800
-Wire Wire Line
-	4500 2300 5250 2300
-Wire Wire Line
-	4500 2400 5250 2400
-Wire Wire Line
-	4500 6500 5250 6500
-Wire Wire Line
-	4500 6600 5250 6600
-Wire Wire Line
-	4500 5900 5250 5900
-Wire Wire Line
-	4500 6000 5250 6000
 Wire Wire Line
 	4500 5100 5250 5100
 Wire Wire Line
@@ -2204,21 +2200,17 @@ Text GLabel 4500 4500 0    50   Input ~ 0
 FMC2_HA01_CC_P
 Text GLabel 4500 4600 0    50   Input ~ 0
 FMC2_HA01_CC_N
-Text GLabel 4500 3700 0    50   Input ~ 0
-FMC2_HA05_P
-Text GLabel 4500 3800 0    50   Input ~ 0
-FMC2_HA05_N
-Text GLabel 4500 2300 0    50   Input ~ 0
+Text GLabel 4500 6100 0    50   Input ~ 0
 FMC2_HA09_P
-Text GLabel 4500 2400 0    50   Input ~ 0
+Text GLabel 4500 6200 0    50   Input ~ 0
 FMC2_HA09_N
-Text GLabel 4500 6500 0    50   Input ~ 0
+Text GLabel 4500 5700 0    50   Input ~ 0
 FMC2_HA13_P
-Text GLabel 4500 6600 0    50   Input ~ 0
+Text GLabel 4500 5800 0    50   Input ~ 0
 FMC2_HA13_N
-Text GLabel 4500 5900 0    50   Input ~ 0
+Text GLabel 4500 3700 0    50   Input ~ 0
 FMC2_HA16_P
-Text GLabel 4500 6000 0    50   Input ~ 0
+Text GLabel 4500 3800 0    50   Input ~ 0
 FMC2_HA16_N
 Text GLabel 4500 5100 0    50   Input ~ 0
 FMC2_HA20_P
@@ -2229,145 +2221,153 @@ Wire Wire Line
 Wire Wire Line
 	4500 4200 5250 4200
 Wire Wire Line
+	4500 2500 5250 2500
+Wire Wire Line
+	4500 2600 5250 2600
+Wire Wire Line
 	4500 3500 5250 3500
 Wire Wire Line
 	4500 3600 5250 3600
 Wire Wire Line
-	4500 2100 5250 2100
+	4500 5300 5250 5300
 Wire Wire Line
-	4500 2200 5250 2200
-Wire Wire Line
-	4500 2900 5250 2900
-Wire Wire Line
-	4500 3000 5250 3000
-Wire Wire Line
-	4500 6100 5250 6100
-Wire Wire Line
-	4500 6200 5250 6200
-Wire Wire Line
-	4500 4900 5250 4900
-Wire Wire Line
-	4500 5000 5250 5000
+	4500 5400 5250 5400
 Text GLabel 4500 4100 0    50   Input ~ 0
 FMC2_HA00_CC_P
 Text GLabel 4500 4200 0    50   Input ~ 0
 FMC2_HA00_CC_N
-Text GLabel 4500 3500 0    50   Input ~ 0
+Text GLabel 4500 2500 0    50   Input ~ 0
 FMC2_HA04_P
-Text GLabel 4500 3600 0    50   Input ~ 0
+Text GLabel 4500 2600 0    50   Input ~ 0
 FMC2_HA04_N
-Text GLabel 4500 2100 0    50   Input ~ 0
-FMC2_HA08_P
-Text GLabel 4500 2200 0    50   Input ~ 0
-FMC2_HA08_N
-Text GLabel 4500 2900 0    50   Input ~ 0
+Text GLabel 4500 3500 0    50   Input ~ 0
 FMC2_HA12_P
-Text GLabel 4500 3000 0    50   Input ~ 0
+Text GLabel 4500 3600 0    50   Input ~ 0
 FMC2_HA12_N
-Text GLabel 4500 6100 0    50   Input ~ 0
-FMC2_HA15_P
-Text GLabel 4500 6200 0    50   Input ~ 0
-FMC2_HA15_N
-Text GLabel 4500 4900 0    50   Input ~ 0
+Text GLabel 4500 5300 0    50   Input ~ 0
 FMC2_HA19_P
-Text GLabel 4500 5000 0    50   Input ~ 0
+Text GLabel 4500 5400 0    50   Input ~ 0
 FMC2_HA19_N
 Wire Wire Line
-	4500 3300 5250 3300
+	4500 6500 5250 6500
 Wire Wire Line
-	4500 3400 5250 3400
-Wire Wire Line
-	4500 1900 5250 1900
-Wire Wire Line
-	4500 2000 5250 2000
+	4500 6600 5250 6600
 Wire Wire Line
 	4500 2700 5250 2700
 Wire Wire Line
 	4500 2800 5250 2800
 Wire Wire Line
-	4500 6300 5250 6300
+	4500 3300 5250 3300
 Wire Wire Line
-	4500 6400 5250 6400
+	4500 3400 5250 3400
 Wire Wire Line
 	4500 4700 5250 4700
 Wire Wire Line
 	4500 4800 5250 4800
 Wire Wire Line
-	4500 5500 5250 5500
+	4500 5900 5250 5900
 Wire Wire Line
-	4500 5600 5250 5600
-Text GLabel 4500 3300 0    50   Input ~ 0
+	4500 6000 5250 6000
+Text GLabel 4500 6500 0    50   Input ~ 0
 FMC2_HA03_P
-Text GLabel 4500 3400 0    50   Input ~ 0
+Text GLabel 4500 6600 0    50   Input ~ 0
 FMC2_HA03_N
-Text GLabel 4500 1900 0    50   Input ~ 0
-FMC2_HA07_P
-Text GLabel 4500 2000 0    50   Input ~ 0
-FMC2_HA07_N
 Text GLabel 4500 2700 0    50   Input ~ 0
 FMC2_HA11_P
 Text GLabel 4500 2800 0    50   Input ~ 0
 FMC2_HA11_N
-Text GLabel 4500 6300 0    50   Input ~ 0
+Text GLabel 4500 3300 0    50   Input ~ 0
 FMC2_HA14_P
-Text GLabel 4500 6400 0    50   Input ~ 0
+Text GLabel 4500 3400 0    50   Input ~ 0
 FMC2_HA14_N
 Text GLabel 4500 4700 0    50   Input ~ 0
 FMC2_HA18_P
 Text GLabel 4500 4800 0    50   Input ~ 0
 FMC2_HA18_N
-Text GLabel 4500 5500 0    50   Input ~ 0
+Text GLabel 4500 5900 0    50   Input ~ 0
 FMC2_HA22_P
-Text GLabel 4500 5600 0    50   Input ~ 0
+Text GLabel 4500 6000 0    50   Input ~ 0
 FMC2_HA22_N
-Wire Wire Line
-	4500 3100 5250 3100
-Wire Wire Line
-	4500 3200 5250 3200
 Wire Wire Line
 	4500 3900 5250 3900
 Wire Wire Line
 	4500 4000 5250 4000
 Wire Wire Line
-	4500 2500 5250 2500
+	4500 5500 5250 5500
 Wire Wire Line
-	4500 2600 5250 2600
+	4500 5600 5250 5600
 Wire Wire Line
 	4500 4300 5250 4300
 Wire Wire Line
 	4500 4400 5250 4400
 Wire Wire Line
-	4500 5300 5250 5300
+	4500 4900 5250 4900
 Wire Wire Line
-	4500 5400 5250 5400
+	4500 5000 5250 5000
 Wire Wire Line
-	4500 5700 5250 5700
+	4500 6300 5250 6300
 Wire Wire Line
-	4500 5800 5250 5800
-Text GLabel 4500 3100 0    50   Input ~ 0
-FMC2_HA02_P
-Text GLabel 4500 3200 0    50   Input ~ 0
-FMC2_HA02_N
+	4500 6400 5250 6400
 Text GLabel 4500 3900 0    50   Input ~ 0
 FMC2_HA06_P
 Text GLabel 4500 4000 0    50   Input ~ 0
 FMC2_HA06_N
-Text GLabel 4500 2500 0    50   Input ~ 0
+Text GLabel 4500 5500 0    50   Input ~ 0
 FMC2_HA10_P
-Text GLabel 4500 2600 0    50   Input ~ 0
+Text GLabel 4500 5600 0    50   Input ~ 0
 FMC2_HA10_N
 Text GLabel 4500 4300 0    50   Input ~ 0
 FMC2_HA17_CC_P
 Text GLabel 4500 4400 0    50   Input ~ 0
 FMC2_HA17_CC_N
-Text GLabel 4500 5300 0    50   Input ~ 0
+Text GLabel 4500 4900 0    50   Input ~ 0
 FMC2_HA21_P
-Text GLabel 4500 5400 0    50   Input ~ 0
+Text GLabel 4500 5000 0    50   Input ~ 0
 FMC2_HA21_N
-Text GLabel 4500 5700 0    50   Input ~ 0
+Text GLabel 4500 6300 0    50   Input ~ 0
 FMC2_HA23_P
-Text GLabel 4500 5800 0    50   Input ~ 0
+Text GLabel 4500 6400 0    50   Input ~ 0
 FMC2_HA23_N
+Text GLabel 4500 3000 0    50   Input ~ 0
+FMC2_HA15_N
+Text GLabel 4500 2900 0    50   Input ~ 0
+FMC2_HA15_P
+Wire Wire Line
+	4500 3000 5250 3000
+Wire Wire Line
+	4500 2900 5250 2900
+Text GLabel 4500 3200 0    50   Input ~ 0
+FMC2_HA05_N
+Text GLabel 4500 3100 0    50   Input ~ 0
+FMC2_HA05_P
+Wire Wire Line
+	4500 3200 5250 3200
+Wire Wire Line
+	4500 3100 5250 3100
+Text GLabel 4500 2200 0    50   Input ~ 0
+FMC2_HA07_N
+Text GLabel 4500 2100 0    50   Input ~ 0
+FMC2_HA07_P
+Wire Wire Line
+	4500 2200 5250 2200
+Wire Wire Line
+	4500 2100 5250 2100
+Wire Wire Line
+	4500 1900 5250 1900
+Wire Wire Line
+	4500 2000 5250 2000
+Text GLabel 4500 1900 0    50   Input ~ 0
+FMC2_HA08_P
+Text GLabel 4500 2000 0    50   Input ~ 0
+FMC2_HA08_N
+Text GLabel 4500 2400 0    50   Input ~ 0
+FMC2_HA02_N
+Text GLabel 4500 2300 0    50   Input ~ 0
+FMC2_HA02_P
+Wire Wire Line
+	4500 2400 5250 2400
+Wire Wire Line
+	4500 2300 5250 2300
 Wire Bus Line
 	14600 5000 14600 5750
 Wire Bus Line
