@@ -119,14 +119,6 @@ Text HLabel 7850 3300 2    50   BiDi ~ 10
 I2C_SFP2_SDA
 Text HLabel 7850 3200 2    50   Output ~ 10
 I2C_SFP2_SCL
-Text HLabel 7850 3100 2    50   BiDi ~ 10
-I2C_SFP3_SDA
-Text HLabel 7850 3000 2    50   Output ~ 10
-I2C_SFP3_SCL
-Text HLabel 7850 2900 2    50   BiDi ~ 10
-I2C_SFP4_SDA
-Text HLabel 7850 2800 2    50   Output ~ 10
-I2C_SFP4_SCL
 Text HLabel 7850 2200 2    50   Output ~ 10
 I2C_FMC1_SCL
 Text HLabel 7850 2300 2    50   BiDi ~ 10
@@ -1505,14 +1497,6 @@ Text Label 7000 3200 0    50   ~ 10
 I2C_SFP2_SCL
 Text Label 7000 3300 0    50   ~ 10
 I2C_SFP2_SDA
-Text Label 7000 3000 0    50   ~ 10
-I2C_SFP3_SCL
-Text Label 7000 3100 0    50   ~ 10
-I2C_SFP3_SDA
-Text Label 7000 2800 0    50   ~ 10
-I2C_SFP4_SCL
-Text Label 7000 2900 0    50   ~ 10
-I2C_SFP4_SDA
 Text Label 7000 3400 0    50   ~ 10
 I2C_APP_SCL
 Text Label 7000 3500 0    50   ~ 10
@@ -1544,16 +1528,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 3300 7850 3300
 Wire Wire Line
-	6000 3000 7850 3000
-Connection ~ 6000 3000
-Wire Wire Line
-	6000 3100 7850 3100
-Connection ~ 6000 3100
-Wire Wire Line
-	6000 2800 7850 2800
-Wire Wire Line
-	6000 2900 7850 2900
-Wire Wire Line
 	6000 3400 7850 3400
 Connection ~ 6000 3400
 Wire Wire Line
@@ -1565,8 +1539,6 @@ Connection ~ 6000 3600
 Wire Wire Line
 	6000 3700 7850 3700
 Connection ~ 6000 3700
-Connection ~ 6000 2800
-Connection ~ 6000 2900
 Connection ~ 6000 3200
 Connection ~ 6000 3300
 $Comp

@@ -1460,4 +1460,34 @@ Wire Wire Line
 	8350 7900 8750 7900
 Wire Wire Line
 	8350 8000 8750 8000
+Text Label 3550 9250 0    50   ~ 0
+QSFP_MOD_SEL
+Text Label 3550 9350 0    50   ~ 0
+QSFP_RST
+Text Label 3550 9450 0    50   ~ 0
+QSFP_MOD_PRS
+Text Label 3550 9550 0    50   ~ 0
+QSFP_INT
+Text Label 3550 9650 0    50   ~ 0
+QSFP_LPMODE
+Text HLabel 4300 9250 2    50   Output ~ 0
+QSFP_MOD_SEL
+Text HLabel 4300 9350 2    50   Output ~ 0
+QSFP_RST
+Text HLabel 4300 9450 2    50   Output ~ 0
+QSFP_MOD_PRS
+Text HLabel 4300 9550 2    50   Input ~ 0
+QSFP_INT
+Text HLabel 4300 9650 2    50   Output ~ 0
+QSFP_LPMODE
+Wire Wire Line
+	3450 9250 4300 9250
+Wire Wire Line
+	3450 9350 4300 9350
+Wire Wire Line
+	3450 9450 4300 9450
+Wire Wire Line
+	3450 9550 4300 9550
+Wire Wire Line
+	3450 9650 4300 9650
 $EndSCHEMATC

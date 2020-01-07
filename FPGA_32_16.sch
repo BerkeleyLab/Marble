@@ -18,7 +18,7 @@ Text Label 9400 3800 0    50   ~ 10
 I2C_FPGA_SCL
 Text Label 9400 3700 0    50   ~ 10
 I2C_FPGA_SDA
-Text Label 9400 3000 0    50   ~ 10
+Text Label 9400 2400 0    50   ~ 10
 WR_DAC2_SYNC
 Text Label 9400 3100 0    50   ~ 10
 WR_DAC_SCLK
@@ -28,32 +28,32 @@ Text Label 9400 3300 0    50   ~ 10
 WR_DAC1_SYNC
 Text Label 9400 5800 0    50   ~ 10
 FPGA_XR_GPIO_0
-Text Label 9400 5700 0    50   ~ 10
+Text Label 9400 6100 0    50   ~ 10
 I2C_FPGA_SW_RST
-Wire Wire Line
-	9250 6300 9800 6300
-Wire Wire Line
-	9250 6100 9800 6100
-Wire Wire Line
-	9250 6500 9800 6500
 Wire Wire Line
 	9250 6600 9800 6600
 Wire Wire Line
-	9250 6700 9800 6700
+	9250 4300 9800 4300
 Wire Wire Line
-	9250 1900 9800 1900
+	9250 6400 9800 6400
 Wire Wire Line
-	9250 2300 9800 2300
+	9250 6300 9800 6300
 Wire Wire Line
-	9250 2800 9800 2800
+	9250 6500 9800 6500
+Wire Wire Line
+	9250 2700 9800 2700
+Wire Wire Line
+	9250 2500 9800 2500
 Wire Wire Line
 	9250 2000 9800 2000
 Wire Wire Line
-	9250 1800 9800 1800
+	9250 2800 9800 2800
+Wire Wire Line
+	9250 3000 9800 3000
+Wire Wire Line
+	9250 1900 9800 1900
 Wire Wire Line
 	9250 2100 9800 2100
-Wire Wire Line
-	9250 2700 9800 2700
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5CB00A89
@@ -88,12 +88,12 @@ F 3 "" H 8350 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 1000 8350 900 
-Text Label 9400 2500 0    50   ~ 10
+Text Label 9400 2300 0    50   ~ 10
 VCXO_EN
 Text Label 9400 4100 0    50   ~ 10
 CLK20_VCXO
 Wire Wire Line
-	9800 2500 9250 2500
+	9800 2300 9250 2300
 Text HLabel 13650 3600 2    50   Input ~ 10
 I2C_FPGA_SDA
 Text HLabel 13650 3500 2    50   Input ~ 10
@@ -712,14 +712,14 @@ F 3 "" H 4950 8950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10050 5700 9250 5700
+	10050 6100 9250 6100
 Text Label 9400 4400 0    50   ~ 10
 Self_FPGA_TMS
 Text Label 9400 4500 0    50   ~ 10
 Self_FPGA_TDO
 Text Label 9400 4600 0    50   ~ 10
 Self_FPGA_TDI
-Text Label 9400 4800 0    50   ~ 10
+Text Label 9400 6700 0    50   ~ 10
 Self_FPGA_TCK
 Wire Wire Line
 	10000 4400 9250 4400
@@ -728,7 +728,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 4600 9250 4600
 Wire Wire Line
-	10000 4800 9250 4800
+	10000 6700 9250 6700
 Text Label 12950 1950 0    50   ~ 10
 Self_FPGA_TMS
 Text Label 12950 2050 0    50   ~ 10
@@ -771,21 +771,21 @@ Text Label 13050 5850 0    50   ~ 10
 Pmod2_7
 Wire Wire Line
 	13500 5250 13000 5250
-Text Label 9400 1900 0    50   ~ 10
-Pmod2_0
-Text Label 9400 2300 0    50   ~ 10
-Pmod2_1
-Text Label 9400 2400 0    50   ~ 10
-Pmod2_2
-Text Label 9400 2800 0    50   ~ 10
-Pmod2_3
-Text Label 9400 2000 0    50   ~ 10
-Pmod2_4
-Text Label 9400 1800 0    50   ~ 10
-Pmod2_5
-Text Label 9400 2100 0    50   ~ 10
-Pmod2_6
 Text Label 9400 2700 0    50   ~ 10
+Pmod2_0
+Text Label 9400 2500 0    50   ~ 10
+Pmod2_1
+Text Label 9400 1800 0    50   ~ 10
+Pmod2_2
+Text Label 9400 2000 0    50   ~ 10
+Pmod2_3
+Text Label 9400 2800 0    50   ~ 10
+Pmod2_4
+Text Label 9400 3000 0    50   ~ 10
+Pmod2_5
+Text Label 9400 1900 0    50   ~ 10
+Pmod2_6
+Text Label 9400 2100 0    50   ~ 10
 Pmod2_7
 Text Label 14100 5150 0    50   ~ 10
 Pmod1_0
@@ -803,26 +803,26 @@ Text Label 14100 5750 0    50   ~ 10
 Pmod1_6
 Text Label 14100 5850 0    50   ~ 10
 Pmod1_7
-Text Label 9400 4300 0    50   ~ 10
+Text Label 9400 4800 0    50   ~ 10
 Pmod1_0
-Text Label 9400 6200 0    50   ~ 10
+Text Label 9400 5700 0    50   ~ 10
 Pmod1_1
-Text Label 9400 6100 0    50   ~ 10
+Text Label 9400 4300 0    50   ~ 10
 Pmod1_2
-Text Label 9400 6500 0    50   ~ 10
-Pmod1_3
 Text Label 9400 6400 0    50   ~ 10
+Pmod1_3
+Text Label 9400 6200 0    50   ~ 10
 Pmod1_4
-Text Label 9400 6300 0    50   ~ 10
-Pmod1_5
-Text Label 9400 6700 0    50   ~ 10
-Pmod1_6
 Text Label 9400 6600 0    50   ~ 10
+Pmod1_5
+Text Label 9400 6500 0    50   ~ 10
+Pmod1_6
+Text Label 9400 6300 0    50   ~ 10
 Pmod1_7
 Wire Wire Line
-	9250 6200 9800 6200
+	9250 5700 9800 5700
 Wire Wire Line
-	9250 2400 9800 2400
+	9250 1800 9800 1800
 $Comp
 L Regulators:MC78L05ACDG U12
 U 1 1 5CB8EA95
@@ -1845,7 +1845,7 @@ NoConn ~ 9250 2600
 NoConn ~ 9250 2900
 NoConn ~ 9250 3400
 Wire Wire Line
-	10000 3000 9250 3000
+	10000 2400 9250 2400
 Wire Wire Line
 	10000 3100 9250 3100
 Wire Wire Line
@@ -1867,7 +1867,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 4100 10000 4100
 Wire Wire Line
-	9250 4300 10000 4300
+	9250 4800 10000 4800
 Wire Wire Line
 	9250 4700 10000 4700
 Wire Wire Line
@@ -1904,7 +1904,7 @@ F 5 "-standalone" H 11050 5150 50  0001 C CNN "config"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 6400 9250 6400
+	9800 6200 9250 6200
 $Comp
 L power:GND #PWR?
 U 1 1 5DAA0539

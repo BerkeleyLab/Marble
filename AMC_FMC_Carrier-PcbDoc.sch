@@ -121,10 +121,6 @@ F7 "I2C_SFP1_SDA" B R 6800 13700 50
 F8 "I2C_SFP1_SCL" O R 6800 13800 50 
 F9 "I2C_SFP2_SDA" B R 6800 13950 50 
 F10 "I2C_SFP2_SCL" O R 6800 14050 50 
-F11 "I2C_SFP3_SDA" B R 6800 14200 50 
-F12 "I2C_SFP3_SCL" O R 6800 14300 50 
-F13 "I2C_SFP4_SDA" B R 6800 14450 50 
-F14 "I2C_SFP4_SCL" O R 6800 14550 50 
 F15 "I2C_FMC1_SCL" O R 6800 13000 50 
 F16 "I2C_FMC1_SDA" B R 6800 13100 50 
 F17 "I2C_FMC2_SCL" O R 6800 13250 50 
@@ -309,32 +305,6 @@ Wire Wire Line
 	7000 6750 6800 6750
 Wire Wire Line
 	7550 7100 7550 6350
-Wire Wire Line
-	8200 13900 8550 13900
-Wire Wire Line
-	8000 14700 16350 14700
-Wire Wire Line
-	16350 14700 16350 12750
-Wire Wire Line
-	16350 12750 15650 12750
-Wire Wire Line
-	7950 14750 16300 14750
-Wire Wire Line
-	16300 14750 16300 12850
-Wire Wire Line
-	16300 12850 15650 12850
-Wire Wire Line
-	7800 14850 16050 14850
-Wire Wire Line
-	16050 14850 16050 13900
-Wire Wire Line
-	16050 13900 15650 13900
-Wire Wire Line
-	7750 14900 16000 14900
-Wire Wire Line
-	16000 14900 16000 14000
-Wire Wire Line
-	16000 14000 15650 14000
 Wire Wire Line
 	3900 12100 4150 12100
 Wire Wire Line
@@ -646,26 +616,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 9950 11350 9950
 Wire Wire Line
-	6800 14550 7750 14550
-Wire Wire Line
-	7750 14550 7750 14900
-Wire Wire Line
-	6800 14450 7800 14450
-Wire Wire Line
-	7800 14450 7800 14850
-Wire Wire Line
-	6800 14300 7950 14300
-Wire Wire Line
-	7950 14300 7950 14750
-Wire Wire Line
-	6800 14200 8000 14200
-Wire Wire Line
-	8000 14200 8000 14700
-Wire Wire Line
-	6800 13950 8200 13950
-Wire Wire Line
-	8200 13950 8200 13900
-Wire Wire Line
 	6800 13800 8150 13800
 Wire Wire Line
 	8150 13800 8150 12850
@@ -701,12 +651,6 @@ Wire Wire Line
 	8000 13600 8000 12050
 Wire Wire Line
 	8000 12050 11350 12050
-Wire Wire Line
-	8250 14050 8250 14000
-Wire Wire Line
-	8250 14000 8550 14000
-Wire Wire Line
-	6800 14050 8250 14050
 Wire Wire Line
 	5100 13000 5000 13000
 Wire Wire Line
@@ -2094,48 +2038,48 @@ Marble v2
 $Comp
 L Heat-Sinks:HSINK_ATS_ATS-50350B-C1-R0 HS1
 U 1 1 5D73CB17
-P 16600 2550
-F 0 "HS1" H 16600 2748 30  0000 C CNN
-F 1 "HS_AAVID_342947" H 16600 2475 50  0001 L CNN
-F 2 "po konwersji:HS_AAVID_342947" H 16600 2400 50  0001 L CNN
-F 3 "" H 16600 2325 50  0001 L CNN
-F 4 " " H 16600 2025 50  0001 L CNN "Comment"
-F 5 "HS_AAVID_342947" H 16600 2250 50  0001 L CNN "Part Number"
-F 6 "Heat Sink No Pad" H 16600 2175 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Heat-Sinks.SchLib" H 16600 2100 50  0001 L CNN "Library Path"
-F 8 "Standard" H 16600 1950 50  0001 L CNN "Component Kind"
-F 9 "Mechanical" H 16600 1875 50  0001 L CNN "Component Type"
-F 10 "0" H 16600 1800 50  0001 L CNN "Pin Count"
-F 11 " " H 16600 1725 50  0001 L CNN "Case"
-F 12 "PcbLib\\Heat-Sinks.PcbLib" H 16600 1650 50  0001 L CNN "Footprint Path"
-F 13 "HS_AAVID_342947" H 16600 1575 50  0001 L CNN "Footprint Ref"
-F 14 "35.0 x 35.0 x 7.5 mm BGA Heat Sink, Body 49.9mm x 35mm  Height 7.5mm" H 16600 1500 50  0001 L CNN "PackageDescription"
-F 15 "Yes" H 16600 1425 50  0001 L CNN "Mounted"
-F 16 "No" H 16600 1350 50  0001 L CNN "Socket"
-F 17 "No" H 16600 1275 50  0001 L CNN "SMD"
-F 18 "No" H 16600 1200 50  0001 L CNN "PressFit"
-F 19 "No" H 16600 1125 50  0001 L CNN "Sense"
-F 20 " " H 16600 1050 50  0001 L CNN "Sense Comment"
-F 21 "None" H 16600 975 50  0001 L CNN "Status"
-F 22 " " H 16600 900 50  0001 L CNN "Status Comment"
-F 23 " " H 16600 825 50  0001 L CNN "SCEM"
-F 24 "35.0 x 35.0 x 7.5 mm BGA Heat Sink - High Performance  maxiFLOW/maxiGRIP-STD" H 16600 750 50  0001 L CNN "Part Description"
-F 25 "ADVENCED THERMAL SOLUTION (ATS)" H 16600 675 50  0001 L CNN "Manufacturer"
-F 26 "HS_AAVID_342947" H 16600 600 50  0001 L CNN "Manufacturer Part Number"
-F 27 "7.5mm" H 16600 525 50  0001 L CNN "ComponentHeight"
-F 28 " " H 16600 450 50  0001 L CNN "Manufacturer1 Example"
-F 29 " " H 16600 375 50  0001 L CNN "Manufacturer1 Part Number"
-F 30 " " H 16600 300 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 " " H 16600 225 50  0001 L CNN "ComponentLink1Description"
-F 32 " " H 16600 150 50  0001 L CNN "ComponentLink2Description"
-F 33 "CERN DEM JLC" H 16600 75  50  0001 L CNN "Author"
-F 34 "11/30/16 00:00:00" H 16600 0   50  0001 L CNN "CreateDate"
-F 35 "11/30/16 00:00:00" H 16600 -75 50  0001 L CNN "LatestRevisionDate"
-F 36 "Heat-Sinks" H 16600 -150 50  0001 L CNN "Database Table Name"
-F 37 "Eletro-mechanical.DbLib" H 16600 -225 50  0001 L CNN "Library Name"
-F 38 "Heat-Sinks" H 16600 -300 50  0001 L CNN "Footprint Library"
-F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 16600 -375 50  0001 L CNN "License"
-	1    16600 2550
+P 14650 2850
+F 0 "HS1" H 14650 3048 30  0000 C CNN
+F 1 "HS_AAVID_342947" H 14650 2775 50  0001 L CNN
+F 2 "po konwersji:HS_AAVID_342947" H 14650 2700 50  0001 L CNN
+F 3 "" H 14650 2625 50  0001 L CNN
+F 4 " " H 14650 2325 50  0001 L CNN "Comment"
+F 5 "HS_AAVID_342947" H 14650 2550 50  0001 L CNN "Part Number"
+F 6 "Heat Sink No Pad" H 14650 2475 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Heat-Sinks.SchLib" H 14650 2400 50  0001 L CNN "Library Path"
+F 8 "Standard" H 14650 2250 50  0001 L CNN "Component Kind"
+F 9 "Mechanical" H 14650 2175 50  0001 L CNN "Component Type"
+F 10 "0" H 14650 2100 50  0001 L CNN "Pin Count"
+F 11 " " H 14650 2025 50  0001 L CNN "Case"
+F 12 "PcbLib\\Heat-Sinks.PcbLib" H 14650 1950 50  0001 L CNN "Footprint Path"
+F 13 "HS_AAVID_342947" H 14650 1875 50  0001 L CNN "Footprint Ref"
+F 14 "35.0 x 35.0 x 7.5 mm BGA Heat Sink, Body 49.9mm x 35mm  Height 7.5mm" H 14650 1800 50  0001 L CNN "PackageDescription"
+F 15 "Yes" H 14650 1725 50  0001 L CNN "Mounted"
+F 16 "No" H 14650 1650 50  0001 L CNN "Socket"
+F 17 "No" H 14650 1575 50  0001 L CNN "SMD"
+F 18 "No" H 14650 1500 50  0001 L CNN "PressFit"
+F 19 "No" H 14650 1425 50  0001 L CNN "Sense"
+F 20 " " H 14650 1350 50  0001 L CNN "Sense Comment"
+F 21 "None" H 14650 1275 50  0001 L CNN "Status"
+F 22 " " H 14650 1200 50  0001 L CNN "Status Comment"
+F 23 " " H 14650 1125 50  0001 L CNN "SCEM"
+F 24 "35.0 x 35.0 x 7.5 mm BGA Heat Sink - High Performance  maxiFLOW/maxiGRIP-STD" H 14650 1050 50  0001 L CNN "Part Description"
+F 25 "ADVENCED THERMAL SOLUTION (ATS)" H 14650 975 50  0001 L CNN "Manufacturer"
+F 26 "HS_AAVID_342947" H 14650 900 50  0001 L CNN "Manufacturer Part Number"
+F 27 "7.5mm" H 14650 825 50  0001 L CNN "ComponentHeight"
+F 28 " " H 14650 750 50  0001 L CNN "Manufacturer1 Example"
+F 29 " " H 14650 675 50  0001 L CNN "Manufacturer1 Part Number"
+F 30 " " H 14650 600 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 " " H 14650 525 50  0001 L CNN "ComponentLink1Description"
+F 32 " " H 14650 450 50  0001 L CNN "ComponentLink2Description"
+F 33 "CERN DEM JLC" H 14650 375 50  0001 L CNN "Author"
+F 34 "11/30/16 00:00:00" H 14650 300 50  0001 L CNN "CreateDate"
+F 35 "11/30/16 00:00:00" H 14650 225 50  0001 L CNN "LatestRevisionDate"
+F 36 "Heat-Sinks" H 14650 150 50  0001 L CNN "Database Table Name"
+F 37 "Eletro-mechanical.DbLib" H 14650 75  50  0001 L CNN "Library Name"
+F 38 "Heat-Sinks" H 14650 0   50  0001 L CNN "Footprint Library"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14650 -75 50  0001 L CNN "License"
+	1    14650 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2300,6 +2244,11 @@ F113 "MGT_TX_0_P" O R 12950 12350 50
 F114 "MGT_TX_0_N" O R 12950 12450 50 
 F115 "MGT_TX_2_P" O R 12950 12750 50 
 F116 "MGT_TX_2_N" O R 12950 12850 50 
+F117 "QSFP_MOD_SEL" O R 12950 14050 50 
+F118 "QSFP_RST" O R 12950 14150 50 
+F119 "QSFP_MOD_PRS" O R 12950 14250 50 
+F120 "QSFP_INT" I R 12950 14350 50 
+F121 "QSFP_LPMODE" O R 12950 14450 50 
 $EndSheet
 Wire Wire Line
 	12950 12350 14150 12350
@@ -2333,4 +2282,14 @@ Wire Wire Line
 	12950 13800 14150 13800
 Wire Wire Line
 	12950 13900 14150 13900
+Wire Wire Line
+	12950 14050 14150 14050
+Wire Wire Line
+	12950 14150 14150 14150
+Wire Wire Line
+	12950 14250 14150 14250
+Wire Wire Line
+	12950 14350 14150 14350
+Wire Wire Line
+	12950 14450 14150 14450
 $EndSCHEMATC
