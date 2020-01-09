@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 21 25
+Sheet 25 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -18,7 +18,7 @@ Text Label 9400 3800 0    50   ~ 10
 I2C_FPGA_SCL
 Text Label 9400 3700 0    50   ~ 10
 I2C_FPGA_SDA
-Text Label 9400 2400 0    50   ~ 10
+Text Label 9400 2300 0    50   ~ 10
 WR_DAC2_SYNC
 Text Label 9400 3100 0    50   ~ 10
 WR_DAC_SCLK
@@ -52,8 +52,6 @@ Wire Wire Line
 	9250 3000 9800 3000
 Wire Wire Line
 	9250 1900 9800 1900
-Wire Wire Line
-	9250 2100 9800 2100
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5CB00A89
@@ -88,12 +86,12 @@ F 3 "" H 8350 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 1000 8350 900 
-Text Label 9400 2300 0    50   ~ 10
+Text Label 9400 2400 0    50   ~ 10
 VCXO_EN
 Text Label 9400 4100 0    50   ~ 10
 CLK20_VCXO
 Wire Wire Line
-	9800 2300 9250 2300
+	9800 2400 9250 2400
 Text HLabel 13650 3600 2    50   Input ~ 10
 I2C_FPGA_SDA
 Text HLabel 13650 3500 2    50   Input ~ 10
@@ -314,7 +312,7 @@ F 3 "" H 9400 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue J15
+L AMC_FMC_Carrier-PcbDoc-rescue:SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J15
 U 1 1 5CBF72F4
 P 9750 7650
 F 0 "J15" H 10180 6500 50  0000 L CNN
@@ -396,10 +394,6 @@ Text Label 9400 5100 0    50   ~ 10
 TMDS1_P
 Text Label 9400 5200 0    50   ~ 10
 TMDS1_N
-Text Label 9400 4900 0    50   ~ 10
-TMDS0_P
-Text Label 9400 5000 0    50   ~ 10
-TMDS0_N
 Text Label 9400 3900 0    50   ~ 10
 TMDS_CLK_P
 Text Label 9400 4000 0    50   ~ 10
@@ -516,7 +510,7 @@ Connection ~ 8800 9550
 Text Label 9000 10200 0    50   ~ 10
 HDMI_HPD
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue D10
+L AMC_FMC_Carrier-PcbDoc-rescue:HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D10
 U 1 1 5C7A684D
 P 5550 8400
 AR Path="/5C7A684D" Ref="D10"  Part="1" 
@@ -566,7 +560,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	-1   0    0    1   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue D11
+L AMC_FMC_Carrier-PcbDoc-rescue:HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D11
 U 1 1 5C854FB3
 P 5150 8750
 AR Path="/5C854FB3" Ref="D11"  Part="1" 
@@ -785,8 +779,6 @@ Text Label 9400 3000 0    50   ~ 10
 Pmod2_5
 Text Label 9400 1900 0    50   ~ 10
 Pmod2_6
-Text Label 9400 2100 0    50   ~ 10
-Pmod2_7
 Text Label 14100 5150 0    50   ~ 10
 Pmod1_0
 Text Label 14100 5250 0    50   ~ 10
@@ -1814,8 +1806,6 @@ $EndComp
 Connection ~ 9150 9550
 Wire Wire Line
 	9150 9550 9550 9550
-Text Label 9400 4700 0    50   ~ 10
-FPGA_INT
 Wire Wire Line
 	5850 8100 5850 7850
 Wire Wire Line
@@ -1845,7 +1835,7 @@ NoConn ~ 9250 2600
 NoConn ~ 9250 2900
 NoConn ~ 9250 3400
 Wire Wire Line
-	10000 2400 9250 2400
+	10000 2300 9250 2300
 Wire Wire Line
 	10000 3100 9250 3100
 Wire Wire Line
@@ -1869,12 +1859,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 4800 10000 4800
 Wire Wire Line
-	9250 4700 10000 4700
-Wire Wire Line
-	10000 4900 9250 4900
-Wire Wire Line
-	10000 5000 9250 5000
-Wire Wire Line
 	10000 5100 9250 5100
 Wire Wire Line
 	10000 5200 9250 5200
@@ -1889,7 +1873,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 5800 10050 5800
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:SN65MLVD2DRBT-powerMG U42
+L AMC_FMC_Carrier-PcbDoc-rescue:SN65MLVD2DRBT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U42
 U 1 1 5D20E21A
 P 10600 5700
 AR Path="/5D20E21A" Ref="U42"  Part="1" 
@@ -2368,6 +2352,22 @@ Wire Wire Line
 	4500 2400 5250 2400
 Wire Wire Line
 	4500 2300 5250 2300
+Wire Wire Line
+	9250 4700 10000 4700
+Text Label 9400 4700 0    50   ~ 10
+FPGA_INT
+Text Label 9400 2100 0    50   ~ 10
+Pmod2_7
+Wire Wire Line
+	9250 2100 9800 2100
+Wire Wire Line
+	10000 5000 9250 5000
+Wire Wire Line
+	10000 4900 9250 4900
+Text Label 9400 5000 0    50   ~ 10
+TMDS0_N
+Text Label 9400 4900 0    50   ~ 10
+TMDS0_P
 Wire Bus Line
 	14600 5000 14600 5750
 Wire Bus Line

@@ -666,7 +666,7 @@ FMC2_PG_C2M
 Wire Wire Line
 	13700 950  14600 950 
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR01
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR01
 U 1 1 5BFC3656
 P 2200 4650
 F 0 "#PWR01" H 2200 4500 50  0001 C CNN
@@ -2712,8 +2712,6 @@ Connection ~ 6100 6900
 Wire Wire Line
 	6100 6900 6100 7000
 Wire Wire Line
-	7500 6600 8250 6600
-Wire Wire Line
 	7500 6900 8250 6900
 Wire Wire Line
 	7500 7000 8250 7000
@@ -3125,8 +3123,6 @@ Wire Wire Line
 	13000 9450 13000 9700
 Wire Wire Line
 	12400 9550 13150 9550
-Wire Wire Line
-	12400 5650 13150 5650
 Text Label 12350 5950 0    50   ~ 0
 GBTCLK2_M2C_P
 Text Label 12350 6050 0    50   ~ 0
@@ -3351,10 +3347,6 @@ Text GLabel 12400 9250 0    50   Input ~ 0
 FMC2_HB17_CC_P
 Text GLabel 12400 9350 0    50   Input ~ 0
 FMC2_HB17_CC_N
-Text Label 12400 5650 0    50   ~ 0
-VREF_B_M2C
-Text Label 7500 6600 0    50   ~ 0
-PG_M2C
 $Comp
 L power:+2V5 #PWR0678
 U 1 1 5D9281BB

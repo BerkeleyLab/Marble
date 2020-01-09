@@ -15,7 +15,7 @@ Comment3 "I2C MUX"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue U5
+L AMC_FMC_Carrier-PcbDoc-rescue:TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U5
 U 1 1 5C5DB690
 P 5150 2900
 F 0 "U5" H 5150 3978 50  0000 L CNN
@@ -116,9 +116,9 @@ I2C_SFP1_SDA
 Text HLabel 7850 2600 2    50   Output ~ 10
 I2C_SFP1_SCL
 Text HLabel 7850 3300 2    50   BiDi ~ 10
-I2C_SFP2_SDA
+QSFP_SDA
 Text HLabel 7850 3200 2    50   Output ~ 10
-I2C_SFP2_SCL
+QSFP_SCL
 Text HLabel 7850 2200 2    50   Output ~ 10
 I2C_FMC1_SCL
 Text HLabel 7850 2300 2    50   BiDi ~ 10
@@ -1494,9 +1494,9 @@ I2C_SFP1_SCL
 Text Label 7000 2700 0    50   ~ 10
 I2C_SFP1_SDA
 Text Label 7000 3200 0    50   ~ 10
-I2C_SFP2_SCL
+QSFP_SCL
 Text Label 7000 3300 0    50   ~ 10
-I2C_SFP2_SDA
+QSFP_SDA
 Text Label 7000 3400 0    50   ~ 10
 I2C_APP_SCL
 Text Label 7000 3500 0    50   ~ 10

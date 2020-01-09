@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V_AMC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +12V_FMC1 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +12V_FMC2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -61,11 +61,11 @@ X +1V8_USB 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -76,11 +76,11 @@ X +3V3_CLEAN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -91,11 +91,11 @@ X +3V3_USB 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue D 0 40 N N 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue" 0 -100 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" 0 -200 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 $FPLIST
@@ -109,11 +109,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue U 0 30 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 30 Y Y 1 F N
 F0 "U" 1200 -50 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue" 1200 -150 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 1200 -150 50 H V L CNN
 F2 "AG5300" 1200 -250 50 H I L CNN
 F3 "https://www.silvertel.com/images/datasheets/Ag5300-datasheet-smallest-30W-Power-Over-Ethernet-Plus-Module-PoEplusPD.pdf" 1200 -350 50 H I L CNN
 F4 "Power-over-Ethernet Plus Module" 1200 -450 50 H I L CNN "Description"
@@ -132,11 +132,11 @@ X ADJ 9 1350 -450 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous
+# AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous J 0 60 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 F N
 F0 "J" 900 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous" 900 -3050 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 900 -3050 50 H V C CNN
 F2 "Miscellaneous THD:BELFUSE_0826-1X1T-80-F" 0 -3150 60 H I L CNN
 F3 "" 0 -3220 60 H I L CNN
 F4 "BELFUSE_0826-1X1T-HS-F" 0 -3310 60 H I L CNN "Part Number"
@@ -477,11 +477,11 @@ X VC4 16 -200 -2300 200 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue P 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue P 0 40 Y Y 1 F N
 F0 "P" 13800 -90 60 H V L BNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue" 13800 -190 60 H V L BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 13800 -190 60 H V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1311,11 +1311,11 @@ X 99 99 1400 -600 200 U 70 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue J 0 40 Y N 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue" 0 -300 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1337,11 +1337,11 @@ X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue J 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue" -100 550 50 H V R BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" -100 550 50 H V R BNN
 F2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
@@ -1372,11 +1372,11 @@ X GNDDetect 9 -100 -600 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue M 0 0 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue M 0 0 Y Y 1 F N
 F0 "M" 100 100 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue" 100 -200 50 H V L TNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 100 -200 50 H V L TNN
 F2 "" 0 -90 50 H I C CNN
 F3 "" 0 -90 50 H I C CNN
 $FPLIST
@@ -1405,11 +1405,11 @@ X - 3 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
 F0 "D" 200 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue" 200 -450 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_HDMIULC6-4SC6-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 -450 50 H V C CNN
 F2 "ICs And Semiconductors SMD:SOT95P280X145-6N" 0 -680 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HDMIULC6-4SC6.pdf" 0 -770 60 H I L CNN
 F4 "HDMIULC6-4SC6" 0 -860 60 H I L CNN "Part Number"
@@ -1506,11 +1506,11 @@ X I/O4 6 600 -100 200 L 60 0 0 1 B
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001
+# AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001 S 0 30 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue S 0 30 Y Y 1 F N
 F0 "S" 1050 300 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001" 1050 200 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 1050 200 50 H V L CNN
 F2 "HDT0001" 1050 100 50 H I L CNN
 F3 "https://www.ckswitches.com/media/1307/hdt.pdf" 1050 0 50 H I L CNN
 F4 "HDT0001 (Detector Switches)" 1050 -100 50 H I L CNN "Description"
@@ -1532,11 +1532,11 @@ X COM_2 4 1200 -100 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
 F0 "J" 300 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue" 0 -990 60 H I L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -990 60 H I L CNN
 F2 "Miscellaneous SMD:HIROSE_ZX62RD-AB-5P8" 0 -1080 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HIROSE_ZX62RD-AB-5P8.pdf" 0 -1170 60 H I L CNN
 F4 "Micro-USB AB 2.0" 300 -850 50 H V C CNN "~"
@@ -1606,11 +1606,67 @@ X SH 6 -200 -700 200 R 0 0 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_HSINK_ATS_ATS-50350B-C1-R0-Heat-Sinks-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue L 0 40 N N 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_HSINK_ATS_ATS-50350B-C1-R0-Heat-Sinks-AMC_FMC_Carrier-PcbDoc-rescue HS 0 50 Y Y 1 L N
+F0 "HS" 0 140 30 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_HSINK_ATS_ATS-50350B-C1-R0-Heat-Sinks-AMC_FMC_Carrier-PcbDoc-rescue" 0 -75 50 H I L CNN
+F2 "Heat-Sinks:HSINK_ATS_ATS-50350B-C1-R0" 0 -150 50 H I L CNN
+F3 " " 0 -225 50 H I L CNN
+F4 " " 0 50 40 H I C CNN "Comment"
+F5 "HSINK_ATS_ATS-50350B-C1-R0" 0 -300 50 H I L CNN "Part Number"
+F6 "Heat Sink No Pad" 0 -375 50 H I L CNN "Library Ref"
+F7 "SchLib\\Heat-Sinks.SchLib" 0 -450 50 H I L CNN "Library Path"
+F8 " " 0 -525 50 H I L CNN "Comment"
+F9 "Accessories" 0 -600 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -675 50 H I L CNN "Component Type"
+F11 "0" 0 -750 50 H I L CNN "Pin Count"
+F12 " " 0 -825 50 H I L CNN "Case"
+F13 "PcbLib\\Heat-Sinks.PcbLib" 0 -900 50 H I L CNN "Footprint Path"
+F14 "HSINK_ATS_ATS-50350B-C1-R0" 0 -975 50 H I L CNN "Footprint Ref"
+F15 "35.0 x 35.0 x 7.5 mm BGA Heat Sink, Body 49.9mm x 35mm  Height 7.5mm" 0 -1050 50 H I L CNN "PackageDescription"
+F16 "Yes" 0 -1125 50 H I L CNN "Mounted"
+F17 "No" 0 -1200 50 H I L CNN "Socket"
+F18 "No" 0 -1275 50 H I L CNN "SMD"
+F19 "No" 0 -1350 50 H I L CNN "PressFit"
+F20 "No" 0 -1425 50 H I L CNN "Sense"
+F21 " " 0 -1500 50 H I L CNN "Sense Comment"
+F22 "None" 0 -1575 50 H I L CNN "Status"
+F23 " " 0 -1650 50 H I L CNN "Status Comment"
+F24 " " 0 -1725 50 H I L CNN "SCEM"
+F25 "35.0 x 35.0 x 7.5 mm BGA Heat Sink - High Performance  maxiFLOW/maxiGRIP-STD" 0 -1800 50 H I L CNN "Part Description"
+F26 "ADVENCED THERMAL SOLUTION (ATS)" 0 -1875 50 H I L CNN "Manufacturer"
+F27 "ATS-50350B-C1-R0" 0 -1950 50 H I L CNN "Manufacturer Part Number"
+F28 "7.5mm" 0 -2025 50 H I L CNN "ComponentHeight"
+F29 " " 0 -2100 50 H I L CNN "Manufacturer1 Example"
+F30 " " 0 -2175 50 H I L CNN "Manufacturer1 Part Number"
+F31 " " 0 -2250 50 H I L CNN "Manufacturer1 ComponentHeight"
+F32 " " 0 -2325 50 H I L CNN "ComponentLink1Description"
+F33 " " 0 -2400 50 H I L CNN "ComponentLink2Description"
+F34 "CERN DEM JLC" 0 -2475 50 H I L CNN "Author"
+F35 "11/30/16 00:00:00" 0 -2550 50 H I L CNN "CreateDate"
+F36 "11/30/16 00:00:00" 0 -2625 50 H I L CNN "LatestRevisionDate"
+F37 "Heat-Sinks" 0 -2700 50 H I L CNN "Database Table Name"
+F38 "Eletro-mechanical.DbLib" 0 -2775 50 H I L CNN "Library Name"
+F39 "Heat-Sinks" 0 -2850 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2925 50 H I L CNN "License"
+DRAW
+S -310 0 310 40 0 1 0 F
+S -310 40 -290 140 0 1 0 F
+S -210 40 -190 140 0 1 0 F
+S -110 40 -90 100 0 1 0 F
+S -10 40 10 100 0 1 0 F
+S 90 40 110 100 0 1 0 F
+S 190 40 210 140 0 1 0 F
+S 290 40 310 140 0 1 0 F
+ENDDRAW
+ENDDEF
+#
+# AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+#
+DEF AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue" 75 0 50 V V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1629,11 +1685,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue IC 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 40 Y Y 1 F N
 F0 "IC" -100 150 60 H V L BNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue" -750 50 60 V V L BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" -750 50 60 V V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1650,11 +1706,11 @@ X C 8 400 -100 200 L 70 1 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
 F0 "U" -250 450 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue" 0 450 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 450 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1684,11 +1740,11 @@ X +Vs 8 0 500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue IC 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 40 Y Y 1 F N
 F0 "IC" 300 50 60 H V L BNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 60 H V L BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 60 H V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1701,207 +1757,11 @@ X VOUT 5 800 -100 200 L 70 70 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 5 F N
-F0 "U" 50 150 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_LPC1776FET180,551-lpc1776fet180,551-AMC_FMC_Carrier-PcbDoc-rescue" 400 50 50 H V C CNN
-F2 "" 700 1300 50 H I C CNN
-F3 "" 700 1300 50 H I C CNN
-DRAW
-S 0 -6600 3700 0 1 1 10 f
-S 0 -4600 2950 0 2 1 10 f
-S 0 -3500 2600 0 3 1 10 f
-S 0 -1200 1600 0 4 1 10 f
-S 0 -1900 1200 0 5 1 10 f
-X P0[4]/I2S_RX_SCK/CAN_RD2/T2_CAP0 A11 -200 -500 200 R 70 70 1 1 B
-X P1[11]/ENET_RXD2/SD_DAT[2]/PWM0[6] A12 -200 -4500 200 R 70 70 1 1 B
-X P0[9]/I2S_TX_SDA/SSP1_MOSI/T2_MAT3/RTC_EV2 A13 -200 -1000 200 R 70 70 1 1 B
-X P1[12]/ENET_RXD3/SD_DAT[3]/PWM0_CAP0 A14 -200 -4600 200 R 70 70 1 1 B
-X P0[3]/U0_RXD/U3_RXD A3 -200 -400 200 R 70 70 1 1 B
-X P1[1]/ENET_TXD1/T3_MAT3/SSP2_MOSI A5 -200 -3500 200 R 70 70 1 1 B
-X P1[10]/ENET_RXD1/T3_CAP0 A7 -200 -4400 200 R 70 70 1 1 B
-X P1[15]/ENET_RX_CLK(ENET_REF_CLK)/I2C2_SDA A8 -200 -4900 200 R 70 70 1 1 B
-X P1[3]/ENET_TXD3/SD_CMD/PWM0[2] A9 -200 -3700 200 R 70 70 1 1 B
-X P1[6]/ENET_TX_CLK/SD_DAT[0]/PWM0[4] B10 -200 -4000 200 R 70 70 1 1 B
-X P0[5]/I2S_RX_WS/CAN_TD2/T2_CAP1 B11 -200 -600 200 R 70 70 1 1 B
-X P0[7]/I2S_TX_SCK/SSP1_SCK/T2_MAT1/RTC_EV0 B12 -200 -800 200 R 70 70 1 1 B
-X P1[5]/ENET_TX_ER/SD_PWR/PWM0[3] B13 -200 -3900 200 R 70 70 1 1 B
-X P1[0]/ENET_TXD0/T3_CAP1/SSP2_SCK B5 -200 -3400 200 R 70 70 1 1 B
-X P1[8]/ENET_CRS(ENET_CRS_DV)/T3_MAT1/SSP2_SSEL B6 -200 -4200 200 R 70 70 1 1 B
-X P1[2]/ENET_TXD2/SD_CLK/PWM0[1] B7 -200 -3600 200 R 70 70 1 1 B
-X P1[16]/ENET_MDC/I2S_TX_MCLK B8 -200 -5000 200 R 70 70 1 1 B
-X P0[8]/I2S_TX_WS/SSP1_MISO/T2_MAT2/RTC_EV1 C12 -200 -900 200 R 70 70 1 1 B
-X P1[7]/ENET_COL/SD_DAT[1]/PWM0[5] C13 -200 -4100 200 R 70 70 1 1 B
-X P1[4]/ENET_TX_EN/T3_MAT2/SSP2_MISO C6 -200 -3800 200 R 70 70 1 1 B
-X P1[17]/ENET_MDIO/I2S_RX_MCLK C9 -200 -5100 200 R 70 70 1 1 B
-X P0[26]/ADC0_IN[3]/DAC_OUT/U3_RXD D1 -200 -2700 200 R 70 70 1 1 B
-X P0[6]/I2S_RX_SDA/SSP1_SSEL/T2_MAT0/U1_RTS D11 -200 -700 200 R 70 70 1 1 B
-X P1[13]/ENET_RX_DV D14 -200 -4700 200 R 70 70 1 1 B
-X P0[2]/U0_TXD/U3_TXD D5 -200 -300 200 R 70 70 1 1 B
-X P1[9]/ENET_RXD0/T3_MAT0 D7 -200 -4300 200 R 70 70 1 1 B
-X P1[14]/ENET_RX_ER/T2_CAP0 D8 -200 -4800 200 R 70 70 1 1 B
-X P0[24]/ADC0_IN[1]/I2S_RX_WS/T3_CAP1 E1 -200 -2500 200 R 70 70 1 1 B
-X P0[25]/ADC0_IN[2]/I2S_RX_SDA/U3_TXD E4 -200 -2600 200 R 70 70 1 1 B
-X P0[23]/ADC0_IN[0]/I2S_RX_SCK/T3_CAP0 F5 -200 -2400 200 R 70 70 1 1 B
-X P0[15]/U1_TXD/SSP0_SCK H13 -200 -1600 200 R 70 70 1 1 B
-X P0[16]/U1_RXD/SSP0_SSEL H14 -200 -1700 200 R 70 70 1 1 B
-X P0[19]/U1_DSR/SD_CLK/I2C1_SDA J10 -200 -2000 200 R 70 70 1 1 B
-X P0[17]/U1_CTS/SSP0_MISO J12 -200 -1800 200 R 70 70 1 1 B
-X P0[18]/U1_DCD/SSP0_MOSI J13 -200 -1900 200 R 70 70 1 1 B
-X P0[12]/~USB_PPWR2/SSP1~_MISO/ADC0_IN[6] J4 -200 -1300 200 R 70 70 1 1 B
-X P0[13]/USB_UP_LED2/SSP1_MOSI/ADC0_IN[7] J5 -200 -1400 200 R 70 70 1 1 B
-X P0[21]/U1_RI/SD_PWR/U4_OE/CAN_RD1/U4_SCLK K11 -200 -2200 200 R 70 70 1 1 B
-X P0[20]/U1_DTR/SD_CMD/I2C1_SCL K14 -200 -2100 200 R 70 70 1 1 B
-X P1[31]/~USB_OVRCR2~/SSP1_SCK/ADC0_IN[5]/I2C0_SCL K2 -200 -6500 200 R 70 70 1 1 B
-X P1[30]/USB_PWRD2/USB_VBUS/ADC0_IN[4]/I2C0_SDA/U3_OE K3 -200 -6400 200 R 70 70 1 1 B
-X P0[29]/USB_D+1/~EINT0 K5 -200 -3000 200 R 70 70 1 1 B
-X P1[20]/USB_TX_DP1/PWM1[2]/QEI_PHA/MC_FB0/SSP0_SCK K6 -200 -5400 200 R 70 70 1 1 B
-X P0[10]/U2_TXD/I2C2_SDA/T3_MAT0 L10 -200 -1100 200 R 70 70 1 1 B
-X P0[22]/U1_RTS/SD_DAT[0]/U4_TXD/CAN_TD1 L14 -200 -2300 200 R 70 70 1 1 B
-X P0[27]/I2C0_SDA/USB_SDA1 L3 -200 -2800 200 R 70 70 1 1 B
-X P1[18]/USB_UP_LED1/PWM1[1]/T1_CAP0/SSP1_MISO L5 -200 -5200 200 R 70 70 1 1 B
-X P1[25]/~USB_LS1~/~USB_HSTEN1~/T1_MAT1/MC_1A/CLKOUT L7 -200 -5900 200 R 70 70 1 1 B
-X P0[28]/I2C0_SCL/USB_SCL1 M1 -200 -2900 200 R 70 70 1 1 B
-X P0[0]/CAN_RD1/U3_TXD/I2C1_SDA/U0_TXD M10 -200 -100 200 R 70 70 1 1 B
-X P0[14]/~USB_HSTEN2~/SSP1_SSEL/USB_CONNECT2 M5 -200 -1500 200 R 70 70 1 1 B
-X P1[22]/USB_RCV1/USB_PWRD1/T1_MAT0/MC_0B/SSP1_MOSI M6 -200 -5600 200 R 70 70 1 1 B
-X P1[27]/~USB_INT1~/~USB_OVRCR1~/T0_CAP1/CLKOUT M9 -200 -6100 200 R 70 70 1 1 B
-X P0[31]/USB_D+2 N1 -200 -3200 200 R 70 70 1 1 B
-X P1[29]/USB_SDA1/PWM1_CAP1/T0_MAT1/MC_2B/U4_TXD N10 -200 -6300 200 R 70 70 1 1 B
-X P0[1]/CAN_TD1/U3_RXD/I2C1_SCL/U0_RXD N11 -200 -200 200 R 70 70 1 1 B
-X P0[30]/USB_D-1/~EINT1 N4 -200 -3100 200 R 70 70 1 1 B
-X P1[21]/USB_TX_DM1/PWM1[3]/SSP0_SSEL/~MC_ABORT N6 -200 -5500 200 R 70 70 1 1 B
-X P1[23]/USB_RX_DP1/PWM1[4]/QEI_PHB/MC_FB1/SSP0_MISO N7 -200 -5700 200 R 70 70 1 1 B
-X P1[28]/USB_SCL1/PWM1_CAP0/T0_MAT0/MC_2A/SSP0_SSEL P10 -200 -6200 200 R 70 70 1 1 B
-X P0[11]/U2_RXD/I2C2_SCL/T3_MAT1 P12 -200 -1200 200 R 70 70 1 1 B
-X P1[19]/~USB_TX_E1~/~USB_PPWR1~/T1_CAP1/MC_0A/SSP1_SCK/U2_OE P5 -200 -5300 200 R 70 70 1 1 B
-X P1[24]/USB_RX_DM1/PWM1[5]/QEI_IDX/MC_FB2/SSP0_MOSI P7 -200 -5800 200 R 70 70 1 1 B
-X P1[26]/~USB_SSPND1~/PWM1[6]/T0_CAP0/MC_1B/SSP1_SSEL P8 -200 -6000 200 R 70 70 1 1 B
-X P3[12]/EMC_D[12] A1 -200 -3800 200 R 70 70 2 1 B
-X P3[2]/EMC_D[2] A2 -200 -2800 200 R 70 70 2 1 B
-X P3[9]/EMC_D[9] A4 -200 -3500 200 R 70 70 2 1 B
-X P3[8]/EMC_D[8] A6 -200 -3400 200 R 70 70 2 1 B
-X P3[11]/EMC_D[11] B2 -200 -3700 200 R 70 70 2 1 B
-X P3[10]/EMC_D[10] B3 -200 -3600 200 R 70 70 2 1 B
-X P3[13]/EMC_D[13] C1 -200 -3900 200 R 70 70 2 1 B
-X P2[1]/PWM1[2]/U1_RXD C14 -200 -200 200 R 70 70 2 1 B
-X P2[0]/PWM1[1]/U1_TXD D12 -200 -100 200 R 70 70 2 1 B
-X P3[4]/EMC_D[4] D3 -200 -3000 200 R 70 70 2 1 B
-X P3[0]/EMC_D[0] D6 -200 -2600 200 R 70 70 2 1 B
-X P2[2]/PWM1[3]/U1_CTS/T2_MAT3/TRACEDATA[3] E11 -200 -300 200 R 70 70 2 1 B
-X P2[3]/PWM1[4]/U1_DCD/T2_MAT2/TRACEDATA[2] E13 -200 -400 200 R 70 70 2 1 B
-X P2[4]/PWM1[5]/U1_DSR/T2_MAT1/TRACEDATA[1] E14 -200 -500 200 R 70 70 2 1 B
-X P3[5]/EMC_D[5] E3 -200 -3100 200 R 70 70 2 1 B
-X P3[1]/EMC_D[1] E6 -200 -2700 200 R 70 70 2 1 B
-X P3[14]/EMC_D[14] F1 -200 -4000 200 R 70 70 2 1 B
-X P2[5]/PWM1[6]/U1_DTR/T2_MAT0/TRACEDATA[0] F12 -200 -600 200 R 70 70 2 1 B
-X P2[6]/PWM1_CAP0/U1_RI/T2_CAP0/U2_OE/TRACECLK F13 -200 -700 200 R 70 70 2 1 B
-X P3[6]/EMC_D[6] F4 -200 -3200 200 R 70 70 2 1 B
-X P2[7]/CAN_RD2/U1_RTS G11 -200 -800 200 R 70 70 2 1 B
-X P2[8]/CAN_TD2/U2_TXD/U1_CTS/ENET_MDC G14 -200 -900 200 R 70 70 2 1 B
-X P3[7]/EMC_D[7] G3 -200 -3300 200 R 70 70 2 1 B
-X P3[15]/EMC_D[15] G4 -200 -4100 200 R 70 70 2 1 B
-X P3[3]/EMC_D[3] G5 -200 -2900 200 R 70 70 2 1 B
-X P2[9]/USB_CONNECT1/U2_RXD/U4_RXD/ENET_MDIO H11 -200 -1000 200 R 70 70 2 1 B
-X P3[26]/EMC_D[26]/PWM1[3]/T0_MAT1/STCLK K7 -200 -4500 200 R 70 70 2 1 B
-X P2[29]/EMC_DQM1 L1 -200 -2400 200 R 70 70 2 1 B
-X P2[13]/~EINT3~/SD_DAT[3]/I2S_TX_SDA M11 -200 -1400 200 R 70 70 2 1 B
-X P2[11]/~EINT1~/SD_DAT[1]/I2S_TX_SCK M12 -200 -1200 200 R 70 70 2 1 B
-X P2[10]/~EINT0~/NMI M13 -200 -1100 200 R 70 70 2 1 B
-X P2[28]/EMC_DQM0 M2 -200 -2300 200 R 70 70 2 1 B
-X P3[25]/EMC_D[25]/PWM1[2]/T0_MAT0 M3 -200 -4400 200 R 70 70 2 1 B
-X P3[23]/EMC_D[23]/PWM1_CAP0/T0_CAP0 M4 -200 -4200 200 R 70 70 2 1 B
-X P2[12]/~EINT2~/SD_DAT[2]/I2S_TX_WS N14 -200 -1300 200 R 70 70 2 1 B
-X P3[24]/EMC_D[24]/PWM1[1]/T0_CAP1 N3 -200 -4300 200 R 70 70 2 1 B
-X P2[19]/EMC_CLK[1] N5 -200 -1800 200 R 70 70 2 1 B
-X P2[21]/~EMC_DYCS1 N8 -200 -2000 200 R 70 70 2 1 B
-X P2[24]/EMC_CKE0 P1 -200 -2100 200 R 70 70 2 1 B
-X P2[17]/~EMC_RAS P11 -200 -1600 200 R 70 70 2 1 B
-X P2[25]/EMC_CKE1 P2 -200 -2200 200 R 70 70 2 1 B
-X P2[18]/EMC_CLK[0] P3 -200 -1700 200 R 70 70 2 1 B
-X P2[20]/~EMC_DYCS0 P6 -200 -1900 200 R 70 70 2 1 B
-X P2[16]/~EMC_CAS P9 -200 -1500 200 R 70 70 2 1 B
-X P4[13]/EMC_A[13] B14 -200 -1400 200 R 70 70 3 1 B
-X P4[29]/~EMC_BLS3~/U3_RXD/T2_MAT1/I2C2_SCL B9 -200 -2600 200 R 70 70 3 1 B
-X P4[15]/EMC_A[15] C10 -200 -1600 200 R 70 70 3 1 B
-X P5[4]/U0_OE/T3_MAT3/U4_TXD C4 -200 -3400 200 R 70 70 3 1 B
-X P4[30]/~EMC_CS0 C7 -200 -2700 200 R 70 70 3 1 B
-X P4[24]/~EMC_OE C8 -200 -2100 200 R 70 70 3 1 B
-X P4[28]/~EMC_BLS2~/U3_TXD/T2_MAT0 D10 -200 -2500 200 R 70 70 3 1 B
-X P4[25]/~EMC_WE D9 -200 -2200 200 R 70 70 3 1 B
-X P5[0]/EMC_A[24]/SSP2_MOSI/T2_MAT2 E5 -200 -3000 200 R 70 70 3 1 B
-X P4[31]/~EMC_CS1 E7 -200 -2800 200 R 70 70 3 1 B
-X P4[14]/EMC_A[14] E8 -200 -1500 200 R 70 70 3 1 B
-X P4[12]/EMC_A[12] F10 -200 -1300 200 R 70 70 3 1 B
-X P4[11]/EMC_A[11] F11 -200 -1200 200 R 70 70 3 1 B
-X P4[27]/~EMC_BLS1 F14 -200 -2400 200 R 70 70 3 1 B
-X P5[3]/U4_RXD/I2C0_SCL G10 -200 -3300 200 R 70 70 3 1 B
-X P4[10]/EMC_A[10] G12 -200 -1100 200 R 70 70 3 1 B
-X P5[1]/EMC_A[25]/SSP2_MISO/T2_MAT3 H1 -200 -3100 200 R 70 70 3 1 B
-X P4[5]/EMC_A[5] H10 -200 -600 200 R 70 70 3 1 B
-X P4[9]/EMC_A[9] H12 -200 -1000 200 R 70 70 3 1 B
-X P4[8]/EMC_A[8] J11 -200 -900 200 R 70 70 3 1 B
-X P4[6]/EMC_A[6] K10 -200 -700 200 R 70 70 3 1 B
-X P4[7]/EMC_A[7] K12 -200 -800 200 R 70 70 3 1 B
-X P4[26]/~EMC_BLS0 K13 -200 -2300 200 R 70 70 3 1 B
-X P4[3]/EMC_A[3] K9 -200 -400 200 R 70 70 3 1 B
-X P5[2]/T3_MAT2/I2C0_SDA L12 -200 -3200 200 R 70 70 3 1 B
-X P4[0]/EMC_A[0] L6 -200 -100 200 R 70 70 3 1 B
-X P4[19]/EMC_A[19] M14 -200 -2000 200 R 70 70 3 1 B
-X P4[1]/EMC_A[1] M7 -200 -200 200 R 70 70 3 1 B
-X P4[2]/EMC_A[2] M8 -200 -300 200 R 70 70 3 1 B
-X P4[16]/EMC_A[16] N12 -200 -1700 200 R 70 70 3 1 B
-X P4[17]/EMC_A[17] N13 -200 -1800 200 R 70 70 3 1 B
-X P4[4]/EMC_A[4] P13 -200 -500 200 R 70 70 3 1 B
-X P4[18]/EMC_A[18] P14 -200 -1900 200 R 70 70 3 1 B
-X JTAG_TDO(SWO) B1 1800 -200 200 L 70 70 4 1 O
-X JTAG_TMS(SWDIO) C2 1800 -400 200 L 70 70 4 1 B
-X JTAG_TDI C3 1800 -100 200 L 70 70 4 1 I
-X JTAG_TCK(SWDCLK) D2 1800 -300 200 L 70 70 4 1 I
-X JTAG_~TRST D4 1800 -600 200 L 70 70 4 1 I
-X ~RSTOUT H2 -200 -400 200 R 70 70 4 1 O
-X RTC_ALARM H5 1800 -1100 200 L 70 70 4 1 O
-X ~RESET J1 -200 -300 200 R 70 70 4 1 I
-X RTCX1 J2 1800 -800 200 L 70 70 4 1 I
-X RTCX2 J3 1800 -900 200 L 70 70 4 1 O
-X XTAL2 K4 -200 -1100 200 R 70 70 4 1 P
-X XTAL1 L2 -200 -800 200 R 70 70 4 1 P
-X USB_D-2 N2 -200 -100 200 R 70 70 4 1 B
-X VSSREG A10 1400 -1400 200 L 70 70 5 1 W
-X VSS B4 1400 -500 200 L 70 70 5 1 W
-X VSS C11 1400 -600 200 L 70 70 5 1 W
-X VDD(3V3) C5 -200 -500 200 R 70 70 5 1 W
-X VSS D13 1400 -700 200 L 70 70 5 1 W
-X VDD(3V3) E10 -200 -600 200 R 70 70 5 1 W
-X VDD(3V3) E12 -200 -700 200 R 70 70 5 1 W
-X VDD(3V3) E2 -200 -800 200 R 70 70 5 1 W
-X VDD(REG)(3V3) E9 -200 -1400 200 R 70 70 5 1 W
-X VDDA F2 -200 -300 200 R 70 70 5 1 W
-X VSSA F3 1400 -300 200 L 70 70 5 1 W
-X VDD(REG)(3V3) G1 -200 -1500 200 R 70 70 5 1 W
-X VSS G13 1400 -800 200 L 70 70 5 1 W
-X VREFP G2 -200 -1800 200 R 70 70 5 1 W
-X VSSREG H3 1400 -1500 200 L 70 70 5 1 W
-X VSS H4 1400 -900 200 L 70 70 5 1 W
-X VDD(3V3) J14 -200 -900 200 R 70 70 5 1 W
-X VBAT K1 -200 -100 200 R 70 70 5 1 W
-X VDD(3V3) K8 -200 -1000 200 R 70 70 5 1 W
-X VDD(3V3) L11 -200 -1100 200 R 70 70 5 1 W
-X VSS L13 1400 -1000 200 L 70 70 5 1 W
-X VDD(3V3) L4 -200 -1200 200 R 70 70 5 1 W
-X VSSREG L8 1400 -1600 200 L 70 70 5 1 W
-X VSS L9 1400 -1100 200 L 70 70 5 1 W
-X VDD(REG)(3V3) N9 -200 -1600 200 R 70 70 5 1 W
-X VSS P4 1400 -1200 200 L 70 70 5 1 W
-ENDDRAW
-ENDDEF
-#
-# AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic
-#
-DEF AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic IC 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
 F0 "IC" 350 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic" 350 -750 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 350 -750 50 H V C CNN
 F2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" 0 -980 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\M93C46-WMN6TP.pdf" 0 -1070 60 H I L CNN
 F4 "M93C46-WMN6TP" 0 -1160 60 H I L CNN "Part Number"
@@ -1953,11 +1813,11 @@ X VCC 8 -200 -600 200 R 60 60 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue D 0 0 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 0 Y Y 1 F N
 F0 "D" 100 275 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue" 100 200 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 100 200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TO-269AA" 150 125 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1980,11 +1840,11 @@ X - 4 -300 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1995,11 +1855,11 @@ X MGTAVCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2010,11 +1870,11 @@ X MGTAVTT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
 F0 "J" 150 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue" 0 -1590 60 H I L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -1590 60 H I L CNN
 F2 "MOLEX THD:MOLEX_87831-1420" 0 -1680 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MOLEX_87831-1420.pdf" 0 -1770 60 H I L CNN
 F4 "Milli-Grid™" 0 -1860 60 H I L CNN
@@ -2243,11 +2103,11 @@ X 9 9 -200 -500 200 R 60 0 0 2 B
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MT41K512M16HA-125_E-Logic
+# AMC_FMC_Carrier-PcbDoc-rescue_MT41K512M16HA-125_E-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MT41K512M16HA-125_E-Logic IC 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MT41K512M16HA-125_E-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
 F0 "IC" 500 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MT41K512M16HA-125_E-Logic" 500 -5850 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MT41K512M16HA-125_E-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 500 -5850 50 H V C CNN
 F2 "ICs And Semiconductors SMD_BGA:BGA96C80P9X16_900X1400X120" 0 -6080 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MT41K512M16HA-125-E.pdf" 0 -6170 60 H I L CNN
 F4 "MT41K512M16HA-125:E" 0 -6260 60 H I L CNN "Part Number"
@@ -2387,11 +2247,11 @@ X VSS T9 -200 -5700 200 R 60 60 0 0 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic
+# AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic IC 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
 F0 "IC" 300 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic" 300 -450 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 50 H V C CNN
 F2 "ICs And Semiconductors SMD:SOT65P210X110-5N" 0 -680 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\NC7SZ66P5X.pdf" 0 -770 60 H I L CNN
 F4 "NC7SZ66P5X" 0 -860 60 H I L CNN "Part Number"
@@ -2452,11 +2312,11 @@ X Vin 5 800 -200 200 L 60 60 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue OSC 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue OSC 0 40 Y Y 1 F N
 F0 "OSC" 100 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2472,11 +2332,11 @@ X VDD 4 -200 -100 200 R 70 70 1 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue OSC 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue OSC 0 40 Y Y 1 F N
 F0 "OSC" 200 50 60 H V L BNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 60 H V L BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 60 H V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -2492,11 +2352,11 @@ X +Vs 4 -200 -100 200 R 70 70 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue PB 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue PB 0 60 Y Y 1 L N
 F0 "PB" 310 200 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue" 0 -170 60 H I L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -170 60 H I L CNN
 F2 "Switches:PB_TYCO_FSM2JSMA" 0 -260 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PB_TYCO_FSM2JSMA.pdf" 0 -350 60 H I L CNN
 F4 "Push Button" 0 -440 60 H I L CNN
@@ -2554,11 +2414,11 @@ X 4 4 600 0 175 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes
+# AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes D 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
 F0 "D" 200 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes" 200 -550 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 -550 50 H V C CNN
 F2 "ICs And Semiconductors SMD:SOT190P230X110-4N" 0 -780 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PRTR5V0U2X.pdf" 0 -870 60 H I L CNN
 F4 "PRTR5V0U2X" 0 -960 60 H I L CNN "Part Number"
@@ -2634,11 +2494,11 @@ X VCC 4 600 -100 200 L 60 0 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 2 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 2 F N
 F0 "U" 50 150 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 300 50 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2663,11 +2523,11 @@ X RFU 6 800 -400 200 L 70 70 2 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
 F0 "J" 150 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue" 0 -2400 60 H I L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_SAMTEC_MHDMR-19-02-H-TH-L-TR-SAMTEC-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -2400 60 H I L CNN
 F2 "SAMTEC SMD:SAMTEC_MHDMR-19-02-H-TH-L-TR" 0 -2490 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SAMTEC_MHDMR-19-02-H-TH-L-TR.pdf" 0 -2580 60 H I L CNN
 F4 "HDMI" 0 -2670 60 H I L CNN
@@ -2780,11 +2640,11 @@ X 9 9 -200 -1000 200 R 60 0 0 1 B
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_SN65MLVD2DRBT-powerMG
+# AMC_FMC_Carrier-PcbDoc-rescue_SN65MLVD2DRBT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_SN65MLVD2DRBT-powerMG U 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_SN65MLVD2DRBT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
 F0 "U" 200 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_SN65MLVD2DRBT-powerMG" 450 -550 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_SN65MLVD2DRBT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 450 -550 50 H V C CNN
 F2 "ICs And Semiconductors SMD:SON50P300X300X80-9N-R175X248" 200 -100 50 H I C CNN
 F3 "" 200 -100 50 H I C CNN
 F4 "SN65MLVD2DRBT" 0 0 50 H V C CNN "PN"
@@ -2801,11 +2661,11 @@ X VCC 8 900 -450 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
 F0 "IC" 200 -50 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue" 200 -300 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 -300 50 H V L CNN
 F2 "ICs And Semiconductors SMD:SOT65P210X110-5N" 0 -540 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G125DCKT.pdf" 0 -630 60 H I L CNN
 F4 "SN74LVC1G125DCKT" 0 -720 60 H I L CNN "Part Number"
@@ -2856,11 +2716,11 @@ X VCC 5 -200 -400 200 R 60 60 0 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes
+# AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes D 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
 F0 "D" 150 110 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes" 150 -100 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 150 -100 50 H V C CNN
 F2 "ICs And Semiconductors SMD:DIOM5127X229N" 0 -330 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SS16.pdf" 0 -420 60 H I L CNN
 F4 "SS16" 0 -510 60 H I L CNN "Part Number"
@@ -2914,11 +2774,11 @@ X A 2 0 0 100 R 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue Q 0 0 Y N 2 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q 0 0 Y N 2 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue" 200 0 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 0 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -2953,11 +2813,11 @@ X D2 6 100 200 100 D 50 50 2 1 P N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue SW 0 0 Y N 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 150 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue" 0 -150 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2973,11 +2833,11 @@ X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 850 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue" 40 850 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 40 850 50 H V L CNN
 F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 0 -1000 50 H I C CNN
 F3 "" 50 250 50 H I C CNN
 $FPLIST
@@ -3013,11 +2873,11 @@ X GND 9 0 -1000 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue U 0 20 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 400 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue" 300 400 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 400 50 H V C CNN
 F2 "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm" 0 850 50 H I C CNN
 F3 "" 0 850 50 H I C CNN
 $FPLIST
@@ -3039,11 +2899,44 @@ X PGOOD 9 500 100 150 L 50 50 0 1 C
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2 U 0 40 Y Y 1 F N
+F0 "U" 600 0 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2" 650 -1800 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 200 -50 1050 -1750 0 1 0 f
+X IN1 1 0 -100 200 R 50 50 1 1 I
+X FB2 10 1250 -1100 200 L 50 50 1 1 I
+X OUT2 11 1250 -800 200 L 50 50 1 1 O
+X OUT2 12 1250 -900 200 L 50 50 1 1 O
+X GND 13 0 -1550 200 R 50 50 1 1 I
+X OUT1 14 1250 -100 200 L 50 50 1 1 O
+X OUT1 15 1250 -200 200 L 50 50 1 1 O
+X FB1 16 1250 -400 200 L 50 50 1 1 I
+X PG1 17 1250 -500 200 L 50 50 1 1 O
+X SS_CTRL1 18 0 -450 200 R 50 50 1 1 I
+X NR/SS1 19 0 -550 200 R 50 50 1 1 I
+X IN1 2 0 -200 200 R 50 50 1 1 I
+X EN1 20 0 -350 200 R 50 50 1 1 I
+X TP_GND 21 0 -1650 200 R 50 50 1 1 I
+X GND 3 0 -1450 200 R 50 50 1 1 I
+X IN2 4 0 -800 200 R 50 50 1 1 I
+X IN2 5 0 -900 200 R 50 50 1 1 I
+X EN2 6 0 -1050 200 R 50 50 1 1 I
+X NR/SS2 7 0 -1250 200 R 50 50 1 1 I
+X SS_CTRL2 8 0 -1150 200 R 50 50 1 1 I
+X PG2 9 1250 -1200 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+#
+DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3054,11 +2947,26 @@ X VCCAUX 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCCAUXIO2V0 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+#
+DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3069,11 +2977,11 @@ X VCCBRAM 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3084,11 +2992,11 @@ X VTT_DDR3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache
+# AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache #FLG 0 0 N N 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache" 0 150 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -5945,62 +5853,6 @@ X 2 2 300 0 60 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Heat-Sinks_HSINK_ATS_ATS-50350B-C1-R0
-#
-DEF Heat-Sinks_HSINK_ATS_ATS-50350B-C1-R0 HS 0 50 Y Y 1 L N
-F0 "HS" 0 140 30 H V C CNN
-F1 "Heat-Sinks_HSINK_ATS_ATS-50350B-C1-R0" 0 -75 50 H I L CNN
-F2 "Heat-Sinks:HSINK_ATS_ATS-50350B-C1-R0" 0 -150 50 H I L CNN
-F3 " " 0 -225 50 H I L CNN
-F4 " " 0 50 40 H I C CNN "Comment"
-F5 "HSINK_ATS_ATS-50350B-C1-R0" 0 -300 50 H I L CNN "Part Number"
-F6 "Heat Sink No Pad" 0 -375 50 H I L CNN "Library Ref"
-F7 "SchLib\\Heat-Sinks.SchLib" 0 -450 50 H I L CNN "Library Path"
-F8 " " 0 -525 50 H I L CNN "Comment"
-F9 "Accessories" 0 -600 50 H I L CNN "Component Kind"
-F10 "Standard" 0 -675 50 H I L CNN "Component Type"
-F11 "0" 0 -750 50 H I L CNN "Pin Count"
-F12 " " 0 -825 50 H I L CNN "Case"
-F13 "PcbLib\\Heat-Sinks.PcbLib" 0 -900 50 H I L CNN "Footprint Path"
-F14 "HSINK_ATS_ATS-50350B-C1-R0" 0 -975 50 H I L CNN "Footprint Ref"
-F15 "35.0 x 35.0 x 7.5 mm BGA Heat Sink, Body 49.9mm x 35mm  Height 7.5mm" 0 -1050 50 H I L CNN "PackageDescription"
-F16 "Yes" 0 -1125 50 H I L CNN "Mounted"
-F17 "No" 0 -1200 50 H I L CNN "Socket"
-F18 "No" 0 -1275 50 H I L CNN "SMD"
-F19 "No" 0 -1350 50 H I L CNN "PressFit"
-F20 "No" 0 -1425 50 H I L CNN "Sense"
-F21 " " 0 -1500 50 H I L CNN "Sense Comment"
-F22 "None" 0 -1575 50 H I L CNN "Status"
-F23 " " 0 -1650 50 H I L CNN "Status Comment"
-F24 " " 0 -1725 50 H I L CNN "SCEM"
-F25 "35.0 x 35.0 x 7.5 mm BGA Heat Sink - High Performance  maxiFLOW/maxiGRIP-STD" 0 -1800 50 H I L CNN "Part Description"
-F26 "ADVENCED THERMAL SOLUTION (ATS)" 0 -1875 50 H I L CNN "Manufacturer"
-F27 "ATS-50350B-C1-R0" 0 -1950 50 H I L CNN "Manufacturer Part Number"
-F28 "7.5mm" 0 -2025 50 H I L CNN "ComponentHeight"
-F29 " " 0 -2100 50 H I L CNN "Manufacturer1 Example"
-F30 " " 0 -2175 50 H I L CNN "Manufacturer1 Part Number"
-F31 " " 0 -2250 50 H I L CNN "Manufacturer1 ComponentHeight"
-F32 " " 0 -2325 50 H I L CNN "ComponentLink1Description"
-F33 " " 0 -2400 50 H I L CNN "ComponentLink2Description"
-F34 "CERN DEM JLC" 0 -2475 50 H I L CNN "Author"
-F35 "11/30/16 00:00:00" 0 -2550 50 H I L CNN "CreateDate"
-F36 "11/30/16 00:00:00" 0 -2625 50 H I L CNN "LatestRevisionDate"
-F37 "Heat-Sinks" 0 -2700 50 H I L CNN "Database Table Name"
-F38 "Eletro-mechanical.DbLib" 0 -2775 50 H I L CNN "Library Name"
-F39 "Heat-Sinks" 0 -2850 50 H I L CNN "Footprint Library"
-F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2925 50 H I L CNN "License"
-DRAW
-S -310 0 310 40 0 1 0 F
-S -310 40 -290 140 0 1 0 F
-S -210 40 -190 140 0 1 0 F
-S -110 40 -90 100 0 1 0 F
-S -10 40 10 100 0 1 0 F
-S 90 40 110 100 0 1 0 F
-S 190 40 210 140 0 1 0 F
-S 290 40 310 140 0 1 0 F
-ENDDRAW
-ENDDEF
-#
 # Inductors_SMD_IND0603_MURATA_BLM18SG121TN1D
 #
 DEF Inductors_SMD_IND0603_MURATA_BLM18SG121TN1D L 0 50 Y Y 1 L N
@@ -7424,6 +7276,62 @@ X 2 2 300 0 60 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_SMD_R0402_10K_0.1%_0.063W_25PPM
+#
+DEF Resistors_SMD_R0402_10K_0.1%_0.063W_25PPM R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "Resistors_SMD_R0402_10K_0.1%_0.063W_25PPM" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X35N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "10k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_10K_0.1%_0.063W_25PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 0.1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "10k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X35N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.063W" 0 -1245 50 H I L CNN "Power"
+F17 "±25ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±0.1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "Thin Film Precision Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_10K_0.1%_0.063W_25PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "TE CONNECTIVITY" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "CPF0402B10KE1" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.35mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JMW" 0 -2670 50 H I L CNN "Author"
+F36 "09/22/15 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "09/22/15 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 0.1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_SMD_R0402_10K_1%_0.0625W_100PPM
 #
 DEF Resistors_SMD_R0402_10K_1%_0.0625W_100PPM R 0 50 Y Y 1 L N
@@ -8320,6 +8228,118 @@ X 2 2 300 0 60 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_SMD_R0603_10K2_0.1%_0.063W_10PPM
+#
+DEF Resistors_SMD_R0603_10K2_0.1%_0.063W_10PPM R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "Resistors_SMD_R0603_10K2_0.1%_0.063W_10PPM" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1608X55N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "10k2" 150 -70 50 H V C CNN "Val"
+F5 "R0603_10K2_0.1%_0.063W_10PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 0.1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "10k2" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1608X55N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.063W" 0 -1245 50 H I L CNN "Power"
+F17 "±10ppm" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±0.1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "Thin Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0603_10K2_0.1%_0.063W_10PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "TYCO HOLSWORTHY" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "RN73C1J10K2BTDF" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 0.1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_SMD_R0603_15K_0.1%_0.063W_10PPM
+#
+DEF Resistors_SMD_R0603_15K_0.1%_0.063W_10PPM R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "Resistors_SMD_R0603_15K_0.1%_0.063W_10PPM" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1608X55N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "15k" 150 -70 50 H V C CNN "Val"
+F5 "R0603_15K_0.1%_0.063W_10PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 0.1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "15k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1608X55N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.063W" 0 -1245 50 H I L CNN "Power"
+F17 "±10ppm" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±0.1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "Thin Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0603_15K_0.1%_0.063W_10PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "TYCO HOLSWORTHY" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "RN73C1J15KBTDF" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 0.1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_SMD_R0603_1K37_0.1%_0.063W_10PPM
 #
 DEF Resistors_SMD_R0603_1K37_0.1%_0.063W_10PPM R 0 50 Y Y 1 L N
@@ -8591,6 +8611,62 @@ F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_SMD_R0603_6K98_0.1%_0.063W_10PPM
+#
+DEF Resistors_SMD_R0603_6K98_0.1%_0.063W_10PPM R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "Resistors_SMD_R0603_6K98_0.1%_0.063W_10PPM" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1608X55N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "6k98" 150 -70 50 H V C CNN "Val"
+F5 "R0603_6K98_0.1%_0.063W_10PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 0.1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "6k98" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1608X55N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.063W" 0 -1245 50 H I L CNN "Power"
+F17 "±10ppm" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±0.1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "Thin Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0603_6K98_0.1%_0.063W_10PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0603" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "TYCO HOLSWORTHY" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "RN73C1J6K98BTDF" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 0.1% Normal 0 C C
 P 2 0 1 10 60 -30 240 -30 N
 P 2 0 1 10 60 30 60 -30 N
 P 2 0 1 10 240 -30 240 30 N
@@ -10425,697 +10501,6 @@ X k9 K9 -200 -900 200 R 60 0 10 1 B
 ENDDRAW
 ENDDEF
 #
-# SAMTEC_SAMTEC_ASP-134603-01
-#
-DEF SAMTEC_SAMTEC_ASP-134603-01 J 0 50 Y Y 4 L N
-F0 "J" 150 50 50 H V C CNN
-F1 "SAMTEC_SAMTEC_ASP-134603-01" 0 -4175 50 H I L CNN
-F2 "SAMTEC SMD:SAMTEC_ASP-134603-01" 0 -4250 50 H I L CNN
-F3 " " 0 -4325 50 H I L CNN
-F4 "VITA 57" 150 -30 50 H I C CNN "Family"
-F5 "SAMTEC_ASP-134603-01" 0 -4400 50 H I L CNN "Part Number"
-F6 "Connector VITA 57 160 Female (cdgh)" 0 -4475 50 H I L CNN "Library Ref"
-F7 "SchLib\\Connectors.SchLib" 0 -4550 50 H I L CNN "Library Path"
-F8 " " 0 -4625 50 H I L CNN "Comment"
-F9 "Standard" 0 -4700 50 H I L CNN "Component Kind"
-F10 "Standard" 0 -4775 50 H I L CNN "Component Type"
-F11 " " 0 -4850 50 H I L CNN "Device"
-F12 " " 0 -4925 50 H I L CNN "PackageDescription"
-F13 "160" 0 -5000 50 H I L CNN "Pin Count"
-F14 " " 0 -5075 50 H I L CNN "Case"
-F15 "PcbLib\\SAMTEC SMD.PcbLib" 0 -5150 50 H I L CNN "Footprint Path"
-F16 "SAMTEC_ASP-134603-01" 0 -5225 50 H I L CNN "Footprint Ref"
-F17 "VITA 57" 0 -5300 50 H I L CNN "Family"
-F18 "Yes" 0 -5375 50 H I L CNN "Mounted"
-F19 "No" 0 -5450 50 H I L CNN "Socket"
-F20 "No" 0 -5525 50 H I L CNN "PressFit"
-F21 "No" 0 -5600 50 H I L CNN "Sense"
-F22 " " 0 -5675 50 H I L CNN "Sense Comment"
-F23 "Yes" 0 -5750 50 H I L CNN "SMD"
-F24 " " 0 -5825 50 H I L CNN "Status Comment"
-F25 "None" 0 -5900 50 H I L CNN "Status"
-F26 " " 0 -5975 50 H I L CNN "SCEM"
-F27 "160 contacts (4 rows cdgh) Surface Mount Female Connector, VITA 57 (CC-LPC-10)" 0 -6050 50 H I L CNN "Part Description"
-F28 "SAMTEC" 0 -6125 50 H I L CNN "Manufacturer"
-F29 "ASP-134603-01" 0 -6200 50 H I L CNN "Manufacturer Part Number"
-F30 "6.55mm" 0 -6275 50 H I L CNN "ComponentHeight"
-F31 " " 0 -6350 50 H I L CNN "ComponentLink1Description"
-F32 " " 0 -6425 50 H I L CNN "ComponentLink2Description"
-F33 "CERN DEM JLC" 0 -6500 50 H I L CNN "Author"
-F34 "07/13/10 00:00:00" 0 -6575 50 H I L CNN "CreateDate"
-F35 "07/13/10 00:00:00" 0 -6650 50 H I L CNN "LatestRevisionDate"
-F36 "SAMTEC" 0 -6725 50 H I L CNN "Database Table Name"
-F37 "Connectors.DbLib" 0 -6800 50 H I L CNN "Library Name"
-F38 "SAMTEC SMD" 0 -6875 50 H I L CNN "Footprint Library"
-F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -6950 50 H I L CNN "License"
-DRAW
-S 0 -4100 300 0 1 1 0 f
-S 0 -4100 300 0 2 1 0 f
-S 0 -4100 300 0 3 1 0 f
-S 0 -4100 300 0 4 1 0 f
-P 2 1 1 10 0 -4000 100 -4000 N
-P 2 1 1 10 0 -3900 100 -3900 N
-P 2 1 1 10 0 -3800 100 -3800 N
-P 2 1 1 10 0 -3700 100 -3700 N
-P 2 1 1 10 0 -3600 100 -3600 N
-P 2 1 1 10 0 -3500 100 -3500 N
-P 2 1 1 10 0 -3400 100 -3400 N
-P 2 1 1 10 0 -3300 100 -3300 N
-P 2 1 1 10 0 -3200 100 -3200 N
-P 2 1 1 10 0 -3100 100 -3100 N
-P 2 1 1 10 0 -3000 100 -3000 N
-P 2 1 1 10 0 -2900 100 -2900 N
-P 2 1 1 10 0 -2800 100 -2800 N
-P 2 1 1 10 0 -2700 100 -2700 N
-P 2 1 1 10 0 -2600 100 -2600 N
-P 2 1 1 10 0 -2500 100 -2500 N
-P 2 1 1 10 0 -2400 100 -2400 N
-P 2 1 1 10 0 -2300 100 -2300 N
-P 2 1 1 10 0 -2200 100 -2200 N
-P 2 1 1 10 0 -2100 100 -2100 N
-P 2 1 1 10 0 -2000 100 -2000 N
-P 2 1 1 10 0 -1900 100 -1900 N
-P 2 1 1 10 0 -1800 100 -1800 N
-P 2 1 1 10 0 -1700 100 -1700 N
-P 2 1 1 10 0 -1600 100 -1600 N
-P 2 1 1 10 0 -1500 100 -1500 N
-P 2 1 1 10 0 -1400 100 -1400 N
-P 2 1 1 10 0 -1300 100 -1300 N
-P 2 1 1 10 0 -1200 100 -1200 N
-P 2 1 1 10 0 -1100 100 -1100 N
-P 2 1 1 10 0 -1000 100 -1000 N
-P 2 1 1 10 0 -900 100 -900 N
-P 2 1 1 10 0 -800 100 -800 N
-P 2 1 1 10 0 -700 100 -700 N
-P 2 1 1 10 0 -600 100 -600 N
-P 2 1 1 10 0 -500 100 -500 N
-P 2 1 1 10 0 -400 100 -400 N
-P 2 1 1 10 0 -300 100 -300 N
-P 2 1 1 10 0 -200 100 -200 N
-P 2 1 1 10 0 -100 100 -100 N
-P 2 2 1 10 0 -4000 100 -4000 N
-P 2 2 1 10 0 -3900 100 -3900 N
-P 2 2 1 10 0 -3800 100 -3800 N
-P 2 2 1 10 0 -3700 100 -3700 N
-P 2 2 1 10 0 -3600 100 -3600 N
-P 2 2 1 10 0 -3500 100 -3500 N
-P 2 2 1 10 0 -3400 100 -3400 N
-P 2 2 1 10 0 -3300 100 -3300 N
-P 2 2 1 10 0 -3200 100 -3200 N
-P 2 2 1 10 0 -3100 100 -3100 N
-P 2 2 1 10 0 -3000 100 -3000 N
-P 2 2 1 10 0 -2900 100 -2900 N
-P 2 2 1 10 0 -2800 100 -2800 N
-P 2 2 1 10 0 -2700 100 -2700 N
-P 2 2 1 10 0 -2600 100 -2600 N
-P 2 2 1 10 0 -2500 100 -2500 N
-P 2 2 1 10 0 -2400 100 -2400 N
-P 2 2 1 10 0 -2300 100 -2300 N
-P 2 2 1 10 0 -2200 100 -2200 N
-P 2 2 1 10 0 -2100 100 -2100 N
-P 2 2 1 10 0 -2000 100 -2000 N
-P 2 2 1 10 0 -1900 100 -1900 N
-P 2 2 1 10 0 -1800 100 -1800 N
-P 2 2 1 10 0 -1700 100 -1700 N
-P 2 2 1 10 0 -1600 100 -1600 N
-P 2 2 1 10 0 -1500 100 -1500 N
-P 2 2 1 10 0 -1400 100 -1400 N
-P 2 2 1 10 0 -1300 100 -1300 N
-P 2 2 1 10 0 -1200 100 -1200 N
-P 2 2 1 10 0 -1100 100 -1100 N
-P 2 2 1 10 0 -1000 100 -1000 N
-P 2 2 1 10 0 -900 100 -900 N
-P 2 2 1 10 0 -800 100 -800 N
-P 2 2 1 10 0 -700 100 -700 N
-P 2 2 1 10 0 -600 100 -600 N
-P 2 2 1 10 0 -500 100 -500 N
-P 2 2 1 10 0 -400 100 -400 N
-P 2 2 1 10 0 -300 100 -300 N
-P 2 2 1 10 0 -200 100 -200 N
-P 2 2 1 10 0 -100 100 -100 N
-P 2 3 1 10 0 -4000 100 -4000 N
-P 2 3 1 10 0 -3900 100 -3900 N
-P 2 3 1 10 0 -3800 100 -3800 N
-P 2 3 1 10 0 -3700 100 -3700 N
-P 2 3 1 10 0 -3600 100 -3600 N
-P 2 3 1 10 0 -3500 100 -3500 N
-P 2 3 1 10 0 -3400 100 -3400 N
-P 2 3 1 10 0 -3300 100 -3300 N
-P 2 3 1 10 0 -3200 100 -3200 N
-P 2 3 1 10 0 -3100 100 -3100 N
-P 2 3 1 10 0 -3000 100 -3000 N
-P 2 3 1 10 0 -2900 100 -2900 N
-P 2 3 1 10 0 -2800 100 -2800 N
-P 2 3 1 10 0 -2700 100 -2700 N
-P 2 3 1 10 0 -2600 100 -2600 N
-P 2 3 1 10 0 -2500 100 -2500 N
-P 2 3 1 10 0 -2400 100 -2400 N
-P 2 3 1 10 0 -2300 100 -2300 N
-P 2 3 1 10 0 -2200 100 -2200 N
-P 2 3 1 10 0 -2100 100 -2100 N
-P 2 3 1 10 0 -2000 100 -2000 N
-P 2 3 1 10 0 -1900 100 -1900 N
-P 2 3 1 10 0 -1800 100 -1800 N
-P 2 3 1 10 0 -1700 100 -1700 N
-P 2 3 1 10 0 -1600 100 -1600 N
-P 2 3 1 10 0 -1500 100 -1500 N
-P 2 3 1 10 0 -1400 100 -1400 N
-P 2 3 1 10 0 -1300 100 -1300 N
-P 2 3 1 10 0 -1200 100 -1200 N
-P 2 3 1 10 0 -1100 100 -1100 N
-P 2 3 1 10 0 -1000 100 -1000 N
-P 2 3 1 10 0 -900 100 -900 N
-P 2 3 1 10 0 -800 100 -800 N
-P 2 3 1 10 0 -700 100 -700 N
-P 2 3 1 10 0 -600 100 -600 N
-P 2 3 1 10 0 -500 100 -500 N
-P 2 3 1 10 0 -400 100 -400 N
-P 2 3 1 10 0 -300 100 -300 N
-P 2 3 1 10 0 -200 100 -200 N
-P 2 3 1 10 0 -100 100 -100 N
-P 2 4 1 10 0 -4000 100 -4000 N
-P 2 4 1 10 0 -3900 100 -3900 N
-P 2 4 1 10 0 -3800 100 -3800 N
-P 2 4 1 10 0 -3700 100 -3700 N
-P 2 4 1 10 0 -3600 100 -3600 N
-P 2 4 1 10 0 -3500 100 -3500 N
-P 2 4 1 10 0 -3400 100 -3400 N
-P 2 4 1 10 0 -3300 100 -3300 N
-P 2 4 1 10 0 -3200 100 -3200 N
-P 2 4 1 10 0 -3100 100 -3100 N
-P 2 4 1 10 0 -3000 100 -3000 N
-P 2 4 1 10 0 -2900 100 -2900 N
-P 2 4 1 10 0 -2800 100 -2800 N
-P 2 4 1 10 0 -2700 100 -2700 N
-P 2 4 1 10 0 -2600 100 -2600 N
-P 2 4 1 10 0 -2500 100 -2500 N
-P 2 4 1 10 0 -2400 100 -2400 N
-P 2 4 1 10 0 -2300 100 -2300 N
-P 2 4 1 10 0 -2200 100 -2200 N
-P 2 4 1 10 0 -2100 100 -2100 N
-P 2 4 1 10 0 -2000 100 -2000 N
-P 2 4 1 10 0 -1900 100 -1900 N
-P 2 4 1 10 0 -1800 100 -1800 N
-P 2 4 1 10 0 -1700 100 -1700 N
-P 2 4 1 10 0 -1600 100 -1600 N
-P 2 4 1 10 0 -1500 100 -1500 N
-P 2 4 1 10 0 -1400 100 -1400 N
-P 2 4 1 10 0 -1300 100 -1300 N
-P 2 4 1 10 0 -1200 100 -1200 N
-P 2 4 1 10 0 -1100 100 -1100 N
-P 2 4 1 10 0 -1000 100 -1000 N
-P 2 4 1 10 0 -900 100 -900 N
-P 2 4 1 10 0 -800 100 -800 N
-P 2 4 1 10 0 -700 100 -700 N
-P 2 4 1 10 0 -600 100 -600 N
-P 2 4 1 10 0 -500 100 -500 N
-P 2 4 1 10 0 -400 100 -400 N
-P 2 4 1 10 0 -300 100 -300 N
-P 2 4 1 10 0 -200 100 -200 N
-P 2 4 1 10 0 -100 100 -100 N
-B 4 1 1 10 100 -4000 100 -4016 123 -4030 150 -4030 N
-B 4 1 1 10 100 -3900 100 -3916 123 -3930 150 -3930 N
-B 4 1 1 10 100 -3800 100 -3816 123 -3830 150 -3830 N
-B 4 1 1 10 100 -3700 100 -3716 123 -3730 150 -3730 N
-B 4 1 1 10 100 -3600 100 -3616 123 -3630 150 -3630 N
-B 4 1 1 10 100 -3500 100 -3516 123 -3530 150 -3530 N
-B 4 1 1 10 100 -3400 100 -3416 123 -3430 150 -3430 N
-B 4 1 1 10 100 -3300 100 -3316 123 -3330 150 -3330 N
-B 4 1 1 10 100 -3200 100 -3216 123 -3230 150 -3230 N
-B 4 1 1 10 100 -3100 100 -3116 123 -3130 150 -3130 N
-B 4 1 1 10 100 -3000 100 -3016 123 -3030 150 -3030 N
-B 4 1 1 10 100 -2900 100 -2916 123 -2930 150 -2930 N
-B 4 1 1 10 100 -2800 100 -2816 123 -2830 150 -2830 N
-B 4 1 1 10 100 -2700 100 -2716 123 -2730 150 -2730 N
-B 4 1 1 10 100 -2600 100 -2616 123 -2630 150 -2630 N
-B 4 1 1 10 100 -2500 100 -2516 123 -2530 150 -2530 N
-B 4 1 1 10 100 -2400 100 -2416 123 -2430 150 -2430 N
-B 4 1 1 10 100 -2300 100 -2316 123 -2330 150 -2330 N
-B 4 1 1 10 100 -2200 100 -2216 123 -2230 150 -2230 N
-B 4 1 1 10 100 -2100 100 -2116 123 -2130 150 -2130 N
-B 4 1 1 10 100 -2000 100 -2016 123 -2030 150 -2030 N
-B 4 1 1 10 100 -1900 100 -1916 123 -1930 150 -1930 N
-B 4 1 1 10 100 -1800 100 -1816 123 -1830 150 -1830 N
-B 4 1 1 10 100 -1700 100 -1716 123 -1730 150 -1730 N
-B 4 1 1 10 100 -1600 100 -1616 123 -1630 150 -1630 N
-B 4 1 1 10 100 -1500 100 -1516 123 -1530 150 -1530 N
-B 4 1 1 10 100 -1400 100 -1416 123 -1430 150 -1430 N
-B 4 1 1 10 100 -1300 100 -1316 123 -1330 150 -1330 N
-B 4 1 1 10 100 -1200 100 -1216 123 -1230 150 -1230 N
-B 4 1 1 10 100 -1100 100 -1116 123 -1130 150 -1130 N
-B 4 1 1 10 100 -1000 100 -1016 123 -1030 150 -1030 N
-B 4 1 1 10 100 -900 100 -916 123 -930 150 -930 N
-B 4 1 1 10 100 -800 100 -816 123 -830 150 -830 N
-B 4 1 1 10 100 -700 100 -716 123 -730 150 -730 N
-B 4 1 1 10 100 -600 100 -616 123 -630 150 -630 N
-B 4 1 1 10 100 -500 100 -516 123 -530 150 -530 N
-B 4 1 1 10 100 -400 100 -416 123 -430 150 -430 N
-B 4 1 1 10 100 -300 100 -316 123 -330 150 -330 N
-B 4 1 1 10 100 -200 100 -216 123 -230 150 -230 N
-B 4 1 1 10 100 -100 100 -116 123 -130 150 -130 N
-B 4 1 1 10 150 -3970 123 -3970 100 -3984 100 -4000 N
-B 4 1 1 10 150 -3870 123 -3870 100 -3884 100 -3900 N
-B 4 1 1 10 150 -3770 123 -3770 100 -3784 100 -3800 N
-B 4 1 1 10 150 -3670 123 -3670 100 -3684 100 -3700 N
-B 4 1 1 10 150 -3570 123 -3570 100 -3584 100 -3600 N
-B 4 1 1 10 150 -3470 123 -3470 100 -3484 100 -3500 N
-B 4 1 1 10 150 -3370 123 -3370 100 -3384 100 -3400 N
-B 4 1 1 10 150 -3270 123 -3270 100 -3284 100 -3300 N
-B 4 1 1 10 150 -3170 123 -3170 100 -3184 100 -3200 N
-B 4 1 1 10 150 -3070 123 -3070 100 -3084 100 -3100 N
-B 4 1 1 10 150 -2970 123 -2970 100 -2984 100 -3000 N
-B 4 1 1 10 150 -2870 123 -2870 100 -2884 100 -2900 N
-B 4 1 1 10 150 -2770 123 -2770 100 -2784 100 -2800 N
-B 4 1 1 10 150 -2670 123 -2670 100 -2684 100 -2700 N
-B 4 1 1 10 150 -2570 123 -2570 100 -2584 100 -2600 N
-B 4 1 1 10 150 -2470 123 -2470 100 -2484 100 -2500 N
-B 4 1 1 10 150 -2370 123 -2370 100 -2384 100 -2400 N
-B 4 1 1 10 150 -2270 123 -2270 100 -2284 100 -2300 N
-B 4 1 1 10 150 -2170 123 -2170 100 -2184 100 -2200 N
-B 4 1 1 10 150 -2070 123 -2070 100 -2084 100 -2100 N
-B 4 1 1 10 150 -1970 123 -1970 100 -1984 100 -2000 N
-B 4 1 1 10 150 -1870 123 -1870 100 -1884 100 -1900 N
-B 4 1 1 10 150 -1770 123 -1770 100 -1784 100 -1800 N
-B 4 1 1 10 150 -1670 123 -1670 100 -1684 100 -1700 N
-B 4 1 1 10 150 -1570 123 -1570 100 -1584 100 -1600 N
-B 4 1 1 10 150 -1470 123 -1470 100 -1484 100 -1500 N
-B 4 1 1 10 150 -1370 123 -1370 100 -1384 100 -1400 N
-B 4 1 1 10 150 -1270 123 -1270 100 -1284 100 -1300 N
-B 4 1 1 10 150 -1170 123 -1170 100 -1184 100 -1200 N
-B 4 1 1 10 150 -1070 123 -1070 100 -1084 100 -1100 N
-B 4 1 1 10 150 -970 123 -970 100 -984 100 -1000 N
-B 4 1 1 10 150 -870 123 -870 100 -884 100 -900 N
-B 4 1 1 10 150 -770 123 -770 100 -784 100 -800 N
-B 4 1 1 10 150 -670 123 -670 100 -684 100 -700 N
-B 4 1 1 10 150 -570 123 -570 100 -584 100 -600 N
-B 4 1 1 10 150 -470 123 -470 100 -484 100 -500 N
-B 4 1 1 10 150 -370 123 -370 100 -384 100 -400 N
-B 4 1 1 10 150 -270 123 -270 100 -284 100 -300 N
-B 4 1 1 10 150 -170 123 -170 100 -184 100 -200 N
-B 4 1 1 10 150 -70 123 -70 100 -84 100 -100 N
-B 4 2 1 10 100 -4000 100 -4016 123 -4030 150 -4030 N
-B 4 2 1 10 100 -3900 100 -3916 123 -3930 150 -3930 N
-B 4 2 1 10 100 -3800 100 -3816 123 -3830 150 -3830 N
-B 4 2 1 10 100 -3700 100 -3716 123 -3730 150 -3730 N
-B 4 2 1 10 100 -3600 100 -3616 123 -3630 150 -3630 N
-B 4 2 1 10 100 -3500 100 -3516 123 -3530 150 -3530 N
-B 4 2 1 10 100 -3400 100 -3416 123 -3430 150 -3430 N
-B 4 2 1 10 100 -3300 100 -3316 123 -3330 150 -3330 N
-B 4 2 1 10 100 -3200 100 -3216 123 -3230 150 -3230 N
-B 4 2 1 10 100 -3100 100 -3116 123 -3130 150 -3130 N
-B 4 2 1 10 100 -3000 100 -3016 123 -3030 150 -3030 N
-B 4 2 1 10 100 -2900 100 -2916 123 -2930 150 -2930 N
-B 4 2 1 10 100 -2800 100 -2816 123 -2830 150 -2830 N
-B 4 2 1 10 100 -2700 100 -2716 123 -2730 150 -2730 N
-B 4 2 1 10 100 -2600 100 -2616 123 -2630 150 -2630 N
-B 4 2 1 10 100 -2500 100 -2516 123 -2530 150 -2530 N
-B 4 2 1 10 100 -2400 100 -2416 123 -2430 150 -2430 N
-B 4 2 1 10 100 -2300 100 -2316 123 -2330 150 -2330 N
-B 4 2 1 10 100 -2200 100 -2216 123 -2230 150 -2230 N
-B 4 2 1 10 100 -2100 100 -2116 123 -2130 150 -2130 N
-B 4 2 1 10 100 -2000 100 -2016 123 -2030 150 -2030 N
-B 4 2 1 10 100 -1900 100 -1916 123 -1930 150 -1930 N
-B 4 2 1 10 100 -1800 100 -1816 123 -1830 150 -1830 N
-B 4 2 1 10 100 -1700 100 -1716 123 -1730 150 -1730 N
-B 4 2 1 10 100 -1600 100 -1616 123 -1630 150 -1630 N
-B 4 2 1 10 100 -1500 100 -1516 123 -1530 150 -1530 N
-B 4 2 1 10 100 -1400 100 -1416 123 -1430 150 -1430 N
-B 4 2 1 10 100 -1300 100 -1316 123 -1330 150 -1330 N
-B 4 2 1 10 100 -1200 100 -1216 123 -1230 150 -1230 N
-B 4 2 1 10 100 -1100 100 -1116 123 -1130 150 -1130 N
-B 4 2 1 10 100 -1000 100 -1016 123 -1030 150 -1030 N
-B 4 2 1 10 100 -900 100 -916 123 -930 150 -930 N
-B 4 2 1 10 100 -800 100 -816 123 -830 150 -830 N
-B 4 2 1 10 100 -700 100 -716 123 -730 150 -730 N
-B 4 2 1 10 100 -600 100 -616 123 -630 150 -630 N
-B 4 2 1 10 100 -500 100 -516 123 -530 150 -530 N
-B 4 2 1 10 100 -400 100 -416 123 -430 150 -430 N
-B 4 2 1 10 100 -300 100 -316 123 -330 150 -330 N
-B 4 2 1 10 100 -200 100 -216 123 -230 150 -230 N
-B 4 2 1 10 100 -100 100 -116 123 -130 150 -130 N
-B 4 2 1 10 150 -3970 123 -3970 100 -3984 100 -4000 N
-B 4 2 1 10 150 -3870 123 -3870 100 -3884 100 -3900 N
-B 4 2 1 10 150 -3770 123 -3770 100 -3784 100 -3800 N
-B 4 2 1 10 150 -3670 123 -3670 100 -3684 100 -3700 N
-B 4 2 1 10 150 -3570 123 -3570 100 -3584 100 -3600 N
-B 4 2 1 10 150 -3470 123 -3470 100 -3484 100 -3500 N
-B 4 2 1 10 150 -3370 123 -3370 100 -3384 100 -3400 N
-B 4 2 1 10 150 -3270 123 -3270 100 -3284 100 -3300 N
-B 4 2 1 10 150 -3170 123 -3170 100 -3184 100 -3200 N
-B 4 2 1 10 150 -3070 123 -3070 100 -3084 100 -3100 N
-B 4 2 1 10 150 -2970 123 -2970 100 -2984 100 -3000 N
-B 4 2 1 10 150 -2870 123 -2870 100 -2884 100 -2900 N
-B 4 2 1 10 150 -2770 123 -2770 100 -2784 100 -2800 N
-B 4 2 1 10 150 -2670 123 -2670 100 -2684 100 -2700 N
-B 4 2 1 10 150 -2570 123 -2570 100 -2584 100 -2600 N
-B 4 2 1 10 150 -2470 123 -2470 100 -2484 100 -2500 N
-B 4 2 1 10 150 -2370 123 -2370 100 -2384 100 -2400 N
-B 4 2 1 10 150 -2270 123 -2270 100 -2284 100 -2300 N
-B 4 2 1 10 150 -2170 123 -2170 100 -2184 100 -2200 N
-B 4 2 1 10 150 -2070 123 -2070 100 -2084 100 -2100 N
-B 4 2 1 10 150 -1970 123 -1970 100 -1984 100 -2000 N
-B 4 2 1 10 150 -1870 123 -1870 100 -1884 100 -1900 N
-B 4 2 1 10 150 -1770 123 -1770 100 -1784 100 -1800 N
-B 4 2 1 10 150 -1670 123 -1670 100 -1684 100 -1700 N
-B 4 2 1 10 150 -1570 123 -1570 100 -1584 100 -1600 N
-B 4 2 1 10 150 -1470 123 -1470 100 -1484 100 -1500 N
-B 4 2 1 10 150 -1370 123 -1370 100 -1384 100 -1400 N
-B 4 2 1 10 150 -1270 123 -1270 100 -1284 100 -1300 N
-B 4 2 1 10 150 -1170 123 -1170 100 -1184 100 -1200 N
-B 4 2 1 10 150 -1070 123 -1070 100 -1084 100 -1100 N
-B 4 2 1 10 150 -970 123 -970 100 -984 100 -1000 N
-B 4 2 1 10 150 -870 123 -870 100 -884 100 -900 N
-B 4 2 1 10 150 -770 123 -770 100 -784 100 -800 N
-B 4 2 1 10 150 -670 123 -670 100 -684 100 -700 N
-B 4 2 1 10 150 -570 123 -570 100 -584 100 -600 N
-B 4 2 1 10 150 -470 123 -470 100 -484 100 -500 N
-B 4 2 1 10 150 -370 123 -370 100 -384 100 -400 N
-B 4 2 1 10 150 -270 123 -270 100 -284 100 -300 N
-B 4 2 1 10 150 -170 123 -170 100 -184 100 -200 N
-B 4 2 1 10 150 -70 123 -70 100 -84 100 -100 N
-B 4 3 1 10 100 -4000 100 -4016 123 -4030 150 -4030 N
-B 4 3 1 10 100 -3900 100 -3916 123 -3930 150 -3930 N
-B 4 3 1 10 100 -3800 100 -3816 123 -3830 150 -3830 N
-B 4 3 1 10 100 -3700 100 -3716 123 -3730 150 -3730 N
-B 4 3 1 10 100 -3600 100 -3616 123 -3630 150 -3630 N
-B 4 3 1 10 100 -3500 100 -3516 123 -3530 150 -3530 N
-B 4 3 1 10 100 -3400 100 -3416 123 -3430 150 -3430 N
-B 4 3 1 10 100 -3300 100 -3316 123 -3330 150 -3330 N
-B 4 3 1 10 100 -3200 100 -3216 123 -3230 150 -3230 N
-B 4 3 1 10 100 -3100 100 -3116 123 -3130 150 -3130 N
-B 4 3 1 10 100 -3000 100 -3016 123 -3030 150 -3030 N
-B 4 3 1 10 100 -2900 100 -2916 123 -2930 150 -2930 N
-B 4 3 1 10 100 -2800 100 -2816 123 -2830 150 -2830 N
-B 4 3 1 10 100 -2700 100 -2716 123 -2730 150 -2730 N
-B 4 3 1 10 100 -2600 100 -2616 123 -2630 150 -2630 N
-B 4 3 1 10 100 -2500 100 -2516 123 -2530 150 -2530 N
-B 4 3 1 10 100 -2400 100 -2416 123 -2430 150 -2430 N
-B 4 3 1 10 100 -2300 100 -2316 123 -2330 150 -2330 N
-B 4 3 1 10 100 -2200 100 -2216 123 -2230 150 -2230 N
-B 4 3 1 10 100 -2100 100 -2116 123 -2130 150 -2130 N
-B 4 3 1 10 100 -2000 100 -2016 123 -2030 150 -2030 N
-B 4 3 1 10 100 -1900 100 -1916 123 -1930 150 -1930 N
-B 4 3 1 10 100 -1800 100 -1816 123 -1830 150 -1830 N
-B 4 3 1 10 100 -1700 100 -1716 123 -1730 150 -1730 N
-B 4 3 1 10 100 -1600 100 -1616 123 -1630 150 -1630 N
-B 4 3 1 10 100 -1500 100 -1516 123 -1530 150 -1530 N
-B 4 3 1 10 100 -1400 100 -1416 123 -1430 150 -1430 N
-B 4 3 1 10 100 -1300 100 -1316 123 -1330 150 -1330 N
-B 4 3 1 10 100 -1200 100 -1216 123 -1230 150 -1230 N
-B 4 3 1 10 100 -1100 100 -1116 123 -1130 150 -1130 N
-B 4 3 1 10 100 -1000 100 -1016 123 -1030 150 -1030 N
-B 4 3 1 10 100 -900 100 -916 123 -930 150 -930 N
-B 4 3 1 10 100 -800 100 -816 123 -830 150 -830 N
-B 4 3 1 10 100 -700 100 -716 123 -730 150 -730 N
-B 4 3 1 10 100 -600 100 -616 123 -630 150 -630 N
-B 4 3 1 10 100 -500 100 -516 123 -530 150 -530 N
-B 4 3 1 10 100 -400 100 -416 123 -430 150 -430 N
-B 4 3 1 10 100 -300 100 -316 123 -330 150 -330 N
-B 4 3 1 10 100 -200 100 -216 123 -230 150 -230 N
-B 4 3 1 10 100 -100 100 -116 123 -130 150 -130 N
-B 4 3 1 10 150 -3970 123 -3970 100 -3984 100 -4000 N
-B 4 3 1 10 150 -3870 123 -3870 100 -3884 100 -3900 N
-B 4 3 1 10 150 -3770 123 -3770 100 -3784 100 -3800 N
-B 4 3 1 10 150 -3670 123 -3670 100 -3684 100 -3700 N
-B 4 3 1 10 150 -3570 123 -3570 100 -3584 100 -3600 N
-B 4 3 1 10 150 -3470 123 -3470 100 -3484 100 -3500 N
-B 4 3 1 10 150 -3370 123 -3370 100 -3384 100 -3400 N
-B 4 3 1 10 150 -3270 123 -3270 100 -3284 100 -3300 N
-B 4 3 1 10 150 -3170 123 -3170 100 -3184 100 -3200 N
-B 4 3 1 10 150 -3070 123 -3070 100 -3084 100 -3100 N
-B 4 3 1 10 150 -2970 123 -2970 100 -2984 100 -3000 N
-B 4 3 1 10 150 -2870 123 -2870 100 -2884 100 -2900 N
-B 4 3 1 10 150 -2770 123 -2770 100 -2784 100 -2800 N
-B 4 3 1 10 150 -2670 123 -2670 100 -2684 100 -2700 N
-B 4 3 1 10 150 -2570 123 -2570 100 -2584 100 -2600 N
-B 4 3 1 10 150 -2470 123 -2470 100 -2484 100 -2500 N
-B 4 3 1 10 150 -2370 123 -2370 100 -2384 100 -2400 N
-B 4 3 1 10 150 -2270 123 -2270 100 -2284 100 -2300 N
-B 4 3 1 10 150 -2170 123 -2170 100 -2184 100 -2200 N
-B 4 3 1 10 150 -2070 123 -2070 100 -2084 100 -2100 N
-B 4 3 1 10 150 -1970 123 -1970 100 -1984 100 -2000 N
-B 4 3 1 10 150 -1870 123 -1870 100 -1884 100 -1900 N
-B 4 3 1 10 150 -1770 123 -1770 100 -1784 100 -1800 N
-B 4 3 1 10 150 -1670 123 -1670 100 -1684 100 -1700 N
-B 4 3 1 10 150 -1570 123 -1570 100 -1584 100 -1600 N
-B 4 3 1 10 150 -1470 123 -1470 100 -1484 100 -1500 N
-B 4 3 1 10 150 -1370 123 -1370 100 -1384 100 -1400 N
-B 4 3 1 10 150 -1270 123 -1270 100 -1284 100 -1300 N
-B 4 3 1 10 150 -1170 123 -1170 100 -1184 100 -1200 N
-B 4 3 1 10 150 -1070 123 -1070 100 -1084 100 -1100 N
-B 4 3 1 10 150 -970 123 -970 100 -984 100 -1000 N
-B 4 3 1 10 150 -870 123 -870 100 -884 100 -900 N
-B 4 3 1 10 150 -770 123 -770 100 -784 100 -800 N
-B 4 3 1 10 150 -670 123 -670 100 -684 100 -700 N
-B 4 3 1 10 150 -570 123 -570 100 -584 100 -600 N
-B 4 3 1 10 150 -470 123 -470 100 -484 100 -500 N
-B 4 3 1 10 150 -370 123 -370 100 -384 100 -400 N
-B 4 3 1 10 150 -270 123 -270 100 -284 100 -300 N
-B 4 3 1 10 150 -170 123 -170 100 -184 100 -200 N
-B 4 3 1 10 150 -70 123 -70 100 -84 100 -100 N
-B 4 4 1 10 100 -4000 100 -4016 123 -4030 150 -4030 N
-B 4 4 1 10 100 -3900 100 -3916 123 -3930 150 -3930 N
-B 4 4 1 10 100 -3800 100 -3816 123 -3830 150 -3830 N
-B 4 4 1 10 100 -3700 100 -3716 123 -3730 150 -3730 N
-B 4 4 1 10 100 -3600 100 -3616 123 -3630 150 -3630 N
-B 4 4 1 10 100 -3500 100 -3516 123 -3530 150 -3530 N
-B 4 4 1 10 100 -3400 100 -3416 123 -3430 150 -3430 N
-B 4 4 1 10 100 -3300 100 -3316 123 -3330 150 -3330 N
-B 4 4 1 10 100 -3200 100 -3216 123 -3230 150 -3230 N
-B 4 4 1 10 100 -3100 100 -3116 123 -3130 150 -3130 N
-B 4 4 1 10 100 -3000 100 -3016 123 -3030 150 -3030 N
-B 4 4 1 10 100 -2900 100 -2916 123 -2930 150 -2930 N
-B 4 4 1 10 100 -2800 100 -2816 123 -2830 150 -2830 N
-B 4 4 1 10 100 -2700 100 -2716 123 -2730 150 -2730 N
-B 4 4 1 10 100 -2600 100 -2616 123 -2630 150 -2630 N
-B 4 4 1 10 100 -2500 100 -2516 123 -2530 150 -2530 N
-B 4 4 1 10 100 -2400 100 -2416 123 -2430 150 -2430 N
-B 4 4 1 10 100 -2300 100 -2316 123 -2330 150 -2330 N
-B 4 4 1 10 100 -2200 100 -2216 123 -2230 150 -2230 N
-B 4 4 1 10 100 -2100 100 -2116 123 -2130 150 -2130 N
-B 4 4 1 10 100 -2000 100 -2016 123 -2030 150 -2030 N
-B 4 4 1 10 100 -1900 100 -1916 123 -1930 150 -1930 N
-B 4 4 1 10 100 -1800 100 -1816 123 -1830 150 -1830 N
-B 4 4 1 10 100 -1700 100 -1716 123 -1730 150 -1730 N
-B 4 4 1 10 100 -1600 100 -1616 123 -1630 150 -1630 N
-B 4 4 1 10 100 -1500 100 -1516 123 -1530 150 -1530 N
-B 4 4 1 10 100 -1400 100 -1416 123 -1430 150 -1430 N
-B 4 4 1 10 100 -1300 100 -1316 123 -1330 150 -1330 N
-B 4 4 1 10 100 -1200 100 -1216 123 -1230 150 -1230 N
-B 4 4 1 10 100 -1100 100 -1116 123 -1130 150 -1130 N
-B 4 4 1 10 100 -1000 100 -1016 123 -1030 150 -1030 N
-B 4 4 1 10 100 -900 100 -916 123 -930 150 -930 N
-B 4 4 1 10 100 -800 100 -816 123 -830 150 -830 N
-B 4 4 1 10 100 -700 100 -716 123 -730 150 -730 N
-B 4 4 1 10 100 -600 100 -616 123 -630 150 -630 N
-B 4 4 1 10 100 -500 100 -516 123 -530 150 -530 N
-B 4 4 1 10 100 -400 100 -416 123 -430 150 -430 N
-B 4 4 1 10 100 -300 100 -316 123 -330 150 -330 N
-B 4 4 1 10 100 -200 100 -216 123 -230 150 -230 N
-B 4 4 1 10 100 -100 100 -116 123 -130 150 -130 N
-B 4 4 1 10 150 -3970 123 -3970 100 -3984 100 -4000 N
-B 4 4 1 10 150 -3870 123 -3870 100 -3884 100 -3900 N
-B 4 4 1 10 150 -3770 123 -3770 100 -3784 100 -3800 N
-B 4 4 1 10 150 -3670 123 -3670 100 -3684 100 -3700 N
-B 4 4 1 10 150 -3570 123 -3570 100 -3584 100 -3600 N
-B 4 4 1 10 150 -3470 123 -3470 100 -3484 100 -3500 N
-B 4 4 1 10 150 -3370 123 -3370 100 -3384 100 -3400 N
-B 4 4 1 10 150 -3270 123 -3270 100 -3284 100 -3300 N
-B 4 4 1 10 150 -3170 123 -3170 100 -3184 100 -3200 N
-B 4 4 1 10 150 -3070 123 -3070 100 -3084 100 -3100 N
-B 4 4 1 10 150 -2970 123 -2970 100 -2984 100 -3000 N
-B 4 4 1 10 150 -2870 123 -2870 100 -2884 100 -2900 N
-B 4 4 1 10 150 -2770 123 -2770 100 -2784 100 -2800 N
-B 4 4 1 10 150 -2670 123 -2670 100 -2684 100 -2700 N
-B 4 4 1 10 150 -2570 123 -2570 100 -2584 100 -2600 N
-B 4 4 1 10 150 -2470 123 -2470 100 -2484 100 -2500 N
-B 4 4 1 10 150 -2370 123 -2370 100 -2384 100 -2400 N
-B 4 4 1 10 150 -2270 123 -2270 100 -2284 100 -2300 N
-B 4 4 1 10 150 -2170 123 -2170 100 -2184 100 -2200 N
-B 4 4 1 10 150 -2070 123 -2070 100 -2084 100 -2100 N
-B 4 4 1 10 150 -1970 123 -1970 100 -1984 100 -2000 N
-B 4 4 1 10 150 -1870 123 -1870 100 -1884 100 -1900 N
-B 4 4 1 10 150 -1770 123 -1770 100 -1784 100 -1800 N
-B 4 4 1 10 150 -1670 123 -1670 100 -1684 100 -1700 N
-B 4 4 1 10 150 -1570 123 -1570 100 -1584 100 -1600 N
-B 4 4 1 10 150 -1470 123 -1470 100 -1484 100 -1500 N
-B 4 4 1 10 150 -1370 123 -1370 100 -1384 100 -1400 N
-B 4 4 1 10 150 -1270 123 -1270 100 -1284 100 -1300 N
-B 4 4 1 10 150 -1170 123 -1170 100 -1184 100 -1200 N
-B 4 4 1 10 150 -1070 123 -1070 100 -1084 100 -1100 N
-B 4 4 1 10 150 -970 123 -970 100 -984 100 -1000 N
-B 4 4 1 10 150 -870 123 -870 100 -884 100 -900 N
-B 4 4 1 10 150 -770 123 -770 100 -784 100 -800 N
-B 4 4 1 10 150 -670 123 -670 100 -684 100 -700 N
-B 4 4 1 10 150 -570 123 -570 100 -584 100 -600 N
-B 4 4 1 10 150 -470 123 -470 100 -484 100 -500 N
-B 4 4 1 10 150 -370 123 -370 100 -384 100 -400 N
-B 4 4 1 10 150 -270 123 -270 100 -284 100 -300 N
-B 4 4 1 10 150 -170 123 -170 100 -184 100 -200 N
-B 4 4 1 10 150 -70 123 -70 100 -84 100 -100 N
-X c1 C1 -200 -100 200 R 60 0 1 1 B
-X c10 C10 -200 -1000 200 R 60 0 1 1 B
-X c11 C11 -200 -1100 200 R 60 0 1 1 B
-X c12 C12 -200 -1200 200 R 60 0 1 1 B
-X c13 C13 -200 -1300 200 R 60 0 1 1 B
-X c14 C14 -200 -1400 200 R 60 0 1 1 B
-X c15 C15 -200 -1500 200 R 60 0 1 1 B
-X c16 C16 -200 -1600 200 R 60 0 1 1 B
-X c17 C17 -200 -1700 200 R 60 0 1 1 B
-X c18 C18 -200 -1800 200 R 60 0 1 1 B
-X c19 C19 -200 -1900 200 R 60 0 1 1 B
-X c2 C2 -200 -200 200 R 60 0 1 1 B
-X c20 C20 -200 -2000 200 R 60 0 1 1 B
-X c21 C21 -200 -2100 200 R 60 0 1 1 B
-X c22 C22 -200 -2200 200 R 60 0 1 1 B
-X c23 C23 -200 -2300 200 R 60 0 1 1 B
-X c24 C24 -200 -2400 200 R 60 0 1 1 B
-X c25 C25 -200 -2500 200 R 60 0 1 1 B
-X c26 C26 -200 -2600 200 R 60 0 1 1 B
-X c27 C27 -200 -2700 200 R 60 0 1 1 B
-X c28 C28 -200 -2800 200 R 60 0 1 1 B
-X c29 C29 -200 -2900 200 R 60 0 1 1 B
-X c3 C3 -200 -300 200 R 60 0 1 1 B
-X c30 C30 -200 -3000 200 R 60 0 1 1 B
-X c31 C31 -200 -3100 200 R 60 0 1 1 B
-X c32 C32 -200 -3200 200 R 60 0 1 1 B
-X c33 C33 -200 -3300 200 R 60 0 1 1 B
-X c34 C34 -200 -3400 200 R 60 0 1 1 B
-X c35 C35 -200 -3500 200 R 60 0 1 1 B
-X c36 C36 -200 -3600 200 R 60 0 1 1 B
-X c37 C37 -200 -3700 200 R 60 0 1 1 B
-X c38 C38 -200 -3800 200 R 60 0 1 1 B
-X c39 C39 -200 -3900 200 R 60 0 1 1 B
-X c4 C4 -200 -400 200 R 60 0 1 1 B
-X c40 C40 -200 -4000 200 R 60 0 1 1 B
-X c5 C5 -200 -500 200 R 60 0 1 1 B
-X c6 C6 -200 -600 200 R 60 0 1 1 B
-X c7 C7 -200 -700 200 R 60 0 1 1 B
-X c8 C8 -200 -800 200 R 60 0 1 1 B
-X c9 C9 -200 -900 200 R 60 0 1 1 B
-X d1 D1 -200 -100 200 R 60 0 2 1 B
-X d10 D10 -200 -1000 200 R 60 0 2 1 B
-X d11 D11 -200 -1100 200 R 60 0 2 1 B
-X d12 D12 -200 -1200 200 R 60 0 2 1 B
-X d13 D13 -200 -1300 200 R 60 0 2 1 B
-X d14 D14 -200 -1400 200 R 60 0 2 1 B
-X d15 D15 -200 -1500 200 R 60 0 2 1 B
-X d16 D16 -200 -1600 200 R 60 0 2 1 B
-X d17 D17 -200 -1700 200 R 60 0 2 1 B
-X d18 D18 -200 -1800 200 R 60 0 2 1 B
-X d19 D19 -200 -1900 200 R 60 0 2 1 B
-X d2 D2 -200 -200 200 R 60 0 2 1 B
-X d20 D20 -200 -2000 200 R 60 0 2 1 B
-X d21 D21 -200 -2100 200 R 60 0 2 1 B
-X d22 D22 -200 -2200 200 R 60 0 2 1 B
-X d23 D23 -200 -2300 200 R 60 0 2 1 B
-X d24 D24 -200 -2400 200 R 60 0 2 1 B
-X d25 D25 -200 -2500 200 R 60 0 2 1 B
-X d26 D26 -200 -2600 200 R 60 0 2 1 B
-X d27 D27 -200 -2700 200 R 60 0 2 1 B
-X d28 D28 -200 -2800 200 R 60 0 2 1 B
-X d29 D29 -200 -2900 200 R 60 0 2 1 B
-X d3 D3 -200 -300 200 R 60 0 2 1 B
-X d30 D30 -200 -3000 200 R 60 0 2 1 B
-X d31 D31 -200 -3100 200 R 60 0 2 1 B
-X d32 D32 -200 -3200 200 R 60 0 2 1 B
-X d33 D33 -200 -3300 200 R 60 0 2 1 B
-X d34 D34 -200 -3400 200 R 60 0 2 1 B
-X d35 D35 -200 -3500 200 R 60 0 2 1 B
-X d36 D36 -200 -3600 200 R 60 0 2 1 B
-X d37 D37 -200 -3700 200 R 60 0 2 1 B
-X d38 D38 -200 -3800 200 R 60 0 2 1 B
-X d39 D39 -200 -3900 200 R 60 0 2 1 B
-X d4 D4 -200 -400 200 R 60 0 2 1 B
-X d40 D40 -200 -4000 200 R 60 0 2 1 B
-X d5 D5 -200 -500 200 R 60 0 2 1 B
-X d6 D6 -200 -600 200 R 60 0 2 1 B
-X d7 D7 -200 -700 200 R 60 0 2 1 B
-X d8 D8 -200 -800 200 R 60 0 2 1 B
-X d9 D9 -200 -900 200 R 60 0 2 1 B
-X g1 G1 -200 -100 200 R 60 0 3 1 B
-X g10 G10 -200 -1000 200 R 60 0 3 1 B
-X g11 G11 -200 -1100 200 R 60 0 3 1 B
-X g12 G12 -200 -1200 200 R 60 0 3 1 B
-X g13 G13 -200 -1300 200 R 60 0 3 1 B
-X g14 G14 -200 -1400 200 R 60 0 3 1 B
-X g15 G15 -200 -1500 200 R 60 0 3 1 B
-X g16 G16 -200 -1600 200 R 60 0 3 1 B
-X g17 G17 -200 -1700 200 R 60 0 3 1 B
-X g18 G18 -200 -1800 200 R 60 0 3 1 B
-X g19 G19 -200 -1900 200 R 60 0 3 1 B
-X g2 G2 -200 -200 200 R 60 0 3 1 B
-X g20 G20 -200 -2000 200 R 60 0 3 1 B
-X g21 G21 -200 -2100 200 R 60 0 3 1 B
-X g22 G22 -200 -2200 200 R 60 0 3 1 B
-X g23 G23 -200 -2300 200 R 60 0 3 1 B
-X g24 G24 -200 -2400 200 R 60 0 3 1 B
-X g25 G25 -200 -2500 200 R 60 0 3 1 B
-X g26 G26 -200 -2600 200 R 60 0 3 1 B
-X g27 G27 -200 -2700 200 R 60 0 3 1 B
-X g28 G28 -200 -2800 200 R 60 0 3 1 B
-X g29 G29 -200 -2900 200 R 60 0 3 1 B
-X g3 G3 -200 -300 200 R 60 0 3 1 B
-X g30 G30 -200 -3000 200 R 60 0 3 1 B
-X g31 G31 -200 -3100 200 R 60 0 3 1 B
-X g32 G32 -200 -3200 200 R 60 0 3 1 B
-X g33 G33 -200 -3300 200 R 60 0 3 1 B
-X g34 G34 -200 -3400 200 R 60 0 3 1 B
-X g35 G35 -200 -3500 200 R 60 0 3 1 B
-X g36 G36 -200 -3600 200 R 60 0 3 1 B
-X g37 G37 -200 -3700 200 R 60 0 3 1 B
-X g38 G38 -200 -3800 200 R 60 0 3 1 B
-X g39 G39 -200 -3900 200 R 60 0 3 1 B
-X g4 G4 -200 -400 200 R 60 0 3 1 B
-X g40 G40 -200 -4000 200 R 60 0 3 1 B
-X g5 G5 -200 -500 200 R 60 0 3 1 B
-X g6 G6 -200 -600 200 R 60 0 3 1 B
-X g7 G7 -200 -700 200 R 60 0 3 1 B
-X g8 G8 -200 -800 200 R 60 0 3 1 B
-X g9 G9 -200 -900 200 R 60 0 3 1 B
-X h1 H1 -200 -100 200 R 60 0 4 1 B
-X h10 H10 -200 -1000 200 R 60 0 4 1 B
-X h11 H11 -200 -1100 200 R 60 0 4 1 B
-X h12 H12 -200 -1200 200 R 60 0 4 1 B
-X h13 H13 -200 -1300 200 R 60 0 4 1 B
-X h14 H14 -200 -1400 200 R 60 0 4 1 B
-X h15 H15 -200 -1500 200 R 60 0 4 1 B
-X h16 H16 -200 -1600 200 R 60 0 4 1 B
-X h17 H17 -200 -1700 200 R 60 0 4 1 B
-X h18 H18 -200 -1800 200 R 60 0 4 1 B
-X h19 H19 -200 -1900 200 R 60 0 4 1 B
-X h2 H2 -200 -200 200 R 60 0 4 1 B
-X h20 H20 -200 -2000 200 R 60 0 4 1 B
-X h21 H21 -200 -2100 200 R 60 0 4 1 B
-X h22 H22 -200 -2200 200 R 60 0 4 1 B
-X h23 H23 -200 -2300 200 R 60 0 4 1 B
-X h24 H24 -200 -2400 200 R 60 0 4 1 B
-X h25 H25 -200 -2500 200 R 60 0 4 1 B
-X h26 H26 -200 -2600 200 R 60 0 4 1 B
-X h27 H27 -200 -2700 200 R 60 0 4 1 B
-X h28 H28 -200 -2800 200 R 60 0 4 1 B
-X h29 H29 -200 -2900 200 R 60 0 4 1 B
-X h3 H3 -200 -300 200 R 60 0 4 1 B
-X h30 H30 -200 -3000 200 R 60 0 4 1 B
-X h31 H31 -200 -3100 200 R 60 0 4 1 B
-X h32 H32 -200 -3200 200 R 60 0 4 1 B
-X h33 H33 -200 -3300 200 R 60 0 4 1 B
-X h34 H34 -200 -3400 200 R 60 0 4 1 B
-X h35 H35 -200 -3500 200 R 60 0 4 1 B
-X h36 H36 -200 -3600 200 R 60 0 4 1 B
-X h37 H37 -200 -3700 200 R 60 0 4 1 B
-X h38 H38 -200 -3800 200 R 60 0 4 1 B
-X h39 H39 -200 -3900 200 R 60 0 4 1 B
-X h4 H4 -200 -400 200 R 60 0 4 1 B
-X h40 H40 -200 -4000 200 R 60 0 4 1 B
-X h5 H5 -200 -500 200 R 60 0 4 1 B
-X h6 H6 -200 -600 200 R 60 0 4 1 B
-X h7 H7 -200 -700 200 R 60 0 4 1 B
-X h8 H8 -200 -800 200 R 60 0 4 1 B
-X h9 H9 -200 -900 200 R 60 0 4 1 B
-ENDDRAW
-ENDDEF
-#
 # SAMTEC_SAMTEC_QSFP8-038-01-L-D-RA1
 #
 DEF SAMTEC_SAMTEC_QSFP8-038-01-L-D-RA1 J 0 50 Y Y 1 L N
@@ -11199,120 +10584,6 @@ X TX4p 6 -200 -600 200 R 60 60 0 1 I
 X GND 7 -200 -700 200 R 60 60 0 1 W
 X ModselL 8 -200 -800 200 R 60 60 0 1 I
 X ResetL 9 -200 -900 200 R 60 60 0 1 I
-ENDDRAW
-ENDDEF
-#
-# SamacSys_Parts_MT40A1G16KNR-075_E
-#
-DEF SamacSys_Parts_MT40A1G16KNR-075_E IC 0 30 Y Y 1 F N
-F0 "IC" 1850 300 50 H V L CNN
-F1 "SamacSys_Parts_MT40A1G16KNR-075_E" 1850 200 50 H V L CNN
-F2 "BGA96C80P9X16_750X1350X120" 1850 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/MT40A1G16KNR-075_E.pdf" 1850 0 50 H I L CNN
-F4 "DRAM DDR4 16G 1GX16 TFBGA" 1850 -100 50 H I L CNN "Description"
-F5 "1.2" 1850 -200 50 H I L CNN "Height"
-F6 "340-345838-TRAY" 1850 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=340-345838-TRAY" 1850 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Micron" 1850 -500 50 H I L CNN "Manufacturer_Name"
-F9 "MT40A1G16KNR-075:E" 1850 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 1800 100 1800 -4800 200 -4800 200 100 N
-X V_DDQ A1 0 0 200 R 50 50 0 0 B
-X VSSQ_1 A2 0 -100 200 R 50 50 0 0 B
-X UDQ0 A3 0 -200 200 R 50 50 0 0 B
-X UDQS_C A7 0 -300 200 R 50 50 0 0 B
-X VSSQ_2 A8 0 -400 200 R 50 50 0 0 B
-X VDDQ_1 A9 0 -500 200 R 50 50 0 0 B
-X VPP_1 B1 0 -600 200 R 50 50 0 0 B
-X VSS_1 B2 0 -700 200 R 50 50 0 0 B
-X VDD_1 B3 0 -800 200 R 50 50 0 0 B
-X UDQS_T B7 0 -900 200 R 50 50 0 0 B
-X UDQ1 B8 0 -1000 200 R 50 50 0 0 B
-X VDD_2 B9 0 -1100 200 R 50 50 0 0 B
-X VDDQ_2 C1 0 -1200 200 R 50 50 0 0 B
-X UDQ4 C2 0 -1300 200 R 50 50 0 0 B
-X UDQ2 C3 0 -1400 200 R 50 50 0 0 B
-X UDQ3 C7 0 -1500 200 R 50 50 0 0 B
-X UDQ5 C8 0 -1600 200 R 50 50 0 0 B
-X VSSQ_3 C9 0 -1700 200 R 50 50 0 0 B
-X VDD_3 D1 0 -1800 200 R 50 50 0 0 B
-X VSSQ_4 D2 0 -1900 200 R 50 50 0 0 B
-X UDQ6 D3 0 -2000 200 R 50 50 0 0 B
-X UDQ7 D7 0 -2100 200 R 50 50 0 0 B
-X VSSQ_5 D8 0 -2200 200 R 50 50 0 0 B
-X VDDQ_3 D9 0 -2300 200 R 50 50 0 0 B
-X VSS_2 E1 0 -2400 200 R 50 50 0 0 B
-X NF/UDM_N/_UDBI_N E2 0 -2500 200 R 50 50 0 0 B
-X VSSQ_6 E3 0 -2600 200 R 50 50 0 0 B
-X NF/LDM_N/_LDBI_N E7 0 -2700 200 R 50 50 0 0 B
-X VSSQ_7 E8 0 -2800 200 R 50 50 0 0 B
-X UZQ E9 0 -2900 200 R 50 50 0 0 B
-X VSSQ_8 F1 0 -3000 200 R 50 50 0 0 B
-X VDDQ_4 F2 0 -3100 200 R 50 50 0 0 B
-X LDQS_C F3 0 -3200 200 R 50 50 0 0 B
-X LDQ1 F7 0 -3300 200 R 50 50 0 0 B
-X VDDQ_5 F8 0 -3400 200 R 50 50 0 0 B
-X LZQ F9 0 -3500 200 R 50 50 0 0 B
-X VDDQ_6 G1 0 -3600 200 R 50 50 0 0 B
-X LDQ0 G2 0 -3700 200 R 50 50 0 0 B
-X LDQS_T G3 0 -3800 200 R 50 50 0 0 B
-X VDD_4 G7 0 -3900 200 R 50 50 0 0 B
-X VSS_3 G8 0 -4000 200 R 50 50 0 0 B
-X VDDQ_7 G9 0 -4100 200 R 50 50 0 0 B
-X VSSQ_9 H1 0 -4200 200 R 50 50 0 0 B
-X LDQ4 H2 0 -4300 200 R 50 50 0 0 B
-X LDQ2 H3 0 -4400 200 R 50 50 0 0 B
-X LDQ3 H7 0 -4500 200 R 50 50 0 0 B
-X LDQ5 H8 0 -4600 200 R 50 50 0 0 B
-X VSSQ_10 H9 0 -4700 200 R 50 50 0 0 B
-X VDD_5 J1 2000 0 200 L 50 50 0 0 B
-X VDDQ_8 J2 2000 -100 200 L 50 50 0 0 B
-X LDQ6 J3 2000 -200 200 L 50 50 0 0 B
-X LDQ7 J7 2000 -300 200 L 50 50 0 0 B
-X VDDQ_9 J8 2000 -400 200 L 50 50 0 0 B
-X VDD_6 J9 2000 -500 200 L 50 50 0 0 B
-X VSS_4 K1 2000 -600 200 L 50 50 0 0 B
-X CKE K2 2000 -700 200 L 50 50 0 0 B
-X ODT K3 2000 -800 200 L 50 50 0 0 B
-X CK_T K7 2000 -900 200 L 50 50 0 0 B
-X CK_C K8 2000 -1000 200 L 50 50 0 0 B
-X VSS_5 K9 2000 -1100 200 L 50 50 0 0 B
-X VDD_7 L1 2000 -1200 200 L 50 50 0 0 B
-X WE_N/A14 L2 2000 -1300 200 L 50 50 0 0 B
-X ACT_N L3 2000 -1400 200 L 50 50 0 0 B
-X CS_N L7 2000 -1500 200 L 50 50 0 0 B
-X RAS_N/A16 L8 2000 -1600 200 L 50 50 0 0 B
-X VDD_8 L9 2000 -1700 200 L 50 50 0 0 B
-X VREFCA M1 2000 -1800 200 L 50 50 0 0 B
-X BG0 M2 2000 -1900 200 L 50 50 0 0 B
-X A10/AP M3 2000 -2000 200 L 50 50 0 0 B
-X A12/BC_N M7 2000 -2100 200 L 50 50 0 0 B
-X CAS-N/A15 M8 2000 -2200 200 L 50 50 0 0 B
-X BG1 M9 2000 -2300 200 L 50 50 0 0 B
-X VSS_6 N1 2000 -2400 200 L 50 50 0 0 B
-X BA0 N2 2000 -2500 200 L 50 50 0 0 B
-X A4 N3 2000 -2600 200 L 50 50 0 0 B
-X A3 N7 2000 -2700 200 L 50 50 0 0 B
-X BA1 N8 2000 -2800 200 L 50 50 0 0 B
-X TEN N9 2000 -2900 200 L 50 50 0 0 B
-X RESET_N P1 2000 -3000 200 L 50 50 0 0 B
-X A6 P2 2000 -3100 200 L 50 50 0 0 B
-X A0 P3 2000 -3200 200 L 50 50 0 0 B
-X A1 P7 2000 -3300 200 L 50 50 0 0 B
-X A5 P8 2000 -3400 200 L 50 50 0 0 B
-X ALERT_N P9 2000 -3500 200 L 50 50 0 0 B
-X VDD_9 R1 2000 -3600 200 L 50 50 0 0 B
-X A8 R2 2000 -3700 200 L 50 50 0 0 B
-X A2 R3 2000 -3800 200 L 50 50 0 0 B
-X A9 R7 2000 -3900 200 L 50 50 0 0 B
-X A7 R8 2000 -4000 200 L 50 50 0 0 B
-X VPP_2 R9 2000 -4100 200 L 50 50 0 0 B
-X VSS_7 T1 2000 -4200 200 L 50 50 0 0 B
-X A11 T2 2000 -4300 200 L 50 50 0 0 B
-X PAR T3 2000 -4400 200 L 50 50 0 0 B
-X VSS_8 T7 2000 -4500 200 L 50 50 0 0 B
-X A13 T8 2000 -4600 200 L 50 50 0 0 B
-X VDD_10 T9 2000 -4700 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
@@ -12160,21 +11431,6 @@ P 5 0 1 0 140 -20 160 -20 160 120 140 120 140 -20 F
 X G 1 0 0 100 R 0 0 0 1 P
 X S 2 250 -150 120 U 0 0 0 1 P
 X D 3 250 250 120 D 0 0 0 1 P
-ENDDRAW
-ENDDEF
-#
-# power2_VCCAUXIO2V0
-#
-DEF power2_VCCAUXIO2V0 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power2_VCCAUXIO2V0" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VCCAUXIO2V0 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

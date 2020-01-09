@@ -15,7 +15,7 @@ Comment3 "AMC connector"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue P?
+L AMC_FMC_Carrier-PcbDoc-rescue:CMP-0001-00058-2-AMC-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue P?
 U 1 1 5BD3210B
 P 1550 7900
 AR Path="/5BD3210B" Ref="P?"  Part="1" 
@@ -1332,9 +1332,11 @@ Tx_7_N
 Text Label 8050 7500 1    50   ~ 10
 Tx_7_P
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR029
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR029
 U 1 1 5DEC6F0B
 P 1750 6500
+AR Path="/5DEC6F0B" Ref="#PWR029"  Part="1" 
+AR Path="/5BD320D5/5DEC6F0B" Ref="#PWR029"  Part="1" 
 F 0 "#PWR029" H 1750 6350 50  0001 C CNN
 F 1 "+12V_AMC" H 1765 6673 50  0000 C CNN
 F 2 "" H 1750 6500 50  0001 C CNN
@@ -1348,9 +1350,11 @@ Connection ~ 1750 6500
 Wire Wire Line
 	1750 6500 1750 7700
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR031
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR031
 U 1 1 5DF1FECB
 P 2450 6500
+AR Path="/5DF1FECB" Ref="#PWR031"  Part="1" 
+AR Path="/5BD320D5/5DF1FECB" Ref="#PWR031"  Part="1" 
 F 0 "#PWR031" H 2450 6350 50  0001 C CNN
 F 1 "+12V_AMC" H 2465 6673 50  0000 C CNN
 F 2 "" H 2450 6500 50  0001 C CNN
@@ -1359,9 +1363,11 @@ F 3 "" H 2450 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR032
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR032
 U 1 1 5DF4CACF
 P 3350 6500
+AR Path="/5DF4CACF" Ref="#PWR032"  Part="1" 
+AR Path="/5BD320D5/5DF4CACF" Ref="#PWR032"  Part="1" 
 F 0 "#PWR032" H 3350 6350 50  0001 C CNN
 F 1 "+12V_AMC" H 3365 6673 50  0000 C CNN
 F 2 "" H 3350 6500 50  0001 C CNN
@@ -1370,9 +1376,11 @@ F 3 "" H 3350 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR033
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR033
 U 1 1 5DFD25BA
 P 4250 6500
+AR Path="/5DFD25BA" Ref="#PWR033"  Part="1" 
+AR Path="/5BD320D5/5DFD25BA" Ref="#PWR033"  Part="1" 
 F 0 "#PWR033" H 4250 6350 50  0001 C CNN
 F 1 "+12V_AMC" H 4265 6673 50  0000 C CNN
 F 2 "" H 4250 6500 50  0001 C CNN
@@ -1381,9 +1389,11 @@ F 3 "" H 4250 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR034
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR034
 U 1 1 5DFFEFC3
 P 5750 6500
+AR Path="/5DFFEFC3" Ref="#PWR034"  Part="1" 
+AR Path="/5BD320D5/5DFFEFC3" Ref="#PWR034"  Part="1" 
 F 0 "#PWR034" H 5750 6350 50  0001 C CNN
 F 1 "+12V_AMC" H 5765 6673 50  0000 C CNN
 F 2 "" H 5750 6500 50  0001 C CNN
@@ -1392,9 +1402,11 @@ F 3 "" H 5750 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR035
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR035
 U 1 1 5E02B9CC
 P 7250 6500
+AR Path="/5E02B9CC" Ref="#PWR035"  Part="1" 
+AR Path="/5BD320D5/5E02B9CC" Ref="#PWR035"  Part="1" 
 F 0 "#PWR035" H 7250 6350 50  0001 C CNN
 F 1 "+12V_AMC" H 7265 6673 50  0000 C CNN
 F 2 "" H 7250 6500 50  0001 C CNN
@@ -1403,9 +1415,11 @@ F 3 "" H 7250 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR036
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR036
 U 1 1 5E0583D5
 P 8750 6500
+AR Path="/5E0583D5" Ref="#PWR036"  Part="1" 
+AR Path="/5BD320D5/5E0583D5" Ref="#PWR036"  Part="1" 
 F 0 "#PWR036" H 8750 6350 50  0001 C CNN
 F 1 "+12V_AMC" H 8765 6673 50  0000 C CNN
 F 2 "" H 8750 6500 50  0001 C CNN
@@ -1414,9 +1428,11 @@ F 3 "" H 8750 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue #PWR037
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_AMC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR037
 U 1 1 5E084DDE
 P 9950 6500
+AR Path="/5E084DDE" Ref="#PWR037"  Part="1" 
+AR Path="/5BD320D5/5E084DDE" Ref="#PWR037"  Part="1" 
 F 0 "#PWR037" H 9950 6350 50  0001 C CNN
 F 1 "+12V_AMC" H 9965 6673 50  0000 C CNN
 F 2 "" H 9950 6500 50  0001 C CNN
@@ -1439,7 +1455,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 7700 3350 6500
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:SS16-Diodes D1
+L AMC_FMC_Carrier-PcbDoc-rescue:SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D1
 U 1 1 5CAB1052
 P 12000 5400
 F 0 "D1" V 12196 5310 50  0000 R CNN

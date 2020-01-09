@@ -294,7 +294,7 @@ RGMII_RX_DV
 Text HLabel 9350 3600 2    50   Input ~ 10
 RGMII_RX_CLK
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue OSC1
+L AMC_FMC_Carrier-PcbDoc-rescue:Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue OSC1
 U 1 1 5C76AE78
 P 4600 3400
 F 0 "OSC1" H 4900 3567 50  0000 C CNN
@@ -2459,7 +2459,7 @@ $EndComp
 Wire Wire Line
 	3050 1500 3250 1500
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:BELFUSE_0826-1X1T-HS-F-Miscellaneous J4
+L AMC_FMC_Carrier-PcbDoc-rescue:BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J4
 U 1 1 5DB81DF6
 P 12500 1900
 AR Path="/5DB81DF6" Ref="J4"  Part="1" 
@@ -2513,7 +2513,7 @@ Wire Wire Line
 	14500 4500 14500 4650
 Connection ~ 14500 4500
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache #FLG0103
+L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #FLG0103
 U 1 1 5D15ABC3
 P 5250 6650
 AR Path="/5D15ABC3" Ref="#FLG0103"  Part="1" 
@@ -2526,7 +2526,7 @@ F 3 "" H 5250 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache #FLG0104
+L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #FLG0104
 U 1 1 5D15B1F6
 P 5250 7600
 AR Path="/5D15B1F6" Ref="#FLG0104"  Part="1" 
@@ -2539,7 +2539,7 @@ F 3 "" H 5250 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache #FLG0105
+L AMC_FMC_Carrier-PcbDoc-rescue:power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #FLG0105
 U 1 1 5D15B45E
 P 14500 2000
 AR Path="/5D15B45E" Ref="#FLG0105"  Part="1" 

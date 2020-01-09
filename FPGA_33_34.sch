@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 21 25
+Sheet 20 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -605,26 +605,14 @@ Text Label 6300 5050 2    50   ~ 10
 FMC2_CLK1_M2C_P
 Text Label 6300 5150 2    50   ~ 10
 FMC2_CLK1_M2C_N
-Text Label 4150 4900 2    50   ~ 10
-FMC2_CLK0_M2C_P
-Text Label 4150 5000 2    50   ~ 10
-FMC2_CLK0_M2C_N
 Text HLabel 5400 5050 0    50   Input ~ 10
 FMC2_CLK1_M2C_P
 Text HLabel 5400 5150 0    50   Input ~ 10
 FMC2_CLK1_M2C_N
-Text HLabel 3250 4900 0    50   Input ~ 10
-FMC2_CLK0_M2C_P
-Text HLabel 3250 5000 0    50   Input ~ 10
-FMC2_CLK0_M2C_N
 Wire Wire Line
 	6350 5050 5400 5050
 Wire Wire Line
 	6350 5150 5400 5150
-Wire Wire Line
-	4200 4900 3250 4900
-Wire Wire Line
-	4200 5000 3250 5000
 Text HLabel 5750 7250 0    50   Input ~ 10
 FPGA_RTS
 Text HLabel 5750 7450 0    50   Input ~ 10
@@ -823,16 +811,10 @@ Text Label 6200 5350 2    50   ~ 10
 FMC2_LA_1_N
 Text Label 6200 5250 2    50   ~ 10
 FMC2_LA_1_P
-Text Notes 4850 4950 0    50   ~ 0
-REF CLK for RAM
 Text Label 6300 4850 2    50   ~ 10
-REF_CLK_P
+DDR_REF_CLK_P
 Text Label 6300 4950 2    50   ~ 10
-REF_CLK_N
-Wire Wire Line
-	6350 4850 5400 4850
-Wire Wire Line
-	6350 4950 5400 4950
+DDR_REF_CLK_N
 Text Label 6200 6250 2    50   ~ 10
 FMC2_LA_11_P
 Text Label 6200 6350 2    50   ~ 10
@@ -860,6 +842,14 @@ FMC2_LA_16_P
 NoConn ~ 6400 3800
 NoConn ~ 6350 3850
 NoConn ~ 6350 3950
+Text GLabel 5300 4850 0    50   Input ~ 10
+DDR_REF_CLK_P
+Text GLabel 5300 4950 0    50   Input ~ 10
+DDR_REF_CLK_N
+Wire Wire Line
+	5300 4850 6350 4850
+Wire Wire Line
+	5300 4950 6350 4950
 Wire Bus Line
 	12000 1900 12000 2200
 Wire Bus Line

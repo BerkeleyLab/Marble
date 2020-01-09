@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 24 25
+Sheet 23 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -1770,4 +1770,20 @@ Wire Wire Line
 	3250 7250 4100 7250
 Wire Wire Line
 	3250 7350 4100 7350
+Text GLabel 3700 6350 2    50   Input ~ 10
+FMC1_DP1_C2M_P
+Text GLabel 3700 6450 2    50   Input ~ 10
+FMC1_DP1_C2M_N
+Text GLabel 3700 6550 2    50   Input ~ 10
+FMC1_DP1_M2C_P
+Text GLabel 3700 6650 2    50   Input ~ 10
+FMC1_DP1_M2C_N
+Wire Wire Line
+	3250 6350 3700 6350
+Wire Wire Line
+	3250 6450 3700 6450
+Wire Wire Line
+	3250 6550 3700 6550
+Wire Wire Line
+	3250 6650 3700 6650
 $EndSCHEMATC

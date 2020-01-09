@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 25
+Sheet 15 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -107,7 +107,7 @@ USB_TDO_DI
 Wire Wire Line
 	10050 4150 10500 4150
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue J11
+L AMC_FMC_Carrier-PcbDoc-rescue:MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J11
 U 1 1 5CB763C1
 P 4200 4700
 F 0 "J11" H 4244 4773 50  0000 C CNN
@@ -570,7 +570,7 @@ $EndComp
 Text Label 4600 6000 0    50   ~ 10
 EN_CON_JTAG
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic U7
+L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U7
 U 1 1 5E17EE5A
 P 7600 1850
 F 0 "U7" H 7900 2015 50  0000 C CNN
@@ -616,7 +616,7 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic U10
+L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U10
 U 1 1 5E17F12A
 P 5200 1850
 F 0 "U10" H 5500 2015 50  0000 C CNN
@@ -1327,7 +1327,7 @@ MMC_TDO
 Text HLabel 10500 4950 2    50   Output ~ 10
 MMC_TDI
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue J?
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
 U 1 1 5E9BF6F9
 P 5550 4050
 AR Path="/5BCEDA39/5E9BF6F9" Ref="J?"  Part="1" 
