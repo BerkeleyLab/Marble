@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 25
+Sheet 5 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -15,7 +14,7 @@ Comment3 "I2C MUX"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U5
+L AMC_FMC_Carrier-PcbDoc-rescue:TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U5
 U 1 1 5C5DB690
 P 5150 2900
 F 0 "U5" H 5150 3978 50  0000 L CNN
@@ -24,36 +23,6 @@ F 2 "ICs And Semiconductors SMD:QFN50P400X400X100-25N-S220" H 5150 1900 50  0001
 F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 5200 3150 50  0001 C CNN
 F 4 "TCA9548ARGER" H 5150 2900 50  0001 C CNN "Manufacturer Part Number"
 	1    5150 2900
-	1    0    0    -1  
-$EndComp
-Text Notes 6600 2250 0    50   ~ 10
-FMC1\n\n
-Text Notes 6600 2450 0    50   ~ 10
-FMC2\n\n
-Text Notes 6600 2600 0    50   ~ 10
-SFP1\n
-Text Notes 6600 3250 0    50   ~ 10
-SFP2\n\n
-Text Notes 6600 3050 0    50   ~ 10
-SFP3\n\n
-Text Notes 6600 2800 0    50   ~ 10
-SFP4\n
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5C5F9FA2
-P 5150 1700
-AR Path="/5BD32060/5C5F9FA2" Ref="#PWR?"  Part="1" 
-AR Path="/5BABAC65/5C5F9FA2" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24E97/5C5F9FA2" Ref="#PWR?"  Part="1" 
-AR Path="/5CC393D3/5C5F9FA2" Ref="#PWR?"  Part="1" 
-AR Path="/5CC6DBF7/5C5F9FA2" Ref="#PWR?"  Part="1" 
-AR Path="/5CC8AFE1/5C5F9FA2" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA3D/5C5F9FA2" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 5150 1550 50  0001 C CNN
-F 1 "+3V3" H 5165 1873 50  0000 C CNN
-F 2 "" H 5150 1700 50  0001 C CNN
-F 3 "" H 5150 1700 50  0001 C CNN
-	1    5150 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -111,14 +80,10 @@ Wire Wire Line
 	4600 3300 4750 3300
 Wire Wire Line
 	4600 3400 4750 3400
-Text HLabel 7850 2700 2    50   BiDi ~ 10
-I2C_SFP1_SDA
-Text HLabel 7850 2600 2    50   Output ~ 10
-I2C_SFP1_SCL
 Text HLabel 7850 3300 2    50   BiDi ~ 10
-QSFP_SDA
+QSFP2_SDA
 Text HLabel 7850 3200 2    50   Output ~ 10
-QSFP_SCL
+QSFP2_SCL
 Text HLabel 7850 2200 2    50   Output ~ 10
 I2C_FMC1_SCL
 Text HLabel 7850 2300 2    50   BiDi ~ 10
@@ -136,17 +101,9 @@ Wire Wire Line
 Wire Wire Line
 	6000 2450 6000 2500
 Wire Wire Line
-	6000 2550 6000 2600
-Wire Wire Line
-	6000 2650 6000 2700
-Wire Wire Line
 	6000 2750 6000 2800
 Wire Wire Line
 	6000 2850 6000 2900
-Wire Wire Line
-	6000 2950 6000 3000
-Wire Wire Line
-	6000 3050 6000 3100
 Wire Wire Line
 	6000 3150 6000 3200
 Wire Wire Line
@@ -161,8 +118,6 @@ Wire Wire Line
 	5550 2500 6000 2500
 Wire Wire Line
 	5550 2600 6000 2600
-Wire Wire Line
-	5550 2700 6000 2700
 Wire Wire Line
 	5550 2800 6000 2800
 Wire Wire Line
@@ -193,31 +148,12 @@ F 3 "" H 6300 1700 50  0001 C CNN
 	1    6300 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5C2D28CD
-P 4050 1700
-AR Path="/5BD32060/5C2D28CD" Ref="#PWR?"  Part="1" 
-AR Path="/5BABAC65/5C2D28CD" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24E97/5C2D28CD" Ref="#PWR?"  Part="1" 
-AR Path="/5CC393D3/5C2D28CD" Ref="#PWR?"  Part="1" 
-AR Path="/5CC6DBF7/5C2D28CD" Ref="#PWR?"  Part="1" 
-AR Path="/5CC8AFE1/5C2D28CD" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA3D/5C2D28CD" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 4050 1550 50  0001 C CNN
-F 1 "+3V3" H 4065 1873 50  0000 C CNN
-F 2 "" H 4050 1700 50  0001 C CNN
-F 3 "" H 4050 1700 50  0001 C CNN
-	1    4050 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 1750 4250 1700
 Wire Wire Line
 	4250 1700 4050 1700
 Wire Wire Line
 	4050 1750 4050 1700
-Connection ~ 4050 1700
 Wire Wire Line
 	4050 2050 4050 2200
 Connection ~ 4050 2200
@@ -1489,14 +1425,10 @@ Text Label 7000 2400 0    50   ~ 10
 I2C_FMC2_SCL
 Text Label 7000 2500 0    50   ~ 10
 I2C_FMC2_SDA
-Text Label 7000 2600 0    50   ~ 10
-I2C_SFP1_SCL
-Text Label 7000 2700 0    50   ~ 10
-I2C_SFP1_SDA
 Text Label 7000 3200 0    50   ~ 10
-QSFP_SCL
+QSFP2_SCL
 Text Label 7000 3300 0    50   ~ 10
-QSFP_SDA
+QSFP2_SDA
 Text Label 7000 3400 0    50   ~ 10
 I2C_APP_SCL
 Text Label 7000 3500 0    50   ~ 10
@@ -1517,12 +1449,6 @@ Connection ~ 6000 2400
 Wire Wire Line
 	6000 2500 7850 2500
 Connection ~ 6000 2500
-Wire Wire Line
-	6000 2600 7850 2600
-Connection ~ 6000 2600
-Wire Wire Line
-	6000 2700 7850 2700
-Connection ~ 6000 2700
 Wire Wire Line
 	6000 3200 7850 3200
 Wire Wire Line
@@ -1592,24 +1518,6 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 F 42 "dnf" H 4650 2850 50  0001 C CNN "config"
 	1    4650 2850
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5D00ED85
-P 4450 2850
-AR Path="/5BD32060/5D00ED85" Ref="#PWR?"  Part="1" 
-AR Path="/5BABAC65/5D00ED85" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24E97/5D00ED85" Ref="#PWR?"  Part="1" 
-AR Path="/5CC393D3/5D00ED85" Ref="#PWR?"  Part="1" 
-AR Path="/5CC6DBF7/5D00ED85" Ref="#PWR?"  Part="1" 
-AR Path="/5CC8AFE1/5D00ED85" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA3D/5D00ED85" Ref="#PWR0648"  Part="1" 
-F 0 "#PWR0648" H 4450 2700 50  0001 C CNN
-F 1 "+3V3" V 4450 3050 50  0000 C CNN
-F 2 "" H 4450 2850 50  0001 C CNN
-F 3 "" H 4450 2850 50  0001 C CNN
-	1    4450 2850
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4450 2850 4650 2850
@@ -7095,4 +7003,94 @@ EndData
 $EndBitmap
 Text Notes 2600 7300 0    79   ~ 16
 8 bit I2C addresses ( R/W bit = 0)
+Text HLabel 7850 3100 2    50   BiDi ~ 10
+QSFP1_SDA
+Text HLabel 7850 3000 2    50   Output ~ 10
+QSFP1_SCL
+Text Label 7000 3000 0    50   ~ 10
+QSFP1_SCL
+Text Label 7000 3100 0    50   ~ 10
+QSFP1_SDA
+Wire Wire Line
+	6000 3000 7850 3000
+Wire Wire Line
+	6000 3100 7850 3100
+Wire Wire Line
+	6000 2950 6000 3000
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3050 6000 3100
+Connection ~ 6000 3100
+Text HLabel 7850 2600 2    50   Output ~ 10
+I2C_CLK_SCL
+Text HLabel 7850 2700 2    50   BiDi ~ 10
+I2C_CLK_SDA
+Text Label 7000 2600 0    50   ~ 10
+I2C_CLK_SCL
+Text Label 7000 2700 0    50   ~ 10
+I2C_CLK_SDA
+Wire Wire Line
+	6000 2600 7850 2600
+Wire Wire Line
+	6000 2550 6000 2600
+Wire Wire Line
+	5550 2700 6000 2700
+Connection ~ 6000 2600
+Wire Wire Line
+	6000 2650 6000 2700
+Connection ~ 6000 2700
+Wire Wire Line
+	6000 2700 7850 2700
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5F60B33D
+P 5150 1700
+AR Path="/5C16C03C/5F60B33D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5F60B33D" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5F60B33D" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5F60B33D" Ref="#PWR?"  Part="1" 
+AR Path="/5F60B33D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5F60B33D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 1550 50  0001 C CNN
+F 1 "+3V3MP" H 5165 1873 50  0000 C CNN
+F 2 "" H 5150 1700 50  0001 C CNN
+F 3 "" H 5150 1700 50  0001 C CNN
+	1    5150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5F60D5A3
+P 4050 1700
+AR Path="/5C16C03C/5F60D5A3" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5F60D5A3" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5F60D5A3" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5F60D5A3" Ref="#PWR?"  Part="1" 
+AR Path="/5F60D5A3" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5F60D5A3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 1550 50  0001 C CNN
+F 1 "+3V3MP" H 4065 1873 50  0000 C CNN
+F 2 "" H 4050 1700 50  0001 C CNN
+F 3 "" H 4050 1700 50  0001 C CNN
+	1    4050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 5F60F78D
+P 4450 2850
+AR Path="/5C16C03C/5F60F78D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5F60F78D" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/5F60F78D" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5F60F78D" Ref="#PWR?"  Part="1" 
+AR Path="/5F60F78D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/5F60F78D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4450 2700 50  0001 C CNN
+F 1 "+3V3MP" V 4450 3100 50  0000 C CNN
+F 2 "" H 4450 2850 50  0001 C CNN
+F 3 "" H 4450 2850 50  0001 C CNN
+	1    4450 2850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4050 1700
 $EndSCHEMATC

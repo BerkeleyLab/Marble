@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -439,9 +438,9 @@ Text Label 13750 1500 0    50   ~ 10
 I2C_FMC2_SCL
 Text Label 13750 1600 0    50   ~ 10
 I2C_FMC2_SDA
-Text Label 13700 3450 0    50   ~ 10
+Text Label 13700 2800 0    50   ~ 10
 FMC2_GBTCLK0_M2C_P
-Text Label 13700 3550 0    50   ~ 10
+Text Label 13700 2900 0    50   ~ 10
 FMC2_GBTCLK0_M2C_N
 Text Label 13750 2250 0    50   ~ 10
 FMC2_TMS
@@ -465,9 +464,9 @@ Wire Wire Line
 	13700 3950 14600 3950
 Wire Wire Line
 	13700 4050 14600 4050
-Text HLabel 14600 3450 2    50   Output ~ 10
+Text HLabel 14600 2800 2    50   Output ~ 10
 FMC2_GBTCLK0_M2C_P
-Text HLabel 14600 3550 2    50   Output ~ 10
+Text HLabel 14600 2900 2    50   Output ~ 10
 FMC2_GBTCLK0_M2C_N
 Text HLabel 14600 3700 2    50   Output ~ 10
 FMC2_CLK1_M2C_P
@@ -478,9 +477,9 @@ FMC2_CLK0_M2C_P
 Text HLabel 14600 4050 2    50   Output ~ 10
 FMC2_CLK0_M2C_N
 Wire Wire Line
-	13700 3450 14600 3450
+	13700 2800 14600 2800
 Wire Wire Line
-	13700 3550 14600 3550
+	13700 2900 14600 2900
 Text HLabel 14600 1150 2    50   Output ~ 10
 FMC2_PRSNT_M2C_L
 Text HLabel 14600 1500 2    50   Input ~ 10
@@ -666,7 +665,7 @@ FMC2_PG_C2M
 Wire Wire Line
 	13700 950  14600 950 
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR01
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR01
 U 1 1 5BFC3656
 P 2200 4650
 F 0 "#PWR01" H 2200 4500 50  0001 C CNN
@@ -676,8 +675,6 @@ F 3 "" H 2200 4650 50  0001 C CNN
 	1    2200 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15000 4700 15150 4700
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5C506817
@@ -1038,59 +1035,6 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 Connection ~ 2200 4650
 Connection ~ 2200 4950
-$Comp
-L Fuses:FUS0603_BOURNS-SF-0603F050-2 F?
-U 1 1 5DA6452C
-P 14700 4700
-AR Path="/5BD31F9A/5DA6452C" Ref="F?"  Part="1" 
-AR Path="/5BD31F9F/5DA6452C" Ref="F1"  Part="1" 
-F 0 "F1" H 14850 4897 50  0000 C CNN
-F 1 "FUS0603_BOURNS-SF-0603F050-2" H 14700 4480 60  0001 L CNN
-F 2 "FUSC1608X55N" H 14700 3670 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FUSE_BOURNS_SF-0603F.pdf" H 14700 4300 60  0001 L CNN
-F 4 "500mA-50V" H 14850 4806 50  0000 C CNN "~"
-F 5 "FUS0603_BOURNS-SF-0603F050-2" H 14700 4210 60  0001 L CNN "Part Number"
-F 6 "Fuse" H 14700 4120 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Fuses.SchLib" H 14700 4030 60  0001 L CNN "Library Path"
-F 8 "=Value" H 14700 3940 60  0001 L CNN "Comment"
-F 9 "Standard" H 14700 3850 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 14700 3760 60  0001 L CNN "Component Type"
-F 11 "2" H 14700 3580 60  0001 L CNN "Pin Count"
-F 12 "~~" H 14700 3490 60  0001 L CNN "Case"
-F 13 "PcbLib\\Fuses.PcbLib" H 14700 3400 60  0001 L CNN "Footprint Path"
-F 14 "FUSC1608X55N" H 14700 3310 60  0001 L CNN "Footprint Ref"
-F 15 "Chip Fuse, 2-Leads, Body 1.6mm x 0.8mm, IPC Medium Density" H 14700 3220 60  0001 L CNN "PackageDescription"
-F 16 "Fuse" H 14700 3130 60  0001 L CNN "Family"
-F 17 "Yes" H 14700 3040 60  0001 L CNN "Mounted"
-F 18 "No" H 14700 2950 60  0001 L CNN "Socket"
-F 19 "Yes" H 14700 2860 60  0001 L CNN "SMD"
-F 20 "No" H 14700 2770 60  0001 L CNN "PressFit"
-F 21 "No" H 14700 2680 60  0001 L CNN "Sense"
-F 22 "~~" H 14700 2590 60  0001 L CNN "Sense Comment"
-F 23 "~~" H 14700 2500 60  0001 L CNN "Status"
-F 24 "~~" H 14700 2410 60  0001 L CNN "Status Comment"
-F 25 "~~" H 14700 2320 60  0001 L CNN "SCEM"
-F 26 "500mA-50V" H 14700 2230 60  0001 L CNN "Val"
-F 27 "Thin Film Chip Fuse" H 14700 2140 60  0001 L CNN "Part Description"
-F 28 "BOURNS" H 14700 2050 60  0001 L CNN "Manufacturer"
-F 29 "SF-0603F050-2" H 14700 1960 60  0001 L CNN "Manufacturer Part Number"
-F 30 "0.55mm" H 14700 1870 60  0001 L CNN "ComponentHeight"
-F 31 "~~" H 14700 1780 60  0001 L CNN "Manufacturer1 Example"
-F 32 "~~" H 14700 1690 60  0001 L CNN "Manufacturer1 Part Number"
-F 33 "~~" H 14700 1600 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 34 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FUSE_BOURNS_SF-0603F.pdf" H 14700 1510 60  0001 L CNN "HelpURL"
-F 35 "~~" H 14700 1420 60  0001 L CNN "ComponentLink1URL"
-F 36 "~~" H 14700 1330 60  0001 L CNN "ComponentLink1Description"
-F 37 "~~" H 14700 1240 60  0001 L CNN "ComponentLink2URL"
-F 38 "~~" H 14700 1150 60  0001 L CNN "ComponentLink2Description"
-F 39 "CERN DEM JLC" H 14700 1060 60  0001 L CNN "Author"
-F 40 "02/01/17 00:00:00" H 14700 970 60  0001 L CNN "CreateDate"
-F 41 "02/01/17 00:00:00" H 14700 880 60  0001 L CNN "LatestRevisionDate"
-F 42 "Fuses" H 14700 790 60  0001 L CNN "Library Name"
-F 43 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14700 700 60  0001 L CNN "License"
-	1    14700 4700
-	1    0    0    -1  
-$EndComp
 Text GLabel 10200 1850 0    50   BiDi ~ 10
 FMC2_LA_2_P
 Text GLabel 10200 1950 0    50   BiDi ~ 10
@@ -2454,14 +2398,6 @@ Wire Wire Line
 Connection ~ 3900 8000
 Wire Wire Line
 	3900 8000 3900 8300
-Text Label 3250 8500 0    50   ~ 0
-GBTCLK1_M2C_P
-Text Label 3250 8600 0    50   ~ 0
-GBTCLK1_M2C_N
-Wire Wire Line
-	3250 8500 4050 8500
-Wire Wire Line
-	3250 8600 4050 8600
 Wire Wire Line
 	3900 10300 4050 10300
 Connection ~ 3900 10300
@@ -2711,6 +2647,8 @@ Wire Wire Line
 Connection ~ 6100 6900
 Wire Wire Line
 	6100 6900 6100 7000
+Wire Wire Line
+	7500 6600 8250 6600
 Wire Wire Line
 	7500 6900 8250 6900
 Wire Wire Line
@@ -3123,6 +3061,8 @@ Wire Wire Line
 	13000 9450 13000 9700
 Wire Wire Line
 	12400 9550 13150 9550
+Wire Wire Line
+	12400 5650 13150 5650
 Text Label 12350 5950 0    50   ~ 0
 GBTCLK2_M2C_P
 Text Label 12350 6050 0    50   ~ 0
@@ -3347,6 +3287,10 @@ Text GLabel 12400 9250 0    50   Input ~ 0
 FMC2_HB17_CC_P
 Text GLabel 12400 9350 0    50   Input ~ 0
 FMC2_HB17_CC_N
+Text Label 12400 5650 0    50   ~ 0
+VREF_B_M2C
+Text Label 7500 6600 0    50   ~ 0
+PG_M2C
 $Comp
 L power:+2V5 #PWR0678
 U 1 1 5D9281BB
@@ -3407,4 +3351,75 @@ Wire Wire Line
 	3550 1750 2450 1750
 Wire Wire Line
 	2450 1850 3550 1850
+$Comp
+L Resistors_SMD:R0603_10R_1%_0.1W_200PPM R78
+U 1 1 5EBACC52
+P 14700 4700
+F 0 "R78" H 14850 4897 50  0000 C CNN
+F 1 "R0603_10R_1%_0.1W_200PPM" H 14700 4505 50  0001 L CNN
+F 2 "Resistors SMD:RESC1608X55N" H 14700 4430 50  0001 L CNN
+F 3 " " H 14700 4355 50  0001 L CNN
+F 4 "10" H 14850 4806 50  0000 C CNN "Val"
+F 5 "R0603_10R_1%_0.1W_200PPM" H 14700 4280 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 14700 4205 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 14700 4130 50  0001 L CNN "Library Path"
+F 8 "10" H 14700 4055 50  0001 L CNN "Comment"
+F 9 "Standard" H 14700 3980 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 14700 3905 50  0001 L CNN "Component Type"
+F 11 " " H 14700 3830 50  0001 L CNN "PackageDescription"
+F 12 "2" H 14700 3755 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 14700 3680 50  0001 L CNN "Footprint Path"
+F 14 "RESC1608X55N" H 14700 3605 50  0001 L CNN "Footprint Ref"
+F 15 "Preferred" H 14700 3530 50  0001 L CNN "Status"
+F 16 "0.1W" H 14700 3455 50  0001 L CNN "Power"
+F 17 "±200ppm/°C" H 14700 3380 50  0001 L CNN "TC"
+F 18 " " H 14700 3305 50  0001 L CNN "Voltage"
+F 19 "±1%" H 14700 3230 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 14700 3155 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 14700 3080 50  0001 L CNN "Manufacturer"
+F 22 "R0603_10R_1%_0.1W_200PPM" H 14700 3005 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0603" H 14700 2930 50  0001 L CNN "Case"
+F 24 "No" H 14700 2855 50  0001 L CNN "PressFit"
+F 25 "Yes" H 14700 2780 50  0001 L CNN "Mounted"
+F 26 " " H 14700 2705 50  0001 L CNN "Sense Comment"
+F 27 "No" H 14700 2630 50  0001 L CNN "Sense"
+F 28 " " H 14700 2555 50  0001 L CNN "Status Comment"
+F 29 "No" H 14700 2480 50  0001 L CNN "Socket"
+F 30 "Yes" H 14700 2405 50  0001 L CNN "SMD"
+F 31 " " H 14700 2330 50  0001 L CNN "ComponentHeight"
+F 32 "NIC COMPONENT" H 14700 2255 50  0001 L CNN "Manufacturer1 Example"
+F 33 "NRC06F10R0TRF" H 14700 2180 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.55mm" H 14700 2105 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 14700 2030 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 14700 1955 50  0001 L CNN "CreateDate"
+F 37 "06/24/09 00:00:00" H 14700 1880 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 14700 1805 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 14700 1730 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 14700 1655 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14700 1580 50  0001 L CNN "License"
+	1    14700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 4700 15150 4700
+Text Label 13700 3050 0    50   ~ 10
+FMC2_GBTCLK1_M2C_P
+Text Label 13700 3150 0    50   ~ 10
+FMC2_GBTCLK1_M2C_N
+Text HLabel 14600 3050 2    50   Output ~ 10
+FMC2_GBTCLK1_M2C_P
+Text HLabel 14600 3150 2    50   Output ~ 10
+FMC2_GBTCLK1_M2C_N
+Wire Wire Line
+	13700 3050 14600 3050
+Wire Wire Line
+	13700 3150 14600 3150
+Text Label 2950 8500 0    50   ~ 10
+FMC2_GBTCLK1_M2C_P
+Text Label 2950 8600 0    50   ~ 10
+FMC2_GBTCLK1_M2C_N
+Wire Wire Line
+	2950 8500 4050 8500
+Wire Wire Line
+	2950 8600 4050 8600
 $EndSCHEMATC

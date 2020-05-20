@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 25
+Sheet 5 26
 Title "Marble"
 Date "2019-01-16"
 Rev "9"

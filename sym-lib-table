@@ -4,4 +4,5 @@
   (lib (name powerMG)(type Legacy)(uri "${KIPRJMOD}/altium to kicad/powerMG.lib")(options "")(descr ""))
   (lib (name gowno)(type Legacy)(uri C:/Users/Michal/Downloads/gowno.lib)(options "")(descr ""))
   (lib (name AD_to_KiCad-SchDoc-cache)(type Legacy)(uri "${KIPRJMOD}/altium to kicad/converted/AD_to_KiCad-SchDoc-cache.lib")(options "")(descr ""))
+  (lib (name powerMG2)(type Legacy)(uri "C:/Users/Michal/Desktop/Projekty/AMC FMC/powerMG.lib")(options "")(descr ""))
 )

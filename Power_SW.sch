@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:AMC_FMC_Carrier-PcbDoc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 25
+Sheet 8 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -274,7 +273,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1050 6150 1700
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
 U 1 1 5DBB4777
 P 3900 2700
 AR Path="/5DBB4777" Ref="J?"  Part="1" 
@@ -1272,7 +1271,7 @@ F 3 "" H 9100 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DBB8165
 P 15250 8200
 AR Path="/5C907554/5C417BCB/5DBB8165" Ref="#PWR?"  Part="1" 
@@ -1286,7 +1285,7 @@ F 3 "" H 15250 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DBB816B
 P 15300 5800
 AR Path="/5C907554/5C417BCB/5DBB816B" Ref="#PWR?"  Part="1" 
@@ -1300,7 +1299,7 @@ F 3 "" H 15300 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DBB8171
 P 7850 9550
 AR Path="/5C907554/5C417BCB/5DBB8171" Ref="#PWR?"  Part="1" 
@@ -5538,7 +5537,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 9450 3900 9450
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DBB815F
 P 3900 9400
 AR Path="/5C907554/5C417BCB/5DBB815F" Ref="#PWR?"  Part="1" 
@@ -5555,7 +5554,7 @@ NoConn ~ 6150 2600
 NoConn ~ 6150 2200
 NoConn ~ 7550 5100
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5CF3EE50
 P 3100 6450
 AR Path="/5C907554/5C417BCB/5CF3EE50" Ref="#PWR?"  Part="1" 
@@ -6270,7 +6269,7 @@ $EndComp
 Text Notes 6350 9600 0    89   ~ 18
 1V05
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUXIO2V0-power2 #PWR?
 U 1 1 5E14CB07
 P 9100 7500
 AR Path="/5C907554/5C417BCB/5E14CB07" Ref="#PWR?"  Part="1" 

@@ -1,4 +1,4 @@
-update=09.01.2020 15:54:37
+update=20.05.2020 07:38:31
 version=1
 last_client=kicad
 [general]
@@ -18,7 +18,7 @@ PageLayoutDescrFile=C:/Users/Michal/Desktop/Projekty/AMC FMC/import z altiuma/Ma
 PlotDirectoryName=../schematic/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
@@ -269,13 +269,13 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DDR
 Clearance=0.102
-TrackWidth=0.112
+TrackWidth=0.135
 ViaDiameter=0.35
 ViaDrill=0.152
 uViaDiameter=0.508
 uViaDrill=0.127
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.1
+dPairGap=0.19
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=FMC
@@ -285,8 +285,8 @@ ViaDiameter=0.35
 ViaDrill=0.152
 uViaDiameter=0.508
 uViaDrill=0.127
-dPairWidth=0.079
-dPairGap=0.17
+dPairWidth=0.1
+dPairGap=0.19
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=POWER
@@ -312,7 +312,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=SE55DE100
-Clearance=0.3
+Clearance=0.6
 TrackWidth=0.13
 ViaDiameter=0.35
 ViaDrill=0.152
@@ -323,7 +323,7 @@ dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/6]
 Name=SE60DE100
-Clearance=0.127
+Clearance=0.6
 TrackWidth=0.254
 ViaDiameter=0.889
 ViaDrill=0.635
