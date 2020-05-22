@@ -1,4 +1,4 @@
-update=20.05.2020 07:38:31
+update=22.05.2020 16:39:58
 version=1
 last_client=kicad
 [general]
@@ -269,7 +269,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DDR
 Clearance=0.102
-TrackWidth=0.135
+TrackWidth=0.24
 ViaDiameter=0.35
 ViaDrill=0.152
 uViaDiameter=0.508

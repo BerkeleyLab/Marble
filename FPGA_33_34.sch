@@ -1147,6 +1147,7 @@ Text HLabel 5250 3750 0    50   Input ~ 10
 VREF_DDR3
 Wire Wire Line
 	5250 3750 5400 3750
+Connection ~ 5400 3750
 Wire Bus Line
 	14350 850  14350 1150
 Wire Bus Line
@@ -1155,5 +1156,4 @@ Wire Bus Line
 	14350 1300 14350 2900
 Wire Bus Line
 	14350 5600 14350 8800
-Connection ~ 5400 3750
 $EndSCHEMATC
