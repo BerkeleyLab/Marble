@@ -94,72 +94,72 @@ Wire Wire Line
 	8750 1000 8650 1000
 Text Label 9850 4300 2    50   ~ 10
 FMC1_LA_18_P
-Text Label 9850 5300 2    50   ~ 10
-FMC1_LA_23_P
-Text Label 9850 2100 2    50   ~ 10
-FMC1_LA_24_P
 Text Label 9850 4900 2    50   ~ 10
+FMC1_LA_23_P
+Text Label 9850 3500 2    50   ~ 10
+FMC1_LA_24_P
+Text Label 9850 2100 2    50   ~ 10
 FMC1_LA_25_P
 Text Label 9850 4700 2    50   ~ 10
 FMC1_LA_27_P
-Text Label 9850 3300 2    50   ~ 10
+Text Label 9850 3100 2    50   ~ 10
 FMC1_LA_29_P
-Text Label 9850 2700 2    50   ~ 10
+Text Label 9850 2900 2    50   ~ 10
 FMC1_LA_30_P
-Text Label 9850 1900 2    50   ~ 10
+Text Label 9850 3700 2    50   ~ 10
 FMC1_LA_33_P
 Text Label 9850 4400 2    50   ~ 10
 FMC1_LA_18_N
-Text Label 9850 5400 2    50   ~ 10
+Text Label 9850 5000 2    50   ~ 10
 FMC1_LA_23_N
-Text Label 9850 2200 2    50   ~ 10
+Text Label 9850 3600 2    50   ~ 10
 FMC1_LA_24_N
-Text Label 9850 3200 2    50   ~ 10
+Text Label 9850 5400 2    50   ~ 10
 FMC1_LA_26_N
 Text Label 9850 4800 2    50   ~ 10
 FMC1_LA_27_N
-Text Label 9850 3400 2    50   ~ 10
+Text Label 9850 3200 2    50   ~ 10
 FMC1_LA_29_N
-Text Label 9850 2800 2    50   ~ 10
-FMC1_LA_30_N
 Text Label 9850 3000 2    50   ~ 10
-FMC1_LA_32_N
+FMC1_LA_30_N
 Text Label 9850 2000 2    50   ~ 10
+FMC1_LA_32_N
+Text Label 9850 3800 2    50   ~ 10
 FMC1_LA_33_N
-Wire Wire Line
-	9900 5300 9250 5300
-Wire Wire Line
-	9900 5400 9250 5400
-Wire Wire Line
-	9900 2100 9250 2100
-Wire Wire Line
-	9900 2200 9250 2200
 Wire Wire Line
 	9900 4900 9250 4900
 Wire Wire Line
-	9900 3200 9250 3200
+	9900 5000 9250 5000
+Wire Wire Line
+	9900 3500 9250 3500
+Wire Wire Line
+	9900 3600 9250 3600
+Wire Wire Line
+	9900 2100 9250 2100
+Wire Wire Line
+	9900 5400 9250 5400
 Wire Wire Line
 	9900 4700 9250 4700
 Wire Wire Line
 	9900 4800 9250 4800
 Wire Wire Line
-	9900 3300 9250 3300
+	9900 3100 9250 3100
 Wire Wire Line
-	9900 3400 9250 3400
+	9900 3200 9250 3200
 Wire Wire Line
 	9900 4300 9250 4300
 Wire Wire Line
 	9900 4400 9250 4400
 Wire Wire Line
-	9900 2700 9250 2700
-Wire Wire Line
-	9900 2800 9250 2800
+	9900 2900 9250 2900
 Wire Wire Line
 	9900 3000 9250 3000
 Wire Wire Line
-	9900 1900 9250 1900
-Wire Wire Line
 	9900 2000 9250 2000
+Wire Wire Line
+	9900 3700 9250 3700
+Wire Wire Line
+	9900 3800 9250 3800
 Text Label 9850 4500 2    50   ~ 10
 RGMII_RX_CLK
 Text Label 9850 6600 2    50   ~ 10
@@ -184,17 +184,17 @@ Text Label 9850 6200 2    50   ~ 10
 PHY_RSTn
 Text Label 9850 6300 2    50   ~ 10
 RGMII_RX_DV
-Text GLabel 9900 5300 2    50   BiDi ~ 10
-FMC1_LA_23_P
-Text GLabel 9900 5400 2    50   BiDi ~ 10
-FMC1_LA_23_N
-Text GLabel 9900 2100 2    50   BiDi ~ 10
-FMC1_LA_24_P
-Text GLabel 9900 2200 2    50   BiDi ~ 10
-FMC1_LA_24_N
 Text GLabel 9900 4900 2    50   BiDi ~ 10
+FMC1_LA_23_P
+Text GLabel 9900 5000 2    50   BiDi ~ 10
+FMC1_LA_23_N
+Text GLabel 9900 3500 2    50   BiDi ~ 10
+FMC1_LA_24_P
+Text GLabel 9900 3600 2    50   BiDi ~ 10
+FMC1_LA_24_N
+Text GLabel 9900 2100 2    50   BiDi ~ 10
 FMC1_LA_25_P
-Text GLabel 9900 3200 2    50   BiDi ~ 10
+Text GLabel 9900 5400 2    50   BiDi ~ 10
 FMC1_LA_26_N
 Text GLabel 9900 4700 2    50   BiDi ~ 10
 FMC1_LA_27_P
@@ -204,19 +204,19 @@ Text GLabel 9900 4300 2    50   BiDi ~ 10
 FMC1_LA_18_P
 Text GLabel 9900 4400 2    50   BiDi ~ 10
 FMC1_LA_18_N
-Text GLabel 9900 2700 2    50   BiDi ~ 10
+Text GLabel 9900 2900 2    50   BiDi ~ 10
 FMC1_LA_30_P
-Text GLabel 9900 2800 2    50   BiDi ~ 10
-FMC1_LA_30_N
 Text GLabel 9900 3000 2    50   BiDi ~ 10
-FMC1_LA_32_N
-Text GLabel 9900 1900 2    50   BiDi ~ 10
-FMC1_LA_33_P
+FMC1_LA_30_N
 Text GLabel 9900 2000 2    50   BiDi ~ 10
+FMC1_LA_32_N
+Text GLabel 9900 3700 2    50   BiDi ~ 10
+FMC1_LA_33_P
+Text GLabel 9900 3800 2    50   BiDi ~ 10
 FMC1_LA_33_N
-Text GLabel 9900 3300 2    50   BiDi ~ 10
+Text GLabel 9900 3100 2    50   BiDi ~ 10
 FMC1_LA_29_P
-Text GLabel 9900 3400 2    50   BiDi ~ 10
+Text GLabel 9900 3200 2    50   BiDi ~ 10
 FMC1_LA_29_N
 Wire Wire Line
 	9850 1800 9250 1800
@@ -240,47 +240,35 @@ Text Label 9850 4200 2    50   ~ 10
 FMC1_LA_17_N
 Text Label 9850 4100 2    50   ~ 10
 FMC1_LA_17_P
-Text GLabel 9900 3100 2    50   BiDi ~ 10
+Text GLabel 9900 5300 2    50   BiDi ~ 10
 FMC1_LA_26_P
-Text GLabel 9900 5000 2    50   BiDi ~ 10
+Text GLabel 9900 2200 2    50   BiDi ~ 10
 FMC1_LA_25_N
 Wire Wire Line
-	9900 3100 9250 3100
+	9900 5300 9250 5300
 Wire Wire Line
-	9900 5000 9250 5000
-Text Label 9850 5000 2    50   ~ 10
+	9900 2200 9250 2200
+Text Label 9850 2200 2    50   ~ 10
 FMC1_LA_25_N
-Text Label 9850 3100 2    50   ~ 10
+Text Label 9850 5300 2    50   ~ 10
 FMC1_LA_26_P
-Text GLabel 9900 3600 2    50   BiDi ~ 10
+Text GLabel 9900 3400 2    50   BiDi ~ 10
 FMC1_LA_22_N
-Text GLabel 9900 3500 2    50   BiDi ~ 10
+Text GLabel 9900 3300 2    50   BiDi ~ 10
 FMC1_LA_22_P
 Wire Wire Line
-	9900 3600 9250 3600
+	9900 3400 9250 3400
 Wire Wire Line
-	9900 3500 9250 3500
-Text Label 9850 3600 2    50   ~ 10
+	9900 3300 9250 3300
+Text Label 9850 3400 2    50   ~ 10
 FMC1_LA_22_N
-Text Label 9850 3500 2    50   ~ 10
+Text Label 9850 3300 2    50   ~ 10
 FMC1_LA_22_P
-Text GLabel 9900 2600 2    50   BiDi ~ 10
-FMC1_LA_28_N
-Text GLabel 9900 2500 2    50   BiDi ~ 10
-FMC1_LA_28_P
-Wire Wire Line
-	9900 2600 9250 2600
-Wire Wire Line
-	9900 2500 9250 2500
-Text Label 9850 2600 2    50   ~ 10
-FMC1_LA_28_N
-Text Label 9850 2500 2    50   ~ 10
-FMC1_LA_28_P
-Text GLabel 9900 2900 2    50   BiDi ~ 10
+Text GLabel 9900 1900 2    50   BiDi ~ 10
 FMC1_LA_32_P
 Wire Wire Line
-	9900 2900 9250 2900
-Text Label 9850 2900 2    50   ~ 10
+	9900 1900 9250 1900
+Text Label 9850 1900 2    50   ~ 10
 FMC1_LA_32_P
 Text GLabel 9900 5200 2    50   BiDi ~ 10
 FMC1_LA_21_N
@@ -294,17 +282,17 @@ Text Label 9850 5200 2    50   ~ 10
 FMC1_LA_21_N
 Text Label 9850 5100 2    50   ~ 10
 FMC1_LA_21_P
-Text GLabel 9900 3700 2    50   BiDi ~ 10
+Text GLabel 9900 2500 2    50   BiDi ~ 10
 FMC1_LA_31_P
 Wire Wire Line
-	9900 3700 9250 3700
-Text Label 9850 3700 2    50   ~ 10
+	9900 2500 9250 2500
+Text Label 9850 2500 2    50   ~ 10
 FMC1_LA_31_P
-Text GLabel 9900 3800 2    50   BiDi ~ 10
+Text GLabel 9900 2600 2    50   BiDi ~ 10
 FMC1_LA_31_N
 Wire Wire Line
-	9900 3800 9250 3800
-Text Label 9850 3800 2    50   ~ 10
+	9900 2600 9250 2600
+Text Label 9850 2600 2    50   ~ 10
 FMC1_LA_31_N
 Wire Wire Line
 	9850 6100 9250 6100
@@ -320,18 +308,6 @@ Wire Wire Line
 	9850 6300 9250 6300
 Wire Wire Line
 	9850 6200 9250 6200
-Text Label 9850 2300 2    50   ~ 10
-FMC1_LA_19_P
-Text Label 9850 2400 2    50   ~ 10
-FMC1_LA_19_N
-Wire Wire Line
-	9900 2300 9250 2300
-Wire Wire Line
-	9900 2400 9250 2400
-Text GLabel 9900 2300 2    50   BiDi ~ 10
-FMC1_LA_19_P
-Text GLabel 9900 2400 2    50   BiDi ~ 10
-FMC1_LA_19_N
 Text GLabel 9900 5600 2    50   BiDi ~ 10
 FMC1_LA_20_N
 Text GLabel 9900 5500 2    50   BiDi ~ 10
@@ -1043,6 +1019,33 @@ Wire Wire Line
 	12500 5100 13100 5100
 Wire Wire Line
 	12000 5450 12550 5450
+Text GLabel 9900 2800 2    50   BiDi ~ 10
+FMC1_LA_19_N
+Text GLabel 9900 2700 2    50   BiDi ~ 10
+FMC1_LA_19_P
+Wire Wire Line
+	9900 2800 9250 2800
+Wire Wire Line
+	9900 2700 9250 2700
+Text Label 9850 2800 2    50   ~ 10
+FMC1_LA_19_N
+Text Label 9850 2700 2    50   ~ 10
+FMC1_LA_19_P
+NoConn ~ 9250 3900
+NoConn ~ 9250 4000
+NoConn ~ 9250 4600
+Text Label 9850 2300 2    50   ~ 10
+FMC1_LA_28_P
+Text Label 9850 2400 2    50   ~ 10
+FMC1_LA_28_N
+Wire Wire Line
+	9900 2300 9250 2300
+Wire Wire Line
+	9900 2400 9250 2400
+Text GLabel 9900 2300 2    50   BiDi ~ 10
+FMC1_LA_28_P
+Text GLabel 9900 2400 2    50   BiDi ~ 10
+FMC1_LA_28_N
 Wire Bus Line
 	12650 5550 12650 5850
 Wire Bus Line
