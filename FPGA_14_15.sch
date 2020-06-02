@@ -1402,170 +1402,72 @@ Wire Wire Line
 	1550 5600 500  5600
 Wire Wire Line
 	1550 5700 500  5700
-Text HLabel 15000 5650 2    50   BiDi ~ 10
+Text HLabel 15000 7100 2    50   BiDi ~ 10
 Pmod1_[0..7]
-Text HLabel 15000 5500 2    50   BiDi ~ 10
-Pmod2_[0..7]
-Text Label 14900 5500 2    50   ~ 10
-Pmod2_[0..7]
-Text Label 14900 5650 2    50   ~ 10
+Text Label 14900 7100 2    50   ~ 10
 Pmod1_[0..7]
+Entry Wire Line
+	14750 7150 14650 7250
+Entry Wire Line
+	14750 7350 14650 7450
+Entry Wire Line
+	14750 7450 14650 7550
+Entry Wire Line
+	14750 7550 14650 7650
+Entry Wire Line
+	14750 7650 14650 7750
+Entry Wire Line
+	14750 7750 14650 7850
+Entry Wire Line
+	14750 7850 14650 7950
+Entry Wire Line
+	14750 7250 14650 7350
 Wire Wire Line
-	13650 5800 13150 5800
+	14200 7250 14650 7250
 Wire Wire Line
-	13650 6000 13150 6000
+	14200 7350 14650 7350
 Wire Wire Line
-	13650 6100 13150 6100
-Entry Wire Line
-	14750 5700 14650 5800
-Entry Wire Line
-	14750 5900 14650 6000
-Entry Wire Line
-	14750 6000 14650 6100
-Entry Wire Line
-	14750 6100 14650 6200
-Entry Wire Line
-	14750 6200 14650 6300
-Entry Wire Line
-	14750 6300 14650 6400
-Entry Wire Line
-	14750 6400 14650 6500
-Entry Wire Line
-	13750 5700 13650 5800
-Entry Wire Line
-	13750 5800 13650 5900
-Entry Wire Line
-	13750 5900 13650 6000
-Entry Wire Line
-	13750 6000 13650 6100
-Entry Wire Line
-	13750 6100 13650 6200
-Entry Wire Line
-	13750 6200 13650 6300
-Entry Wire Line
-	13750 6300 13650 6400
-Entry Wire Line
-	13750 6400 13650 6500
-Entry Wire Line
-	14750 5800 14650 5900
+	14200 7450 14650 7450
 Wire Wire Line
-	14200 5800 14650 5800
+	14200 7550 14650 7550
 Wire Wire Line
-	14200 5900 14650 5900
+	14650 7650 14200 7650
 Wire Wire Line
-	14200 6000 14650 6000
+	14650 7750 14200 7750
 Wire Wire Line
-	14200 6100 14650 6100
+	14650 7850 14200 7850
 Wire Wire Line
-	14650 6200 14200 6200
-Wire Wire Line
-	14650 6300 14200 6300
-Wire Wire Line
-	14650 6400 14200 6400
-Wire Wire Line
-	14650 6500 14200 6500
-Wire Wire Line
-	13650 6200 13150 6200
-Wire Wire Line
-	13650 6300 13150 6300
-Wire Wire Line
-	13650 6400 13150 6400
-Wire Wire Line
-	13650 6500 13150 6500
+	14650 7950 14200 7950
 Wire Bus Line
-	13750 5500 15000 5500
-Wire Bus Line
-	15000 5650 14750 5650
-Text Label 13200 5800 0    50   ~ 10
-Pmod2_0
-Text Label 13200 5900 0    50   ~ 10
-Pmod2_1
-Text Label 13200 6000 0    50   ~ 10
-Pmod2_2
-Text Label 13200 6100 0    50   ~ 10
-Pmod2_3
-Text Label 13200 6200 0    50   ~ 10
-Pmod2_4
-Text Label 13200 6300 0    50   ~ 10
-Pmod2_5
-Text Label 13200 6400 0    50   ~ 10
-Pmod2_6
-Text Label 13200 6500 0    50   ~ 10
-Pmod2_7
-Wire Wire Line
-	13650 5900 13150 5900
-Text Label 14250 5800 0    50   ~ 10
+	15000 7100 14750 7100
+Text Label 14250 7250 0    50   ~ 10
 Pmod1_0
-Text Label 14250 5900 0    50   ~ 10
+Text Label 14250 7350 0    50   ~ 10
 Pmod1_1
-Text Label 14250 6000 0    50   ~ 10
+Text Label 14250 7450 0    50   ~ 10
 Pmod1_2
-Text Label 14250 6100 0    50   ~ 10
+Text Label 14250 7550 0    50   ~ 10
 Pmod1_3
-Text Label 14250 6200 0    50   ~ 10
+Text Label 14250 7650 0    50   ~ 10
 Pmod1_4
-Text Label 14250 6300 0    50   ~ 10
+Text Label 14250 7750 0    50   ~ 10
 Pmod1_5
-Text Label 14250 6400 0    50   ~ 10
+Text Label 14250 7850 0    50   ~ 10
 Pmod1_6
-Text Label 14250 6500 0    50   ~ 10
+Text Label 14250 7950 0    50   ~ 10
 Pmod1_7
 Wire Wire Line
 	10500 3100 11050 3100
 Wire Wire Line
-	5950 3900 6500 3900
-Wire Wire Line
 	10500 4300 11050 4300
 Wire Wire Line
 	10500 4400 11050 4400
-Wire Wire Line
-	5950 3600 6500 3600
-Wire Wire Line
-	5950 3500 6500 3500
-Wire Wire Line
-	5950 3300 6500 3300
-Wire Wire Line
-	5950 3700 6500 3700
-Wire Wire Line
-	5950 3800 6500 3800
-Wire Wire Line
-	5950 3200 6500 3200
-Text Label 5950 3600 0    50   ~ 10
-Pmod2_0
-Text Label 5950 3500 0    50   ~ 10
-Pmod2_1
-Text Label 5950 3100 0    50   ~ 10
-Pmod2_2
-Text Label 5950 3300 0    50   ~ 10
-Pmod2_3
-Text Label 5950 3700 0    50   ~ 10
-Pmod2_4
-Text Label 5950 3800 0    50   ~ 10
-Pmod2_5
-Text Label 5950 3200 0    50   ~ 10
-Pmod2_6
-Text Label 5950 4000 0    50   ~ 10
-Pmod1_0
-Text Label 5950 4100 0    50   ~ 10
-Pmod1_1
-Text Label 5950 3900 0    50   ~ 10
-Pmod1_2
 Text Label 10650 4300 0    50   ~ 10
 Pmod1_3
 Text Label 10650 3100 0    50   ~ 10
 Pmod1_5
 Text Label 10650 4400 0    50   ~ 10
 Pmod1_6
-Wire Wire Line
-	5950 4100 6500 4100
-Wire Wire Line
-	5950 3100 6500 3100
-Text Label 5950 3400 0    50   ~ 10
-Pmod2_7
-Wire Wire Line
-	5950 3400 6500 3400
-Wire Wire Line
-	5950 4000 6500 4000
 Wire Wire Line
 	11050 4500 10500 4500
 Text Label 10650 4500 0    50   ~ 10
@@ -1576,161 +1478,161 @@ Text Label 10650 8000 0    50   ~ 10
 Pmod1_7
 Text GLabel 5850 6400 0    50   BiDi ~ 10
 FMC1_LA_5_P
-Text Label 11150 4000 2    50   ~ 10
+Text Label 11150 7800 2    50   ~ 10
 FMC2_LA_19_P
-Text Label 11150 4100 2    50   ~ 10
+Text Label 11150 7900 2    50   ~ 10
 FMC2_LA_19_N
-Text GLabel 11350 4000 2    50   BiDi ~ 10
+Text GLabel 11350 7800 2    50   BiDi ~ 10
 FMC2_LA_19_P
-Text GLabel 11350 4100 2    50   BiDi ~ 10
+Text GLabel 11350 7900 2    50   BiDi ~ 10
 FMC2_LA_19_N
 Wire Wire Line
-	11350 4000 10500 4000
+	11350 7800 10500 7800
 Wire Wire Line
-	11350 4100 10500 4100
-Text Label 11150 4800 2    50   ~ 10
+	11350 7900 10500 7900
+Text Label 11150 6600 2    50   ~ 10
 FMC2_LA_29_P
-Text Label 11150 4900 2    50   ~ 10
+Text Label 11150 6700 2    50   ~ 10
 FMC2_LA_29_N
-Text GLabel 11350 4800 2    50   BiDi ~ 10
+Text GLabel 11350 6600 2    50   BiDi ~ 10
 FMC2_LA_29_P
-Text GLabel 11350 4900 2    50   BiDi ~ 10
+Text GLabel 11350 6700 2    50   BiDi ~ 10
 FMC2_LA_29_N
 Wire Wire Line
-	11350 4800 10500 4800
+	11350 6600 10500 6600
 Wire Wire Line
-	11350 4900 10500 4900
-Text Label 11150 6000 2    50   ~ 10
+	11350 6700 10500 6700
+Text Label 11150 7000 2    50   ~ 10
 FMC2_LA_23_P
-Text Label 11150 6100 2    50   ~ 10
+Text Label 11150 7100 2    50   ~ 10
 FMC2_LA_23_N
-Text GLabel 11350 6000 2    50   BiDi ~ 10
+Text GLabel 11350 7000 2    50   BiDi ~ 10
 FMC2_LA_23_P
-Text GLabel 11350 6100 2    50   BiDi ~ 10
+Text GLabel 11350 7100 2    50   BiDi ~ 10
 FMC2_LA_23_N
 Wire Wire Line
-	11350 6000 10500 6000
+	11350 7000 10500 7000
 Wire Wire Line
-	11350 6100 10500 6100
+	11350 7100 10500 7100
 Wire Wire Line
 	11350 5700 10500 5700
 Wire Wire Line
 	11350 5600 10500 5600
 Wire Wire Line
-	11350 5100 10500 5100
+	11350 6900 10500 6900
 Wire Wire Line
-	11350 5000 10500 5000
+	11350 6800 10500 6800
 Wire Wire Line
-	11350 4700 10500 4700
+	11350 6100 10500 6100
 Wire Wire Line
-	11350 4600 10500 4600
+	11350 6000 10500 6000
 Wire Wire Line
-	11350 5300 10500 5300
+	11350 7300 10500 7300
 Wire Wire Line
-	11350 5200 10500 5200
+	11350 7200 10500 7200
 Text GLabel 11350 5700 2    50   BiDi ~ 10
 FMC2_LA_17_N
 Text GLabel 11350 5600 2    50   BiDi ~ 10
 FMC2_LA_17_P
-Text GLabel 11350 5100 2    50   BiDi ~ 10
+Text GLabel 11350 6900 2    50   BiDi ~ 10
 FMC2_LA_27_N
-Text GLabel 11350 5000 2    50   BiDi ~ 10
+Text GLabel 11350 6800 2    50   BiDi ~ 10
 FMC2_LA_27_P
-Text GLabel 11350 4700 2    50   BiDi ~ 10
+Text GLabel 11350 6100 2    50   BiDi ~ 10
 FMC2_LA_22_N
-Text GLabel 11350 4600 2    50   BiDi ~ 10
+Text GLabel 11350 6000 2    50   BiDi ~ 10
 FMC2_LA_22_P
-Text GLabel 11350 5300 2    50   BiDi ~ 10
+Text GLabel 11350 7300 2    50   BiDi ~ 10
 FMC2_LA_21_N
-Text GLabel 11350 5200 2    50   BiDi ~ 10
+Text GLabel 11350 7200 2    50   BiDi ~ 10
 FMC2_LA_21_P
-Text Label 11150 5100 2    50   ~ 10
+Text Label 11150 6900 2    50   ~ 10
 FMC2_LA_27_N
-Text Label 11150 4700 2    50   ~ 10
+Text Label 11150 6100 2    50   ~ 10
 FMC2_LA_22_N
-Text Label 11150 5300 2    50   ~ 10
+Text Label 11150 7300 2    50   ~ 10
 FMC2_LA_21_N
 Text Label 11150 5700 2    50   ~ 10
 FMC2_LA_17_N
-Text Label 11150 5000 2    50   ~ 10
+Text Label 11150 6800 2    50   ~ 10
 FMC2_LA_27_P
-Text Label 11150 4600 2    50   ~ 10
+Text Label 11150 6000 2    50   ~ 10
 FMC2_LA_22_P
-Text Label 11150 5200 2    50   ~ 10
+Text Label 11150 7200 2    50   ~ 10
 FMC2_LA_21_P
 Text Label 11150 5600 2    50   ~ 10
 FMC2_LA_17_P
-Text Label 11150 7800 2    50   ~ 10
+Text Label 11150 7600 2    50   ~ 10
 FMC2_LA_20_P
-Text Label 11150 7200 2    50   ~ 10
+Text Label 11150 5200 2    50   ~ 10
 FMC2_LA_25_P
-Text Label 11150 7900 2    50   ~ 10
+Text Label 11150 7700 2    50   ~ 10
 FMC2_LA_20_N
-Text Label 11150 7300 2    50   ~ 10
+Text Label 11150 5300 2    50   ~ 10
 FMC2_LA_25_N
-Text GLabel 11350 7800 2    50   BiDi ~ 10
+Text GLabel 11350 7600 2    50   BiDi ~ 10
 FMC2_LA_20_P
-Text GLabel 11350 7900 2    50   BiDi ~ 10
+Text GLabel 11350 7700 2    50   BiDi ~ 10
 FMC2_LA_20_N
-Text GLabel 11350 7200 2    50   BiDi ~ 10
+Text GLabel 11350 5200 2    50   BiDi ~ 10
 FMC2_LA_25_P
-Text GLabel 11350 7300 2    50   BiDi ~ 10
+Text GLabel 11350 5300 2    50   BiDi ~ 10
 FMC2_LA_25_N
-Text GLabel 11350 6400 2    50   BiDi ~ 10
+Text GLabel 11350 5000 2    50   BiDi ~ 10
 FMC2_LA_33_P
-Text GLabel 11350 6500 2    50   BiDi ~ 10
+Text GLabel 11350 5100 2    50   BiDi ~ 10
 FMC2_LA_33_N
 Wire Wire Line
-	11350 7800 10500 7800
+	11350 7600 10500 7600
 Wire Wire Line
-	11350 7900 10500 7900
+	11350 7700 10500 7700
 Wire Wire Line
-	11350 7200 10500 7200
+	11350 5200 10500 5200
 Wire Wire Line
-	11350 7300 10500 7300
+	11350 5300 10500 5300
 Wire Wire Line
-	11350 6400 10500 6400
+	11350 5000 10500 5000
+Wire Wire Line
+	11350 5100 10500 5100
+Wire Wire Line
+	11350 4700 10500 4700
+Wire Wire Line
+	11350 4600 10500 4600
+Text GLabel 11350 4700 2    50   BiDi ~ 10
+FMC2_LA_32_N
+Text GLabel 11350 4600 2    50   BiDi ~ 10
+FMC2_LA_32_P
+Text Label 11150 4700 2    50   ~ 10
+FMC2_LA_32_N
+Text Label 11150 4600 2    50   ~ 10
+FMC2_LA_32_P
 Wire Wire Line
 	11350 6500 10500 6500
+Wire Wire Line
+	11350 6400 10500 6400
+Text GLabel 11350 6500 2    50   BiDi ~ 10
+FMC2_LA_26_N
+Text GLabel 11350 6400 2    50   BiDi ~ 10
+FMC2_LA_26_P
+Text Label 11150 5100 2    50   ~ 10
+FMC2_LA_33_N
+Text Label 11150 5000 2    50   ~ 10
+FMC2_LA_33_P
+Text Label 11150 6500 2    50   ~ 10
+FMC2_LA_26_N
+Text Label 11150 6400 2    50   ~ 10
+FMC2_LA_26_P
 Wire Wire Line
 	11350 6300 10500 6300
 Wire Wire Line
 	11350 6200 10500 6200
 Text GLabel 11350 6300 2    50   BiDi ~ 10
-FMC2_LA_32_N
+FMC2_LA_28_N
 Text GLabel 11350 6200 2    50   BiDi ~ 10
-FMC2_LA_32_P
-Text Label 11150 6300 2    50   ~ 10
-FMC2_LA_32_N
-Text Label 11150 6200 2    50   ~ 10
-FMC2_LA_32_P
-Wire Wire Line
-	11350 7100 10500 7100
-Wire Wire Line
-	11350 7000 10500 7000
-Text GLabel 11350 7100 2    50   BiDi ~ 10
-FMC2_LA_26_N
-Text GLabel 11350 7000 2    50   BiDi ~ 10
-FMC2_LA_26_P
-Text Label 11150 6500 2    50   ~ 10
-FMC2_LA_33_N
-Text Label 11150 6400 2    50   ~ 10
-FMC2_LA_33_P
-Text Label 11150 7100 2    50   ~ 10
-FMC2_LA_26_N
-Text Label 11150 7000 2    50   ~ 10
-FMC2_LA_26_P
-Wire Wire Line
-	11350 7500 10500 7500
-Wire Wire Line
-	11350 7400 10500 7400
-Text GLabel 11350 7500 2    50   BiDi ~ 10
-FMC2_LA_28_N
-Text GLabel 11350 7400 2    50   BiDi ~ 10
 FMC2_LA_28_P
-Text Label 11150 7500 2    50   ~ 10
+Text Label 11150 6300 2    50   ~ 10
 FMC2_LA_28_N
-Text Label 11150 7400 2    50   ~ 10
+Text Label 11150 6200 2    50   ~ 10
 FMC2_LA_28_P
 Text Label 11150 5800 2    50   ~ 10
 FMC2_LA_18_P
@@ -1744,44 +1646,54 @@ Wire Wire Line
 	11350 5800 10500 5800
 Wire Wire Line
 	11350 5900 10500 5900
-Text Label 11150 7600 2    50   ~ 10
+Text Label 11150 4800 2    50   ~ 10
 FMC2_LA_31_P
-Text Label 11150 7700 2    50   ~ 10
+Text Label 11150 4900 2    50   ~ 10
 FMC2_LA_31_N
 Wire Wire Line
-	11350 7700 10500 7700
+	11350 4900 10500 4900
 Wire Wire Line
-	11350 7600 10500 7600
-Text GLabel 11350 7700 2    50   BiDi ~ 10
+	11350 4800 10500 4800
+Text GLabel 11350 4900 2    50   BiDi ~ 10
 FMC2_LA_31_N
-Text GLabel 11350 7600 2    50   BiDi ~ 10
+Text GLabel 11350 4800 2    50   BiDi ~ 10
 FMC2_LA_31_P
 Wire Wire Line
-	11350 6900 10500 6900
+	11350 7500 10500 7500
 Wire Wire Line
-	11350 6800 10500 6800
-Text GLabel 11350 6900 2    50   BiDi ~ 10
+	11350 7400 10500 7400
+Text GLabel 11350 7500 2    50   BiDi ~ 10
 FMC2_LA_24_N
-Text GLabel 11350 6800 2    50   BiDi ~ 10
+Text GLabel 11350 7400 2    50   BiDi ~ 10
 FMC2_LA_24_P
-Text Label 11150 6900 2    50   ~ 10
+Text Label 11150 7500 2    50   ~ 10
 FMC2_LA_24_N
-Text Label 11150 6800 2    50   ~ 10
+Text Label 11150 7400 2    50   ~ 10
 FMC2_LA_24_P
 Wire Wire Line
-	11350 6700 10500 6700
+	11350 4100 10500 4100
 Wire Wire Line
-	11350 6600 10500 6600
-Text GLabel 11350 6700 2    50   BiDi ~ 10
+	11350 4000 10500 4000
+Text GLabel 11350 4100 2    50   BiDi ~ 10
 FMC2_LA_30_N
-Text GLabel 11350 6600 2    50   BiDi ~ 10
+Text GLabel 11350 4000 2    50   BiDi ~ 10
 FMC2_LA_30_P
-Text Label 11150 6700 2    50   ~ 10
+Text Label 11150 4100 2    50   ~ 10
 FMC2_LA_30_N
-Text Label 11150 6600 2    50   ~ 10
+Text Label 11150 4000 2    50   ~ 10
 FMC2_LA_30_P
+Wire Wire Line
+	5950 3900 6500 3900
+Text Label 5950 4000 0    50   ~ 10
+Pmod1_0
+Text Label 5950 4100 0    50   ~ 10
+Pmod1_1
+Text Label 5950 3900 0    50   ~ 10
+Pmod1_2
+Wire Wire Line
+	5950 4100 6500 4100
+Wire Wire Line
+	5950 4000 6500 4000
 Wire Bus Line
-	14750 5650 14750 6400
-Wire Bus Line
-	13750 5500 13750 6400
+	14750 7100 14750 7850
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=26.05.2020 15:34:32
+update=02.06.2020 14:39:21
 version=1
 last_client=kicad
 [general]
@@ -312,7 +312,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=SE55DE100
-Clearance=0.6
+Clearance=0.102
 TrackWidth=0.13
 ViaDiameter=0.35
 ViaDrill=0.152

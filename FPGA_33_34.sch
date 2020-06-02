@@ -1148,10 +1148,98 @@ VREF_DDR3
 Wire Wire Line
 	5250 3750 5400 3750
 Connection ~ 5400 3750
+Text HLabel 1450 2150 0    50   BiDi ~ 10
+Pmod2_[0..7]
+Text Label 1500 2150 0    50   ~ 10
+Pmod2_[0..7]
+Wire Wire Line
+	2150 2300 2650 2300
+Wire Wire Line
+	2150 2500 2650 2500
+Wire Wire Line
+	2150 2600 2650 2600
+Entry Wire Line
+	2050 2200 2150 2300
+Entry Wire Line
+	2050 2300 2150 2400
+Entry Wire Line
+	2050 2400 2150 2500
+Entry Wire Line
+	2050 2500 2150 2600
+Entry Wire Line
+	2050 2600 2150 2700
+Entry Wire Line
+	2050 2700 2150 2800
+Entry Wire Line
+	2050 2800 2150 2900
+Entry Wire Line
+	2050 2900 2150 3000
+Wire Wire Line
+	2150 2700 2650 2700
+Wire Wire Line
+	2150 2800 2650 2800
+Wire Wire Line
+	2150 2900 2650 2900
+Wire Wire Line
+	2150 3000 2650 3000
+Text Label 2600 2300 2    50   ~ 10
+Pmod2_0
+Text Label 2600 2400 2    50   ~ 10
+Pmod2_1
+Text Label 2600 2500 2    50   ~ 10
+Pmod2_2
+Text Label 2600 2600 2    50   ~ 10
+Pmod2_3
+Text Label 2600 2700 2    50   ~ 10
+Pmod2_4
+Text Label 2600 2800 2    50   ~ 10
+Pmod2_5
+Text Label 2600 2900 2    50   ~ 10
+Pmod2_6
+Text Label 2600 3000 2    50   ~ 10
+Pmod2_7
+Wire Wire Line
+	2150 2400 2650 2400
+Wire Wire Line
+	5800 3150 6350 3150
+Wire Wire Line
+	5800 3050 6350 3050
+Wire Wire Line
+	5800 2850 6350 2850
+Wire Wire Line
+	5800 3250 6350 3250
+Wire Wire Line
+	5800 3350 6350 3350
+Wire Wire Line
+	5800 2750 6350 2750
+Text Label 5800 3150 0    50   ~ 10
+Pmod2_0
+Text Label 5800 3050 0    50   ~ 10
+Pmod2_1
+Text Label 5800 2650 0    50   ~ 10
+Pmod2_2
+Text Label 5800 2850 0    50   ~ 10
+Pmod2_3
+Text Label 5800 3250 0    50   ~ 10
+Pmod2_4
+Text Label 5800 3350 0    50   ~ 10
+Pmod2_5
+Text Label 5800 2750 0    50   ~ 10
+Pmod2_6
+Wire Wire Line
+	5800 2650 6350 2650
+Text Label 5800 2950 0    50   ~ 10
+Pmod2_7
+Wire Wire Line
+	5800 2950 6350 2950
+Wire Bus Line
+	1450 2150 2050 2150
 Wire Bus Line
 	14350 850  14350 1150
 Wire Bus Line
 	14350 4700 14350 5100
+Wire Bus Line
+	2050 2150 2050 2900
 Wire Bus Line
 	14350 1300 14350 2900
 Wire Bus Line
