@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 20 25
+Sheet 19 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -1462,19 +1462,19 @@ Wire Wire Line
 	10500 4300 11050 4300
 Wire Wire Line
 	10500 4400 11050 4400
-Text Label 10650 4300 0    50   ~ 10
-Pmod1_3
-Text Label 10650 3100 0    50   ~ 10
-Pmod1_5
 Text Label 10650 4400 0    50   ~ 10
+Pmod1_3
+Text Label 5950 4100 0    50   ~ 10
+Pmod1_5
+Text Label 5950 3900 0    50   ~ 10
 Pmod1_6
 Wire Wire Line
 	11050 4500 10500 4500
-Text Label 10650 4500 0    50   ~ 10
+Text Label 10700 3100 0    50   ~ 10
 Pmod1_4
 Wire Wire Line
 	10500 8000 11050 8000
-Text Label 10650 8000 0    50   ~ 10
+Text Label 5950 4000 0    50   ~ 10
 Pmod1_7
 Text GLabel 5850 6400 0    50   BiDi ~ 10
 FMC1_LA_5_P
@@ -1684,11 +1684,11 @@ Text Label 11150 4000 2    50   ~ 10
 FMC2_LA_30_P
 Wire Wire Line
 	5950 3900 6500 3900
-Text Label 5950 4000 0    50   ~ 10
+Text Label 10650 4300 0    50   ~ 10
 Pmod1_0
-Text Label 5950 4100 0    50   ~ 10
+Text Label 10650 4500 0    50   ~ 10
 Pmod1_1
-Text Label 5950 3900 0    50   ~ 10
+Text Label 10600 8000 0    50   ~ 10
 Pmod1_2
 Wire Wire Line
 	5950 4100 6500 4100

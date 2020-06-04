@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 25
+Sheet 13 25
 Title "Marble"
 Date "2019-01-16"
 Rev "9"
@@ -3114,11 +3114,11 @@ Wire Wire Line
 	8100 6900 8450 6900
 Wire Wire Line
 	8100 7400 8600 7400
+Connection ~ 8100 7400
 Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
 	11850 3800 11850 4100
 Wire Bus Line
 	9300 3800 9300 4100
-Connection ~ 8100 7400
 $EndSCHEMATC
