@@ -181,38 +181,8 @@ Text HLabel 14300 4200 2    50   BiDi ~ 10
 DDR3_WE_N
 Text HLabel 14300 4300 2    50   BiDi ~ 10
 DDR3_RST_N
-$Comp
-L power:+2V5 #PWR?
-U 1 1 5C8DFCA4
-P 6750 1700
-AR Path="/5C16BF8E/5C8DFCA4" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5C8DFCA4" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C8DFCA4" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C721515/5C8DFCA4" Ref="#PWR0497"  Part="1" 
-F 0 "#PWR0497" H 6750 1550 50  0001 C CNN
-F 1 "+2V5" H 6765 1873 50  0000 C CNN
-F 2 "" H 6750 1700 50  0001 C CNN
-F 3 "" H 6750 1700 50  0001 C CNN
-	1    6750 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6750 1750 6750 1700
-$Comp
-L power:+1V35 #PWR?
-U 1 1 5C8DFCB5
-P 9450 1650
-AR Path="/5BD32060/5C8DFCB5" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5C8DFCB5" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C8DFCB5" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C721515/5C8DFCB5" Ref="#PWR0498"  Part="1" 
-F 0 "#PWR0498" H 9450 1500 50  0001 C CNN
-F 1 "+1V35" H 9465 1823 50  0000 C CNN
-F 2 "" H 9450 1650 50  0001 C CNN
-F 3 "" H 9450 1650 50  0001 C CNN
-	1    9450 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9450 1750 9450 1650
 Entry Wire Line
@@ -760,7 +730,7 @@ Text Label 5750 5850 0    50   ~ 10
 DDR3_BA2
 Text Label 5750 5350 0    50   ~ 10
 DDR3_A1
-Text Label 5750 5150 0    50   ~ 10
+Text Label 5750 5250 0    50   ~ 10
 DDR3_A3
 Text Label 5750 5550 0    50   ~ 10
 DDR3_A5
@@ -780,7 +750,7 @@ Text Label 5750 6450 0    50   ~ 10
 DDR3_A4
 Text Label 5750 5050 0    50   ~ 10
 DDR3_A6
-Text Label 5750 5250 0    50   ~ 10
+Text Label 5750 5150 0    50   ~ 10
 DDR3_A7
 Text Label 5750 6250 0    50   ~ 10
 DDR3_A11
@@ -827,9 +797,9 @@ Wire Wire Line
 Wire Wire Line
 	5750 5050 6350 5050
 Wire Wire Line
-	5750 5150 6350 5150
-Wire Wire Line
 	5750 5250 6350 5250
+Wire Wire Line
+	5750 5150 6350 5150
 Wire Wire Line
 	5750 5350 6350 5350
 Wire Wire Line
@@ -1201,39 +1171,211 @@ Pmod2_7
 Wire Wire Line
 	2150 2400 2650 2400
 Wire Wire Line
-	5800 3150 6350 3150
+	5800 3850 6350 3850
 Wire Wire Line
-	5800 3050 6350 3050
+	5800 2950 6350 2950
+Wire Wire Line
+	5800 3950 6350 3950
 Wire Wire Line
 	5800 2850 6350 2850
 Wire Wire Line
+	5800 4050 6350 4050
+Wire Wire Line
 	5800 3250 6350 3250
-Wire Wire Line
-	5800 3350 6350 3350
-Wire Wire Line
-	5800 2750 6350 2750
-Text Label 5800 3150 0    50   ~ 10
+Text Label 5800 3850 0    50   ~ 10
 Pmod2_0
-Text Label 5800 3050 0    50   ~ 10
+Text Label 5800 2950 0    50   ~ 10
 Pmod2_1
-Text Label 5800 2650 0    50   ~ 10
-Pmod2_2
-Text Label 5800 2850 0    50   ~ 10
-Pmod2_3
-Text Label 5800 3250 0    50   ~ 10
-Pmod2_4
 Text Label 5800 3350 0    50   ~ 10
+Pmod2_2
+Text Label 5800 3950 0    50   ~ 10
+Pmod2_3
+Text Label 5800 2850 0    50   ~ 10
+Pmod2_4
+Text Label 5800 4050 0    50   ~ 10
 Pmod2_5
-Text Label 5800 2750 0    50   ~ 10
+Text Label 5800 3250 0    50   ~ 10
 Pmod2_6
 Wire Wire Line
-	5800 2650 6350 2650
-Text Label 5800 2950 0    50   ~ 10
+	5800 3350 6350 3350
+Text Label 5800 3150 0    50   ~ 10
 Pmod2_7
 Wire Wire Line
-	5800 2950 6350 2950
+	5800 3150 6350 3150
 Wire Bus Line
 	1450 2150 2050 2150
+Text Label 5600 3450 0    50   ~ 10
+WR_DAC2_SYNC_T
+Text Label 5600 2650 0    50   ~ 10
+WR_DAC_SCLK_T
+Text Label 5600 3550 0    50   ~ 10
+WR_DAC_DIN_T
+Text Label 5600 3050 0    50   ~ 10
+WR_DAC1_SYNC_T
+Text Label 5600 3650 0    50   ~ 10
+VCXO_EN_T
+Wire Wire Line
+	5600 3450 6350 3450
+Wire Wire Line
+	5600 2650 6350 2650
+Wire Wire Line
+	5600 3550 6350 3550
+Wire Wire Line
+	5600 3050 6350 3050
+$Comp
+L Analog_&_Interface:TXB0108PW IC?
+U 1 1 62DD2CAE
+P 2200 4050
+AR Path="/5BCEDA2C/62DD2CAE" Ref="IC?"  Part="1" 
+AR Path="/5C907554/62DD2CAE" Ref="IC?"  Part="1" 
+AR Path="/5C907554/5C721515/62DD2CAE" Ref="U42"  Part="1" 
+F 0 "U42" H 2500 4215 50  0000 C CNN
+F 1 "TXB0108PW" H 2500 4124 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:SOP65P640X120-20N" H 2200 1700 50  0001 L CNN
+F 3 " " H 2200 1625 50  0001 L CNN
+F 4 "TXB0108PW" H 2200 1550 50  0001 L CNN "Part Number"
+F 5 "TXB0108PW" H 2200 1475 50  0001 L CNN "Library Ref"
+F 6 "SchLib\\Analog & Interface.SchLib" H 2200 1400 50  0001 L CNN "Library Path"
+F 7 "TXB0108PW" H 2200 1325 50  0001 L CNN "Comment"
+F 8 "Standard" H 2200 1250 50  0001 L CNN "Component Kind"
+F 9 "Standard" H 2200 1175 50  0001 L CNN "Component Type"
+F 10 "TXB0108PW" H 2200 1100 50  0001 L CNN "Device"
+F 11 "SOP, 20-Leads, Body 6.5x4.4mm, Pitch 0.65mm, IPC Medium Density" H 2200 1025 50  0001 L CNN "PackageDescription"
+F 12 " " H 2200 950 50  0001 L CNN "Status"
+F 13 "8-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" H 2200 875 50  0001 L CNN "Part Description"
+F 14 "TEXAS INSTRUMENTS" H 2200 800 50  0001 L CNN "Manufacturer"
+F 15 "TXB0108PW" H 2200 725 50  0001 L CNN "Manufacturer Part Number"
+F 16 "20" H 2200 650 50  0001 L CNN "Pin Count"
+F 17 "TSSOP20" H 2200 575 50  0001 L CNN "Case"
+F 18 "Yes" H 2200 500 50  0001 L CNN "Mounted"
+F 19 "No" H 2200 425 50  0001 L CNN "Socket"
+F 20 "Yes" H 2200 350 50  0001 L CNN "SMD"
+F 21 "No" H 2200 275 50  0001 L CNN "PressFit"
+F 22 "No" H 2200 200 50  0001 L CNN "Sense"
+F 23 " " H 2200 125 50  0001 L CNN "Sense Comment"
+F 24 "No" H 2200 50  50  0001 L CNN "Bonding"
+F 25 " " H 2200 -25 50  0001 L CNN "Status Comment"
+F 26 "1.2mm" H 2200 -100 50  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2200 -175 50  0001 L CNN "Footprint Path"
+F 28 "SOP65P640X120-20N" H 2200 -250 50  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM MR" H 2200 -325 50  0001 L CNN "Author"
+F 30 " " H 2200 -400 50  0001 L CNN "ComponentLink2Description"
+F 31 " " H 2200 -475 50  0001 L CNN "ComponentLink1Description"
+F 32 "04/01/16 00:00:00" H 2200 -550 50  0001 L CNN "CreateDate"
+F 33 "04/01/16 00:00:00" H 2200 -625 50  0001 L CNN "LatestRevisionDate"
+F 34 " " H 2200 -700 50  0001 L CNN "SCEM"
+F 35 "Analog & Interface" H 2200 -775 50  0001 L CNN "Database Table Name"
+F 36 "ICs And Semiconductors.DbLib" H 2200 -850 50  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors SMD" H 2200 -925 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2200 -1000 50  0001 L CNN "License"
+	1    2200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3650 6350 3650
+Text Label 3100 5150 0    50   ~ 10
+WR_DAC2_SYNC_T
+Text Label 3100 4950 0    50   ~ 10
+WR_DAC_SCLK_T
+Text Label 3100 4750 0    50   ~ 10
+WR_DAC_DIN_T
+Text Label 3100 4550 0    50   ~ 10
+WR_DAC1_SYNC_T
+Text Label 3100 4350 0    50   ~ 10
+VCXO_EN_T
+Wire Wire Line
+	3750 5150 3000 5150
+Wire Wire Line
+	3750 4950 3000 4950
+Wire Wire Line
+	3750 4750 3000 4750
+Wire Wire Line
+	3750 4550 3000 4550
+Wire Wire Line
+	3750 4350 3000 4350
+Text Label 3100 5350 0    50   ~ 10
+CLK20_VCXO_T
+Wire Wire Line
+	3000 5350 3750 5350
+Text Label 5650 2750 0    50   ~ 10
+CLK20_VCXO_T
+Wire Wire Line
+	5650 2750 6350 2750
+Text HLabel 1300 5150 0    50   Output ~ 10
+WR_DAC2_SYNC
+Text HLabel 1300 4950 0    50   Output ~ 10
+WR_DAC_SCLK
+Text HLabel 1300 4750 0    50   Output ~ 10
+WR_DAC_DIN
+Text HLabel 1300 4550 0    50   Output ~ 10
+WR_DAC1_SYNC
+Text Label 1450 5150 0    50   ~ 10
+WR_DAC2_SYNC
+Text Label 1450 4950 0    50   ~ 10
+WR_DAC_SCLK
+Text Label 1450 4750 0    50   ~ 10
+WR_DAC_DIN
+Text Label 1450 4550 0    50   ~ 10
+WR_DAC1_SYNC
+Wire Wire Line
+	2000 5150 1300 5150
+Wire Wire Line
+	2000 4950 1300 4950
+Wire Wire Line
+	2000 4750 1300 4750
+Wire Wire Line
+	2000 4550 1300 4550
+Text HLabel 1300 4350 0    50   Output ~ 10
+VCXO_EN
+Text HLabel 1300 5350 0    50   Input ~ 10
+CLK20_VCXO
+Text Label 1450 4350 0    50   ~ 10
+VCXO_EN
+Text Label 1450 5350 0    50   ~ 10
+CLK20_VCXO
+Wire Wire Line
+	1300 5350 2000 5350
+Wire Wire Line
+	1300 4350 2000 4350
+$Comp
+L power:+1V5 #PWR?
+U 1 1 6420CE9C
+P 6750 1700
+AR Path="/5BD32060/6420CE9C" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C721515/6420CE9C" Ref="#PWR0497"  Part="1" 
+F 0 "#PWR0497" H 6750 1550 50  0001 C CNN
+F 1 "+1V5" H 6765 1873 50  0000 C CNN
+F 2 "" H 6750 1700 50  0001 C CNN
+F 3 "" H 6750 1700 50  0001 C CNN
+	1    6750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V5 #PWR?
+U 1 1 64222BDB
+P 9450 1650
+AR Path="/5BD32060/64222BDB" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C721515/64222BDB" Ref="#PWR0498"  Part="1" 
+F 0 "#PWR0498" H 9450 1500 50  0001 C CNN
+F 1 "+1V5" H 9465 1823 50  0000 C CNN
+F 2 "" H 9450 1650 50  0001 C CNN
+F 3 "" H 9450 1650 50  0001 C CNN
+	1    9450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V5 #PWR?
+U 1 1 642A9C5E
+P 3000 5950
+AR Path="/5BD32060/642A9C5E" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C721515/642A9C5E" Ref="#PWR0499"  Part="1" 
+F 0 "#PWR0499" H 3000 5800 50  0001 C CNN
+F 1 "+1V5" V 3000 6150 50  0000 C CNN
+F 2 "" H 3000 5950 50  0001 C CNN
+F 3 "" H 3000 5950 50  0001 C CNN
+	1    3000 5950
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	14350 850  14350 1150
 Wire Bus Line

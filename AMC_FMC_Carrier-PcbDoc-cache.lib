@@ -2543,6 +2543,282 @@ X VCCB 8 1000 -500 200 L 60 60 0 1 W
 ENDDRAW
 ENDDEF
 #
+# Analog_&_Interface_TXB0104D
+#
+DEF Analog_&_Interface_TXB0104D IC 0 50 Y Y 1 L N
+F0 "IC" 300 50 50 H V C CNN
+F1 "Analog_&_Interface_TXB0104D" 0 -1475 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOIC127P600X175-14N" 0 -1550 50 H I L CNN
+F3 " " 0 -1625 50 H I L CNN
+F4 "TXB0104D" 0 -1700 50 H I L CNN "Part Number"
+F5 "TXB0104" 0 -1775 50 H I L CNN "Library Ref"
+F6 "SchLib\\Analog & Interface.SchLib" 0 -1850 50 H I L CNN "Library Path"
+F7 "TXB0104D" 0 -1925 50 H I L CNN "Comment"
+F8 "Standard" 0 -2000 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -2075 50 H I L CNN "Component Type"
+F10 "TXB0104D" 0 -2150 50 H I L CNN "Device"
+F11 "SOIC 14, Pitch 1.27mm - Body 4x8.75mm, IPC Medium Density" 0 -2225 50 H I L CNN "PackageDescription"
+F12 " " 0 -2300 50 H I L CNN "Status"
+F13 "4-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" 0 -2375 50 H I L CNN "Part Description"
+F14 "TEXAS INSTRUMENTS" 0 -2450 50 H I L CNN "Manufacturer"
+F15 "TXB0104D" 0 -2525 50 H I L CNN "Manufacturer Part Number"
+F16 "14" 0 -2600 50 H I L CNN "Pin Count"
+F17 "SOIC14" 0 -2675 50 H I L CNN "Case"
+F18 "Yes" 0 -2750 50 H I L CNN "Mounted"
+F19 "No" 0 -2825 50 H I L CNN "Socket"
+F20 "Yes" 0 -2900 50 H I L CNN "SMD"
+F21 "No" 0 -2975 50 H I L CNN "PressFit"
+F22 "No" 0 -3050 50 H I L CNN "Sense"
+F23 " " 0 -3125 50 H I L CNN "Sense Comment"
+F24 "No" 0 -3200 50 H I L CNN "Bonding"
+F25 " " 0 -3275 50 H I L CNN "Status Comment"
+F26 "1.75mm" 0 -3350 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3425 50 H I L CNN "Footprint Path"
+F28 "SOIC127P600X175-14N" 0 -3500 50 H I L CNN "Footprint Ref"
+F29 "CERN DEM JLC" 0 -3575 50 H I L CNN "Author"
+F30 " " 0 -3650 50 H I L CNN "ComponentLink2Description"
+F31 " " 0 -3725 50 H I L CNN "ComponentLink1Description"
+F32 "06/02/15 00:00:00" 0 -3800 50 H I L CNN "CreateDate"
+F33 "06/02/15 00:00:00" 0 -3875 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -3950 50 H I L CNN "SCEM"
+F35 "Analog & Interface" 0 -4025 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -4100 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -4175 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -4250 50 H I L CNN "License"
+DRAW
+C 150 -900 10 0 1 10 N
+C 150 -700 10 0 1 10 N
+C 150 -500 10 0 1 10 N
+C 150 -300 10 0 1 10 N
+C 450 -900 10 0 1 10 N
+C 450 -700 10 0 1 10 N
+C 450 -500 10 0 1 10 N
+C 450 -300 10 0 1 10 N
+T 0 75 -250 50 1 0 1 A1 Normal 0 C C
+T 0 75 -450 50 1 0 1 A2 Normal 0 C C
+T 0 75 -650 50 1 0 1 A3 Normal 0 C C
+T 0 75 -850 50 1 0 1 A4 Normal 0 C C
+T 0 525 -250 50 1 0 1 B1 Normal 0 C C
+T 0 525 -450 50 1 0 1 B2 Normal 0 C C
+T 0 525 -650 50 1 0 1 B3 Normal 0 C C
+T 0 525 -850 50 1 0 1 B4 Normal 0 C C
+T 0 30 -1200 50 1 0 1 GND Normal 0 L C
+T 0 30 -1100 50 1 0 1 VCCA Normal 0 L C
+T 0 570 -1100 50 1 0 1 VCCB Normal 0 R C
+S 0 -1300 600 0 0 1 0 f
+P 2 0 1 10 150 -900 0 -900 N
+P 2 0 1 10 150 -700 0 -700 N
+P 2 0 1 10 150 -500 0 -500 N
+P 2 0 1 10 150 -300 0 -300 N
+P 2 0 1 10 250 -850 150 -850 N
+P 2 0 1 10 250 -650 150 -650 N
+P 2 0 1 10 250 -450 150 -450 N
+P 2 0 1 10 250 -250 150 -250 N
+P 2 0 1 10 350 -850 450 -850 N
+P 2 0 1 10 350 -650 450 -650 N
+P 2 0 1 10 350 -450 450 -450 N
+P 2 0 1 10 350 -250 450 -250 N
+P 2 0 1 10 600 -900 450 -900 N
+P 2 0 1 10 600 -700 450 -700 N
+P 2 0 1 10 600 -500 450 -500 N
+P 2 0 1 10 600 -300 450 -300 N
+P 3 0 1 10 150 -850 150 -950 250 -950 N
+P 3 0 1 10 150 -650 150 -750 250 -750 N
+P 3 0 1 10 150 -450 150 -550 250 -550 N
+P 3 0 1 10 150 -250 150 -350 250 -350 N
+P 3 0 1 10 450 -850 450 -950 350 -950 N
+P 3 0 1 10 450 -650 450 -750 350 -750 N
+P 3 0 1 10 450 -450 450 -550 350 -550 N
+P 3 0 1 10 450 -250 450 -350 350 -350 N
+P 4 0 1 10 250 -850 350 -900 350 -800 250 -850 N
+P 4 0 1 10 250 -650 350 -700 350 -600 250 -650 N
+P 4 0 1 10 250 -450 350 -500 350 -400 250 -450 N
+P 4 0 1 10 250 -250 350 -300 350 -200 250 -250 N
+P 4 0 1 10 350 -950 250 -1000 250 -900 350 -950 N
+P 4 0 1 10 350 -750 250 -800 250 -700 350 -750 N
+P 4 0 1 10 350 -550 250 -600 250 -500 350 -550 N
+P 4 0 1 10 350 -350 250 -400 250 -300 350 -350 N
+X Vcca 1 -200 -1100 200 R 60 0 0 1 W
+X B4 10 800 -900 200 L 60 0 0 1 B
+X B3 11 800 -700 200 L 60 0 0 1 B
+X B2 12 800 -500 200 L 60 0 0 1 B
+X B1 13 800 -300 200 L 60 0 0 1 B
+X Vccb 14 800 -1100 200 L 60 0 0 1 W
+X A1 2 -200 -300 200 R 60 0 0 1 B
+X A2 3 -200 -500 200 R 60 0 0 1 B
+X A3 4 -200 -700 200 R 60 0 0 1 B
+X A4 5 -200 -900 200 R 60 0 0 1 B
+X GND 7 -200 -1200 200 R 60 0 0 1 W
+X OE 8 -200 -100 200 R 60 60 0 1 I
+ENDDRAW
+ENDDEF
+#
+# Analog_&_Interface_TXB0108PW
+#
+DEF Analog_&_Interface_TXB0108PW IC 0 50 Y Y 1 L N
+F0 "IC" 300 50 50 H V C CNN
+F1 "Analog_&_Interface_TXB0108PW" 0 -2275 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOP65P640X120-20N" 0 -2350 50 H I L CNN
+F3 " " 0 -2425 50 H I L CNN
+F4 "TXB0108PW" 0 -2500 50 H I L CNN "Part Number"
+F5 "TXB0108PW" 0 -2575 50 H I L CNN "Library Ref"
+F6 "SchLib\\Analog & Interface.SchLib" 0 -2650 50 H I L CNN "Library Path"
+F7 "TXB0108PW" 0 -2725 50 H I L CNN "Comment"
+F8 "Standard" 0 -2800 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -2875 50 H I L CNN "Component Type"
+F10 "TXB0108PW" 0 -2950 50 H I L CNN "Device"
+F11 "SOP, 20-Leads, Body 6.5x4.4mm, Pitch 0.65mm, IPC Medium Density" 0 -3025 50 H I L CNN "PackageDescription"
+F12 " " 0 -3100 50 H I L CNN "Status"
+F13 "8-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" 0 -3175 50 H I L CNN "Part Description"
+F14 "TEXAS INSTRUMENTS" 0 -3250 50 H I L CNN "Manufacturer"
+F15 "TXB0108PW" 0 -3325 50 H I L CNN "Manufacturer Part Number"
+F16 "20" 0 -3400 50 H I L CNN "Pin Count"
+F17 "TSSOP20" 0 -3475 50 H I L CNN "Case"
+F18 "Yes" 0 -3550 50 H I L CNN "Mounted"
+F19 "No" 0 -3625 50 H I L CNN "Socket"
+F20 "Yes" 0 -3700 50 H I L CNN "SMD"
+F21 "No" 0 -3775 50 H I L CNN "PressFit"
+F22 "No" 0 -3850 50 H I L CNN "Sense"
+F23 " " 0 -3925 50 H I L CNN "Sense Comment"
+F24 "No" 0 -4000 50 H I L CNN "Bonding"
+F25 " " 0 -4075 50 H I L CNN "Status Comment"
+F26 "1.2mm" 0 -4150 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -4225 50 H I L CNN "Footprint Path"
+F28 "SOP65P640X120-20N" 0 -4300 50 H I L CNN "Footprint Ref"
+F29 "CERN DEM MR" 0 -4375 50 H I L CNN "Author"
+F30 " " 0 -4450 50 H I L CNN "ComponentLink2Description"
+F31 " " 0 -4525 50 H I L CNN "ComponentLink1Description"
+F32 "04/01/16 00:00:00" 0 -4600 50 H I L CNN "CreateDate"
+F33 "04/01/16 00:00:00" 0 -4675 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -4750 50 H I L CNN "SCEM"
+F35 "Analog & Interface" 0 -4825 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -4900 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -4975 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -5050 50 H I L CNN "License"
+DRAW
+C 150 -1700 10 0 1 10 N
+C 150 -1500 10 0 1 10 N
+C 150 -1300 10 0 1 10 N
+C 150 -1100 10 0 1 10 N
+C 150 -900 10 0 1 10 N
+C 150 -700 10 0 1 10 N
+C 150 -500 10 0 1 10 N
+C 150 -300 10 0 1 10 N
+C 450 -1700 10 0 1 10 N
+C 450 -1500 10 0 1 10 N
+C 450 -1300 10 0 1 10 N
+C 450 -1100 10 0 1 10 N
+C 450 -900 10 0 1 10 N
+C 450 -700 10 0 1 10 N
+C 450 -500 10 0 1 10 N
+C 450 -300 10 0 1 10 N
+T 0 75 -250 50 1 0 1 A1 Normal 0 C C
+T 0 75 -450 50 1 0 1 A2 Normal 0 C C
+T 0 75 -650 50 1 0 1 A3 Normal 0 C C
+T 0 75 -850 50 1 0 1 A4 Normal 0 C C
+T 0 75 -1050 50 1 0 1 A5 Normal 0 C C
+T 0 75 -1250 50 1 0 1 A6 Normal 0 C C
+T 0 75 -1450 50 1 0 1 A7 Normal 0 C C
+T 0 75 -1650 50 1 0 1 A8 Normal 0 C C
+T 0 525 -250 50 1 0 1 B1 Normal 0 C C
+T 0 525 -450 50 1 0 1 B2 Normal 0 C C
+T 0 525 -650 50 1 0 1 B3 Normal 0 C C
+T 0 525 -850 50 1 0 1 B4 Normal 0 C C
+T 0 525 -1050 50 1 0 1 B5 Normal 0 C C
+T 0 525 -1250 50 1 0 1 B6 Normal 0 C C
+T 0 525 -1450 50 1 0 1 B7 Normal 0 C C
+T 0 525 -1650 50 1 0 1 B8 Normal 0 C C
+T 0 30 -2000 50 1 0 1 GND Normal 0 L C
+T 0 30 -1900 50 1 0 1 VCCA Normal 0 L C
+T 0 570 -1900 50 1 0 1 VCCB Normal 0 R C
+S 0 -2100 600 0 0 1 0 f
+P 2 0 1 10 150 -1700 0 -1700 N
+P 2 0 1 10 150 -1500 0 -1500 N
+P 2 0 1 10 150 -1300 0 -1300 N
+P 2 0 1 10 150 -1100 0 -1100 N
+P 2 0 1 10 150 -900 0 -900 N
+P 2 0 1 10 150 -700 0 -700 N
+P 2 0 1 10 150 -500 0 -500 N
+P 2 0 1 10 150 -300 0 -300 N
+P 2 0 1 10 250 -1650 150 -1650 N
+P 2 0 1 10 250 -1450 150 -1450 N
+P 2 0 1 10 250 -1250 150 -1250 N
+P 2 0 1 10 250 -1050 150 -1050 N
+P 2 0 1 10 250 -850 150 -850 N
+P 2 0 1 10 250 -650 150 -650 N
+P 2 0 1 10 250 -450 150 -450 N
+P 2 0 1 10 250 -250 150 -250 N
+P 2 0 1 10 350 -1650 450 -1650 N
+P 2 0 1 10 350 -1450 450 -1450 N
+P 2 0 1 10 350 -1250 450 -1250 N
+P 2 0 1 10 350 -1050 450 -1050 N
+P 2 0 1 10 350 -850 450 -850 N
+P 2 0 1 10 350 -650 450 -650 N
+P 2 0 1 10 350 -450 450 -450 N
+P 2 0 1 10 350 -250 450 -250 N
+P 2 0 1 10 600 -1700 450 -1700 N
+P 2 0 1 10 600 -1500 450 -1500 N
+P 2 0 1 10 600 -1300 450 -1300 N
+P 2 0 1 10 600 -1100 450 -1100 N
+P 2 0 1 10 600 -900 450 -900 N
+P 2 0 1 10 600 -700 450 -700 N
+P 2 0 1 10 600 -500 450 -500 N
+P 2 0 1 10 600 -300 450 -300 N
+P 3 0 1 10 150 -1650 150 -1750 250 -1750 N
+P 3 0 1 10 150 -1450 150 -1550 250 -1550 N
+P 3 0 1 10 150 -1250 150 -1350 250 -1350 N
+P 3 0 1 10 150 -1050 150 -1150 250 -1150 N
+P 3 0 1 10 150 -850 150 -950 250 -950 N
+P 3 0 1 10 150 -650 150 -750 250 -750 N
+P 3 0 1 10 150 -450 150 -550 250 -550 N
+P 3 0 1 10 150 -250 150 -350 250 -350 N
+P 3 0 1 10 450 -1650 450 -1750 350 -1750 N
+P 3 0 1 10 450 -1450 450 -1550 350 -1550 N
+P 3 0 1 10 450 -1250 450 -1350 350 -1350 N
+P 3 0 1 10 450 -1050 450 -1150 350 -1150 N
+P 3 0 1 10 450 -850 450 -950 350 -950 N
+P 3 0 1 10 450 -650 450 -750 350 -750 N
+P 3 0 1 10 450 -450 450 -550 350 -550 N
+P 3 0 1 10 450 -250 450 -350 350 -350 N
+P 4 0 1 10 250 -1650 350 -1700 350 -1600 250 -1650 N
+P 4 0 1 10 250 -1450 350 -1500 350 -1400 250 -1450 N
+P 4 0 1 10 250 -1250 350 -1300 350 -1200 250 -1250 N
+P 4 0 1 10 250 -1050 350 -1100 350 -1000 250 -1050 N
+P 4 0 1 10 250 -850 350 -900 350 -800 250 -850 N
+P 4 0 1 10 250 -650 350 -700 350 -600 250 -650 N
+P 4 0 1 10 250 -450 350 -500 350 -400 250 -450 N
+P 4 0 1 10 250 -250 350 -300 350 -200 250 -250 N
+P 4 0 1 10 350 -1750 250 -1800 250 -1700 350 -1750 N
+P 4 0 1 10 350 -1550 250 -1600 250 -1500 350 -1550 N
+P 4 0 1 10 350 -1350 250 -1400 250 -1300 350 -1350 N
+P 4 0 1 10 350 -1150 250 -1200 250 -1100 350 -1150 N
+P 4 0 1 10 350 -950 250 -1000 250 -900 350 -950 N
+P 4 0 1 10 350 -750 250 -800 250 -700 350 -750 N
+P 4 0 1 10 350 -550 250 -600 250 -500 350 -550 N
+P 4 0 1 10 350 -350 250 -400 250 -300 350 -350 N
+X A1 1 -200 -300 200 R 60 0 0 1 B
+X OE 10 -200 -100 200 R 60 60 0 1 I
+X GND 11 -200 -2000 200 R 60 0 0 1 W
+X B8 12 800 -1700 200 L 60 0 0 1 B
+X B7 13 800 -1500 200 L 60 0 0 1 B
+X B6 14 800 -1300 200 L 60 0 0 1 B
+X B5 15 800 -1100 200 L 60 0 0 1 B
+X B4 16 800 -900 200 L 60 0 0 1 B
+X B3 17 800 -700 200 L 60 0 0 1 B
+X B2 18 800 -500 200 L 60 0 0 1 B
+X Vccb 19 800 -1900 200 L 60 0 0 1 W
+X Vcca 2 -200 -1900 200 R 60 0 0 1 W
+X B1 20 800 -300 200 L 60 0 0 1 B
+X A2 3 -200 -500 200 R 60 0 0 1 B
+X A3 4 -200 -700 200 R 60 0 0 1 B
+X A4 5 -200 -900 200 R 60 0 0 1 B
+X A5 6 -200 -1100 200 R 60 0 0 1 B
+X A6 7 -200 -1300 200 R 60 0 0 1 B
+X A7 8 -200 -1500 200 R 60 0 0 1 B
+X A8 9 -200 -1700 200 R 60 0 0 1 B
+ENDDRAW
+ENDDEF
+#
 # Analog_&_Interface_TXS0102DCUR
 #
 DEF Analog_&_Interface_TXS0102DCUR IC 0 50 Y Y 1 L N

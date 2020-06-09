@@ -447,23 +447,23 @@ Wire Wire Line
 	11350 6650 10600 6650
 Wire Wire Line
 	11350 6550 10600 6550
-Text Label 6400 4150 2    50   ~ 10
+Text Label 6450 4150 2    50   ~ 10
 FMC2_LA_4_P
 Text Label 6450 6150 2    50   ~ 10
 FMC2_LA_6_P
 Text Label 6450 6350 2    50   ~ 10
 FMC2_LA_7_P
-Text Label 6450 7350 2    50   ~ 10
+Text Label 6500 7350 2    50   ~ 10
 FMC2_LA_10_P
 Text Label 6500 4350 2    50   ~ 10
 FMC2_LA_12_P
-Text Label 6400 4250 2    50   ~ 10
+Text Label 6450 4250 2    50   ~ 10
 FMC2_LA_4_N
 Text Label 6450 6250 2    50   ~ 10
 FMC2_LA_6_N
 Text Label 6450 6450 2    50   ~ 10
 FMC2_LA_7_N
-Text Label 6450 7450 2    50   ~ 10
+Text Label 6500 7450 2    50   ~ 10
 FMC2_LA_10_N
 Text Label 6500 4450 2    50   ~ 10
 FMC2_LA_12_N
@@ -513,9 +513,9 @@ Text Label 6450 5250 2    50   ~ 10
 FMC2_LA_1_N
 Text Label 6450 5150 2    50   ~ 10
 FMC2_LA_1_P
-Text Label 6450 4550 2    50   ~ 10
+Text Label 6500 4550 2    50   ~ 10
 FMC2_LA_11_P
-Text Label 6450 4650 2    50   ~ 10
+Text Label 6500 4650 2    50   ~ 10
 FMC2_LA_11_N
 Text GLabel 5800 4550 0    50   BiDi ~ 10
 FMC2_LA_11_P
@@ -603,9 +603,9 @@ Wire Wire Line
 	11350 3250 10600 3250
 Wire Wire Line
 	11350 3150 10600 3150
-Text Label 6400 3950 2    50   ~ 10
+Text Label 6500 3950 2    50   ~ 10
 FMC2_LA_16_P
-Text Label 6400 4050 2    50   ~ 10
+Text Label 6500 4050 2    50   ~ 10
 FMC2_LA_16_N
 Text GLabel 5800 3950 0    50   BiDi ~ 10
 FMC2_LA_16_P
@@ -663,9 +663,9 @@ Wire Wire Line
 	5800 3350 6600 3350
 Text GLabel 5800 3350 0    50   BiDi ~ 10
 FMC2_LA_14_P
-Text Label 6400 3450 2    50   ~ 10
+Text Label 6500 3450 2    50   ~ 10
 FMC2_LA_14_N
-Text Label 6400 3350 2    50   ~ 10
+Text Label 6500 3350 2    50   ~ 10
 FMC2_LA_14_P
 Wire Wire Line
 	5800 3650 6600 3650
@@ -675,8 +675,181 @@ Text GLabel 5800 3650 0    50   BiDi ~ 10
 FMC2_LA_13_N
 Text GLabel 5800 3550 0    50   BiDi ~ 10
 FMC2_LA_13_P
-Text Label 6450 3650 2    50   ~ 10
+Text Label 6500 3650 2    50   ~ 10
 FMC2_LA_13_N
-Text Label 6450 3550 2    50   ~ 10
+Text Label 6500 3550 2    50   ~ 10
 FMC2_LA_13_P
+Text Label 3400 3550 0    50   ~ 10
+FPGA_MISO_T
+Text Label 3400 3750 0    50   ~ 10
+FPGA_SSEL_T
+Text Label 3400 3950 0    50   ~ 10
+FPGA_SCK_T
+Text Label 3400 5050 0    50   ~ 10
+Self_FPGA_TMS_T
+Text Label 3400 5250 0    50   ~ 10
+Self_FPGA_TDO_T
+Text Label 3400 5450 0    50   ~ 10
+Self_FPGA_TDI_T
+Text Label 3400 5650 0    50   ~ 10
+Self_FPGA_TCK_T
+Wire Wire Line
+	4000 5050 3250 5050
+Wire Wire Line
+	4000 5250 3250 5250
+Wire Wire Line
+	4000 5450 3250 5450
+Wire Wire Line
+	4000 5650 3250 5650
+Wire Wire Line
+	3250 3550 4000 3550
+Wire Wire Line
+	3250 3750 4000 3750
+Wire Wire Line
+	3250 3950 4000 3950
+Wire Wire Line
+	3250 3350 4000 3350
+Text Label 3400 3350 0    50   ~ 10
+FPGA_MOSI_T
+Text Label 5850 6650 0    50   ~ 10
+FPGA_MISO_T
+Text Label 5850 6750 0    50   ~ 10
+FPGA_SSEL_T
+Text Label 5850 6850 0    50   ~ 10
+FPGA_SCK_T
+Text Label 5850 6950 0    50   ~ 10
+Self_FPGA_TMS_T
+Text Label 5850 7050 0    50   ~ 10
+Self_FPGA_TDO_T
+Text Label 5850 4950 0    50   ~ 10
+Self_FPGA_TDI_T
+Text Label 5850 5050 0    50   ~ 10
+Self_FPGA_TCK_T
+Wire Wire Line
+	6600 6950 5850 6950
+Wire Wire Line
+	6600 7050 5850 7050
+Wire Wire Line
+	6600 4950 5850 4950
+Wire Wire Line
+	6600 5050 5850 5050
+Wire Wire Line
+	5850 6650 6600 6650
+Wire Wire Line
+	5850 6750 6600 6750
+Wire Wire Line
+	5850 6850 6600 6850
+Wire Wire Line
+	5850 6550 6600 6550
+Text Label 5850 6550 0    50   ~ 10
+FPGA_MOSI_T
+Text Label 1550 3350 0    50   ~ 10
+FPGA_MOSI
+Text Label 1550 3550 0    50   ~ 10
+FPGA_MISO
+Text Label 1550 3750 0    50   ~ 10
+FPGA_SSEL
+Text Label 1550 3950 0    50   ~ 10
+FPGA_SCK
+Text HLabel 1450 3950 0    50   Output ~ 10
+FPGA_SCK
+Text HLabel 1450 3750 0    50   Output ~ 10
+FPGA_SSEL
+Text HLabel 1450 3550 0    50   Input ~ 10
+FPGA_MISO
+Text HLabel 1450 3350 0    50   Output ~ 10
+FPGA_MOSI
+Text Label 2150 5050 2    50   ~ 10
+Self_FPGA_TMS
+Text Label 2150 5250 2    50   ~ 10
+Self_FPGA_TDO
+Text Label 2150 5450 2    50   ~ 10
+Self_FPGA_TDI
+Text Label 2150 5650 2    50   ~ 10
+Self_FPGA_TCK
+Text HLabel 1450 5050 0    50   Output ~ 10
+Self_FPGA_TMS
+Text HLabel 1450 5250 0    50   Input ~ 10
+Self_FPGA_TDO
+Text HLabel 1450 5450 0    50   Output ~ 10
+Self_FPGA_TDI
+Text HLabel 1450 5650 0    50   Output ~ 10
+Self_FPGA_TCK
+Wire Wire Line
+	1450 5050 2250 5050
+Wire Wire Line
+	1450 5250 2250 5250
+Wire Wire Line
+	1450 5450 2250 5450
+Wire Wire Line
+	1450 5650 2250 5650
+Wire Wire Line
+	1450 3350 2250 3350
+Wire Wire Line
+	1450 3550 2250 3550
+Wire Wire Line
+	1450 3750 2250 3750
+Wire Wire Line
+	1450 3950 2250 3950
+$Comp
+L Analog_&_Interface:TXB0104D U51
+U 1 1 640BB4BE
+P 2450 3050
+F 0 "U51" H 2750 3123 50  0000 C CNN
+F 1 "TXB0104D" H 2450 1575 50  0001 L CNN
+F 2 "ICs And Semiconductors SMD:SOIC127P600X175-14N" H 2450 1500 50  0001 L CNN
+F 3 " " H 2450 1425 50  0001 L CNN
+F 4 "TXB0104D" H 2450 1350 50  0001 L CNN "Part Number"
+F 5 "TXB0104" H 2450 1275 50  0001 L CNN "Library Ref"
+F 6 "SchLib\\Analog & Interface.SchLib" H 2450 1200 50  0001 L CNN "Library Path"
+F 7 "TXB0104D" H 2450 1125 50  0001 L CNN "Comment"
+F 8 "Standard" H 2450 1050 50  0001 L CNN "Component Kind"
+F 9 "Standard" H 2450 975 50  0001 L CNN "Component Type"
+F 10 "TXB0104D" H 2450 900 50  0001 L CNN "Device"
+F 11 "SOIC 14, Pitch 1.27mm - Body 4x8.75mm, IPC Medium Density" H 2450 825 50  0001 L CNN "PackageDescription"
+F 12 " " H 2450 750 50  0001 L CNN "Status"
+F 13 "4-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" H 2450 675 50  0001 L CNN "Part Description"
+F 14 "TEXAS INSTRUMENTS" H 2450 600 50  0001 L CNN "Manufacturer"
+F 15 "TXB0104D" H 2450 525 50  0001 L CNN "Manufacturer Part Number"
+F 16 "14" H 2450 450 50  0001 L CNN "Pin Count"
+F 17 "SOIC14" H 2450 375 50  0001 L CNN "Case"
+F 18 "Yes" H 2450 300 50  0001 L CNN "Mounted"
+F 19 "No" H 2450 225 50  0001 L CNN "Socket"
+F 20 "Yes" H 2450 150 50  0001 L CNN "SMD"
+F 21 "No" H 2450 75  50  0001 L CNN "PressFit"
+F 22 "No" H 2450 0   50  0001 L CNN "Sense"
+F 23 " " H 2450 -75 50  0001 L CNN "Sense Comment"
+F 24 "No" H 2450 -150 50  0001 L CNN "Bonding"
+F 25 " " H 2450 -225 50  0001 L CNN "Status Comment"
+F 26 "1.75mm" H 2450 -300 50  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2450 -375 50  0001 L CNN "Footprint Path"
+F 28 "SOIC127P600X175-14N" H 2450 -450 50  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM JLC" H 2450 -525 50  0001 L CNN "Author"
+F 30 " " H 2450 -600 50  0001 L CNN "ComponentLink2Description"
+F 31 " " H 2450 -675 50  0001 L CNN "ComponentLink1Description"
+F 32 "06/02/15 00:00:00" H 2450 -750 50  0001 L CNN "CreateDate"
+F 33 "06/02/15 00:00:00" H 2450 -825 50  0001 L CNN "LatestRevisionDate"
+F 34 " " H 2450 -900 50  0001 L CNN "SCEM"
+F 35 "Analog & Interface" H 2450 -975 50  0001 L CNN "Database Table Name"
+F 36 "ICs And Semiconductors.DbLib" H 2450 -1050 50  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors SMD" H 2450 -1125 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2450 -1200 50  0001 L CNN "License"
+	1    2450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64123A10
+P 2250 4250
+AR Path="/5BD32060/64123A10" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF13/64123A10" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/64123A10" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5F569040/64123A10" Ref="#PWR0582"  Part="1" 
+F 0 "#PWR0582" H 2250 4000 50  0001 C CNN
+F 1 "GND" H 2255 4077 50  0000 C CNN
+F 2 "" H 2250 4250 50  0001 C CNN
+F 3 "" H 2250 4250 50  0001 C CNN
+	1    2250 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

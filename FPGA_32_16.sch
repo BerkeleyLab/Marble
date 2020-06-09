@@ -13,21 +13,6 @@ Comment2 ""
 Comment3 "BANK 15 & 16"
 Comment4 ""
 $EndDescr
-$Comp
-L power:+2V5 #PWR?
-U 1 1 5CB00A89
-P 5650 900
-AR Path="/5C16BF8E/5CB00A89" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5CB00A89" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5CB00A89" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5CAAC367/5CB00A89" Ref="#PWR0499"  Part="1" 
-F 0 "#PWR0499" H 5650 750 50  0001 C CNN
-F 1 "+2V5" H 5665 1073 50  0000 C CNN
-F 2 "" H 5650 900 50  0001 C CNN
-F 3 "" H 5650 900 50  0001 C CNN
-	1    5650 900 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 1000 5650 900 
 $Comp
@@ -328,7 +313,7 @@ Text Label 4700 2800 0    50   ~ 0
 DDR3_DQ0
 Text Label 4700 2700 0    50   ~ 0
 DDR3_DQ1
-Text Label 4700 2000 0    50   ~ 0
+Text Label 4700 1900 0    50   ~ 0
 DDR3_DQ2
 Text Label 4700 2600 0    50   ~ 0
 DDR3_DQ3
@@ -356,7 +341,7 @@ Text Label 4700 3100 0    50   ~ 0
 DDR3_DQ26
 Text Label 4700 3400 0    50   ~ 0
 DDR3_DQ27
-Text Label 4700 1900 0    50   ~ 0
+Text Label 4700 2000 0    50   ~ 0
 DDR3_DM0
 Text Label 4700 3200 0    50   ~ 0
 DDR3_DM3
@@ -423,9 +408,9 @@ DDR3_DQS3_P
 Wire Wire Line
 	4700 2100 5250 2100
 Wire Wire Line
-	4700 2000 5250 2000
-Wire Wire Line
 	4700 1900 5250 1900
+Wire Wire Line
+	4700 2000 5250 2000
 Wire Wire Line
 	4700 2300 5250 2300
 Wire Wire Line
@@ -1046,6 +1031,19 @@ Text GLabel 9900 2300 2    50   BiDi ~ 10
 FMC1_LA_28_P
 Text GLabel 9900 2400 2    50   BiDi ~ 10
 FMC1_LA_28_N
+$Comp
+L power:+1V5 #PWR?
+U 1 1 642F8D40
+P 5650 900
+AR Path="/5BD32060/642F8D40" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CAAC367/642F8D40" Ref="#PWR0648"  Part="1" 
+F 0 "#PWR0648" H 5650 750 50  0001 C CNN
+F 1 "+1V5" H 5665 1073 50  0000 C CNN
+F 2 "" H 5650 900 50  0001 C CNN
+F 3 "" H 5650 900 50  0001 C CNN
+	1    5650 900 
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	12650 5550 12650 5850
 Wire Bus Line

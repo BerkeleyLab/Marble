@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 16 25
 Title "Marble"
@@ -134,6 +134,12 @@ F21 "DDR3_DQS7_P" B L 2350 3850 50
 F22 "DDR3_DQS7_N" B L 2350 3950 50 
 F23 "VREF_DDR3" I L 2350 4050 50 
 F24 "Pmod2_[0..7]" B R 3950 1900 50 
+F25 "WR_DAC2_SYNC" O R 3950 3100 50 
+F26 "WR_DAC_SCLK" O R 3950 3200 50 
+F27 "WR_DAC_DIN" O R 3950 3300 50 
+F28 "WR_DAC1_SYNC" O R 3950 3400 50 
+F29 "VCXO_EN" O R 3950 3550 50 
+F30 "CLK20_VCXO" I R 3950 3650 50 
 $EndSheet
 $Sheet
 S 9950 1700 1500 2400
@@ -151,7 +157,13 @@ F9 "FMC2_CLK1_M2C_N" I R 11450 3500 50
 F10 "FPGA_RTS" I R 11450 3650 50 
 F11 "FPGA_TxD" I R 11450 3750 50 
 F12 "FPGA_RxD" O R 11450 3850 50 
-F13 "Pmod1_[0..7]" B R 11450 1950 50 
+F13 "Pmod1_[0..7]" B R 11450 1850 50 
+F14 "I2C_FPGA_SDA" B R 11450 2000 50 
+F15 "I2C_FPGA_SCL" O R 11450 2100 50 
+F16 "FPGA_XR_GPIO_0" O R 11450 2250 50 
+F17 "EXP_INT" I R 11450 2350 50 
+F18 "FPGA_INT" I R 11450 2450 50 
+F19 "I2C_FPGA_SW_RST" O R 11450 2550 50 
 $EndSheet
 Text HLabel 1750 2050 0    50   BiDi ~ 10
 DDR3_CK_P
@@ -185,39 +197,39 @@ Wire Bus Line
 	1750 1950 2350 1950
 Wire Bus Line
 	1750 3150 2350 3150
-Text HLabel 12100 4700 0    50   BiDi ~ 10
+Text HLabel 12100 2000 2    50   BiDi ~ 10
 I2C_FPGA_SDA
-Text HLabel 12100 4800 0    50   Input ~ 10
+Text HLabel 12100 2100 2    50   Input ~ 10
 I2C_FPGA_SCL
-Text HLabel 12350 4950 0    50   Input ~ 10
+Text HLabel 4350 3100 2    50   Input ~ 10
 WR_DAC2_SYNC
-Text HLabel 12350 5050 0    50   Input ~ 10
+Text HLabel 4350 3200 2    50   Input ~ 10
 WR_DAC_SCLK
-Text HLabel 12350 5150 0    50   Input ~ 10
+Text HLabel 4350 3300 2    50   Input ~ 10
 WR_DAC_DIN
-Text HLabel 12350 5250 0    50   Input ~ 10
+Text HLabel 4350 3400 2    50   Input ~ 10
 WR_DAC1_SYNC
-Text HLabel 12350 5400 0    50   Input ~ 10
+Text HLabel 4350 3550 2    50   Input ~ 10
 VCXO_EN
-Text HLabel 12350 5500 0    50   Input ~ 10
+Text HLabel 4350 3650 2    50   Input ~ 10
 CLK20_VCXO
 Wire Wire Line
-	12350 4950 12750 4950
+	4350 3100 3950 3100
 Wire Wire Line
-	12350 5050 12750 5050
+	4350 3200 3950 3200
 Wire Wire Line
-	12350 5400 12750 5400
+	4350 3550 3950 3550
 Wire Wire Line
-	12350 5500 12750 5500
-Text HLabel 11850 1950 2    50   BiDi ~ 10
+	4350 3650 3950 3650
+Text HLabel 11850 1850 2    50   BiDi ~ 10
 Pmod1_[0..7]
 Text HLabel 4350 1900 2    50   BiDi ~ 10
 Pmod2_[0..7]
 Wire Bus Line
-	11450 1950 11850 1950
+	11450 1850 11850 1850
 Wire Bus Line
 	3950 1900 4350 1900
-Text HLabel 12350 5900 0    50   Output ~ 10
+Text HLabel 11600 2250 2    50   Output ~ 10
 FPGA_XR_GPIO_0
 Text HLabel 8400 3100 2    50   Input ~ 10
 RGMII_RXD[0..3]
@@ -237,16 +249,14 @@ Wire Bus Line
 	8400 3100 8000 3100
 Wire Bus Line
 	8400 3200 8000 3200
-Wire Wire Line
-	12350 5900 12750 5900
-Text Label 12150 4700 0    50   ~ 10
+Text Label 12050 2000 2    50   ~ 10
 I2C_FPGA_SDA
-Text Label 12150 4800 0    50   ~ 10
+Text Label 12050 2100 2    50   ~ 10
 I2C_FPGA_SCL
 Wire Wire Line
-	12100 4700 12750 4700
+	12100 2000 11450 2000
 Wire Wire Line
-	12100 4800 12750 4800
+	12100 2100 11450 2100
 Wire Wire Line
 	1850 9050 2450 9050
 Wire Wire Line
@@ -377,24 +387,22 @@ Wire Wire Line
 	2250 9350 2450 9350
 Text Label 1500 9650 0    50   ~ 10
 EXP_INT
-Text Label 13400 6000 0    50   ~ 10
-EXP_INT
-Text HLabel 12450 6900 2    50   Input ~ 10
+Text HLabel 14800 3150 2    50   Input ~ 10
 FPGA_SCK
-Text HLabel 12450 6600 2    50   Input ~ 10
+Text HLabel 14800 2850 2    50   Input ~ 10
 FPGA_SSEL
-Text HLabel 12450 6700 2    50   Input ~ 10
+Text HLabel 14800 2950 2    50   Input ~ 10
 FPGA_MISO
-Text HLabel 12450 6800 2    50   Input ~ 10
+Text HLabel 14800 3050 2    50   Input ~ 10
 FPGA_MOSI
 Wire Wire Line
-	12300 6600 12450 6600
+	14650 2850 14800 2850
 Wire Wire Line
-	12300 6700 12450 6700
+	14650 2950 14800 2950
 Wire Wire Line
-	12300 6800 12450 6800
+	14650 3050 14800 3050
 Wire Wire Line
-	12300 6900 12450 6900
+	14650 3150 14800 3150
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5DA3DD5C
@@ -412,20 +420,20 @@ F 3 "" H 1300 9000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 9650 1300 9300
-Text HLabel 12450 7000 2    50   Input ~ 10
+Text HLabel 11600 2350 2    50   Input ~ 10
 FPGA_INT
 Wire Wire Line
-	12450 7000 12300 7000
+	11600 2350 11450 2350
 Wire Wire Line
 	4200 6300 3850 6300
 Text Label 3950 6300 0    50   ~ 10
 CCLK
 Text Label 9550 2100 0    50   ~ 10
 CCLK
-Text HLabel 13150 5000 2    50   Input ~ 10
+Text HLabel 11600 2550 2    50   Input ~ 10
 I2C_FPGA_SW_RST
 Wire Wire Line
-	13000 5000 13150 5000
+	11450 2550 11600 2550
 Text HLabel 8150 2400 2    50   Input ~ 10
 I2C_HDMI_SCL
 Text HLabel 8150 2500 2    50   BiDi ~ 10
@@ -626,22 +634,22 @@ Wire Wire Line
 	11850 2900 11450 2900
 Wire Wire Line
 	11850 3000 11450 3000
-Text HLabel 12450 6150 2    50   Output ~ 10
+Text HLabel 14800 2400 2    50   Output ~ 10
 Self_FPGA_TMS
-Text HLabel 12450 6250 2    50   Input ~ 10
+Text HLabel 14800 2500 2    50   Input ~ 10
 Self_FPGA_TDO
-Text HLabel 12450 6350 2    50   Output ~ 10
+Text HLabel 14800 2600 2    50   Output ~ 10
 Self_FPGA_TDI
-Text HLabel 12450 6450 2    50   Output ~ 10
+Text HLabel 14800 2700 2    50   Output ~ 10
 Self_FPGA_TCK
 Wire Wire Line
-	12300 6150 12450 6150
+	14650 2400 14800 2400
 Wire Wire Line
-	12300 6250 12450 6250
+	14650 2500 14800 2500
 Wire Wire Line
-	12300 6350 12450 6350
+	14650 2600 14800 2600
 Wire Wire Line
-	12300 6450 12450 6450
+	14650 2700 14800 2700
 Wire Wire Line
 	6500 9650 7200 9650
 Wire Wire Line
@@ -752,18 +760,18 @@ $EndComp
 Wire Wire Line
 	2450 10450 2450 10550
 Connection ~ 2450 10550
-Text HLabel 13200 5250 2    50   Input ~ 10
+Text HLabel 11600 3650 2    50   Input ~ 10
 FPGA_RTS
-Text HLabel 13200 5450 2    50   Input ~ 10
+Text HLabel 11600 3850 2    50   Input ~ 10
 FPGA_TxD
-Text HLabel 13200 5350 2    50   Output ~ 10
+Text HLabel 11600 3750 2    50   Output ~ 10
 FPGA_RxD
 Wire Wire Line
-	13050 5250 13200 5250
+	11450 3650 11600 3650
 Wire Wire Line
-	13050 5350 13200 5350
+	11450 3750 11600 3750
 Wire Wire Line
-	13050 5450 13200 5450
+	11450 3850 11600 3850
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5D62BAF4
@@ -1172,9 +1180,9 @@ Wire Wire Line
 Wire Wire Line
 	1300 9650 2450 9650
 Wire Wire Line
-	12350 5150 12750 5150
+	4350 3300 3950 3300
 Wire Wire Line
-	12350 5250 12750 5250
+	4350 3400 3950 3400
 Wire Wire Line
 	8400 3300 8000 3300
 Wire Wire Line
@@ -1186,8 +1194,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 3700 8000 3700
 Wire Wire Line
-	13400 6000 14150 6000
-Wire Wire Line
 	8400 10250 9750 10250
 Wire Wire Line
 	8400 10350 10100 10350
@@ -1198,6 +1204,14 @@ F0 "FPGA_12_13" 50
 F1 "FPGA_12_13.sch" 50
 F2 "FMC2_CLK0_M2C_P" I R 14650 1850 50 
 F3 "FMC2_CLK0_M2C_N" I R 14650 1950 50 
+F4 "FPGA_SCK" O R 14650 3150 50 
+F5 "FPGA_SSEL" O R 14650 2850 50 
+F6 "FPGA_MISO" I R 14650 2950 50 
+F7 "FPGA_MOSI" O R 14650 3050 50 
+F8 "Self_FPGA_TMS" O R 14650 2400 50 
+F9 "Self_FPGA_TDO" I R 14650 2500 50 
+F10 "Self_FPGA_TDI" O R 14650 2600 50 
+F11 "Self_FPGA_TCK" O R 14650 2700 50 
 $EndSheet
 Text Label 3750 8950 0    50   ~ 0
 QSFP1_MOD_SEL
@@ -1569,238 +1583,6 @@ Text HLabel 1750 2650 0    50   BiDi ~ 10
 DDR3_CAS_N
 Text HLabel 1750 2750 0    50   BiDi ~ 10
 DDR3_WE_N
-Text Label 16300 5800 0    50   ~ 10
-I2C_SCL
-Text Label 16300 5700 0    50   ~ 10
-I2C_SDA
-Text Label 15200 4300 0    50   ~ 10
-WR_DAC2_SYNC
-Text Label 15200 4500 0    50   ~ 10
-WR_DAC_SCLK
-Text Label 15200 4600 0    50   ~ 10
-WR_DAC_DIN
-Text Label 15200 4700 0    50   ~ 10
-WR_DAC1_SYNC
-Text Label 15250 8200 0    50   ~ 10
-FPGA_XR_GPIO_0
-Text Label 15250 8400 0    50   ~ 10
-I2C_FPGA_SW_RST
-Text Label 15200 4400 0    50   ~ 10
-VCXO_EN
-Text Label 15200 5200 0    50   ~ 10
-CLK20_VCXO
-Wire Wire Line
-	15600 4400 15050 4400
-Text HLabel 18950 5700 2    50   BiDi ~ 10
-I2C_FPGA_SDA
-Text HLabel 18950 5800 2    50   Output ~ 10
-I2C_FPGA_SCL
-Text HLabel 20700 6050 2    50   Output ~ 10
-WR_DAC2_SYNC
-Text HLabel 20700 6150 2    50   Output ~ 10
-WR_DAC_SCLK
-Text HLabel 20700 6250 2    50   Output ~ 10
-WR_DAC_DIN
-Text HLabel 20700 6350 2    50   Output ~ 10
-WR_DAC1_SYNC
-Text Label 18250 5800 0    50   ~ 10
-I2C_FPGA_SCL
-Text Label 18250 5700 0    50   ~ 10
-I2C_FPGA_SDA
-Wire Wire Line
-	18250 5800 18950 5800
-Wire Wire Line
-	18250 5700 18950 5700
-Text Label 20000 6050 0    50   ~ 10
-WR_DAC2_SYNC
-Text Label 20000 6150 0    50   ~ 10
-WR_DAC_SCLK
-Text Label 20000 6250 0    50   ~ 10
-WR_DAC_DIN
-Text Label 20000 6350 0    50   ~ 10
-WR_DAC1_SYNC
-Wire Wire Line
-	20000 6050 20700 6050
-Wire Wire Line
-	20000 6150 20700 6150
-Wire Wire Line
-	20000 6250 20700 6250
-Wire Wire Line
-	20000 6350 20700 6350
-Text HLabel 20700 6550 2    50   Output ~ 10
-VCXO_EN
-Text HLabel 20700 6650 2    50   Input ~ 10
-CLK20_VCXO
-Text Label 20550 6550 2    50   ~ 10
-VCXO_EN
-Text Label 20550 6650 2    50   ~ 10
-CLK20_VCXO
-Wire Wire Line
-	20050 6550 20700 6550
-Wire Wire Line
-	20050 6650 20700 6650
-Text HLabel 20650 6900 2    50   Output ~ 10
-FPGA_XR_GPIO_0
-Text Label 19800 6900 0    50   ~ 10
-FPGA_XR_GPIO_0
-Wire Wire Line
-	19800 6900 20650 6900
-Text Label 20450 5050 2    50   ~ 10
-FPGA_MOSI
-Text Label 20450 5150 2    50   ~ 10
-FPGA_MISO
-Text Label 20450 5250 2    50   ~ 10
-FPGA_SSEL
-Text Label 20450 5350 2    50   ~ 10
-FPGA_SCK
-Text HLabel 20550 5350 2    50   Output ~ 10
-FPGA_SCK
-Text HLabel 20550 5250 2    50   Output ~ 10
-FPGA_SSEL
-Text HLabel 20550 5150 2    50   Input ~ 10
-FPGA_MISO
-Text HLabel 20550 5050 2    50   Output ~ 10
-FPGA_MOSI
-Wire Wire Line
-	19850 5050 20550 5050
-Wire Wire Line
-	19850 5150 20550 5150
-Wire Wire Line
-	19850 5250 20550 5250
-Wire Wire Line
-	19850 5350 20550 5350
-Text Label 15250 6600 0    50   ~ 10
-FPGA_MOSI
-Text Label 15250 6700 0    50   ~ 10
-FPGA_MISO
-Text Label 15250 6800 0    50   ~ 10
-FPGA_SSEL
-Text Label 15250 6900 0    50   ~ 10
-FPGA_SCK
-Text Label 15250 8300 0    50   ~ 10
-EXP_INT
-Wire Wire Line
-	15650 8300 15100 8300
-Text HLabel 20600 5550 2    50   Input ~ 10
-EXP_INT
-Text Label 19950 5550 0    50   ~ 10
-EXP_INT
-Wire Wire Line
-	19900 5550 20600 5550
-Text HLabel 20350 4800 2    50   Input ~ 10
-FPGA_INT
-Text Label 20250 4800 2    50   ~ 10
-FPGA_INT
-Wire Wire Line
-	19650 4800 20350 4800
-Text Label 19900 4500 0    50   ~ 10
-I2C_FPGA_SW_RST
-Text HLabel 20600 4500 2    50   Output ~ 10
-I2C_FPGA_SW_RST
-Wire Wire Line
-	19900 4500 20600 4500
-Text Label 20850 7750 0    50   ~ 10
-TMDS2_P
-Text Label 20850 7850 0    50   ~ 10
-TMDS2_N
-Text Label 20850 8150 0    50   ~ 10
-TMDS1_P
-Text Label 20850 8250 0    50   ~ 10
-TMDS1_N
-Text Label 20850 8350 0    50   ~ 10
-TMDS_CLK_P
-Text Label 20850 8450 0    50   ~ 10
-TMDS_CLK_N
-Wire Wire Line
-	15900 8400 15100 8400
-Text Label 15250 7400 0    50   ~ 10
-Self_FPGA_TMS
-Text Label 15250 7500 0    50   ~ 10
-Self_FPGA_TDO
-Text Label 15250 7600 0    50   ~ 10
-Self_FPGA_TDI
-Text Label 15250 7700 0    50   ~ 10
-Self_FPGA_TCK
-Wire Wire Line
-	15850 7400 15100 7400
-Wire Wire Line
-	15850 7500 15100 7500
-Wire Wire Line
-	15850 7600 15100 7600
-Wire Wire Line
-	15850 7700 15100 7700
-Text Label 19900 4000 0    50   ~ 10
-Self_FPGA_TMS
-Text Label 19900 4100 0    50   ~ 10
-Self_FPGA_TDO
-Text Label 19900 4200 0    50   ~ 10
-Self_FPGA_TDI
-Text Label 19900 4300 0    50   ~ 10
-Self_FPGA_TCK
-Text HLabel 20600 4000 2    50   Output ~ 10
-Self_FPGA_TMS
-Text HLabel 20600 4100 2    50   Input ~ 10
-Self_FPGA_TDO
-Text HLabel 20600 4200 2    50   Output ~ 10
-Self_FPGA_TDI
-Text HLabel 20600 4300 2    50   Output ~ 10
-Self_FPGA_TCK
-Wire Wire Line
-	19900 4000 20600 4000
-Wire Wire Line
-	19900 4100 20600 4100
-Wire Wire Line
-	19900 4200 20600 4200
-Wire Wire Line
-	19900 4300 20600 4300
-Wire Wire Line
-	15800 4300 15050 4300
-Wire Wire Line
-	15800 4500 15050 4500
-Wire Wire Line
-	15800 4600 15050 4600
-Wire Wire Line
-	15800 4700 15050 4700
-Wire Wire Line
-	21450 7750 20700 7750
-Wire Wire Line
-	21450 7850 20700 7850
-Wire Wire Line
-	17050 5700 16750 5700
-Wire Wire Line
-	17050 5800 16950 5800
-Wire Wire Line
-	21450 8350 20700 8350
-Wire Wire Line
-	21450 8450 20700 8450
-Wire Wire Line
-	15050 5200 15800 5200
-Wire Wire Line
-	21450 8150 20700 8150
-Wire Wire Line
-	21450 8250 20700 8250
-Wire Wire Line
-	15100 6600 15850 6600
-Wire Wire Line
-	15100 6700 15850 6700
-Wire Wire Line
-	15100 6800 15850 6800
-Wire Wire Line
-	15100 6900 15850 6900
-Wire Wire Line
-	15100 8200 15900 8200
-Wire Wire Line
-	15100 8050 15850 8050
-Text Label 15250 8050 0    50   ~ 10
-FPGA_INT
-Wire Wire Line
-	21450 8050 20700 8050
-Wire Wire Line
-	21450 7950 20700 7950
-Text Label 20850 8050 0    50   ~ 10
-TMDS0_N
-Text Label 20850 7950 0    50   ~ 10
-TMDS0_P
 Text HLabel 1750 2350 0    50   BiDi ~ 10
 DDR3_CS_N
 Wire Wire Line
@@ -1866,354 +1648,10 @@ Wire Wire Line
 Connection ~ 2150 4050
 Wire Wire Line
 	2150 4050 2350 4050
-$Comp
-L Analog_&_Interface:TCA9517DGKR IC4
-U 1 1 5F6EE5E9
-P 17250 5600
-F 0 "IC4" H 17650 5673 50  0000 C CNN
-F 1 "TCA9517DGKR" H 17450 4850 50  0000 L CNN
-F 2 "ICs And Semiconductors SMD:SOP65P490X110-8N" H 17250 4650 50  0001 L CNN
-F 3 " " H 17250 4575 50  0001 L CNN
-F 4 "TCA9517DGKR" H 17250 4500 50  0001 L CNN "Part Number"
-F 5 "TCA9517" H 17250 4425 50  0001 L CNN "Library Ref"
-F 6 "SchLib\\Analog & Interface.SchLib" H 17250 4350 50  0001 L CNN "Library Path"
-F 7 "TCA9517DGKR" H 17250 4275 50  0001 L CNN "Comment"
-F 8 "Standard" H 17250 4200 50  0001 L CNN "Component Kind"
-F 9 "Standard" H 17250 4125 50  0001 L CNN "Component Type"
-F 10 "TCA9517DGKR" H 17250 4050 50  0001 L CNN "Device"
-F 11 "SOP, 0.65mm Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" H 17250 3975 50  0001 L CNN "PackageDescription"
-F 12 " " H 17250 3900 50  0001 L CNN "Status"
-F 13 "Level-Translating I2C Bus Repeater" H 17250 3825 50  0001 L CNN "Part Description"
-F 14 "TEXAS INSTRUMENTS" H 17250 3750 50  0001 L CNN "Manufacturer"
-F 15 "TCA9517DGKR" H 17250 3675 50  0001 L CNN "Manufacturer Part Number"
-F 16 "8" H 17250 3600 50  0001 L CNN "Pin Count"
-F 17 "TSSOP8" H 17250 3525 50  0001 L CNN "Case"
-F 18 "Yes" H 17250 3450 50  0001 L CNN "Mounted"
-F 19 "No" H 17250 3375 50  0001 L CNN "Socket"
-F 20 "Yes" H 17250 3300 50  0001 L CNN "SMD"
-F 21 "No" H 17250 3225 50  0001 L CNN "PressFit"
-F 22 "No" H 17250 3150 50  0001 L CNN "Sense"
-F 23 " " H 17250 3075 50  0001 L CNN "Sense Comment"
-F 24 "No" H 17250 3000 50  0001 L CNN "Bonding"
-F 25 " " H 17250 2925 50  0001 L CNN "Status Comment"
-F 26 "1.1mm" H 17250 2850 50  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 17250 2775 50  0001 L CNN "Footprint Path"
-F 28 "SOP65P490X110-8N" H 17250 2700 50  0001 L CNN "Footprint Ref"
-F 29 "CERN DEM JLC" H 17250 2625 50  0001 L CNN "Author"
-F 30 " " H 17250 2550 50  0001 L CNN "ComponentLink2Description"
-F 31 " " H 17250 2475 50  0001 L CNN "ComponentLink1Description"
-F 32 "07/07/14 00:00:00" H 17250 2400 50  0001 L CNN "CreateDate"
-F 33 "07/07/14 00:00:00" H 17250 2325 50  0001 L CNN "LatestRevisionDate"
-F 34 " " H 17250 2250 50  0001 L CNN "SCEM"
-F 35 "Analog & Interface" H 17250 2175 50  0001 L CNN "Database Table Name"
-F 36 "ICs And Semiconductors.DbLib" H 17250 2100 50  0001 L CNN "Library Name"
-F 37 "ICs And Semiconductors SMD" H 17250 2025 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 17250 1950 50  0001 L CNN "License"
-	1    17250 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F75592C
-P 17050 6600
-AR Path="/5BD32060/5F75592C" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF13/5F75592C" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5F75592C" Ref="#PWR0140"  Part="1" 
-F 0 "#PWR0140" H 17050 6350 50  0001 C CNN
-F 1 "GND" H 17055 6427 50  0000 C CNN
-F 2 "" H 17050 6600 50  0001 C CNN
-F 3 "" H 17050 6600 50  0001 C CNN
-	1    17050 6600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	17050 6550 17050 6600
+	11450 2250 11600 2250
+Text Label 11600 2450 0    50   ~ 10
+EXP_INT
 Wire Wire Line
-	17050 6200 17050 6250
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F755934
-P 17050 6200
-AR Path="/5BD32060/5F755934" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5F755934" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5F755934" Ref="#PWR0141"  Part="1" 
-AR Path="/5C907554/5CAAC367/5F755934" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0141" H 17050 6050 50  0001 C CNN
-F 1 "+3V3" H 17050 6350 50  0000 C CNN
-F 2 "" H 17050 6200 50  0001 C CNN
-F 3 "" H 17050 6200 50  0001 C CNN
-	1    17050 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
-U 1 1 5F75595F
-P 17050 6250
-AR Path="/5BCEDA59/5F75595F" Ref="C?"  Part="1" 
-AR Path="/5C907554/5F75595F" Ref="C20"  Part="1" 
-F 0 "C20" V 17154 6360 50  0000 L CNN
-F 1 "CC0201_100NF_6.3V_10%_X5R" H 17050 5990 60  0001 L CNN
-F 2 "CAPC0603X33N" H 17050 5180 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 17050 5810 60  0001 L CNN
-F 4 "100nF" V 17245 6360 50  0000 L CNN "~"
-F 5 "CC0201_100NF_6.3V_10%_X5R" H 17050 5720 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 17050 5630 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 17050 5540 60  0001 L CNN "Library Path"
-F 8 "=Value" H 17050 5450 60  0001 L CNN "Comment"
-F 9 "Standard" H 17050 5360 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 17050 5270 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 17050 5090 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 17050 5000 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 17050 4910 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 17050 4820 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 17050 4730 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 17050 4640 60  0001 L CNN "Status"
-F 17 "~~" H 17050 4550 60  0001 L CNN "Status Comment"
-F 18 "6.3V" H 17050 4460 60  0001 L CNN "Voltage"
-F 19 "X5R" H 17050 4370 60  0001 L CNN "TC"
-F 20 "±10%" H 17050 4280 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 17050 4190 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 17050 4100 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_100NF_6.3V_10%_X5R" H 17050 4010 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 17050 3920 60  0001 L CNN "Case"
-F 25 "Yes" H 17050 3830 60  0001 L CNN "Mounted"
-F 26 "No" H 17050 3740 60  0001 L CNN "Socket"
-F 27 "Yes" H 17050 3650 60  0001 L CNN "SMD"
-F 28 "~~" H 17050 3560 60  0001 L CNN "PressFit"
-F 29 "No" H 17050 3470 60  0001 L CNN "Sense"
-F 30 "~~" H 17050 3380 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 17050 3290 60  0001 L CNN "ComponentHeight"
-F 32 "AVX" H 17050 3200 60  0001 L CNN "Manufacturer1 Example"
-F 33 "02016D104KAT2A" H 17050 3110 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 17050 3020 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 17050 2930 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 17050 2840 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 17050 2750 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 17050 2660 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 17050 2570 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 17050 2480 60  0001 L CNN "License"
-	1    17050 6250
-	0    1    1    0   
-$EndComp
-Connection ~ 17050 6200
-$Comp
-L power:GND #PWR?
-U 1 1 5F789FD7
-P 18400 6500
-AR Path="/5BD32060/5F789FD7" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF13/5F789FD7" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5F789FD7" Ref="#PWR0578"  Part="1" 
-F 0 "#PWR0578" H 18400 6250 50  0001 C CNN
-F 1 "GND" H 18405 6327 50  0000 C CNN
-F 2 "" H 18400 6500 50  0001 C CNN
-F 3 "" H 18400 6500 50  0001 C CNN
-	1    18400 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18400 6450 18400 6500
-Wire Wire Line
-	18400 6100 18400 6150
-$Comp
-L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
-U 1 1 5F78A00A
-P 18400 6150
-AR Path="/5BCEDA59/5F78A00A" Ref="C?"  Part="1" 
-AR Path="/5C907554/5F78A00A" Ref="C21"  Part="1" 
-F 0 "C21" V 18504 6260 50  0000 L CNN
-F 1 "CC0201_100NF_6.3V_10%_X5R" H 18400 5890 60  0001 L CNN
-F 2 "CAPC0603X33N" H 18400 5080 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 18400 5710 60  0001 L CNN
-F 4 "100nF" V 18595 6260 50  0000 L CNN "~"
-F 5 "CC0201_100NF_6.3V_10%_X5R" H 18400 5620 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 18400 5530 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 18400 5440 60  0001 L CNN "Library Path"
-F 8 "=Value" H 18400 5350 60  0001 L CNN "Comment"
-F 9 "Standard" H 18400 5260 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 18400 5170 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 18400 4990 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 18400 4900 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 18400 4810 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 18400 4720 60  0001 L CNN "PackageDescription"
-F 15 "100nF" H 18400 4630 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 18400 4540 60  0001 L CNN "Status"
-F 17 "~~" H 18400 4450 60  0001 L CNN "Status Comment"
-F 18 "6.3V" H 18400 4360 60  0001 L CNN "Voltage"
-F 19 "X5R" H 18400 4270 60  0001 L CNN "TC"
-F 20 "±10%" H 18400 4180 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 18400 4090 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 18400 4000 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_100NF_6.3V_10%_X5R" H 18400 3910 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 18400 3820 60  0001 L CNN "Case"
-F 25 "Yes" H 18400 3730 60  0001 L CNN "Mounted"
-F 26 "No" H 18400 3640 60  0001 L CNN "Socket"
-F 27 "Yes" H 18400 3550 60  0001 L CNN "SMD"
-F 28 "~~" H 18400 3460 60  0001 L CNN "PressFit"
-F 29 "No" H 18400 3370 60  0001 L CNN "Sense"
-F 30 "~~" H 18400 3280 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 18400 3190 60  0001 L CNN "ComponentHeight"
-F 32 "AVX" H 18400 3100 60  0001 L CNN "Manufacturer1 Example"
-F 33 "02016D104KAT2A" H 18400 3010 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 18400 2920 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf" H 18400 2830 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 18400 2740 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 18400 2650 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 18400 2560 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 18400 2470 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 18400 2380 60  0001 L CNN "License"
-	1    18400 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3VP #PWR?
-U 1 1 5F7A496B
-P 18400 6100
-AR Path="/5C16C03C/5F7A496B" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5F7A496B" Ref="#PWR?"  Part="1" 
-AR Path="/5D05A99E/5F7A496B" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5F7A496B" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A496B" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA3D/5F7A496B" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5F7A496B" Ref="#PWR0579"  Part="1" 
-F 0 "#PWR0579" H 18400 5950 50  0001 C CNN
-F 1 "+3V3MP" H 18415 6273 50  0000 C CNN
-F 2 "" H 18400 6100 50  0001 C CNN
-F 3 "" H 18400 6100 50  0001 C CNN
-	1    18400 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18400 6100 18250 6100
-Connection ~ 18400 6100
-Wire Wire Line
-	18250 6200 18250 6450
-Wire Wire Line
-	18250 6450 18400 6450
-Connection ~ 18400 6450
-$Comp
-L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R1
-U 1 1 5F86A564
-P 16750 5300
-F 0 "R1" H 16850 5400 50  0000 L CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 16750 5090 60  0001 L CNN
-F 2 "RESC1005X40N" H 16750 4280 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 16750 4910 60  0001 L CNN
-F 4 "2k2" V 17050 5300 50  0000 L CNN "~"
-F 5 "R0402_2K2_1%_0.0625W_100PPM" H 16750 4820 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 16750 4730 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 16750 4640 60  0001 L CNN "Library Path"
-F 8 "=Value" H 16750 4550 60  0001 L CNN "Comment"
-F 9 "Standard" H 16750 4460 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 16750 4370 60  0001 L CNN "Component Type"
-F 11 "~~" H 16750 4190 60  0001 L CNN "PackageDescription"
-F 12 "2" H 16750 4100 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 16750 4010 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 16750 3920 60  0001 L CNN "Footprint Ref"
-F 15 "2k2" H 16750 3830 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 16750 3740 60  0001 L CNN "Status"
-F 17 "0.0625W" H 16750 3650 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 16750 3560 60  0001 L CNN "TC"
-F 19 "~~" H 16750 3470 60  0001 L CNN "Voltage"
-F 20 "±1%" H 16750 3380 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 16750 3290 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 16750 3200 60  0001 L CNN "Manufacturer"
-F 23 "R0402_2K2_1%_0.0625W_100PPM" H 16750 3110 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 16750 3020 60  0001 L CNN "Case"
-F 25 "No" H 16750 2930 60  0001 L CNN "PressFit"
-F 26 "Yes" H 16750 2840 60  0001 L CNN "Mounted"
-F 27 "~~" H 16750 2750 60  0001 L CNN "Sense Comment"
-F 28 "No" H 16750 2660 60  0001 L CNN "Sense"
-F 29 "~~" H 16750 2570 60  0001 L CNN "Status Comment"
-F 30 "No" H 16750 2480 60  0001 L CNN "Socket"
-F 31 "Yes" H 16750 2390 60  0001 L CNN "SMD"
-F 32 "~~" H 16750 2300 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 16750 2210 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270672202L" H 16750 2120 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 16750 2030 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 16750 1940 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 16750 1850 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 16750 1760 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 16750 1670 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 16750 1580 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 16750 1490 60  0001 L CNN "License"
-	1    16750 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R2
-U 1 1 5F86A590
-P 16950 5300
-F 0 "R2" H 17050 5400 50  0000 L CNN
-F 1 "R0402_2K2_1%_0.0625W_100PPM" H 16950 5090 60  0001 L CNN
-F 2 "RESC1005X40N" H 16950 4280 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 16950 4910 60  0001 L CNN
-F 4 "2k2" V 17250 5300 50  0000 L CNN "~"
-F 5 "R0402_2K2_1%_0.0625W_100PPM" H 16950 4820 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 16950 4730 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 16950 4640 60  0001 L CNN "Library Path"
-F 8 "=Value" H 16950 4550 60  0001 L CNN "Comment"
-F 9 "Standard" H 16950 4460 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 16950 4370 60  0001 L CNN "Component Type"
-F 11 "~~" H 16950 4190 60  0001 L CNN "PackageDescription"
-F 12 "2" H 16950 4100 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 16950 4010 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 16950 3920 60  0001 L CNN "Footprint Ref"
-F 15 "2k2" H 16950 3830 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 16950 3740 60  0001 L CNN "Status"
-F 17 "0.0625W" H 16950 3650 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 16950 3560 60  0001 L CNN "TC"
-F 19 "~~" H 16950 3470 60  0001 L CNN "Voltage"
-F 20 "±1%" H 16950 3380 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 16950 3290 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 16950 3200 60  0001 L CNN "Manufacturer"
-F 23 "R0402_2K2_1%_0.0625W_100PPM" H 16950 3110 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 16950 3020 60  0001 L CNN "Case"
-F 25 "No" H 16950 2930 60  0001 L CNN "PressFit"
-F 26 "Yes" H 16950 2840 60  0001 L CNN "Mounted"
-F 27 "~~" H 16950 2750 60  0001 L CNN "Sense Comment"
-F 28 "No" H 16950 2660 60  0001 L CNN "Sense"
-F 29 "~~" H 16950 2570 60  0001 L CNN "Status Comment"
-F 30 "No" H 16950 2480 60  0001 L CNN "Socket"
-F 31 "Yes" H 16950 2390 60  0001 L CNN "SMD"
-F 32 "~~" H 16950 2300 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 16950 2210 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270672202L" H 16950 2120 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 16950 2030 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 16950 1940 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 16950 1850 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 16950 1760 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 16950 1670 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 16950 1580 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 16950 1490 60  0001 L CNN "License"
-	1    16950 5300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	16750 5600 16750 5700
-Connection ~ 16750 5700
-Wire Wire Line
-	16750 5700 16300 5700
-Wire Wire Line
-	16950 5600 16950 5800
-Connection ~ 16950 5800
-Wire Wire Line
-	16950 5800 16300 5800
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F8CBB7F
-P 16750 5300
-AR Path="/5BD32060/5F8CBB7F" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5F8CBB7F" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5F8CBB7F" Ref="#PWR0580"  Part="1" 
-AR Path="/5C907554/5CAAC367/5F8CBB7F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0580" H 16750 5150 50  0001 C CNN
-F 1 "+3V3" H 16750 5450 50  0000 C CNN
-F 2 "" H 16750 5300 50  0001 C CNN
-F 3 "" H 16750 5300 50  0001 C CNN
-	1    16750 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16750 5300 16950 5300
-Connection ~ 16750 5300
+	12000 2450 11450 2450
 $EndSCHEMATC
