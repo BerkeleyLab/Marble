@@ -106,10 +106,6 @@ Text Label 2000 3800 0    50   ~ 10
 USB_D_N
 Text Label 2000 3900 0    50   ~ 10
 USB_D_P
-Wire Wire Line
-	3350 4300 2800 4300
-Wire Wire Line
-	2800 4300 2800 3900
 $Comp
 L power:GND #PWR0278
 U 1 1 5BEBE57C
@@ -1206,14 +1202,11 @@ Wire Wire Line
 Wire Wire Line
 	1900 3900 2800 3900
 Wire Wire Line
-	2800 4800 2800 4300
-Connection ~ 2800 4300
-Wire Wire Line
 	2800 5600 3000 5600
 Wire Wire Line
 	3000 3800 3000 5600
 Wire Wire Line
-	2500 4800 2500 3700
+	2500 4800 2500 4300
 Wire Wire Line
 	1900 3800 3000 3800
 Connection ~ 3000 3800
@@ -5596,4 +5589,11 @@ $EndComp
 Connection ~ 4350 1900
 Wire Wire Line
 	5900 2200 5900 2250
+Wire Wire Line
+	2800 3900 2800 4800
+Wire Wire Line
+	3350 4300 2500 4300
+Connection ~ 2500 4300
+Wire Wire Line
+	2500 4300 2500 3700
 $EndSCHEMATC

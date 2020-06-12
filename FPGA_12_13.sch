@@ -611,8 +611,6 @@ Text GLabel 5800 3950 0    50   BiDi ~ 10
 FMC2_LA_16_P
 Text GLabel 5800 4050 0    50   BiDi ~ 10
 FMC2_LA_16_N
-Text Label 6450 7150 2    50   ~ 10
-FMC2_LA_8_P
 Text Label 6450 7250 2    50   ~ 10
 FMC2_LA_8_N
 Wire Wire Line
@@ -685,22 +683,6 @@ Text Label 3400 3750 0    50   ~ 10
 FPGA_SSEL_T
 Text Label 3400 3950 0    50   ~ 10
 FPGA_SCK_T
-Text Label 3400 5050 0    50   ~ 10
-Self_FPGA_TMS_T
-Text Label 3400 5250 0    50   ~ 10
-Self_FPGA_TDO_T
-Text Label 3400 5450 0    50   ~ 10
-Self_FPGA_TDI_T
-Text Label 3400 5650 0    50   ~ 10
-Self_FPGA_TCK_T
-Wire Wire Line
-	4000 5050 3250 5050
-Wire Wire Line
-	4000 5250 3250 5250
-Wire Wire Line
-	4000 5450 3250 5450
-Wire Wire Line
-	4000 5650 3250 5650
 Wire Wire Line
 	3250 3550 4000 3550
 Wire Wire Line
@@ -717,22 +699,6 @@ Text Label 5850 6750 0    50   ~ 10
 FPGA_SSEL_T
 Text Label 5850 6850 0    50   ~ 10
 FPGA_SCK_T
-Text Label 5850 6950 0    50   ~ 10
-Self_FPGA_TMS_T
-Text Label 5850 7050 0    50   ~ 10
-Self_FPGA_TDO_T
-Text Label 5850 4950 0    50   ~ 10
-Self_FPGA_TDI_T
-Text Label 5850 5050 0    50   ~ 10
-Self_FPGA_TCK_T
-Wire Wire Line
-	6600 6950 5850 6950
-Wire Wire Line
-	6600 7050 5850 7050
-Wire Wire Line
-	6600 4950 5850 4950
-Wire Wire Line
-	6600 5050 5850 5050
 Wire Wire Line
 	5850 6650 6600 6650
 Wire Wire Line
@@ -759,30 +725,30 @@ Text HLabel 1450 3550 0    50   Input ~ 10
 FPGA_MISO
 Text HLabel 1450 3350 0    50   Output ~ 10
 FPGA_MOSI
-Text Label 2150 5050 2    50   ~ 10
+Text Label 6500 6950 2    50   ~ 10
 Self_FPGA_TMS
-Text Label 2150 5250 2    50   ~ 10
+Text Label 6500 7050 2    50   ~ 10
 Self_FPGA_TDO
-Text Label 2150 5450 2    50   ~ 10
+Text Label 6500 4950 2    50   ~ 10
 Self_FPGA_TDI
-Text Label 2150 5650 2    50   ~ 10
+Text Label 6500 5050 2    50   ~ 10
 Self_FPGA_TCK
-Text HLabel 1450 5050 0    50   Output ~ 10
+Text HLabel 5800 6950 0    50   Output ~ 10
 Self_FPGA_TMS
-Text HLabel 1450 5250 0    50   Input ~ 10
+Text HLabel 5800 7050 0    50   Input ~ 10
 Self_FPGA_TDO
-Text HLabel 1450 5450 0    50   Output ~ 10
+Text HLabel 5800 4950 0    50   Output ~ 10
 Self_FPGA_TDI
-Text HLabel 1450 5650 0    50   Output ~ 10
+Text HLabel 5800 5050 0    50   Output ~ 10
 Self_FPGA_TCK
 Wire Wire Line
-	1450 5050 2250 5050
+	5800 6950 6600 6950
 Wire Wire Line
-	1450 5250 2250 5250
+	5800 7050 6600 7050
 Wire Wire Line
-	1450 5450 2250 5450
+	5800 4950 6600 4950
 Wire Wire Line
-	1450 5650 2250 5650
+	5800 5050 6600 5050
 Wire Wire Line
 	1450 3350 2250 3350
 Wire Wire Line
@@ -852,4 +818,6 @@ F 3 "" H 2250 4250 50  0001 C CNN
 	1    2250 4250
 	1    0    0    -1  
 $EndComp
+Text Label 6450 7150 2    50   ~ 10
+FMC2_LA_8_P
 $EndSCHEMATC
