@@ -742,19 +742,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 10700 9450 10750
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5CE4CC0D
-P 12000 9350
-AR Path="/5BD32060/5CE4CC0D" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5CE4CC0D" Ref="#PWR0449"  Part="1" 
-F 0 "#PWR0449" H 12000 9200 50  0001 C CNN
-F 1 "+3V3" H 12015 9523 50  0000 C CNN
-F 2 "" H 12000 9350 50  0001 C CNN
-F 3 "" H 12000 9350 50  0001 C CNN
-	1    12000 9350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5CE7F54A
 P 12000 9750
@@ -3983,198 +3970,6 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    14100 8500
 	0    1    1    0   
 $EndComp
-$Comp
-L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C339
-U 1 1 5E8EEBAF
-P 14100 9450
-F 0 "C339" V 14150 9450 50  0000 L CNN
-F 1 "CC0201_470NF_4V_20%_X5R" H 14100 9190 60  0001 L CNN
-F 2 "CAPC0603X33N" H 14100 8380 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 14100 9010 60  0001 L CNN
-F 4 "470nF" V 14350 9450 50  0000 L CNN "~"
-F 5 "CC0201_470NF_4V_20%_X5R" H 14100 8920 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 14100 8830 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 14100 8740 60  0001 L CNN "Library Path"
-F 8 "=Value" H 14100 8650 60  0001 L CNN "Comment"
-F 9 "Standard" H 14100 8560 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 14100 8470 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 14100 8290 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 14100 8200 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 14100 8110 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 14100 8020 60  0001 L CNN "PackageDescription"
-F 15 "470nF" H 14100 7930 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 14100 7840 60  0001 L CNN "Status"
-F 17 "~~" H 14100 7750 60  0001 L CNN "Status Comment"
-F 18 "4V" H 14100 7660 60  0001 L CNN "Voltage"
-F 19 "X5R" H 14100 7570 60  0001 L CNN "TC"
-F 20 "±20%" H 14100 7480 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 14100 7390 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 14100 7300 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_470NF_4V_20%_X5R" H 14100 7210 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 14100 7120 60  0001 L CNN "Case"
-F 25 "Yes" H 14100 7030 60  0001 L CNN "Mounted"
-F 26 "No" H 14100 6940 60  0001 L CNN "Socket"
-F 27 "Yes" H 14100 6850 60  0001 L CNN "SMD"
-F 28 "~~" H 14100 6760 60  0001 L CNN "PressFit"
-F 29 "No" H 14100 6670 60  0001 L CNN "Sense"
-F 30 "~~" H 14100 6580 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 14100 6490 60  0001 L CNN "ComponentHeight"
-F 32 "TAIYO YUDEN" H 14100 6400 60  0001 L CNN "Manufacturer1 Example"
-F 33 "AMK063BJ474MP-F" H 14100 6310 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 14100 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 14100 6130 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 14100 6040 60  0001 L CNN "Author"
-F 37 "05/27/10 00:00:00" H 14100 5950 60  0001 L CNN "CreateDate"
-F 38 "05/27/10 00:00:00" H 14100 5860 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 14100 5770 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14100 5680 60  0001 L CNN "License"
-	1    14100 9450
-	0    1    1    0   
-$EndComp
-$Comp
-L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C337
-U 1 1 5E93554B
-P 13800 9450
-F 0 "C337" V 13850 9450 50  0000 L CNN
-F 1 "CC0201_470NF_4V_20%_X5R" H 13800 9190 60  0001 L CNN
-F 2 "CAPC0603X33N" H 13800 8380 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13800 9010 60  0001 L CNN
-F 4 "470nF" V 14050 9450 50  0000 L CNN "~"
-F 5 "CC0201_470NF_4V_20%_X5R" H 13800 8920 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 13800 8830 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 13800 8740 60  0001 L CNN "Library Path"
-F 8 "=Value" H 13800 8650 60  0001 L CNN "Comment"
-F 9 "Standard" H 13800 8560 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 13800 8470 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 13800 8290 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 13800 8200 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 13800 8110 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 13800 8020 60  0001 L CNN "PackageDescription"
-F 15 "470nF" H 13800 7930 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 13800 7840 60  0001 L CNN "Status"
-F 17 "~~" H 13800 7750 60  0001 L CNN "Status Comment"
-F 18 "4V" H 13800 7660 60  0001 L CNN "Voltage"
-F 19 "X5R" H 13800 7570 60  0001 L CNN "TC"
-F 20 "±20%" H 13800 7480 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 13800 7390 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 13800 7300 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_470NF_4V_20%_X5R" H 13800 7210 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 13800 7120 60  0001 L CNN "Case"
-F 25 "Yes" H 13800 7030 60  0001 L CNN "Mounted"
-F 26 "No" H 13800 6940 60  0001 L CNN "Socket"
-F 27 "Yes" H 13800 6850 60  0001 L CNN "SMD"
-F 28 "~~" H 13800 6760 60  0001 L CNN "PressFit"
-F 29 "No" H 13800 6670 60  0001 L CNN "Sense"
-F 30 "~~" H 13800 6580 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 13800 6490 60  0001 L CNN "ComponentHeight"
-F 32 "TAIYO YUDEN" H 13800 6400 60  0001 L CNN "Manufacturer1 Example"
-F 33 "AMK063BJ474MP-F" H 13800 6310 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 13800 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13800 6130 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 13800 6040 60  0001 L CNN "Author"
-F 37 "05/27/10 00:00:00" H 13800 5950 60  0001 L CNN "CreateDate"
-F 38 "05/27/10 00:00:00" H 13800 5860 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 13800 5770 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13800 5680 60  0001 L CNN "License"
-	1    13800 9450
-	0    1    1    0   
-$EndComp
-$Comp
-L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C335
-U 1 1 5E958A20
-P 13500 9450
-F 0 "C335" V 13550 9450 50  0000 L CNN
-F 1 "CC0201_470NF_4V_20%_X5R" H 13500 9190 60  0001 L CNN
-F 2 "CAPC0603X33N" H 13500 8380 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13500 9010 60  0001 L CNN
-F 4 "470nF" V 13750 9450 50  0000 L CNN "~"
-F 5 "CC0201_470NF_4V_20%_X5R" H 13500 8920 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 13500 8830 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 13500 8740 60  0001 L CNN "Library Path"
-F 8 "=Value" H 13500 8650 60  0001 L CNN "Comment"
-F 9 "Standard" H 13500 8560 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 13500 8470 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 13500 8290 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 13500 8200 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 13500 8110 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 13500 8020 60  0001 L CNN "PackageDescription"
-F 15 "470nF" H 13500 7930 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 13500 7840 60  0001 L CNN "Status"
-F 17 "~~" H 13500 7750 60  0001 L CNN "Status Comment"
-F 18 "4V" H 13500 7660 60  0001 L CNN "Voltage"
-F 19 "X5R" H 13500 7570 60  0001 L CNN "TC"
-F 20 "±20%" H 13500 7480 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 13500 7390 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 13500 7300 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_470NF_4V_20%_X5R" H 13500 7210 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 13500 7120 60  0001 L CNN "Case"
-F 25 "Yes" H 13500 7030 60  0001 L CNN "Mounted"
-F 26 "No" H 13500 6940 60  0001 L CNN "Socket"
-F 27 "Yes" H 13500 6850 60  0001 L CNN "SMD"
-F 28 "~~" H 13500 6760 60  0001 L CNN "PressFit"
-F 29 "No" H 13500 6670 60  0001 L CNN "Sense"
-F 30 "~~" H 13500 6580 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 13500 6490 60  0001 L CNN "ComponentHeight"
-F 32 "TAIYO YUDEN" H 13500 6400 60  0001 L CNN "Manufacturer1 Example"
-F 33 "AMK063BJ474MP-F" H 13500 6310 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 13500 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13500 6130 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 13500 6040 60  0001 L CNN "Author"
-F 37 "05/27/10 00:00:00" H 13500 5950 60  0001 L CNN "CreateDate"
-F 38 "05/27/10 00:00:00" H 13500 5860 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 13500 5770 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13500 5680 60  0001 L CNN "License"
-	1    13500 9450
-	0    1    1    0   
-$EndComp
-$Comp
-L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C333
-U 1 1 5E97BEF6
-P 13200 9450
-F 0 "C333" V 13250 9450 50  0000 L CNN
-F 1 "CC0201_470NF_4V_20%_X5R" H 13200 9190 60  0001 L CNN
-F 2 "CAPC0603X33N" H 13200 8380 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13200 9010 60  0001 L CNN
-F 4 "470nF" V 13450 9450 50  0000 L CNN "~"
-F 5 "CC0201_470NF_4V_20%_X5R" H 13200 8920 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 13200 8830 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 13200 8740 60  0001 L CNN "Library Path"
-F 8 "=Value" H 13200 8650 60  0001 L CNN "Comment"
-F 9 "Standard" H 13200 8560 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 13200 8470 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 13200 8290 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 13200 8200 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 13200 8110 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 13200 8020 60  0001 L CNN "PackageDescription"
-F 15 "470nF" H 13200 7930 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 13200 7840 60  0001 L CNN "Status"
-F 17 "~~" H 13200 7750 60  0001 L CNN "Status Comment"
-F 18 "4V" H 13200 7660 60  0001 L CNN "Voltage"
-F 19 "X5R" H 13200 7570 60  0001 L CNN "TC"
-F 20 "±20%" H 13200 7480 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 13200 7390 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 13200 7300 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_470NF_4V_20%_X5R" H 13200 7210 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 13200 7120 60  0001 L CNN "Case"
-F 25 "Yes" H 13200 7030 60  0001 L CNN "Mounted"
-F 26 "No" H 13200 6940 60  0001 L CNN "Socket"
-F 27 "Yes" H 13200 6850 60  0001 L CNN "SMD"
-F 28 "~~" H 13200 6760 60  0001 L CNN "PressFit"
-F 29 "No" H 13200 6670 60  0001 L CNN "Sense"
-F 30 "~~" H 13200 6580 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 13200 6490 60  0001 L CNN "ComponentHeight"
-F 32 "TAIYO YUDEN" H 13200 6400 60  0001 L CNN "Manufacturer1 Example"
-F 33 "AMK063BJ474MP-F" H 13200 6310 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 13200 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13200 6130 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 13200 6040 60  0001 L CNN "Author"
-F 37 "05/27/10 00:00:00" H 13200 5950 60  0001 L CNN "CreateDate"
-F 38 "05/27/10 00:00:00" H 13200 5860 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 13200 5770 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13200 5680 60  0001 L CNN "License"
-	1    13200 9450
-	0    1    1    0   
-$EndComp
 Connection ~ 8150 9450
 Wire Wire Line
 	8150 9450 8450 9450
@@ -4271,24 +4066,6 @@ Wire Wire Line
 Connection ~ 6750 10700
 Wire Wire Line
 	6750 10700 7050 10700
-Connection ~ 13200 9450
-Wire Wire Line
-	13200 9450 13500 9450
-Connection ~ 13200 9750
-Wire Wire Line
-	13200 9750 13500 9750
-Connection ~ 13500 9450
-Wire Wire Line
-	13500 9450 13800 9450
-Connection ~ 13500 9750
-Wire Wire Line
-	13500 9750 13800 9750
-Connection ~ 13800 9450
-Wire Wire Line
-	13800 9450 14100 9450
-Connection ~ 13800 9750
-Wire Wire Line
-	13800 9750 14100 9750
 Connection ~ 13200 8500
 Wire Wire Line
 	13200 8500 13500 8500
@@ -5376,11 +5153,7 @@ Connection ~ 12600 9750
 Wire Wire Line
 	12600 9750 12900 9750
 Connection ~ 12900 9450
-Wire Wire Line
-	12900 9450 13200 9450
 Connection ~ 12900 9750
-Wire Wire Line
-	12900 9750 13200 9750
 Wire Wire Line
 	10000 9450 10300 9450
 Wire Wire Line
@@ -7118,60 +6891,6 @@ Wire Wire Line
 Connection ~ 14100 8500
 Connection ~ 14100 8800
 $Comp
-L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C392
-U 1 1 5D900947
-P 14400 9450
-F 0 "C392" V 14450 9450 50  0000 L CNN
-F 1 "CC0201_470NF_4V_20%_X5R" H 14400 9190 60  0001 L CNN
-F 2 "CAPC0603X33N" H 14400 8380 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 14400 9010 60  0001 L CNN
-F 4 "470nF" V 14650 9450 50  0000 L CNN "~"
-F 5 "CC0201_470NF_4V_20%_X5R" H 14400 8920 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 14400 8830 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 14400 8740 60  0001 L CNN "Library Path"
-F 8 "=Value" H 14400 8650 60  0001 L CNN "Comment"
-F 9 "Standard" H 14400 8560 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 14400 8470 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 14400 8290 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 14400 8200 60  0001 L CNN "Footprint Path"
-F 13 "CAPC0603X33N" H 14400 8110 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 14400 8020 60  0001 L CNN "PackageDescription"
-F 15 "470nF" H 14400 7930 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 14400 7840 60  0001 L CNN "Status"
-F 17 "~~" H 14400 7750 60  0001 L CNN "Status Comment"
-F 18 "4V" H 14400 7660 60  0001 L CNN "Voltage"
-F 19 "X5R" H 14400 7570 60  0001 L CNN "TC"
-F 20 "±20%" H 14400 7480 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 14400 7390 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 14400 7300 60  0001 L CNN "Manufacturer"
-F 23 "CC0201_470NF_4V_20%_X5R" H 14400 7210 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 14400 7120 60  0001 L CNN "Case"
-F 25 "Yes" H 14400 7030 60  0001 L CNN "Mounted"
-F 26 "No" H 14400 6940 60  0001 L CNN "Socket"
-F 27 "Yes" H 14400 6850 60  0001 L CNN "SMD"
-F 28 "~~" H 14400 6760 60  0001 L CNN "PressFit"
-F 29 "No" H 14400 6670 60  0001 L CNN "Sense"
-F 30 "~~" H 14400 6580 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 14400 6490 60  0001 L CNN "ComponentHeight"
-F 32 "TAIYO YUDEN" H 14400 6400 60  0001 L CNN "Manufacturer1 Example"
-F 33 "AMK063BJ474MP-F" H 14400 6310 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.33mm" H 14400 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 14400 6130 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 14400 6040 60  0001 L CNN "Author"
-F 37 "05/27/10 00:00:00" H 14400 5950 60  0001 L CNN "CreateDate"
-F 38 "05/27/10 00:00:00" H 14400 5860 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 14400 5770 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14400 5680 60  0001 L CNN "License"
-	1    14400 9450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14100 9450 14400 9450
-Wire Wire Line
-	14100 9750 14400 9750
-Connection ~ 14100 9450
-Connection ~ 14100 9750
-$Comp
 L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C387
 U 1 1 5D997A02
 P 7850 8500
@@ -7801,6 +7520,287 @@ F 1 "+1V5" H 7565 10523 50  0000 C CNN
 F 2 "" H 7550 10350 50  0001 C CNN
 F 3 "" H 7550 10350 50  0001 C CNN
 	1    7550 10350
+	1    0    0    -1  
+$EndComp
+Connection ~ 14100 9750
+Connection ~ 14100 9450
+Wire Wire Line
+	12900 9750 13200 9750
+Wire Wire Line
+	12900 9450 13200 9450
+Wire Wire Line
+	14100 9750 14400 9750
+Wire Wire Line
+	13800 9750 14100 9750
+Connection ~ 13800 9750
+Wire Wire Line
+	14100 9450 14400 9450
+Wire Wire Line
+	13800 9450 14100 9450
+Connection ~ 13800 9450
+Connection ~ 13500 9750
+Connection ~ 13500 9450
+Wire Wire Line
+	13500 9750 13800 9750
+Wire Wire Line
+	13200 9750 13500 9750
+Connection ~ 13200 9750
+Wire Wire Line
+	13500 9450 13800 9450
+Wire Wire Line
+	13200 9450 13500 9450
+Connection ~ 13200 9450
+$Comp
+L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C392
+U 1 1 5D900947
+P 14400 9450
+F 0 "C392" V 14450 9450 50  0000 L CNN
+F 1 "CC0201_470NF_4V_20%_X5R" H 14400 9190 60  0001 L CNN
+F 2 "CAPC0603X33N" H 14400 8380 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 14400 9010 60  0001 L CNN
+F 4 "470nF" V 14650 9450 50  0000 L CNN "~"
+F 5 "CC0201_470NF_4V_20%_X5R" H 14400 8920 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 14400 8830 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 14400 8740 60  0001 L CNN "Library Path"
+F 8 "=Value" H 14400 8650 60  0001 L CNN "Comment"
+F 9 "Standard" H 14400 8560 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 14400 8470 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 14400 8290 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 14400 8200 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 14400 8110 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 14400 8020 60  0001 L CNN "PackageDescription"
+F 15 "470nF" H 14400 7930 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 14400 7840 60  0001 L CNN "Status"
+F 17 "~~" H 14400 7750 60  0001 L CNN "Status Comment"
+F 18 "4V" H 14400 7660 60  0001 L CNN "Voltage"
+F 19 "X5R" H 14400 7570 60  0001 L CNN "TC"
+F 20 "±20%" H 14400 7480 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 14400 7390 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 14400 7300 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_470NF_4V_20%_X5R" H 14400 7210 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 14400 7120 60  0001 L CNN "Case"
+F 25 "Yes" H 14400 7030 60  0001 L CNN "Mounted"
+F 26 "No" H 14400 6940 60  0001 L CNN "Socket"
+F 27 "Yes" H 14400 6850 60  0001 L CNN "SMD"
+F 28 "~~" H 14400 6760 60  0001 L CNN "PressFit"
+F 29 "No" H 14400 6670 60  0001 L CNN "Sense"
+F 30 "~~" H 14400 6580 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 14400 6490 60  0001 L CNN "ComponentHeight"
+F 32 "TAIYO YUDEN" H 14400 6400 60  0001 L CNN "Manufacturer1 Example"
+F 33 "AMK063BJ474MP-F" H 14400 6310 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 14400 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 14400 6130 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 14400 6040 60  0001 L CNN "Author"
+F 37 "05/27/10 00:00:00" H 14400 5950 60  0001 L CNN "CreateDate"
+F 38 "05/27/10 00:00:00" H 14400 5860 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 14400 5770 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14400 5680 60  0001 L CNN "License"
+	1    14400 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C337
+U 1 1 5E93554B
+P 13800 9450
+F 0 "C337" V 13850 9450 50  0000 L CNN
+F 1 "CC0201_470NF_4V_20%_X5R" H 13800 9190 60  0001 L CNN
+F 2 "CAPC0603X33N" H 13800 8380 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13800 9010 60  0001 L CNN
+F 4 "470nF" V 14050 9450 50  0000 L CNN "~"
+F 5 "CC0201_470NF_4V_20%_X5R" H 13800 8920 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 13800 8830 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 13800 8740 60  0001 L CNN "Library Path"
+F 8 "=Value" H 13800 8650 60  0001 L CNN "Comment"
+F 9 "Standard" H 13800 8560 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 13800 8470 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 13800 8290 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 13800 8200 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 13800 8110 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 13800 8020 60  0001 L CNN "PackageDescription"
+F 15 "470nF" H 13800 7930 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 13800 7840 60  0001 L CNN "Status"
+F 17 "~~" H 13800 7750 60  0001 L CNN "Status Comment"
+F 18 "4V" H 13800 7660 60  0001 L CNN "Voltage"
+F 19 "X5R" H 13800 7570 60  0001 L CNN "TC"
+F 20 "±20%" H 13800 7480 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 13800 7390 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 13800 7300 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_470NF_4V_20%_X5R" H 13800 7210 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 13800 7120 60  0001 L CNN "Case"
+F 25 "Yes" H 13800 7030 60  0001 L CNN "Mounted"
+F 26 "No" H 13800 6940 60  0001 L CNN "Socket"
+F 27 "Yes" H 13800 6850 60  0001 L CNN "SMD"
+F 28 "~~" H 13800 6760 60  0001 L CNN "PressFit"
+F 29 "No" H 13800 6670 60  0001 L CNN "Sense"
+F 30 "~~" H 13800 6580 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 13800 6490 60  0001 L CNN "ComponentHeight"
+F 32 "TAIYO YUDEN" H 13800 6400 60  0001 L CNN "Manufacturer1 Example"
+F 33 "AMK063BJ474MP-F" H 13800 6310 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 13800 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13800 6130 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 13800 6040 60  0001 L CNN "Author"
+F 37 "05/27/10 00:00:00" H 13800 5950 60  0001 L CNN "CreateDate"
+F 38 "05/27/10 00:00:00" H 13800 5860 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 13800 5770 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13800 5680 60  0001 L CNN "License"
+	1    13800 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C339
+U 1 1 5E8EEBAF
+P 14100 9450
+F 0 "C339" V 14150 9450 50  0000 L CNN
+F 1 "CC0201_470NF_4V_20%_X5R" H 14100 9190 60  0001 L CNN
+F 2 "CAPC0603X33N" H 14100 8380 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 14100 9010 60  0001 L CNN
+F 4 "470nF" V 14350 9450 50  0000 L CNN "~"
+F 5 "CC0201_470NF_4V_20%_X5R" H 14100 8920 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 14100 8830 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 14100 8740 60  0001 L CNN "Library Path"
+F 8 "=Value" H 14100 8650 60  0001 L CNN "Comment"
+F 9 "Standard" H 14100 8560 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 14100 8470 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 14100 8290 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 14100 8200 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 14100 8110 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 14100 8020 60  0001 L CNN "PackageDescription"
+F 15 "470nF" H 14100 7930 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 14100 7840 60  0001 L CNN "Status"
+F 17 "~~" H 14100 7750 60  0001 L CNN "Status Comment"
+F 18 "4V" H 14100 7660 60  0001 L CNN "Voltage"
+F 19 "X5R" H 14100 7570 60  0001 L CNN "TC"
+F 20 "±20%" H 14100 7480 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 14100 7390 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 14100 7300 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_470NF_4V_20%_X5R" H 14100 7210 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 14100 7120 60  0001 L CNN "Case"
+F 25 "Yes" H 14100 7030 60  0001 L CNN "Mounted"
+F 26 "No" H 14100 6940 60  0001 L CNN "Socket"
+F 27 "Yes" H 14100 6850 60  0001 L CNN "SMD"
+F 28 "~~" H 14100 6760 60  0001 L CNN "PressFit"
+F 29 "No" H 14100 6670 60  0001 L CNN "Sense"
+F 30 "~~" H 14100 6580 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 14100 6490 60  0001 L CNN "ComponentHeight"
+F 32 "TAIYO YUDEN" H 14100 6400 60  0001 L CNN "Manufacturer1 Example"
+F 33 "AMK063BJ474MP-F" H 14100 6310 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 14100 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 14100 6130 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 14100 6040 60  0001 L CNN "Author"
+F 37 "05/27/10 00:00:00" H 14100 5950 60  0001 L CNN "CreateDate"
+F 38 "05/27/10 00:00:00" H 14100 5860 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 14100 5770 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 14100 5680 60  0001 L CNN "License"
+	1    14100 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C333
+U 1 1 5E97BEF6
+P 13200 9450
+F 0 "C333" V 13250 9450 50  0000 L CNN
+F 1 "CC0201_470NF_4V_20%_X5R" H 13200 9190 60  0001 L CNN
+F 2 "CAPC0603X33N" H 13200 8380 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13200 9010 60  0001 L CNN
+F 4 "470nF" V 13450 9450 50  0000 L CNN "~"
+F 5 "CC0201_470NF_4V_20%_X5R" H 13200 8920 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 13200 8830 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 13200 8740 60  0001 L CNN "Library Path"
+F 8 "=Value" H 13200 8650 60  0001 L CNN "Comment"
+F 9 "Standard" H 13200 8560 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 13200 8470 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 13200 8290 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 13200 8200 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 13200 8110 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 13200 8020 60  0001 L CNN "PackageDescription"
+F 15 "470nF" H 13200 7930 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 13200 7840 60  0001 L CNN "Status"
+F 17 "~~" H 13200 7750 60  0001 L CNN "Status Comment"
+F 18 "4V" H 13200 7660 60  0001 L CNN "Voltage"
+F 19 "X5R" H 13200 7570 60  0001 L CNN "TC"
+F 20 "±20%" H 13200 7480 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 13200 7390 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 13200 7300 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_470NF_4V_20%_X5R" H 13200 7210 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 13200 7120 60  0001 L CNN "Case"
+F 25 "Yes" H 13200 7030 60  0001 L CNN "Mounted"
+F 26 "No" H 13200 6940 60  0001 L CNN "Socket"
+F 27 "Yes" H 13200 6850 60  0001 L CNN "SMD"
+F 28 "~~" H 13200 6760 60  0001 L CNN "PressFit"
+F 29 "No" H 13200 6670 60  0001 L CNN "Sense"
+F 30 "~~" H 13200 6580 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 13200 6490 60  0001 L CNN "ComponentHeight"
+F 32 "TAIYO YUDEN" H 13200 6400 60  0001 L CNN "Manufacturer1 Example"
+F 33 "AMK063BJ474MP-F" H 13200 6310 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 13200 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13200 6130 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 13200 6040 60  0001 L CNN "Author"
+F 37 "05/27/10 00:00:00" H 13200 5950 60  0001 L CNN "CreateDate"
+F 38 "05/27/10 00:00:00" H 13200 5860 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 13200 5770 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13200 5680 60  0001 L CNN "License"
+	1    13200 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitors_SMD:CC0201_470NF_4V_20%_X5R C335
+U 1 1 5E958A20
+P 13500 9450
+F 0 "C335" V 13550 9450 50  0000 L CNN
+F 1 "CC0201_470NF_4V_20%_X5R" H 13500 9190 60  0001 L CNN
+F 2 "CAPC0603X33N" H 13500 8380 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13500 9010 60  0001 L CNN
+F 4 "470nF" V 13750 9450 50  0000 L CNN "~"
+F 5 "CC0201_470NF_4V_20%_X5R" H 13500 8920 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 13500 8830 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 13500 8740 60  0001 L CNN "Library Path"
+F 8 "=Value" H 13500 8650 60  0001 L CNN "Comment"
+F 9 "Standard" H 13500 8560 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 13500 8470 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 13500 8290 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 13500 8200 60  0001 L CNN "Footprint Path"
+F 13 "CAPC0603X33N" H 13500 8110 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 13500 8020 60  0001 L CNN "PackageDescription"
+F 15 "470nF" H 13500 7930 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 13500 7840 60  0001 L CNN "Status"
+F 17 "~~" H 13500 7750 60  0001 L CNN "Status Comment"
+F 18 "4V" H 13500 7660 60  0001 L CNN "Voltage"
+F 19 "X5R" H 13500 7570 60  0001 L CNN "TC"
+F 20 "±20%" H 13500 7480 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 13500 7390 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 13500 7300 60  0001 L CNN "Manufacturer"
+F 23 "CC0201_470NF_4V_20%_X5R" H 13500 7210 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0201" H 13500 7120 60  0001 L CNN "Case"
+F 25 "Yes" H 13500 7030 60  0001 L CNN "Mounted"
+F 26 "No" H 13500 6940 60  0001 L CNN "Socket"
+F 27 "Yes" H 13500 6850 60  0001 L CNN "SMD"
+F 28 "~~" H 13500 6760 60  0001 L CNN "PressFit"
+F 29 "No" H 13500 6670 60  0001 L CNN "Sense"
+F 30 "~~" H 13500 6580 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 13500 6490 60  0001 L CNN "ComponentHeight"
+F 32 "TAIYO YUDEN" H 13500 6400 60  0001 L CNN "Manufacturer1 Example"
+F 33 "AMK063BJ474MP-F" H 13500 6310 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.33mm" H 13500 6220 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf" H 13500 6130 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 13500 6040 60  0001 L CNN "Author"
+F 37 "05/27/10 00:00:00" H 13500 5950 60  0001 L CNN "CreateDate"
+F 38 "05/27/10 00:00:00" H 13500 5860 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 13500 5770 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13500 5680 60  0001 L CNN "License"
+	1    13500 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5F99981C
+P 12000 9350
+AR Path="/5C16BF8E/5F99981C" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C417BCB/5F99981C" Ref="#PWR0449"  Part="1" 
+F 0 "#PWR0449" H 12000 9200 50  0001 C CNN
+F 1 "+2V5" H 12015 9523 50  0000 C CNN
+F 2 "" H 12000 9350 50  0001 C CNN
+F 3 "" H 12000 9350 50  0001 C CNN
+	1    12000 9350
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
