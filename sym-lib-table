@@ -5,4 +5,5 @@
   (lib (name gowno)(type Legacy)(uri C:/Users/Michal/Downloads/gowno.lib)(options "")(descr ""))
   (lib (name AD_to_KiCad-SchDoc-cache)(type Legacy)(uri "${KIPRJMOD}/altium to kicad/converted/AD_to_KiCad-SchDoc-cache.lib")(options "")(descr ""))
   (lib (name powerMG2)(type Legacy)(uri "C:/Users/Michal/Desktop/Projekty/AMC FMC/powerMG.lib")(options "")(descr ""))
+  (lib (name Analog_&_Interface2)(type Legacy)(uri "C:/Users/micha/Desktop/Projekty/AMC FMC/import z altiuma/marble mini/kicad_libs/Analog_&_Interface.lib")(options "")(descr ""))
 )

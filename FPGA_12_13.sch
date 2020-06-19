@@ -529,13 +529,13 @@ Text Label 6450 5550 2    50   ~ 10
 FMC2_LA_0_P
 Text Label 6450 5650 2    50   ~ 10
 FMC2_LA_0_N
-Text Label 6450 5750 2    50   ~ 10
+Text Label 6450 7150 2    50   ~ 10
 FMC2_LA_3_P
 Text Label 6450 4750 2    50   ~ 10
 FMC2_LA_5_P
 Text Label 6500 3150 2    50   ~ 10
 FMC2_LA_15_P
-Text Label 6450 5850 2    50   ~ 10
+Text Label 6450 7250 2    50   ~ 10
 FMC2_LA_3_N
 Text Label 6450 4850 2    50   ~ 10
 FMC2_LA_5_N
@@ -550,9 +550,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 7850 6600 7850
 Wire Wire Line
-	5800 5750 6600 5750
+	5800 7150 6600 7150
 Wire Wire Line
-	5800 5850 6600 5850
+	5800 7250 6600 7250
 Wire Wire Line
 	5800 4750 6600 4750
 Wire Wire Line
@@ -561,9 +561,9 @@ Text GLabel 5800 7750 0    50   BiDi ~ 10
 FMC2_LA_2_P
 Text GLabel 5800 7850 0    50   BiDi ~ 10
 FMC2_LA_2_N
-Text GLabel 5800 5750 0    50   BiDi ~ 10
+Text GLabel 5800 7150 0    50   BiDi ~ 10
 FMC2_LA_3_P
-Text GLabel 5800 5850 0    50   BiDi ~ 10
+Text GLabel 5800 7250 0    50   BiDi ~ 10
 FMC2_LA_3_N
 Text GLabel 5800 4750 0    50   BiDi ~ 10
 FMC2_LA_5_P
@@ -611,16 +611,6 @@ Text GLabel 5800 3950 0    50   BiDi ~ 10
 FMC2_LA_16_P
 Text GLabel 5800 4050 0    50   BiDi ~ 10
 FMC2_LA_16_N
-Text Label 6450 7250 2    50   ~ 10
-FMC2_LA_8_N
-Wire Wire Line
-	5800 7150 6600 7150
-Wire Wire Line
-	5800 7250 6600 7250
-Text GLabel 5800 7150 0    50   BiDi ~ 10
-FMC2_LA_8_P
-Text GLabel 5800 7250 0    50   BiDi ~ 10
-FMC2_LA_8_N
 Wire Wire Line
 	5800 3150 6600 3150
 Wire Wire Line
@@ -803,8 +793,6 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    2450 3050
 	1    0    0    -1  
 $EndComp
-Text Label 6450 7150 2    50   ~ 10
-FMC2_LA_8_P
 $Comp
 L Resistors_SMD:R0402_0R_JUMPER R?
 U 1 1 5F1BAC45
@@ -1063,4 +1051,16 @@ $EndComp
 Wire Wire Line
 	3400 4150 3250 4150
 Connection ~ 3400 4150
+Text Label 6450 5850 2    50   ~ 10
+FMC2_LA_8_N
+Wire Wire Line
+	5800 5750 6600 5750
+Wire Wire Line
+	5800 5850 6600 5850
+Text GLabel 5800 5750 0    50   BiDi ~ 10
+FMC2_LA_8_P
+Text GLabel 5800 5850 0    50   BiDi ~ 10
+FMC2_LA_8_N
+Text Label 6450 5750 2    50   ~ 10
+FMC2_LA_8_P
 $EndSCHEMATC

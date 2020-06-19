@@ -4250,62 +4250,8 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    4400 10400
 	0    1    1    0   
 $EndComp
-$Comp
-L Capacitors_SMD:CC0805_4.7UF_10V_10%_X5R C237
-U 1 1 5EC31992
-P 4700 10400
-F 0 "C237" V 4750 10400 50  0000 L CNN
-F 1 "CC0805_4.7UF_10V_10%_X5R" H 4700 10140 60  0001 L CNN
-F 2 "CAPC2012X135N" H 4700 9330 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_PHYCOMP_HC.pdf" H 4700 9960 60  0001 L CNN
-F 4 "4.7uF" V 4950 10400 50  0000 L CNN "~"
-F 5 "CC0805_4.7UF_10V_10%_X5R" H 4700 9870 60  0001 L CNN "Part Number"
-F 6 "Capacitor - non polarized" H 4700 9780 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Capacitors.SchLib" H 4700 9690 60  0001 L CNN "Library Path"
-F 8 "=Value" H 4700 9600 60  0001 L CNN "Comment"
-F 9 "Standard" H 4700 9510 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 4700 9420 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 4700 9240 60  0001 L CNN "Pin Count"
-F 12 "PcbLib\\Capacitors SMD.PcbLib" H 4700 9150 60  0001 L CNN "Footprint Path"
-F 13 "CAPC2012X135N" H 4700 9060 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 4700 8970 60  0001 L CNN "PackageDescription"
-F 15 "4.7uF" H 4700 8880 60  0001 L CNN "Val"
-F 16 "Preferred" H 4700 8790 60  0001 L CNN "Status"
-F 17 "~~" H 4700 8700 60  0001 L CNN "Status Comment"
-F 18 "10V" H 4700 8610 60  0001 L CNN "Voltage"
-F 19 "X5R" H 4700 8520 60  0001 L CNN "TC"
-F 20 "±10%" H 4700 8430 60  0001 L CNN "Tolerance"
-F 21 "SMD Multilayer Chip Ceramic Capacitor" H 4700 8340 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 4700 8250 60  0001 L CNN "Manufacturer"
-F 23 "CC0805_4.7UF_10V_10%_X5R" H 4700 8160 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0805" H 4700 8070 60  0001 L CNN "Case"
-F 25 "Yes" H 4700 7980 60  0001 L CNN "Mounted"
-F 26 "No" H 4700 7890 60  0001 L CNN "Socket"
-F 27 "Yes" H 4700 7800 60  0001 L CNN "SMD"
-F 28 "~~" H 4700 7710 60  0001 L CNN "PressFit"
-F 29 "No" H 4700 7620 60  0001 L CNN "Sense"
-F 30 "~~" H 4700 7530 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 4700 7440 60  0001 L CNN "ComponentHeight"
-F 32 "PHYCOMP" H 4700 7350 60  0001 L CNN "Manufacturer1 Example"
-F 33 "222224013672" H 4700 7260 60  0001 L CNN "Manufacturer1 Part Number"
-F 34 "1.45mm" H 4700 7170 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_PHYCOMP_HC.pdf" H 4700 7080 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 4700 6990 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 4700 6900 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 4700 6810 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 4700 6720 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4700 6630 60  0001 L CNN "License"
-	1    4700 10400
-	0    1    1    0   
-$EndComp
 Connection ~ 4100 10400
 Connection ~ 4100 10700
-Connection ~ 4400 10400
-Wire Wire Line
-	4400 10400 4700 10400
-Connection ~ 4400 10700
-Wire Wire Line
-	4400 10700 4700 10700
 Wire Wire Line
 	4100 10400 4400 10400
 Wire Wire Line
@@ -7803,6 +7749,58 @@ F 3 "" H 12000 9350 50  0001 C CNN
 	1    12000 9350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Capacitors_SMD:CC0805_4.7UF_10V_10%_X5R C237
+U 1 1 5FB46140
+P 4700 10400
+F 0 "C237" V 4750 10400 50  0000 L CNN
+F 1 "CC0805_4.7UF_10V_10%_X5R" H 4700 10140 60  0001 L CNN
+F 2 "CAPC2012X135N" H 4700 9330 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_PHYCOMP_HC.pdf" H 4700 9960 60  0001 L CNN
+F 4 "4.7uF" V 4950 10400 50  0000 L CNN "~"
+F 5 "CC0805_4.7UF_10V_10%_X5R" H 4700 9870 60  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 4700 9780 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 4700 9690 60  0001 L CNN "Library Path"
+F 8 "=Value" H 4700 9600 60  0001 L CNN "Comment"
+F 9 "Standard" H 4700 9510 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 4700 9420 60  0001 L CNN "Component Type"
+F 11 "2.0000000000000000e+00" H 4700 9240 60  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 4700 9150 60  0001 L CNN "Footprint Path"
+F 13 "CAPC2012X135N" H 4700 9060 60  0001 L CNN "Footprint Ref"
+F 14 "~~" H 4700 8970 60  0001 L CNN "PackageDescription"
+F 15 "4.7uF" H 4700 8880 60  0001 L CNN "Val"
+F 16 "Preferred" H 4700 8790 60  0001 L CNN "Status"
+F 17 "~~" H 4700 8700 60  0001 L CNN "Status Comment"
+F 18 "10V" H 4700 8610 60  0001 L CNN "Voltage"
+F 19 "X5R" H 4700 8520 60  0001 L CNN "TC"
+F 20 "±10%" H 4700 8430 60  0001 L CNN "Tolerance"
+F 21 "SMD Multilayer Chip Ceramic Capacitor" H 4700 8340 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 4700 8250 60  0001 L CNN "Manufacturer"
+F 23 "CC0805_4.7UF_10V_10%_X5R" H 4700 8160 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0805" H 4700 8070 60  0001 L CNN "Case"
+F 25 "Yes" H 4700 7980 60  0001 L CNN "Mounted"
+F 26 "No" H 4700 7890 60  0001 L CNN "Socket"
+F 27 "Yes" H 4700 7800 60  0001 L CNN "SMD"
+F 28 "~~" H 4700 7710 60  0001 L CNN "PressFit"
+F 29 "No" H 4700 7620 60  0001 L CNN "Sense"
+F 30 "~~" H 4700 7530 60  0001 L CNN "Sense Comment"
+F 31 "~~" H 4700 7440 60  0001 L CNN "ComponentHeight"
+F 32 "PHYCOMP" H 4700 7350 60  0001 L CNN "Manufacturer1 Example"
+F 33 "222224013672" H 4700 7260 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "1.45mm" H 4700 7170 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_PHYCOMP_HC.pdf" H 4700 7080 60  0001 L CNN "HelpURL"
+F 36 "CERN DEM JLC" H 4700 6990 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 4700 6900 60  0001 L CNN "CreateDate"
+F 38 "12/03/07 00:00:00" H 4700 6810 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors SMD" H 4700 6720 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4700 6630 60  0001 L CNN "License"
+	1    4700 10400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 10400 4700 10400
+Wire Wire Line
+	4400 10700 4700 10700
 Wire Bus Line
 	13550 4750 13550 4950
 $EndSCHEMATC

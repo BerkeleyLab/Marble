@@ -1,4 +1,4 @@
-update=08.06.2020 16:32:59
+update=19.06.2020 13:46:04
 version=1
 last_client=kicad
 [general]
@@ -293,7 +293,7 @@ dPairGap=0.19
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=POWER
-Clearance=0.1
+Clearance=0.102
 TrackWidth=0.381
 ViaDiameter=0.35
 ViaDrill=0.152
@@ -326,7 +326,7 @@ dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/6]
 Name=SE60DE100
-Clearance=0.6
+Clearance=0.102
 TrackWidth=0.254
 ViaDiameter=0.889
 ViaDrill=0.635

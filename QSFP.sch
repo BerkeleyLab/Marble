@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 25
+Sheet 14 25
 Title ""
 Date ""
 Rev ""
@@ -1726,4 +1726,120 @@ Text Label 6100 2950 0    50   ~ 0
 QSFP_RX_3_N
 Text HLabel 6050 2950 0    50   Output ~ 0
 QSFP_RX_3_N
+$Comp
+L power:GND #PWR?
+U 1 1 5FC79B0E
+P 8400 4700
+AR Path="/5BD32060/5FC79B0E" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5FC79B0E" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5FC79B0E" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5FC79B0E" Ref="#PWR?"  Part="1" 
+AR Path="/5CC5990B/5FC79B0E" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5FC79B0E" Ref="#PWR?"  Part="1" 
+AR Path="/5E7FBE93/5FC79B0E" Ref="#PWR0618"  Part="1" 
+AR Path="/600349C1/5FC79B0E" Ref="#PWR?"  Part="1" 
+AR Path="/60326218/5FC79B0E" Ref="#PWR0806"  Part="1" 
+F 0 "#PWR0806" H 8400 4450 50  0001 C CNN
+F 1 "GND" H 8405 4527 50  0000 C CNN
+F 2 "" H 8400 4700 50  0001 C CNN
+F 3 "" H 8400 4700 50  0001 C CNN
+	1    8400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC7D0AF
+P 6800 4700
+AR Path="/5BD32060/5FC7D0AF" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5FC7D0AF" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5FC7D0AF" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5FC7D0AF" Ref="#PWR?"  Part="1" 
+AR Path="/5CC5990B/5FC7D0AF" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5FC7D0AF" Ref="#PWR?"  Part="1" 
+AR Path="/5E7FBE93/5FC7D0AF" Ref="#PWR0805"  Part="1" 
+AR Path="/600349C1/5FC7D0AF" Ref="#PWR?"  Part="1" 
+AR Path="/60326218/5FC7D0AF" Ref="#PWR0807"  Part="1" 
+F 0 "#PWR0807" H 6800 4450 50  0001 C CNN
+F 1 "GND" H 6805 4527 50  0000 C CNN
+F 2 "" H 6800 4700 50  0001 C CNN
+F 3 "" H 6800 4700 50  0001 C CNN
+	1    6800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4000 6800 4000
+Wire Wire Line
+	6800 4000 6800 4100
+Wire Wire Line
+	7000 4100 6800 4100
+Connection ~ 6800 4100
+Wire Wire Line
+	6800 4100 6800 4200
+Wire Wire Line
+	7000 4200 6800 4200
+Connection ~ 6800 4200
+Wire Wire Line
+	6800 4200 6800 4300
+Wire Wire Line
+	7000 4300 6800 4300
+Connection ~ 6800 4300
+Wire Wire Line
+	6800 4300 6800 4400
+Wire Wire Line
+	7000 4400 6800 4400
+Connection ~ 6800 4400
+Wire Wire Line
+	6800 4400 6800 4500
+Wire Wire Line
+	7000 4500 6800 4500
+Connection ~ 6800 4500
+Wire Wire Line
+	6800 4500 6800 4700
+Wire Wire Line
+	8400 4000 8200 4000
+Wire Wire Line
+	8400 4000 8400 4100
+Wire Wire Line
+	8200 4100 8400 4100
+Connection ~ 8400 4100
+Wire Wire Line
+	8400 4100 8400 4200
+Wire Wire Line
+	8200 4200 8400 4200
+Connection ~ 8400 4200
+Wire Wire Line
+	8400 4200 8400 4300
+Wire Wire Line
+	8200 4300 8400 4300
+Connection ~ 8400 4300
+Wire Wire Line
+	8400 4300 8400 4400
+Wire Wire Line
+	8200 4400 8400 4400
+Connection ~ 8400 4400
+Wire Wire Line
+	8400 4400 8400 4500
+Wire Wire Line
+	8200 4500 8400 4500
+Connection ~ 8400 4500
+Wire Wire Line
+	8400 4500 8400 4600
+Wire Wire Line
+	8200 4600 8400 4600
+Connection ~ 8400 4600
+Wire Wire Line
+	8400 4600 8400 4700
+$Comp
+L Miscellaneous:QSFPk-PF-2 J18
+U 1 1 5FD15C30
+P 7000 3900
+AR Path="/60326218/5FD15C30" Ref="J18"  Part="1" 
+AR Path="/5E7FBE93/5FD15C30" Ref="J15"  Part="1" 
+F 0 "J18" H 7600 4025 50  0000 C CNN
+F 1 "QSFPk-PF-2" H 7600 3934 50  0000 C CNN
+F 2 "QSFPK-PF-02:QSFPK-PF-02" H 7000 3900 50  0001 C CNN
+F 3 "" H 7000 3900 50  0001 C CNN
+	1    7000 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

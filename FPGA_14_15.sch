@@ -900,6 +900,7 @@ F 38 "12/03/07 00:00:00" H 12150 -1540 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 12150 -1630 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 12150 -1720 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12150 -1810 60  0001 L CNN "License"
+F 42 "dnf" H 12100 1950 50  0000 C CNN "config"
 	1    12150 2000
 	1    0    0    -1  
 $EndComp

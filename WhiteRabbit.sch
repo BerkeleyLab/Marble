@@ -3893,19 +3893,6 @@ Wire Wire Line
 Connection ~ 7600 5800
 Wire Wire Line
 	7600 5800 7650 5800
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR029
-U 1 1 5EA504EC
-P 7100 5800
-F 0 "#PWR029" H 7100 5650 50  0001 C CNN
-F 1 "+3V3_CLEAN" V 7100 6150 50  0000 C CNN
-F 2 "" H 7100 5800 50  0001 C CNN
-F 3 "" H 7100 5800 50  0001 C CNN
-	1    7100 5800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7100 5800 7350 5800
 Connection ~ 7350 5800
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
@@ -4006,4 +3993,75 @@ Wire Wire Line
 	8850 5500 9650 5500
 Wire Wire Line
 	8850 5600 9650 5600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FEDB9B9
+P 6000 5750
+AR Path="/5BD32060/5FEDB9B9" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/5FEDB9B9" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/5FEDB9B9" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/5FEDB9B9" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/5FEDB9B9" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/5FEDB9B9" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA59/5FEDB9B9" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF13/5FEDB9B9" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 6000 5600 50  0001 C CNN
+F 1 "+3V3" H 6015 5923 50  0000 C CNN
+F 2 "" H 6000 5750 50  0001 C CNN
+F 3 "" H 6000 5750 50  0001 C CNN
+	1    6000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductors_SMD:IND0603_MURATA_BLM18SG121TN1D L?
+U 1 1 5FEDB9E0
+P 6200 5800
+AR Path="/5C16BF8E/5DB9B7E6/5FEDB9E0" Ref="L?"  Part="1" 
+AR Path="/5C16BF13/5FEDB9E0" Ref="L19"  Part="1" 
+F 0 "L19" H 6350 6017 50  0000 C CNN
+F 1 "IND0603_MURATA_BLM18SG121TN1D" H 6200 5610 60  0001 L CNN
+F 2 "INDC1608X65N" H 6200 4800 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18S.pdf" H 6200 5430 60  0001 L CNN
+F 4 "120R@100MHz" H 6350 5926 50  0000 C CNN "~"
+F 5 "IND0603_MURATA_BLM18SG121TN1D" H 6200 5340 60  0001 L CNN "Part Number"
+F 6 "Inductor" H 6200 5250 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Inductors & Transformers.SchLib" H 6200 5160 60  0001 L CNN "Library Path"
+F 8 "=Value" H 6200 5070 60  0001 L CNN "Comment"
+F 9 "Standard" H 6200 4980 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 6200 4890 60  0001 L CNN "Component Type"
+F 11 "~~" H 6200 4710 60  0001 L CNN "PackageDescription"
+F 12 "2.0000000000000000e+00" H 6200 4620 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Inductors SMD.PcbLib" H 6200 4530 60  0001 L CNN "Footprint Path"
+F 14 "INDC1608X65N" H 6200 4440 60  0001 L CNN "Footprint Ref"
+F 15 "120R@100MHz" H 6200 4350 60  0001 L CNN "Val"
+F 16 "None" H 6200 4260 60  0001 L CNN "Status"
+F 17 "3A" H 6200 4170 60  0001 L CNN "Power"
+F 18 "0.025R" H 6200 4080 60  0001 L CNN "Resistance"
+F 19 "±25%" H 6200 3990 60  0001 L CNN "Tolerance"
+F 20 "SMD EMIFIL Suppression Chip Ferrite Bead" H 6200 3900 60  0001 L CNN "Part Description"
+F 21 "MURATA" H 6200 3810 60  0001 L CNN "Manufacturer"
+F 22 "BLM18SG121TN1D" H 6200 3720 60  0001 L CNN "Manufacturer Part Number"
+F 23 "0603" H 6200 3630 60  0001 L CNN "Case"
+F 24 "Yes" H 6200 3540 60  0001 L CNN "Mounted"
+F 25 "No" H 6200 3450 60  0001 L CNN "Socket"
+F 26 "Yes" H 6200 3360 60  0001 L CNN "SMD"
+F 27 "~~" H 6200 3270 60  0001 L CNN "Sense Comment"
+F 28 "No" H 6200 3180 60  0001 L CNN "Sense"
+F 29 "~~" H 6200 3090 60  0001 L CNN "Status Comment"
+F 30 "0.65mm" H 6200 3000 60  0001 L CNN "ComponentHeight"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0603_MURATA_BLM18S.pdf" H 6200 2910 60  0001 L CNN "HelpURL"
+F 32 "CERN DEM JLC" H 6200 2820 60  0001 L CNN "Author"
+F 33 "07/23/14 00:00:00" H 6200 2730 60  0001 L CNN "CreateDate"
+F 34 "07/23/14 00:00:00" H 6200 2640 60  0001 L CNN "LatestRevisionDate"
+F 35 "Inductors SMD" H 6200 2550 60  0001 L CNN "Library Name"
+F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6200 2460 60  0001 L CNN "License"
+	1    6200 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5800 6000 5800
+Wire Wire Line
+	6000 5800 6000 5750
+Wire Wire Line
+	6500 5800 7350 5800
 $EndSCHEMATC

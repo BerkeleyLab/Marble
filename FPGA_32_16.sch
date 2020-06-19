@@ -142,7 +142,7 @@ Text Label 9850 3400 2    50   ~ 10
 RGMII_TXD2
 Text Label 9850 3300 2    50   ~ 10
 RGMII_TXD3
-Text Label 9850 2500 2    50   ~ 10
+Text Label 9850 1800 2    50   ~ 10
 RGMII_RXD1
 Text Label 9850 2000 2    50   ~ 10
 RGMII_RXD2
@@ -152,7 +152,7 @@ Wire Wire Line
 	9850 3700 9250 3700
 Text Label 9850 3800 2    50   ~ 10
 PHY_RSTn
-Text Label 9850 1800 2    50   ~ 10
+Text Label 9850 2500 2    50   ~ 10
 RGMII_RX_DV
 Text GLabel 9900 4900 2    50   BiDi ~ 10
 FMC1_LA_23_P
@@ -189,7 +189,7 @@ FMC1_LA_29_P
 Text GLabel 9900 3200 2    50   BiDi ~ 10
 FMC1_LA_29_N
 Wire Wire Line
-	9850 1800 9250 1800
+	9850 2500 9250 2500
 Text Label 9850 3700 2    50   ~ 10
 RGMII_TX_EN
 Text Label 9850 2600 2    50   ~ 10
@@ -267,7 +267,7 @@ FMC1_LA_31_N
 Wire Wire Line
 	9850 3000 9250 3000
 Wire Wire Line
-	9850 2500 9250 2500
+	9850 1800 9250 1800
 Wire Wire Line
 	9850 3400 9250 3400
 Wire Wire Line

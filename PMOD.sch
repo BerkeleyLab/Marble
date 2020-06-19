@@ -944,12 +944,10 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    3800 4950
 	0    -1   1    0   
 $EndComp
-Connection ~ 3800 2550
 Wire Wire Line
 	3800 2850 3800 2900
 Wire Wire Line
 	3800 5250 3800 5300
-Connection ~ 3800 4950
 $Comp
 L power:GND #PWR?
 U 1 1 5F4209F3

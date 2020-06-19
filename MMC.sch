@@ -3517,6 +3517,144 @@ Wire Wire Line
 Connection ~ 9200 6700
 Wire Wire Line
 	9200 6700 10150 6700
+Wire Wire Line
+	12050 5200 12050 5150
+Wire Wire Line
+	12050 5150 11850 5150
+Wire Wire Line
+	11850 5200 11850 5150
+$Comp
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R?
+U 1 1 6326E433
+P 11850 5200
+AR Path="/5BCEDA3D/6326E433" Ref="R?"  Part="1" 
+AR Path="/5BCEDA39/6326E433" Ref="R13"  Part="1" 
+F 0 "R13" H 11950 5300 50  0000 L CNN
+F 1 "R0402_2K2_1%_0.0625W_100PPM" H 11850 4990 60  0001 L CNN
+F 2 "RESC1005X40N" H 11850 4180 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 11850 4810 60  0001 L CNN
+F 4 "2k2" V 12150 5200 50  0000 L CNN "~"
+F 5 "R0402_2K2_1%_0.0625W_100PPM" H 11850 4720 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 11850 4630 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 11850 4540 60  0001 L CNN "Library Path"
+F 8 "=Value" H 11850 4450 60  0001 L CNN "Comment"
+F 9 "Standard" H 11850 4360 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 11850 4270 60  0001 L CNN "Component Type"
+F 11 "~~" H 11850 4090 60  0001 L CNN "PackageDescription"
+F 12 "2" H 11850 4000 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 11850 3910 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 11850 3820 60  0001 L CNN "Footprint Ref"
+F 15 "2k2" H 11850 3730 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 11850 3640 60  0001 L CNN "Status"
+F 17 "0.0625W" H 11850 3550 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 11850 3460 60  0001 L CNN "TC"
+F 19 "~~" H 11850 3370 60  0001 L CNN "Voltage"
+F 20 "±1%" H 11850 3280 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 11850 3190 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 11850 3100 60  0001 L CNN "Manufacturer"
+F 23 "R0402_2K2_1%_0.0625W_100PPM" H 11850 3010 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 11850 2920 60  0001 L CNN "Case"
+F 25 "No" H 11850 2830 60  0001 L CNN "PressFit"
+F 26 "Yes" H 11850 2740 60  0001 L CNN "Mounted"
+F 27 "~~" H 11850 2650 60  0001 L CNN "Sense Comment"
+F 28 "No" H 11850 2560 60  0001 L CNN "Sense"
+F 29 "~~" H 11850 2470 60  0001 L CNN "Status Comment"
+F 30 "No" H 11850 2380 60  0001 L CNN "Socket"
+F 31 "Yes" H 11850 2290 60  0001 L CNN "SMD"
+F 32 "~~" H 11850 2200 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 11850 2110 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270672202L" H 11850 2020 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 11850 1930 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 11850 1840 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 11850 1750 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 11850 1660 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 11850 1570 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 11850 1480 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11850 1390 60  0001 L CNN "License"
+	1    11850 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R?
+U 1 1 6326E45F
+P 12050 5200
+AR Path="/5BCEDA3D/6326E45F" Ref="R?"  Part="1" 
+AR Path="/5BCEDA39/6326E45F" Ref="R14"  Part="1" 
+F 0 "R14" H 12150 5300 50  0000 L CNN
+F 1 "R0402_2K2_1%_0.0625W_100PPM" H 12050 4990 60  0001 L CNN
+F 2 "RESC1005X40N" H 12050 4180 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 12050 4810 60  0001 L CNN
+F 4 "2k2" V 12350 5200 50  0000 L CNN "~"
+F 5 "R0402_2K2_1%_0.0625W_100PPM" H 12050 4720 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 12050 4630 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 12050 4540 60  0001 L CNN "Library Path"
+F 8 "=Value" H 12050 4450 60  0001 L CNN "Comment"
+F 9 "Standard" H 12050 4360 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 12050 4270 60  0001 L CNN "Component Type"
+F 11 "~~" H 12050 4090 60  0001 L CNN "PackageDescription"
+F 12 "2" H 12050 4000 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 12050 3910 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 12050 3820 60  0001 L CNN "Footprint Ref"
+F 15 "2k2" H 12050 3730 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 12050 3640 60  0001 L CNN "Status"
+F 17 "0.0625W" H 12050 3550 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 12050 3460 60  0001 L CNN "TC"
+F 19 "~~" H 12050 3370 60  0001 L CNN "Voltage"
+F 20 "±1%" H 12050 3280 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 12050 3190 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 12050 3100 60  0001 L CNN "Manufacturer"
+F 23 "R0402_2K2_1%_0.0625W_100PPM" H 12050 3010 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 12050 2920 60  0001 L CNN "Case"
+F 25 "No" H 12050 2830 60  0001 L CNN "PressFit"
+F 26 "Yes" H 12050 2740 60  0001 L CNN "Mounted"
+F 27 "~~" H 12050 2650 60  0001 L CNN "Sense Comment"
+F 28 "No" H 12050 2560 60  0001 L CNN "Sense"
+F 29 "~~" H 12050 2470 60  0001 L CNN "Status Comment"
+F 30 "No" H 12050 2380 60  0001 L CNN "Socket"
+F 31 "Yes" H 12050 2290 60  0001 L CNN "SMD"
+F 32 "~~" H 12050 2200 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 12050 2110 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270672202L" H 12050 2020 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 12050 1930 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 12050 1840 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 12050 1750 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 12050 1660 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 12050 1570 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 12050 1480 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12050 1390 60  0001 L CNN "License"
+	1    12050 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3VP #PWR?
+U 1 1 6326E465
+P 11850 5150
+AR Path="/5C16C03C/6326E465" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/6326E465" Ref="#PWR0804"  Part="1" 
+AR Path="/5D05A99E/6326E465" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/6326E465" Ref="#PWR?"  Part="1" 
+AR Path="/6326E465" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/6326E465" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0804" H 11850 5000 50  0001 C CNN
+F 1 "+3V3MP" H 11865 5323 50  0000 C CNN
+F 2 "" H 11850 5150 50  0001 C CNN
+F 3 "" H 11850 5150 50  0001 C CNN
+	1    11850 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 11850 5150
+Text Label 11350 5550 0    50   ~ 10
+I2C_PM_SDA
+Text Label 11350 5650 0    50   ~ 10
+I2C_PM_SCL
+Wire Wire Line
+	11350 5550 11850 5550
+Wire Wire Line
+	11850 5550 11850 5500
+Wire Wire Line
+	11350 5650 12050 5650
+Wire Wire Line
+	12050 5650 12050 5500
 Wire Bus Line
 	9350 3500 9350 3700
 Wire Bus Line

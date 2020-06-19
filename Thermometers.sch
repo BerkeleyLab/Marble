@@ -624,18 +624,6 @@ F 3 "" H 8400 5950 50  0001 C CNN
 	1    8400 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue M2
-U 1 1 5D632A5C
-P 8400 5150
-F 0 "M2" H 8558 5146 50  0000 L CNN
-F 1 "Fan_3pin" H 8558 5055 50  0000 L CNN
-F 2 "Connect:Fan_Pin_Header_Straight_1x03" H 8400 5060 50  0001 C CNN
-F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 8400 5060 50  0001 C CNN
-F 4 "SWR25X-NRTC-S03-ST-BA" H 8400 5150 50  0001 C CNN "Manufacturer Part Number"
-	1    8400 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8400 5450 8400 5550
 $Comp
@@ -1579,14 +1567,24 @@ Connection ~ 2750 5300
 Wire Wire Line
 	2750 5300 2850 5300
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Fan_3pin-Motor-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue M1
-U 1 1 5D543B40
+L Miscellaneous:Fan_Tacho_PC M2
+U 1 1 603B2F6A
+P 8400 5150
+F 0 "M2" H 8558 5146 50  0000 L CNN
+F 1 "Fan_Tacho_PC" H 8558 5055 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 8400 5060 50  0001 C CNN
+F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 8400 5060 50  0001 C CNN
+	1    8400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Miscellaneous:Fan_Tacho_PC M1
+U 1 1 603B0CA4
 P 6800 5150
 F 0 "M1" H 6958 5146 50  0000 L CNN
-F 1 "Fan_3pin" H 6958 5055 50  0000 L CNN
-F 2 "Connect:Fan_Pin_Header_Straight_1x03" H 6800 5060 50  0001 C CNN
+F 1 "Fan_Tacho_PC" H 6958 5055 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 6800 5060 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 6800 5060 50  0001 C CNN
-F 4 "SWR25X-NRTC-S03-ST-BA" H 6800 5150 50  0001 C CNN "Manufacturer Part Number"
 	1    6800 5150
 	1    0    0    -1  
 $EndComp
