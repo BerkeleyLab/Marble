@@ -694,7 +694,7 @@ F 3 "" H 1850 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5DD348B7
 P 14900 4400
 AR Path="/5C16C03C/5DD348B7" Ref="#PWR?"  Part="1" 
@@ -703,7 +703,7 @@ AR Path="/5C16BF8E/5DD348B7" Ref="#PWR?"  Part="1"
 AR Path="/5BD31F9A/5DD348B7" Ref="#PWR0550"  Part="1" 
 AR Path="/5DD348B7" Ref="#PWR0550"  Part="1" 
 F 0 "#PWR0550" H 14900 4250 50  0001 C CNN
-F 1 "+3V3MP" V 14900 4650 50  0000 C CNN
+F 1 "+3.3P" V 14900 4650 50  0000 C CNN
 F 2 "" H 14900 4400 50  0001 C CNN
 F 3 "" H 14900 4400 50  0001 C CNN
 	1    14900 4400
@@ -778,7 +778,7 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5E9F763B
 P 9950 800
 AR Path="/5C16C03C/5E9F763B" Ref="#PWR?"  Part="1" 
@@ -787,7 +787,7 @@ AR Path="/5BD31F9A/5E9F763B" Ref="#PWR0503"  Part="1"
 AR Path="/5C16BF8E/5E9F763B" Ref="#PWR0503"  Part="1" 
 AR Path="/5E9F763B" Ref="#PWR0503"  Part="1" 
 F 0 "#PWR0503" H 9950 650 50  0001 C CNN
-F 1 "+3V3MP" H 9965 973 50  0000 C CNN
+F 1 "+3.3P" H 9965 973 50  0000 C CNN
 F 2 "" H 9950 800 50  0001 C CNN
 F 3 "" H 9950 800 50  0001 C CNN
 	1    9950 800 

@@ -26,166 +26,6 @@ F 3 "" H 8600 5150 50  0000 C CNN
 	1    8600 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13950 7100 13200 7100
-Wire Wire Line
-	13950 7200 13200 7200
-Wire Wire Line
-	13950 7500 13200 7500
-Wire Wire Line
-	13950 7600 13200 7600
-Wire Wire Line
-	13950 4100 13200 4100
-Wire Wire Line
-	13950 4200 13200 4200
-Wire Wire Line
-	13950 7700 13200 7700
-Wire Wire Line
-	13950 7800 13200 7800
-Wire Wire Line
-	13950 3700 13200 3700
-Wire Wire Line
-	13950 3800 13200 3800
-Text GLabel 13950 7100 2    50   Input ~ 0
-FMC2_HB03_P
-Text GLabel 13950 7200 2    50   Input ~ 0
-FMC2_HB03_N
-Text GLabel 13950 7500 2    50   Input ~ 0
-FMC2_HB05_P
-Text GLabel 13950 7600 2    50   Input ~ 0
-FMC2_HB05_N
-Text GLabel 13950 4100 2    50   Input ~ 0
-FMC2_HB09_P
-Text GLabel 13950 4200 2    50   Input ~ 0
-FMC2_HB09_N
-Text GLabel 13950 7700 2    50   Input ~ 0
-FMC2_HB13_P
-Text GLabel 13950 7800 2    50   Input ~ 0
-FMC2_HB13_N
-Text GLabel 13950 3700 2    50   Input ~ 0
-FMC2_HB19_P
-Text GLabel 13950 3800 2    50   Input ~ 0
-FMC2_HB19_N
-Wire Wire Line
-	13950 6500 13200 6500
-Wire Wire Line
-	13950 6600 13200 6600
-Wire Wire Line
-	13950 6300 13200 6300
-Wire Wire Line
-	13950 6400 13200 6400
-Wire Wire Line
-	13950 5900 13200 5900
-Wire Wire Line
-	13950 6000 13200 6000
-Wire Wire Line
-	13950 3900 13200 3900
-Wire Wire Line
-	13950 4000 13200 4000
-Wire Wire Line
-	13950 7300 13200 7300
-Wire Wire Line
-	13950 7400 13200 7400
-Wire Wire Line
-	13950 3100 13200 3100
-Wire Wire Line
-	13950 3200 13200 3200
-Text GLabel 13950 6500 2    50   Input ~ 0
-FMC2_HB02_P
-Text GLabel 13950 6600 2    50   Input ~ 0
-FMC2_HB02_N
-Text GLabel 13950 6300 2    50   Input ~ 0
-FMC2_HB04_P
-Text GLabel 13950 6400 2    50   Input ~ 0
-FMC2_HB04_N
-Text GLabel 13950 5900 2    50   Input ~ 0
-FMC2_HB08_P
-Text GLabel 13950 6000 2    50   Input ~ 0
-FMC2_HB08_N
-Text GLabel 13950 3900 2    50   Input ~ 0
-FMC2_HB12_P
-Text GLabel 13950 4000 2    50   Input ~ 0
-FMC2_HB12_N
-Text GLabel 13950 7300 2    50   Input ~ 0
-FMC2_HB16_P
-Text GLabel 13950 7400 2    50   Input ~ 0
-FMC2_HB16_N
-Text GLabel 13950 3100 2    50   Input ~ 0
-FMC2_HB20_P
-Text GLabel 13950 3200 2    50   Input ~ 0
-FMC2_HB20_N
-Wire Wire Line
-	13950 6700 13200 6700
-Wire Wire Line
-	13950 6800 13200 6800
-Wire Wire Line
-	13950 5700 13200 5700
-Wire Wire Line
-	13950 5800 13200 5800
-Wire Wire Line
-	13950 6100 13200 6100
-Wire Wire Line
-	13950 6200 13200 6200
-Wire Wire Line
-	13950 3500 13200 3500
-Wire Wire Line
-	13950 3600 13200 3600
-Text GLabel 13950 6700 2    50   Input ~ 0
-FMC2_HB01_P
-Text GLabel 13950 6800 2    50   Input ~ 0
-FMC2_HB01_N
-Text GLabel 13950 5700 2    50   Input ~ 0
-FMC2_HB07_P
-Text GLabel 13950 5800 2    50   Input ~ 0
-FMC2_HB07_N
-Text GLabel 13950 6100 2    50   Input ~ 0
-FMC2_HB11_P
-Text GLabel 13950 6200 2    50   Input ~ 0
-FMC2_HB11_N
-Text GLabel 13950 3500 2    50   Input ~ 0
-FMC2_HB15_P
-Text GLabel 13950 3600 2    50   Input ~ 0
-FMC2_HB15_N
-Wire Wire Line
-	13950 5500 13200 5500
-Wire Wire Line
-	13950 5600 13200 5600
-Wire Wire Line
-	13950 5100 13200 5100
-Wire Wire Line
-	13950 5200 13200 5200
-Wire Wire Line
-	13950 3300 13200 3300
-Wire Wire Line
-	13950 3400 13200 3400
-Wire Wire Line
-	13950 5300 13200 5300
-Wire Wire Line
-	13950 5400 13200 5400
-Text GLabel 13950 5500 2    50   Input ~ 0
-FMC2_HB00_CC_P
-Text GLabel 13950 5600 2    50   Input ~ 0
-FMC2_HB00_CC_N
-Text GLabel 13950 5100 2    50   Input ~ 0
-FMC2_HB06_CC_P
-Text GLabel 13950 5200 2    50   Input ~ 0
-FMC2_HB06_CC_N
-Text GLabel 13950 3300 2    50   Input ~ 0
-FMC2_HB10_P
-Text GLabel 13950 3400 2    50   Input ~ 0
-FMC2_HB10_N
-Text GLabel 13950 5300 2    50   Input ~ 0
-FMC2_HB17_CC_P
-Text GLabel 13950 5400 2    50   Input ~ 0
-FMC2_HB17_CC_N
-Text GLabel 13950 7000 2    50   Input ~ 0
-FMC2_HB21_N
-Text GLabel 13950 6900 2    50   Input ~ 0
-FMC2_HB21_P
-Wire Wire Line
-	13950 7000 13200 7000
-Wire Wire Line
-	13950 6900 13200 6900
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5DA36B7E
@@ -255,22 +95,6 @@ Wire Wire Line
 Connection ~ 10100 2250
 Wire Wire Line
 	10100 2250 10200 2250
-Text GLabel 13950 4600 2    50   Input ~ 0
-FMC2_HB18_N
-Text GLabel 13950 4500 2    50   Input ~ 0
-FMC2_HB18_P
-Wire Wire Line
-	13950 4600 13200 4600
-Wire Wire Line
-	13950 4500 13200 4500
-Text GLabel 13950 4400 2    50   Input ~ 0
-FMC2_HB14_N
-Text GLabel 13950 4300 2    50   Input ~ 0
-FMC2_HB14_P
-Wire Wire Line
-	13950 4400 13200 4400
-Wire Wire Line
-	13950 4300 13200 4300
 Text HLabel 5650 5350 0    50   Input ~ 10
 FMC2_CLK0_M2C_P
 Text HLabel 5650 5450 0    50   Input ~ 10
@@ -751,8 +575,8 @@ $Comp
 L Analog_&_Interface:TXB0104D U51
 U 1 1 640BB4BE
 P 2450 3050
-F 0 "U51" H 2750 3123 50  0000 C CNN
-F 1 "TXB0104D" H 2550 1700 50  0000 L CNN
+F 0 "U51" H 2750 3200 50  0000 C CNN
+F 1 "TXB0104D" H 2600 3100 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC127P600X175-14N" H 2450 1500 50  0001 L CNN
 F 3 " " H 2450 1425 50  0001 L CNN
 F 4 "TXB0104D" H 2450 1350 50  0001 L CNN "Part Number"

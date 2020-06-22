@@ -63,8 +63,6 @@ Wire Wire Line
 	9250 3800 8650 3800
 Text Label 6000 4100 0    50   ~ 10
 FPGA_RESETn
-Text Label 6000 4300 0    50   ~ 10
-SW
 Text Label 9600 3900 0    50   ~ 10
 MMC_TDO
 Text Label 9600 6700 0    50   ~ 10
@@ -94,21 +92,6 @@ LPC_ISPn
 Wire Wire Line
 	3400 2100 4250 2100
 $Comp
-L power:+3.3VP #PWR?
-U 1 1 5C07B6F7
-P 9800 1250
-AR Path="/5C16C03C/5C07B6F7" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5C07B6F7" Ref="#PWR0379"  Part="1" 
-AR Path="/5C16BF8E/5C07B6F7" Ref="#PWR0379"  Part="1" 
-AR Path="/5C07B6F7" Ref="#PWR0379"  Part="1" 
-F 0 "#PWR0379" H 9800 1100 50  0001 C CNN
-F 1 "+3V3MP" H 9815 1423 50  0000 C CNN
-F 2 "" H 9800 1250 50  0001 C CNN
-F 3 "" H 9800 1250 50  0001 C CNN
-	1    9800 1250
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5C0DF4ED
 P 8900 1550
@@ -122,7 +105,7 @@ F 3 "" H 8900 1550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5C12CD30
 P 1750 7200
 AR Path="/5C16C03C/5C12CD30" Ref="#PWR?"  Part="1" 
@@ -130,14 +113,14 @@ AR Path="/5BCEDA39/5C12CD30" Ref="#PWR0380"  Part="1"
 AR Path="/5C16BF8E/5C12CD30" Ref="#PWR0380"  Part="1" 
 AR Path="/5C12CD30" Ref="#PWR0380"  Part="1" 
 F 0 "#PWR0380" H 1750 7050 50  0001 C CNN
-F 1 "+3V3MP" H 1765 7373 50  0000 C CNN
+F 1 "+3.3P" H 1765 7373 50  0000 C CNN
 F 2 "" H 1750 7200 50  0001 C CNN
 F 3 "" H 1750 7200 50  0001 C CNN
 	1    1750 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5C132FDD
 P 1750 7850
 AR Path="/5C16C03C/5C132FDD" Ref="#PWR?"  Part="1" 
@@ -145,7 +128,7 @@ AR Path="/5BCEDA39/5C132FDD" Ref="#PWR0381"  Part="1"
 AR Path="/5C16BF8E/5C132FDD" Ref="#PWR0381"  Part="1" 
 AR Path="/5C132FDD" Ref="#PWR0381"  Part="1" 
 F 0 "#PWR0381" H 1750 7700 50  0001 C CNN
-F 1 "+3V3MP" H 1765 8023 50  0000 C CNN
+F 1 "+3.3P" H 1765 8023 50  0000 C CNN
 F 2 "" H 1750 7850 50  0001 C CNN
 F 3 "" H 1750 7850 50  0001 C CNN
 	1    1750 7850
@@ -199,8 +182,6 @@ Wire Wire Line
 	5750 6500 6850 6500
 Text HLabel 5450 4100 0    50   Input ~ 10
 FPGA_RESETn
-Text HLabel 5450 4300 0    50   Input ~ 10
-SW
 $Comp
 L power:GND #PWR?
 U 1 1 5BF6CC29
@@ -366,21 +347,6 @@ Wire Wire Line
 	5650 4100 6850 4100
 Wire Wire Line
 	5650 4750 5650 4800
-$Comp
-L power:+3.3VP #PWR?
-U 1 1 5CBE8360
-P 5750 3750
-AR Path="/5C16C03C/5CBE8360" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5CBE8360" Ref="#PWR0388"  Part="1" 
-AR Path="/5C16BF8E/5CBE8360" Ref="#PWR0388"  Part="1" 
-AR Path="/5CBE8360" Ref="#PWR0388"  Part="1" 
-F 0 "#PWR0388" H 5750 3600 50  0001 C CNN
-F 1 "+3V3MP" H 5765 3923 50  0000 C CNN
-F 2 "" H 5750 3750 50  0001 C CNN
-F 3 "" H 5750 3750 50  0001 C CNN
-	1    5750 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10450 4200 8950 4200
 Wire Wire Line
@@ -489,7 +455,7 @@ Text HLabel 5000 5300 0    50   Input ~ 10
 FPGA_DONE
 Text Label 10250 5300 2    50   ~ 10
 PROG_B
-Text Label 5250 5300 0    50   ~ 10
+Text Label 5400 5300 0    50   ~ 10
 FPGA_DONE
 $Comp
 L Capacitors_SMD:CC0402_100PF_50V_5%_C0G C102
@@ -891,55 +857,6 @@ F 40 "Resistors SMD" H 6400 1980 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6400 1890 60  0001 L CNN "License"
 	1    6400 5700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R143
-U 1 1 5CCBC9D1
-P 5750 3750
-F 0 "R143" V 5750 3750 50  0000 L CNN
-F 1 "R0402_10K_1%_0.0625W_100PPM" H 5750 3540 60  0001 L CNN
-F 2 "RESC1005X40N" H 5750 2730 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5750 3360 60  0001 L CNN
-F 4 "10k" V 6050 3750 50  0000 L CNN "~"
-F 5 "R0402_10K_1%_0.0625W_100PPM" H 5750 3270 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 5750 3180 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 5750 3090 60  0001 L CNN "Library Path"
-F 8 "=Value" H 5750 3000 60  0001 L CNN "Comment"
-F 9 "Standard" H 5750 2910 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 5750 2820 60  0001 L CNN "Component Type"
-F 11 "~~" H 5750 2640 60  0001 L CNN "PackageDescription"
-F 12 "2" H 5750 2550 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 5750 2460 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 5750 2370 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 5750 2280 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 5750 2190 60  0001 L CNN "Status"
-F 17 "0.0625W" H 5750 2100 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 5750 2010 60  0001 L CNN "TC"
-F 19 "~~" H 5750 1920 60  0001 L CNN "Voltage"
-F 20 "±1%" H 5750 1830 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 5750 1740 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 5750 1650 60  0001 L CNN "Manufacturer"
-F 23 "R0402_10K_1%_0.0625W_100PPM" H 5750 1560 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 5750 1470 60  0001 L CNN "Case"
-F 25 "No" H 5750 1380 60  0001 L CNN "PressFit"
-F 26 "Yes" H 5750 1290 60  0001 L CNN "Mounted"
-F 27 "~~" H 5750 1200 60  0001 L CNN "Sense Comment"
-F 28 "No" H 5750 1110 60  0001 L CNN "Sense"
-F 29 "~~" H 5750 1020 60  0001 L CNN "Status Comment"
-F 30 "No" H 5750 930 60  0001 L CNN "Socket"
-F 31 "Yes" H 5750 840 60  0001 L CNN "SMD"
-F 32 "~~" H 5750 750 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 5750 660 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270671003L" H 5750 570 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 5750 480 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5750 390 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 5750 300 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 5750 210 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 5750 120 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 5750 30  60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5750 -60 60  0001 L CNN "License"
-	1    5750 3750
-	0    1    1    0   
 $EndComp
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R142
@@ -2291,7 +2208,7 @@ Wire Wire Line
 	11750 1500 11550 1500
 Connection ~ 11550 1500
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5DD043F6
 P 11550 1200
 AR Path="/5C16C03C/5DD043F6" Ref="#PWR?"  Part="1" 
@@ -2299,7 +2216,7 @@ AR Path="/5BCEDA39/5DD043F6" Ref="#PWR0635"  Part="1"
 AR Path="/5C16BF8E/5DD043F6" Ref="#PWR?"  Part="1" 
 AR Path="/5DD043F6" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0635" H 11550 1050 50  0001 C CNN
-F 1 "+3V3MP" H 11565 1373 50  0000 C CNN
+F 1 "+3.3P" H 11565 1373 50  0000 C CNN
 F 2 "" H 11550 1200 50  0001 C CNN
 F 3 "" H 11550 1200 50  0001 C CNN
 	1    11550 1200
@@ -2568,7 +2485,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 3650 13150 3400
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5E716956
 P 13150 2800
 AR Path="/5C16C03C/5E716956" Ref="#PWR?"  Part="1" 
@@ -2576,14 +2493,14 @@ AR Path="/5BCEDA39/5E716956" Ref="#PWR0638"  Part="1"
 AR Path="/5C16BF8E/5E716956" Ref="#PWR?"  Part="1" 
 AR Path="/5E716956" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0638" H 13150 2650 50  0001 C CNN
-F 1 "+3V3MP" H 13165 2973 50  0000 C CNN
+F 1 "+3.3P" H 13165 2973 50  0000 C CNN
 F 2 "" H 13150 2800 50  0001 C CNN
 F 3 "" H 13150 2800 50  0001 C CNN
 	1    13150 2800
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5E72749D
 P 12800 2800
 AR Path="/5C16C03C/5E72749D" Ref="#PWR?"  Part="1" 
@@ -2591,14 +2508,14 @@ AR Path="/5BCEDA39/5E72749D" Ref="#PWR0639"  Part="1"
 AR Path="/5C16BF8E/5E72749D" Ref="#PWR?"  Part="1" 
 AR Path="/5E72749D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0639" H 12800 2650 50  0001 C CNN
-F 1 "+3V3MP" H 12815 2973 50  0000 C CNN
+F 1 "+3.3P" H 12815 2973 50  0000 C CNN
 F 2 "" H 12800 2800 50  0001 C CNN
 F 3 "" H 12800 2800 50  0001 C CNN
 	1    12800 2800
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5E737FE0
 P 12450 2800
 AR Path="/5C16C03C/5E737FE0" Ref="#PWR?"  Part="1" 
@@ -2606,7 +2523,7 @@ AR Path="/5BCEDA39/5E737FE0" Ref="#PWR0640"  Part="1"
 AR Path="/5C16BF8E/5E737FE0" Ref="#PWR?"  Part="1" 
 AR Path="/5E737FE0" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0640" H 12450 2650 50  0001 C CNN
-F 1 "+3V3MP" H 12465 2973 50  0000 C CNN
+F 1 "+3.3P" H 12465 2973 50  0000 C CNN
 F 2 "" H 12450 2800 50  0001 C CNN
 F 3 "" H 12450 2800 50  0001 C CNN
 	1    12450 2800
@@ -2971,7 +2888,7 @@ Wire Wire Line
 	2950 3000 5450 3000
 Connection ~ 2950 3200
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5FA7335E
 P 7450 1550
 AR Path="/5C16C03C/5FA7335E" Ref="#PWR?"  Part="1" 
@@ -3041,13 +2958,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    7750 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 4300 5750 4300
-Wire Wire Line
-	5750 4050 5750 4300
-Connection ~ 5750 4300
-Wire Wire Line
-	5750 4300 6850 4300
 Text Label 9600 4000 0    50   ~ 10
 MMC_TRST
 Wire Wire Line
@@ -3626,7 +3536,7 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 6326E465
 P 11850 5150
 AR Path="/5C16C03C/6326E465" Ref="#PWR?"  Part="1" 
@@ -3636,7 +3546,7 @@ AR Path="/5C16BF8E/6326E465" Ref="#PWR?"  Part="1"
 AR Path="/6326E465" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA3D/6326E465" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0804" H 11850 5000 50  0001 C CNN
-F 1 "+3V3MP" H 11865 5323 50  0000 C CNN
+F 1 "+3.3P" H 11865 5323 50  0000 C CNN
 F 2 "" H 11850 5150 50  0001 C CNN
 F 3 "" H 11850 5150 50  0001 C CNN
 	1    11850 5150
@@ -3655,6 +3565,87 @@ Wire Wire Line
 	11350 5650 12050 5650
 Wire Wire Line
 	12050 5650 12050 5500
+$Comp
+L power2:+3.3P #PWR?
+U 1 1 5C07B6F7
+P 9800 1250
+AR Path="/5C16C03C/5C07B6F7" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5C07B6F7" Ref="#PWR0596"  Part="1" 
+AR Path="/5C16BF8E/5C07B6F7" Ref="#PWR0379"  Part="1" 
+AR Path="/5C07B6F7" Ref="#PWR0379"  Part="1" 
+F 0 "#PWR0596" H 9800 1100 50  0001 C CNN
+F 1 "+3.3P" H 9815 1423 50  0000 C CNN
+F 2 "" H 9800 1250 50  0001 C CNN
+F 3 "" H 9800 1250 50  0001 C CNN
+	1    9800 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R21
+U 1 1 5F2FE266
+P 6100 2100
+F 0 "R21" H 6350 2150 50  0000 L CNN
+F 1 "R0402_10K_1%_0.0625W_100PPM" H 6100 1890 60  0001 L CNN
+F 2 "RESC1005X40N" H 6100 1080 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6100 1710 60  0001 L CNN
+F 4 "10k" H 6000 2150 50  0000 L CNN "~"
+F 5 "R0402_10K_1%_0.0625W_100PPM" H 6100 1620 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 6100 1530 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6100 1440 60  0001 L CNN "Library Path"
+F 8 "=Value" H 6100 1350 60  0001 L CNN "Comment"
+F 9 "Standard" H 6100 1260 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 6100 1170 60  0001 L CNN "Component Type"
+F 11 "~~" H 6100 990 60  0001 L CNN "PackageDescription"
+F 12 "2" H 6100 900 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 6100 810 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 6100 720 60  0001 L CNN "Footprint Ref"
+F 15 "10k" H 6100 630 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 6100 540 60  0001 L CNN "Status"
+F 17 "0.0625W" H 6100 450 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 6100 360 60  0001 L CNN "TC"
+F 19 "~~" H 6100 270 60  0001 L CNN "Voltage"
+F 20 "±1%" H 6100 180 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 6100 90  60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 6100 0   60  0001 L CNN "Manufacturer"
+F 23 "R0402_10K_1%_0.0625W_100PPM" H 6100 -90 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 6100 -180 60  0001 L CNN "Case"
+F 25 "No" H 6100 -270 60  0001 L CNN "PressFit"
+F 26 "Yes" H 6100 -360 60  0001 L CNN "Mounted"
+F 27 "~~" H 6100 -450 60  0001 L CNN "Sense Comment"
+F 28 "No" H 6100 -540 60  0001 L CNN "Sense"
+F 29 "~~" H 6100 -630 60  0001 L CNN "Status Comment"
+F 30 "No" H 6100 -720 60  0001 L CNN "Socket"
+F 31 "Yes" H 6100 -810 60  0001 L CNN "SMD"
+F 32 "~~" H 6100 -900 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 6100 -990 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671003L" H 6100 -1080 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 6100 -1170 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6100 -1260 60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 6100 -1350 60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 6100 -1440 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 6100 -1530 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 6100 -1620 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6100 -1710 60  0001 L CNN "License"
+	1    6100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F316A92
+P 6050 2100
+AR Path="/5BD32060/5F316A92" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5F316A92" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6050 1850 50  0001 C CNN
+F 1 "GND" H 6055 1927 50  0000 C CNN
+F 2 "" H 6050 2100 50  0001 C CNN
+F 3 "" H 6050 2100 50  0001 C CNN
+	1    6050 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 2100 6100 2100
+Wire Wire Line
+	6400 2100 6850 2100
 Wire Bus Line
 	9350 3500 9350 3700
 Wire Bus Line

@@ -523,32 +523,6 @@ X GNDDetect 9 -100 -600 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001-AMC_FMC_Carrier-PcbDoc-rescue
-#
-DEF AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001-AMC_FMC_Carrier-PcbDoc-rescue S 0 30 Y Y 1 F N
-F0 "S" 1050 300 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_HDT0001-HDT0001-AMC_FMC_Carrier-PcbDoc-rescue" 1050 200 50 H V L CNN
-F2 "HDT0001" 1050 100 50 H I L CNN
-F3 "https://www.ckswitches.com/media/1307/hdt.pdf" 1050 0 50 H I L CNN
-F4 "HDT0001 (Detector Switches)" 1050 -100 50 H I L CNN "Description"
-F5 "3" 1050 -200 50 H I L CNN "Height"
-F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer_Name"
-F7 "HDT0001" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "7931598" 1050 -500 50 H I L CNN "RS Part Number"
-F9 "http://uk.rs-online.com/web/p/products/7931598" 1050 -600 50 H I L CNN "RS Price/Stock"
-F10 "70417475" 1050 -700 50 H I L CNN "Allied_Number"
-F11 "https://www.alliedelec.com/c-k-hdt0001/70417475/" 1050 -800 50 H I L CNN "Allied Price/Stock"
-F12 "611-HDT0001" 1050 -900 50 H I L CNN "Mouser Part Number"
-F13 "https://www.mouser.com/Search/Refine.aspx?Keyword=611-HDT0001" 1050 -1000 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
-X NO_1 1 0 0 200 R 50 50 0 0 B
-X NO_2 2 0 -100 200 R 50 50 0 0 B
-X COM_1 3 1200 0 200 L 50 50 0 0 B
-X COM_2 4 1200 -100 200 L 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
 # AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
 DEF AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
@@ -2116,76 +2090,6 @@ X SCL 5 900 -200 200 L 60 60 0 1 I
 X SDA 6 900 -100 200 L 60 60 0 1 B
 X A0 7 900 -300 200 L 60 60 0 1 I
 X A1 8 900 -400 200 L 60 60 0 1 I
-ENDDRAW
-ENDDEF
-#
-# Analog_&_Interface_LSF0108PWR
-#
-DEF Analog_&_Interface_LSF0108PWR IC 0 50 Y Y 1 L N
-F0 "IC" 300 50 50 H V C CNN
-F1 "Analog_&_Interface_LSF0108PWR" 0 -1575 50 H I L CNN
-F2 "ICs And Semiconductors SMD:SOP65P640X120-20N" 0 -1650 50 H I L CNN
-F3 " " 0 -1725 50 H I L CNN
-F4 "LSF0108PWR" 0 -1800 50 H I L CNN "Part Number"
-F5 "LSF0108PWR" 0 -1875 50 H I L CNN "Library Ref"
-F6 "SchLib\\Analog & Interface.SchLib" 0 -1950 50 H I L CNN "Library Path"
-F7 "LSF0108PWR" 0 -2025 50 H I L CNN "Comment"
-F8 "Standard" 0 -2100 50 H I L CNN "Component Kind"
-F9 "Standard" 0 -2175 50 H I L CNN "Component Type"
-F10 "LSF0108PWR" 0 -2250 50 H I L CNN "Device"
-F11 "SOP, 20-Leads, Body 6.5x4.4mm, Pitch 0.65mm, IPC Medium Density" 0 -2325 50 H I L CNN "PackageDescription"
-F12 " " 0 -2400 50 H I L CNN "Status"
-F13 "8 Channel Bidirectional Multi-Voltage Level Translator for Open-Drain and Push-Pull Application" 0 -2475 50 H I L CNN "Part Description"
-F14 "TEXAS INSTRUMENTS" 0 -2550 50 H I L CNN "Manufacturer"
-F15 "LSF0108PWR" 0 -2625 50 H I L CNN "Manufacturer Part Number"
-F16 "20" 0 -2700 50 H I L CNN "Pin Count"
-F17 "TSSOP20" 0 -2775 50 H I L CNN "Case"
-F18 "Yes" 0 -2850 50 H I L CNN "Mounted"
-F19 "No" 0 -2925 50 H I L CNN "Socket"
-F20 "Yes" 0 -3000 50 H I L CNN "SMD"
-F21 "No" 0 -3075 50 H I L CNN "PressFit"
-F22 "No" 0 -3150 50 H I L CNN "Sense"
-F23 " " 0 -3225 50 H I L CNN "Sense Comment"
-F24 "No" 0 -3300 50 H I L CNN "Bonding"
-F25 " " 0 -3375 50 H I L CNN "Status Comment"
-F26 "1.2mm" 0 -3450 50 H I L CNN "ComponentHeight"
-F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -3525 50 H I L CNN "Footprint Path"
-F28 "SOP65P640X120-20N" 0 -3600 50 H I L CNN "Footprint Ref"
-F29 "CERN DEM JLC" 0 -3675 50 H I L CNN "Author"
-F30 " " 0 -3750 50 H I L CNN "ComponentLink2Description"
-F31 " " 0 -3825 50 H I L CNN "ComponentLink1Description"
-F32 "04/17/18 00:00:00" 0 -3900 50 H I L CNN "CreateDate"
-F33 "04/17/18 00:00:00" 0 -3975 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -4050 50 H I L CNN "SCEM"
-F35 "Analog & Interface" 0 -4125 50 H I L CNN "Database Table Name"
-F36 "ICs And Semiconductors.DbLib" 0 -4200 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -4275 50 H I L CNN "Footprint Library"
-F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -4350 50 H I L CNN "License"
-DRAW
-T 0 30 -1300 50 1 0 1 GND Normal 0 L C
-T 0 30 -1200 50 1 0 1 VREFA Normal 0 L C
-T 0 570 -1300 50 1 0 1 VREFB Normal 0 R C
-S 0 -1400 600 0 0 1 0 f
-X GND 1 -200 -1300 200 R 60 0 0 1 W
-X A8 10 -200 -1000 200 R 60 60 0 1 B
-X B8 11 800 -1000 200 L 60 60 0 1 B
-X B7 12 800 -900 200 L 60 60 0 1 B
-X B6 13 800 -800 200 L 60 60 0 1 B
-X B5 14 800 -700 200 L 60 60 0 1 B
-X B4 15 800 -600 200 L 60 60 0 1 B
-X B3 16 800 -500 200 L 60 60 0 1 B
-X B2 17 800 -400 200 L 60 60 0 1 B
-X B1 18 800 -300 200 L 60 60 0 1 B
-X VREFB 19 800 -1300 200 L 60 0 0 1 W
-X VREFA 2 -200 -1200 200 R 60 0 0 1 W
-X EN 20 -200 -100 200 R 60 60 0 1 I
-X A1 3 -200 -300 200 R 60 60 0 1 B
-X A2 4 -200 -400 200 R 60 60 0 1 B
-X A3 5 -200 -500 200 R 60 60 0 1 B
-X A4 6 -200 -600 200 R 60 60 0 1 B
-X A5 7 -200 -700 200 R 60 60 0 1 B
-X A6 8 -200 -800 200 R 60 60 0 1 B
-X A7 9 -200 -900 200 R 60 60 0 1 B
 ENDDRAW
 ENDDEF
 #
@@ -10964,6 +10868,20 @@ X D 3 250 250 120 D 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
+# power2_+3.3P
+#
+DEF power2_+3.3P #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 150 -50 50 H I C CNN
+F1 "power2_+3.3P" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 3 0 1 0 0 0 0 40 0 40 N
+P 7 0 1 0 20 30 0 40 -20 30 -10 70 10 70 20 30 20 30 N
+X +3.3P 1 0 0 0 U 50 50 0 0 W N
+ENDDRAW
+ENDDEF
+#
 # power_+12V
 #
 DEF power_+12V #PWR 0 0 Y Y 1 F P
@@ -11036,20 +10954,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +2V5 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+3.3VP
-#
-DEF power_+3.3VP #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 150 -50 50 H I C CNN
-F1 "power_+3.3VP" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 3 0 1 0 0 0 0 40 0 40 N
-P 7 0 1 0 20 30 0 40 -20 30 -10 70 10 70 20 30 20 30 N
-X +3.3VP 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #

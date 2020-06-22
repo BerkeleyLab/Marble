@@ -1333,7 +1333,7 @@ AR Path="/5BCEDA39/5E9BF6F9" Ref="J?"  Part="1"
 AR Path="/5CA40231/5E9BF6F9" Ref="J14"  Part="1" 
 F 0 "J14" H 5400 4700 50  0000 R CNN
 F 1 "GRPB052VWQP-RC" H 5400 4600 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 5600 3500 50  0001 L TNN
+F 2 "SAMTEC SMD:SAMTEC_FTSH-105-01-L-DV-K" H 5600 3500 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 5200 2800 50  0001 C CNN
 F 4 "GRPB052VWQP-RC" H 5550 4050 50  0001 C CNN "Manufacturer Part Number"
 	1    5550 4050
@@ -2235,7 +2235,7 @@ F 3 "" H 5900 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5D430167
 P 5450 1050
 AR Path="/5C16C03C/5D430167" Ref="#PWR?"  Part="1" 
@@ -2245,14 +2245,14 @@ AR Path="/5C16BF8E/5D430167" Ref="#PWR?"  Part="1"
 AR Path="/5CA40231/5D430167" Ref="#PWR0317"  Part="1" 
 AR Path="/5D430167" Ref="#PWR0317"  Part="1" 
 F 0 "#PWR0317" H 5450 900 50  0001 C CNN
-F 1 "+3V3MP" H 5465 1223 50  0000 C CNN
+F 1 "+3.3P" H 5465 1223 50  0000 C CNN
 F 2 "" H 5450 1050 50  0001 C CNN
 F 3 "" H 5450 1050 50  0001 C CNN
 	1    5450 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5D4357CC
 P 5900 1050
 AR Path="/5C16C03C/5D4357CC" Ref="#PWR?"  Part="1" 
@@ -2262,14 +2262,14 @@ AR Path="/5C16BF8E/5D4357CC" Ref="#PWR?"  Part="1"
 AR Path="/5CA40231/5D4357CC" Ref="#PWR0322"  Part="1" 
 AR Path="/5D4357CC" Ref="#PWR0322"  Part="1" 
 F 0 "#PWR0322" H 5900 900 50  0001 C CNN
-F 1 "+3V3MP" H 5915 1223 50  0000 C CNN
+F 1 "+3.3P" H 5915 1223 50  0000 C CNN
 F 2 "" H 5900 1050 50  0001 C CNN
 F 3 "" H 5900 1050 50  0001 C CNN
 	1    5900 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5D440498
 P 5550 3450
 AR Path="/5C16C03C/5D440498" Ref="#PWR?"  Part="1" 
@@ -2279,14 +2279,14 @@ AR Path="/5C16BF8E/5D440498" Ref="#PWR?"  Part="1"
 AR Path="/5CA40231/5D440498" Ref="#PWR0324"  Part="1" 
 AR Path="/5D440498" Ref="#PWR0324"  Part="1" 
 F 0 "#PWR0324" H 5550 3300 50  0001 C CNN
-F 1 "+3V3MP" H 5565 3623 50  0000 C CNN
+F 1 "+3.3P" H 5565 3623 50  0000 C CNN
 F 2 "" H 5550 3450 50  0001 C CNN
 F 3 "" H 5550 3450 50  0001 C CNN
 	1    5550 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5D445B1A
 P 6000 2050
 AR Path="/5C16C03C/5D445B1A" Ref="#PWR?"  Part="1" 
@@ -2303,7 +2303,7 @@ F 3 "" H 6000 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5D460C62
 P 8400 2050
 AR Path="/5C16C03C/5D460C62" Ref="#PWR?"  Part="1" 
@@ -2320,7 +2320,7 @@ F 3 "" H 8400 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3VP #PWR?
+L power2:+3.3P #PWR?
 U 1 1 5D46B90D
 P 2300 5350
 AR Path="/5C16C03C/5D46B90D" Ref="#PWR?"  Part="1" 
@@ -2330,7 +2330,7 @@ AR Path="/5C16BF8E/5D46B90D" Ref="#PWR?"  Part="1"
 AR Path="/5CA40231/5D46B90D" Ref="#PWR0609"  Part="1" 
 AR Path="/5D46B90D" Ref="#PWR0609"  Part="1" 
 F 0 "#PWR0609" H 2300 5200 50  0001 C CNN
-F 1 "+3V3MP" H 2315 5523 50  0000 C CNN
+F 1 "+3.3P" H 2315 5523 50  0000 C CNN
 F 2 "" H 2300 5350 50  0001 C CNN
 F 3 "" H 2300 5350 50  0001 C CNN
 	1    2300 5350
