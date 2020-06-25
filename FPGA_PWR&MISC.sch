@@ -912,56 +912,6 @@ Text Label 10000 6150 0    50   ~ 10
 PROG_B
 Text HLabel 12250 6150 2    50   Input ~ 10
 PROG_B
-$Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue PB1
-U 1 1 5C6A56F0
-P 11350 6550
-F 0 "PB1" H 11650 6765 50  0000 C CNN
-F 1 "PB_TYCO_FSM2JSMA" H 11350 6380 60  0001 L CNN
-F 2 "PB_TYCO_FSM2JSMA" H 11350 5570 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PB_TYCO_FSM2JSMA.pdf" H 11350 6200 60  0001 L CNN
-F 4 "Push Button" H 11350 6110 60  0001 L CNN "Pole4"
-F 5 "PB_TYCO_FSM2JSMA" H 11350 6110 60  0001 L CNN "Part Number"
-F 6 "PB SPST 12NO-34NO" H 11350 6020 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Switches.SchLib" H 11350 5930 60  0001 L CNN "Library Path"
-F 8 "~~" H 11350 5840 60  0001 L CNN "Comment"
-F 9 "Standard" H 11350 5750 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 11350 5660 60  0001 L CNN "Component Type"
-F 11 "4" H 11350 5480 60  0001 L CNN "Pin Count"
-F 12 "~~" H 11350 5390 60  0001 L CNN "Case"
-F 13 "PcbLib\\Switches.PcbLib" H 11350 5300 60  0001 L CNN "Footprint Path"
-F 14 "PB_TYCO_FSM2JSMA" H 11350 5210 60  0001 L CNN "Footprint Ref"
-F 15 "Body 6mm x 6mm, Surface Mount Tactile Switches, TYCO ALCOSWITCH FSMJSMA Series" H 11350 5120 60  0001 L CNN "PackageDescription"
-F 16 "Push Button" H 11350 5030 60  0001 L CNN "Family"
-F 17 "Yes" H 11350 4940 60  0001 L CNN "Mounted"
-F 18 "No" H 11350 4850 60  0001 L CNN "Socket"
-F 19 "Yes" H 11350 4760 60  0001 L CNN "SMD"
-F 20 "No" H 11350 4670 60  0001 L CNN "PressFit"
-F 21 "No" H 11350 4580 60  0001 L CNN "Sense"
-F 22 "~~" H 11350 4490 60  0001 L CNN "Sense Comment"
-F 23 "None" H 11350 4400 60  0001 L CNN "Status"
-F 24 "~~" H 11350 4310 60  0001 L CNN "Status Comment"
-F 25 "~~" H 11350 4220 60  0001 L CNN "SCEM"
-F 26 "12VDC 50mA SPST Tactile  Push-Button Switch" H 11350 4130 60  0001 L CNN "Part Description"
-F 27 "TYCO ELECTRONICS" H 11350 4040 60  0001 L CNN "Manufacturer"
-F 28 "FSM2JSMA or  2-1437565-7" H 11350 3950 60  0001 L CNN "Manufacturer Part Number"
-F 29 "4.59mm" H 11350 3860 60  0001 L CNN "ComponentHeight"
-F 30 "~~" H 11350 3770 60  0001 L CNN "Manufacturer1 Example"
-F 31 "~~" H 11350 3680 60  0001 L CNN "Manufacturer1 Part Number"
-F 32 "~~" H 11350 3590 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 33 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PB_TYCO_FSM2JSMA.pdf" H 11350 3500 60  0001 L CNN "HelpURL"
-F 34 "~~" H 11350 3410 60  0001 L CNN "ComponentLink1URL"
-F 35 "~~" H 11350 3320 60  0001 L CNN "ComponentLink1Description"
-F 36 "~~" H 11350 3230 60  0001 L CNN "ComponentLink2URL"
-F 37 "~~" H 11350 3140 60  0001 L CNN "ComponentLink2Description"
-F 38 "CERN DEM JLC" H 11350 3050 60  0001 L CNN "Author"
-F 39 "09/08/08 00:00:00" H 11350 2960 60  0001 L CNN "CreateDate"
-F 40 "06/21/12 00:00:00" H 11350 2870 60  0001 L CNN "LatestRevisionDate"
-F 41 "Switches" H 11350 2780 60  0001 L CNN "Library Name"
-F 42 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11350 2690 60  0001 L CNN "License"
-	1    11350 6550
-	1    0    0    -1  
-$EndComp
 Connection ~ 11350 6150
 Wire Wire Line
 	11350 6150 11350 6550
@@ -7801,6 +7751,25 @@ Wire Wire Line
 	4400 10400 4700 10400
 Wire Wire Line
 	4400 10700 4700 10700
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5EFF372A
+P 11650 6550
+AR Path="/5EFF372A" Ref="SW?"  Part="1" 
+AR Path="/5BCEDA39/5EFF372A" Ref="SW?"  Part="1" 
+AR Path="/5C907554/5C417BCB/5EFF372A" Ref="SW5"  Part="1" 
+F 0 "SW5" H 11650 6750 50  0000 C CNN
+F 1 "KSS241GLFS" H 11650 6744 50  0001 C CNN
+F 2 "Marble:KSS241GLFS" H 11650 6750 50  0001 C CNN
+F 3 "KSS241GLFS" H 11650 6750 50  0001 C CNN
+F 4 "KSS241GLFS" H 11650 6550 50  0001 C CNN "Manufacturer Part Number"
+	1    11650 6550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 6550 11950 6550
+Wire Wire Line
+	11450 6550 11350 6550
 Wire Bus Line
 	13550 4750 13550 4950
 $EndSCHEMATC

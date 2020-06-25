@@ -892,236 +892,10 @@ BE 3E 37 37 97 A2 BA 5F CD 8B FC 7F 3B 77 8C C2 20 0C 86 61 78 53 10 2C 88 B3 7A
 60 82 
 EndData
 $EndBitmap
-$Comp
-L Switches:SW_DIPTRONICS_DHA-04TQ SW4
-U 1 1 5E43AF58
-P 7650 1400
-F 0 "SW4" H 7850 1473 50  0000 C CNN
-F 1 "SW_DIPTRONICS_DHA-04TQ" H 7650 825 50  0001 L CNN
-F 2 "Switches:SW_DIPTRONICS_DHA-04TQ" H 7650 750 50  0001 L CNN
-F 3 " " H 7650 675 50  0001 L CNN
-F 4 "Switch" H 7650 -225 50  0001 L CNN "Family"
-F 5 "SW_DIPTRONICS_DHA-04TQ" H 7650 600 50  0001 L CNN "Part Number"
-F 6 "SW 4x SPST DIP Switch" H 7650 525 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Switches.SchLib" H 7650 450 50  0001 L CNN "Library Path"
-F 8 " " H 7650 375 50  0001 L CNN "Comment"
-F 9 "Standard" H 7650 300 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 7650 225 50  0001 L CNN "Component Type"
-F 11 "8" H 7650 150 50  0001 L CNN "Pin Count"
-F 12 " " H 7650 75  50  0001 L CNN "Case"
-F 13 "PcbLib\\Switches.PcbLib" H 7650 0   50  0001 L CNN "Footprint Path"
-F 14 "SW_DIPTRONICS_DHA-04TQ" H 7650 -75 50  0001 L CNN "Footprint Ref"
-F 15 "Pitch 1.27mm,  Body 6.2x6.2mm, 4 Ways SPST Surface-Mount DIP Switch, DIPTRONICS DHA Series" H 7650 -150 50  0001 L CNN "PackageDescription"
-F 16 "Yes" H 7650 -300 50  0001 L CNN "Mounted"
-F 17 "No" H 7650 -375 50  0001 L CNN "Socket"
-F 18 "Yes" H 7650 -450 50  0001 L CNN "SMD"
-F 19 "No" H 7650 -525 50  0001 L CNN "PressFit"
-F 20 "No" H 7650 -600 50  0001 L CNN "Sense"
-F 21 " " H 7650 -675 50  0001 L CNN "Sense Comment"
-F 22 "None" H 7650 -750 50  0001 L CNN "Status"
-F 23 " " H 7650 -825 50  0001 L CNN "Status Comment"
-F 24 " " H 7650 -900 50  0001 L CNN "SCEM"
-F 25 "4 Way SPST SMD DIP Switch, Latched, Contact Rating 25mA 24VDC, DHA Series" H 7650 -975 50  0001 L CNN "Part Description"
-F 26 "DIPTRONICS" H 7650 -1050 50  0001 L CNN "Manufacturer"
-F 27 "DHA-04TQ" H 7650 -1125 50  0001 L CNN "Manufacturer Part Number"
-F 28 "2.3mm" H 7650 -1200 50  0001 L CNN "ComponentHeight"
-F 29 " " H 7650 -1275 50  0001 L CNN "Manufacturer1 Example"
-F 30 " " H 7650 -1350 50  0001 L CNN "Manufacturer1 Part Number"
-F 31 " " H 7650 -1425 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 32 " " H 7650 -1500 50  0001 L CNN "ComponentLink1Description"
-F 33 " " H 7650 -1575 50  0001 L CNN "ComponentLink2Description"
-F 34 "CERN DEM JLC" H 7650 -1650 50  0001 L CNN "Author"
-F 35 "05/30/17 00:00:00" H 7650 -1725 50  0001 L CNN "CreateDate"
-F 36 "05/30/17 00:00:00" H 7650 -1800 50  0001 L CNN "LatestRevisionDate"
-F 37 "Switches" H 7650 -1875 50  0001 L CNN "Database Table Name"
-F 38 "Eletro-mechanical.DbLib" H 7650 -1950 50  0001 L CNN "Library Name"
-F 39 "Switches" H 7650 -2025 50  0001 L CNN "Footprint Library"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7650 -2100 50  0001 L CNN "License"
-	1    7650 1400
-	1    0    0    -1  
-$EndComp
-Text Label 8300 1500 0    50   ~ 0
-MGT_MUX_PD
 Wire Wire Line
 	7600 3800 8100 3800
-Text Label 7600 3800 0    50   ~ 0
-MUX1_SEL
 Wire Wire Line
 	7600 5650 8100 5650
-Text Label 7600 5650 0    50   ~ 0
-MUX2_SEL
-Text Label 8300 1800 0    50   ~ 0
-MUX3_SEL
-Text Label 8300 1700 0    50   ~ 0
-MUX2_SEL
-Text Label 8300 1600 0    50   ~ 0
-MUX1_SEL
-Wire Wire Line
-	7450 1600 7450 1700
-Connection ~ 7450 1700
-Wire Wire Line
-	7450 1700 7450 1800
-$Comp
-L Diodes:BAT165 D?
-U 1 1 5E4A58EC
-P 10150 1600
-AR Path="/5BCEDA39/5E4A58EC" Ref="D?"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5E4A58EC" Ref="D?"  Part="1" 
-AR Path="/5C907554/5DCA928C/5E003981/5E4A58EC" Ref="D19"  Part="1" 
-F 0 "D19" H 10200 1550 50  0000 C CNN
-F 1 "BAT165" H 10500 1550 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:SOD2512X110N" H 10150 460 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 10150 1180 60  0001 L CNN
-F 4 "BAT165" H 10150 1090 60  0001 L CNN "Part Number"
-F 5 "Diode Schottky" H 10150 1000 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Diodes.SchLib" H 10150 910 60  0001 L CNN "Library Path"
-F 7 "=Device" H 10150 820 60  0001 L CNN "Comment"
-F 8 "Standard" H 10150 730 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 10150 640 60  0001 L CNN "Component Type"
-F 10 "BAT165" H 10150 550 60  0001 L CNN "Device"
-F 11 "Small Outline Diode Flat Lead (SOD-323), 1.70mm W X 1.25mm L X 1.10mm H body,  IPC Medium Density" H 10150 370 60  0001 L CNN "PackageDescription"
-F 12 "40V" H 10150 280 60  0001 L CNN "Voltage"
-F 13 "750mA" H 10150 190 60  0001 L CNN "Power"
-F 14 "~~" H 10150 100 60  0001 L CNN "Status"
-F 15 "Medium Power AF Schottky Diode" H 10150 10  60  0001 L CNN "Part Description"
-F 16 "INFINEON" H 10150 -80 60  0001 L CNN "Manufacturer"
-F 17 "BAT165AX" H 10150 -170 60  0001 L CNN "Manufacturer Part Number"
-F 18 "2" H 10150 -260 60  0001 L CNN "Pin Count"
-F 19 "SOD323" H 10150 -350 60  0001 L CNN "Case"
-F 20 "Yes" H 10150 -440 60  0001 L CNN "Mounted"
-F 21 "No" H 10150 -530 60  0001 L CNN "Socket"
-F 22 "Yes" H 10150 -620 60  0001 L CNN "SMD"
-F 23 "No" H 10150 -710 60  0001 L CNN "PressFit"
-F 24 "No" H 10150 -800 60  0001 L CNN "Sense"
-F 25 "~~" H 10150 -890 60  0001 L CNN "Sense Comment"
-F 26 "No" H 10150 -980 60  0001 L CNN "Bonding"
-F 27 "~~" H 10150 -1070 60  0001 L CNN "Status Comment"
-F 28 "1.1mm" H 10150 -1160 60  0001 L CNN "ComponentHeight"
-F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10150 -1250 60  0001 L CNN "Footprint Path"
-F 30 "SOD2512X110N" H 10150 -1340 60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 10150 -1430 60  0001 L CNN "HelpURL"
-F 32 "~~" H 10150 -1520 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 10150 -1610 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 10150 -1700 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 10150 -1790 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 10150 -1880 60  0001 L CNN "Author"
-F 37 "11/12/14 00:00:00" H 10150 -1970 60  0001 L CNN "CreateDate"
-F 38 "11/12/14 00:00:00" H 10150 -2060 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 10150 -2150 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10150 -2240 60  0001 L CNN "License"
-	1    10150 1600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diodes:BAT165 D?
-U 1 1 5E4BAEF3
-P 10150 1750
-AR Path="/5BCEDA39/5E4BAEF3" Ref="D?"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5E4BAEF3" Ref="D?"  Part="1" 
-AR Path="/5C907554/5DCA928C/5E003981/5E4BAEF3" Ref="D20"  Part="1" 
-F 0 "D20" H 10200 1700 50  0000 C CNN
-F 1 "BAT165" H 10500 1700 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:SOD2512X110N" H 10150 610 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 10150 1330 60  0001 L CNN
-F 4 "BAT165" H 10150 1240 60  0001 L CNN "Part Number"
-F 5 "Diode Schottky" H 10150 1150 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Diodes.SchLib" H 10150 1060 60  0001 L CNN "Library Path"
-F 7 "=Device" H 10150 970 60  0001 L CNN "Comment"
-F 8 "Standard" H 10150 880 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 10150 790 60  0001 L CNN "Component Type"
-F 10 "BAT165" H 10150 700 60  0001 L CNN "Device"
-F 11 "Small Outline Diode Flat Lead (SOD-323), 1.70mm W X 1.25mm L X 1.10mm H body,  IPC Medium Density" H 10150 520 60  0001 L CNN "PackageDescription"
-F 12 "40V" H 10150 430 60  0001 L CNN "Voltage"
-F 13 "750mA" H 10150 340 60  0001 L CNN "Power"
-F 14 "~~" H 10150 250 60  0001 L CNN "Status"
-F 15 "Medium Power AF Schottky Diode" H 10150 160 60  0001 L CNN "Part Description"
-F 16 "INFINEON" H 10150 70  60  0001 L CNN "Manufacturer"
-F 17 "BAT165AX" H 10150 -20 60  0001 L CNN "Manufacturer Part Number"
-F 18 "2" H 10150 -110 60  0001 L CNN "Pin Count"
-F 19 "SOD323" H 10150 -200 60  0001 L CNN "Case"
-F 20 "Yes" H 10150 -290 60  0001 L CNN "Mounted"
-F 21 "No" H 10150 -380 60  0001 L CNN "Socket"
-F 22 "Yes" H 10150 -470 60  0001 L CNN "SMD"
-F 23 "No" H 10150 -560 60  0001 L CNN "PressFit"
-F 24 "No" H 10150 -650 60  0001 L CNN "Sense"
-F 25 "~~" H 10150 -740 60  0001 L CNN "Sense Comment"
-F 26 "No" H 10150 -830 60  0001 L CNN "Bonding"
-F 27 "~~" H 10150 -920 60  0001 L CNN "Status Comment"
-F 28 "1.1mm" H 10150 -1010 60  0001 L CNN "ComponentHeight"
-F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10150 -1100 60  0001 L CNN "Footprint Path"
-F 30 "SOD2512X110N" H 10150 -1190 60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 10150 -1280 60  0001 L CNN "HelpURL"
-F 32 "~~" H 10150 -1370 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 10150 -1460 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 10150 -1550 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 10150 -1640 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 10150 -1730 60  0001 L CNN "Author"
-F 37 "11/12/14 00:00:00" H 10150 -1820 60  0001 L CNN "CreateDate"
-F 38 "11/12/14 00:00:00" H 10150 -1910 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 10150 -2000 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10150 -2090 60  0001 L CNN "License"
-	1    10150 1750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diodes:BAT165 D?
-U 1 1 5E4BCC24
-P 10150 1900
-AR Path="/5BCEDA39/5E4BCC24" Ref="D?"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5E4BCC24" Ref="D?"  Part="1" 
-AR Path="/5C907554/5DCA928C/5E003981/5E4BCC24" Ref="D21"  Part="1" 
-F 0 "D21" H 10200 1850 50  0000 C CNN
-F 1 "BAT165" H 10500 1850 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:SOD2512X110N" H 10150 760 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 10150 1480 60  0001 L CNN
-F 4 "BAT165" H 10150 1390 60  0001 L CNN "Part Number"
-F 5 "Diode Schottky" H 10150 1300 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Diodes.SchLib" H 10150 1210 60  0001 L CNN "Library Path"
-F 7 "=Device" H 10150 1120 60  0001 L CNN "Comment"
-F 8 "Standard" H 10150 1030 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 10150 940 60  0001 L CNN "Component Type"
-F 10 "BAT165" H 10150 850 60  0001 L CNN "Device"
-F 11 "Small Outline Diode Flat Lead (SOD-323), 1.70mm W X 1.25mm L X 1.10mm H body,  IPC Medium Density" H 10150 670 60  0001 L CNN "PackageDescription"
-F 12 "40V" H 10150 580 60  0001 L CNN "Voltage"
-F 13 "750mA" H 10150 490 60  0001 L CNN "Power"
-F 14 "~~" H 10150 400 60  0001 L CNN "Status"
-F 15 "Medium Power AF Schottky Diode" H 10150 310 60  0001 L CNN "Part Description"
-F 16 "INFINEON" H 10150 220 60  0001 L CNN "Manufacturer"
-F 17 "BAT165AX" H 10150 130 60  0001 L CNN "Manufacturer Part Number"
-F 18 "2" H 10150 40  60  0001 L CNN "Pin Count"
-F 19 "SOD323" H 10150 -50 60  0001 L CNN "Case"
-F 20 "Yes" H 10150 -140 60  0001 L CNN "Mounted"
-F 21 "No" H 10150 -230 60  0001 L CNN "Socket"
-F 22 "Yes" H 10150 -320 60  0001 L CNN "SMD"
-F 23 "No" H 10150 -410 60  0001 L CNN "PressFit"
-F 24 "No" H 10150 -500 60  0001 L CNN "Sense"
-F 25 "~~" H 10150 -590 60  0001 L CNN "Sense Comment"
-F 26 "No" H 10150 -680 60  0001 L CNN "Bonding"
-F 27 "~~" H 10150 -770 60  0001 L CNN "Status Comment"
-F 28 "1.1mm" H 10150 -860 60  0001 L CNN "ComponentHeight"
-F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10150 -950 60  0001 L CNN "Footprint Path"
-F 30 "SOD2512X110N" H 10150 -1040 60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BAT165.pdf" H 10150 -1130 60  0001 L CNN "HelpURL"
-F 32 "~~" H 10150 -1220 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 10150 -1310 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 10150 -1400 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 10150 -1490 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 10150 -1580 60  0001 L CNN "Author"
-F 37 "11/12/14 00:00:00" H 10150 -1670 60  0001 L CNN "CreateDate"
-F 38 "11/12/14 00:00:00" H 10150 -1760 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 10150 -1850 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10150 -1940 60  0001 L CNN "License"
-	1    10150 1900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9850 1750 9650 1750
-Wire Wire Line
-	9650 1750 9650 1700
-Wire Wire Line
-	9850 1900 9600 1900
-Wire Wire Line
-	9600 1900 9600 1800
 $Comp
 L power:GND #PWR?
 U 1 1 5E4F6E90
@@ -1276,36 +1050,7 @@ $EndComp
 Wire Wire Line
 	9100 2000 9100 1600
 Wire Wire Line
-	9100 1600 9850 1600
-Wire Wire Line
-	9350 2000 9350 1700
-Wire Wire Line
-	9350 1700 9650 1700
-Wire Wire Line
 	9600 2000 9600 1900
-Connection ~ 9600 1900
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E536E4A
-P 7450 1400
-AR Path="/5BD32060/5E536E4A" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5E536E4A" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5E536E4A" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5CAAC367/5E536E4A" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5DCA928C/5E003981/5E536E4A" Ref="#PWR0699"  Part="1" 
-F 0 "#PWR0699" H 7450 1250 50  0001 C CNN
-F 1 "+3V3" H 7465 1573 50  0000 C CNN
-F 2 "" H 7450 1400 50  0001 C CNN
-F 3 "" H 7450 1400 50  0001 C CNN
-	1    7450 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 1400 7450 1500
-Connection ~ 7450 1600
-Connection ~ 7450 1500
-Wire Wire Line
-	7450 1500 7450 1600
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R?
 U 1 1 5E4F6EBC
@@ -1429,16 +1174,6 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 Wire Wire Line
 	8850 1500 8850 2000
-Wire Wire Line
-	8250 1500 8850 1500
-Wire Wire Line
-	8250 1600 9100 1600
-Connection ~ 9100 1600
-Wire Wire Line
-	8250 1700 9350 1700
-Connection ~ 9350 1700
-Wire Wire Line
-	8250 1800 9600 1800
 Text Label 10200 1600 0    50   ~ 0
 MUX1_MMC
 Text Label 10200 1750 0    50   ~ 0
@@ -1451,12 +1186,6 @@ Text HLabel 10700 1750 2    50   Input ~ 0
 MUX2_MMC
 Text HLabel 10700 1900 2    50   Input ~ 0
 MUX3_MMC
-Wire Wire Line
-	10150 1600 10700 1600
-Wire Wire Line
-	10150 1750 10700 1750
-Wire Wire Line
-	10150 1900 10700 1900
 $Comp
 L power:GND #PWR?
 U 1 1 5E590BAF
@@ -1893,10 +1622,6 @@ Text Label 800  3750 0    50   ~ 0
 MGT_MUX_PD
 Wire Wire Line
 	2300 4800 1800 4800
-Text Label 800  1700 0    50   ~ 0
-MUX3_SEL
-Text Label 2300 4800 2    50   ~ 0
-MUX3_SEL
 $Comp
 L power:GND #PWR?
 U 1 1 5EB2B7A9
@@ -2112,10 +1837,6 @@ Text Label 4000 3750 0    50   ~ 0
 MGT_MUX_PD
 Wire Wire Line
 	4000 3550 4500 3550
-Text Label 4000 1700 0    50   ~ 0
-MUX3_SEL
-Text Label 4000 3550 0    50   ~ 0
-MUX3_SEL
 $Comp
 L power:GND #PWR?
 U 1 1 5EBE20F3
@@ -3297,4 +3018,28 @@ F 3 "" H 1100 5100 50  0001 C CNN
 	1    1100 5100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8250 1500 8850 1500
+Text Label 8300 1500 0    50   ~ 0
+MGT_MUX_PD
+Wire Wire Line
+	9350 1750 9350 2000
+Wire Wire Line
+	9350 1750 10700 1750
+Wire Wire Line
+	9600 1900 10700 1900
+Wire Wire Line
+	9100 1600 10700 1600
+Text Label 7600 3800 0    50   ~ 0
+MUX1_MMC
+Text Label 7600 5650 0    50   ~ 0
+MUX2_MMC
+Text Label 1900 4800 0    50   ~ 0
+MUX3_MMC
+Text Label 4000 3550 0    50   ~ 0
+MUX3_MMC
+Text Label 4000 1700 0    50   ~ 0
+MUX3_MMC
+Text Label 800  1700 0    50   ~ 0
+MUX3_MMC
 $EndSCHEMATC

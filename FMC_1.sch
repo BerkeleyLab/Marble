@@ -1218,7 +1218,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C?
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C?
 U 1 1 5C9B3992
 P 1850 4400
 AR Path="/5C16BF8E/5DB9B7E6/5C9B3992" Ref="C?"  Part="1" 

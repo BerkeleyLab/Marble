@@ -3238,7 +3238,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 1050 5550 1050
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C137
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C137
 U 1 1 5DA8A88F
 P 5550 1050
 F 0 "C137" V 5600 1050 50  0000 L CNN
@@ -3286,7 +3286,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C147
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C147
 U 1 1 5DA8B01C
 P 10850 1450
 F 0 "C147" H 11000 1697 50  0000 C CNN
@@ -3334,7 +3334,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C148
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C148
 U 1 1 5DA9F2E3
 P 10850 3250
 F 0 "C148" H 11000 3497 50  0000 C CNN
@@ -3382,7 +3382,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C149
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C149
 U 1 1 5DAB35A7
 P 10850 5050
 F 0 "C149" H 11000 5297 50  0000 C CNN
@@ -3430,7 +3430,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C150
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C150
 U 1 1 5DAC786E
 P 10850 6850
 F 0 "C150" H 11000 7097 50  0000 C CNN
@@ -3478,7 +3478,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C140
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C140
 U 1 1 5DADC0B9
 P 5800 4200
 F 0 "C140" V 5850 4000 50  0000 L CNN
@@ -5684,7 +5684,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 5200 8150 5250
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C362
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C362
 U 1 1 5D042ACD
 P 8500 4900
 F 0 "C362" V 8550 4900 50  0000 L CNN
@@ -5752,7 +5752,7 @@ Wire Wire Line
 	8500 4900 8150 4900
 Connection ~ 8150 4900
 $Comp
-L Capacitors_SMD:CC0402_100NF_16V_10%_X5R C363
+L Capacitors_SMD:CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C363
 U 1 1 5D09E04F
 P 8700 3800
 F 0 "C363" V 8750 3800 50  0000 L CNN
@@ -7194,7 +7194,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 9850 5100 9850
 Wire Wire Line
-	14450 5950 14850 5950
+	14450 5950 14550 5950
 Wire Wire Line
 	7750 9650 7850 9650
 Wire Wire Line
@@ -7638,7 +7638,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 Connection ~ 8350 6800
 Wire Wire Line
-	8350 6800 9100 6800
+	8350 6800 8450 6800
 Connection ~ 8350 7100
 Wire Wire Line
 	8350 7100 8650 7100
@@ -8397,4 +8397,121 @@ F 3 "" H 4450 9850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 4450 9850
+Wire Wire Line
+	14700 2500 14700 2350
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F742157
+P 14700 2500
+F 0 "TP?" H 14758 2618 50  0000 L CNN
+F 1 "TestPoint" H 14758 2527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14900 2500 50  0001 C CNN
+F 3 "~" H 14900 2500 50  0001 C CNN
+	1    14700 2500
+	-1   0    0    1   
+$EndComp
+Connection ~ 14700 2350
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F7A2E7E
+P 14700 4300
+F 0 "TP?" H 14758 4418 50  0000 L CNN
+F 1 "TestPoint" H 14758 4327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14900 4300 50  0001 C CNN
+F 3 "~" H 14900 4300 50  0001 C CNN
+	1    14700 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14700 4300 14700 4150
+Connection ~ 14700 4150
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F805386
+P 14550 6100
+F 0 "TP?" H 14608 6218 50  0000 L CNN
+F 1 "TestPoint" H 14608 6127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14750 6100 50  0001 C CNN
+F 3 "~" H 14750 6100 50  0001 C CNN
+	1    14550 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14550 6100 14550 5950
+Connection ~ 14550 5950
+Wire Wire Line
+	14550 5950 14850 5950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F861998
+P 14400 8400
+F 0 "TP?" H 14458 8518 50  0000 L CNN
+F 1 "TestPoint" H 14458 8427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14600 8400 50  0001 C CNN
+F 3 "~" H 14600 8400 50  0001 C CNN
+	1    14400 8400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14400 8400 14400 8250
+Connection ~ 14400 8250
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8BFCD0
+P 8450 6650
+F 0 "TP?" H 8508 6768 50  0000 L CNN
+F 1 "TestPoint" H 8508 6677 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8650 6650 50  0001 C CNN
+F 3 "~" H 8650 6650 50  0001 C CNN
+	1    8450 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 6650 8450 6800
+Connection ~ 8450 6800
+Wire Wire Line
+	8450 6800 9100 6800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F9282C9
+P 9450 7500
+F 0 "TP?" H 9508 7618 50  0000 L CNN
+F 1 "TestPoint" H 9508 7527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9650 7500 50  0001 C CNN
+F 3 "~" H 9650 7500 50  0001 C CNN
+	1    9450 7500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 7500 9450 7500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F9761ED
+P 8000 9650
+F 0 "TP?" H 8058 9768 50  0000 L CNN
+F 1 "TestPoint" H 8058 9677 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8200 9650 50  0001 C CNN
+F 3 "~" H 8200 9650 50  0001 C CNN
+	1    8000 9650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 9650 7850 9650
+Connection ~ 7850 9650
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F9F839A
+P 3250 9150
+F 0 "TP?" H 3308 9268 50  0000 L CNN
+F 1 "TestPoint" H 3308 9177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3450 9150 50  0001 C CNN
+F 3 "~" H 3450 9150 50  0001 C CNN
+	1    3250 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 9450 3300 9450
+Wire Wire Line
+	3250 9150 3250 9450
+Connection ~ 3300 9450
 $EndSCHEMATC

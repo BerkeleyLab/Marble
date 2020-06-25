@@ -1143,68 +1143,6 @@ X +Vs 4 -200 -100 200 R 70 70 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
-#
-DEF AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue PB 0 60 Y Y 1 L N
-F0 "PB" 310 200 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_PB_TYCO_FSM2JSMA-Switches-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -170 60 H I L CNN
-F2 "Switches:PB_TYCO_FSM2JSMA" 0 -260 60 H I L CNN
-F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PB_TYCO_FSM2JSMA.pdf" 0 -350 60 H I L CNN
-F4 "Push Button" 0 -440 60 H I L CNN
-F5 "PB_TYCO_FSM2JSMA" 0 -440 60 H I L CNN "Part Number"
-F6 "PB SPST 12NO-34NO" 0 -530 60 H I L CNN "Library Ref"
-F7 "SchLib\\Switches.SchLib" 0 -620 60 H I L CNN "Library Path"
-F8 "~~" 0 -710 60 H I L CNN "Comment"
-F9 "Standard" 0 -800 60 H I L CNN "Component Kind"
-F10 "Standard" 0 -890 60 H I L CNN "Component Type"
-F11 "PB_TYCO_FSM2JSMA" 0 -980 60 H I L CNN "Footprint"
-F12 "4" 0 -1070 60 H I L CNN "Pin Count"
-F13 "~~" 0 -1160 60 H I L CNN "Case"
-F14 "PcbLib\\Switches.PcbLib" 0 -1250 60 H I L CNN "Footprint Path"
-F15 "PB_TYCO_FSM2JSMA" 0 -1340 60 H I L CNN "Footprint Ref"
-F16 "Body 6mm x 6mm, Surface Mount Tactile Switches, TYCO ALCOSWITCH FSMJSMA Series" 0 -1430 60 H I L CNN "PackageDescription"
-F17 "Push Button" 0 -1520 60 H I L CNN "Family"
-F18 "Yes" 0 -1610 60 H I L CNN "Mounted"
-F19 "No" 0 -1700 60 H I L CNN "Socket"
-F20 "Yes" 0 -1790 60 H I L CNN "SMD"
-F21 "No" 0 -1880 60 H I L CNN "PressFit"
-F22 "No" 0 -1970 60 H I L CNN "Sense"
-F23 "~~" 0 -2060 60 H I L CNN "Sense Comment"
-F24 "None" 0 -2150 60 H I L CNN "Status"
-F25 "~~" 0 -2240 60 H I L CNN "Status Comment"
-F26 "~~" 0 -2330 60 H I L CNN "SCEM"
-F27 "12VDC 50mA SPST Tactile  Push-Button Switch" 0 -2420 60 H I L CNN "Part Description"
-F28 "TYCO ELECTRONICS" 0 -2510 60 H I L CNN "Manufacturer"
-F29 "FSM2JSMA or  2-1437565-7" 0 -2600 60 H I L CNN "Manufacturer Part Number"
-F30 "4.59mm" 0 -2690 60 H I L CNN "ComponentHeight"
-F31 "~~" 0 -2780 60 H I L CNN "Manufacturer1 Example"
-F32 "~~" 0 -2870 60 H I L CNN "Manufacturer1 Part Number"
-F33 "~~" 0 -2960 60 H I L CNN "Manufacturer1 ComponentHeight"
-F34 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PB_TYCO_FSM2JSMA.pdf" 0 -3050 60 H I L CNN "HelpURL"
-F35 "~~" 0 -3140 60 H I L CNN "ComponentLink1URL"
-F36 "~~" 0 -3230 60 H I L CNN "ComponentLink1Description"
-F37 "~~" 0 -3320 60 H I L CNN "ComponentLink2URL"
-F38 "~~" 0 -3410 60 H I L CNN "ComponentLink2Description"
-F39 "CERN DEM JLC" 0 -3500 60 H I L CNN "Author"
-F40 "09/08/08 00:00:00" 0 -3590 60 H I L CNN "CreateDate"
-F41 "06/21/12 00:00:00" 0 -3680 60 H I L CNN "LatestRevisionDate"
-F42 "Switches" 0 -3770 60 H I L CNN "Library Name"
-F43 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3860 60 H I L CNN "License"
-DRAW
-A 200 0 25 0 0 0 1 0 N 225 0 225 0
-A 400 0 25 0 0 0 1 0 N 425 0 425 0
-T 0 40 10 40 1 0 1 1,2 Normal 0 L B
-T 0 490 10 40 1 0 1 3,4 Normal 0 L B
-S 200 50 400 70 0 1 0 F
-P 2 0 1 10 300 60 300 140 N
-P 2 0 1 10 340 140 260 140 N
-X 1 1 0 0 175 R 0 0 0 1 P
-X 2 2 0 0 175 R 0 0 0 1 P
-X 3 3 600 0 175 L 0 0 0 1 P
-X 4 4 600 0 175 L 0 0 0 1 P
-ENDDRAW
-ENDDEF
-#
 # AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue
 #
 DEF AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
@@ -2933,15 +2871,15 @@ X 2 2 300 0 100 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitors_SMD_CC0402_100NF_16V_10%_X5R
+# Capacitors_SMD_CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF
 #
-DEF Capacitors_SMD_CC0402_100NF_16V_10%_X5R C 0 50 Y Y 1 L N
+DEF Capacitors_SMD_CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
-F1 "Capacitors_SMD_CC0402_100NF_16V_10%_X5R" 0 -245 50 H I L CNN
+F1 "Capacitors_SMD_CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF" 0 -245 50 H I L CNN
 F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "100nF" 150 -120 50 H V C CNN "Val"
-F5 "CC0402_100NF_16V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
+F5 "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF" 0 -470 50 H I L CNN "Part Number"
 F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
 F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
 F8 "100nF" 0 -695 50 H I L CNN "Comment"
@@ -2951,14 +2889,14 @@ F11 "2" 0 -920 50 H I L CNN "Pin Count"
 F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
 F13 "CAPC1005X55N" 0 -1070 50 H I L CNN "Footprint Ref"
 F14 " " 0 -1145 50 H I L CNN "PackageDescription"
-F15 "None" 0 -1220 50 H I L CNN "Status"
+F15 "Not Recommended" 0 -1220 50 H I L CNN "Status"
 F16 " " 0 -1295 50 H I L CNN "Status Comment"
-F17 "16V" 0 -1370 50 H I L CNN "Voltage"
-F18 "X5R" 0 -1445 50 H I L CNN "TC"
+F17 "25V" 0 -1370 50 H I L CNN "Voltage"
+F18 "X7R" 0 -1445 50 H I L CNN "TC"
 F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
-F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
-F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
-F22 "CC0402_100NF_16V_10%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F20 "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications" 0 -1595 50 H I L CNN "Part Description"
+F21 "TAIYO YUDEN" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "TMK105B7104KVHF" 0 -1745 50 H I L CNN "Manufacturer Part Number"
 F23 "0402" 0 -1820 50 H I L CNN "Case"
 F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
 F25 "No" 0 -1970 50 H I L CNN "Socket"
@@ -2966,13 +2904,13 @@ F26 "Yes" 0 -2045 50 H I L CNN "SMD"
 F27 " " 0 -2120 50 H I L CNN "PressFit"
 F28 "No" 0 -2195 50 H I L CNN "Sense"
 F29 " " 0 -2270 50 H I L CNN "Sense Comment"
-F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
-F31 "MURATA" 0 -2420 50 H I L CNN "Manufacturer1 Example"
-F32 "GRM155R61C104KA88D" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
-F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F30 "0.55mm" 0 -2345 50 H I L CNN "ComponentHeight"
+F31 " " 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 " " 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 " " 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
-F35 "12/10/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
-F36 "12/10/13 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F35 "05/10/17 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "05/10/17 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
 F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
 F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
 F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
@@ -3995,6 +3933,23 @@ X Pin_6 6 300 0 150 L 50 50 1 1 P
 X Pin_7 7 -200 -100 150 R 50 50 1 1 P
 X Pin_8 8 300 -100 150 L 50 50 1 1 P
 X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -5352,71 +5307,6 @@ X 2 2 300 0 75 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
-# LEDs_&_Displays_LED_AVAGO_HSMC-C120
-#
-DEF LEDs_&_Displays_LED_AVAGO_HSMC-C120 LD 0 50 Y Y 1 L N
-F0 "LD" -50 100 50 H V R CNN
-F1 "LEDs_&_Displays_LED_AVAGO_HSMC-C120" 0 -215 50 H I L CNN
-F2 "ICs And Semiconductors SMD:LED_AVAGO_HSMC-C120" 0 -290 50 H I L CNN
-F3 " " 0 -365 50 H I L CNN
-F4 "Red" 0 -100 40 H V C CNN "Color"
-F5 "LED_AVAGO_HSMC-C120" 0 -440 50 H I L CNN "Part Number"
-F6 "LED Red 1C 2A" 0 -515 50 H I L CNN "Library Ref"
-F7 "SchLib\\LEDs & Displays.SchLib" 0 -590 50 H I L CNN "Library Path"
-F8 " " 0 -665 50 H I L CNN "Comment"
-F9 "Standard" 0 -740 50 H I L CNN "Component Kind"
-F10 "Standard" 0 -815 50 H I L CNN "Component Type"
-F11 "Red" 0 -890 50 H I L CNN "Color"
-F12 " " 0 -965 50 H I L CNN "Device"
-F13 "Red Chip LED, 2-Leads, Body 1.7x1.1mm, Side Emitting Package" 0 -1040 50 H I L CNN "PackageDescription"
-F14 " " 0 -1115 50 H I L CNN "Status"
-F15 "High Performance Right Angle Chip Red LED" 0 -1190 50 H I L CNN "Part Description"
-F16 "AVAGO TECHNOLOGIES" 0 -1265 50 H I L CNN "Manufacturer"
-F17 "HSMC-C120" 0 -1340 50 H I L CNN "Manufacturer Part Number"
-F18 "2" 0 -1415 50 H I L CNN "Pin Count"
-F19 " " 0 -1490 50 H I L CNN "Case"
-F20 "Yes" 0 -1565 50 H I L CNN "Mounted"
-F21 "No" 0 -1640 50 H I L CNN "Socket"
-F22 "Yes" 0 -1715 50 H I L CNN "SMD"
-F23 "No" 0 -1790 50 H I L CNN "PressFit"
-F24 " " 0 -1865 50 H I L CNN "Sense Comment"
-F25 "No" 0 -1940 50 H I L CNN "Sense"
-F26 "No" 0 -2015 50 H I L CNN "Bonding"
-F27 " " 0 -2090 50 H I L CNN "Status Comment"
-F28 "0.7mm" 0 -2165 50 H I L CNN "ComponentHeight"
-F29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2240 50 H I L CNN "Footprint Path"
-F30 "LED_AVAGO_HSMC-C120" 0 -2315 50 H I L CNN "Footprint Ref"
-F31 "Design Guide" 0 -2390 50 H I L CNN "ComponentLink1Description"
-F32 " " 0 -2465 50 H I L CNN "ComponentLink2Description"
-F33 "CERN DEM JMW" 0 -2540 50 H I L CNN "Author"
-F34 "07/22/09 00:00:00" 0 -2615 50 H I L CNN "CreateDate"
-F35 "06/20/12 00:00:00" 0 -2690 50 H I L CNN "LatestRevisionDate"
-F36 "LEDs & Displays" 0 -2765 50 H I L CNN "Database Table Name"
-F37 "ICs And Semiconductors.DbLib" 0 -2840 50 H I L CNN "Library Name"
-F38 "ICs And Semiconductors SMD" 0 -2915 50 H I L CNN "Footprint Library"
-F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2990 50 H I L CNN "License"
-DRAW
-P 2 0 1 10 -50 0 50 0 N
-P 2 0 1 10 30 60 30 -60 N
-P 2 0 1 10 30 90 80 140 N
-P 2 0 1 10 80 80 130 130 N
-P 4 0 1 10 -30 -60 30 0 -30 60 -30 -60 F
-P 4 0 1 10 80 140 50 130 70 110 80 140 F
-P 4 0 1 10 130 130 100 120 120 100 130 130 F
-P 2 0 2 10 -50 0 50 0 N
-P 2 0 2 10 30 60 30 -60 N
-P 2 0 2 10 60 30 110 80 N
-P 2 0 2 10 110 20 160 70 N
-P 4 0 2 10 -30 -60 30 0 -30 60 -30 -60 F
-P 4 0 2 10 110 80 80 70 100 50 110 80 F
-P 4 0 2 10 160 70 130 60 150 40 160 70 F
-X C 1 150 0 100 L 0 0 0 1 P
-X A 2 -150 0 100 R 0 0 0 1 P
-X C 1 150 0 100 L 0 0 0 2 P
-X A 2 -150 0 100 R 0 0 0 2 P
-ENDDRAW
-ENDDEF
-#
 # LEDs_&_Displays_LED_KINGBRIGHT_KPH-1608CGCK
 #
 DEF LEDs_&_Displays_LED_KINGBRIGHT_KPH-1608CGCK LD 0 50 Y Y 1 L N
@@ -5928,6 +5818,23 @@ X PB9 96 900 -200 200 L 50 50 1 1 B
 X PE0 97 -900 700 200 R 50 50 1 1 B
 X PE1 98 -900 600 200 R 50 50 1 1 B
 X RFU 99 -900 2000 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Miscellaneous2_TE_641119-2
+#
+DEF Miscellaneous2_TE_641119-2 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Miscellaneous2_TE_641119-2" 0 -200 50 H V C CNN
+F2 "Marble:641119-2" 0 -300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -10228,88 +10135,6 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Switches_SW_DIPTRONICS_DHA-04TQ
-#
-DEF Switches_SW_DIPTRONICS_DHA-04TQ SW 0 50 Y Y 1 L N
-F0 "SW" 200 50 50 H V C CNN
-F1 "Switches_SW_DIPTRONICS_DHA-04TQ" 0 -575 50 H I L CNN
-F2 "Switches:SW_DIPTRONICS_DHA-04TQ" 0 -650 50 H I L CNN
-F3 " " 0 -725 50 H I L CNN
-F4 "Switch" 200 -80 50 H I R CNN "Family"
-F5 "SW_DIPTRONICS_DHA-04TQ" 0 -800 50 H I L CNN "Part Number"
-F6 "SW 4x SPST DIP Switch" 0 -875 50 H I L CNN "Library Ref"
-F7 "SchLib\\Switches.SchLib" 0 -950 50 H I L CNN "Library Path"
-F8 " " 0 -1025 50 H I L CNN "Comment"
-F9 "Standard" 0 -1100 50 H I L CNN "Component Kind"
-F10 "Standard" 0 -1175 50 H I L CNN "Component Type"
-F11 "8" 0 -1250 50 H I L CNN "Pin Count"
-F12 " " 0 -1325 50 H I L CNN "Case"
-F13 "PcbLib\\Switches.PcbLib" 0 -1400 50 H I L CNN "Footprint Path"
-F14 "SW_DIPTRONICS_DHA-04TQ" 0 -1475 50 H I L CNN "Footprint Ref"
-F15 "Pitch 1.27mm,  Body 6.2x6.2mm, 4 Ways SPST Surface-Mount DIP Switch, DIPTRONICS DHA Series" 0 -1550 50 H I L CNN "PackageDescription"
-F16 "Switch" 0 -1625 50 H I L CNN "Family"
-F17 "Yes" 0 -1700 50 H I L CNN "Mounted"
-F18 "No" 0 -1775 50 H I L CNN "Socket"
-F19 "Yes" 0 -1850 50 H I L CNN "SMD"
-F20 "No" 0 -1925 50 H I L CNN "PressFit"
-F21 "No" 0 -2000 50 H I L CNN "Sense"
-F22 " " 0 -2075 50 H I L CNN "Sense Comment"
-F23 "None" 0 -2150 50 H I L CNN "Status"
-F24 " " 0 -2225 50 H I L CNN "Status Comment"
-F25 " " 0 -2300 50 H I L CNN "SCEM"
-F26 "4 Way SPST SMD DIP Switch, Latched, Contact Rating 25mA 24VDC, DHA Series" 0 -2375 50 H I L CNN "Part Description"
-F27 "DIPTRONICS" 0 -2450 50 H I L CNN "Manufacturer"
-F28 "DHA-04TQ" 0 -2525 50 H I L CNN "Manufacturer Part Number"
-F29 "2.3mm" 0 -2600 50 H I L CNN "ComponentHeight"
-F30 " " 0 -2675 50 H I L CNN "Manufacturer1 Example"
-F31 " " 0 -2750 50 H I L CNN "Manufacturer1 Part Number"
-F32 " " 0 -2825 50 H I L CNN "Manufacturer1 ComponentHeight"
-F33 " " 0 -2900 50 H I L CNN "ComponentLink1Description"
-F34 " " 0 -2975 50 H I L CNN "ComponentLink2Description"
-F35 "CERN DEM JLC" 0 -3050 50 H I L CNN "Author"
-F36 "05/30/17 00:00:00" 0 -3125 50 H I L CNN "CreateDate"
-F37 "05/30/17 00:00:00" 0 -3200 50 H I L CNN "LatestRevisionDate"
-F38 "Switches" 0 -3275 50 H I L CNN "Database Table Name"
-F39 "Eletro-mechanical.DbLib" 0 -3350 50 H I L CNN "Library Name"
-F40 "Switches" 0 -3425 50 H I L CNN "Footprint Library"
-F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3500 50 H I L CNN "License"
-DRAW
-C 100 -400 20 0 1 0 N
-C 100 -300 20 0 1 0 N
-C 100 -200 20 0 1 0 N
-C 100 -100 20 0 1 0 N
-C 300 -400 20 0 1 0 N
-C 300 -300 20 0 1 0 N
-C 300 -200 20 0 1 0 N
-C 300 -100 20 0 1 0 N
-T 0 190 -40 40 1 0 1 1 Normal 0 C C
-T 0 190 -130 40 1 0 1 2 Normal 0 C C
-T 0 190 -230 40 1 0 1 3 Normal 0 C C
-T 0 190 -330 40 1 0 1 4 Normal 0 C C
-S 0 -500 400 0 0 1 0 f
-P 2 0 1 10 0 -400 80 -400 N
-P 2 0 1 10 0 -300 80 -300 N
-P 2 0 1 10 0 -200 80 -200 N
-P 2 0 1 10 0 -100 80 -100 N
-P 2 0 1 10 280 -350 120 -390 N
-P 2 0 1 10 280 -250 120 -290 N
-P 2 0 1 10 280 -150 120 -190 N
-P 2 0 1 10 280 -50 120 -90 N
-P 2 0 1 10 320 -400 400 -400 N
-P 2 0 1 10 320 -300 400 -300 N
-P 2 0 1 10 320 -200 400 -200 N
-P 2 0 1 10 320 -100 400 -100 N
-X 1 1 -200 -100 200 R 60 0 0 1 B
-X 2 2 -200 -200 200 R 60 0 0 1 B
-X 3 3 -200 -300 200 R 60 0 0 1 B
-X 4 4 -200 -400 200 R 60 0 0 1 B
-X 5 5 600 -400 200 L 60 0 0 1 B
-X 6 6 600 -300 200 L 60 0 0 1 B
-X 7 7 600 -200 200 L 60 0 0 1 B
-X 8 8 600 -100 200 L 60 0 0 1 B
 ENDDRAW
 ENDDEF
 #

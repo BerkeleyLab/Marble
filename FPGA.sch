@@ -918,102 +918,6 @@ $EndComp
 Text Label 6500 9650 0    50   ~ 10
 EXP_INT
 $Comp
-L LEDs_&_Displays:LED_AVAGO_HSMC-C120 LD11
-U 1 1 5DD64C74
-P 9750 10000
-F 0 "LD11" H 9750 9900 50  0000 C CNN
-F 1 "LED_AVAGO_HSMC-C120" H 9750 9770 60  0001 L CNN
-F 2 "ICs And Semiconductors SMD:LED_AVAGO_HSMC-C120" H 9750 8780 60  0001 L CNN
-F 3 "" H 9750 9590 60  0001 L CNN
-F 4 "Red" H 9750 9500 60  0001 L CNN "Pole4"
-F 5 "LED_AVAGO_HSMC-C120" H 9750 9500 60  0001 L CNN "Part Number"
-F 6 "LED Red 1C 2A" H 9750 9410 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\LEDs & Displays.SchLib" H 9750 9320 60  0001 L CNN "Library Path"
-F 8 "~~" H 9750 9230 60  0001 L CNN "Comment"
-F 9 "Standard" H 9750 9140 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 9750 9050 60  0001 L CNN "Component Type"
-F 11 "Red" H 9750 8960 60  0001 L CNN "Color"
-F 12 "~~" H 9750 8870 60  0001 L CNN "Device"
-F 13 "Red Chip LED, 2-Leads, Body 1.7x1.1mm, Side Emitting Package" H 9750 8690 60  0001 L CNN "PackageDescription"
-F 14 "~~" H 9750 8600 60  0001 L CNN "Status"
-F 15 "High Performance Right Angle Chip Red LED" H 9750 8510 60  0001 L CNN "Part Description"
-F 16 "AVAGO TECHNOLOGIES" H 9750 8420 60  0001 L CNN "Manufacturer"
-F 17 "HSMC-C120" H 9750 8330 60  0001 L CNN "Manufacturer Part Number"
-F 18 "2" H 9750 8240 60  0001 L CNN "Pin Count"
-F 19 "~~" H 9750 8150 60  0001 L CNN "Case"
-F 20 "Yes" H 9750 8060 60  0001 L CNN "Mounted"
-F 21 "No" H 9750 7970 60  0001 L CNN "Socket"
-F 22 "Yes" H 9750 7880 60  0001 L CNN "SMD"
-F 23 "No" H 9750 7790 60  0001 L CNN "PressFit"
-F 24 "~~" H 9750 7700 60  0001 L CNN "Sense Comment"
-F 25 "No" H 9750 7610 60  0001 L CNN "Sense"
-F 26 "No" H 9750 7520 60  0001 L CNN "Bonding"
-F 27 "~~" H 9750 7430 60  0001 L CNN "Status Comment"
-F 28 "0.7mm" H 9750 7340 60  0001 L CNN "ComponentHeight"
-F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 9750 7250 60  0001 L CNN "Footprint Path"
-F 30 "LED_AVAGO_HSMC-C120" H 9750 7160 60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120.pdf" H 9750 7070 60  0001 L CNN "HelpURL"
-F 32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120_DESIGN-GUIDE.pdf" H 9750 6980 60  0001 L CNN "ComponentLink1URL"
-F 33 "Design Guide" H 9750 6890 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 9750 6800 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 9750 6710 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 9750 6620 60  0001 L CNN "Author"
-F 37 "07/22/09 00:00:00" H 9750 6530 60  0001 L CNN "CreateDate"
-F 38 "06/20/12 00:00:00" H 9750 6440 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 9750 6350 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9750 6260 60  0001 L CNN "License"
-	1    9750 10000
-	0    1    1    0   
-$EndComp
-$Comp
-L LEDs_&_Displays:LED_AVAGO_HSMC-C120 LD12
-U 1 1 5DD902C1
-P 10100 10000
-F 0 "LD12" H 10100 9900 50  0000 C CNN
-F 1 "LED_AVAGO_HSMC-C120" H 10100 9770 60  0001 L CNN
-F 2 "ICs And Semiconductors SMD:LED_AVAGO_HSMC-C120" H 10100 8780 60  0001 L CNN
-F 3 "" H 10100 9590 60  0001 L CNN
-F 4 "Red" H 10100 9500 60  0001 L CNN "Pole4"
-F 5 "LED_AVAGO_HSMC-C120" H 10100 9500 60  0001 L CNN "Part Number"
-F 6 "LED Red 1C 2A" H 10100 9410 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\LEDs & Displays.SchLib" H 10100 9320 60  0001 L CNN "Library Path"
-F 8 "~~" H 10100 9230 60  0001 L CNN "Comment"
-F 9 "Standard" H 10100 9140 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 10100 9050 60  0001 L CNN "Component Type"
-F 11 "Red" H 10100 8960 60  0001 L CNN "Color"
-F 12 "~~" H 10100 8870 60  0001 L CNN "Device"
-F 13 "Red Chip LED, 2-Leads, Body 1.7x1.1mm, Side Emitting Package" H 10100 8690 60  0001 L CNN "PackageDescription"
-F 14 "~~" H 10100 8600 60  0001 L CNN "Status"
-F 15 "High Performance Right Angle Chip Red LED" H 10100 8510 60  0001 L CNN "Part Description"
-F 16 "AVAGO TECHNOLOGIES" H 10100 8420 60  0001 L CNN "Manufacturer"
-F 17 "HSMC-C120" H 10100 8330 60  0001 L CNN "Manufacturer Part Number"
-F 18 "2" H 10100 8240 60  0001 L CNN "Pin Count"
-F 19 "~~" H 10100 8150 60  0001 L CNN "Case"
-F 20 "Yes" H 10100 8060 60  0001 L CNN "Mounted"
-F 21 "No" H 10100 7970 60  0001 L CNN "Socket"
-F 22 "Yes" H 10100 7880 60  0001 L CNN "SMD"
-F 23 "No" H 10100 7790 60  0001 L CNN "PressFit"
-F 24 "~~" H 10100 7700 60  0001 L CNN "Sense Comment"
-F 25 "No" H 10100 7610 60  0001 L CNN "Sense"
-F 26 "No" H 10100 7520 60  0001 L CNN "Bonding"
-F 27 "~~" H 10100 7430 60  0001 L CNN "Status Comment"
-F 28 "0.7mm" H 10100 7340 60  0001 L CNN "ComponentHeight"
-F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10100 7250 60  0001 L CNN "Footprint Path"
-F 30 "LED_AVAGO_HSMC-C120" H 10100 7160 60  0001 L CNN "Footprint Ref"
-F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120.pdf" H 10100 7070 60  0001 L CNN "HelpURL"
-F 32 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_AVAGO_HSMC-C120_DESIGN-GUIDE.pdf" H 10100 6980 60  0001 L CNN "ComponentLink1URL"
-F 33 "Design Guide" H 10100 6890 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 10100 6800 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 10100 6710 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JMW" H 10100 6620 60  0001 L CNN "Author"
-F 37 "07/22/09 00:00:00" H 10100 6530 60  0001 L CNN "CreateDate"
-F 38 "06/20/12 00:00:00" H 10100 6440 60  0001 L CNN "LatestRevisionDate"
-F 39 "ICs And Semiconductors SMD" H 10100 6350 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10100 6260 60  0001 L CNN "License"
-	1    10100 10000
-	0    1    1    0   
-$EndComp
-$Comp
 L Resistors_SMD:R0402_1K_1%_0.0625W_100PPM R?
 U 1 1 5DDC754E
 P 10100 9550
@@ -1649,4 +1553,108 @@ Text HLabel 8950 9650 2    50   Output ~ 0
 SI570_OE
 Wire Wire Line
 	8950 9650 8400 9650
+$Comp
+L LEDs_&_Displays:LED_KINGBRIGHT_KPH-1608CGCK LD?
+U 1 1 5F3D9D11
+P 9750 10000
+AR Path="/5C907554/5C417BCB/5F3D9D11" Ref="LD?"  Part="1" 
+AR Path="/5C16BF8E/5F3D9D11" Ref="LD?"  Part="1" 
+AR Path="/5BCEDA39/5F3D9D11" Ref="LD?"  Part="1" 
+AR Path="/5C907554/5F3D9D11" Ref="LD13"  Part="1" 
+F 0 "LD13" V 9650 10050 50  0000 L CNN
+F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 9750 9770 60  0001 L CNN
+F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 9750 8780 60  0001 L CNN
+F 3 "" H 9750 9590 60  0001 L CNN
+F 4 "Green" H 9750 9500 60  0001 L CNN "Pole4"
+F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 9750 9500 60  0001 L CNN "Part Number"
+F 6 "LED Green 1C 2A" H 9750 9410 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\LEDs & Displays.SchLib" H 9750 9320 60  0001 L CNN "Library Path"
+F 8 "~~" H 9750 9230 60  0001 L CNN "Comment"
+F 9 "Standard" H 9750 9140 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 9750 9050 60  0001 L CNN "Component Type"
+F 11 "Green" H 9750 8960 60  0001 L CNN "Color"
+F 12 "~~" H 9750 8870 60  0001 L CNN "Device"
+F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 9750 8690 60  0001 L CNN "PackageDescription"
+F 14 "~~" H 9750 8600 60  0001 L CNN "Status"
+F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 9750 8510 60  0001 L CNN "Part Description"
+F 16 "KINGBRIGHT" H 9750 8420 60  0001 L CNN "Manufacturer"
+F 17 "KPH-1608CGCK" H 9750 8330 60  0001 L CNN "Manufacturer Part Number"
+F 18 "2" H 9750 8240 60  0001 L CNN "Pin Count"
+F 19 "~~" H 9750 8150 60  0001 L CNN "Case"
+F 20 "Yes" H 9750 8060 60  0001 L CNN "Mounted"
+F 21 "No" H 9750 7970 60  0001 L CNN "Socket"
+F 22 "Yes" H 9750 7880 60  0001 L CNN "SMD"
+F 23 "No" H 9750 7790 60  0001 L CNN "PressFit"
+F 24 "~~" H 9750 7700 60  0001 L CNN "Sense Comment"
+F 25 "No" H 9750 7610 60  0001 L CNN "Sense"
+F 26 "No" H 9750 7520 60  0001 L CNN "Bonding"
+F 27 "~~" H 9750 7430 60  0001 L CNN "Status Comment"
+F 28 "0.65mm" H 9750 7340 60  0001 L CNN "ComponentHeight"
+F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 9750 7250 60  0001 L CNN "Footprint Path"
+F 30 "LED_KINGBRIGHT_KPH-1608CGCK" H 9750 7160 60  0001 L CNN "Footprint Ref"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf" H 9750 7070 60  0001 L CNN "HelpURL"
+F 32 "~~" H 9750 6980 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 9750 6890 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 9750 6800 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 9750 6710 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 9750 6620 60  0001 L CNN "Author"
+F 37 "07/03/17 00:00:00" H 9750 6530 60  0001 L CNN "CreateDate"
+F 38 "07/03/17 00:00:00" H 9750 6440 60  0001 L CNN "LatestRevisionDate"
+F 39 "ICs And Semiconductors SMD" H 9750 6350 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9750 6260 60  0001 L CNN "License"
+	1    9750 10000
+	0    -1   1    0   
+$EndComp
+$Comp
+L LEDs_&_Displays:LED_KINGBRIGHT_KPH-1608CGCK LD?
+U 1 1 5F3E923B
+P 10100 10000
+AR Path="/5C907554/5C417BCB/5F3E923B" Ref="LD?"  Part="1" 
+AR Path="/5C16BF8E/5F3E923B" Ref="LD?"  Part="1" 
+AR Path="/5BCEDA39/5F3E923B" Ref="LD?"  Part="1" 
+AR Path="/5C907554/5F3E923B" Ref="LD14"  Part="1" 
+F 0 "LD14" V 10000 10000 50  0000 L CNN
+F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 10100 9770 60  0001 L CNN
+F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 10100 8780 60  0001 L CNN
+F 3 "" H 10100 9590 60  0001 L CNN
+F 4 "Green" H 10100 9500 60  0001 L CNN "Pole4"
+F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 10100 9500 60  0001 L CNN "Part Number"
+F 6 "LED Green 1C 2A" H 10100 9410 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\LEDs & Displays.SchLib" H 10100 9320 60  0001 L CNN "Library Path"
+F 8 "~~" H 10100 9230 60  0001 L CNN "Comment"
+F 9 "Standard" H 10100 9140 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 10100 9050 60  0001 L CNN "Component Type"
+F 11 "Green" H 10100 8960 60  0001 L CNN "Color"
+F 12 "~~" H 10100 8870 60  0001 L CNN "Device"
+F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 10100 8690 60  0001 L CNN "PackageDescription"
+F 14 "~~" H 10100 8600 60  0001 L CNN "Status"
+F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 10100 8510 60  0001 L CNN "Part Description"
+F 16 "KINGBRIGHT" H 10100 8420 60  0001 L CNN "Manufacturer"
+F 17 "KPH-1608CGCK" H 10100 8330 60  0001 L CNN "Manufacturer Part Number"
+F 18 "2" H 10100 8240 60  0001 L CNN "Pin Count"
+F 19 "~~" H 10100 8150 60  0001 L CNN "Case"
+F 20 "Yes" H 10100 8060 60  0001 L CNN "Mounted"
+F 21 "No" H 10100 7970 60  0001 L CNN "Socket"
+F 22 "Yes" H 10100 7880 60  0001 L CNN "SMD"
+F 23 "No" H 10100 7790 60  0001 L CNN "PressFit"
+F 24 "~~" H 10100 7700 60  0001 L CNN "Sense Comment"
+F 25 "No" H 10100 7610 60  0001 L CNN "Sense"
+F 26 "No" H 10100 7520 60  0001 L CNN "Bonding"
+F 27 "~~" H 10100 7430 60  0001 L CNN "Status Comment"
+F 28 "0.65mm" H 10100 7340 60  0001 L CNN "ComponentHeight"
+F 29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 10100 7250 60  0001 L CNN "Footprint Path"
+F 30 "LED_KINGBRIGHT_KPH-1608CGCK" H 10100 7160 60  0001 L CNN "Footprint Ref"
+F 31 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf" H 10100 7070 60  0001 L CNN "HelpURL"
+F 32 "~~" H 10100 6980 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 10100 6890 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 10100 6800 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 10100 6710 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 10100 6620 60  0001 L CNN "Author"
+F 37 "07/03/17 00:00:00" H 10100 6530 60  0001 L CNN "CreateDate"
+F 38 "07/03/17 00:00:00" H 10100 6440 60  0001 L CNN "LatestRevisionDate"
+F 39 "ICs And Semiconductors SMD" H 10100 6350 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10100 6260 60  0001 L CNN "License"
+	1    10100 10000
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
