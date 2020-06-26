@@ -815,50 +815,52 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC1206_10UF_16V_10%_X7R C6
+L Capacitors_SMD:CC1206_10UF_25V_10%_X7R C6
 U 1 1 5C7575B8
 P 2250 4650
 F 0 "C6" V 2354 4760 50  0000 L CNN
-F 1 "CC1206_10UF_16V_10%_X7R" H 2250 4390 60  0001 L CNN
-F 2 "CAPC3216X140N" H 2250 3580 60  0001 L CNN
+F 1 "CC1206_10UF_25V_10%_X7R" H 2250 4390 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC3216X180N" H 2250 3580 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC1206_X7R_KEMET.pdf" H 2250 4210 60  0001 L CNN
 F 4 "10uF" V 2445 4760 50  0000 L CNN "~"
-F 5 "CC1206_10UF_16V_10%_X7R" H 2250 4120 60  0001 L CNN "Part Number"
+F 5 "CC1206_10UF_25V_10%_X7R" H 2250 4120 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2250 4030 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2250 3940 60  0001 L CNN "Library Path"
-F 8 "=Value" H 2250 3850 60  0001 L CNN "Comment"
+F 8 "10uF" H 2250 3850 60  0001 L CNN "Comment"
 F 9 "Standard" H 2250 3760 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 2250 3670 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 2250 3490 60  0001 L CNN "Pin Count"
+F 11 "2" H 2250 3490 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 2250 3400 60  0001 L CNN "Footprint Path"
-F 13 "CAPC3216X140N" H 2250 3310 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 2250 3220 60  0001 L CNN "PackageDescription"
+F 13 "CAPC3216X180N" H 2250 3310 60  0001 L CNN "Footprint Ref"
+F 14 " " H 2250 3220 60  0001 L CNN "PackageDescription"
 F 15 "10uF" H 2250 3130 60  0001 L CNN "Val"
 F 16 "Preferred" H 2250 3040 60  0001 L CNN "Status"
-F 17 "~~" H 2250 2950 60  0001 L CNN "Status Comment"
-F 18 "16V" H 2250 2860 60  0001 L CNN "Voltage"
+F 17 " " H 2250 2950 60  0001 L CNN "Status Comment"
+F 18 "25V" H 2250 2860 60  0001 L CNN "Voltage"
 F 19 "X7R" H 2250 2770 60  0001 L CNN "TC"
 F 20 "±10%" H 2250 2680 60  0001 L CNN "Tolerance"
 F 21 "SMD Multilayer Chip Ceramic Capacitor" H 2250 2590 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 2250 2500 60  0001 L CNN "Manufacturer"
-F 23 "CC1206_10uF_16V_10%_X7R" H 2250 2410 60  0001 L CNN "Manufacturer Part Number"
+F 23 "CC1206_10uF_25V_10%_X7R" H 2250 2410 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 2250 2320 60  0001 L CNN "Case"
 F 25 "Yes" H 2250 2230 60  0001 L CNN "Mounted"
 F 26 "No" H 2250 2140 60  0001 L CNN "Socket"
 F 27 "Yes" H 2250 2050 60  0001 L CNN "SMD"
-F 28 "~~" H 2250 1960 60  0001 L CNN "PressFit"
+F 28 " " H 2250 1960 60  0001 L CNN "PressFit"
 F 29 "No" H 2250 1870 60  0001 L CNN "Sense"
-F 30 "~~" H 2250 1780 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 2250 1690 60  0001 L CNN "ComponentHeight"
+F 30 " " H 2250 1780 60  0001 L CNN "Sense Comment"
+F 31 " " H 2250 1690 60  0001 L CNN "ComponentHeight"
 F 32 "KEMET" H 2250 1600 60  0001 L CNN "Manufacturer1 Example"
-F 33 "C1206C106K4RAC" H 2250 1510 60  0001 L CNN "Manufacturer1 Part Number"
+F 33 "C1206C106K4RACTU" H 2250 1510 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "1.8mm" H 2250 1420 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC1206_X7R_KEMET.pdf" H 2250 1330 60  0001 L CNN "HelpURL"
 F 36 "CERN DEM JLC" H 2250 1240 60  0001 L CNN "Author"
-F 37 "04/28/09 00:00:00" H 2250 1150 60  0001 L CNN "CreateDate"
-F 38 "04/28/09 00:00:00" H 2250 1060 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 2250 970 60  0001 L CNN "Library Name"
+F 37 "09/12/12 00:00:00" H 2250 1150 60  0001 L CNN "CreateDate"
+F 38 "09/12/12 00:00:00" H 2250 1060 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors.DbLib" H 2250 970 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2250 880 60  0001 L CNN "License"
+F 41 "Capacitors SMD" H 2250 4650 50  0001 C CNN "Database Table Name"
+F 42 "Capacitors SMD" H 2250 4650 50  0001 C CNN "Footprint Library"
 	1    2250 4650
 	0    1    1    0   
 $EndComp
