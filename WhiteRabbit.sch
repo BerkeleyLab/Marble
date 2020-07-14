@@ -850,26 +850,14 @@ Wire Wire Line
 	9700 1250 8850 1250
 Wire Wire Line
 	9700 1350 8850 1350
-Wire Wire Line
-	9700 1550 8850 1550
-Wire Wire Line
-	9700 1650 8850 1650
 Text Label 8950 1250 0    50   ~ 10
 FPGA_REF_CLK0_P
 Text Label 8950 1350 0    50   ~ 10
 FPGA_REF_CLK0_N
-Text Label 8950 1550 0    50   ~ 10
-FPGA_REF_CLK1_P
-Text Label 8950 1650 0    50   ~ 10
-FPGA_REF_CLK1_N
 Text HLabel 9700 1250 2    50   Output ~ 10
 FPGA_REF_CLK0_P
 Text HLabel 9700 1350 2    50   Output ~ 10
 FPGA_REF_CLK0_N
-Text HLabel 9700 1550 2    50   Output ~ 10
-FPGA_REF_CLK1_P
-Text HLabel 9700 1650 2    50   Output ~ 10
-FPGA_REF_CLK1_N
 Wire Wire Line
 	5800 1250 7450 1250
 Wire Wire Line
@@ -4066,4 +4054,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 3450 10450 3450
 Connection ~ 9800 3450
+NoConn ~ 8850 1550
+NoConn ~ 8850 1650
 $EndSCHEMATC

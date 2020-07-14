@@ -13,10 +13,6 @@ Comment2 ""
 Comment3 "GTP transceivers"
 Comment4 ""
 $EndDescr
-Text HLabel 9700 1200 2    50   Input ~ 10
-FPGA_REF_CLK1_N
-Text HLabel 9700 1100 2    50   Input ~ 10
-FPGA_REF_CLK1_P
 Text HLabel 9700 900  2    50   Input ~ 10
 FPGA_REF_CLK0_N
 Text HLabel 9700 800  2    50   Input ~ 10
@@ -73,22 +69,12 @@ Text Label 9550 800  2    50   ~ 10
 FPGA_REF_CLK0_P
 Text Label 9550 900  2    50   ~ 10
 FPGA_REF_CLK0_N
-Text Label 9550 1100 2    50   ~ 10
-FPGA_REF_CLK1_P
-Text Label 9550 1200 2    50   ~ 10
-FPGA_REF_CLK1_N
 Wire Wire Line
 	8600 800  9700 800 
 Wire Wire Line
 	8600 900  9700 900 
 Wire Wire Line
-	8600 1100 9700 1100
-Wire Wire Line
-	8600 1200 9700 1200
-Wire Wire Line
 	8000 800  8000 900 
-Wire Wire Line
-	8000 1100 8000 1200
 $Comp
 L power:GND #PWR?
 U 1 1 5FF9FEAE
@@ -108,35 +94,11 @@ F 3 "" H 8000 900 50  0001 C CNN
 	1    8000 900 
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FFB2211
-P 8000 1200
-AR Path="/5BD32060/5FFB2211" Ref="#PWR?"  Part="1" 
-AR Path="/5BABAC65/5FFB2211" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24E97/5FFB2211" Ref="#PWR?"  Part="1" 
-AR Path="/5CC393D3/5FFB2211" Ref="#PWR?"  Part="1" 
-AR Path="/5CC6DBF7/5FFB2211" Ref="#PWR?"  Part="1" 
-AR Path="/5CC8AFE1/5FFB2211" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5FFB2211" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5DCA928C/5FFB2211" Ref="#PWR0494"  Part="1" 
-F 0 "#PWR0494" H 8000 950 50  0001 C CNN
-F 1 "GND" H 8005 1027 50  0000 C CNN
-F 2 "" H 8000 1200 50  0001 C CNN
-F 3 "" H 8000 1200 50  0001 C CNN
-	1    8000 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 800  8300 800 
 Wire Wire Line
 	8000 900  8300 900 
 Connection ~ 8000 900 
-Wire Wire Line
-	8000 1100 8300 1100
-Wire Wire Line
-	8000 1200 8300 1200
-Connection ~ 8000 1200
 $Comp
 L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R59
 U 1 1 5DC80DBA
@@ -233,104 +195,6 @@ F 39 "11/13/14 00:00:00" H 8300 -2730 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 8300 -2820 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -2910 60  0001 L CNN "License"
 	1    8300 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R61
-U 1 1 5DCB78D4
-P 8300 1100
-F 0 "R61" H 8300 1150 50  0000 C CNN
-F 1 "R0201_100R_1%_0.05W_200PPM" H 8300 890 60  0001 L CNN
-F 2 "RESC0603X28N" H 8300 80  60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 710 60  0001 L CNN
-F 4 "200" H 8650 1150 50  0000 C CNN "~"
-F 5 "R0201_200R_1%_0.05W_200PPM" H 8300 620 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 8300 530 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 8300 440 60  0001 L CNN "Library Path"
-F 8 "=Value" H 8300 350 60  0001 L CNN "Comment"
-F 9 "Standard" H 8300 260 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 8300 170 60  0001 L CNN "Component Type"
-F 11 "~~" H 8300 -10 60  0001 L CNN "PackageDescription"
-F 12 "2" H 8300 -100 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 8300 -190 60  0001 L CNN "Footprint Path"
-F 14 "RESC0603X28N" H 8300 -280 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 8300 -370 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 8300 -460 60  0001 L CNN "Status"
-F 17 "0.05W" H 8300 -550 60  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 8300 -640 60  0001 L CNN "TC"
-F 19 "~~" H 8300 -730 60  0001 L CNN "Voltage"
-F 20 "±1%" H 8300 -820 60  0001 L CNN "Tolerance"
-F 21 "Thick Film Chip Resistor" H 8300 -910 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 8300 -1000 60  0001 L CNN "Manufacturer"
-F 23 "R0201_200R_1%_0.05W_200PPM" H 8300 -1090 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 8300 -1180 60  0001 L CNN "Case"
-F 25 "No" H 8300 -1270 60  0001 L CNN "PressFit"
-F 26 "Yes" H 8300 -1360 60  0001 L CNN "Mounted"
-F 27 "~~" H 8300 -1450 60  0001 L CNN "Sense Comment"
-F 28 "No" H 8300 -1540 60  0001 L CNN "Sense"
-F 29 "~~" H 8300 -1630 60  0001 L CNN "Status Comment"
-F 30 "No" H 8300 -1720 60  0001 L CNN "Socket"
-F 31 "Yes" H 8300 -1810 60  0001 L CNN "SMD"
-F 32 "~~" H 8300 -1900 60  0001 L CNN "ComponentHeight"
-F 33 "VISHAY" H 8300 -1990 60  0001 L CNN "Manufacturer1 Example"
-F 34 "CRCW0201200RFNED" H 8300 -2080 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.27mm" H 8300 -2170 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 -2260 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 8300 -2350 60  0001 L CNN "Author"
-F 38 "11/13/14 00:00:00" H 8300 -2440 60  0001 L CNN "CreateDate"
-F 39 "11/13/14 00:00:00" H 8300 -2530 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 8300 -2620 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -2710 60  0001 L CNN "License"
-	1    8300 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R169
-U 1 1 5DCC9ABA
-P 8300 1200
-F 0 "R169" H 8300 1250 50  0000 C CNN
-F 1 "R0201_100R_1%_0.05W_200PPM" H 8300 990 60  0001 L CNN
-F 2 "RESC0603X28N" H 8300 180 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 810 60  0001 L CNN
-F 4 "200" H 8650 1250 50  0000 C CNN "~"
-F 5 "R0201_200R_1%_0.05W_200PPM" H 8300 720 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 8300 630 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 8300 540 60  0001 L CNN "Library Path"
-F 8 "=Value" H 8300 450 60  0001 L CNN "Comment"
-F 9 "Standard" H 8300 360 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 8300 270 60  0001 L CNN "Component Type"
-F 11 "~~" H 8300 90  60  0001 L CNN "PackageDescription"
-F 12 "2" H 8300 0   60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 8300 -90 60  0001 L CNN "Footprint Path"
-F 14 "RESC0603X28N" H 8300 -180 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 8300 -270 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 8300 -360 60  0001 L CNN "Status"
-F 17 "0.05W" H 8300 -450 60  0001 L CNN "Power"
-F 18 "±200ppm/°C" H 8300 -540 60  0001 L CNN "TC"
-F 19 "~~" H 8300 -630 60  0001 L CNN "Voltage"
-F 20 "±1%" H 8300 -720 60  0001 L CNN "Tolerance"
-F 21 "Thick Film Chip Resistor" H 8300 -810 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 8300 -900 60  0001 L CNN "Manufacturer"
-F 23 "R0201_200R_1%_0.05W_200PPM" H 8300 -990 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0201" H 8300 -1080 60  0001 L CNN "Case"
-F 25 "No" H 8300 -1170 60  0001 L CNN "PressFit"
-F 26 "Yes" H 8300 -1260 60  0001 L CNN "Mounted"
-F 27 "~~" H 8300 -1350 60  0001 L CNN "Sense Comment"
-F 28 "No" H 8300 -1440 60  0001 L CNN "Sense"
-F 29 "~~" H 8300 -1530 60  0001 L CNN "Status Comment"
-F 30 "No" H 8300 -1620 60  0001 L CNN "Socket"
-F 31 "Yes" H 8300 -1710 60  0001 L CNN "SMD"
-F 32 "~~" H 8300 -1800 60  0001 L CNN "ComponentHeight"
-F 33 "VISHAY" H 8300 -1890 60  0001 L CNN "Manufacturer1 Example"
-F 34 "CRCW0201200RFNED" H 8300 -1980 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.27mm" H 8300 -2070 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 -2160 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 8300 -2250 60  0001 L CNN "Author"
-F 38 "11/13/14 00:00:00" H 8300 -2340 60  0001 L CNN "CreateDate"
-F 39 "11/13/14 00:00:00" H 8300 -2430 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 8300 -2520 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -2610 60  0001 L CNN "License"
-	1    8300 1200
 	1    0    0    -1  
 $EndComp
 $Comp
