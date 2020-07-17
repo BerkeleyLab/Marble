@@ -39,4 +39,7 @@ In the KiCad (version 5.1.x) schematic GUI (eeschema):
 * Finally from the command line run "python3 netlist_to_xdc AMC_FMC_Carrier-PcbDoc.net"
 * result shows up as Marble.xdc
 
+## (Almost) Reality:
+
+![layout](marble_top.png)
 
