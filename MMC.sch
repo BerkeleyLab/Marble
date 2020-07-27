@@ -2832,10 +2832,6 @@ F 3 "" H 6400 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 6600 10150 6600
-Text HLabel 5500 6100 0    50   Output ~ 0
-CLKMUX_RST
-Wire Wire Line
-	5500 6100 6850 6100
 Text HLabel 6450 4400 0    50   Output ~ 0
 MUX1_MMC
 Text HLabel 6450 4500 0    50   Output ~ 0
