@@ -8,18 +8,16 @@ PCB fabrication and turn-key assembly:
 Gerber, Drill, IPC-D-356, Board stackup, BoM, and X-Y placement.
 
 The design is created in, and these manufacturing files are mostly
-exported from, KiCad version 5.1.2.
+exported from, KiCad version 5.1.5.
 
-This is an 8-layer, 1.6mm board.  Materials and thicknesses
+This is an 12-layer, 1.6mm board.  Materials and thicknesses
 according to the board stackup description:
   marble-stack.txt
+  marble-stack.csv
 
 Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
 (0.35mm pad).  The overall board size follows the AMC double-width
-standard, approximately 149 mm x 184 mm.
-
-The layout is set up for gold-fingers on the AMC edge,
-but this prototyping run does not need that process step.
+standard, approximately 150 mm x 180 mm.
 
 Copper Gerber files, in order:
   marble-F_Cu.gbr
@@ -29,6 +27,11 @@ Copper Gerber files, in order:
   marble-In4_Cu.gbr
   marble-In5_Cu.gbr
   marble-In6_Cu.gbr
+  marble-In7_Cu.gbr
+  marble-In8_Cu.gbr
+  marble-In9_Cu.gbr
+  marble-In10_Cu.gbr
+  marble-In11_Cu.gbr
   marble-B_Cu.gbr
 
 Silkscreen, soldermask, and solderpaste files

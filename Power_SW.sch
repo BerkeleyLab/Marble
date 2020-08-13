@@ -4920,21 +4920,21 @@ L Regulators:XRP7724ILB-F U35
 U 1 1 5D32B439
 P 6350 1600
 F 0 "U35" H 6850 1765 50  0000 C CNN
-F 1 "XRP7724ILB-F" H 6850 1674 50  0000 C CNN
+F 1 "XRP7724ILBTR-F" H 6850 1674 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:QFN50P700X700X80-45N-S520" H 6350 -3090 60  0001 L CNN
 F 3 "" H 6350 -2370 60  0001 L CNN
-F 4 "XRP7724ILB-F" H 6350 -2460 60  0001 L CNN "Part Number"
-F 5 "XRP7724ILB-F" H 6350 -2550 60  0001 L CNN "Library Ref"
+F 4 "XRP7724ILBTR-F" H 6350 -2460 60  0001 L CNN "Part Number"
+F 5 "XRP7724ILBTR-F" H 6350 -2550 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Regulators.SchLib" H 6350 -2640 60  0001 L CNN "Library Path"
 F 7 "=Device" H 6350 -2730 60  0001 L CNN "Comment"
 F 8 "Standard" H 6350 -2820 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 6350 -2910 60  0001 L CNN "Component Type"
-F 10 "XRP7724ILB-F" H 6350 -3000 60  0001 L CNN "Device"
+F 10 "XRP7724ILBTR-F" H 6350 -3000 60  0001 L CNN "Device"
 F 11 "50mm Pitch, Square; 44 Pin, 7.00mm L X 7.00mm W X 0.80mm H Body (W/Thermal Tab 5.2mm X 5.2mm), IPC Medium Density" H 6350 -3180 60  0001 L CNN "PackageDescription"
 F 12 "~~" H 6350 -3270 60  0001 L CNN "Status"
 F 13 "Quad Channel Digital PWM/PFM Proggrammable Power Management System" H 6350 -3360 60  0001 L CNN "Part Description"
 F 14 "EXAR" H 6350 -3450 60  0001 L CNN "Manufacturer"
-F 15 "XRP7724ILB-F" H 6350 -3540 60  0001 L CNN "Manufacturer Part Number"
+F 15 "XRP7724ILBTR-F" H 6350 -3540 60  0001 L CNN "Manufacturer Part Number"
 F 16 "45" H 6350 -3630 60  0001 L CNN "Pin Count"
 F 17 "QFN44" H 6350 -3720 60  0001 L CNN "Case"
 F 18 "Yes" H 6350 -3810 60  0001 L CNN "Mounted"
