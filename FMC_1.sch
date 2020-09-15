@@ -683,7 +683,7 @@ FMC1_PG_C2M
 Wire Wire Line
 	13600 700  14500 700 
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR087
+L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR087
 U 1 1 5BF95847
 P 1850 4400
 F 0 "#PWR087" H 1850 4250 50  0001 C CNN

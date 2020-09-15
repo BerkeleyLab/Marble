@@ -273,7 +273,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1050 6150 1700
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
 U 1 1 5DBB4777
 P 3900 2700
 AR Path="/5DBB4777" Ref="J?"  Part="1" 
@@ -1257,7 +1257,7 @@ $EndComp
 Wire Wire Line
 	12350 7000 12350 7050
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DBB8165
 P 15250 8200
 AR Path="/5C907554/5C417BCB/5DBB8165" Ref="#PWR?"  Part="1" 
@@ -1271,7 +1271,7 @@ F 3 "" H 15250 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DBB816B
 P 15300 5800
 AR Path="/5C907554/5C417BCB/5DBB816B" Ref="#PWR?"  Part="1" 
@@ -1285,7 +1285,7 @@ F 3 "" H 15300 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DBB8171
 P 7850 9550
 AR Path="/5C907554/5C417BCB/5DBB8171" Ref="#PWR?"  Part="1" 
@@ -3725,7 +3725,7 @@ F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 1450 6070 60  0001 L CNN
 F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 1450 5080 60  0001 L CNN
 F 3 "" H 1450 5890 60  0001 L CNN
 F 4 "Green" H 1450 5800 60  0001 L CNN "Pole4"
-F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 1450 5800 60  0001 L CNN "Part Number"
+F 5 "150060VS75000" H 1450 5800 60  0001 L CNN "Part Number"
 F 6 "LED Green 1C 2A" H 1450 5710 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 1450 5620 60  0001 L CNN "Library Path"
 F 8 "~~" H 1450 5530 60  0001 L CNN "Comment"
@@ -3737,7 +3737,7 @@ F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 1450 4990 60  0
 F 14 "~~" H 1450 4900 60  0001 L CNN "Status"
 F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 1450 4810 60  0001 L CNN "Part Description"
 F 16 "KINGBRIGHT" H 1450 4720 60  0001 L CNN "Manufacturer"
-F 17 "KPH-1608CGCK" H 1450 4630 60  0001 L CNN "Manufacturer Part Number"
+F 17 "150060VS75000" H 1450 4630 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 1450 4540 60  0001 L CNN "Pin Count"
 F 19 "~~" H 1450 4450 60  0001 L CNN "Case"
 F 20 "Yes" H 1450 4360 60  0001 L CNN "Mounted"
@@ -3829,7 +3829,7 @@ F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 2500 6070 60  0001 L CNN
 F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 2500 5080 60  0001 L CNN
 F 3 "" H 2500 5890 60  0001 L CNN
 F 4 "Green" H 2500 5800 60  0001 L CNN "Pole4"
-F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 2500 5800 60  0001 L CNN "Part Number"
+F 5 "150060VS75000" H 2500 5800 60  0001 L CNN "Part Number"
 F 6 "LED Green 1C 2A" H 2500 5710 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 2500 5620 60  0001 L CNN "Library Path"
 F 8 "~~" H 2500 5530 60  0001 L CNN "Comment"
@@ -3841,7 +3841,7 @@ F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 2500 4990 60  0
 F 14 "~~" H 2500 4900 60  0001 L CNN "Status"
 F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 2500 4810 60  0001 L CNN "Part Description"
 F 16 "KINGBRIGHT" H 2500 4720 60  0001 L CNN "Manufacturer"
-F 17 "KPH-1608CGCK" H 2500 4630 60  0001 L CNN "Manufacturer Part Number"
+F 17 "150060VS75000" H 2500 4630 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 2500 4540 60  0001 L CNN "Pin Count"
 F 19 "~~" H 2500 4450 60  0001 L CNN "Case"
 F 20 "Yes" H 2500 4360 60  0001 L CNN "Mounted"
@@ -4025,7 +4025,7 @@ F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 3650 6070 60  0001 L CNN
 F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 3650 5080 60  0001 L CNN
 F 3 "" H 3650 5890 60  0001 L CNN
 F 4 "Green" H 3650 5800 60  0001 L CNN "Pole4"
-F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 3650 5800 60  0001 L CNN "Part Number"
+F 5 "150060VS75000" H 3650 5800 60  0001 L CNN "Part Number"
 F 6 "LED Green 1C 2A" H 3650 5710 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 3650 5620 60  0001 L CNN "Library Path"
 F 8 "~~" H 3650 5530 60  0001 L CNN "Comment"
@@ -4037,7 +4037,7 @@ F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 3650 4990 60  0
 F 14 "~~" H 3650 4900 60  0001 L CNN "Status"
 F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 3650 4810 60  0001 L CNN "Part Description"
 F 16 "KINGBRIGHT" H 3650 4720 60  0001 L CNN "Manufacturer"
-F 17 "KPH-1608CGCK" H 3650 4630 60  0001 L CNN "Manufacturer Part Number"
+F 17 "150060VS75000" H 3650 4630 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 3650 4540 60  0001 L CNN "Pin Count"
 F 19 "~~" H 3650 4450 60  0001 L CNN "Case"
 F 20 "Yes" H 3650 4360 60  0001 L CNN "Mounted"
@@ -4129,7 +4129,7 @@ F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 4700 6070 60  0001 L CNN
 F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 4700 5080 60  0001 L CNN
 F 3 "" H 4700 5890 60  0001 L CNN
 F 4 "Green" H 4700 5800 60  0001 L CNN "Pole4"
-F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 4700 5800 60  0001 L CNN "Part Number"
+F 5 "150060VS75000" H 4700 5800 60  0001 L CNN "Part Number"
 F 6 "LED Green 1C 2A" H 4700 5710 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 4700 5620 60  0001 L CNN "Library Path"
 F 8 "~~" H 4700 5530 60  0001 L CNN "Comment"
@@ -4141,7 +4141,7 @@ F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 4700 4990 60  0
 F 14 "~~" H 4700 4900 60  0001 L CNN "Status"
 F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 4700 4810 60  0001 L CNN "Part Description"
 F 16 "KINGBRIGHT" H 4700 4720 60  0001 L CNN "Manufacturer"
-F 17 "KPH-1608CGCK" H 4700 4630 60  0001 L CNN "Manufacturer Part Number"
+F 17 "150060VS75000" H 4700 4630 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 4700 4540 60  0001 L CNN "Pin Count"
 F 19 "~~" H 4700 4450 60  0001 L CNN "Case"
 F 20 "Yes" H 4700 4360 60  0001 L CNN "Mounted"
@@ -4545,7 +4545,7 @@ F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 5250 6070 60  0001 L CNN
 F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 5250 5080 60  0001 L CNN
 F 3 "" H 5250 5890 60  0001 L CNN
 F 4 "Green" H 5250 5800 60  0001 L CNN "Pole4"
-F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 5250 5800 60  0001 L CNN "Part Number"
+F 5 "150060VS75000" H 5250 5800 60  0001 L CNN "Part Number"
 F 6 "LED Green 1C 2A" H 5250 5710 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 5250 5620 60  0001 L CNN "Library Path"
 F 8 "~~" H 5250 5530 60  0001 L CNN "Comment"
@@ -4557,7 +4557,7 @@ F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 5250 4990 60  0
 F 14 "~~" H 5250 4900 60  0001 L CNN "Status"
 F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 5250 4810 60  0001 L CNN "Part Description"
 F 16 "KINGBRIGHT" H 5250 4720 60  0001 L CNN "Manufacturer"
-F 17 "KPH-1608CGCK" H 5250 4630 60  0001 L CNN "Manufacturer Part Number"
+F 17 "150060VS75000" H 5250 4630 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 5250 4540 60  0001 L CNN "Pin Count"
 F 19 "~~" H 5250 4450 60  0001 L CNN "Case"
 F 20 "Yes" H 5250 4360 60  0001 L CNN "Mounted"
@@ -4662,7 +4662,7 @@ F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 1400 7670 60  0001 L CNN
 F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 1400 6680 60  0001 L CNN
 F 3 "" H 1400 7490 60  0001 L CNN
 F 4 "Green" H 1400 7400 60  0001 L CNN "Pole4"
-F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 1400 7400 60  0001 L CNN "Part Number"
+F 5 "150060VS75000" H 1400 7400 60  0001 L CNN "Part Number"
 F 6 "LED Green 1C 2A" H 1400 7310 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 1400 7220 60  0001 L CNN "Library Path"
 F 8 "~~" H 1400 7130 60  0001 L CNN "Comment"
@@ -4674,7 +4674,7 @@ F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 1400 6590 60  0
 F 14 "~~" H 1400 6500 60  0001 L CNN "Status"
 F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 1400 6410 60  0001 L CNN "Part Description"
 F 16 "KINGBRIGHT" H 1400 6320 60  0001 L CNN "Manufacturer"
-F 17 "KPH-1608CGCK" H 1400 6230 60  0001 L CNN "Manufacturer Part Number"
+F 17 "150060VS75000" H 1400 6230 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 1400 6140 60  0001 L CNN "Pin Count"
 F 19 "~~" H 1400 6050 60  0001 L CNN "Case"
 F 20 "Yes" H 1400 5960 60  0001 L CNN "Mounted"
@@ -4811,7 +4811,7 @@ F 1 "LED_KINGBRIGHT_KPH-1608CGCK" H 2050 7670 60  0001 L CNN
 F 2 "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK" H 2050 6680 60  0001 L CNN
 F 3 "" H 2050 7490 60  0001 L CNN
 F 4 "Green" H 2050 7400 60  0001 L CNN "Pole4"
-F 5 "LED_KINGBRIGHT_KPH-1608CGCK" H 2050 7400 60  0001 L CNN "Part Number"
+F 5 "150060VS75000" H 2050 7400 60  0001 L CNN "Part Number"
 F 6 "LED Green 1C 2A" H 2050 7310 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\LEDs & Displays.SchLib" H 2050 7220 60  0001 L CNN "Library Path"
 F 8 "~~" H 2050 7130 60  0001 L CNN "Comment"
@@ -4823,7 +4823,7 @@ F 13 "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm" H 2050 6590 60  0
 F 14 "~~" H 2050 6500 60  0001 L CNN "Status"
 F 15 "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness" H 2050 6410 60  0001 L CNN "Part Description"
 F 16 "KINGBRIGHT" H 2050 6320 60  0001 L CNN "Manufacturer"
-F 17 "KPH-1608CGCK" H 2050 6230 60  0001 L CNN "Manufacturer Part Number"
+F 17 "150060VS75000" H 2050 6230 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 2050 6140 60  0001 L CNN "Pin Count"
 F 19 "~~" H 2050 6050 60  0001 L CNN "Case"
 F 20 "Yes" H 2050 5960 60  0001 L CNN "Mounted"
@@ -5083,7 +5083,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 9450 3900 9450
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5DBB815F
 P 3900 9400
 AR Path="/5C907554/5C417BCB/5DBB815F" Ref="#PWR?"  Part="1" 
@@ -5100,7 +5100,7 @@ NoConn ~ 6150 2600
 NoConn ~ 6150 2200
 NoConn ~ 7550 5100
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5CF3EE50
 P 3100 6450
 AR Path="/5C907554/5C417BCB/5CF3EE50" Ref="#PWR?"  Part="1" 
@@ -5817,7 +5817,7 @@ $EndComp
 Text Notes 6350 9600 0    89   ~ 18
 1V05
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUXIO2V0-power2 #PWR?
+L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
 U 1 1 5E14CB07
 P 9100 7500
 AR Path="/5C907554/5C417BCB/5E14CB07" Ref="#PWR?"  Part="1" 
@@ -6832,7 +6832,7 @@ F 3 "" H 750 9250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:TPS7A8901RTJT-powerMG2 U47
+L AMC_FMC_Carrier-PcbDoc-rescue:TPS7A8901RTJT-powerMG2-AMC_FMC_Carrier-PcbDoc-rescue U47
 U 1 1 5E200024
 P 6700 6700
 F 0 "U47" H 7325 6825 50  0000 C CNN

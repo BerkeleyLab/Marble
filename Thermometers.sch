@@ -14,7 +14,7 @@ Comment3 "Thermometer & Fans controller"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U28
+L AMC_FMC_Carrier-PcbDoc-rescue:LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U28
 U 1 1 5D05AA1A
 P 6900 1850
 F 0 "U28" H 6650 2300 50  0000 C CNN
@@ -133,7 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 1950 7300 1950
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U29
+L AMC_FMC_Carrier-PcbDoc-rescue:LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U29
 U 1 1 5D05B2F7
 P 6900 3750
 F 0 "U29" H 6650 4200 50  0000 C CNN
@@ -367,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 5200 2850 5200
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q7
+L AMC_FMC_Carrier-PcbDoc-rescue:STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q7
 U 1 1 5D559F89
 P 6700 5750
 F 0 "Q7" H 6906 5796 50  0000 L CNN
@@ -379,7 +379,7 @@ F 4 "STS8DN6LF6AG" H 6700 5750 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q7
+L AMC_FMC_Carrier-PcbDoc-rescue:STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q7
 U 2 1 5D559FE8
 P 8300 5750
 F 0 "Q7" H 8506 5796 50  0000 L CNN
