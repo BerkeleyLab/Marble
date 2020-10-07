@@ -6665,6 +6665,62 @@ X 2 2 300 0 60 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_SMD_R0402_100K_1%_0.0625W_100PPM
+#
+DEF Resistors_SMD_R0402_100K_1%_0.0625W_100PPM R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "Resistors_SMD_R0402_100K_1%_0.0625W_100PPM" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "100k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_100K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "100k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_100K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671004L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_SMD_R0402_100R_1%_0.1W_100PPM
 #
 DEF Resistors_SMD_R0402_100R_1%_0.1W_100PPM R 0 50 Y Y 1 L N
@@ -6870,6 +6926,62 @@ F30 "Yes" 0 -2295 50 H I L CNN "SMD"
 F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
 F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
 F33 "232270671203L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
+F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
+F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
+F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
+F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
+F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
+DRAW
+T 0 150 0 25 1 0 1 1% Normal 0 C C
+P 2 0 1 10 60 -30 240 -30 N
+P 2 0 1 10 60 30 60 -30 N
+P 2 0 1 10 240 -30 240 30 N
+P 2 0 1 10 240 30 60 30 N
+X 1 1 0 0 60 R 0 0 0 1 P
+X 2 2 300 0 60 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_SMD_R0402_150K_1%_0.0625W_100PPM
+#
+DEF Resistors_SMD_R0402_150K_1%_0.0625W_100PPM R 0 50 Y Y 1 L N
+F0 "R" 150 70 50 H V C CNN
+F1 "Resistors_SMD_R0402_150K_1%_0.0625W_100PPM" 0 -195 50 H I L CNN
+F2 "Resistors SMD:RESC1005X40N" 0 -270 50 H I L CNN
+F3 " " 0 -345 50 H I L CNN
+F4 "150k" 150 -70 50 H V C CNN "Val"
+F5 "R0402_150K_1%_0.0625W_100PPM" 0 -420 50 H I L CNN "Part Number"
+F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
+F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
+F8 "150k" 0 -645 50 H I L CNN "Comment"
+F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -795 50 H I L CNN "Component Type"
+F11 " " 0 -870 50 H I L CNN "PackageDescription"
+F12 "2" 0 -945 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Resistors SMD.PcbLib" 0 -1020 50 H I L CNN "Footprint Path"
+F14 "RESC1005X40N" 0 -1095 50 H I L CNN "Footprint Ref"
+F15 "Not Recommended" 0 -1170 50 H I L CNN "Status"
+F16 "0.0625W" 0 -1245 50 H I L CNN "Power"
+F17 "±100ppm/°C" 0 -1320 50 H I L CNN "TC"
+F18 " " 0 -1395 50 H I L CNN "Voltage"
+F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
+F20 "General Purpose Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
+F22 "R0402_150K_1%_0.0625W_100PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F23 "0402" 0 -1770 50 H I L CNN "Case"
+F24 "No" 0 -1845 50 H I L CNN "PressFit"
+F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
+F26 " " 0 -1995 50 H I L CNN "Sense Comment"
+F27 "No" 0 -2070 50 H I L CNN "Sense"
+F28 " " 0 -2145 50 H I L CNN "Status Comment"
+F29 "No" 0 -2220 50 H I L CNN "Socket"
+F30 "Yes" 0 -2295 50 H I L CNN "SMD"
+F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
+F32 "YAGEO PHYCOMP" 0 -2445 50 H I L CNN "Manufacturer1 Example"
+F33 "232270671504L" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
 F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
@@ -9805,6 +9917,44 @@ X TX4p 6 -200 -600 200 R 60 60 0 1 I
 X GND 7 -200 -700 200 R 60 60 0 1 W
 X ModselL 8 -200 -800 200 R 60 60 0 1 I
 X ResetL 9 -200 -900 200 R 60 60 0 1 I
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_MPM3830GQV-P
+#
+DEF SamacSys_Parts_MPM3830GQV-P U? 0 30 Y Y 1 F N
+F0 "U?" 200 250 50 H V L CNN
+F1 "SamacSys_Parts_MPM3830GQV-P" 200 150 50 H V L CNN
+F2 "MPM3830GQVP" 1150 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/MPM3830GQV-P.pdf" 1150 0 50 H I L CNN
+F4 "Switching Voltage Regulators 6V, 1.2 MHz, 3A Sync StepDown Convtr" 1150 -100 50 H I L CNN "Description"
+F5 "1.6" 1150 -200 50 H I L CNN "Height"
+F6 "946-MPM3830GQV-P" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=946-MPM3830GQV-P" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Monolithic Power Systems (MPS)" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MPM3830GQV-P" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -1000 200 -1000 200 100 f
+X EN 1 0 -400 200 R 50 50 0 0 P
+X NC 10 0 -850 200 R 50 50 0 0 P
+X PG 11 0 -550 200 R 50 50 0 0 P
+X IN 12 0 50 200 R 50 50 0 0 P
+X IN 13 0 -50 200 R 50 50 0 0 P
+X IN 14 0 -150 200 R 50 50 0 0 P
+X NC 15 0 -750 200 R 50 50 0 0 P
+X PGND 16 650 -1200 200 U 50 50 0 0 P
+X AGND_1 17 550 -1200 200 U 50 50 0 0 P
+X AGND_2 18 450 -1200 200 U 50 50 0 0 P
+X OUT_S 2 1100 -350 200 L 50 50 0 0 P
+X FB 3 1100 -500 200 L 50 50 0 0 P
+X SW 4 1100 -650 200 L 50 50 0 0 P
+X SW 5 1100 -750 200 L 50 50 0 0 P
+X SW 6 1100 -850 200 L 50 50 0 0 P
+X OUT 7 1100 50 200 L 50 50 0 0 P
+X OUT 8 1100 -50 200 L 50 50 0 0 P
+X OUT 9 1100 -150 200 L 50 50 0 0 P
+X SW A4 1100 -950 200 L 50 50 0 0 P
+X OUT A7 1100 -250 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
