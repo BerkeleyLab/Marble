@@ -84,7 +84,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 4450 3750 5450
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U14
+L AMC_FMC_Carrier-PcbDoc-rescue:LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U14
 U 1 1 5C21F363
 P 2200 6900
 F 0 "U14" V 2353 6930 60  0000 L CNN
@@ -233,7 +233,7 @@ $EndComp
 Wire Wire Line
 	8850 4850 8850 4950
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0175
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0175
 U 1 1 5C2DA97A
 P 2300 6100
 F 0 "#PWR0175" H 2300 5950 50  0001 C CNN
@@ -244,7 +244,7 @@ F 3 "" H 2300 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0174
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0174
 U 1 1 5C2DA9DF
 P 2250 5650
 F 0 "#PWR0174" H 2250 5500 50  0001 C CNN
@@ -255,7 +255,7 @@ F 3 "" H 2250 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0209
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0209
 U 1 1 5C2DD28D
 P 7450 4850
 F 0 "#PWR0209" H 7450 4700 50  0001 C CNN
@@ -266,7 +266,7 @@ F 3 "" H 7450 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0173
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0173
 U 1 1 5C2DDAC4
 P 2250 4650
 F 0 "#PWR0173" H 2250 4500 50  0001 C CNN
@@ -285,7 +285,7 @@ Wire Wire Line
 Text Label 9250 4650 0    50   ~ 10
 CLK20_VCXO
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U13
+L AMC_FMC_Carrier-PcbDoc-rescue:LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U13
 U 1 1 5C2E75E7
 P 1700 2500
 F 0 "U13" H 2000 2689 60  0000 C CNN
@@ -297,7 +297,7 @@ F 4 "LP5951MF-3.0/NOPB" H 1700 2500 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0169
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0169
 U 1 1 5C2EF25E
 P 700 2500
 F 0 "#PWR0169" H 700 2350 50  0001 C CNN
@@ -321,7 +321,7 @@ F 3 "" H 1500 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Y2
+L AMC_FMC_Carrier-PcbDoc-rescue:Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Y2
 U 1 1 5C2F3070
 P 4050 1950
 F 0 "Y2" H 4350 2139 60  0000 C CNN
@@ -532,7 +532,7 @@ F 3 "" H 4750 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0206
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0206
 U 1 1 5C33B37A
 P 6550 6900
 F 0 "#PWR0206" H 6550 6750 50  0001 C CNN
@@ -664,7 +664,7 @@ $EndComp
 Wire Wire Line
 	6300 6250 6300 6300
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0189
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0189
 U 1 1 5C3A12D5
 P 5300 5900
 F 0 "#PWR0189" H 5300 5750 50  0001 C CNN
@@ -677,7 +677,7 @@ $EndComp
 Wire Wire Line
 	5300 5900 5300 5950
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0211
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0211
 U 1 1 5C8A0C88
 P 6500 1450
 F 0 "#PWR0211" H 6500 1300 50  0001 C CNN
@@ -965,7 +965,7 @@ $EndComp
 Wire Wire Line
 	10150 3050 10150 3100
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0399
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0399
 U 1 1 5D15AFE0
 P 10450 3400
 F 0 "#PWR0399" H 10450 3250 50  0001 C CNN
@@ -983,7 +983,7 @@ NoConn ~ 7450 3150
 NoConn ~ 8850 4750
 NoConn ~ 2500 2800
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0401
+L AMC_FMC_Carrier-PcbDoc-rescue:+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0401
 U 1 1 5D19EDBE
 P 10850 2700
 F 0 "#PWR0401" H 10850 2550 50  0001 C CNN

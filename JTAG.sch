@@ -106,7 +106,7 @@ USB_TDO_DI
 Wire Wire Line
 	10050 4150 10500 4150
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J11
+L AMC_FMC_Carrier-PcbDoc-rescue:MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J11
 U 1 1 5CB763C1
 P 4200 4700
 F 0 "J11" H 4244 4773 50  0000 C CNN
@@ -569,7 +569,7 @@ $EndComp
 Text Label 4600 6000 0    50   ~ 10
 EN_CON_JTAG
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U7
+L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U7
 U 1 1 5E17EE5A
 P 7600 1850
 F 0 "U7" H 7900 2015 50  0000 C CNN
@@ -615,7 +615,7 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U10
+L AMC_FMC_Carrier-PcbDoc-rescue:NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U10
 U 1 1 5E17F12A
 P 5200 1850
 F 0 "U10" H 5500 2015 50  0000 C CNN
@@ -1326,7 +1326,7 @@ MMC_TDO
 Text HLabel 10500 4950 2    50   Output ~ 10
 MMC_TDI
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
 U 1 1 5E9BF6F9
 P 5550 4050
 AR Path="/5BCEDA39/5E9BF6F9" Ref="J?"  Part="1" 
@@ -2342,7 +2342,6 @@ F 3 "" H 2300 5350 50  0001 C CNN
 	1    2300 5350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4400 4900
 $Comp
 L Resistors_SMD:R0402_0R_JUMPER R?
 U 1 1 5F7A2A7F
@@ -3325,4 +3324,20 @@ Wire Wire Line
 	9850 5400 10450 5400
 Text Label 9050 5400 0    50   ~ 10
 FMC1_TDI_R
+Wire Wire Line
+	4750 4900 4400 4900
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5F980E3D
+P 4750 4900
+AR Path="/5C16BF8E/5F980E3D" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5F980E3D" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5F980E3D" Ref="#PWR0798"  Part="1" 
+F 0 "#PWR0798" H 4750 4750 50  0001 C CNN
+F 1 "+2V5" H 4765 5073 50  0000 C CNN
+F 2 "" H 4750 4900 50  0001 C CNN
+F 3 "" H 4750 4900 50  0001 C CNN
+	1    4750 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

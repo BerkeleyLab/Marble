@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V_FMC1 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +12V_FMC2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+1V8_USB-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +1V8_USB 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3_CLEAN-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -61,11 +61,11 @@ X +3V3_CLEAN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_+3V3_USB-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -76,11 +76,11 @@ X +3V3_USB 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 40 N N 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -100 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_1.5KExxA-Diode-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" 0 -200 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 $FPLIST
@@ -94,11 +94,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 30 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 30 Y Y 1 F N
 F0 "U" 1200 -50 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 1200 -150 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_AG5300-AG5300-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 1200 -150 50 H V L CNN
 F2 "AG5300" 1200 -250 50 H I L CNN
 F3 "https://www.silvertel.com/images/datasheets/Ag5300-datasheet-smallest-30W-Power-Over-Ethernet-Plus-Module-PoEplusPD.pdf" 1200 -350 50 H I L CNN
 F4 "Power-over-Ethernet Plus Module" 1200 -450 50 H I L CNN "Description"
@@ -117,11 +117,11 @@ X ADJ 9 1350 -450 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 F N
 F0 "J" 900 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 900 -3050 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_BELFUSE_0826-1X1T-HS-F-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 900 -3050 50 H V C CNN
 F2 "Miscellaneous THD:BELFUSE_0826-1X1T-80-F" 0 -3150 60 H I L CNN
 F3 "" 0 -3220 60 H I L CNN
 F4 "BELFUSE_0826-1X1T-HS-F" 0 -3310 60 H I L CNN "Part Number"
@@ -462,11 +462,11 @@ X VC4 16 -200 -2300 200 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 40 Y N 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -300 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -488,11 +488,11 @@ X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" -100 550 50 H V R BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Conn_ARM_JTAG_SWD_10-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" -100 550 50 H V R BNN
 F2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
@@ -523,11 +523,11 @@ X GNDDetect 9 -100 -600 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
 F0 "J" 300 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -990 60 H I L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_HIROSE_ZX62RD-AB-5P8-Miscellaneous-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -990 60 H I L CNN
 F2 "Miscellaneous SMD:HIROSE_ZX62RD-AB-5P8" 0 -1080 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\HIROSE_ZX62RD-AB-5P8.pdf" 0 -1170 60 H I L CNN
 F4 "Micro-USB AB 2.0" 300 -850 50 H V C CNN "~"
@@ -597,11 +597,11 @@ X SH 6 -200 -700 200 R 0 0 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue L 0 40 N N 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 75 0 50 V V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_L-Device-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -620,11 +620,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 40 Y Y 1 F N
 F0 "IC" -100 150 60 H V L BNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" -750 50 60 V V L BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_LM336M-2.5-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" -750 50 60 V V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -641,11 +641,11 @@ X C 8 400 -100 200 L 70 1 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
 F0 "U" -250 450 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 450 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 450 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -675,11 +675,11 @@ X +Vs 8 0 500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 40 Y Y 1 F N
 F0 "IC" 300 50 60 H V L BNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 60 H V L BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_LP5951-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 60 H V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -692,11 +692,11 @@ X VOUT 5 800 -100 200 L 70 70 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
 F0 "IC" 350 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 350 -750 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_M93C46-WMN6TP-Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 350 -750 50 H V C CNN
 F2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" 0 -980 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\M93C46-WMN6TP.pdf" 0 -1070 60 H I L CNN
 F4 "M93C46-WMN6TP" 0 -1160 60 H I L CNN "Part Number"
@@ -748,11 +748,11 @@ X VCC 8 -200 -600 200 R 60 60 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 0 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 0 Y Y 1 F N
 F0 "D" 100 275 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 100 200 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MB6S-Diode_Bridge-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 100 200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TO-269AA" 150 125 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -775,11 +775,11 @@ X - 4 -300 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -790,11 +790,11 @@ X MGTAVCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -805,11 +805,11 @@ X MGTAVTT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J 0 60 Y Y 1 L N
 F0 "J" 150 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -1590 60 H I L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_MOLEX_87831-1420-MOLEX-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -1590 60 H I L CNN
 F2 "MOLEX THD:MOLEX_87831-1420" 0 -1680 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MOLEX_87831-1420.pdf" 0 -1770 60 H I L CNN
 F4 "Milli-Grid™" 0 -1860 60 H I L CNN
@@ -1038,11 +1038,11 @@ X 9 9 -200 -500 200 R 60 0 0 2 B
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
 F0 "IC" 300 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_NC7SZ66P5X-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 50 H V C CNN
 F2 "ICs And Semiconductors SMD:SOT65P210X110-5N" 0 -680 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\NC7SZ66P5X.pdf" 0 -770 60 H I L CNN
 F4 "NC7SZ66P5X" 0 -860 60 H I L CNN "Part Number"
@@ -1103,11 +1103,11 @@ X Vin 5 800 -200 200 L 60 60 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue OSC 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue OSC 0 40 Y Y 1 F N
 F0 "OSC" 100 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Oscillator-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1123,11 +1123,11 @@ X VDD 4 -200 -100 200 R 70 70 1 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue OSC 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue OSC 0 40 Y Y 1 F N
 F0 "OSC" 200 50 60 H V L BNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 60 H V L BNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 -450 60 H V L BNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1143,11 +1143,11 @@ X +Vs 4 -200 -100 200 R 70 70 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
 F0 "D" 200 50 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 -550 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_PRTR5V0U2X-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 -550 50 H V C CNN
 F2 "ICs And Semiconductors SMD:SOT190P230X110-4N" 0 -780 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PRTR5V0U2X.pdf" 0 -870 60 H I L CNN
 F4 "PRTR5V0U2X" 0 -960 60 H I L CNN "Part Number"
@@ -1223,11 +1223,11 @@ X VCC 4 600 -100 200 L 60 0 0 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 2 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 2 F N
 F0 "U" 50 150 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 50 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1252,11 +1252,11 @@ X RFU 6 800 -400 200 L 70 70 2 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue IC 0 60 Y Y 1 L N
 F0 "IC" 200 -50 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 -300 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 -300 50 H V L CNN
 F2 "ICs And Semiconductors SMD:SOT65P210X110-5N" 0 -540 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G125DCKT.pdf" 0 -630 60 H I L CNN
 F4 "SN74LVC1G125DCKT" 0 -720 60 H I L CNN "Part Number"
@@ -1307,11 +1307,11 @@ X VCC 5 -200 -400 200 R 60 60 0 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue D 0 60 Y Y 1 L N
 F0 "D" 150 110 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 150 -100 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_SS16-Diodes-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 150 -100 50 H V C CNN
 F2 "ICs And Semiconductors SMD:DIOM5127X229N" 0 -330 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SS16.pdf" 0 -420 60 H I L CNN
 F4 "SS16" 0 -510 60 H I L CNN "Part Number"
@@ -1365,11 +1365,11 @@ X A 2 0 0 100 R 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q 0 0 Y N 2 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q 0 0 Y N 2 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 0 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 200 0 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -1404,11 +1404,11 @@ X D2 6 100 200 100 D 50 50 2 1 P N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue SW 0 0 Y N 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 150 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -150 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1424,11 +1424,11 @@ X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 850 50 H V L CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 40 850 50 H V L CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 40 850 50 H V L CNN
 F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 0 -1000 50 H I C CNN
 F3 "" 50 250 50 H I C CNN
 $FPLIST
@@ -1464,11 +1464,11 @@ X GND 9 0 -1000 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 20 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 400 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 400 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 300 400 50 H V C CNN
 F2 "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm" 0 850 50 H I C CNN
 F3 "" 0 850 50 H I C CNN
 $FPLIST
@@ -1490,11 +1490,11 @@ X PGOOD 9 500 100 150 L 50 50 0 1 C
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
+DEF AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U 0 40 Y Y 1 F N
 F0 "U" 600 0 50 H V C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2-AMC_FMC_Carrier-PcbDoc-rescue" 650 -1800 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_TPS7A8901RTJT-powerMG2-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 650 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1523,11 +1523,11 @@ X PG2 9 1250 -1200 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1538,11 +1538,11 @@ X VCCAUX 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1553,11 +1553,11 @@ X VCCAUXIO2V0 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1568,11 +1568,11 @@ X VCCBRAM 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1583,11 +1583,11 @@ X VTT_DDR3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
+# AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue
 #
-DEF AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #FLG 0 0 N N 1 F P
+DEF AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 150 50 H V C CNN
+F1 "AMC_FMC_Carrier-PcbDoc-rescue_power_PWR_FLAG-AMC_FMC_Carrier-PcbDoc-cache-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

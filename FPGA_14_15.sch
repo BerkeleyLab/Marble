@@ -48,7 +48,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 2300 6900 2200
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U30
+L AMC_FMC_Carrier-PcbDoc-rescue:S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U30
 U 1 1 5C40DA57
 P 13400 850
 F 0 "U30" H 13700 1017 50  0000 C CNN
@@ -60,7 +60,7 @@ F 4 "S25FL128SAGMFIR01" H 13400 850 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U30
+L AMC_FMC_Carrier-PcbDoc-rescue:S25FL128SAGMFIR01-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U30
 U 2 1 5C40DA9C
 P 14700 850
 F 0 "U30" H 15000 1017 50  0000 C CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	12650 1650 13200 1650
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue SW1
+L AMC_FMC_Carrier-PcbDoc-rescue:SW_DIP_x01-Switch-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue SW1
 U 1 1 5C881CE2
 P 13300 3000
 F 0 "SW1" H 13300 3267 50  0000 C CNN
@@ -270,7 +270,7 @@ F 3 "" H 13000 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U11
+L AMC_FMC_Carrier-PcbDoc-rescue:SN74LVC1G125DCKT-Standard_Logic-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U11
 U 1 1 5C4235B4
 P 14150 2800
 F 0 "U11" H 14300 2211 50  0000 C CNN

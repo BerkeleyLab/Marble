@@ -65,9 +65,9 @@ Text Label 6000 4100 0    50   ~ 10
 FPGA_RESETn
 Text Label 9600 3900 0    50   ~ 10
 MMC_TDO
-Text Label 9600 6700 0    50   ~ 10
+Text Label 11100 3300 0    50   ~ 10
 MMC_TCK
-Text Label 9600 6600 0    50   ~ 10
+Text Label 11100 3200 0    50   ~ 10
 MMC_TMS
 Entry Wire Line
 	9350 3600 9250 3700
@@ -304,21 +304,8 @@ Wire Wire Line
 	2000 3650 2000 3750
 Wire Wire Line
 	1500 3650 1500 3750
-Text Label 9600 6800 0    50   ~ 10
+Text Label 11100 3400 0    50   ~ 10
 MMC_TDI
-$Comp
-L power:GND #PWR?
-U 1 1 5C93F7C8
-P 9200 7250
-AR Path="/5BD32060/5C93F7C8" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/5C93F7C8" Ref="#PWR0377"  Part="1" 
-F 0 "#PWR0377" H 9200 7000 50  0001 C CNN
-F 1 "GND" H 9205 7077 50  0000 C CNN
-F 2 "" H 9200 7250 50  0001 C CNN
-F 3 "" H 9200 7250 50  0001 C CNN
-	1    9200 7250
-	1    0    0    -1  
-$EndComp
 Text Label 5450 1900 0    50   ~ 10
 ISP_RSTn
 Text HLabel 5200 1900 0    50   Input ~ 10
@@ -385,8 +372,6 @@ Wire Wire Line
 	2550 4000 2550 3600
 Text Notes 1350 2850 0    89   ~ 18
 Clock source option\n
-Wire Wire Line
-	8650 6800 10150 6800
 Wire Wire Line
 	8650 3900 10150 3900
 Text Label 9800 4100 2    50   ~ 10
@@ -604,13 +589,13 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 Text HLabel 6600 1350 2    50   Input ~ 10
 LPC_RST
-Text HLabel 10150 6700 2    50   Input ~ 10
+Text HLabel 11650 3300 2    50   Input ~ 10
 MMC_TCK
-Text HLabel 10150 6600 2    50   Input ~ 10
+Text HLabel 11650 3200 2    50   Input ~ 10
 MMC_TMS
 Text HLabel 10150 3900 2    50   Output ~ 10
 MMC_TDO
-Text HLabel 10150 6800 2    50   Input ~ 10
+Text HLabel 11650 3400 2    50   Input ~ 10
 MMC_TDI
 $Comp
 L Resistors_SMD:R0402_0R_JUMPER R135
@@ -904,6 +889,7 @@ F 38 "12/03/07 00:00:00" H 5650 910 60  0001 L CNN "CreateDate"
 F 39 "10/17/12 00:00:00" H 5650 820 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 5650 730 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5650 640 60  0001 L CNN "License"
+F 42 "dnf" V 5750 4550 50  0000 C CNN "config"
 	1    5650 4450
 	0    1    1    0   
 $EndComp
@@ -1101,55 +1087,6 @@ F 39 "10/17/12 00:00:00" H 6500 3320 60  0001 L CNN "LatestRevisionDate"
 F 40 "Resistors SMD" H 6500 3230 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6500 3140 60  0001 L CNN "License"
 	1    6500 6950
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R137
-U 1 1 5CD667CC
-P 9200 6950
-F 0 "R137" V 9200 6950 50  0000 L CNN
-F 1 "R0402_10K_1%_0.0625W_100PPM" H 9200 6740 60  0001 L CNN
-F 2 "RESC1005X40N" H 9200 5930 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9200 6560 60  0001 L CNN
-F 4 "10k" V 9500 6950 50  0000 L CNN "~"
-F 5 "R0402_10K_1%_0.0625W_100PPM" H 9200 6470 60  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 9200 6380 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 9200 6290 60  0001 L CNN "Library Path"
-F 8 "=Value" H 9200 6200 60  0001 L CNN "Comment"
-F 9 "Standard" H 9200 6110 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 9200 6020 60  0001 L CNN "Component Type"
-F 11 "~~" H 9200 5840 60  0001 L CNN "PackageDescription"
-F 12 "2" H 9200 5750 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 9200 5660 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 9200 5570 60  0001 L CNN "Footprint Ref"
-F 15 "10k" H 9200 5480 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 9200 5390 60  0001 L CNN "Status"
-F 17 "0.0625W" H 9200 5300 60  0001 L CNN "Power"
-F 18 "±100ppm/°C" H 9200 5210 60  0001 L CNN "TC"
-F 19 "~~" H 9200 5120 60  0001 L CNN "Voltage"
-F 20 "±1%" H 9200 5030 60  0001 L CNN "Tolerance"
-F 21 "General Purpose Thick Film Chip Resistor" H 9200 4940 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 9200 4850 60  0001 L CNN "Manufacturer"
-F 23 "R0402_10K_1%_0.0625W_100PPM" H 9200 4760 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 9200 4670 60  0001 L CNN "Case"
-F 25 "No" H 9200 4580 60  0001 L CNN "PressFit"
-F 26 "Yes" H 9200 4490 60  0001 L CNN "Mounted"
-F 27 "~~" H 9200 4400 60  0001 L CNN "Sense Comment"
-F 28 "No" H 9200 4310 60  0001 L CNN "Sense"
-F 29 "~~" H 9200 4220 60  0001 L CNN "Status Comment"
-F 30 "No" H 9200 4130 60  0001 L CNN "Socket"
-F 31 "Yes" H 9200 4040 60  0001 L CNN "SMD"
-F 32 "~~" H 9200 3950 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 9200 3860 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270671003L" H 9200 3770 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 9200 3680 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 9200 3590 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 9200 3500 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 9200 3410 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 9200 3320 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 9200 3230 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9200 3140 60  0001 L CNN "License"
-	1    9200 6950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2830,8 +2767,6 @@ F 3 "" H 6400 1650 50  0001 C CNN
 	1    6400 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8650 6600 10150 6600
 Text HLabel 6450 4400 0    50   Output ~ 0
 MUX1_MMC
 Text HLabel 6450 4500 0    50   Output ~ 0
@@ -3318,13 +3253,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 3000 2950 3200
 Wire Wire Line
-	8650 6700 9200 6700
-Wire Wire Line
-	9200 6700 9200 6950
-Connection ~ 9200 6700
-Wire Wire Line
-	9200 6700 10150 6700
-Wire Wire Line
 	12050 5200 12050 5150
 Wire Wire Line
 	12050 5150 11850 5150
@@ -3645,8 +3573,81 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    13150 3250
 	0    -1   1    0   
 $EndComp
+Wire Wire Line
+	8650 3200 11650 3200
+Wire Wire Line
+	8650 3400 11650 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5C93F7C8
+P 10700 3750
+AR Path="/5BD32060/5C93F7C8" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5C93F7C8" Ref="#PWR0377"  Part="1" 
+F 0 "#PWR0377" H 10700 3500 50  0001 C CNN
+F 1 "GND" H 10705 3577 50  0000 C CNN
+F 2 "" H 10700 3750 50  0001 C CNN
+F 3 "" H 10700 3750 50  0001 C CNN
+	1    10700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R137
+U 1 1 5CD667CC
+P 10700 3450
+F 0 "R137" V 10700 3450 50  0000 L CNN
+F 1 "R0402_10K_1%_0.0625W_100PPM" H 10700 3240 60  0001 L CNN
+F 2 "RESC1005X40N" H 10700 2430 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 10700 3060 60  0001 L CNN
+F 4 "10k" V 11000 3450 50  0000 L CNN "~"
+F 5 "R0402_10K_1%_0.0625W_100PPM" H 10700 2970 60  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 10700 2880 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 10700 2790 60  0001 L CNN "Library Path"
+F 8 "=Value" H 10700 2700 60  0001 L CNN "Comment"
+F 9 "Standard" H 10700 2610 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 10700 2520 60  0001 L CNN "Component Type"
+F 11 "~~" H 10700 2340 60  0001 L CNN "PackageDescription"
+F 12 "2" H 10700 2250 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 10700 2160 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 10700 2070 60  0001 L CNN "Footprint Ref"
+F 15 "10k" H 10700 1980 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 10700 1890 60  0001 L CNN "Status"
+F 17 "0.0625W" H 10700 1800 60  0001 L CNN "Power"
+F 18 "±100ppm/°C" H 10700 1710 60  0001 L CNN "TC"
+F 19 "~~" H 10700 1620 60  0001 L CNN "Voltage"
+F 20 "±1%" H 10700 1530 60  0001 L CNN "Tolerance"
+F 21 "General Purpose Thick Film Chip Resistor" H 10700 1440 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 10700 1350 60  0001 L CNN "Manufacturer"
+F 23 "R0402_10K_1%_0.0625W_100PPM" H 10700 1260 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 10700 1170 60  0001 L CNN "Case"
+F 25 "No" H 10700 1080 60  0001 L CNN "PressFit"
+F 26 "Yes" H 10700 990 60  0001 L CNN "Mounted"
+F 27 "~~" H 10700 900 60  0001 L CNN "Sense Comment"
+F 28 "No" H 10700 810 60  0001 L CNN "Sense"
+F 29 "~~" H 10700 720 60  0001 L CNN "Status Comment"
+F 30 "No" H 10700 630 60  0001 L CNN "Socket"
+F 31 "Yes" H 10700 540 60  0001 L CNN "SMD"
+F 32 "~~" H 10700 450 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 10700 360 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270671003L" H 10700 270 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 10700 180 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 10700 90  60  0001 L CNN "HelpURL"
+F 37 "CERN DEM JLC" H 10700 0   60  0001 L CNN "Author"
+F 38 "12/03/07 00:00:00" H 10700 -90 60  0001 L CNN "CreateDate"
+F 39 "10/17/12 00:00:00" H 10700 -180 60  0001 L CNN "LatestRevisionDate"
+F 40 "Resistors SMD" H 10700 -270 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 10700 -360 60  0001 L CNN "License"
+	1    10700 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 3300 10700 3300
+Wire Wire Line
+	10700 3300 10700 3450
 Wire Bus Line
 	9350 3500 9350 3700
 Wire Bus Line
 	1700 4600 1700 5350
+Connection ~ 10700 3300
+Wire Wire Line
+	10700 3300 11650 3300
 $EndSCHEMATC
