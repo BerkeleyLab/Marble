@@ -642,9 +642,9 @@ F 3 "" H 3250 2100 50  0001 C CNN
 	1    3250 2100
 	1    0    0    -1  
 $EndComp
-Text Label 2050 1750 0    50   ~ 10
+Text Label 2150 1750 0    50   ~ 10
 MII_MDIO
-Text Label 2050 1950 0    50   ~ 10
+Text Label 2150 1950 0    50   ~ 10
 MII_MDC
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C79
@@ -1180,7 +1180,7 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 1750 2700 1750
+	1750 1750 1800 1750
 Wire Wire Line
 	2800 1750 2800 1700
 Wire Wire Line
@@ -1189,17 +1189,15 @@ Connection ~ 2700 1750
 Wire Wire Line
 	2700 1750 2800 1750
 Wire Wire Line
-	1750 1950 2900 1950
+	1750 1950 2050 1950
 Wire Wire Line
 	2900 1950 2900 1800
 Wire Wire Line
 	2900 1800 3250 1800
 Wire Wire Line
-	4250 1800 5300 1800
-Wire Wire Line
 	5300 1800 5300 2400
 Wire Wire Line
-	4250 1700 5400 1700
+	4250 1700 4550 1700
 Wire Wire Line
 	5400 1700 5400 2300
 Wire Wire Line
@@ -3115,10 +3113,88 @@ Wire Wire Line
 Wire Wire Line
 	8100 7400 8600 7400
 Connection ~ 8100 7400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FA94591
+P 4550 1600
+AR Path="/5C16BF8E/5FA94591" Ref="TP?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5FA94591" Ref="TP?"  Part="1" 
+AR Path="/5BCEDA59/5FA94591" Ref="TP26"  Part="1" 
+F 0 "TP26" H 4608 1718 50  0000 L CNN
+F 1 "TestPoint" H 4600 1650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4750 1600 50  0001 C CNN
+F 3 "~" H 4750 1600 50  0001 C CNN
+	1    4550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FAA8F84
+P 4800 1600
+AR Path="/5C16BF8E/5FAA8F84" Ref="TP?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5FAA8F84" Ref="TP?"  Part="1" 
+AR Path="/5BCEDA59/5FAA8F84" Ref="TP27"  Part="1" 
+F 0 "TP27" H 4858 1718 50  0000 L CNN
+F 1 "TestPoint" H 4850 1650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5000 1600 50  0001 C CNN
+F 3 "~" H 5000 1600 50  0001 C CNN
+	1    4800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1600 4550 1700
+Connection ~ 4550 1700
+Wire Wire Line
+	4550 1700 5400 1700
+Wire Wire Line
+	4800 1600 4800 1800
+Wire Wire Line
+	4250 1800 4800 1800
+Connection ~ 4800 1800
+Wire Wire Line
+	4800 1800 5300 1800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FAC8015
+P 1800 1600
+AR Path="/5C16BF8E/5FAC8015" Ref="TP?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5FAC8015" Ref="TP?"  Part="1" 
+AR Path="/5BCEDA59/5FAC8015" Ref="TP24"  Part="1" 
+F 0 "TP24" H 1858 1718 50  0000 L CNN
+F 1 "TestPoint" H 1850 1650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2000 1600 50  0001 C CNN
+F 3 "~" H 2000 1600 50  0001 C CNN
+	1    1800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FAC801B
+P 2050 1600
+AR Path="/5C16BF8E/5FAC801B" Ref="TP?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5FAC801B" Ref="TP?"  Part="1" 
+AR Path="/5BCEDA59/5FAC801B" Ref="TP25"  Part="1" 
+F 0 "TP25" H 2108 1718 50  0000 L CNN
+F 1 "TestPoint" H 2100 1650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2250 1600 50  0001 C CNN
+F 3 "~" H 2250 1600 50  0001 C CNN
+	1    2050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1600 1800 1750
+Connection ~ 1800 1750
+Wire Wire Line
+	1800 1750 2700 1750
+Wire Wire Line
+	2050 1600 2050 1950
 Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
 	11850 3800 11850 4100
 Wire Bus Line
 	9300 3800 9300 4100
+Connection ~ 2050 1950
+Wire Wire Line
+	2050 1950 2900 1950
 $EndSCHEMATC

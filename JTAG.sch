@@ -3340,4 +3340,58 @@ F 3 "" H 4750 4900 50  0001 C CNN
 	1    4750 4900
 	1    0    0    -1  
 $EndComp
+$Comp
+L AMC_FMC_Carrier-PcbDoc-rescue:Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
+U 1 1 5F8EAC42
+P 7450 3950
+AR Path="/5F8EAC42" Ref="J?"  Part="1" 
+AR Path="/5C16BF8E/5F8EAC42" Ref="J?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5F8EAC42" Ref="J?"  Part="1" 
+AR Path="/5CA40231/5F8EAC42" Ref="J6"  Part="1" 
+F 0 "J6" H 7450 4150 50  0000 C CNN
+F 1 "2057-PH1-04-UA-ND" H 7750 3600 50  0000 C CNN
+F 2 "Connectors THD:SAMTEC_MTLW-104-07-L-S-250" H 7450 3950 50  0001 C CNN
+F 3 "~" H 7450 3950 50  0001 C CNN
+F 4 "2057-PH1-04-UA-ND" H 7450 3950 50  0001 C CNN "Manufacturer Part Number"
+	1    7450 3950
+	1    0    0    -1  
+$EndComp
+Text Label 7700 3850 0    50   ~ 10
+MMC_TCK
+Text Label 7700 4050 0    50   ~ 10
+MMC_TMS
+Text Label 7700 4150 0    50   ~ 10
+LPC_RST
+$Comp
+L power:GND #PWR?
+U 1 1 5F91C0FA
+P 8100 3950
+AR Path="/5BD32060/5F91C0FA" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/5F91C0FA" Ref="#PWR?"  Part="1" 
+AR Path="/5CA40231/5F91C0FA" Ref="#PWR0825"  Part="1" 
+F 0 "#PWR0825" H 8100 3700 50  0001 C CNN
+F 1 "GND" H 8105 3777 50  0000 C CNN
+F 2 "" H 8100 3950 50  0001 C CNN
+F 3 "" H 8100 3950 50  0001 C CNN
+	1    8100 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 3850 7650 3850
+Wire Wire Line
+	8100 3950 7650 3950
+Wire Wire Line
+	7650 4050 8050 4050
+Wire Wire Line
+	8050 4150 7650 4150
+Wire Notes Line
+	7250 3650 8350 3650
+Wire Notes Line
+	8350 3650 8350 4400
+Wire Notes Line
+	8350 4400 7250 4400
+Wire Notes Line
+	7250 4400 7250 3650
+Text Notes 7250 3650 0    50   ~ 0
+NUCLEO-SWD for MMC
 $EndSCHEMATC
