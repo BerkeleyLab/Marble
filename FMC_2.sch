@@ -663,7 +663,7 @@ FMC2_PG_C2M
 Wire Wire Line
 	13700 950  14600 950 
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC2-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR01
+L marble_misc:+12V_FMC2 #PWR01
 U 1 1 5BFC3656
 P 1750 4650
 F 0 "#PWR01" H 1750 4500 50  0001 C CNN
@@ -744,7 +744,7 @@ $EndComp
 Wire Wire Line
 	10350 1350 10350 1100
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5EA24411
 P 10350 800
 AR Path="/5C16C03C/5EA24411" Ref="#PWR?"  Part="1" 
@@ -1277,7 +1277,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 4650 11250 4650
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5DDA87F3
 P 14950 4600
 AR Path="/5C16C03C/5DDA87F3" Ref="#PWR?"  Part="1" 

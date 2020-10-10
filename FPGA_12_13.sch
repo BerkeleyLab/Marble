@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FPGA_Xilinx_Kintex7:XC7K160T-FFG676 U?
+L marble_misc:XC7K160T-FFG676 U?
 U 1 1 5F597EC7
 P 8600 5150
 AR Path="/5F597EC7" Ref="U?"  Part="1" 

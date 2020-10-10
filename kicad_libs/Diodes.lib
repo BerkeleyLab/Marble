@@ -1,0 +1,61 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BAT165
+#
+DEF BAT165 D 0 50 Y Y 1 L N
+F0 "D" 150 110 50 H V C CNN
+F1 "Diodes_BAT165" 0 -225 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SOD2512X110N" 0 -300 50 H I L CNN
+F3 " " 0 -375 50 H I L CNN
+F4 "BAT165" 0 -450 50 H I L CNN "Part Number"
+F5 "Diode Schottky" 0 -525 50 H I L CNN "Library Ref"
+F6 "SchLib\\Diodes.SchLib" 0 -600 50 H I L CNN "Library Path"
+F7 "BAT165" 0 -675 50 H I L CNN "Comment"
+F8 "Standard" 0 -750 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -825 50 H I L CNN "Component Type"
+F10 "BAT165" 0 -900 50 H I L CNN "Device"
+F11 "Small Outline Diode (SOD-323), 1.70mm W X 1.25mm L X 1.10mm H body,  IPC Medium Density" 0 -975 50 H I L CNN "PackageDescription"
+F12 "40V" 0 -1050 50 H I L CNN "Voltage"
+F13 "750mA" 0 -1125 50 H I L CNN "Power"
+F14 " " 0 -1200 50 H I L CNN "Status"
+F15 "Medium Power AF Schottky Diode" 0 -1275 50 H I L CNN "Part Description"
+F16 "INFINEON" 0 -1350 50 H I L CNN "Manufacturer"
+F17 "BAT165" 0 -1425 50 H I L CNN "Manufacturer Part Number"
+F18 "2" 0 -1500 50 H I L CNN "Pin Count"
+F19 "SOD323" 0 -1575 50 H I L CNN "Case"
+F20 "Yes" 0 -1650 50 H I L CNN "Mounted"
+F21 "No" 0 -1725 50 H I L CNN "Socket"
+F22 "Yes" 0 -1800 50 H I L CNN "SMD"
+F23 "No" 0 -1875 50 H I L CNN "PressFit"
+F24 "No" 0 -1950 50 H I L CNN "Sense"
+F25 " " 0 -2025 50 H I L CNN "Sense Comment"
+F26 "No" 0 -2100 50 H I L CNN "Bonding"
+F27 " " 0 -2175 50 H I L CNN "Status Comment"
+F28 "1.1mm" 0 -2250 50 H I L CNN "ComponentHeight"
+F29 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2325 50 H I L CNN "Footprint Path"
+F30 "SOD2512X110N" 0 -2400 50 H I L CNN "Footprint Ref"
+F31 " " 0 -2475 50 H I L CNN "ComponentLink1Description"
+F32 " " 0 -2550 50 H I L CNN "ComponentLink2Description"
+F33 "CERN DEM JLC" 0 -2625 50 H I L CNN "Author"
+F34 "11/12/14 00:00:00" 0 -2700 50 H I L CNN "CreateDate"
+F35 "11/12/14 00:00:00" 0 -2775 50 H I L CNN "LatestRevisionDate"
+F36 " " 0 -2850 50 H I L CNN "CreateDate1"
+F37 " " 0 -2925 50 H I L CNN "LatestRevisionDate1"
+F38 "Diodes" 0 -3000 50 H I L CNN "Database Table Name"
+F39 "ICs And Semiconductors.DbLib" 0 -3075 50 H I L CNN "Library Name"
+F40 "ICs And Semiconductors SMD" 0 -3150 50 H I L CNN "Footprint Library"
+F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3225 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 200 0 N
+P 2 0 1 10 160 60 160 50 N
+P 2 0 1 10 180 60 160 60 N
+P 2 0 1 10 180 60 180 -60 N
+P 2 0 1 10 200 -60 180 -60 N
+P 2 0 1 10 200 -50 200 -60 N
+P 4 0 1 10 120 -60 180 0 120 60 120 -60 F
+X C 1 300 0 100 L 0 0 0 1 P
+X A 2 0 0 100 R 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#

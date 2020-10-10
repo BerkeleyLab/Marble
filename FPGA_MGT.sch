@@ -198,7 +198,7 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L FPGA_Xilinx_Kintex7:XC7K160T-FFG676 U1
+L marble_misc:XC7K160T-FFG676 U1
 U 5 1 5F2C6FBA
 P 2750 1950
 F 0 "U1" H 2750 3317 50  0000 C CNN

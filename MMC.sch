@@ -105,7 +105,7 @@ F 3 "" H 8900 1550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5C12CD30
 P 1750 7200
 AR Path="/5C16C03C/5C12CD30" Ref="#PWR?"  Part="1" 
@@ -120,7 +120,7 @@ F 3 "" H 1750 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5C132FDD
 P 1750 7850
 AR Path="/5C16C03C/5C132FDD" Ref="#PWR?"  Part="1" 
@@ -2146,7 +2146,7 @@ Wire Wire Line
 	11750 1500 11550 1500
 Connection ~ 11550 1500
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5DD043F6
 P 11550 1200
 AR Path="/5C16C03C/5DD043F6" Ref="#PWR?"  Part="1" 
@@ -2323,7 +2323,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 3650 13150 3400
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5E716956
 P 13150 2800
 AR Path="/5C16C03C/5E716956" Ref="#PWR?"  Part="1" 
@@ -2338,7 +2338,7 @@ F 3 "" H 13150 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5E72749D
 P 12800 2800
 AR Path="/5C16C03C/5E72749D" Ref="#PWR?"  Part="1" 
@@ -2353,7 +2353,7 @@ F 3 "" H 12800 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5E737FE0
 P 12450 2800
 AR Path="/5C16C03C/5E737FE0" Ref="#PWR?"  Part="1" 
@@ -2726,7 +2726,7 @@ Wire Wire Line
 	2950 3000 5450 3000
 Connection ~ 2950 3200
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5FA7335E
 P 7450 1550
 AR Path="/5C16C03C/5FA7335E" Ref="#PWR?"  Part="1" 
@@ -2780,7 +2780,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 4600 6850 4600
 $Comp
-L MCU_ST_STM32F2:STM32F207VCTx U54
+L marble_misc:STM32F207VCTx U54
 U 1 1 5EE61427
 P 7750 4300
 F 0 "U54" H 7750 1411 50  0000 C CNN
@@ -3361,7 +3361,7 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 6326E465
 P 11850 5150
 AR Path="/5C16C03C/6326E465" Ref="#PWR?"  Part="1" 
@@ -3391,7 +3391,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 5650 12050 5500
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5C07B6F7
 P 9800 1250
 AR Path="/5C16C03C/5C07B6F7" Ref="#PWR?"  Part="1" 

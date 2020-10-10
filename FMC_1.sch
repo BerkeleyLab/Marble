@@ -683,7 +683,7 @@ FMC1_PG_C2M
 Wire Wire Line
 	13600 700  14500 700 
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR087
+L marble_misc:+12V_FMC1 #PWR087
 U 1 1 5BF95847
 P 1850 4400
 AR Path="/5BF95847" Ref="#PWR087"  Part="1" 
@@ -696,7 +696,7 @@ F 3 "" H 1850 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5DD348B7
 P 14900 4400
 AR Path="/5C16C03C/5DD348B7" Ref="#PWR?"  Part="1" 
@@ -780,7 +780,7 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5E9F763B
 P 9950 800
 AR Path="/5C16C03C/5E9F763B" Ref="#PWR?"  Part="1" 

@@ -358,7 +358,7 @@ Connection ~ 7800 7800
 Wire Wire Line
 	7800 7800 8000 7800
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0457
+L marble_misc:VTT_DDR3 #PWR0457
 U 1 1 5DA7582E
 P 9250 7500
 F 0 "#PWR0457" H 9250 7350 50  0001 C CNN
@@ -533,7 +533,7 @@ Connection ~ 8850 7500
 Wire Wire Line
 	8850 7500 9250 7500
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:TPS51200DRC-Regulator_Linear-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U31
+L marble_misc:TPS51200DRC-Regulator_Linear U31
 U 1 1 5BDAE091
 P 6600 7700
 F 0 "U31" H 6600 8378 50  0000 C CNN
@@ -652,7 +652,7 @@ Wire Wire Line
 	7100 7900 7150 7900
 Connection ~ 7150 7900
 $Comp
-L Sockets:TYCO_2-2013022-1 SK?
+L TYCO:TYCO_2-2013022-1 SK?
 U 1 1 5FAD9D83
 P 7700 900
 AR Path="/5FAD9D83" Ref="SK?"  Part="1" 
@@ -701,7 +701,7 @@ F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sockets:TYCO_2-2013022-1 SK?
+L TYCO:TYCO_2-2013022-1 SK?
 U 2 1 5FAD9DAD
 P 2700 900
 AR Path="/5FAD9DAD" Ref="SK?"  Part="2" 
@@ -1080,7 +1080,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 5800 2500 5800
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0159
+L marble_misc:VTT_DDR3 #PWR0159
 U 1 1 610C54B8
 P 1600 6100
 F 0 "#PWR0159" H 1600 5950 50  0001 C CNN
@@ -1091,7 +1091,7 @@ F 3 "" H 1600 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VTT_DDR3-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR0217
+L marble_misc:VTT_DDR3 #PWR0217
 U 1 1 610EDBB5
 P 4800 6100
 F 0 "#PWR0217" H 4800 5950 50  0001 C CNN
