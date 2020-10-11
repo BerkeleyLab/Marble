@@ -3646,6 +3646,26 @@ Wire Wire Line
 Connection ~ 10700 3300
 Wire Wire Line
 	10700 3300 11650 3300
+NoConn ~ 8650 6800
+NoConn ~ 8650 6700
+NoConn ~ 8650 6600
+NoConn ~ 8650 5900
+NoConn ~ 8650 5800
+NoConn ~ 8650 5700
+NoConn ~ 8650 4900
+NoConn ~ 8650 4800
+NoConn ~ 8650 4700
+NoConn ~ 8650 4400
+NoConn ~ 6850 4300
+NoConn ~ 6850 4200
+NoConn ~ 6850 4000
+NoConn ~ 6850 3900
+NoConn ~ 8650 3100
+NoConn ~ 8650 3000
+NoConn ~ 8650 2600
+NoConn ~ 8650 2000
+NoConn ~ 6850 6000
+NoConn ~ 6850 6100
 Wire Bus Line
 	9350 3500 9350 3700
 Wire Bus Line
