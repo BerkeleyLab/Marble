@@ -1693,20 +1693,8 @@ F 3 "" H 1600 6000 50  0001 C CNN
 	1    1600 6000
 	0    1    1    0   
 $EndComp
-Text Label 4050 6000 0    50   ~ 0
-I2C_DDR3_SCL
-Text Label 4050 5900 0    50   ~ 0
-I2C_DDR3_SDA
 Wire Wire Line
 	3900 6100 4800 6100
-Text HLabel 5150 5900 2    50   BiDi ~ 0
-I2C_DDR3_SDA
-Text HLabel 5150 6000 2    50   Input ~ 0
-I2C_DDR3_SCL
-Wire Wire Line
-	3900 5900 5150 5900
-Wire Wire Line
-	3900 6000 5150 6000
 Text Label 4050 2200 0    50   ~ 10
 VREF_DDR3
 Wire Wire Line
@@ -3010,6 +2998,8 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    1850 6350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3900 5900
+NoConn ~ 3900 6000
 Wire Bus Line
 	15000 950  15000 1250
 Wire Bus Line

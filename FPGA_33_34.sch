@@ -2194,6 +2194,8 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    4650 4850
 	-1   0    0    1   
 $EndComp
+NoConn ~ 6350 2550
+NoConn ~ 6350 4150
 Wire Bus Line
 	14350 850  14350 1150
 Wire Bus Line

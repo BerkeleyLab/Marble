@@ -2463,8 +2463,6 @@ Connection ~ 6550 6750
 Wire Wire Line
 	6550 6750 6550 6850
 Wire Wire Line
-	7950 6450 8700 6450
-Wire Wire Line
 	7950 10350 8700 10350
 Wire Wire Line
 	5950 10250 6700 10250
@@ -2740,12 +2738,6 @@ Wire Wire Line
 	13450 9300 13450 9550
 Wire Wire Line
 	12850 9400 13600 9400
-Wire Wire Line
-	12850 5500 13600 5500
-Text Label 12850 5500 0    50   ~ 0
-VREF_B_M2C
-Text Label 7950 6450 0    50   ~ 0
-PG_M2C
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5F088825
@@ -3103,4 +3095,6 @@ NoConn ~ 13600 8800
 NoConn ~ 13600 8900
 NoConn ~ 13600 9100
 NoConn ~ 13600 9200
+NoConn ~ 8700 6450
+NoConn ~ 13600 5500
 $EndSCHEMATC

@@ -9152,4 +9152,5 @@ F 3 "" H 8600 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8600 9050
+NoConn ~ 9100 9650
 $EndSCHEMATC

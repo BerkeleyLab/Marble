@@ -214,14 +214,6 @@ NoConn ~ 8100 5100
 NoConn ~ 6500 7200
 Text Label 5950 4200 0    50   ~ 10
 PHY_RSTn
-Text Label 5350 2600 0    50   ~ 10
-SD_IN_P
-Text Label 5350 2700 0    50   ~ 10
-SD_IN_N
-Text Label 5350 2900 0    50   ~ 10
-SD_OUT_P
-Text Label 5350 3000 0    50   ~ 10
-SD_OUT_N
 Wire Wire Line
 	6000 2150 6000 2300
 Connection ~ 6000 2300
@@ -3081,14 +3073,6 @@ Wire Wire Line
 	8450 3900 9200 3900
 Wire Wire Line
 	8450 4000 9200 4000
-Wire Wire Line
-	5350 2600 6500 2600
-Wire Wire Line
-	5350 2700 6500 2700
-Wire Wire Line
-	5350 2900 6500 2900
-Wire Wire Line
-	5350 3000 6500 3000
 $Comp
 L power:GND #PWR?
 U 1 1 5EDBA5C3
@@ -3188,13 +3172,17 @@ Wire Wire Line
 	1800 1750 2700 1750
 Wire Wire Line
 	2050 1600 2050 1950
+Connection ~ 2050 1950
+Wire Wire Line
+	2050 1950 2900 1950
+NoConn ~ 6500 2600
+NoConn ~ 6500 2700
+NoConn ~ 6500 2900
+NoConn ~ 6500 3000
 Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
 	11850 3800 11850 4100
 Wire Bus Line
 	9300 3800 9300 4100
-Connection ~ 2050 1950
-Wire Wire Line
-	2050 1950 2900 1950
 $EndSCHEMATC

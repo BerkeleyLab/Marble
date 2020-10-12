@@ -2790,10 +2790,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    7750 4300
 	1    0    0    -1  
 $EndComp
-Text Label 9600 4000 0    50   ~ 10
-MMC_TRST
-Wire Wire Line
-	10150 4000 8650 4000
 Wire Wire Line
 	7650 7100 7750 7100
 Wire Wire Line
@@ -3666,6 +3662,29 @@ NoConn ~ 8650 2600
 NoConn ~ 8650 2000
 NoConn ~ 6850 6000
 NoConn ~ 6850 6100
+NoConn ~ 8650 4000
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 62BC7CC9
+P 8150 1250
+F 0 "#FLG0107" H 8150 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 8150 1423 50  0000 C CNN
+F 2 "" H 8150 1250 50  0001 C CNN
+F 3 "" H 8150 1250 50  0001 C CNN
+	1    8150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 62BDD0EB
+P 6700 2600
+F 0 "#FLG0108" H 6700 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6700 2773 50  0000 C CNN
+F 2 "" H 6700 2600 50  0001 C CNN
+F 3 "" H 6700 2600 50  0001 C CNN
+	1    6700 2600
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	9350 3500 9350 3700
 Wire Bus Line

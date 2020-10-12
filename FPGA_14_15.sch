@@ -2442,6 +2442,18 @@ F 3 "" H 3900 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3900 3700
+NoConn ~ 3400 6250
+NoConn ~ 3400 6450
+NoConn ~ 3400 6650
+NoConn ~ 3400 6850
+NoConn ~ 2400 6250
+NoConn ~ 2400 6450
+NoConn ~ 2400 6650
+NoConn ~ 2400 6850
+NoConn ~ 3900 3500
+NoConn ~ 10500 3700
+NoConn ~ 10500 3800
+NoConn ~ 10500 3900
 Wire Bus Line
 	14750 7100 14750 7850
 $EndSCHEMATC

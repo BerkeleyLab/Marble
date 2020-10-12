@@ -2162,22 +2162,6 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	10   13350 5550
 	1    0    0    -1  
 $EndComp
-Text Label 1550 7900 0    50   ~ 0
-FMC2_DP4_M2C_P
-Text Label 1550 8000 0    50   ~ 0
-FMC2_DP4_M2C_N
-Text Label 1550 8300 0    50   ~ 0
-FMC2_DP5_M2C_P
-Text Label 1550 8400 0    50   ~ 0
-FMC2_DP5_M2C_N
-Text Label 1550 9900 0    50   ~ 0
-FMC2_DP4_C2M_P
-Text Label 1550 10000 0    50   ~ 0
-FMC2_DP4_C2M_N
-Text Label 1550 10300 0    50   ~ 0
-FMC2_DP5_C2M_P
-Text Label 1550 10400 0    50   ~ 0
-FMC2_DP5_C2M_N
 Wire Wire Line
 	2150 6600 2150 6900
 Wire Wire Line
@@ -2285,14 +2269,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 7600 2300 7600
 Wire Wire Line
-	1550 7900 2300 7900
-Wire Wire Line
-	1550 8000 2300 8000
-Wire Wire Line
-	1550 8300 2300 8300
-Wire Wire Line
-	1550 8400 2300 8400
-Wire Wire Line
 	1550 8700 2300 8700
 Wire Wire Line
 	1550 8800 2300 8800
@@ -2304,50 +2280,6 @@ Wire Wire Line
 	1550 9500 2300 9500
 Wire Wire Line
 	1550 9600 2300 9600
-Wire Wire Line
-	1550 9900 2300 9900
-Wire Wire Line
-	1550 10000 2300 10000
-Wire Wire Line
-	1550 10300 2300 10300
-Wire Wire Line
-	1550 10400 2300 10400
-Text Label 3300 6900 0    50   ~ 0
-FMC2_DP9_M2C_P
-Text Label 3300 7000 0    50   ~ 0
-FMC2_DP9_M2C_N
-Wire Wire Line
-	3300 6900 4050 6900
-Wire Wire Line
-	3300 7000 4050 7000
-Text Label 3300 7300 0    50   ~ 0
-FMC2_DP8_M2C_P
-Text Label 3300 7400 0    50   ~ 0
-FMC2_DP8_M2C_N
-Wire Wire Line
-	3300 7300 4050 7300
-Wire Wire Line
-	3300 7400 4050 7400
-Text Label 3300 7700 0    50   ~ 0
-FMC2_DP7_M2C_P
-Text Label 3300 7800 0    50   ~ 0
-FMC2_DP7_M2C_N
-Wire Wire Line
-	3300 7700 4050 7700
-Wire Wire Line
-	3300 7800 4050 7800
-Text Label 3300 8100 0    50   ~ 0
-FMC2_DP6_M2C_P
-Text Label 3300 8200 0    50   ~ 0
-FMC2_DP6_M2C_N
-Wire Wire Line
-	3300 8100 4050 8100
-Wire Wire Line
-	3300 8200 4050 8200
-Wire Wire Line
-	3300 6600 4050 6600
-Text Label 3300 6600 0    50   ~ 0
-CLK_DIR
 Wire Wire Line
 	3900 7100 4050 7100
 Connection ~ 3900 7100
@@ -2394,38 +2326,6 @@ Wire Wire Line
 Connection ~ 3900 10300
 Wire Wire Line
 	3900 10300 3900 10400
-Text Label 3300 10100 0    50   ~ 0
-FMC2_DP6_C2M_P
-Text Label 3300 10200 0    50   ~ 0
-FMC2_DP6_C2M_N
-Wire Wire Line
-	3300 10100 4050 10100
-Wire Wire Line
-	3300 10200 4050 10200
-Text Label 3300 9700 0    50   ~ 0
-FMC2_DP7_C2M_P
-Text Label 3300 9800 0    50   ~ 0
-FMC2_DP7_C2M_N
-Wire Wire Line
-	3300 9700 4050 9700
-Wire Wire Line
-	3300 9800 4050 9800
-Text Label 3300 9300 0    50   ~ 0
-FMC2_DP8_C2M_P
-Text Label 3300 9400 0    50   ~ 0
-FMC2_DP8_C2M_N
-Wire Wire Line
-	3300 9300 4050 9300
-Wire Wire Line
-	3300 9400 4050 9400
-Text Label 3300 8900 0    50   ~ 0
-FMC2_DP9_C2M_P
-Text Label 3300 9000 0    50   ~ 0
-FMC2_DP9_C2M_N
-Wire Wire Line
-	3300 8900 4050 8900
-Wire Wire Line
-	3300 9000 4050 9000
 Wire Wire Line
 	3900 8300 4050 8300
 Connection ~ 3900 8300
@@ -2476,10 +2376,6 @@ Wire Wire Line
 Connection ~ 3900 10000
 Wire Wire Line
 	3900 10000 3900 10300
-Wire Wire Line
-	3300 10500 4050 10500
-Text Label 3300 10500 0    50   ~ 0
-RES0
 $Comp
 L power:GND #PWR?
 U 1 1 61D4E4AE
@@ -2540,30 +2436,6 @@ Wire Wire Line
 	5500 8300 6250 8300
 Wire Wire Line
 	5500 8400 6250 8400
-Wire Wire Line
-	5500 8600 6250 8600
-Wire Wire Line
-	5500 8700 6250 8700
-Wire Wire Line
-	5500 8900 6250 8900
-Wire Wire Line
-	5500 9000 6250 9000
-Wire Wire Line
-	5500 9200 6250 9200
-Wire Wire Line
-	5500 9300 6250 9300
-Wire Wire Line
-	5500 9500 6250 9500
-Wire Wire Line
-	5500 9600 6250 9600
-Wire Wire Line
-	5500 9800 6250 9800
-Wire Wire Line
-	5500 9900 6250 9900
-Wire Wire Line
-	5500 10100 6250 10100
-Wire Wire Line
-	5500 10200 6250 10200
 Wire Wire Line
 	6250 6600 6100 6600
 Wire Wire Line
@@ -2639,8 +2511,6 @@ Connection ~ 6100 6900
 Wire Wire Line
 	6100 6900 6100 7000
 Wire Wire Line
-	7500 6600 8250 6600
-Wire Wire Line
 	7500 6900 8250 6900
 Wire Wire Line
 	7500 7000 8250 7000
@@ -2664,30 +2534,6 @@ Wire Wire Line
 	7500 8400 8250 8400
 Wire Wire Line
 	7500 8500 8250 8500
-Wire Wire Line
-	7500 8700 8250 8700
-Wire Wire Line
-	7500 8800 8250 8800
-Wire Wire Line
-	7500 9000 8250 9000
-Wire Wire Line
-	7500 9100 8250 9100
-Wire Wire Line
-	7500 9300 8250 9300
-Wire Wire Line
-	7500 9400 8250 9400
-Wire Wire Line
-	7500 9600 8250 9600
-Wire Wire Line
-	7500 9700 8250 9700
-Wire Wire Line
-	7500 9900 8250 9900
-Wire Wire Line
-	7500 10000 8250 10000
-Wire Wire Line
-	7500 10200 8250 10200
-Wire Wire Line
-	7500 10300 8250 10300
 Wire Wire Line
 	7500 10500 8250 10500
 Wire Wire Line
@@ -2839,26 +2685,6 @@ Wire Wire Line
 Wire Wire Line
 	9750 8700 10500 8700
 Wire Wire Line
-	9750 8900 10500 8900
-Wire Wire Line
-	9750 9000 10500 9000
-Wire Wire Line
-	9750 9200 10500 9200
-Wire Wire Line
-	9750 9300 10500 9300
-Wire Wire Line
-	9750 9500 10500 9500
-Wire Wire Line
-	9750 9600 10500 9600
-Wire Wire Line
-	9750 9800 10500 9800
-Wire Wire Line
-	9750 9900 10500 9900
-Wire Wire Line
-	9750 10100 10500 10100
-Wire Wire Line
-	9750 10200 10500 10200
-Wire Wire Line
 	10350 10300 10500 10300
 Connection ~ 10350 10300
 Wire Wire Line
@@ -2976,26 +2802,6 @@ Wire Wire Line
 Wire Wire Line
 	12400 7850 13150 7850
 Wire Wire Line
-	12400 8050 13150 8050
-Wire Wire Line
-	12400 8150 13150 8150
-Wire Wire Line
-	12400 8350 13150 8350
-Wire Wire Line
-	12400 8450 13150 8450
-Wire Wire Line
-	12400 8650 13150 8650
-Wire Wire Line
-	12400 8750 13150 8750
-Wire Wire Line
-	12400 8950 13150 8950
-Wire Wire Line
-	12400 9050 13150 9050
-Wire Wire Line
-	12400 9250 13150 9250
-Wire Wire Line
-	12400 9350 13150 9350
-Wire Wire Line
 	13000 6450 13150 6450
 Connection ~ 13000 6450
 Wire Wire Line
@@ -3052,24 +2858,6 @@ Wire Wire Line
 	13000 9450 13000 9700
 Wire Wire Line
 	12400 9550 13150 9550
-Wire Wire Line
-	12400 5650 13150 5650
-Text Label 12350 5950 0    50   ~ 0
-GBTCLK2_M2C_P
-Text Label 12350 6050 0    50   ~ 0
-GBTCLK2_M2C_N
-Text Label 9700 6700 0    50   ~ 0
-GBTCLK3_M2C_P
-Text Label 9700 6800 0    50   ~ 0
-GBTCLK3_M2C_N
-Wire Wire Line
-	12350 5950 13150 5950
-Wire Wire Line
-	12350 6050 13150 6050
-Wire Wire Line
-	9700 6700 10500 6700
-Wire Wire Line
-	9700 6800 10500 6800
 Text GLabel 1550 6700 0    50   Input ~ 0
 FMC2_DP1_M2C_P
 Text GLabel 1550 6800 0    50   Input ~ 0
@@ -3118,30 +2906,6 @@ Text GLabel 5500 8300 0    50   Input ~ 0
 FMC2_HA20_P
 Text GLabel 5500 8400 0    50   Input ~ 0
 FMC2_HA20_N
-Text GLabel 5500 8600 0    50   Input ~ 0
-FMC2_HB03_P
-Text GLabel 5500 8700 0    50   Input ~ 0
-FMC2_HB03_N
-Text GLabel 5500 8900 0    50   Input ~ 0
-FMC2_HB05_P
-Text GLabel 5500 9000 0    50   Input ~ 0
-FMC2_HB05_N
-Text GLabel 5500 9200 0    50   Input ~ 0
-FMC2_HB09_P
-Text GLabel 5500 9300 0    50   Input ~ 0
-FMC2_HB09_N
-Text GLabel 5500 9500 0    50   Input ~ 0
-FMC2_HB13_P
-Text GLabel 5500 9600 0    50   Input ~ 0
-FMC2_HB13_N
-Text GLabel 5500 9800 0    50   Input ~ 0
-FMC2_HB19_P
-Text GLabel 5500 9900 0    50   Input ~ 0
-FMC2_HB19_N
-Text GLabel 5500 10100 0    50   Input ~ 0
-FMC2_HB21_P
-Text GLabel 5500 10200 0    50   Input ~ 0
-FMC2_HB21_N
 Text GLabel 7500 6900 0    50   Input ~ 0
 FMC2_HA00_CC_P
 Text GLabel 7500 7000 0    50   Input ~ 0
@@ -3166,30 +2930,6 @@ Text GLabel 7500 8400 0    50   Input ~ 0
 FMC2_HA19_P
 Text GLabel 7500 8500 0    50   Input ~ 0
 FMC2_HA19_N
-Text GLabel 7500 8700 0    50   Input ~ 0
-FMC2_HB02_P
-Text GLabel 7500 8800 0    50   Input ~ 0
-FMC2_HB02_N
-Text GLabel 7500 9000 0    50   Input ~ 0
-FMC2_HB04_P
-Text GLabel 7500 9100 0    50   Input ~ 0
-FMC2_HB04_N
-Text GLabel 7500 9300 0    50   Input ~ 0
-FMC2_HB08_P
-Text GLabel 7500 9400 0    50   Input ~ 0
-FMC2_HB08_N
-Text GLabel 7500 9600 0    50   Input ~ 0
-FMC2_HB12_P
-Text GLabel 7500 9700 0    50   Input ~ 0
-FMC2_HB12_N
-Text GLabel 7500 9900 0    50   Input ~ 0
-FMC2_HB16_P
-Text GLabel 7500 10000 0    50   Input ~ 0
-FMC2_HB16_N
-Text GLabel 7500 10200 0    50   Input ~ 0
-FMC2_HB20_P
-Text GLabel 7500 10300 0    50   Input ~ 0
-FMC2_HB20_N
 Text GLabel 9750 7100 0    50   Input ~ 0
 FMC2_HA03_P
 Text GLabel 9750 7200 0    50   Input ~ 0
@@ -3214,26 +2954,6 @@ Text GLabel 9750 8600 0    50   Input ~ 0
 FMC2_HA22_P
 Text GLabel 9750 8700 0    50   Input ~ 0
 FMC2_HA22_N
-Text GLabel 9750 8900 0    50   Input ~ 0
-FMC2_HB01_P
-Text GLabel 9750 9000 0    50   Input ~ 0
-FMC2_HB01_N
-Text GLabel 9750 9200 0    50   Input ~ 0
-FMC2_HB07_P
-Text GLabel 9750 9300 0    50   Input ~ 0
-FMC2_HB07_N
-Text GLabel 9750 9500 0    50   Input ~ 0
-FMC2_HB11_P
-Text GLabel 9750 9600 0    50   Input ~ 0
-FMC2_HB11_N
-Text GLabel 9750 9800 0    50   Input ~ 0
-FMC2_HB15_P
-Text GLabel 9750 9900 0    50   Input ~ 0
-FMC2_HB15_N
-Text GLabel 9750 10100 0    50   Input ~ 0
-FMC2_HB18_P
-Text GLabel 9750 10200 0    50   Input ~ 0
-FMC2_HB18_N
 Text GLabel 12400 6250 0    50   Input ~ 0
 FMC2_HA02_P
 Text GLabel 12400 6350 0    50   Input ~ 0
@@ -3258,30 +2978,6 @@ Text GLabel 12400 7750 0    50   Input ~ 0
 FMC2_HA23_P
 Text GLabel 12400 7850 0    50   Input ~ 0
 FMC2_HA23_N
-Text GLabel 12400 8050 0    50   Input ~ 0
-FMC2_HB00_CC_P
-Text GLabel 12400 8150 0    50   Input ~ 0
-FMC2_HB00_CC_N
-Text GLabel 12400 8350 0    50   Input ~ 0
-FMC2_HB06_CC_P
-Text GLabel 12400 8450 0    50   Input ~ 0
-FMC2_HB06_CC_N
-Text GLabel 12400 8650 0    50   Input ~ 0
-FMC2_HB10_P
-Text GLabel 12400 8750 0    50   Input ~ 0
-FMC2_HB10_N
-Text GLabel 12400 8950 0    50   Input ~ 0
-FMC2_HB14_P
-Text GLabel 12400 9050 0    50   Input ~ 0
-FMC2_HB14_N
-Text GLabel 12400 9250 0    50   Input ~ 0
-FMC2_HB17_CC_P
-Text GLabel 12400 9350 0    50   Input ~ 0
-FMC2_HB17_CC_N
-Text Label 12400 5650 0    50   ~ 0
-VREF_B_M2C
-Text Label 7500 6600 0    50   ~ 0
-PG_M2C
 $Comp
 L power:+2V5 #PWR0678
 U 1 1 5D9281BB
@@ -3499,4 +3195,82 @@ Wire Wire Line
 Connection ~ 2250 4650
 Wire Wire Line
 	2250 4650 3250 4650
+NoConn ~ 2300 9900
+NoConn ~ 2300 10000
+NoConn ~ 2300 10300
+NoConn ~ 2300 10400
+NoConn ~ 2300 7900
+NoConn ~ 2300 8000
+NoConn ~ 2300 8300
+NoConn ~ 2300 8400
+NoConn ~ 4050 6600
+NoConn ~ 4050 6900
+NoConn ~ 4050 7000
+NoConn ~ 4050 7300
+NoConn ~ 4050 7400
+NoConn ~ 4050 7700
+NoConn ~ 4050 7800
+NoConn ~ 4050 8100
+NoConn ~ 4050 8200
+NoConn ~ 4050 8900
+NoConn ~ 4050 9000
+NoConn ~ 4050 9300
+NoConn ~ 4050 9400
+NoConn ~ 4050 9700
+NoConn ~ 4050 9800
+NoConn ~ 4050 10100
+NoConn ~ 4050 10200
+NoConn ~ 4050 10500
+NoConn ~ 6250 8600
+NoConn ~ 6250 8700
+NoConn ~ 6250 8900
+NoConn ~ 6250 9000
+NoConn ~ 6250 9200
+NoConn ~ 6250 9300
+NoConn ~ 6250 9500
+NoConn ~ 6250 9600
+NoConn ~ 6250 9800
+NoConn ~ 6250 9900
+NoConn ~ 6250 10100
+NoConn ~ 6250 10200
+NoConn ~ 6300 10400
+NoConn ~ 6150 10400
+NoConn ~ 8250 8700
+NoConn ~ 8250 8800
+NoConn ~ 8250 9000
+NoConn ~ 8250 9100
+NoConn ~ 8250 9300
+NoConn ~ 8250 9400
+NoConn ~ 8250 9600
+NoConn ~ 8250 9700
+NoConn ~ 8250 9900
+NoConn ~ 8250 10000
+NoConn ~ 8250 10200
+NoConn ~ 8250 10300
+NoConn ~ 10500 8900
+NoConn ~ 10500 9000
+NoConn ~ 10500 9200
+NoConn ~ 10500 9300
+NoConn ~ 10500 9500
+NoConn ~ 10500 9600
+NoConn ~ 10500 9800
+NoConn ~ 10500 9900
+NoConn ~ 10500 10100
+NoConn ~ 10500 10200
+NoConn ~ 13150 8050
+NoConn ~ 13150 8150
+NoConn ~ 13150 8350
+NoConn ~ 13150 8450
+NoConn ~ 13150 8650
+NoConn ~ 13150 8750
+NoConn ~ 13150 8950
+NoConn ~ 13150 9050
+NoConn ~ 13150 9250
+NoConn ~ 13150 9350
+NoConn ~ 10500 6700
+NoConn ~ 10500 6800
+NoConn ~ 13150 5650
+NoConn ~ 13150 5950
+NoConn ~ 13150 6050
+NoConn ~ 8250 6600
 $EndSCHEMATC
