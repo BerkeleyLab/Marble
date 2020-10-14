@@ -231,7 +231,7 @@ Text Label 2900 5500 0    50   ~ 10
 VCCADC
 Wire Wire Line
 	2650 5900 3200 5900
-Text Label 10100 6550 0    50   ~ 10
+Text Label 10400 6550 2    50   ~ 10
 GNDADC
 Wire Wire Line
 	10400 6550 10000 6550

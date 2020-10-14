@@ -308,7 +308,7 @@ Text Label 11100 3400 0    50   ~ 10
 MMC_TDI
 Text Label 5450 1900 0    50   ~ 10
 ISP_RSTn
-Text HLabel 5200 1900 0    50   Input ~ 10
+Text HLabel 5200 1900 0    50   UnSpc ~ 10
 ISP_RSTn
 Wire Wire Line
 	5200 1900 5850 1900
@@ -3674,6 +3674,10 @@ F 3 "" H 8150 1250 50  0001 C CNN
 	1    8150 1250
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	1700 4600 1700 5350
+Wire Bus Line
+	9350 3500 9350 3700
 $Comp
 L power:PWR_FLAG #FLG0108
 U 1 1 62BDD0EB
@@ -3685,8 +3689,4 @@ F 3 "" H 6700 2600 50  0001 C CNN
 	1    6700 2600
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	9350 3500 9350 3700
-Wire Bus Line
-	1700 4600 1700 5350
 $EndSCHEMATC

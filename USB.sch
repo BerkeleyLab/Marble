@@ -1010,7 +1010,7 @@ Wire Wire Line
 	3600 7250 3450 7250
 Wire Wire Line
 	2350 7450 2350 7600
-Text HLabel 4000 9850 0    50   Output ~ 10
+Text HLabel 4000 9850 0    50   UnSpc ~ 10
 ISP_RSTn
 Text HLabel 4000 9350 0    50   Output ~ 10
 LPC_ISPn
@@ -5158,7 +5158,7 @@ AR Path="/5CC393D3/5CFD7948" Ref="R?"  Part="1"
 AR Path="/5CC6DBF7/5CFD7948" Ref="R?"  Part="1" 
 AR Path="/5CA40231/5CFD7948" Ref="R?"  Part="1" 
 AR Path="/5C16C03C/5CFD7948" Ref="R270"  Part="1" 
-F 0 "R270" H 5600 10800 50  0000 L CNN
+F 0 "R270" H 5500 11100 50  0000 L CNN
 F 1 "R0402_10K_1%_0.0625W_100PPM" H 5450 10690 60  0001 L CNN
 F 2 "RESC1005X40N" H 5450 9880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5450 10510 60  0001 L CNN
@@ -5565,34 +5565,6 @@ F 3 "~" H 10050 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10050 8850
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D3ED707
-P 2500 3700
-AR Path="/5BABAC65/5D3ED707" Ref="#FLG?"  Part="1" 
-AR Path="/5C16C03C/5D3ED707" Ref="#FLG0126"  Part="1" 
-F 0 "#FLG0126" H 2500 3775 50  0001 C CNN
-F 1 "PWR_FLAG" H 2500 3873 50  0000 C CNN
-F 2 "" H 2500 3700 50  0001 C CNN
-F 3 "~" H 2500 3700 50  0001 C CNN
-	1    2500 3700
-	1    0    0    -1  
-$EndComp
-Connection ~ 2500 3700
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5D3FE99C
-P 4350 1900
-AR Path="/5BABAC65/5D3FE99C" Ref="#FLG?"  Part="1" 
-AR Path="/5C16C03C/5D3FE99C" Ref="#FLG0127"  Part="1" 
-F 0 "#FLG0127" H 4350 1975 50  0001 C CNN
-F 1 "PWR_FLAG" H 4350 2073 50  0000 C CNN
-F 2 "" H 4350 1900 50  0001 C CNN
-F 3 "~" H 4350 1900 50  0001 C CNN
-	1    4350 1900
-	1    0    0    -1  
-$EndComp
-Connection ~ 4350 1900
 Wire Wire Line
 	5900 2200 5900 2250
 Wire Wire Line

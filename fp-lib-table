@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name Simple_AFC)(type KiCad)(uri ${KIPRJMOD}/logos)(options "")(descr ""))
-  (lib (name Marble)(type KiCad)(uri "C:/Users/micha/Desktop/Projekty/AMC FMC/import z altiuma/marble mini/Marble.pretty")(options "")(descr ""))
+  (lib (name Marble)(type KiCad)(uri ${KIPRJMOD}/kicad_libs/Marble.pretty)(options "")(descr ""))
 )
