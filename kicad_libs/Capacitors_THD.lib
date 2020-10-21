@@ -1,0 +1,57 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CPER_4.7NF_400V_5%_500-250X720X650
+#
+DEF CPER_4.7NF_400V_5%_500-250X720X650 C 0 50 Y Y 1 L N
+F0 "C" 150 120 50 H V C CNN
+F1 "Capacitors_THD_CPER_4.7NF_400V_5%_500-250X720X650" 0 -245 50 H I L CNN
+F2 "Capacitors THD:CAPR500-250X720X650" 0 -320 50 H I L CNN
+F3 " " 0 -395 50 H I L CNN
+F4 "4.7nF" 150 -120 50 H V C CNN "Val"
+F5 "CPER_4.7NF_400V_5%_500-250X720X650" 0 -470 50 H I L CNN "Part Number"
+F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
+F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
+F8 "4.7nF" 0 -695 50 H I L CNN "Comment"
+F9 "Standard" 0 -770 50 H I L CNN "Component Kind"
+F10 "Standard" 0 -845 50 H I L CNN "Component Type"
+F11 " " 0 -920 50 H I L CNN "PackageDescription"
+F12 "2" 0 -995 50 H I L CNN "Pin Count"
+F13 "PcbLib\\Capacitors THD.PcbLib" 0 -1070 50 H I L CNN "Footprint Path"
+F14 "CAPR500-250X720X650" 0 -1145 50 H I L CNN "Footprint Ref"
+F15 "None" 0 -1220 50 H I L CNN "Status"
+F16 " " 0 -1295 50 H I L CNN "Status Comment"
+F17 "400VDC/200VAC" 0 -1370 50 H I L CNN "Voltage"
+F18 " " 0 -1445 50 H I L CNN "TC"
+F19 "±5%" 0 -1520 50 H I L CNN "Tolerance"
+F20 "Metallized Polyester Film Capacitor (MKT)" 0 -1595 50 H I L CNN "Part Description"
+F21 "TDK" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "B32529C6472J000" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F23 "LS5 W2.5 x L7.2 x H6.5" 0 -1820 50 H I L CNN "Case"
+F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
+F25 " " 0 -1970 50 H I L CNN "PressFit"
+F26 "No" 0 -2045 50 H I L CNN "Socket"
+F27 "No" 0 -2120 50 H I L CNN "SMD"
+F28 "No" 0 -2195 50 H I L CNN "Sense"
+F29 " " 0 -2270 50 H I L CNN "Sense Comment"
+F30 "6.5mm" 0 -2345 50 H I L CNN "ComponentHeight"
+F31 " " 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 " " 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 " " 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
+F35 "12/19/07 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "04/22/15 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F37 "Capacitors THD" 0 -2870 50 H I L CNN "Database Table Name"
+F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
+F39 "Capacitors THD" 0 -3020 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
+DRAW
+P 2 0 1 10 100 0 130 0 N
+P 2 0 1 10 130 -80 130 80 N
+P 2 0 1 10 170 80 170 -80 N
+P 2 0 1 10 200 0 170 0 N
+X 1 1 0 0 100 R 0 0 0 1 P
+X 2 2 300 0 100 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#

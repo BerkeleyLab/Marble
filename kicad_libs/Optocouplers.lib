@@ -1,0 +1,68 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# FOD817DSD
+#
+DEF FOD817DSD IC 0 50 Y Y 1 L N
+F0 "IC" 200 50 50 H V C CNN
+F1 "Optocouplers_FOD817DSD" 0 -575 50 H I L CNN
+F2 "ICs And Semiconductors SMD:FAIRCHILD_FOD817DSD" 0 -650 50 H I L CNN
+F3 " " 0 -725 50 H I L CNN
+F4 "FOD817DSD" 0 -800 50 H I L CNN "Part Number"
+F5 "Optocoupler Type7" 0 -875 50 H I L CNN "Library Ref"
+F6 "SchLib\\Optocouplers.SchLib" 0 -950 50 H I L CNN "Library Path"
+F7 "FOD817DSD" 0 -1025 50 H I L CNN "Comment"
+F8 "Standard" 0 -1100 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -1175 50 H I L CNN "Component Type"
+F10 "FOD817DSD" 0 -1250 50 H I L CNN "Device"
+F11 "SOIC, 2.54mm Pitch, 4 Pin, Body 6.5mm W X 4.6mm L X 4.6mm H" 0 -1325 50 H I L CNN "PackageDescription"
+F12 " " 0 -1400 50 H I L CNN "Status"
+F13 "4-Pin High Operating Temperature Phototransistor Optocoupler" 0 -1475 50 H I L CNN "Part Description"
+F14 "FAIRCHILD SEMICONDUCTOR" 0 -1550 50 H I L CNN "Manufacturer"
+F15 "FOD817DSD" 0 -1625 50 H I L CNN "Manufacturer Part Number"
+F16 "4" 0 -1700 50 H I L CNN "Pin Count"
+F17 "SOIC4" 0 -1775 50 H I L CNN "Case"
+F18 "Yes" 0 -1850 50 H I L CNN "Mounted"
+F19 "No" 0 -1925 50 H I L CNN "Socket"
+F20 "Yes" 0 -2000 50 H I L CNN "SMD"
+F21 "No" 0 -2075 50 H I L CNN "PressFit"
+F22 "No" 0 -2150 50 H I L CNN "Sense"
+F23 " " 0 -2225 50 H I L CNN "Sense Comment"
+F24 "No" 0 -2300 50 H I L CNN "Bonding"
+F25 " " 0 -2375 50 H I L CNN "Status Comment"
+F26 "4.6mm" 0 -2450 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -2525 50 H I L CNN "Footprint Path"
+F28 "FAIRCHILD_FOD817DSD" 0 -2600 50 H I L CNN "Footprint Ref"
+F29 " " 0 -2675 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -2750 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM JLC" 0 -2825 50 H I L CNN "Author"
+F32 "07/21/14 00:00:00" 0 -2900 50 H I L CNN "CreateDate"
+F33 "07/21/14 00:00:00" 0 -2975 50 H I L CNN "LatestRevisionDate"
+F34 "Optocouplers" 0 -3050 50 H I L CNN "Database Table Name"
+F35 "ICs And Semiconductors.DbLib" 0 -3125 50 H I L CNN "Library Name"
+F36 "ICs And Semiconductors SMD" 0 -3200 50 H I L CNN "Footprint Library"
+F37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3275 50 H I L CNN "License"
+DRAW
+S 0 -400 400 0 0 1 0 f
+P 2 0 1 10 0 -300 100 -300 N
+P 2 0 1 10 0 -100 100 -100 N
+P 2 0 1 10 100 -100 100 -300 N
+P 2 0 1 10 140 -230 60 -230 N
+P 2 0 1 10 180 -220 230 -220 N
+P 2 0 1 10 180 -180 230 -180 N
+P 2 0 1 10 290 -210 350 -270 N
+P 2 0 1 10 290 -190 350 -130 N
+P 3 0 1 10 400 -300 350 -300 350 -270 N
+P 3 0 1 10 400 -100 350 -100 350 -130 N
+P 4 0 1 10 60 -170 100 -230 140 -170 60 -170 F
+P 4 0 1 0 230 -200 230 -240 250 -220 230 -200 F
+P 4 0 1 0 230 -160 230 -200 250 -180 230 -160 F
+P 4 0 1 0 340 -230 310 -260 350 -270 340 -230 F
+P 5 0 1 0 280 -270 300 -270 300 -130 280 -130 280 -270 F
+X A 1 -200 -100 200 R 60 0 0 1 I
+X C 2 -200 -300 200 R 60 0 0 1 I
+X E 3 600 -300 200 L 60 0 0 1 E
+X C 4 600 -100 200 L 60 0 0 1 C
+ENDDRAW
+ENDDEF
+#

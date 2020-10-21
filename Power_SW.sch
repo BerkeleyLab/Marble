@@ -273,7 +273,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1050 6150 1700
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:Conn_01x04_Male-Connector-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue J?
+L marble_misc:Conn_01x04_Male-Connector J?
 U 1 1 5DBB4777
 P 3900 2700
 AR Path="/5DBB4777" Ref="J?"  Part="1" 
@@ -369,7 +369,7 @@ Wire Wire Line
 	4450 2600 4350 2600
 Connection ~ 4350 2600
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5DBB47C4
 P 4750 2600
 AR Path="/5C16C03C/5DBB47C4" Ref="#PWR?"  Part="1" 
@@ -1250,7 +1250,7 @@ $EndComp
 Wire Wire Line
 	12350 7000 12350 7050
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUX-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:VCCAUX #PWR?
 U 1 1 5DBB8165
 P 15250 8200
 AR Path="/5C907554/5C417BCB/5DBB8165" Ref="#PWR?"  Part="1" 
@@ -1264,7 +1264,7 @@ F 3 "" H 15250 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCBRAM-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:VCCBRAM #PWR?
 U 1 1 5DBB816B
 P 15300 5800
 AR Path="/5C907554/5C417BCB/5DBB816B" Ref="#PWR?"  Part="1" 
@@ -1278,7 +1278,7 @@ F 3 "" H 15300 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVCC-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:MGTAVCC #PWR?
 U 1 1 5DBB8171
 P 7850 9550
 AR Path="/5C907554/5C417BCB/5DBB8171" Ref="#PWR?"  Part="1" 
@@ -5076,7 +5076,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 9450 3900 9450
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:MGTAVTT #PWR?
 U 1 1 5DBB815F
 P 3900 9400
 AR Path="/5C907554/5C417BCB/5DBB815F" Ref="#PWR?"  Part="1" 
@@ -5093,7 +5093,7 @@ NoConn ~ 6150 2600
 NoConn ~ 6150 2200
 NoConn ~ 7550 5100
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:MGTAVTT-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:MGTAVTT #PWR?
 U 1 1 5CF3EE50
 P 3100 6450
 AR Path="/5C907554/5C417BCB/5CF3EE50" Ref="#PWR?"  Part="1" 
@@ -5808,7 +5808,7 @@ $EndComp
 Text Notes 6350 9600 0    89   ~ 18
 1V05
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:VCCAUXIO2V0-power2-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR?
+L marble_misc:VCCAUXIO2V0 #PWR?
 U 1 1 5E14CB07
 P 9100 7500
 AR Path="/5C907554/5C417BCB/5E14CB07" Ref="#PWR?"  Part="1" 
@@ -6823,7 +6823,7 @@ F 3 "" H 750 9250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:TPS7A8901RTJT-powerMG2-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U47
+L marble_misc:TPS7A8901RTJT U47
 U 1 1 5E200024
 P 6700 6700
 F 0 "U47" H 7325 6825 50  0000 C CNN
@@ -7954,7 +7954,7 @@ Connection ~ 4450 9850
 Wire Wire Line
 	14700 2500 14700 2350
 $Comp
-L Connector:TestPoint TP?
+L Connector_Generic:TestPoint TP?
 U 1 1 5F742157
 P 14700 2500
 AR Path="/5C16BF8E/5F742157" Ref="TP?"  Part="1" 
@@ -7968,7 +7968,7 @@ F 3 "~" H 14900 2500 50  0001 C CNN
 $EndComp
 Connection ~ 14700 2350
 $Comp
-L Connector:TestPoint TP?
+L Connector_Generic:TestPoint TP?
 U 1 1 5F7A2E7E
 P 14700 4300
 AR Path="/5C16BF8E/5F7A2E7E" Ref="TP?"  Part="1" 
@@ -7984,7 +7984,7 @@ Wire Wire Line
 	14700 4300 14700 4150
 Connection ~ 14700 4150
 $Comp
-L Connector:TestPoint TP?
+L Connector_Generic:TestPoint TP?
 U 1 1 5F805386
 P 14550 6100
 AR Path="/5C16BF8E/5F805386" Ref="TP?"  Part="1" 
@@ -8002,7 +8002,7 @@ Connection ~ 14550 5950
 Wire Wire Line
 	14550 5950 14850 5950
 $Comp
-L Connector:TestPoint TP?
+L Connector_Generic:TestPoint TP?
 U 1 1 5F861998
 P 14400 8400
 AR Path="/5C16BF8E/5F861998" Ref="TP?"  Part="1" 
@@ -8018,7 +8018,7 @@ Wire Wire Line
 	14400 8400 14400 8250
 Connection ~ 14400 8250
 $Comp
-L Connector:TestPoint TP?
+L Connector_Generic:TestPoint TP?
 U 1 1 5F9282C9
 P 9450 7500
 AR Path="/5C16BF8E/5F9282C9" Ref="TP?"  Part="1" 
@@ -8033,7 +8033,7 @@ $EndComp
 Wire Wire Line
 	9100 7500 9450 7500
 $Comp
-L Connector:TestPoint TP?
+L Connector_Generic:TestPoint TP?
 U 1 1 5F9761ED
 P 8000 9650
 AR Path="/5C16BF8E/5F9761ED" Ref="TP?"  Part="1" 
@@ -8049,7 +8049,7 @@ Wire Wire Line
 	8000 9650 7850 9650
 Connection ~ 7850 9650
 $Comp
-L Connector:TestPoint TP?
+L Connector_Generic:TestPoint TP?
 U 1 1 5F9F839A
 P 3250 9150
 AR Path="/5C16BF8E/5F9F839A" Ref="TP?"  Part="1" 
@@ -8504,41 +8504,10 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 Connection ~ 5300 1050
 Connection ~ 5300 1350
-$Comp
-L power:GND #PWR?
-U 1 1 601401B2
-P 10950 4050
-AR Path="/5C16C03C/601401B2" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/601401B2" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/601401B2" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/601401B2" Ref="#PWR0826"  Part="1" 
-F 0 "#PWR0826" H 10950 3800 50  0001 C CNN
-F 1 "GND" H 10955 3877 50  0000 C CNN
-F 2 "" H 10950 4050 50  0001 C CNN
-F 3 "" H 10950 4050 50  0001 C CNN
-	1    10950 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10850 4050 10950 4050
-Connection ~ 10950 4050
-Wire Wire Line
-	11050 4050 10950 4050
-$Comp
-L power:+1V5 #PWR0828
-U 1 1 60140231
-P 12550 2800
-F 0 "#PWR0828" H 12550 2650 50  0001 C CNN
-F 1 "+1V5" H 12565 2973 50  0000 C CNN
-F 2 "" H 12550 2800 50  0001 C CNN
-F 3 "" H 12550 2800 50  0001 C CNN
-	1    12550 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10050 3250 10850 3250
 $Comp
-L SamacSys_Parts:MPM3830GQV-P U58
+L marble_misc:MPM3830GQV-P U58
 U 1 1 6018E5B8
 P 9100 9100
 F 0 "U58" H 9650 9375 50  0000 C CNN
@@ -9107,7 +9076,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 6650 9500 6650
 $Comp
-L Connector:TestPoint TP?
+L Connector_Generic:TestPoint TP?
 U 1 1 5F8BFCD0
 P 9650 6650
 AR Path="/5C16BF8E/5F8BFCD0" Ref="TP?"  Part="1" 
@@ -9152,4 +9121,17 @@ F 3 "" H 8600 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8600 9050
+NoConn ~ 9100 9650
+$Comp
+L power:PWR_FLAG #FLG0118
+U 1 1 6024A9BD
+P 11850 8950
+F 0 "#FLG0118" H 11850 9025 50  0001 C CNN
+F 1 "PWR_FLAG" V 11850 9078 50  0000 L CNN
+F 2 "" H 11850 8950 50  0001 C CNN
+F 3 "" H 11850 8950 50  0001 C CNN
+	1    11850 8950
+	0    1    1    0   
+$EndComp
+Connection ~ 11850 8950
 $EndSCHEMATC

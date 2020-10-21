@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FPGA_Xilinx_Kintex7:XC7K160T-FFG676 U?
+L marble_misc:XC7K160T-FFG676 U?
 U 1 1 5F597EC7
 P 8600 5150
 AR Path="/5F597EC7" Ref="U?"  Part="1" 
@@ -887,4 +887,12 @@ Text GLabel 5800 5850 0    50   BiDi ~ 10
 FMC2_LA_8_N
 Text Label 6450 5750 2    50   ~ 10
 FMC2_LA_8_P
+NoConn ~ 6600 7550
+NoConn ~ 6600 7650
+NoConn ~ 6600 7950
+NoConn ~ 6600 6050
+NoConn ~ 6600 5950
+NoConn ~ 6600 3050
+NoConn ~ 10600 3050
+NoConn ~ 10600 7950
 $EndSCHEMATC

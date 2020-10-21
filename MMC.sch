@@ -105,7 +105,7 @@ F 3 "" H 8900 1550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5C12CD30
 P 1750 7200
 AR Path="/5C16C03C/5C12CD30" Ref="#PWR?"  Part="1" 
@@ -120,7 +120,7 @@ F 3 "" H 1750 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5C132FDD
 P 1750 7850
 AR Path="/5C16C03C/5C132FDD" Ref="#PWR?"  Part="1" 
@@ -308,7 +308,7 @@ Text Label 11100 3400 0    50   ~ 10
 MMC_TDI
 Text Label 5450 1900 0    50   ~ 10
 ISP_RSTn
-Text HLabel 5200 1900 0    50   Input ~ 10
+Text HLabel 5200 1900 0    50   UnSpc ~ 10
 ISP_RSTn
 Wire Wire Line
 	5200 1900 5850 1900
@@ -2146,7 +2146,7 @@ Wire Wire Line
 	11750 1500 11550 1500
 Connection ~ 11550 1500
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5DD043F6
 P 11550 1200
 AR Path="/5C16C03C/5DD043F6" Ref="#PWR?"  Part="1" 
@@ -2323,7 +2323,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 3650 13150 3400
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5E716956
 P 13150 2800
 AR Path="/5C16C03C/5E716956" Ref="#PWR?"  Part="1" 
@@ -2338,7 +2338,7 @@ F 3 "" H 13150 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5E72749D
 P 12800 2800
 AR Path="/5C16C03C/5E72749D" Ref="#PWR?"  Part="1" 
@@ -2353,7 +2353,7 @@ F 3 "" H 12800 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5E737FE0
 P 12450 2800
 AR Path="/5C16C03C/5E737FE0" Ref="#PWR?"  Part="1" 
@@ -2726,7 +2726,7 @@ Wire Wire Line
 	2950 3000 5450 3000
 Connection ~ 2950 3200
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5FA7335E
 P 7450 1550
 AR Path="/5C16C03C/5FA7335E" Ref="#PWR?"  Part="1" 
@@ -2780,7 +2780,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 4600 6850 4600
 $Comp
-L MCU_ST_STM32F2:STM32F207VCTx U54
+L marble_misc:STM32F207VCTx U54
 U 1 1 5EE61427
 P 7750 4300
 F 0 "U54" H 7750 1411 50  0000 C CNN
@@ -2790,10 +2790,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    7750 4300
 	1    0    0    -1  
 $EndComp
-Text Label 9600 4000 0    50   ~ 10
-MMC_TRST
-Wire Wire Line
-	10150 4000 8650 4000
 Wire Wire Line
 	7650 7100 7750 7100
 Wire Wire Line
@@ -3361,7 +3357,7 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 6326E465
 P 11850 5150
 AR Path="/5C16C03C/6326E465" Ref="#PWR?"  Part="1" 
@@ -3391,7 +3387,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 5650 12050 5500
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5C07B6F7
 P 9800 1250
 AR Path="/5C16C03C/5C07B6F7" Ref="#PWR?"  Part="1" 
@@ -3646,8 +3642,51 @@ Wire Wire Line
 Connection ~ 10700 3300
 Wire Wire Line
 	10700 3300 11650 3300
-Wire Bus Line
-	9350 3500 9350 3700
+NoConn ~ 8650 6800
+NoConn ~ 8650 6700
+NoConn ~ 8650 6600
+NoConn ~ 8650 5900
+NoConn ~ 8650 5800
+NoConn ~ 8650 5700
+NoConn ~ 8650 4900
+NoConn ~ 8650 4800
+NoConn ~ 8650 4700
+NoConn ~ 8650 4400
+NoConn ~ 6850 4300
+NoConn ~ 6850 4200
+NoConn ~ 6850 4000
+NoConn ~ 6850 3900
+NoConn ~ 8650 3100
+NoConn ~ 8650 3000
+NoConn ~ 8650 2600
+NoConn ~ 8650 2000
+NoConn ~ 6850 6000
+NoConn ~ 6850 6100
+NoConn ~ 8650 4000
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 62BC7CC9
+P 8150 1250
+F 0 "#FLG0107" H 8150 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 8150 1423 50  0000 C CNN
+F 2 "" H 8150 1250 50  0001 C CNN
+F 3 "" H 8150 1250 50  0001 C CNN
+	1    8150 1250
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1700 4600 1700 5350
+Wire Bus Line
+	9350 3500 9350 3700
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 62BDD0EB
+P 6700 2600
+F 0 "#FLG0108" H 6700 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6700 2773 50  0000 C CNN
+F 2 "" H 6700 2600 50  0001 C CNN
+F 3 "" H 6700 2600 50  0001 C CNN
+	1    6700 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

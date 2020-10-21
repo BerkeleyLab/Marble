@@ -14,7 +14,7 @@ Comment3 "I2C MUX"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:TCA9548ARGER-Interface_Expansion-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U5
+L marble_misc:TCA9548ARGER-Interface_Expansion U5
 U 1 1 5C5DB690
 P 5150 2900
 F 0 "U5" H 5150 3978 50  0000 L CNN
@@ -1392,7 +1392,7 @@ Connection ~ 6000 2700
 Wire Wire Line
 	6000 2700 7850 2700
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5F60B33D
 P 5150 1700
 AR Path="/5C16C03C/5F60B33D" Ref="#PWR?"  Part="1" 
@@ -1409,7 +1409,7 @@ F 3 "" H 5150 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5F60D5A3
 P 4050 1700
 AR Path="/5C16C03C/5F60D5A3" Ref="#PWR?"  Part="1" 
@@ -1426,7 +1426,7 @@ F 3 "" H 4050 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5F60F78D
 P 4450 2850
 AR Path="/5C16C03C/5F60F78D" Ref="#PWR?"  Part="1" 
@@ -1565,7 +1565,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3250 6300 3550
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5FACE6EA
 P 6850 3650
 AR Path="/5C16C03C/5FACE6EA" Ref="#PWR?"  Part="1" 

@@ -18,7 +18,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 1000 8350 900 
 $Comp
-L FPGA_Xilinx_Kintex7:XC7K160T-FFG676 U?
+L marble_misc:XC7K160T-FFG676 U?
 U 3 1 5EB7C486
 P 7250 3900
 AR Path="/5EB7C486" Ref="U?"  Part="3" 

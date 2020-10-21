@@ -1,0 +1,337 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CDCM61004RHBT
+#
+DEF CDCM61004RHBT IC 0 50 Y Y 1 L N
+F0 "IC" 500 50 50 H V C CNN
+F1 "CDCM61004RHBT" 0 -2575 50 H I L CNN
+F2 "ICs And Semiconductors SMD:QFN50P500X500X100-33N-S355" 0 -2650 50 H I L CNN
+F3 " " 0 -2725 50 H I L CNN
+F4 "CDCM61004RHBT" 0 -2800 50 H I L CNN "Part Number"
+F5 "CDCM61004RHB" 0 -2875 50 H I L CNN "Library Ref"
+F6 "SchLib\\Logic.SchLib" 0 -2950 50 H I L CNN "Library Path"
+F7 "CDCM61004RHBT" 0 -3025 50 H I L CNN "Comment"
+F8 "Standard" 0 -3100 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -3175 50 H I L CNN "Component Type"
+F10 "CDCM61004RHBT" 0 -3250 50 H I L CNN "Device"
+F11 "QFN, (MO-220-VHHD-4) 0.50mm pitch,square; 8 pin X 8 pin, 5mm X 5mm X 1.00mm H body (w/thermal tab 3.5 X 3.5mm),  IPC Medium Density" 0 -3325 50 H I L CNN "PackageDescription"
+F12 " " 0 -3400 50 H I L CNN "Status"
+F13 "Four Output, Integrated VCO, Low-Jitter Clock Generator" 0 -3475 50 H I L CNN "Part Description"
+F14 "TEXAS INSTRUMENTS" 0 -3550 50 H I L CNN "Manufacturer"
+F15 "CDCM61004RHBT" 0 -3625 50 H I L CNN "Manufacturer Part Number"
+F16 "33" 0 -3700 50 H I L CNN "Pin Count"
+F17 "QFN32" 0 -3775 50 H I L CNN "Case"
+F18 "Yes" 0 -3850 50 H I L CNN "Mounted"
+F19 "No" 0 -3925 50 H I L CNN "Socket"
+F20 "Yes" 0 -4000 50 H I L CNN "SMD"
+F21 "No" 0 -4075 50 H I L CNN "PressFit"
+F22 "No" 0 -4150 50 H I L CNN "Sense"
+F23 "No" 0 -4225 50 H I L CNN "Bonding"
+F24 " " 0 -4300 50 H I L CNN "Sense Comment"
+F25 " " 0 -4375 50 H I L CNN "Status Comment"
+F26 "1mm" 0 -4450 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -4525 50 H I L CNN "Footprint Path"
+F28 "QFN50P500X500X100-33N-S355" 0 -4600 50 H I L CNN "Footprint Ref"
+F29 " " 0 -4675 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -4750 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM JLC" 0 -4825 50 H I L CNN "Author"
+F32 "08/25/10 00:00:00" 0 -4900 50 H I L CNN "CreateDate"
+F33 "11/21/11 00:00:00" 0 -4975 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -5050 50 H I L CNN "SCEM"
+F35 "Logic" 0 -5125 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -5200 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -5275 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -5350 50 H I L CNN "License"
+DRAW
+S 0 -2400 1000 0 0 1 0 f
+S 0 -2350 20 -2260 0 1 0 F
+X VCCOUT 1 1200 -2000 200 L 60 60 0 1 w
+X OS1 10 -200 -1300 200 R 60 60 0 1 I
+X OS0 11 -200 -1400 200 R 60 60 0 1 I
+X ~RSTN 12 -200 -400 200 R 60 60 0 1 I
+X OD0 13 -200 -900 200 R 60 60 0 1 I
+X OD1 14 -200 -1000 200 R 60 60 0 1 I
+X OD2 15 -200 -1100 200 R 60 60 0 1 I
+X VCCPLL2 16 1200 -1700 200 L 60 60 0 1 W
+X REGCAP2 17 -200 -1700 200 R 60 60 0 1 O
+X VCCPLL1 18 1200 -1600 200 L 60 60 0 1 W
+X REGCAP1 19 -200 -1600 200 R 60 60 0 1 O
+X OUTN1 2 1200 -500 200 L 60 60 0 1 O
+X VCCIN 20 1200 -1900 200 L 60 60 0 1 W
+X XIN 21 -200 -100 200 R 60 60 0 1 I
+X GND1 22 -200 -2200 200 R 60 60 0 1 W
+X OSCOUT 23 1200 -1300 200 L 60 60 0 1 O
+X NC 24 -200 -2000 200 R 60 60 0 1 P
+X PR0 25 -200 -600 200 R 60 60 0 1 I
+X PR1 26 -200 -700 200 R 60 60 0 1 I
+X VCCOUT 27 1200 -2200 200 L 60 60 0 1 P
+X OUTN3 28 1200 -1100 200 L 60 60 0 1 O
+X OUTP3 29 1200 -1000 200 L 60 60 0 1 O
+X OUTP1 3 1200 -400 200 L 60 60 0 1 O
+X VCCOUT 30 1200 -2300 200 L 60 60 0 1 P
+X OUTN2 31 1200 -800 200 L 60 60 0 1 O
+X OUTP2 32 1200 -700 200 L 60 60 0 1 O
+X EP 33 -200 -2300 200 R 60 60 0 1 W
+X VCCOUT 4 1200 -2100 200 L 60 60 0 1 P
+X OUTN0 5 1200 -200 200 L 60 60 0 1 O
+X OUTP0 6 1200 -100 200 L 60 60 0 1 O
+X CE 7 -200 -300 200 R 60 60 0 1 I
+X NC 8 -200 -1900 200 R 60 60 0 1 P
+X VCCVCO 9 1200 -1800 200 L 60 60 0 1 W
+ENDDRAW
+ENDDEF
+#
+# MT8JTF12864HZ-1G6G1
+#
+DEF MT8JTF12864HZ-1G6G1 IC 0 50 Y Y 2 L N
+F0 "IC" 0 150 50 H V L CNN
+F1 "MT8JTF12864HZ-1G6G1" 0 -5375 50 H I L CNN
+F2 "ICs And Semiconductors SMD:SODIMM60P6760X3000X380-204" 0 -5450 50 H I L CNN
+F3 " " 0 -5525 50 H I L CNN
+F4 "MT8JTF12864HZ-1G6G1" 0 -5600 50 H I L CNN "Part Number"
+F5 "MT8JTF12864HZ" 0 -5675 50 H I L CNN "Library Ref"
+F6 "SchLib\\Logic.SchLib" 0 -5750 50 H I L CNN "Library Path"
+F7 "MT8JTF12864HZ-1G6G1" 0 -5825 50 H I L CNN "Comment"
+F8 "Standard" 0 -5900 50 H I L CNN "Component Kind"
+F9 "Standard" 0 -5975 50 H I L CNN "Component Type"
+F10 "MT8JTF12864HZ-1G6G1" 0 -6050 50 H I L CNN "Device"
+F11 "SODIMM DDR3 204-Pin SDRAM Module, Body; 67.6mm L X 30mm W X 3.8mm H" 0 -6125 50 H I L CNN "PackageDescription"
+F12 " " 0 -6200 50 H I L CNN "Status"
+F13 "1Gb (128Mx64) SODIMM 204-Pin DDR3 SDRAM Module" 0 -6275 50 H I L CNN "Part Description"
+F14 "MICRON TECHNOLOGY" 0 -6350 50 H I L CNN "Manufacturer"
+F15 "MT8JTF12864HZ-1G6G1" 0 -6425 50 H I L CNN "Manufacturer Part Number"
+F16 "0" 0 -6500 50 H I L CNN "Pin Count"
+F17 "SODIMM" 0 -6575 50 H I L CNN "Case"
+F18 "Yes" 0 -6650 50 H I L CNN "Mounted"
+F19 "No" 0 -6725 50 H I L CNN "Socket"
+F20 "No" 0 -6800 50 H I L CNN "SMD"
+F21 "No" 0 -6875 50 H I L CNN "PressFit"
+F22 "No" 0 -6950 50 H I L CNN "Sense"
+F23 "No" 0 -7025 50 H I L CNN "Bonding"
+F24 " " 0 -7100 50 H I L CNN "Sense Comment"
+F25 " " 0 -7175 50 H I L CNN "Status Comment"
+F26 "3.8mm" 0 -7250 50 H I L CNN "ComponentHeight"
+F27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" 0 -7325 50 H I L CNN "Footprint Path"
+F28 "SODIMM60P6760X3000X380-204" 0 -7400 50 H I L CNN "Footprint Ref"
+F29 " " 0 -7475 50 H I L CNN "ComponentLink1Description"
+F30 " " 0 -7550 50 H I L CNN "ComponentLink2Description"
+F31 "CERN DEM JLC" 0 -7625 50 H I L CNN "Author"
+F32 "08/09/12 00:00:00" 0 -7700 50 H I L CNN "CreateDate"
+F33 "08/09/12 00:00:00" 0 -7775 50 H I L CNN "LatestRevisionDate"
+F34 " " 0 -7850 50 H I L CNN "SCEM"
+F35 "Logic" 0 -7925 50 H I L CNN "Database Table Name"
+F36 "ICs And Semiconductors.DbLib" 0 -8000 50 H I L CNN "Library Name"
+F37 "ICs And Semiconductors SMD" 0 -8075 50 H I L CNN "Footprint Library"
+F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -8150 50 H I L CNN "License"
+DRAW
+T 0 950 -5100 50 1 1 1 A0 Normal 0 R C
+T 0 50 -5100 50 1 1 1 A1 Normal 0 L C
+T 0 950 -4400 50 1 1 1 A11 Normal 0 R C
+T 0 50 -4400 50 1 1 1 A12 Normal 0 L C
+T 0 950 -4200 50 1 1 1 A14 Normal 0 R C
+T 0 950 -4100 50 1 1 1 A15 Normal 0 R C
+T 0 950 -5000 50 1 1 1 A2 Normal 0 R C
+T 0 50 -5000 50 1 1 1 A3 Normal 0 L C
+T 0 950 -4800 50 1 1 1 A4 Normal 0 R C
+T 0 50 -4800 50 1 1 1 A5 Normal 0 L C
+T 0 950 -4700 50 1 1 1 A6 Normal 0 R C
+T 0 950 -4500 50 1 1 1 A7 Normal 0 R C
+T 0 50 -4700 50 1 1 1 A8 Normal 0 L C
+T 0 50 -4500 50 1 1 1 A9 Normal 0 L C
+T 0 50 -4200 50 1 1 1 BA2 Normal 0 L C
+T 0 50 -3900 50 1 1 1 CKE0 Normal 0 L C
+T 0 50 -600 50 1 1 1 DM0 Normal 0 L C
+T 0 950 -1400 50 1 1 1 DM1 Normal 0 R C
+T 0 950 -2300 50 1 1 1 DM2 Normal 0 R C
+T 0 50 -3200 50 1 1 1 DM3 Normal 0 L C
+T 0 50 -300 50 1 1 1 DQ0 Normal 0 L C
+T 0 50 -400 50 1 1 1 DQ1 Normal 0 L C
+T 0 50 -1700 50 1 1 1 DQ10 Normal 0 L C
+T 0 50 -1800 50 1 1 1 DQ11 Normal 0 L C
+T 0 950 -1100 50 1 1 1 DQ12 Normal 0 R C
+T 0 950 -1200 50 1 1 1 DQ13 Normal 0 R C
+T 0 950 -1700 50 1 1 1 DQ14 Normal 0 R C
+T 0 950 -1800 50 1 1 1 DQ15 Normal 0 R C
+T 0 50 -2000 50 1 1 1 DQ16 Normal 0 L C
+T 0 50 -2100 50 1 1 1 DQ17 Normal 0 L C
+T 0 50 -2600 50 1 1 1 DQ18 Normal 0 L C
+T 0 50 -2700 50 1 1 1 DQ19 Normal 0 L C
+T 0 50 -800 50 1 1 1 DQ2 Normal 0 L C
+T 0 950 -2000 50 1 1 1 DQ20 Normal 0 R C
+T 0 950 -2100 50 1 1 1 DQ21 Normal 0 R C
+T 0 950 -2500 50 1 1 1 DQ22 Normal 0 R C
+T 0 950 -2600 50 1 1 1 DQ23 Normal 0 R C
+T 0 50 -2900 50 1 1 1 DQ24 Normal 0 L C
+T 0 50 -3000 50 1 1 1 DQ25 Normal 0 L C
+T 0 50 -3400 50 1 1 1 DQ26 Normal 0 L C
+T 0 50 -3500 50 1 1 1 DQ27 Normal 0 L C
+T 0 950 -2800 50 1 1 1 DQ28 Normal 0 R C
+T 0 950 -2900 50 1 1 1 DQ29 Normal 0 R C
+T 0 50 -900 50 1 1 1 DQ3 Normal 0 L C
+T 0 950 -3200 50 1 1 1 DQ3 Normal 0 R C
+T 0 950 -3100 50 1 1 1 DQ3# Normal 0 R C
+T 0 950 -3400 50 1 1 1 DQ30 Normal 0 R C
+T 0 950 -3500 50 1 1 1 DQ31 Normal 0 R C
+T 0 950 -200 50 1 1 1 DQ4 Normal 0 R C
+T 0 950 -300 50 1 1 1 DQ5 Normal 0 R C
+T 0 950 -800 50 1 1 1 DQ6 Normal 0 R C
+T 0 950 -900 50 1 1 1 DQ7 Normal 0 R C
+T 0 50 -1100 50 1 1 1 DQ8 Normal 0 L C
+T 0 50 -1200 50 1 1 1 DQ9 Normal 0 L C
+T 0 950 -600 50 1 1 1 DQS0 Normal 0 R C
+T 0 950 -500 50 1 1 1 DQS0# Normal 0 R C
+T 0 50 -1500 50 1 1 1 DQS1 Normal 0 L C
+T 0 50 -1400 50 1 1 1 DQS1# Normal 0 L C
+T 0 50 -2400 50 1 1 1 DQS2 Normal 0 L C
+T 0 50 -2300 50 1 1 1 DQS2# Normal 0 L C
+T 0 50 -4100 50 1 1 1 NC Normal 0 L C
+T 0 950 -3900 50 1 1 1 NC Normal 0 R C
+T 0 950 -1500 50 1 1 1 RESET# Normal 0 R C
+T 0 50 -5200 50 1 1 1 VDD Normal 0 L C
+T 0 50 -4900 50 1 1 1 VDD Normal 0 L C
+T 0 50 -4600 50 1 1 1 VDD Normal 0 L C
+T 0 50 -4300 50 1 1 1 VDD Normal 0 L C
+T 0 50 -4000 50 1 1 1 VDD Normal 0 L C
+T 0 950 -5200 50 1 1 1 VDD Normal 0 R C
+T 0 950 -4900 50 1 1 1 VDD Normal 0 R C
+T 0 950 -4600 50 1 1 1 VDD Normal 0 R C
+T 0 950 -4300 50 1 1 1 VDD Normal 0 R C
+T 0 950 -4000 50 1 1 1 VDD Normal 0 R C
+T 0 50 -100 50 1 1 1 VREFDQ Normal 0 L C
+T 0 50 -3600 50 1 1 1 VSS Normal 0 L C
+T 0 50 -3300 50 1 1 1 VSS Normal 0 L C
+T 0 50 -3100 50 1 1 1 VSS Normal 0 L C
+T 0 50 -2800 50 1 1 1 VSS Normal 0 L C
+T 0 50 -2500 50 1 1 1 VSS Normal 0 L C
+T 0 50 -2200 50 1 1 1 VSS Normal 0 L C
+T 0 50 -1900 50 1 1 1 VSS Normal 0 L C
+T 0 50 -1600 50 1 1 1 VSS Normal 0 L C
+T 0 50 -1300 50 1 1 1 VSS Normal 0 L C
+T 0 50 -1000 50 1 1 1 VSS Normal 0 L C
+T 0 50 -700 50 1 1 1 VSS Normal 0 L C
+T 0 50 -500 50 1 1 1 VSS Normal 0 L C
+T 0 50 -200 50 1 1 1 VSS Normal 0 L C
+T 0 950 -3600 50 1 1 1 VSS Normal 0 R C
+T 0 950 -3300 50 1 1 1 VSS Normal 0 R C
+T 0 950 -3000 50 1 1 1 VSS Normal 0 R C
+T 0 950 -2700 50 1 1 1 VSS Normal 0 R C
+T 0 950 -2400 50 1 1 1 VSS Normal 0 R C
+T 0 950 -2200 50 1 1 1 VSS Normal 0 R C
+T 0 950 -1900 50 1 1 1 VSS Normal 0 R C
+T 0 950 -1600 50 1 1 1 VSS Normal 0 R C
+T 0 950 -1300 50 1 1 1 VSS Normal 0 R C
+T 0 950 -1000 50 1 1 1 VSS Normal 0 R C
+T 0 950 -700 50 1 1 1 VSS Normal 0 R C
+T 0 950 -400 50 1 1 1 VSS Normal 0 R C
+T 0 950 -100 50 1 1 1 VSS Normal 0 R C
+T 0 50 -400 50 1 2 1 A10 Normal 0 L C
+T 0 50 -1000 50 1 2 1 A13 Normal 0 L C
+T 0 50 -500 50 1 2 1 BA0 Normal 0 L C
+T 0 950 -400 50 1 2 1 BA1 Normal 0 R C
+T 0 50 -800 50 1 2 1 CAS# Normal 0 L C
+T 0 50 -100 50 1 2 1 CK0 Normal 0 L C
+T 0 50 -200 50 1 2 1 CK0# Normal 0 L C
+T 0 950 -100 50 1 2 1 CK1 Normal 0 R C
+T 0 950 -200 50 1 2 1 CK1# Normal 0 R C
+T 0 950 -1800 50 1 2 1 DM4 Normal 0 R C
+T 0 50 -2700 50 1 2 1 DM5 Normal 0 L C
+T 0 950 -3500 50 1 2 1 DM6 Normal 0 R C
+T 0 50 -4400 50 1 2 1 DM7 Normal 0 L C
+T 0 50 -1500 50 1 2 1 DQ32 Normal 0 L C
+T 0 50 -1600 50 1 2 1 DQ33 Normal 0 L C
+T 0 50 -2100 50 1 2 1 DQ34 Normal 0 L C
+T 0 50 -2200 50 1 2 1 DQ35 Normal 0 L C
+T 0 950 -1500 50 1 2 1 DQ36 Normal 0 R C
+T 0 950 -1600 50 1 2 1 DQ37 Normal 0 R C
+T 0 950 -2000 50 1 2 1 DQ38 Normal 0 R C
+T 0 950 -2100 50 1 2 1 DQ39 Normal 0 R C
+T 0 50 -2400 50 1 2 1 DQ40 Normal 0 L C
+T 0 50 -2500 50 1 2 1 DQ41 Normal 0 L C
+T 0 50 -2900 50 1 2 1 DQ42 Normal 0 L C
+T 0 50 -3000 50 1 2 1 DQ43 Normal 0 L C
+T 0 950 -2300 50 1 2 1 DQ44 Normal 0 R C
+T 0 950 -2400 50 1 2 1 DQ45 Normal 0 R C
+T 0 950 -2900 50 1 2 1 DQ46 Normal 0 R C
+T 0 950 -3000 50 1 2 1 DQ47 Normal 0 R C
+T 0 50 -3200 50 1 2 1 DQ48 Normal 0 L C
+T 0 50 -3300 50 1 2 1 DQ49 Normal 0 L C
+T 0 50 -3800 50 1 2 1 DQ50 Normal 0 L C
+T 0 50 -3900 50 1 2 1 DQ51 Normal 0 L C
+T 0 950 -3200 50 1 2 1 DQ52 Normal 0 R C
+T 0 950 -3300 50 1 2 1 DQ53 Normal 0 R C
+T 0 950 -3700 50 1 2 1 DQ54 Normal 0 R C
+T 0 950 -3800 50 1 2 1 DQ55 Normal 0 R C
+T 0 50 -4100 50 1 2 1 DQ56 Normal 0 L C
+T 0 50 -4200 50 1 2 1 DQ57 Normal 0 L C
+T 0 50 -4600 50 1 2 1 DQ58 Normal 0 L C
+T 0 50 -4700 50 1 2 1 DQ59 Normal 0 L C
+T 0 950 -4000 50 1 2 1 DQ60 Normal 0 R C
+T 0 950 -4100 50 1 2 1 DQ61 Normal 0 R C
+T 0 950 -4600 50 1 2 1 DQ62 Normal 0 R C
+T 0 950 -4700 50 1 2 1 DQ63 Normal 0 R C
+T 0 50 -1900 50 1 2 1 DQS4 Normal 0 L C
+T 0 50 -1800 50 1 2 1 DQS4# Normal 0 L C
+T 0 950 -2700 50 1 2 1 DQS5 Normal 0 R C
+T 0 950 -2600 50 1 2 1 DQS5# Normal 0 R C
+T 0 50 -3600 50 1 2 1 DQS6 Normal 0 L C
+T 0 50 -3500 50 1 2 1 DQS6# Normal 0 L C
+T 0 950 -4400 50 1 2 1 DQS7 Normal 0 R C
+T 0 950 -4300 50 1 2 1 DQS7# Normal 0 R C
+T 0 50 -1300 50 1 2 1 NC Normal 0 L C
+T 0 50 -1100 50 1 2 1 NC Normal 0 L C
+T 0 950 -1100 50 1 2 1 NC Normal 0 R C
+T 0 950 -1000 50 1 2 1 NC Normal 0 R C
+T 0 950 -4900 50 1 2 1 NF Normal 0 R C
+T 0 950 -800 50 1 2 1 ODT0 Normal 0 R C
+T 0 950 -500 50 1 2 1 RAS# Normal 0 R C
+T 0 950 -700 50 1 2 1 S0# Normal 0 R C
+T 0 50 -4900 50 1 2 1 SA0 Normal 0 L C
+T 0 50 -5100 50 1 2 1 SA1 Normal 0 L C
+T 0 950 -5100 50 1 2 1 SCL Normal 0 R C
+T 0 950 -5000 50 1 2 1 SDA Normal 0 R C
+T 0 50 -1200 50 1 2 1 VDD Normal 0 L C
+T 0 50 -900 50 1 2 1 VDD Normal 0 L C
+T 0 50 -600 50 1 2 1 VDD Normal 0 L C
+T 0 50 -300 50 1 2 1 VDD Normal 0 L C
+T 0 950 -1200 50 1 2 1 VDD Normal 0 R C
+T 0 950 -900 50 1 2 1 VDD Normal 0 R C
+T 0 950 -600 50 1 2 1 VDD Normal 0 R C
+T 0 950 -300 50 1 2 1 VDD Normal 0 R C
+T 0 50 -5000 50 1 2 1 VDDSPD Normal 0 L C
+T 0 950 -1300 50 1 2 1 VREFCA Normal 0 R C
+T 0 50 -4800 50 1 2 1 VSS Normal 0 L C
+T 0 50 -4500 50 1 2 1 VSS Normal 0 L C
+T 0 50 -4300 50 1 2 1 VSS Normal 0 L C
+T 0 50 -4000 50 1 2 1 VSS Normal 0 L C
+T 0 50 -3700 50 1 2 1 VSS Normal 0 L C
+T 0 50 -3400 50 1 2 1 VSS Normal 0 L C
+T 0 50 -3100 50 1 2 1 VSS Normal 0 L C
+T 0 50 -2800 50 1 2 1 VSS Normal 0 L C
+T 0 50 -2600 50 1 2 1 VSS Normal 0 L C
+T 0 50 -2300 50 1 2 1 VSS Normal 0 L C
+T 0 50 -2000 50 1 2 1 VSS Normal 0 L C
+T 0 50 -1700 50 1 2 1 VSS Normal 0 L C
+T 0 50 -1400 50 1 2 1 VSS Normal 0 L C
+T 0 950 -4800 50 1 2 1 VSS Normal 0 R C
+T 0 950 -4500 50 1 2 1 VSS Normal 0 R C
+T 0 950 -4200 50 1 2 1 VSS Normal 0 R C
+T 0 950 -3900 50 1 2 1 VSS Normal 0 R C
+T 0 950 -3600 50 1 2 1 VSS Normal 0 R C
+T 0 950 -3400 50 1 2 1 VSS Normal 0 R C
+T 0 950 -3100 50 1 2 1 VSS Normal 0 R C
+T 0 950 -2800 50 1 2 1 VSS Normal 0 R C
+T 0 950 -2500 50 1 2 1 VSS Normal 0 R C
+T 0 950 -2200 50 1 2 1 VSS Normal 0 R C
+T 0 950 -1900 50 1 2 1 VSS Normal 0 R C
+T 0 950 -1700 50 1 2 1 VSS Normal 0 R C
+T 0 950 -1400 50 1 2 1 VSS Normal 0 R C
+T 0 50 -5200 50 1 2 1 VTT Normal 0 L C
+T 0 950 -5200 50 1 2 1 VTT Normal 0 R C
+T 0 50 -700 50 1 2 1 WE# Normal 0 L C
+S 0 -5300 1000 0 1 1 0 f
+S 0 -5300 1000 0 2 1 0 f
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -683,7 +683,7 @@ FMC1_PG_C2M
 Wire Wire Line
 	13600 700  14500 700 
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:+12V_FMC1-powerMG-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue #PWR087
+L marble_misc:+12V_FMC1 #PWR087
 U 1 1 5BF95847
 P 1850 4400
 AR Path="/5BF95847" Ref="#PWR087"  Part="1" 
@@ -696,7 +696,7 @@ F 3 "" H 1850 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5DD348B7
 P 14900 4400
 AR Path="/5C16C03C/5DD348B7" Ref="#PWR?"  Part="1" 
@@ -780,7 +780,7 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5E9F763B
 P 9950 800
 AR Path="/5C16C03C/5E9F763B" Ref="#PWR?"  Part="1" 
@@ -2463,8 +2463,6 @@ Connection ~ 6550 6750
 Wire Wire Line
 	6550 6750 6550 6850
 Wire Wire Line
-	7950 6450 8700 6450
-Wire Wire Line
 	7950 10350 8700 10350
 Wire Wire Line
 	5950 10250 6700 10250
@@ -2740,12 +2738,6 @@ Wire Wire Line
 	13450 9300 13450 9550
 Wire Wire Line
 	12850 9400 13600 9400
-Wire Wire Line
-	12850 5500 13600 5500
-Text Label 12850 5500 0    50   ~ 0
-VREF_B_M2C
-Text Label 7950 6450 0    50   ~ 0
-PG_M2C
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5F088825
@@ -2973,4 +2965,136 @@ Wire Wire Line
 	3100 4300 3450 4300
 Wire Wire Line
 	2800 4300 2500 4300
+NoConn ~ 2750 6950
+NoConn ~ 2750 7050
+NoConn ~ 2750 7350
+NoConn ~ 2750 7450
+NoConn ~ 2750 7750
+NoConn ~ 2750 7850
+NoConn ~ 2750 8150
+NoConn ~ 2750 8250
+NoConn ~ 2750 8950
+NoConn ~ 2750 9050
+NoConn ~ 2750 9350
+NoConn ~ 2750 9450
+NoConn ~ 2750 9750
+NoConn ~ 2750 9850
+NoConn ~ 2750 10150
+NoConn ~ 2750 10250
+NoConn ~ 4500 6450
+NoConn ~ 4500 6750
+NoConn ~ 4500 6850
+NoConn ~ 4500 7150
+NoConn ~ 4500 7250
+NoConn ~ 4500 7550
+NoConn ~ 4500 7650
+NoConn ~ 4500 7950
+NoConn ~ 4500 8050
+NoConn ~ 4500 8750
+NoConn ~ 4500 8850
+NoConn ~ 4500 9150
+NoConn ~ 4500 9250
+NoConn ~ 4500 9550
+NoConn ~ 4500 9650
+NoConn ~ 4500 9950
+NoConn ~ 4500 10050
+NoConn ~ 4500 10350
+NoConn ~ 6700 6550
+NoConn ~ 6700 6650
+NoConn ~ 6700 6950
+NoConn ~ 6700 7050
+NoConn ~ 6700 7250
+NoConn ~ 6700 7350
+NoConn ~ 6700 7550
+NoConn ~ 6700 7650
+NoConn ~ 6700 7850
+NoConn ~ 6700 7950
+NoConn ~ 6700 8150
+NoConn ~ 6700 8250
+NoConn ~ 6700 8450
+NoConn ~ 6700 8550
+NoConn ~ 6700 8750
+NoConn ~ 6700 8850
+NoConn ~ 6700 9050
+NoConn ~ 6700 9150
+NoConn ~ 6700 9350
+NoConn ~ 6700 9450
+NoConn ~ 6700 9650
+NoConn ~ 6700 9750
+NoConn ~ 6700 9950
+NoConn ~ 6700 10050
+NoConn ~ 8700 6750
+NoConn ~ 8700 6850
+NoConn ~ 8700 7050
+NoConn ~ 8700 7150
+NoConn ~ 8700 7350
+NoConn ~ 8700 7450
+NoConn ~ 8700 7650
+NoConn ~ 8700 7750
+NoConn ~ 8700 7950
+NoConn ~ 8700 8050
+NoConn ~ 8700 8250
+NoConn ~ 8700 8350
+NoConn ~ 8700 8550
+NoConn ~ 8700 8650
+NoConn ~ 8700 8850
+NoConn ~ 8700 8950
+NoConn ~ 8700 9150
+NoConn ~ 8700 9250
+NoConn ~ 8700 9450
+NoConn ~ 8700 9550
+NoConn ~ 8700 9750
+NoConn ~ 8700 9850
+NoConn ~ 8700 10050
+NoConn ~ 8700 10150
+NoConn ~ 10950 6550
+NoConn ~ 10950 6650
+NoConn ~ 10950 6950
+NoConn ~ 10950 7050
+NoConn ~ 10950 7250
+NoConn ~ 10950 7350
+NoConn ~ 10950 7550
+NoConn ~ 10950 7650
+NoConn ~ 10950 7850
+NoConn ~ 10950 7950
+NoConn ~ 10950 8150
+NoConn ~ 10950 8250
+NoConn ~ 10950 8450
+NoConn ~ 10950 8550
+NoConn ~ 10950 8750
+NoConn ~ 10950 8850
+NoConn ~ 10950 9050
+NoConn ~ 10950 9150
+NoConn ~ 10950 9350
+NoConn ~ 10950 9450
+NoConn ~ 10950 9650
+NoConn ~ 10950 9750
+NoConn ~ 10950 9950
+NoConn ~ 10950 10050
+NoConn ~ 13600 5800
+NoConn ~ 13600 5900
+NoConn ~ 13600 6100
+NoConn ~ 13600 6200
+NoConn ~ 13600 6400
+NoConn ~ 13600 6500
+NoConn ~ 13600 6700
+NoConn ~ 13600 6800
+NoConn ~ 13600 7000
+NoConn ~ 13600 7100
+NoConn ~ 13600 7300
+NoConn ~ 13600 7400
+NoConn ~ 13600 7600
+NoConn ~ 13600 7700
+NoConn ~ 13600 7900
+NoConn ~ 13600 8000
+NoConn ~ 13600 8200
+NoConn ~ 13600 8300
+NoConn ~ 13600 8500
+NoConn ~ 13600 8600
+NoConn ~ 13600 8800
+NoConn ~ 13600 8900
+NoConn ~ 13600 9100
+NoConn ~ 13600 9200
+NoConn ~ 8700 6450
+NoConn ~ 13600 5500
 $EndSCHEMATC

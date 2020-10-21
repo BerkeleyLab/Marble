@@ -14,7 +14,7 @@ Comment3 "Thermometer & Fans controller"
 Comment4 ""
 $EndDescr
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U28
+L marble_misc:LM75B-Sensor_Temperature U28
 U 1 1 5D05AA1A
 P 6900 1850
 F 0 "U28" H 6650 2300 50  0000 C CNN
@@ -26,7 +26,7 @@ F 4 "LM75AIMM/NOPB" H 6900 1850 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D05AEC2
 P 6900 1100
 AR Path="/5C16C03C/5D05AEC2" Ref="#PWR?"  Part="1" 
@@ -95,7 +95,7 @@ F 3 "" H 7500 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D05B18E
 P 7500 1750
 AR Path="/5C16C03C/5D05B18E" Ref="#PWR?"  Part="1" 
@@ -111,7 +111,7 @@ F 3 "" H 7500 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D05B203
 P 7500 1850
 AR Path="/5C16C03C/5D05B203" Ref="#PWR?"  Part="1" 
@@ -133,7 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 1950 7300 1950
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:LM75B-Sensor_Temperature-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue U29
+L marble_misc:LM75B-Sensor_Temperature U29
 U 1 1 5D05B2F7
 P 6900 3750
 F 0 "U29" H 6650 4200 50  0000 C CNN
@@ -145,7 +145,7 @@ F 4 "LM75AIMM/NOPB" H 6900 3750 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D05B306
 P 6900 3000
 AR Path="/5C16C03C/5D05B306" Ref="#PWR?"  Part="1" 
@@ -214,7 +214,7 @@ F 3 "" H 7500 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D05B324
 P 7500 3650
 AR Path="/5C16C03C/5D05B324" Ref="#PWR?"  Part="1" 
@@ -267,7 +267,7 @@ Wire Wire Line
 	6300 1500 6300 1600
 Connection ~ 6300 1950
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D05D39D
 P 6300 1100
 AR Path="/5C16C03C/5D05D39D" Ref="#PWR?"  Part="1" 
@@ -285,7 +285,7 @@ $EndComp
 Wire Wire Line
 	6300 1100 6300 1200
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D0665E3
 P 2300 6000
 AR Path="/5C16C03C/5D0665E3" Ref="#PWR?"  Part="1" 
@@ -367,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 5200 2850 5200
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q7
+L marble_misc:STS2DNE60-Transistor_FET Q7
 U 1 1 5D559F89
 P 6700 5750
 F 0 "Q7" H 6906 5796 50  0000 L CNN
@@ -379,7 +379,7 @@ F 4 "STS8DN6LF6AG" H 6700 5750 50  0001 C CNN "Manufacturer Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMC_FMC_Carrier-PcbDoc-rescue:STS2DNE60-Transistor_FET-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue-AMC_FMC_Carrier-PcbDoc-rescue Q7
+L marble_misc:STS2DNE60-Transistor_FET Q7
 U 2 1 5D559FE8
 P 8300 5750
 F 0 "Q7" H 8506 5796 50  0000 L CNN
@@ -454,7 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 5100 4800 5200
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D57B1C9
 P 4800 4750
 AR Path="/5C16C03C/5D57B1C9" Ref="#PWR?"  Part="1" 
@@ -470,7 +470,7 @@ F 3 "" H 4800 4750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D581F39
 P 5350 4750
 AR Path="/5C16C03C/5D581F39" Ref="#PWR?"  Part="1" 
@@ -539,7 +539,7 @@ Wire Wire Line
 	4600 6000 4050 6000
 Connection ~ 4600 6000
 $Comp
-L power2:+3.3P #PWR?
+L power:+3.3P #PWR?
 U 1 1 5D5D3DE2
 P 4200 4750
 AR Path="/5C16C03C/5D5D3DE2" Ref="#PWR?"  Part="1" 

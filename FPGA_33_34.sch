@@ -375,7 +375,7 @@ Wire Wire Line
 Connection ~ 6850 1750
 Connection ~ 6750 1750
 $Comp
-L FPGA_Xilinx_Kintex7:XC7K160T-FFG676 U?
+L marble_misc:XC7K160T-FFG676 U?
 U 4 1 5DBE3995
 P 8350 4650
 AR Path="/5DBE3995" Ref="U?"  Part="4" 
@@ -2194,6 +2194,8 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    4650 4850
 	-1   0    0    1   
 $EndComp
+NoConn ~ 6350 2550
+NoConn ~ 6350 4150
 Wire Bus Line
 	14350 850  14350 1150
 Wire Bus Line
