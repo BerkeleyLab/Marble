@@ -700,55 +700,6 @@ F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    7700 900 
 	1    0    0    -1  
 $EndComp
-$Comp
-L TYCO:TYCO_2-2013022-1 SK?
-U 2 1 5FAD9DAD
-P 2700 900
-AR Path="/5FAD9DAD" Ref="SK?"  Part="2" 
-AR Path="/5BD32060/5FAD9DAD" Ref="SK1"  Part="2" 
-F 0 "SK1" H 3200 973 50  0000 C CNN
-F 1 "TYCO_2-2013022-1" H 2700 -4475 50  0001 L CNN
-F 2 "Sockets:TYCO_2-2013022-1" H 2700 -4550 50  0001 L CNN
-F 3 " " H 2700 -4625 50  0001 L CNN
-F 4 "TYCO_2-2013022-1" H 2700 -4700 50  0001 L CNN "Part Number"
-F 5 "TYCO_2-2013022-1" H 2700 -4775 50  0001 L CNN "Library Ref"
-F 6 "SchLib\\Sockets.SchLib" H 2700 -4850 50  0001 L CNN "Library Path"
-F 7 " " H 2700 -4925 50  0001 L CNN "Comment"
-F 8 "Standard" H 2700 -5000 50  0001 L CNN "Component Kind"
-F 9 "Standard" H 2700 -5075 50  0001 L CNN "Component Type"
-F 10 "204" H 2700 -5150 50  0001 L CNN "Pin Count"
-F 11 "SODIMM" H 2700 -5225 50  0001 L CNN "Case"
-F 12 "PcbLib\\Sockets.PcbLib" H 2700 -5300 50  0001 L CNN "Footprint Path"
-F 13 "TYCO_2-2013022-1" H 2700 -5375 50  0001 L CNN "Footprint Ref"
-F 14 "Right Angle DDR3  SODIMM Socket 0.6mm Pitch 204 Positions" H 2700 -5450 50  0001 L CNN "PackageDescription"
-F 15 "Yes" H 2700 -5525 50  0001 L CNN "Mounted"
-F 16 "No" H 2700 -5600 50  0001 L CNN "Socket"
-F 17 "Yes" H 2700 -5675 50  0001 L CNN "SMD"
-F 18 "No" H 2700 -5750 50  0001 L CNN "PressFit"
-F 19 "No" H 2700 -5825 50  0001 L CNN "Sense"
-F 20 " " H 2700 -5900 50  0001 L CNN "Sense Comment"
-F 21 "None" H 2700 -5975 50  0001 L CNN "Status"
-F 22 " " H 2700 -6050 50  0001 L CNN "Status Comment"
-F 23 "DDR3 SODIMM" H 2700 -6125 50  0001 L CNN "Device"
-F 24 "Right Angle 204 Positions DDR3 SODIMM Socket" H 2700 -6200 50  0001 L CNN "Part Description"
-F 25 "TYCO ELECTRONICS" H 2700 -6275 50  0001 L CNN "Manufacturer"
-F 26 "2-2013022-1" H 2700 -6350 50  0001 L CNN "Manufacturer Part Number"
-F 27 "4.6mm" H 2700 -6425 50  0001 L CNN "ComponentHeight"
-F 28 " " H 2700 -6500 50  0001 L CNN "Manufacturer1 Example"
-F 29 " " H 2700 -6575 50  0001 L CNN "Manufacturer1 Part Number"
-F 30 " " H 2700 -6650 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 " " H 2700 -6725 50  0001 L CNN "ComponentLink1Description"
-F 32 " " H 2700 -6800 50  0001 L CNN "ComponentLink2Description"
-F 33 "CERN DEM JLC" H 2700 -6875 50  0001 L CNN "Author"
-F 34 "08/08/12 00:00:00" H 2700 -6950 50  0001 L CNN "CreateDate"
-F 35 "08/08/12 00:00:00" H 2700 -7025 50  0001 L CNN "LatestRevisionDate"
-F 36 "Sockets" H 2700 -7100 50  0001 L CNN "Database Table Name"
-F 37 "Eletro-mechanical.DbLib" H 2700 -7175 50  0001 L CNN "Library Name"
-F 38 "Sockets" H 2700 -7250 50  0001 L CNN "Footprint Library"
-F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2700 -7325 50  0001 L CNN "License"
-	2    2700 900 
-	1    0    0    -1  
-$EndComp
 Text Label 6900 1000 0    50   ~ 10
 VREF_DDR3
 Wire Wire Line
@@ -1667,17 +1618,6 @@ F 1 "GND" V 4805 5572 50  0000 R CNN
 F 2 "" H 4800 5700 50  0001 C CNN
 F 3 "" H 4800 5700 50  0001 C CNN
 	1    4800 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR0725
-U 1 1 626E272D
-P 1600 5900
-F 0 "#PWR0725" H 1600 5750 50  0001 C CNN
-F 1 "+3V3" V 1600 6150 50  0000 C CNN
-F 2 "" H 1600 5900 50  0001 C CNN
-F 3 "" H 1600 5900 50  0001 C CNN
-	1    1600 5900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -2998,8 +2938,84 @@ F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    1850 6350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3900 5900
-NoConn ~ 3900 6000
+$Comp
+L TYCO:TYCO_2-2013022-1 SK?
+U 2 1 5FAD9DAD
+P 2700 900
+AR Path="/5FAD9DAD" Ref="SK?"  Part="2" 
+AR Path="/5BD32060/5FAD9DAD" Ref="SK1"  Part="2" 
+F 0 "SK1" H 3200 973 50  0000 C CNN
+F 1 "TYCO_2-2013022-1" H 2700 -4475 50  0001 L CNN
+F 2 "Sockets:TYCO_2-2013022-1" H 2700 -4550 50  0001 L CNN
+F 3 " " H 2700 -4625 50  0001 L CNN
+F 4 "TYCO_2-2013022-1" H 2700 -4700 50  0001 L CNN "Part Number"
+F 5 "TYCO_2-2013022-1" H 2700 -4775 50  0001 L CNN "Library Ref"
+F 6 "SchLib\\Sockets.SchLib" H 2700 -4850 50  0001 L CNN "Library Path"
+F 7 " " H 2700 -4925 50  0001 L CNN "Comment"
+F 8 "Standard" H 2700 -5000 50  0001 L CNN "Component Kind"
+F 9 "Standard" H 2700 -5075 50  0001 L CNN "Component Type"
+F 10 "204" H 2700 -5150 50  0001 L CNN "Pin Count"
+F 11 "SODIMM" H 2700 -5225 50  0001 L CNN "Case"
+F 12 "PcbLib\\Sockets.PcbLib" H 2700 -5300 50  0001 L CNN "Footprint Path"
+F 13 "TYCO_2-2013022-1" H 2700 -5375 50  0001 L CNN "Footprint Ref"
+F 14 "Right Angle DDR3  SODIMM Socket 0.6mm Pitch 204 Positions" H 2700 -5450 50  0001 L CNN "PackageDescription"
+F 15 "Yes" H 2700 -5525 50  0001 L CNN "Mounted"
+F 16 "No" H 2700 -5600 50  0001 L CNN "Socket"
+F 17 "Yes" H 2700 -5675 50  0001 L CNN "SMD"
+F 18 "No" H 2700 -5750 50  0001 L CNN "PressFit"
+F 19 "No" H 2700 -5825 50  0001 L CNN "Sense"
+F 20 " " H 2700 -5900 50  0001 L CNN "Sense Comment"
+F 21 "None" H 2700 -5975 50  0001 L CNN "Status"
+F 22 " " H 2700 -6050 50  0001 L CNN "Status Comment"
+F 23 "DDR3 SODIMM" H 2700 -6125 50  0001 L CNN "Device"
+F 24 "Right Angle 204 Positions DDR3 SODIMM Socket" H 2700 -6200 50  0001 L CNN "Part Description"
+F 25 "TYCO ELECTRONICS" H 2700 -6275 50  0001 L CNN "Manufacturer"
+F 26 "2-2013022-1" H 2700 -6350 50  0001 L CNN "Manufacturer Part Number"
+F 27 "4.6mm" H 2700 -6425 50  0001 L CNN "ComponentHeight"
+F 28 " " H 2700 -6500 50  0001 L CNN "Manufacturer1 Example"
+F 29 " " H 2700 -6575 50  0001 L CNN "Manufacturer1 Part Number"
+F 30 " " H 2700 -6650 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 " " H 2700 -6725 50  0001 L CNN "ComponentLink1Description"
+F 32 " " H 2700 -6800 50  0001 L CNN "ComponentLink2Description"
+F 33 "CERN DEM JLC" H 2700 -6875 50  0001 L CNN "Author"
+F 34 "08/08/12 00:00:00" H 2700 -6950 50  0001 L CNN "CreateDate"
+F 35 "08/08/12 00:00:00" H 2700 -7025 50  0001 L CNN "LatestRevisionDate"
+F 36 "Sockets" H 2700 -7100 50  0001 L CNN "Database Table Name"
+F 37 "Eletro-mechanical.DbLib" H 2700 -7175 50  0001 L CNN "Library Name"
+F 38 "Sockets" H 2700 -7250 50  0001 L CNN "Footprint Library"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2700 -7325 50  0001 L CNN "License"
+	2    2700 900 
+	1    0    0    -1  
+$EndComp
+Text Label 4050 6000 0    50   ~ 0
+I2C_DDR3_SCL
+Text Label 4050 5900 0    50   ~ 0
+I2C_DDR3_SDA
+Text HLabel 5150 5900 2    50   BiDi ~ 0
+I2C_DDR3_SDA
+Text HLabel 5150 6000 2    50   Input ~ 0
+I2C_DDR3_SCL
+Wire Wire Line
+	5150 5900 3900 5900
+Wire Wire Line
+	3900 6000 5150 6000
+$Comp
+L power:+3.3P #PWR?
+U 1 1 6018E9C0
+P 1600 5900
+AR Path="/5C16C03C/6018E9C0" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/6018E9C0" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/6018E9C0" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/6018E9C0" Ref="#PWR?"  Part="1" 
+AR Path="/6018E9C0" Ref="#PWR?"  Part="1" 
+AR Path="/5BD32060/6018E9C0" Ref="#PWR0725"  Part="1" 
+F 0 "#PWR0725" H 1600 5750 50  0001 C CNN
+F 1 "+3.3P" V 1600 6100 50  0000 C CNN
+F 2 "" H 1600 5900 50  0001 C CNN
+F 3 "" H 1600 5900 50  0001 C CNN
+	1    1600 5900
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	15000 950  15000 1250
 Wire Bus Line

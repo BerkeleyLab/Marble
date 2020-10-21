@@ -3928,25 +3928,6 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    7650 5200
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5EA72B2F
-P 7650 5200
-AR Path="/5BD32060/5EA72B2F" Ref="#PWR?"  Part="1" 
-AR Path="/5BABAC65/5EA72B2F" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24E97/5EA72B2F" Ref="#PWR?"  Part="1" 
-AR Path="/5CC393D3/5EA72B2F" Ref="#PWR?"  Part="1" 
-AR Path="/5CC6DBF7/5EA72B2F" Ref="#PWR?"  Part="1" 
-AR Path="/5CC8AFE1/5EA72B2F" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5EA72B2F" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF13/5EA72B2F" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 7650 5050 50  0001 C CNN
-F 1 "+3V3" H 7665 5373 50  0000 C CNN
-F 2 "" H 7650 5200 50  0001 C CNN
-F 3 "" H 7650 5200 50  0001 C CNN
-	1    7650 5200
-	1    0    0    -1  
-$EndComp
 Connection ~ 7650 5500
 Text Label 7200 5500 0    50   ~ 0
 SI570_OE
@@ -3974,25 +3955,6 @@ Wire Wire Line
 	8850 5500 9650 5500
 Wire Wire Line
 	8850 5600 9650 5600
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5FEDB9B9
-P 6000 5750
-AR Path="/5BD32060/5FEDB9B9" Ref="#PWR?"  Part="1" 
-AR Path="/5BABAC65/5FEDB9B9" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24E97/5FEDB9B9" Ref="#PWR?"  Part="1" 
-AR Path="/5CC393D3/5FEDB9B9" Ref="#PWR?"  Part="1" 
-AR Path="/5CC6DBF7/5FEDB9B9" Ref="#PWR?"  Part="1" 
-AR Path="/5CC8AFE1/5FEDB9B9" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA59/5FEDB9B9" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF13/5FEDB9B9" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 6000 5600 50  0001 C CNN
-F 1 "+3V3" H 6015 5923 50  0000 C CNN
-F 2 "" H 6000 5750 50  0001 C CNN
-F 3 "" H 6000 5750 50  0001 C CNN
-	1    6000 5750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Inductors_SMD:IND0603_MURATA_BLM18SG121TN1D L?
 U 1 1 5FEDB9E0
@@ -4070,4 +4032,38 @@ $EndComp
 Connection ~ 6850 5800
 Wire Wire Line
 	6850 5800 7350 5800
+$Comp
+L power:+3.3P #PWR?
+U 1 1 602CC128
+P 6000 5750
+AR Path="/5C16C03C/602CC128" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/602CC128" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/602CC128" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/602CC128" Ref="#PWR?"  Part="1" 
+AR Path="/602CC128" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF13/602CC128" Ref="#PWR0841"  Part="1" 
+F 0 "#PWR0841" H 6000 5600 50  0001 C CNN
+F 1 "+3.3P" H 6015 5923 50  0000 C CNN
+F 2 "" H 6000 5750 50  0001 C CNN
+F 3 "" H 6000 5750 50  0001 C CNN
+	1    6000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3P #PWR?
+U 1 1 602FC8CD
+P 7650 5200
+AR Path="/5C16C03C/602FC8CD" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/602FC8CD" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/602FC8CD" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/602FC8CD" Ref="#PWR?"  Part="1" 
+AR Path="/602FC8CD" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF13/602FC8CD" Ref="#PWR0842"  Part="1" 
+F 0 "#PWR0842" H 7650 5050 50  0001 C CNN
+F 1 "+3.3P" H 7665 5373 50  0000 C CNN
+F 2 "" H 7650 5200 50  0001 C CNN
+F 3 "" H 7650 5200 50  0001 C CNN
+	1    7650 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

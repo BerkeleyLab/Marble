@@ -21,13 +21,13 @@ Entry Wire Line
 	2100 9250 2200 9350
 Entry Wire Line
 	2100 9850 2200 9950
-Text Label 2250 8950 0    50   ~ 10
-POE_VC1
-Text Label 2250 9950 0    50   ~ 10
-POE_VC2
 Text Label 2250 8350 0    50   ~ 10
-POE_VC3
+POE_VC1
 Text Label 2250 9350 0    50   ~ 10
+POE_VC2
+Text Label 2250 8950 0    50   ~ 10
+POE_VC3
+Text Label 2250 9950 0    50   ~ 10
 POE_VC4
 Wire Bus Line
 	2100 8250 2000 8250
