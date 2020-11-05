@@ -1653,7 +1653,7 @@ AR Path="/5CA40231/5D50F1E9" Ref="Q17"  Part="1"
 F 0 "Q17" H 2319 5746 50  0000 L CNN
 F 1 "BSS138LT1G" H 2319 5655 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOT95P240X110-3N" H 2000 4440 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 2000 5160 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2000 5160 60  0001 L CNN
 F 4 "BSS138LT1G" H 2000 5070 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 2000 4980 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 2000 4890 60  0001 L CNN "Library Path"
@@ -1679,7 +1679,7 @@ F 25 " " H 2000 3090 60  0001 L CNN "Status Comment"
 F 26 "1.11mm" H 2000 3000 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2000 2910 60  0001 L CNN "Footprint Path"
 F 28 "SOT95P240X110-3N" H 2000 2820 60  0001 L CNN "Footprint Ref"
-F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 2000 2730 60  0001 L CNN "HelpURL"
+F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2000 2730 60  0001 L CNN "HelpURL"
 F 30 "~~" H 2000 2640 60  0001 L CNN "ComponentLink1URL"
 F 31 " " H 2000 2550 60  0001 L CNN "ComponentLink1Description"
 F 32 "~~" H 2000 2460 60  0001 L CNN "ComponentLink2URL"
@@ -1687,7 +1687,7 @@ F 33 " " H 2000 2370 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JLC" H 2000 2280 60  0001 L CNN "Author"
 F 35 "03/23/09 00:00:00" H 2000 2190 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 2000 2100 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors.DbLib" H 2000 2010 60  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors SMD" H 2000 2010 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2000 1920 60  0001 L CNN "License"
 F 39 "Transistors" H 2000 5650 50  0001 C CNN "Database Table Name"
 F 40 "ICs And Semiconductors SMD" H 2000 5650 50  0001 C CNN "Footprint Library"
@@ -1892,7 +1892,7 @@ AR Path="/5CA40231/5D1CAAEE" Ref="Q5"  Part="1"
 F 0 "Q5" H 2769 6546 50  0000 L CNN
 F 1 "BSS138LT1G" H 2769 6455 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOT95P240X110-3N" H 2450 5240 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 2450 5960 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2450 5960 60  0001 L CNN
 F 4 "BSS138LT1G" H 2450 5870 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 2450 5780 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 2450 5690 60  0001 L CNN "Library Path"
@@ -1918,7 +1918,7 @@ F 25 " " H 2450 3890 60  0001 L CNN "Status Comment"
 F 26 "1.11mm" H 2450 3800 60  0001 L CNN "ComponentHeight"
 F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2450 3710 60  0001 L CNN "Footprint Path"
 F 28 "SOT95P240X110-3N" H 2450 3620 60  0001 L CNN "Footprint Ref"
-F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS139.pdf" H 2450 3530 60  0001 L CNN "HelpURL"
+F 29 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2450 3530 60  0001 L CNN "HelpURL"
 F 30 "~~" H 2450 3440 60  0001 L CNN "ComponentLink1URL"
 F 31 " " H 2450 3350 60  0001 L CNN "ComponentLink1Description"
 F 32 "~~" H 2450 3260 60  0001 L CNN "ComponentLink2URL"
@@ -1926,7 +1926,7 @@ F 33 " " H 2450 3170 60  0001 L CNN "ComponentLink2Description"
 F 34 "CERN DEM JLC" H 2450 3080 60  0001 L CNN "Author"
 F 35 "03/23/09 00:00:00" H 2450 2990 60  0001 L CNN "CreateDate"
 F 36 "03/23/09 00:00:00" H 2450 2900 60  0001 L CNN "LatestRevisionDate"
-F 37 "ICs And Semiconductors.DbLib" H 2450 2810 60  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors SMD" H 2450 2810 60  0001 L CNN "Library Name"
 F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2450 2720 60  0001 L CNN "License"
 F 39 "Transistors" H 2450 6450 50  0001 C CNN "Database Table Name"
 F 40 "ICs And Semiconductors SMD" H 2450 6450 50  0001 C CNN "Footprint Library"
