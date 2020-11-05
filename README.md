@@ -6,13 +6,10 @@ A general purpose carrier board, sized to satisfy needs of some BPM and LLRF app
 
 Status: under development
 
-## [Specifications](specs.md)
-
-
 ## Tools
 
 The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
-version 5.1.5.  Other versions will very likely either not read the files
+version 5.1.6.  Other versions will very likely either not read the files
 in this repo, or will save files that are not compatible with
 collaborators' reference installations.
 We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
@@ -41,7 +38,7 @@ In the KiCad (version 5.1.x) schematic GUI (eeschema):
 
 ## (Almost) Reality:
 
-![layout](marble_top.png)
+![layout](docs/marble_top.png)
 
 ## Special note about the prototype Marble-Mini
 
