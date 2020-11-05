@@ -29,6 +29,6 @@ In the KiCad (version 5.1.x) schematic GUI (eeschema):
 
 * use menu picks Tools / Generate Netlist File
 * OrcadPCB2 tab / Generate Netlist / Save
-* result shows up as AMC_FMC_Carrier-PcbDoc.net
-* Finally from the command line run "python3 netlist_to_xdc.py AMC_FMC_Carrier-PcbDoc.net"
+* result shows up as Marble.net
+* Finally from the command line run "python3 netlist_to_xdc.py Marble.net"
 * result shows up as Marble.xdc

@@ -117,3 +117,5 @@ if true; then  # clean-up step, disable when debugging
   rm -rf PCB_layers fab
 fi
 # marble-fab.zip is the only generated file that should remain
+ls -l marble-fab.zip
+echo DONE
