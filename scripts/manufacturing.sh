@@ -65,7 +65,7 @@ echo OK
 # Run KiBoM from the command line
 echo running KiBoM
 # for KiBom 38525f3 (untested)
-python $KB --cfg scripts/bom.ini $A.xml $A
+python2 $KB --cfg scripts/bom.ini $A.xml $A
 # for KiBom dae2583
 # python3 -m kibom --cfg scripts/bom.ini $A.xml .csv
 echo KiBoM complete
