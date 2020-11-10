@@ -1182,197 +1182,197 @@ Connection ~ 3100 14800
 $Comp
 L Pads:FIDUCIAL_TARGET_C100-200 FTG1
 U 1 1 5CE2E544
-P 2650 14450
-F 0 "FTG1" H 2738 14450 50  0000 L CNN
-F 1 "FIDUCIAL_TARGET_C100-200" H 2650 14300 60  0001 L CNN
-F 2 "Pads:FIDUCIAL_TOP_S200-400" H 2650 13490 60  0001 L CNN
-F 3 "" H 2650 14120 60  0001 L CNN
-F 4 "~~" H 2650 14030 60  0001 L CNN "Pole4"
-F 5 "FIDUCIAL_TARGET_C100-200" H 2650 14030 60  0001 L CNN "Part Number"
-F 6 "Fiducial Target" H 2650 13940 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Pads.SchLib" H 2650 13850 60  0001 L CNN "Library Path"
-F 8 "~~" H 2650 13760 60  0001 L CNN "Comment"
-F 9 "Standard (No BOM)" H 2650 13670 60  0001 L CNN "Component Kind"
-F 10 "Standard (No BOM)" H 2650 13580 60  0001 L CNN "Component Type"
-F 11 "1" H 2650 13400 60  0001 L CNN "Pin Count"
-F 12 "~~" H 2650 13310 60  0001 L CNN "Case"
-F 13 "PcbLib\\Pads.PcbLib" H 2650 13220 60  0001 L CNN "Footprint Path"
-F 14 "FIDUCIAL_TOP_C100-200" H 2650 13130 60  0001 L CNN "Footprint Ref"
-F 15 "Fiducial" H 2650 13040 60  0001 L CNN "Family"
-F 16 "No" H 2650 12950 60  0001 L CNN "Mounted"
-F 17 "No" H 2650 12860 60  0001 L CNN "Socket"
-F 18 "Yes" H 2650 12770 60  0001 L CNN "SMD"
-F 19 "No" H 2650 12680 60  0001 L CNN "Sense"
-F 20 "~~" H 2650 12590 60  0001 L CNN "Sense Comment"
-F 21 "None" H 2650 12500 60  0001 L CNN "Status"
-F 22 "~~" H 2650 12410 60  0001 L CNN "Status Comment"
-F 23 "~~" H 2650 12320 60  0001 L CNN "SCEM"
-F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2650 12230 60  0001 L CNN "Part Description"
-F 25 "~~" H 2650 12140 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 2650 12050 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 2650 11960 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 2650 11870 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 2650 11780 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 2650 11690 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 2650 11600 60  0001 L CNN "HelpURL"
-F 32 "~~" H 2650 11510 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 2650 11420 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 2650 11330 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 2650 11240 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 2650 11150 60  0001 L CNN "Author"
-F 37 "02/09/10 00:00:00" H 2650 11060 60  0001 L CNN "CreateDate"
-F 38 "04/04/12 00:00:00" H 2650 10970 60  0001 L CNN "LatestRevisionDate"
-F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2650 10880 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 2650 10790 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2650 10700 60  0001 L CNN "License"
-	1    2650 14450
+P 2650 14250
+F 0 "FTG1" H 2738 14250 50  0000 L CNN
+F 1 "FIDUCIAL_TARGET_C100-200" H 2650 14100 60  0001 L CNN
+F 2 "Pads:FIDUCIAL_TOP_S200-400" H 2650 13290 60  0001 L CNN
+F 3 "" H 2650 13920 60  0001 L CNN
+F 4 "~~" H 2650 13830 60  0001 L CNN "Pole4"
+F 5 "FIDUCIAL_TARGET_C100-200" H 2650 13830 60  0001 L CNN "Part Number"
+F 6 "Fiducial Target" H 2650 13740 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 2650 13650 60  0001 L CNN "Library Path"
+F 8 "~~" H 2650 13560 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 2650 13470 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 2650 13380 60  0001 L CNN "Component Type"
+F 11 "1" H 2650 13200 60  0001 L CNN "Pin Count"
+F 12 "~~" H 2650 13110 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 2650 13020 60  0001 L CNN "Footprint Path"
+F 14 "FIDUCIAL_TOP_C100-200" H 2650 12930 60  0001 L CNN "Footprint Ref"
+F 15 "Fiducial" H 2650 12840 60  0001 L CNN "Family"
+F 16 "No" H 2650 12750 60  0001 L CNN "Mounted"
+F 17 "No" H 2650 12660 60  0001 L CNN "Socket"
+F 18 "Yes" H 2650 12570 60  0001 L CNN "SMD"
+F 19 "No" H 2650 12480 60  0001 L CNN "Sense"
+F 20 "~~" H 2650 12390 60  0001 L CNN "Sense Comment"
+F 21 "None" H 2650 12300 60  0001 L CNN "Status"
+F 22 "~~" H 2650 12210 60  0001 L CNN "Status Comment"
+F 23 "~~" H 2650 12120 60  0001 L CNN "SCEM"
+F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2650 12030 60  0001 L CNN "Part Description"
+F 25 "~~" H 2650 11940 60  0001 L CNN "Manufacturer"
+F 26 "~~" H 2650 11850 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0mm" H 2650 11760 60  0001 L CNN "ComponentHeight"
+F 28 "~~" H 2650 11670 60  0001 L CNN "Manufacturer1 Example"
+F 29 "~~" H 2650 11580 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 "~~" H 2650 11490 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 "Undefined" H 2650 11400 60  0001 L CNN "HelpURL"
+F 32 "~~" H 2650 11310 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 2650 11220 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 2650 11130 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 2650 11040 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 2650 10950 60  0001 L CNN "Author"
+F 37 "02/09/10 00:00:00" H 2650 10860 60  0001 L CNN "CreateDate"
+F 38 "04/04/12 00:00:00" H 2650 10770 60  0001 L CNN "LatestRevisionDate"
+F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2650 10680 60  0001 L CNN "PackageDescription"
+F 40 "Pads" H 2650 10590 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2650 10500 60  0001 L CNN "License"
+	1    2650 14250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Pads:FIDUCIAL_TARGET_C100-200 FTG2
 U 1 1 5CE31A16
-P 3000 14450
-F 0 "FTG2" H 3088 14450 50  0000 L CNN
-F 1 "FIDUCIAL_TARGET_C100-200" H 3000 14300 60  0001 L CNN
-F 2 "Pads:FIDUCIAL_TOP_S200-400" H 3000 13490 60  0001 L CNN
-F 3 "" H 3000 14120 60  0001 L CNN
-F 4 "~~" H 3000 14030 60  0001 L CNN "Pole4"
-F 5 "FIDUCIAL_TARGET_C100-200" H 3000 14030 60  0001 L CNN "Part Number"
-F 6 "Fiducial Target" H 3000 13940 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Pads.SchLib" H 3000 13850 60  0001 L CNN "Library Path"
-F 8 "~~" H 3000 13760 60  0001 L CNN "Comment"
-F 9 "Standard (No BOM)" H 3000 13670 60  0001 L CNN "Component Kind"
-F 10 "Standard (No BOM)" H 3000 13580 60  0001 L CNN "Component Type"
-F 11 "1" H 3000 13400 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3000 13310 60  0001 L CNN "Case"
-F 13 "PcbLib\\Pads.PcbLib" H 3000 13220 60  0001 L CNN "Footprint Path"
-F 14 "FIDUCIAL_TOP_C100-200" H 3000 13130 60  0001 L CNN "Footprint Ref"
-F 15 "Fiducial" H 3000 13040 60  0001 L CNN "Family"
-F 16 "No" H 3000 12950 60  0001 L CNN "Mounted"
-F 17 "No" H 3000 12860 60  0001 L CNN "Socket"
-F 18 "Yes" H 3000 12770 60  0001 L CNN "SMD"
-F 19 "No" H 3000 12680 60  0001 L CNN "Sense"
-F 20 "~~" H 3000 12590 60  0001 L CNN "Sense Comment"
-F 21 "None" H 3000 12500 60  0001 L CNN "Status"
-F 22 "~~" H 3000 12410 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3000 12320 60  0001 L CNN "SCEM"
-F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3000 12230 60  0001 L CNN "Part Description"
-F 25 "~~" H 3000 12140 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3000 12050 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3000 11960 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3000 11870 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3000 11780 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3000 11690 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3000 11600 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3000 11510 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3000 11420 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3000 11330 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3000 11240 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 3000 11150 60  0001 L CNN "Author"
-F 37 "02/09/10 00:00:00" H 3000 11060 60  0001 L CNN "CreateDate"
-F 38 "04/04/12 00:00:00" H 3000 10970 60  0001 L CNN "LatestRevisionDate"
-F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3000 10880 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3000 10790 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3000 10700 60  0001 L CNN "License"
-	1    3000 14450
+P 3000 14250
+F 0 "FTG2" H 3088 14250 50  0000 L CNN
+F 1 "FIDUCIAL_TARGET_C100-200" H 3000 14100 60  0001 L CNN
+F 2 "Pads:FIDUCIAL_TOP_S200-400" H 3000 13290 60  0001 L CNN
+F 3 "" H 3000 13920 60  0001 L CNN
+F 4 "~~" H 3000 13830 60  0001 L CNN "Pole4"
+F 5 "FIDUCIAL_TARGET_C100-200" H 3000 13830 60  0001 L CNN "Part Number"
+F 6 "Fiducial Target" H 3000 13740 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 3000 13650 60  0001 L CNN "Library Path"
+F 8 "~~" H 3000 13560 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 3000 13470 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 3000 13380 60  0001 L CNN "Component Type"
+F 11 "1" H 3000 13200 60  0001 L CNN "Pin Count"
+F 12 "~~" H 3000 13110 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 3000 13020 60  0001 L CNN "Footprint Path"
+F 14 "FIDUCIAL_TOP_C100-200" H 3000 12930 60  0001 L CNN "Footprint Ref"
+F 15 "Fiducial" H 3000 12840 60  0001 L CNN "Family"
+F 16 "No" H 3000 12750 60  0001 L CNN "Mounted"
+F 17 "No" H 3000 12660 60  0001 L CNN "Socket"
+F 18 "Yes" H 3000 12570 60  0001 L CNN "SMD"
+F 19 "No" H 3000 12480 60  0001 L CNN "Sense"
+F 20 "~~" H 3000 12390 60  0001 L CNN "Sense Comment"
+F 21 "None" H 3000 12300 60  0001 L CNN "Status"
+F 22 "~~" H 3000 12210 60  0001 L CNN "Status Comment"
+F 23 "~~" H 3000 12120 60  0001 L CNN "SCEM"
+F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3000 12030 60  0001 L CNN "Part Description"
+F 25 "~~" H 3000 11940 60  0001 L CNN "Manufacturer"
+F 26 "~~" H 3000 11850 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0mm" H 3000 11760 60  0001 L CNN "ComponentHeight"
+F 28 "~~" H 3000 11670 60  0001 L CNN "Manufacturer1 Example"
+F 29 "~~" H 3000 11580 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 "~~" H 3000 11490 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 "Undefined" H 3000 11400 60  0001 L CNN "HelpURL"
+F 32 "~~" H 3000 11310 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 3000 11220 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 3000 11130 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 3000 11040 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 3000 10950 60  0001 L CNN "Author"
+F 37 "02/09/10 00:00:00" H 3000 10860 60  0001 L CNN "CreateDate"
+F 38 "04/04/12 00:00:00" H 3000 10770 60  0001 L CNN "LatestRevisionDate"
+F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3000 10680 60  0001 L CNN "PackageDescription"
+F 40 "Pads" H 3000 10590 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3000 10500 60  0001 L CNN "License"
+	1    3000 14250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Pads:FIDUCIAL_TARGET_C100-200 FTG3
 U 1 1 5CE32256
-P 3350 14450
-F 0 "FTG3" H 3438 14450 50  0000 L CNN
-F 1 "FIDUCIAL_TARGET_C100-200" H 3350 14300 60  0001 L CNN
-F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3350 13490 60  0001 L CNN
-F 3 "" H 3350 14120 60  0001 L CNN
-F 4 "~~" H 3350 14030 60  0001 L CNN "Pole4"
-F 5 "FIDUCIAL_TARGET_C100-200" H 3350 14030 60  0001 L CNN "Part Number"
-F 6 "Fiducial Target" H 3350 13940 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Pads.SchLib" H 3350 13850 60  0001 L CNN "Library Path"
-F 8 "~~" H 3350 13760 60  0001 L CNN "Comment"
-F 9 "Standard (No BOM)" H 3350 13670 60  0001 L CNN "Component Kind"
-F 10 "Standard (No BOM)" H 3350 13580 60  0001 L CNN "Component Type"
-F 11 "1" H 3350 13400 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3350 13310 60  0001 L CNN "Case"
-F 13 "PcbLib\\Pads.PcbLib" H 3350 13220 60  0001 L CNN "Footprint Path"
-F 14 "FIDUCIAL_TOP_C100-200" H 3350 13130 60  0001 L CNN "Footprint Ref"
-F 15 "Fiducial" H 3350 13040 60  0001 L CNN "Family"
-F 16 "No" H 3350 12950 60  0001 L CNN "Mounted"
-F 17 "No" H 3350 12860 60  0001 L CNN "Socket"
-F 18 "Yes" H 3350 12770 60  0001 L CNN "SMD"
-F 19 "No" H 3350 12680 60  0001 L CNN "Sense"
-F 20 "~~" H 3350 12590 60  0001 L CNN "Sense Comment"
-F 21 "None" H 3350 12500 60  0001 L CNN "Status"
-F 22 "~~" H 3350 12410 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3350 12320 60  0001 L CNN "SCEM"
-F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3350 12230 60  0001 L CNN "Part Description"
-F 25 "~~" H 3350 12140 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3350 12050 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3350 11960 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3350 11870 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3350 11780 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3350 11690 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3350 11600 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3350 11510 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3350 11420 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3350 11330 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3350 11240 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 3350 11150 60  0001 L CNN "Author"
-F 37 "02/09/10 00:00:00" H 3350 11060 60  0001 L CNN "CreateDate"
-F 38 "04/04/12 00:00:00" H 3350 10970 60  0001 L CNN "LatestRevisionDate"
-F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3350 10880 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3350 10790 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3350 10700 60  0001 L CNN "License"
-	1    3350 14450
+P 3350 14250
+F 0 "FTG3" H 3438 14250 50  0000 L CNN
+F 1 "FIDUCIAL_TARGET_C100-200" H 3350 14100 60  0001 L CNN
+F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3350 13290 60  0001 L CNN
+F 3 "" H 3350 13920 60  0001 L CNN
+F 4 "~~" H 3350 13830 60  0001 L CNN "Pole4"
+F 5 "FIDUCIAL_TARGET_C100-200" H 3350 13830 60  0001 L CNN "Part Number"
+F 6 "Fiducial Target" H 3350 13740 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 3350 13650 60  0001 L CNN "Library Path"
+F 8 "~~" H 3350 13560 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 3350 13470 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 3350 13380 60  0001 L CNN "Component Type"
+F 11 "1" H 3350 13200 60  0001 L CNN "Pin Count"
+F 12 "~~" H 3350 13110 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 3350 13020 60  0001 L CNN "Footprint Path"
+F 14 "FIDUCIAL_TOP_C100-200" H 3350 12930 60  0001 L CNN "Footprint Ref"
+F 15 "Fiducial" H 3350 12840 60  0001 L CNN "Family"
+F 16 "No" H 3350 12750 60  0001 L CNN "Mounted"
+F 17 "No" H 3350 12660 60  0001 L CNN "Socket"
+F 18 "Yes" H 3350 12570 60  0001 L CNN "SMD"
+F 19 "No" H 3350 12480 60  0001 L CNN "Sense"
+F 20 "~~" H 3350 12390 60  0001 L CNN "Sense Comment"
+F 21 "None" H 3350 12300 60  0001 L CNN "Status"
+F 22 "~~" H 3350 12210 60  0001 L CNN "Status Comment"
+F 23 "~~" H 3350 12120 60  0001 L CNN "SCEM"
+F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3350 12030 60  0001 L CNN "Part Description"
+F 25 "~~" H 3350 11940 60  0001 L CNN "Manufacturer"
+F 26 "~~" H 3350 11850 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0mm" H 3350 11760 60  0001 L CNN "ComponentHeight"
+F 28 "~~" H 3350 11670 60  0001 L CNN "Manufacturer1 Example"
+F 29 "~~" H 3350 11580 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 "~~" H 3350 11490 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 "Undefined" H 3350 11400 60  0001 L CNN "HelpURL"
+F 32 "~~" H 3350 11310 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 3350 11220 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 3350 11130 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 3350 11040 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 3350 10950 60  0001 L CNN "Author"
+F 37 "02/09/10 00:00:00" H 3350 10860 60  0001 L CNN "CreateDate"
+F 38 "04/04/12 00:00:00" H 3350 10770 60  0001 L CNN "LatestRevisionDate"
+F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3350 10680 60  0001 L CNN "PackageDescription"
+F 40 "Pads" H 3350 10590 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3350 10500 60  0001 L CNN "License"
+	1    3350 14250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Pads:FIDUCIAL_TARGET_C100-200 FTG4
 U 1 1 5CE3274F
-P 3700 14450
-F 0 "FTG4" H 3788 14450 50  0000 L CNN
-F 1 "Pads:FIDUCIAL_BOT_S200-400" H 3700 14300 60  0001 L CNN
-F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3700 13490 60  0001 L CNN
-F 3 "" H 3700 14120 60  0001 L CNN
-F 4 "~~" H 3700 14030 60  0001 L CNN "Pole4"
-F 5 "FIDUCIAL_TARGET_C100-200" H 3700 14030 60  0001 L CNN "Part Number"
-F 6 "Fiducial Target" H 3700 13940 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Pads.SchLib" H 3700 13850 60  0001 L CNN "Library Path"
-F 8 "~~" H 3700 13760 60  0001 L CNN "Comment"
-F 9 "Standard (No BOM)" H 3700 13670 60  0001 L CNN "Component Kind"
-F 10 "Standard (No BOM)" H 3700 13580 60  0001 L CNN "Component Type"
-F 11 "1" H 3700 13400 60  0001 L CNN "Pin Count"
-F 12 "~~" H 3700 13310 60  0001 L CNN "Case"
-F 13 "PcbLib\\Pads.PcbLib" H 3700 13220 60  0001 L CNN "Footprint Path"
-F 14 "FIDUCIAL_TOP_C100-200" H 3700 13130 60  0001 L CNN "Footprint Ref"
-F 15 "Fiducial" H 3700 13040 60  0001 L CNN "Family"
-F 16 "No" H 3700 12950 60  0001 L CNN "Mounted"
-F 17 "No" H 3700 12860 60  0001 L CNN "Socket"
-F 18 "Yes" H 3700 12770 60  0001 L CNN "SMD"
-F 19 "No" H 3700 12680 60  0001 L CNN "Sense"
-F 20 "~~" H 3700 12590 60  0001 L CNN "Sense Comment"
-F 21 "None" H 3700 12500 60  0001 L CNN "Status"
-F 22 "~~" H 3700 12410 60  0001 L CNN "Status Comment"
-F 23 "~~" H 3700 12320 60  0001 L CNN "SCEM"
-F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3700 12230 60  0001 L CNN "Part Description"
-F 25 "~~" H 3700 12140 60  0001 L CNN "Manufacturer"
-F 26 "~~" H 3700 12050 60  0001 L CNN "Manufacturer Part Number"
-F 27 "0mm" H 3700 11960 60  0001 L CNN "ComponentHeight"
-F 28 "~~" H 3700 11870 60  0001 L CNN "Manufacturer1 Example"
-F 29 "~~" H 3700 11780 60  0001 L CNN "Manufacturer1 Part Number"
-F 30 "~~" H 3700 11690 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 31 "Undefined" H 3700 11600 60  0001 L CNN "HelpURL"
-F 32 "~~" H 3700 11510 60  0001 L CNN "ComponentLink1URL"
-F 33 "~~" H 3700 11420 60  0001 L CNN "ComponentLink1Description"
-F 34 "~~" H 3700 11330 60  0001 L CNN "ComponentLink2URL"
-F 35 "~~" H 3700 11240 60  0001 L CNN "ComponentLink2Description"
-F 36 "CERN DEM JLC" H 3700 11150 60  0001 L CNN "Author"
-F 37 "02/09/10 00:00:00" H 3700 11060 60  0001 L CNN "CreateDate"
-F 38 "04/04/12 00:00:00" H 3700 10970 60  0001 L CNN "LatestRevisionDate"
-F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3700 10880 60  0001 L CNN "PackageDescription"
-F 40 "Pads" H 3700 10790 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3700 10700 60  0001 L CNN "License"
-	1    3700 14450
+P 3700 14250
+F 0 "FTG4" H 3788 14250 50  0000 L CNN
+F 1 "Pads:FIDUCIAL_BOT_S200-400" H 3700 14100 60  0001 L CNN
+F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3700 13290 60  0001 L CNN
+F 3 "" H 3700 13920 60  0001 L CNN
+F 4 "~~" H 3700 13830 60  0001 L CNN "Pole4"
+F 5 "FIDUCIAL_TARGET_C100-200" H 3700 13830 60  0001 L CNN "Part Number"
+F 6 "Fiducial Target" H 3700 13740 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 3700 13650 60  0001 L CNN "Library Path"
+F 8 "~~" H 3700 13560 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 3700 13470 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 3700 13380 60  0001 L CNN "Component Type"
+F 11 "1" H 3700 13200 60  0001 L CNN "Pin Count"
+F 12 "~~" H 3700 13110 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 3700 13020 60  0001 L CNN "Footprint Path"
+F 14 "FIDUCIAL_TOP_C100-200" H 3700 12930 60  0001 L CNN "Footprint Ref"
+F 15 "Fiducial" H 3700 12840 60  0001 L CNN "Family"
+F 16 "No" H 3700 12750 60  0001 L CNN "Mounted"
+F 17 "No" H 3700 12660 60  0001 L CNN "Socket"
+F 18 "Yes" H 3700 12570 60  0001 L CNN "SMD"
+F 19 "No" H 3700 12480 60  0001 L CNN "Sense"
+F 20 "~~" H 3700 12390 60  0001 L CNN "Sense Comment"
+F 21 "None" H 3700 12300 60  0001 L CNN "Status"
+F 22 "~~" H 3700 12210 60  0001 L CNN "Status Comment"
+F 23 "~~" H 3700 12120 60  0001 L CNN "SCEM"
+F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3700 12030 60  0001 L CNN "Part Description"
+F 25 "~~" H 3700 11940 60  0001 L CNN "Manufacturer"
+F 26 "~~" H 3700 11850 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0mm" H 3700 11760 60  0001 L CNN "ComponentHeight"
+F 28 "~~" H 3700 11670 60  0001 L CNN "Manufacturer1 Example"
+F 29 "~~" H 3700 11580 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 "~~" H 3700 11490 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 "Undefined" H 3700 11400 60  0001 L CNN "HelpURL"
+F 32 "~~" H 3700 11310 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 3700 11220 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 3700 11130 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 3700 11040 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 3700 10950 60  0001 L CNN "Author"
+F 37 "02/09/10 00:00:00" H 3700 10860 60  0001 L CNN "CreateDate"
+F 38 "04/04/12 00:00:00" H 3700 10770 60  0001 L CNN "LatestRevisionDate"
+F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3700 10680 60  0001 L CNN "PackageDescription"
+F 40 "Pads" H 3700 10590 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3700 10500 60  0001 L CNN "License"
+	1    3700 14250
 	1    0    0    -1  
 $EndComp
 Text Notes 11600 9650 0    50   ~ 10
@@ -2367,4 +2367,200 @@ Wire Wire Line
 	16250 2750 15650 2750
 Wire Wire Line
 	16250 2850 15650 2850
+$Comp
+L Pads:FIDUCIAL_TARGET_C100-200 FTG5
+U 1 1 5FB31EF1
+P 2650 14450
+F 0 "FTG5" H 2738 14450 50  0000 L CNN
+F 1 "FIDUCIAL_TARGET_C100-200" H 2650 14300 60  0001 L CNN
+F 2 "Pads:FIDUCIAL_BOT_S200-400" H 2650 13490 60  0001 L CNN
+F 3 "" H 2650 14120 60  0001 L CNN
+F 4 "~~" H 2650 14030 60  0001 L CNN "Pole4"
+F 5 "FIDUCIAL_TARGET_C100-200" H 2650 14030 60  0001 L CNN "Part Number"
+F 6 "Fiducial Target" H 2650 13940 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 2650 13850 60  0001 L CNN "Library Path"
+F 8 "~~" H 2650 13760 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 2650 13670 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 2650 13580 60  0001 L CNN "Component Type"
+F 11 "1" H 2650 13400 60  0001 L CNN "Pin Count"
+F 12 "~~" H 2650 13310 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 2650 13220 60  0001 L CNN "Footprint Path"
+F 14 "FIDUCIAL_TOP_C100-200" H 2650 13130 60  0001 L CNN "Footprint Ref"
+F 15 "Fiducial" H 2650 13040 60  0001 L CNN "Family"
+F 16 "No" H 2650 12950 60  0001 L CNN "Mounted"
+F 17 "No" H 2650 12860 60  0001 L CNN "Socket"
+F 18 "Yes" H 2650 12770 60  0001 L CNN "SMD"
+F 19 "No" H 2650 12680 60  0001 L CNN "Sense"
+F 20 "~~" H 2650 12590 60  0001 L CNN "Sense Comment"
+F 21 "None" H 2650 12500 60  0001 L CNN "Status"
+F 22 "~~" H 2650 12410 60  0001 L CNN "Status Comment"
+F 23 "~~" H 2650 12320 60  0001 L CNN "SCEM"
+F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2650 12230 60  0001 L CNN "Part Description"
+F 25 "~~" H 2650 12140 60  0001 L CNN "Manufacturer"
+F 26 "~~" H 2650 12050 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0mm" H 2650 11960 60  0001 L CNN "ComponentHeight"
+F 28 "~~" H 2650 11870 60  0001 L CNN "Manufacturer1 Example"
+F 29 "~~" H 2650 11780 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 "~~" H 2650 11690 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 "Undefined" H 2650 11600 60  0001 L CNN "HelpURL"
+F 32 "~~" H 2650 11510 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 2650 11420 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 2650 11330 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 2650 11240 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 2650 11150 60  0001 L CNN "Author"
+F 37 "02/09/10 00:00:00" H 2650 11060 60  0001 L CNN "CreateDate"
+F 38 "04/04/12 00:00:00" H 2650 10970 60  0001 L CNN "LatestRevisionDate"
+F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 2650 10880 60  0001 L CNN "PackageDescription"
+F 40 "Pads" H 2650 10790 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2650 10700 60  0001 L CNN "License"
+	1    2650 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pads:FIDUCIAL_TARGET_C100-200 FTG6
+U 1 1 5FB31F1D
+P 3000 14450
+F 0 "FTG6" H 3088 14450 50  0000 L CNN
+F 1 "Pads:FIDUCIAL_BOT_S200-400" H 3000 14300 60  0001 L CNN
+F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3000 13490 60  0001 L CNN
+F 3 "" H 3000 14120 60  0001 L CNN
+F 4 "~~" H 3000 14030 60  0001 L CNN "Pole4"
+F 5 "FIDUCIAL_TARGET_C100-200" H 3000 14030 60  0001 L CNN "Part Number"
+F 6 "Fiducial Target" H 3000 13940 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 3000 13850 60  0001 L CNN "Library Path"
+F 8 "~~" H 3000 13760 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 3000 13670 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 3000 13580 60  0001 L CNN "Component Type"
+F 11 "1" H 3000 13400 60  0001 L CNN "Pin Count"
+F 12 "~~" H 3000 13310 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 3000 13220 60  0001 L CNN "Footprint Path"
+F 14 "FIDUCIAL_TOP_C100-200" H 3000 13130 60  0001 L CNN "Footprint Ref"
+F 15 "Fiducial" H 3000 13040 60  0001 L CNN "Family"
+F 16 "No" H 3000 12950 60  0001 L CNN "Mounted"
+F 17 "No" H 3000 12860 60  0001 L CNN "Socket"
+F 18 "Yes" H 3000 12770 60  0001 L CNN "SMD"
+F 19 "No" H 3000 12680 60  0001 L CNN "Sense"
+F 20 "~~" H 3000 12590 60  0001 L CNN "Sense Comment"
+F 21 "None" H 3000 12500 60  0001 L CNN "Status"
+F 22 "~~" H 3000 12410 60  0001 L CNN "Status Comment"
+F 23 "~~" H 3000 12320 60  0001 L CNN "SCEM"
+F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3000 12230 60  0001 L CNN "Part Description"
+F 25 "~~" H 3000 12140 60  0001 L CNN "Manufacturer"
+F 26 "~~" H 3000 12050 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0mm" H 3000 11960 60  0001 L CNN "ComponentHeight"
+F 28 "~~" H 3000 11870 60  0001 L CNN "Manufacturer1 Example"
+F 29 "~~" H 3000 11780 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 "~~" H 3000 11690 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 "Undefined" H 3000 11600 60  0001 L CNN "HelpURL"
+F 32 "~~" H 3000 11510 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 3000 11420 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 3000 11330 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 3000 11240 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 3000 11150 60  0001 L CNN "Author"
+F 37 "02/09/10 00:00:00" H 3000 11060 60  0001 L CNN "CreateDate"
+F 38 "04/04/12 00:00:00" H 3000 10970 60  0001 L CNN "LatestRevisionDate"
+F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3000 10880 60  0001 L CNN "PackageDescription"
+F 40 "Pads" H 3000 10790 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3000 10700 60  0001 L CNN "License"
+	1    3000 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pads:FIDUCIAL_TARGET_C100-200 FTG7
+U 1 1 5FB69962
+P 3350 14450
+F 0 "FTG7" H 3438 14450 50  0000 L CNN
+F 1 "FIDUCIAL_TARGET_C100-200" H 3350 14300 60  0001 L CNN
+F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3350 13490 60  0001 L CNN
+F 3 "" H 3350 14120 60  0001 L CNN
+F 4 "~~" H 3350 14030 60  0001 L CNN "Pole4"
+F 5 "FIDUCIAL_TARGET_C100-200" H 3350 14030 60  0001 L CNN "Part Number"
+F 6 "Fiducial Target" H 3350 13940 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 3350 13850 60  0001 L CNN "Library Path"
+F 8 "~~" H 3350 13760 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 3350 13670 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 3350 13580 60  0001 L CNN "Component Type"
+F 11 "1" H 3350 13400 60  0001 L CNN "Pin Count"
+F 12 "~~" H 3350 13310 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 3350 13220 60  0001 L CNN "Footprint Path"
+F 14 "FIDUCIAL_TOP_C100-200" H 3350 13130 60  0001 L CNN "Footprint Ref"
+F 15 "Fiducial" H 3350 13040 60  0001 L CNN "Family"
+F 16 "No" H 3350 12950 60  0001 L CNN "Mounted"
+F 17 "No" H 3350 12860 60  0001 L CNN "Socket"
+F 18 "Yes" H 3350 12770 60  0001 L CNN "SMD"
+F 19 "No" H 3350 12680 60  0001 L CNN "Sense"
+F 20 "~~" H 3350 12590 60  0001 L CNN "Sense Comment"
+F 21 "None" H 3350 12500 60  0001 L CNN "Status"
+F 22 "~~" H 3350 12410 60  0001 L CNN "Status Comment"
+F 23 "~~" H 3350 12320 60  0001 L CNN "SCEM"
+F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3350 12230 60  0001 L CNN "Part Description"
+F 25 "~~" H 3350 12140 60  0001 L CNN "Manufacturer"
+F 26 "~~" H 3350 12050 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0mm" H 3350 11960 60  0001 L CNN "ComponentHeight"
+F 28 "~~" H 3350 11870 60  0001 L CNN "Manufacturer1 Example"
+F 29 "~~" H 3350 11780 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 "~~" H 3350 11690 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 "Undefined" H 3350 11600 60  0001 L CNN "HelpURL"
+F 32 "~~" H 3350 11510 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 3350 11420 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 3350 11330 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 3350 11240 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 3350 11150 60  0001 L CNN "Author"
+F 37 "02/09/10 00:00:00" H 3350 11060 60  0001 L CNN "CreateDate"
+F 38 "04/04/12 00:00:00" H 3350 10970 60  0001 L CNN "LatestRevisionDate"
+F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3350 10880 60  0001 L CNN "PackageDescription"
+F 40 "Pads" H 3350 10790 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3350 10700 60  0001 L CNN "License"
+	1    3350 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pads:FIDUCIAL_TARGET_C100-200 FTG8
+U 1 1 5FB6998E
+P 3700 14450
+F 0 "FTG8" H 3788 14450 50  0000 L CNN
+F 1 "Pads:FIDUCIAL_BOT_S200-400" H 3700 14300 60  0001 L CNN
+F 2 "Pads:FIDUCIAL_BOT_S200-400" H 3700 13490 60  0001 L CNN
+F 3 "" H 3700 14120 60  0001 L CNN
+F 4 "~~" H 3700 14030 60  0001 L CNN "Pole4"
+F 5 "FIDUCIAL_TARGET_C100-200" H 3700 14030 60  0001 L CNN "Part Number"
+F 6 "Fiducial Target" H 3700 13940 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Pads.SchLib" H 3700 13850 60  0001 L CNN "Library Path"
+F 8 "~~" H 3700 13760 60  0001 L CNN "Comment"
+F 9 "Standard (No BOM)" H 3700 13670 60  0001 L CNN "Component Kind"
+F 10 "Standard (No BOM)" H 3700 13580 60  0001 L CNN "Component Type"
+F 11 "1" H 3700 13400 60  0001 L CNN "Pin Count"
+F 12 "~~" H 3700 13310 60  0001 L CNN "Case"
+F 13 "PcbLib\\Pads.PcbLib" H 3700 13220 60  0001 L CNN "Footprint Path"
+F 14 "FIDUCIAL_TOP_C100-200" H 3700 13130 60  0001 L CNN "Footprint Ref"
+F 15 "Fiducial" H 3700 13040 60  0001 L CNN "Family"
+F 16 "No" H 3700 12950 60  0001 L CNN "Mounted"
+F 17 "No" H 3700 12860 60  0001 L CNN "Socket"
+F 18 "Yes" H 3700 12770 60  0001 L CNN "SMD"
+F 19 "No" H 3700 12680 60  0001 L CNN "Sense"
+F 20 "~~" H 3700 12590 60  0001 L CNN "Sense Comment"
+F 21 "None" H 3700 12500 60  0001 L CNN "Status"
+F 22 "~~" H 3700 12410 60  0001 L CNN "Status Comment"
+F 23 "~~" H 3700 12320 60  0001 L CNN "SCEM"
+F 24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3700 12230 60  0001 L CNN "Part Description"
+F 25 "~~" H 3700 12140 60  0001 L CNN "Manufacturer"
+F 26 "~~" H 3700 12050 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0mm" H 3700 11960 60  0001 L CNN "ComponentHeight"
+F 28 "~~" H 3700 11870 60  0001 L CNN "Manufacturer1 Example"
+F 29 "~~" H 3700 11780 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 "~~" H 3700 11690 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 31 "Undefined" H 3700 11600 60  0001 L CNN "HelpURL"
+F 32 "~~" H 3700 11510 60  0001 L CNN "ComponentLink1URL"
+F 33 "~~" H 3700 11420 60  0001 L CNN "ComponentLink1Description"
+F 34 "~~" H 3700 11330 60  0001 L CNN "ComponentLink2URL"
+F 35 "~~" H 3700 11240 60  0001 L CNN "ComponentLink2Description"
+F 36 "CERN DEM JLC" H 3700 11150 60  0001 L CNN "Author"
+F 37 "02/09/10 00:00:00" H 3700 11060 60  0001 L CNN "CreateDate"
+F 38 "04/04/12 00:00:00" H 3700 10970 60  0001 L CNN "LatestRevisionDate"
+F 39 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" H 3700 10880 60  0001 L CNN "PackageDescription"
+F 40 "Pads" H 3700 10790 60  0001 L CNN "Library Name"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3700 10700 60  0001 L CNN "License"
+	1    3700 14450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
