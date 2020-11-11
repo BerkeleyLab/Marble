@@ -1170,35 +1170,35 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitors_SMD:CC1206_10UF_25V_10%_X7R C?
+L Capacitors_SMD:CC1206_22UF_25V_20%_X5R C?
 U 1 1 5C9B3966
 P 2350 4400
 AR Path="/5BD31F9F/5C9B3966" Ref="C?"  Part="1" 
 AR Path="/5BD31F9A/5C9B3966" Ref="C62"  Part="1" 
 F 0 "C62" V 2454 4510 50  0000 L CNN
-F 1 "CC1206_10UF_25V_10%_X7R" H 2350 4140 60  0001 L CNN
+F 1 "CC1206_22UF_25V_20%_X5R" H 2350 4140 60  0001 L CNN
 F 2 "Capacitors SMD:CAPC3216X180N" H 2350 3330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC1206_X7R_KEMET.pdf" H 2350 3960 60  0001 L CNN
-F 4 "10uF" V 2545 4510 50  0000 L CNN "~"
-F 5 "CC1206_10UF_25V_10%_X7R" H 2350 3870 60  0001 L CNN "Part Number"
+F 4 "22uF" V 2545 4510 50  0000 L CNN "~"
+F 5 "CC1206_22UF_25V_20%_X5R" H 2350 3870 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2350 3780 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2350 3690 60  0001 L CNN "Library Path"
-F 8 "10uF" H 2350 3600 60  0001 L CNN "Comment"
+F 8 "22uF" H 2350 3600 60  0001 L CNN "Comment"
 F 9 "Standard" H 2350 3510 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 2350 3420 60  0001 L CNN "Component Type"
 F 11 "2" H 2350 3240 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 2350 3150 60  0001 L CNN "Footprint Path"
 F 13 "CAPC3216X180N" H 2350 3060 60  0001 L CNN "Footprint Ref"
 F 14 " " H 2350 2970 60  0001 L CNN "PackageDescription"
-F 15 "10uF" H 2350 2880 60  0001 L CNN "Val"
-F 16 "Preferred" H 2350 2790 60  0001 L CNN "Status"
+F 15 "22uF" H 2350 2880 60  0001 L CNN "Val"
+F 16 "None" H 2350 2790 60  0001 L CNN "Status"
 F 17 " " H 2350 2700 60  0001 L CNN "Status Comment"
 F 18 "25V" H 2350 2610 60  0001 L CNN "Voltage"
-F 19 "X7R" H 2350 2520 60  0001 L CNN "TC"
-F 20 "±10%" H 2350 2430 60  0001 L CNN "Tolerance"
+F 19 "X5R" H 2350 2520 60  0001 L CNN "TC"
+F 20 "±20%" H 2350 2430 60  0001 L CNN "Tolerance"
 F 21 "SMD Multilayer Chip Ceramic Capacitor" H 2350 2340 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 2350 2250 60  0001 L CNN "Manufacturer"
-F 23 "CC1206_10uF_25V_10%_X7R" H 2350 2160 60  0001 L CNN "Manufacturer Part Number"
+F 23 "CC1206_22UF_25V_20%_X5R" H 2350 2160 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 2350 2070 60  0001 L CNN "Case"
 F 25 "Yes" H 2350 1980 60  0001 L CNN "Mounted"
 F 26 "No" H 2350 1890 60  0001 L CNN "Socket"
@@ -1207,13 +1207,13 @@ F 28 " " H 2350 1710 60  0001 L CNN "PressFit"
 F 29 "No" H 2350 1620 60  0001 L CNN "Sense"
 F 30 " " H 2350 1530 60  0001 L CNN "Sense Comment"
 F 31 " " H 2350 1440 60  0001 L CNN "ComponentHeight"
-F 32 "KEMET" H 2350 1350 60  0001 L CNN "Manufacturer1 Example"
-F 33 "C1206C106K4RACTU" H 2350 1260 60  0001 L CNN "Manufacturer1 Part Number"
+F 32 "TDK" H 2350 1350 60  0001 L CNN "Manufacturer1 Example"
+F 33 "C3216X5R1E226M160AB" H 2350 1260 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "1.8mm" H 2350 1170 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC1206_X7R_KEMET.pdf" H 2350 1080 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 2350 990 60  0001 L CNN "Author"
-F 37 "09/12/12 00:00:00" H 2350 900 60  0001 L CNN "CreateDate"
-F 38 "09/12/12 00:00:00" H 2350 810 60  0001 L CNN "LatestRevisionDate"
+F 36 "CERN DEM WB" H 2350 990 60  0001 L CNN "Author"
+F 37 "07/25/18 00:00:00" H 2350 900 60  0001 L CNN "CreateDate"
+F 38 "07/25/18 00:00:00" H 2350 810 60  0001 L CNN "LatestRevisionDate"
 F 39 "Capacitors.DbLib" H 2350 720 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2350 630 60  0001 L CNN "License"
 F 41 "Capacitors SMD" H 2350 4400 50  0001 C CNN "Database Table Name"

@@ -59,6 +59,7 @@ F3 "I2C_PM_SDA" I L 12400 7900 50
 F4 "I2C_PM_SCL" B L 12400 8000 50 
 F5 "FPGA_XR_GPIO_0" I L 12400 8200 50 
 F6 "OVER_TEMP" I L 12400 8350 50 
+F7 "DDR_1V5_EN" I L 12400 8550 50 
 $EndSheet
 $Comp
 L power:+12V #PWR0227
@@ -2374,52 +2375,54 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors_SMD:CC0603_4.7UF_16V_10%_X5R C?
+L Capacitors_SMD:CC0603_4.7UF_25V_10%_X5R C?
 U 1 1 5C7A3EEE
 P 2250 4050
 AR Path="/5C16BF8E/5DB9B7E6/5C7A3EEE" Ref="C?"  Part="1" 
 AR Path="/5C16BF8E/5C7A3EEE" Ref="C129"  Part="1" 
 F 0 "C129" V 2300 4050 50  0000 L CNN
-F 1 "CC0603_4.7UF_16V_10%_X5R" H 2250 3790 60  0001 L CNN
-F 2 "CAPC1709X95N" H 2250 2980 60  0001 L CNN
+F 1 "CC0603_4.7UF_25V_10%_X5R" H 2250 3790 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1608X90N" H 2250 2980 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 2250 3610 60  0001 L CNN
 F 4 "4.7uF" V 2500 4050 50  0000 L CNN "~"
-F 5 "CC0603_4.7UF_16V_10%_X5R" H 2250 3520 60  0001 L CNN "Part Number"
+F 5 "CC0603_4.7UF_25V_10%_X5R" H 2250 3520 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2250 3430 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2250 3340 60  0001 L CNN "Library Path"
-F 8 "=Value" H 2250 3250 60  0001 L CNN "Comment"
+F 8 "4.7uF" H 2250 3250 60  0001 L CNN "Comment"
 F 9 "Standard" H 2250 3160 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 2250 3070 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 2250 2890 60  0001 L CNN "Pin Count"
+F 11 "2" H 2250 2890 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 2250 2800 60  0001 L CNN "Footprint Path"
-F 13 "CAPC1709X95N" H 2250 2710 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 2250 2620 60  0001 L CNN "PackageDescription"
+F 13 "CAPC1608X90N" H 2250 2710 60  0001 L CNN "Footprint Ref"
+F 14 " " H 2250 2620 60  0001 L CNN "PackageDescription"
 F 15 "4.7uF" H 2250 2530 60  0001 L CNN "Val"
 F 16 "None" H 2250 2440 60  0001 L CNN "Status"
-F 17 "~~" H 2250 2350 60  0001 L CNN "Status Comment"
-F 18 "16V" H 2250 2260 60  0001 L CNN "Voltage"
+F 17 " " H 2250 2350 60  0001 L CNN "Status Comment"
+F 18 "25V" H 2250 2260 60  0001 L CNN "Voltage"
 F 19 "X5R" H 2250 2170 60  0001 L CNN "TC"
 F 20 "±10%" H 2250 2080 60  0001 L CNN "Tolerance"
 F 21 "SMD Multilayer Chip Ceramic Capacitor" H 2250 1990 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 2250 1900 60  0001 L CNN "Manufacturer"
-F 23 "CC0603_4.7UF_16V_10%_X5R" H 2250 1810 60  0001 L CNN "Manufacturer Part Number"
+F 23 "CC0603_4.7UF_25V_10%_X5R" H 2250 1810 60  0001 L CNN "Manufacturer Part Number"
 F 24 "0603" H 2250 1720 60  0001 L CNN "Case"
 F 25 "Yes" H 2250 1630 60  0001 L CNN "Mounted"
 F 26 "No" H 2250 1540 60  0001 L CNN "Socket"
 F 27 "Yes" H 2250 1450 60  0001 L CNN "SMD"
-F 28 "~~" H 2250 1360 60  0001 L CNN "PressFit"
+F 28 " " H 2250 1360 60  0001 L CNN "PressFit"
 F 29 "No" H 2250 1270 60  0001 L CNN "Sense"
-F 30 "~~" H 2250 1180 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 2250 1090 60  0001 L CNN "ComponentHeight"
-F 32 "TAIYO YUDEN" H 2250 1000 60  0001 L CNN "Manufacturer1 Example"
-F 33 "EMK107ABJ475KA-T" H 2250 910 60  0001 L CNN "Manufacturer1 Part Number"
+F 30 " " H 2250 1180 60  0001 L CNN "Sense Comment"
+F 31 " " H 2250 1090 60  0001 L CNN "ComponentHeight"
+F 32 "MURATA" H 2250 1000 60  0001 L CNN "Manufacturer1 Example"
+F 33 "GRM188R61E475KE11D" H 2250 910 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.95mm" H 2250 820 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_TAIYO-YUDEN_HIGH-VALUE.pdf" H 2250 730 60  0001 L CNN "HelpURL"
 F 36 "CERN DEM JLC" H 2250 640 60  0001 L CNN "Author"
-F 37 "12/16/13 00:00:00" H 2250 550 60  0001 L CNN "CreateDate"
-F 38 "09/16/14 00:00:00" H 2250 460 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 2250 370 60  0001 L CNN "Library Name"
+F 37 "11/10/14 00:00:00" H 2250 550 60  0001 L CNN "CreateDate"
+F 38 "11/10/14 00:00:00" H 2250 460 60  0001 L CNN "LatestRevisionDate"
+F 39 "Capacitors.DbLib" H 2250 370 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2250 280 60  0001 L CNN "License"
+F 41 "Capacitors SMD" H 2250 4050 50  0001 C CNN "Database Table Name"
+F 42 "Capacitors SMD" H 2250 4050 50  0001 C CNN "Footprint Library"
 	1    2250 4050
 	0    1    1    0   
 $EndComp
@@ -4770,6 +4773,10 @@ F 3 "~" H 5050 1750 50  0001 C CNN
 	1    5050 1750
 	0    1    1    0   
 $EndComp
+Text HLabel 11500 8550 0    50   Input ~ 0
+DDR_1V5_EN
+Wire Wire Line
+	11500 8550 12400 8550
 Wire Bus Line
 	2100 8250 2100 9850
 $EndSCHEMATC

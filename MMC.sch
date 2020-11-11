@@ -3647,7 +3647,6 @@ NoConn ~ 8650 6800
 NoConn ~ 8650 6700
 NoConn ~ 8650 6600
 NoConn ~ 8650 5900
-NoConn ~ 8650 5800
 NoConn ~ 8650 5700
 NoConn ~ 8650 4900
 NoConn ~ 8650 4800
@@ -3686,6 +3685,10 @@ F 3 "" H 6700 2600 50  0001 C CNN
 	1    6700 2600
 	1    0    0    -1  
 $EndComp
+Text HLabel 10500 5800 2    50   Output ~ 0
+DDR_1V5_EN
+Wire Wire Line
+	10500 5800 8650 5800
 Wire Bus Line
 	9350 3500 9350 3700
 Wire Bus Line
