@@ -2,7 +2,7 @@
 
 ## Update I2C subsystem diagram in schematics
 
-`convert docs/marble_i2c.eps -scale 1330 marble_i2c.png`
+`convert docs/marble2_i2c.eps -scale 1330 marble2_i2c.png`
 before pasting into I2C_MUX.sch
 
 ## QR code on silkcsreen

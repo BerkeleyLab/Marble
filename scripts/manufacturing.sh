@@ -52,7 +52,6 @@ echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
 python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers
 
 # Check that all the right files are made
-# XXX add In{7,8,9,10}
 die=0
 for f in $A.{d356,xml} PCB_layers/$A-all.pos PCB_layers/$A-{B_Cu,B_Mask,B_Paste,B_SilkS,Edge_Cuts,F_Cu,F_Mask,F_Paste,F_SilkS,In{1,2,3,4,5,6,7,8,9,10}_Cu}.gbr PCB_layers/$A-{,N}PTH.drl; do
   if ! test -r "$f"; then echo "missing: $f"; die=1;

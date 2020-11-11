@@ -1,5 +1,5 @@
 Marble board
-LBNL-Creotech collaboration: Dual FMC (LPC) NAD/AMC Carrier
+LBNL-Creotech collaboration: Dual FMC (HPC & LPC) NAD Carrier
 
 https://github.com/BerkeleyLab/Marble
 
@@ -16,8 +16,8 @@ according to the board stackup description:
   marble-stack.csv
 
 Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
-(0.35mm pad).  The overall board size follows the AMC double-width
-standard, approximately 150 mm x 180 mm.
+(0.35mm pad).  The overall board size approximately follows the
+AMC double-width standard, specifically 150 mm x 180 mm.
 
 Copper Gerber files, in order:
   marble-F_Cu.gbr
