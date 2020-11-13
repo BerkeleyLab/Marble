@@ -1,15 +1,15 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# FIDUCIAL_TARGET_C100-200
+# FIDUCIAL_TARGET_R200-400
 #
-DEF FIDUCIAL_TARGET_C100-200 FTG 0 50 Y Y 1 L N
+DEF FIDUCIAL_TARGET_R200-400 FTG 0 50 Y Y 1 L N
 F0 "FTG" 10 80 50 H V C CNN
-F1 "FIDUCIAL_TARGET_C100-200" 0 -135 50 H I L CNN
-F2 "Pads:FIDUCIAL_TOP_C100-200" 0 -210 50 H I L CNN
+F1 "FIDUCIAL_TARGET_R200-400" 0 -135 50 H I L CNN
+F2 "Pads:FIDUCIAL_TARGET_R200-400" 0 -210 50 H I L CNN
 F3 " " 0 -285 50 H I L CNN
 F4 " " 10 -70 40 H I C CNN "Comment"
-F5 "FIDUCIAL_TARGET_C100-200" 0 -360 50 H I L CNN "Part Number"
+F5 "FIDUCIAL_TARGET_R200-400" 0 -360 50 H I L CNN "Part Number"
 F6 "Fiducial Target" 0 -435 50 H I L CNN "Library Ref"
 F7 "SchLib\\Pads.SchLib" 0 -510 50 H I L CNN "Library Path"
 F8 " " 0 -585 50 H I L CNN "Comment"
@@ -18,7 +18,7 @@ F10 "Standard (No BOM)" 0 -735 50 H I L CNN "Component Type"
 F11 "1" 0 -810 50 H I L CNN "Pin Count"
 F12 " " 0 -885 50 H I L CNN "Case"
 F13 "PcbLib\\Pads.PcbLib" 0 -960 50 H I L CNN "Footprint Path"
-F14 "FIDUCIAL_TOP_C100-200" 0 -1035 50 H I L CNN "Footprint Ref"
+F14 "FIDUCIAL_TARGET_R200-400" 0 -1035 50 H I L CNN "Footprint Ref"
 F15 "Fiducial" 0 -1110 50 H I L CNN "Family"
 F16 "No" 0 -1185 50 H I L CNN "Mounted"
 F17 "No" 0 -1260 50 H I L CNN "Socket"
@@ -28,7 +28,7 @@ F20 " " 0 -1485 50 H I L CNN "Sense Comment"
 F21 "None" 0 -1560 50 H I L CNN "Status"
 F22 " " 0 -1635 50 H I L CNN "Status Comment"
 F23 " " 0 -1710 50 H I L CNN "SCEM"
-F24 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" 0 -1785 50 H I L CNN "Part Description"
+F24 "Round Fiducial Target, Top Layer, 2.0mm, Solder 4.0mm, Keepout 4.0mm" 0 -1785 50 H I L CNN "Part Description"
 F25 " " 0 -1860 50 H I L CNN "Manufacturer"
 F26 " " 0 -1935 50 H I L CNN "Manufacturer Part Number"
 F27 "0mm" 0 -2010 50 H I L CNN "ComponentHeight"
@@ -40,7 +40,7 @@ F32 " " 0 -2385 50 H I L CNN "ComponentLink2Description"
 F33 "CERN DEM JLC" 0 -2460 50 H I L CNN "Author"
 F34 "02/09/10 00:00:00" 0 -2535 50 H I L CNN "CreateDate"
 F35 "04/04/12 00:00:00" 0 -2610 50 H I L CNN "LatestRevisionDate"
-F36 "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm" 0 -2685 50 H I L CNN "PackageDescription"
+F36 "Round Fiducial Target, Top Layer, 2.0mm, Top Solder 4.0mm, Keepout 4.0mm" 0 -2685 50 H I L CNN "PackageDescription"
 F37 "Pads" 0 -2760 50 H I L CNN "Database Table Name"
 F38 "Eletro-mechanical.DbLib" 0 -2835 50 H I L CNN "Library Name"
 F39 "Pads" 0 -2910 50 H I L CNN "Footprint Library"
