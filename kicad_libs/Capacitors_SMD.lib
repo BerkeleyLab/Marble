@@ -165,15 +165,15 @@ X 2 2 300 0 100 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
-# CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF
+# CC0402_100NF_25V_10%_X5R
 #
-DEF CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF C 0 50 Y Y 1 L N
+DEF CC0402_100NF_25V_10%_X5R C 0 50 Y Y 1 L N
 F0 "C" 150 120 50 H V C CNN
-F1 "Capacitors_SMD_CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF" 0 -245 50 H I L CNN
-F2 "Capacitors SMD:CAPC1005X55N" 0 -320 50 H I L CNN
+F1 "Capacitors_SMD_CC0402_100NF_25V_10%_X5R" 0 -245 50 H I L CNN
+F2 "Marble:CAPC1005X55N" 0 -320 50 H I L CNN
 F3 " " 0 -395 50 H I L CNN
 F4 "100nF" 150 -120 50 H V C CNN "Val"
-F5 "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF" 0 -470 50 H I L CNN "Part Number"
+F5 "CC0402_100NF_25V_10%_X5R" 0 -470 50 H I L CNN "Part Number"
 F6 "Capacitor - non polarized" 0 -545 50 H I L CNN "Library Ref"
 F7 "SchLib\\Capacitors.SchLib" 0 -620 50 H I L CNN "Library Path"
 F8 "100nF" 0 -695 50 H I L CNN "Comment"
@@ -183,14 +183,14 @@ F11 "2" 0 -920 50 H I L CNN "Pin Count"
 F12 "PcbLib\\Capacitors SMD.PcbLib" 0 -995 50 H I L CNN "Footprint Path"
 F13 "CAPC1005X55N" 0 -1070 50 H I L CNN "Footprint Ref"
 F14 " " 0 -1145 50 H I L CNN "PackageDescription"
-F15 "Not Recommended" 0 -1220 50 H I L CNN "Status"
+F15 "None" 0 -1220 50 H I L CNN "Status"
 F16 " " 0 -1295 50 H I L CNN "Status Comment"
 F17 "25V" 0 -1370 50 H I L CNN "Voltage"
-F18 "X7R" 0 -1445 50 H I L CNN "TC"
+F18 "X5R" 0 -1445 50 H I L CNN "TC"
 F19 "±10%" 0 -1520 50 H I L CNN "Tolerance"
-F20 "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications" 0 -1595 50 H I L CNN "Part Description"
-F21 "TAIYO YUDEN" 0 -1670 50 H I L CNN "Manufacturer"
-F22 "TMK105B7104KVHF" 0 -1745 50 H I L CNN "Manufacturer Part Number"
+F20 "SMD Multilayer Chip Ceramic Capacitor" 0 -1595 50 H I L CNN "Part Description"
+F21 "GENERIC" 0 -1670 50 H I L CNN "Manufacturer"
+F22 "CC0402_100NF_25V_10%_X5R" 0 -1745 50 H I L CNN "Manufacturer Part Number"
 F23 "0402" 0 -1820 50 H I L CNN "Case"
 F24 "Yes" 0 -1895 50 H I L CNN "Mounted"
 F25 "No" 0 -1970 50 H I L CNN "Socket"
@@ -198,16 +198,14 @@ F26 "Yes" 0 -2045 50 H I L CNN "SMD"
 F27 " " 0 -2120 50 H I L CNN "PressFit"
 F28 "No" 0 -2195 50 H I L CNN "Sense"
 F29 " " 0 -2270 50 H I L CNN "Sense Comment"
-F30 "0.55mm" 0 -2345 50 H I L CNN "ComponentHeight"
-F31 " " 0 -2420 50 H I L CNN "Manufacturer1 Example"
-F32 " " 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
-F33 " " 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
+F30 " " 0 -2345 50 H I L CNN "ComponentHeight"
+F31 "Samsung" 0 -2420 50 H I L CNN "Manufacturer1 Example"
+F32 "CL05A104KA5NNNC" 0 -2495 50 H I L CNN "Manufacturer1 Part Number"
+F33 "0.55mm" 0 -2570 50 H I L CNN "Manufacturer1 ComponentHeight"
 F34 "CERN DEM JLC" 0 -2645 50 H I L CNN "Author"
-F35 "05/10/17 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
-F36 "05/10/17 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
-F37 "Capacitors SMD" 0 -2870 50 H I L CNN "Database Table Name"
-F38 "Capacitors.DbLib" 0 -2945 50 H I L CNN "Library Name"
-F39 "Capacitors SMD" 0 -3020 50 H I L CNN "Footprint Library"
+F35 "12/10/13 00:00:00" 0 -2720 50 H I L CNN "CreateDate"
+F36 "05/25/20 00:00:00" 0 -2795 50 H I L CNN "LatestRevisionDate"
+F38 "Capacitors SMD" 0 -2945 50 H I L CNN "Library Name"
 F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3095 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 130 0 N
