@@ -5647,55 +5647,6 @@ NoConn ~ 5100 10250
 NoConn ~ 5100 10350
 NoConn ~ 5100 10450
 NoConn ~ 5100 10550
-$Comp
-L Resistors_SMD:R0603_1K37_0.1%_0.063W_10PPM R195
-U 1 1 5E59EC50
-P 6650 9950
-F 0 "R195" V 6754 10010 50  0000 L CNN
-F 1 "R0603_1K37_0.1%_0.063W_10PPM" H 6650 9755 50  0001 L CNN
-F 2 "Resistors SMD:RESC1608X55N" H 6650 9680 50  0001 L CNN
-F 3 " " H 6650 9605 50  0001 L CNN
-F 4 "1k37" V 6845 10010 50  0000 L CNN "Val"
-F 5 "R0603_1K37_0.1%_0.063W_10PPM" H 6650 9530 50  0001 L CNN "Part Number"
-F 6 "Resistor - 0.1%" H 6650 9455 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6650 9380 50  0001 L CNN "Library Path"
-F 8 "1k37" H 6650 9305 50  0001 L CNN "Comment"
-F 9 "Standard" H 6650 9230 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6650 9155 50  0001 L CNN "Component Type"
-F 11 " " H 6650 9080 50  0001 L CNN "PackageDescription"
-F 12 "2" H 6650 9005 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 6650 8930 50  0001 L CNN "Footprint Path"
-F 14 "RESC1608X55N" H 6650 8855 50  0001 L CNN "Footprint Ref"
-F 15 "Not Recommended" H 6650 8780 50  0001 L CNN "Status"
-F 16 "0.063W" H 6650 8705 50  0001 L CNN "Power"
-F 17 "±10ppm" H 6650 8630 50  0001 L CNN "TC"
-F 18 " " H 6650 8555 50  0001 L CNN "Voltage"
-F 19 "±0.1%" H 6650 8480 50  0001 L CNN "Tolerance"
-F 20 "Thin Film Chip Resistor" H 6650 8405 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 6650 8330 50  0001 L CNN "Manufacturer"
-F 22 "R0603_1K37_0.1%_0.063W_10PPM" H 6650 8255 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 6650 8180 50  0001 L CNN "Case"
-F 24 "No" H 6650 8105 50  0001 L CNN "PressFit"
-F 25 "Yes" H 6650 8030 50  0001 L CNN "Mounted"
-F 26 " " H 6650 7955 50  0001 L CNN "Sense Comment"
-F 27 "No" H 6650 7880 50  0001 L CNN "Sense"
-F 28 " " H 6650 7805 50  0001 L CNN "Status Comment"
-F 29 "No" H 6650 7730 50  0001 L CNN "Socket"
-F 30 "Yes" H 6650 7655 50  0001 L CNN "SMD"
-F 31 " " H 6650 7580 50  0001 L CNN "ComponentHeight"
-F 32 "TYCO HOLSWORTHY" H 6650 7505 50  0001 L CNN "Manufacturer1 Example"
-F 33 "RN73C1J1K37BTDF" H 6650 7430 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.5mm" H 6650 7355 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "CERN DEM JLC" H 6650 7280 50  0001 L CNN "Author"
-F 36 "12/03/07 00:00:00" H 6650 7205 50  0001 L CNN "CreateDate"
-F 37 "03/13/08 00:00:00" H 6650 7130 50  0001 L CNN "LatestRevisionDate"
-F 38 "Resistors SMD" H 6650 7055 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 6650 6980 50  0001 L CNN "Library Name"
-F 40 "Resistors SMD" H 6650 6905 50  0001 L CNN "Footprint Library"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6650 6830 50  0001 L CNN "License"
-	1    6650 9950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7000 9650 6650 9650
 Wire Wire Line
@@ -5714,56 +5665,6 @@ Wire Wire Line
 	6650 9650 6300 9650
 Wire Wire Line
 	6300 10250 6650 10250
-$Comp
-L Resistors_SMD:R0603_4K42_0.1%_0.063W_10PPM R196
-U 1 1 5E6647AB
-P 6650 10250
-F 0 "R196" V 6754 10310 50  0000 L CNN
-F 1 "R0603_4K42_0.1%_0.063W_10PPM" H 6650 10055 50  0001 L CNN
-F 2 "Resistors SMD:RESC1608X55N" H 6650 9980 50  0001 L CNN
-F 3 " " H 6650 9905 50  0001 L CNN
-F 4 "4k42" V 6845 10310 50  0000 L CNN "Val"
-F 5 "R0603_4K42_0.1%_0.063W_10PPM" H 6650 9830 50  0001 L CNN "Part Number"
-F 6 "Resistor - 0.1%" H 6650 9755 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6650 9680 50  0001 L CNN "Library Path"
-F 8 "4k42" H 6650 9605 50  0001 L CNN "Comment"
-F 9 "Standard" H 6650 9530 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 6650 9455 50  0001 L CNN "Component Type"
-F 11 " " H 6650 9380 50  0001 L CNN "PackageDescription"
-F 12 "2" H 6650 9305 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 6650 9230 50  0001 L CNN "Footprint Path"
-F 14 "RESC1608X55N" H 6650 9155 50  0001 L CNN "Footprint Ref"
-F 15 "Not Recommended" H 6650 9080 50  0001 L CNN "Status"
-F 16 "0.063W" H 6650 9005 50  0001 L CNN "Power"
-F 17 "±10ppm" H 6650 8930 50  0001 L CNN "TC"
-F 18 " " H 6650 8855 50  0001 L CNN "Voltage"
-F 19 "±0.1%" H 6650 8780 50  0001 L CNN "Tolerance"
-F 20 "Thin Film Chip Resistor" H 6650 8705 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 6650 8630 50  0001 L CNN "Manufacturer"
-F 22 "R0603_4K42_0.1%_0.063W_10PPM" H 6650 8555 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 6650 8480 50  0001 L CNN "Case"
-F 24 "No" H 6650 8405 50  0001 L CNN "PressFit"
-F 25 "Yes" H 6650 8330 50  0001 L CNN "Mounted"
-F 26 " " H 6650 8255 50  0001 L CNN "Sense Comment"
-F 27 "No" H 6650 8180 50  0001 L CNN "Sense"
-F 28 " " H 6650 8105 50  0001 L CNN "Status Comment"
-F 29 "No" H 6650 8030 50  0001 L CNN "Socket"
-F 30 "Yes" H 6650 7955 50  0001 L CNN "SMD"
-F 31 " " H 6650 7880 50  0001 L CNN "ComponentHeight"
-F 32 "TYCO HOLSWORTHY" H 6650 7805 50  0001 L CNN "Manufacturer1 Example"
-F 33 "RN73C1J4K42BTDF" H 6650 7730 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.5mm" H 6650 7655 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "CERN DEM JLC" H 6650 7580 50  0001 L CNN "Author"
-F 36 "12/03/07 00:00:00" H 6650 7505 50  0001 L CNN "CreateDate"
-F 37 "03/13/08 00:00:00" H 6650 7430 50  0001 L CNN "LatestRevisionDate"
-F 38 "Resistors SMD" H 6650 7355 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 6650 7280 50  0001 L CNN "Library Name"
-F 40 "Resistors SMD" H 6650 7205 50  0001 L CNN "Footprint Library"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6650 7130 50  0001 L CNN "License"
-	1    6650 10250
-	0    1    1    0   
-$EndComp
-Connection ~ 6650 10250
 $Comp
 L power:GND #PWR?
 U 1 1 5E66A4F7
@@ -5902,55 +5803,6 @@ $EndComp
 Wire Wire Line
 	2600 10450 2600 10550
 Connection ~ 2600 10550
-$Comp
-L Resistors_SMD:R0603_2K49_0.1%_0.063W_10PPM R168
-U 1 1 5E8486D3
-P 2950 9950
-F 0 "R168" V 3054 10010 50  0000 L CNN
-F 1 "R0603_2K49_0.1%_0.063W_10PPM" H 2950 9755 50  0001 L CNN
-F 2 "Resistors SMD:RESC1608X55N" H 2950 9680 50  0001 L CNN
-F 3 " " H 2950 9605 50  0001 L CNN
-F 4 "2k49" V 3145 10010 50  0000 L CNN "Val"
-F 5 "R0603_2K49_0.1%_0.063W_10PPM" H 2950 9530 50  0001 L CNN "Part Number"
-F 6 "Resistor - 0.1%" H 2950 9455 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 2950 9380 50  0001 L CNN "Library Path"
-F 8 "2k49" H 2950 9305 50  0001 L CNN "Comment"
-F 9 "Standard" H 2950 9230 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 2950 9155 50  0001 L CNN "Component Type"
-F 11 " " H 2950 9080 50  0001 L CNN "PackageDescription"
-F 12 "2" H 2950 9005 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 2950 8930 50  0001 L CNN "Footprint Path"
-F 14 "RESC1608X55N" H 2950 8855 50  0001 L CNN "Footprint Ref"
-F 15 "Not Recommended" H 2950 8780 50  0001 L CNN "Status"
-F 16 "0.063W" H 2950 8705 50  0001 L CNN "Power"
-F 17 "±10ppm" H 2950 8630 50  0001 L CNN "TC"
-F 18 " " H 2950 8555 50  0001 L CNN "Voltage"
-F 19 "±0.1%" H 2950 8480 50  0001 L CNN "Tolerance"
-F 20 "Thin Film Chip Resistor" H 2950 8405 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 2950 8330 50  0001 L CNN "Manufacturer"
-F 22 "R0603_2K49_0.1%_0.063W_10PPM" H 2950 8255 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 2950 8180 50  0001 L CNN "Case"
-F 24 "No" H 2950 8105 50  0001 L CNN "PressFit"
-F 25 "Yes" H 2950 8030 50  0001 L CNN "Mounted"
-F 26 " " H 2950 7955 50  0001 L CNN "Sense Comment"
-F 27 "No" H 2950 7880 50  0001 L CNN "Sense"
-F 28 " " H 2950 7805 50  0001 L CNN "Status Comment"
-F 29 "No" H 2950 7730 50  0001 L CNN "Socket"
-F 30 "Yes" H 2950 7655 50  0001 L CNN "SMD"
-F 31 " " H 2950 7580 50  0001 L CNN "ComponentHeight"
-F 32 "TYCO HOLSWORTHY" H 2950 7505 50  0001 L CNN "Manufacturer1 Example"
-F 33 "RN73C1J2K49BTDF" H 2950 7430 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.5mm" H 2950 7355 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "CERN DEM JLC" H 2950 7280 50  0001 L CNN "Author"
-F 36 "12/03/07 00:00:00" H 2950 7205 50  0001 L CNN "CreateDate"
-F 37 "03/13/08 00:00:00" H 2950 7130 50  0001 L CNN "LatestRevisionDate"
-F 38 "Resistors SMD" H 2950 7055 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 2950 6980 50  0001 L CNN "Library Name"
-F 40 "Resistors SMD" H 2950 6905 50  0001 L CNN "Footprint Library"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 6830 50  0001 L CNN "License"
-	1    2950 9950
-	0    1    1    0   
-$EndComp
 Text Notes 2900 9400 0    89   ~ 18
 1V2
 $Comp
@@ -6588,61 +6440,6 @@ Wire Wire Line
 	6700 8350 6700 8450
 Connection ~ 7950 6800
 $Comp
-L Resistors_SMD:R0603_15K_0.1%_0.063W_10PPM R70
-U 1 1 5E45CA5D
-P 8050 7500
-F 0 "R70" V 8154 7560 50  0000 L CNN
-F 1 "R0603_15K_0.1%_0.063W_10PPM" H 8050 7290 60  0001 L CNN
-F 2 "RESC1608X55N" H 8050 6480 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_Tyco_RN73.pdf" H 8050 7110 60  0001 L CNN
-F 4 "15k" V 8245 7560 50  0000 L CNN "~"
-F 5 "R0603_15K_0.1%_0.063W_10PPM" H 8050 7020 60  0001 L CNN "Part Number"
-F 6 "Resistor - 0.1%" H 8050 6930 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 8050 6840 60  0001 L CNN "Library Path"
-F 8 "=Value" H 8050 6750 60  0001 L CNN "Comment"
-F 9 "Standard" H 8050 6660 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 8050 6570 60  0001 L CNN "Component Type"
-F 11 "~~" H 8050 6390 60  0001 L CNN "PackageDescription"
-F 12 "2" H 8050 6300 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 8050 6210 60  0001 L CNN "Footprint Path"
-F 14 "RESC1608X55N" H 8050 6120 60  0001 L CNN "Footprint Ref"
-F 15 "15k" H 8050 6030 60  0001 L CNN "Val"
-F 16 "Not Recommended" H 8050 5940 60  0001 L CNN "Status"
-F 17 "0.063W" H 8050 5850 60  0001 L CNN "Power"
-F 18 "±10ppm" H 8050 5760 60  0001 L CNN "TC"
-F 19 "~~" H 8050 5670 60  0001 L CNN "Voltage"
-F 20 "±0.1%" H 8050 5580 60  0001 L CNN "Tolerance"
-F 21 "Thin Film Chip Resistor" H 8050 5490 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 8050 5400 60  0001 L CNN "Manufacturer"
-F 23 "R0603_15K_0.1%_0.063W_10PPM" H 8050 5310 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0603" H 8050 5220 60  0001 L CNN "Case"
-F 25 "No" H 8050 5130 60  0001 L CNN "PressFit"
-F 26 "Yes" H 8050 5040 60  0001 L CNN "Mounted"
-F 27 "~~" H 8050 4950 60  0001 L CNN "Sense Comment"
-F 28 "No" H 8050 4860 60  0001 L CNN "Sense"
-F 29 "~~" H 8050 4770 60  0001 L CNN "Status Comment"
-F 30 "No" H 8050 4680 60  0001 L CNN "Socket"
-F 31 "Yes" H 8050 4590 60  0001 L CNN "SMD"
-F 32 "~~" H 8050 4500 60  0001 L CNN "ComponentHeight"
-F 33 "TYCO HOLSWORTHY" H 8050 4410 60  0001 L CNN "Manufacturer1 Example"
-F 34 "RN73C1J15KBTDF" H 8050 4320 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.5mm" H 8050 4230 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_Tyco_RN73.pdf" H 8050 4140 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 8050 4050 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 8050 3960 60  0001 L CNN "CreateDate"
-F 39 "03/13/08 00:00:00" H 8050 3870 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 8050 3780 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8050 3690 60  0001 L CNN "License"
-	1    8050 7500
-	0    1    1    0   
-$EndComp
-Connection ~ 8050 7500
-Wire Wire Line
-	8050 7500 7950 7500
-Wire Wire Line
-	7950 7800 8050 7800
-Connection ~ 8050 7800
-$Comp
 L Capacitors_SMD:CC0603_22UF_6.3V_20%_X5R C72
 U 1 1 5E51833A
 P 9100 6800
@@ -6885,13 +6682,9 @@ Wire Wire Line
 	8350 7100 8650 7100
 Connection ~ 9100 7500
 Wire Wire Line
-	8050 7500 8300 7500
-Wire Wire Line
 	8950 7800 9100 7800
 Connection ~ 9100 7800
 Connection ~ 8300 7500
-Wire Wire Line
-	8050 7800 8300 7800
 Connection ~ 8300 7800
 Wire Wire Line
 	8300 7800 8650 7800
@@ -7458,104 +7251,6 @@ NoConn ~ 7950 7200
 NoConn ~ 7950 7900
 NoConn ~ 2600 9250
 NoConn ~ 6300 9250
-$Comp
-L Resistors_SMD:R0603_9K31_0.1%_0.063W_10PPM R69
-U 1 1 63AA419B
-P 8000 6800
-F 0 "R69" V 8100 6950 50  0000 C CNN
-F 1 "R0603_9K31_0.1%_0.063W_10PPM" H 8000 6605 50  0001 L CNN
-F 2 "Resistors SMD:RESC1608X55N" H 8000 6530 50  0001 L CNN
-F 3 " " H 8000 6455 50  0001 L CNN
-F 4 "9k31" V 8200 6950 50  0000 C CNN "Val"
-F 5 "R0603_9K31_0.1%_0.063W_10PPM" H 8000 6380 50  0001 L CNN "Part Number"
-F 6 "Resistor - 0.1%" H 8000 6305 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 8000 6230 50  0001 L CNN "Library Path"
-F 8 "9k31" H 8000 6155 50  0001 L CNN "Comment"
-F 9 "Standard" H 8000 6080 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 8000 6005 50  0001 L CNN "Component Type"
-F 11 " " H 8000 5930 50  0001 L CNN "PackageDescription"
-F 12 "2" H 8000 5855 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 8000 5780 50  0001 L CNN "Footprint Path"
-F 14 "RESC1608X55N" H 8000 5705 50  0001 L CNN "Footprint Ref"
-F 15 "Not Recommended" H 8000 5630 50  0001 L CNN "Status"
-F 16 "0.063W" H 8000 5555 50  0001 L CNN "Power"
-F 17 "±10ppm" H 8000 5480 50  0001 L CNN "TC"
-F 18 " " H 8000 5405 50  0001 L CNN "Voltage"
-F 19 "±0.1%" H 8000 5330 50  0001 L CNN "Tolerance"
-F 20 "Thin Film Chip Resistor" H 8000 5255 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 8000 5180 50  0001 L CNN "Manufacturer"
-F 22 "R0603_9K31_0.1%_0.063W_10PPM" H 8000 5105 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 8000 5030 50  0001 L CNN "Case"
-F 24 "No" H 8000 4955 50  0001 L CNN "PressFit"
-F 25 "Yes" H 8000 4880 50  0001 L CNN "Mounted"
-F 26 " " H 8000 4805 50  0001 L CNN "Sense Comment"
-F 27 "No" H 8000 4730 50  0001 L CNN "Sense"
-F 28 " " H 8000 4655 50  0001 L CNN "Status Comment"
-F 29 "No" H 8000 4580 50  0001 L CNN "Socket"
-F 30 "Yes" H 8000 4505 50  0001 L CNN "SMD"
-F 31 " " H 8000 4430 50  0001 L CNN "ComponentHeight"
-F 32 "TYCO HOLSWORTHY" H 8000 4355 50  0001 L CNN "Manufacturer1 Example"
-F 33 "RN73C1J9K31BTDF" H 8000 4280 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.5mm" H 8000 4205 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "CERN DEM JLC" H 8000 4130 50  0001 L CNN "Author"
-F 36 "12/03/07 00:00:00" H 8000 4055 50  0001 L CNN "CreateDate"
-F 37 "03/13/08 00:00:00" H 8000 3980 50  0001 L CNN "LatestRevisionDate"
-F 38 "Resistors SMD" H 8000 3905 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 8000 3830 50  0001 L CNN "Library Name"
-F 40 "Resistors SMD" H 8000 3755 50  0001 L CNN "Footprint Library"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8000 3680 50  0001 L CNN "License"
-	1    8000 6800
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistors_SMD:R0603_10K7_0.1%_0.063W_10PPM R68
-U 1 1 63AA6AD7
-P 8650 7100
-F 0 "R68" H 8754 7160 50  0000 L CNN
-F 1 "R0603_10K7_0.1%_0.063W_10PPM" H 8650 6905 50  0001 L CNN
-F 2 "Resistors SMD:RESC1608X55N" H 8650 6830 50  0001 L CNN
-F 3 " " H 8650 6755 50  0001 L CNN
-F 4 "10k7" H 8750 7000 50  0000 L CNN "Val"
-F 5 "R0603_10K7_0.1%_0.063W_10PPM" H 8650 6680 50  0001 L CNN "Part Number"
-F 6 "Resistor - 0.1%" H 8650 6605 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 8650 6530 50  0001 L CNN "Library Path"
-F 8 "10k7" H 8650 6455 50  0001 L CNN "Comment"
-F 9 "Standard" H 8650 6380 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 8650 6305 50  0001 L CNN "Component Type"
-F 11 " " H 8650 6230 50  0001 L CNN "PackageDescription"
-F 12 "2" H 8650 6155 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 8650 6080 50  0001 L CNN "Footprint Path"
-F 14 "RESC1608X55N" H 8650 6005 50  0001 L CNN "Footprint Ref"
-F 15 "Not Recommended" H 8650 5930 50  0001 L CNN "Status"
-F 16 "0.063W" H 8650 5855 50  0001 L CNN "Power"
-F 17 "±10ppm" H 8650 5780 50  0001 L CNN "TC"
-F 18 " " H 8650 5705 50  0001 L CNN "Voltage"
-F 19 "±0.1%" H 8650 5630 50  0001 L CNN "Tolerance"
-F 20 "Thin Film Chip Resistor" H 8650 5555 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 8650 5480 50  0001 L CNN "Manufacturer"
-F 22 "R0603_10K7_0.1%_0.063W_10PPM" H 8650 5405 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 8650 5330 50  0001 L CNN "Case"
-F 24 "No" H 8650 5255 50  0001 L CNN "PressFit"
-F 25 "Yes" H 8650 5180 50  0001 L CNN "Mounted"
-F 26 " " H 8650 5105 50  0001 L CNN "Sense Comment"
-F 27 "No" H 8650 5030 50  0001 L CNN "Sense"
-F 28 " " H 8650 4955 50  0001 L CNN "Status Comment"
-F 29 "No" H 8650 4880 50  0001 L CNN "Socket"
-F 30 "Yes" H 8650 4805 50  0001 L CNN "SMD"
-F 31 " " H 8650 4730 50  0001 L CNN "ComponentHeight"
-F 32 "TYCO HOLSWORTHY" H 8650 4655 50  0001 L CNN "Manufacturer1 Example"
-F 33 "RN73C1J10K7BTDF" H 8650 4580 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.5mm" H 8650 4505 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "CERN DEM JLC" H 8650 4430 50  0001 L CNN "Author"
-F 36 "12/03/07 00:00:00" H 8650 4355 50  0001 L CNN "CreateDate"
-F 37 "03/13/08 00:00:00" H 8650 4280 50  0001 L CNN "LatestRevisionDate"
-F 38 "Resistors SMD" H 8650 4205 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 8650 4130 50  0001 L CNN "Library Name"
-F 40 "Resistors SMD" H 8650 4055 50  0001 L CNN "Footprint Library"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8650 3980 50  0001 L CNN "License"
-	1    8650 7100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+1V5 #PWR0597
 U 1 1 5F86D76A
@@ -8794,16 +8489,6 @@ $EndComp
 Connection ~ 12550 8950
 Wire Wire Line
 	8300 7500 9100 7500
-Wire Wire Line
-	7950 6800 8000 6800
-Wire Wire Line
-	7950 7100 8000 7100
-Connection ~ 8000 6800
-Wire Wire Line
-	8000 6800 8350 6800
-Connection ~ 8000 7100
-Wire Wire Line
-	8000 7100 8350 7100
 $Comp
 L LEDs_&_Displays:LED_KINGBRIGHT_KPH-1608CGCK LD?
 U 1 1 5FD2F823
@@ -9159,56 +8844,6 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0603_4K99_1%_0.063W_50PPM R189
-U 1 1 5FB558D7
-P 2950 10250
-F 0 "R189" V 3054 10310 50  0000 L CNN
-F 1 "R0603_4K99_1%_0.063W_50PPM" H 2950 10055 50  0001 L CNN
-F 2 "Resistors SMD:RESC1608X55N" H 2950 9980 50  0001 L CNN
-F 3 " " H 2950 9905 50  0001 L CNN
-F 4 "4k99" V 3145 10310 50  0000 L CNN "Val"
-F 5 "R0603_4K99_1%_0.063W_50PPM" H 2950 9830 50  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 2950 9755 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 2950 9680 50  0001 L CNN "Library Path"
-F 8 "4k99" H 2950 9605 50  0001 L CNN "Comment"
-F 9 "Standard" H 2950 9530 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 2950 9455 50  0001 L CNN "Component Type"
-F 11 " " H 2950 9380 50  0001 L CNN "PackageDescription"
-F 12 "2" H 2950 9305 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 2950 9230 50  0001 L CNN "Footprint Path"
-F 14 "RESC1608X55N" H 2950 9155 50  0001 L CNN "Footprint Ref"
-F 15 "None" H 2950 9080 50  0001 L CNN "Status"
-F 16 "0.063W" H 2950 9005 50  0001 L CNN "Power"
-F 17 "±50ppm/°C" H 2950 8930 50  0001 L CNN "TC"
-F 18 " " H 2950 8855 50  0001 L CNN "Voltage"
-F 19 "±1%" H 2950 8780 50  0001 L CNN "Tolerance"
-F 20 "General Purpose Thick Film Chip Resistor" H 2950 8705 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 2950 8630 50  0001 L CNN "Manufacturer"
-F 22 "R0603_4K99_1%_0.063W_50PPM" H 2950 8555 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0603" H 2950 8480 50  0001 L CNN "Case"
-F 24 "No" H 2950 8405 50  0001 L CNN "PressFit"
-F 25 "Yes" H 2950 8330 50  0001 L CNN "Mounted"
-F 26 " " H 2950 8255 50  0001 L CNN "Sense Comment"
-F 27 "No" H 2950 8180 50  0001 L CNN "Sense"
-F 28 " " H 2950 8105 50  0001 L CNN "Status Comment"
-F 29 "No" H 2950 8030 50  0001 L CNN "Socket"
-F 30 "Yes" H 2950 7955 50  0001 L CNN "SMD"
-F 31 " " H 2950 7880 50  0001 L CNN "ComponentHeight"
-F 32 "TYCO NEOHM" H 2950 7805 50  0001 L CNN "Manufacturer1 Example"
-F 33 "CPF0603F4K99C1" H 2950 7730 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.55mm" H 2950 7655 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "CERN DEM JLC" H 2950 7580 50  0001 L CNN "Author"
-F 36 "05/20/10 00:00:00" H 2950 7505 50  0001 L CNN "CreateDate"
-F 37 "05/20/10 00:00:00" H 2950 7430 50  0001 L CNN "LatestRevisionDate"
-F 38 "Resistors SMD" H 2950 7355 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 2950 7280 50  0001 L CNN "Library Name"
-F 40 "Resistors SMD" H 2950 7205 50  0001 L CNN "Footprint Library"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 7130 50  0001 L CNN "License"
-	1    2950 10250
-	0    1    1    0   
-$EndComp
-Connection ~ 2950 10250
-$Comp
 L Capacitors_SMD:CC1206_22UF_25V_20%_X5R C141
 U 1 1 5FC06FEE
 P 5650 1050
@@ -9365,4 +9000,369 @@ F 3 "" H 7850 10150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7850 10150 8000 10150
+$Comp
+L Resistors_SMD2:R0402_1K8_1%_0.0625W_100PPM R168
+U 1 1 5FBF3E4A
+P 2950 9950
+F 0 "R168" V 3054 10010 50  0000 L CNN
+F 1 "R0402_1K8_1%_0.0625W_100PPM" H 2950 9755 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 2950 9680 50  0001 L CNN
+F 3 " " H 2950 9605 50  0001 L CNN
+F 4 "1k8" V 3145 10010 50  0000 L CNN "Val"
+F 5 "R0402_1K8_1%_0.0625W_100PPM" H 2950 9530 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 2950 9455 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 2950 9380 50  0001 L CNN "Library Path"
+F 8 "1k8" H 2950 9305 50  0001 L CNN "Comment"
+F 9 "Standard" H 2950 9230 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 2950 9155 50  0001 L CNN "Component Type"
+F 11 " " H 2950 9080 50  0001 L CNN "PackageDescription"
+F 12 "2" H 2950 9005 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 2950 8930 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 2950 8855 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 2950 8780 50  0001 L CNN "Status"
+F 16 "0.0625W" H 2950 8705 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 2950 8630 50  0001 L CNN "TC"
+F 18 " " H 2950 8555 50  0001 L CNN "Voltage"
+F 19 "±1%" H 2950 8480 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 2950 8405 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 2950 8330 50  0001 L CNN "Manufacturer"
+F 22 "R0402_1K8_1%_0.0625W_100PPM" H 2950 8255 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 2950 8180 50  0001 L CNN "Case"
+F 24 "No" H 2950 8105 50  0001 L CNN "PressFit"
+F 25 "Yes" H 2950 8030 50  0001 L CNN "Mounted"
+F 26 " " H 2950 7955 50  0001 L CNN "Sense Comment"
+F 27 "No" H 2950 7880 50  0001 L CNN "Sense"
+F 28 " " H 2950 7805 50  0001 L CNN "Status Comment"
+F 29 "No" H 2950 7730 50  0001 L CNN "Socket"
+F 30 "Yes" H 2950 7655 50  0001 L CNN "SMD"
+F 31 " " H 2950 7580 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 2950 7505 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270671802L" H 2950 7430 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 2950 7355 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 2950 7280 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 2950 7205 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 2950 7130 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 2950 7055 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 2950 6980 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 2950 6905 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 6830 50  0001 L CNN "License"
+	1    2950 9950
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_SMD2:R0402_3K6_1%_0.0625W_100PPM R189
+U 1 1 5FBF7F29
+P 2950 10250
+F 0 "R189" V 3054 10310 50  0000 L CNN
+F 1 "R0402_3K6_1%_0.0625W_100PPM" H 2950 10055 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 2950 9980 50  0001 L CNN
+F 3 " " H 2950 9905 50  0001 L CNN
+F 4 "3k6" V 3145 10310 50  0000 L CNN "Val"
+F 5 "R0402_3K6_1%_0.0625W_100PPM" H 2950 9830 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 2950 9755 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 2950 9680 50  0001 L CNN "Library Path"
+F 8 "3k6" H 2950 9605 50  0001 L CNN "Comment"
+F 9 "Standard" H 2950 9530 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 2950 9455 50  0001 L CNN "Component Type"
+F 11 " " H 2950 9380 50  0001 L CNN "PackageDescription"
+F 12 "2" H 2950 9305 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 2950 9230 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 2950 9155 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 2950 9080 50  0001 L CNN "Status"
+F 16 "0.0625W" H 2950 9005 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 2950 8930 50  0001 L CNN "TC"
+F 18 " " H 2950 8855 50  0001 L CNN "Voltage"
+F 19 "±1%" H 2950 8780 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 2950 8705 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 2950 8630 50  0001 L CNN "Manufacturer"
+F 22 "R0402_3K6_1%_0.0625W_100PPM" H 2950 8555 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 2950 8480 50  0001 L CNN "Case"
+F 24 "No" H 2950 8405 50  0001 L CNN "PressFit"
+F 25 "Yes" H 2950 8330 50  0001 L CNN "Mounted"
+F 26 " " H 2950 8255 50  0001 L CNN "Sense Comment"
+F 27 "No" H 2950 8180 50  0001 L CNN "Sense"
+F 28 " " H 2950 8105 50  0001 L CNN "Status Comment"
+F 29 "No" H 2950 8030 50  0001 L CNN "Socket"
+F 30 "Yes" H 2950 7955 50  0001 L CNN "SMD"
+F 31 " " H 2950 7880 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 2950 7805 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270673602L" H 2950 7730 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 2950 7655 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 2950 7580 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 2950 7505 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 2950 7430 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 2950 7355 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 2950 7280 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 2950 7205 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2950 7130 50  0001 L CNN "License"
+	1    2950 10250
+	0    1    1    0   
+$EndComp
+Connection ~ 2950 10250
+$Comp
+L Resistors_SMD2:R0402_24K_1%_0.0625W_100PPM R196
+U 1 1 5FC11332
+P 6650 10250
+F 0 "R196" V 6754 10310 50  0000 L CNN
+F 1 "R0402_24K_1%_0.0625W_100PPM" H 6650 10055 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 6650 9980 50  0001 L CNN
+F 3 " " H 6650 9905 50  0001 L CNN
+F 4 "24k" V 6845 10310 50  0000 L CNN "Val"
+F 5 "R0402_24K_1%_0.0625W_100PPM" H 6650 9830 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 6650 9755 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6650 9680 50  0001 L CNN "Library Path"
+F 8 "24k" H 6650 9605 50  0001 L CNN "Comment"
+F 9 "Standard" H 6650 9530 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6650 9455 50  0001 L CNN "Component Type"
+F 11 " " H 6650 9380 50  0001 L CNN "PackageDescription"
+F 12 "2" H 6650 9305 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 6650 9230 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 6650 9155 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 6650 9080 50  0001 L CNN "Status"
+F 16 "0.0625W" H 6650 9005 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 6650 8930 50  0001 L CNN "TC"
+F 18 " " H 6650 8855 50  0001 L CNN "Voltage"
+F 19 "±1%" H 6650 8780 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 6650 8705 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 6650 8630 50  0001 L CNN "Manufacturer"
+F 22 "R0402_24K_1%_0.0625W_100PPM" H 6650 8555 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 6650 8480 50  0001 L CNN "Case"
+F 24 "No" H 6650 8405 50  0001 L CNN "PressFit"
+F 25 "Yes" H 6650 8330 50  0001 L CNN "Mounted"
+F 26 " " H 6650 8255 50  0001 L CNN "Sense Comment"
+F 27 "No" H 6650 8180 50  0001 L CNN "Sense"
+F 28 " " H 6650 8105 50  0001 L CNN "Status Comment"
+F 29 "No" H 6650 8030 50  0001 L CNN "Socket"
+F 30 "Yes" H 6650 7955 50  0001 L CNN "SMD"
+F 31 " " H 6650 7880 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 6650 7805 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270672403L" H 6650 7730 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 6650 7655 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 6650 7580 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 6650 7505 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 6650 7430 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 6650 7355 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 6650 7280 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 6650 7205 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6650 7130 50  0001 L CNN "License"
+	1    6650 10250
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_SMD2:R0402_7K5_1%_0.0625W_100PPM R195
+U 1 1 5FC13E50
+P 6650 9950
+F 0 "R195" V 6754 10010 50  0000 L CNN
+F 1 "R0402_7K5_1%_0.0625W_100PPM" H 6650 9755 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 6650 9680 50  0001 L CNN
+F 3 " " H 6650 9605 50  0001 L CNN
+F 4 "7k5" V 6845 10010 50  0000 L CNN "Val"
+F 5 "R0402_7K5_1%_0.0625W_100PPM" H 6650 9530 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 6650 9455 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 6650 9380 50  0001 L CNN "Library Path"
+F 8 "7k5" H 6650 9305 50  0001 L CNN "Comment"
+F 9 "Standard" H 6650 9230 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6650 9155 50  0001 L CNN "Component Type"
+F 11 " " H 6650 9080 50  0001 L CNN "PackageDescription"
+F 12 "2" H 6650 9005 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 6650 8930 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 6650 8855 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 6650 8780 50  0001 L CNN "Status"
+F 16 "0.0625W" H 6650 8705 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 6650 8630 50  0001 L CNN "TC"
+F 18 " " H 6650 8555 50  0001 L CNN "Voltage"
+F 19 "±1%" H 6650 8480 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 6650 8405 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 6650 8330 50  0001 L CNN "Manufacturer"
+F 22 "R0402_7K5_1%_0.0625W_100PPM" H 6650 8255 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 6650 8180 50  0001 L CNN "Case"
+F 24 "No" H 6650 8105 50  0001 L CNN "PressFit"
+F 25 "Yes" H 6650 8030 50  0001 L CNN "Mounted"
+F 26 " " H 6650 7955 50  0001 L CNN "Sense Comment"
+F 27 "No" H 6650 7880 50  0001 L CNN "Sense"
+F 28 " " H 6650 7805 50  0001 L CNN "Status Comment"
+F 29 "No" H 6650 7730 50  0001 L CNN "Socket"
+F 30 "Yes" H 6650 7655 50  0001 L CNN "SMD"
+F 31 " " H 6650 7580 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 6650 7505 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270677502L" H 6650 7430 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 6650 7355 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 6650 7280 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 6650 7205 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 6650 7130 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 6650 7055 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 6650 6980 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 6650 6905 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6650 6830 50  0001 L CNN "License"
+	1    6650 9950
+	0    1    1    0   
+$EndComp
+Connection ~ 6650 10250
+$Comp
+L Resistors_SMD2:R0402_13K_1%_0.0625W_100PPM R69
+U 1 1 5FC2B9A9
+P 8050 6800
+F 0 "R69" V 8154 6860 50  0000 L CNN
+F 1 "R0402_13K_1%_0.0625W_100PPM" H 8050 6605 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 8050 6530 50  0001 L CNN
+F 3 " " H 8050 6455 50  0001 L CNN
+F 4 "13k" V 8245 6860 50  0000 L CNN "Val"
+F 5 "R0402_13K_1%_0.0625W_100PPM" H 8050 6380 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8050 6305 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8050 6230 50  0001 L CNN "Library Path"
+F 8 "13k" H 8050 6155 50  0001 L CNN "Comment"
+F 9 "Standard" H 8050 6080 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 8050 6005 50  0001 L CNN "Component Type"
+F 11 " " H 8050 5930 50  0001 L CNN "PackageDescription"
+F 12 "2" H 8050 5855 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8050 5780 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8050 5705 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 8050 5630 50  0001 L CNN "Status"
+F 16 "0.0625W" H 8050 5555 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 8050 5480 50  0001 L CNN "TC"
+F 18 " " H 8050 5405 50  0001 L CNN "Voltage"
+F 19 "±1%" H 8050 5330 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 8050 5255 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 8050 5180 50  0001 L CNN "Manufacturer"
+F 22 "R0402_13K_1%_0.0625W_100PPM" H 8050 5105 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 8050 5030 50  0001 L CNN "Case"
+F 24 "No" H 8050 4955 50  0001 L CNN "PressFit"
+F 25 "Yes" H 8050 4880 50  0001 L CNN "Mounted"
+F 26 " " H 8050 4805 50  0001 L CNN "Sense Comment"
+F 27 "No" H 8050 4730 50  0001 L CNN "Sense"
+F 28 " " H 8050 4655 50  0001 L CNN "Status Comment"
+F 29 "No" H 8050 4580 50  0001 L CNN "Socket"
+F 30 "Yes" H 8050 4505 50  0001 L CNN "SMD"
+F 31 " " H 8050 4430 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 8050 4355 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270671303L" H 8050 4280 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 8050 4205 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 8050 4130 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 8050 4055 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 8050 3980 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 8050 3905 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 8050 3830 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 8050 3755 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8050 3680 50  0001 L CNN "License"
+	1    8050 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_SMD2:R0402_15K_1%_0.0625W_100PPM R68
+U 1 1 5FC2E342
+P 8650 7100
+F 0 "R68" H 8800 7297 50  0000 C CNN
+F 1 "R0402_15K_1%_0.0625W_100PPM" H 8650 6905 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 8650 6830 50  0001 L CNN
+F 3 " " H 8650 6755 50  0001 L CNN
+F 4 "15k" H 8800 7206 50  0000 C CNN "Val"
+F 5 "R0402_15K_1%_0.0625W_100PPM" H 8650 6680 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8650 6605 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8650 6530 50  0001 L CNN "Library Path"
+F 8 "15k" H 8650 6455 50  0001 L CNN "Comment"
+F 9 "Standard" H 8650 6380 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 8650 6305 50  0001 L CNN "Component Type"
+F 11 " " H 8650 6230 50  0001 L CNN "PackageDescription"
+F 12 "2" H 8650 6155 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8650 6080 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8650 6005 50  0001 L CNN "Footprint Ref"
+F 15 "None" H 8650 5930 50  0001 L CNN "Status"
+F 16 "0.0625W" H 8650 5855 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 8650 5780 50  0001 L CNN "TC"
+F 18 " " H 8650 5705 50  0001 L CNN "Voltage"
+F 19 "±1%" H 8650 5630 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 8650 5555 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 8650 5480 50  0001 L CNN "Manufacturer"
+F 22 "R0402_15K_1%_0.0625W_100PPM" H 8650 5405 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 8650 5330 50  0001 L CNN "Case"
+F 24 "No" H 8650 5255 50  0001 L CNN "PressFit"
+F 25 "Yes" H 8650 5180 50  0001 L CNN "Mounted"
+F 26 " " H 8650 5105 50  0001 L CNN "Sense Comment"
+F 27 "No" H 8650 5030 50  0001 L CNN "Sense"
+F 28 " " H 8650 4955 50  0001 L CNN "Status Comment"
+F 29 "No" H 8650 4880 50  0001 L CNN "Socket"
+F 30 "Yes" H 8650 4805 50  0001 L CNN "SMD"
+F 31 " " H 8650 4730 50  0001 L CNN "ComponentHeight"
+F 32 "VISHAY" H 8650 4655 50  0001 L CNN "Manufacturer1 Example"
+F 33 "CRCW040215K0FKED" H 8650 4580 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 8650 4505 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JMW" H 8650 4430 50  0001 L CNN "Author"
+F 36 "07/06/15 00:00:00" H 8650 4355 50  0001 L CNN "CreateDate"
+F 37 "07/06/15 00:00:00" H 8650 4280 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 8650 4205 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 8650 4130 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 8650 4055 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8650 3980 50  0001 L CNN "License"
+	1    8650 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 6800 8050 6800
+Wire Wire Line
+	7950 7100 8050 7100
+Connection ~ 8050 6800
+Wire Wire Line
+	8050 6800 8350 6800
+Connection ~ 8050 7100
+Wire Wire Line
+	8050 7100 8350 7100
+$Comp
+L Resistors_SMD2:R0402_15K_1%_0.0625W_100PPM R70
+U 1 1 5FC60076
+P 8050 7500
+F 0 "R70" V 8154 7560 50  0000 L CNN
+F 1 "R0402_15K_1%_0.0625W_100PPM" H 8050 7305 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 8050 7230 50  0001 L CNN
+F 3 " " H 8050 7155 50  0001 L CNN
+F 4 "15k" V 8245 7560 50  0000 L CNN "Val"
+F 5 "R0402_15K_1%_0.0625W_100PPM" H 8050 7080 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 8050 7005 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 8050 6930 50  0001 L CNN "Library Path"
+F 8 "15k" H 8050 6855 50  0001 L CNN "Comment"
+F 9 "Standard" H 8050 6780 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 8050 6705 50  0001 L CNN "Component Type"
+F 11 " " H 8050 6630 50  0001 L CNN "PackageDescription"
+F 12 "2" H 8050 6555 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 8050 6480 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 8050 6405 50  0001 L CNN "Footprint Ref"
+F 15 "None" H 8050 6330 50  0001 L CNN "Status"
+F 16 "0.0625W" H 8050 6255 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 8050 6180 50  0001 L CNN "TC"
+F 18 " " H 8050 6105 50  0001 L CNN "Voltage"
+F 19 "±1%" H 8050 6030 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 8050 5955 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 8050 5880 50  0001 L CNN "Manufacturer"
+F 22 "R0402_15K_1%_0.0625W_100PPM" H 8050 5805 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 8050 5730 50  0001 L CNN "Case"
+F 24 "No" H 8050 5655 50  0001 L CNN "PressFit"
+F 25 "Yes" H 8050 5580 50  0001 L CNN "Mounted"
+F 26 " " H 8050 5505 50  0001 L CNN "Sense Comment"
+F 27 "No" H 8050 5430 50  0001 L CNN "Sense"
+F 28 " " H 8050 5355 50  0001 L CNN "Status Comment"
+F 29 "No" H 8050 5280 50  0001 L CNN "Socket"
+F 30 "Yes" H 8050 5205 50  0001 L CNN "SMD"
+F 31 " " H 8050 5130 50  0001 L CNN "ComponentHeight"
+F 32 "VISHAY" H 8050 5055 50  0001 L CNN "Manufacturer1 Example"
+F 33 "CRCW040215K0FKED" H 8050 4980 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 8050 4905 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JMW" H 8050 4830 50  0001 L CNN "Author"
+F 36 "07/06/15 00:00:00" H 8050 4755 50  0001 L CNN "CreateDate"
+F 37 "07/06/15 00:00:00" H 8050 4680 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 8050 4605 50  0001 L CNN "Database Table Name"
+F 39 "Resistors.DbLib" H 8050 4530 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 8050 4455 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8050 4380 50  0001 L CNN "License"
+	1    8050 7500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 7500 8050 7500
+Wire Wire Line
+	7950 7800 8050 7800
+Connection ~ 8050 7500
+Wire Wire Line
+	8050 7500 8300 7500
+Connection ~ 8050 7800
+Wire Wire Line
+	8050 7800 8300 7800
 $EndSCHEMATC

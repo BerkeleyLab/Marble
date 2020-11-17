@@ -1,6 +1,6 @@
 (sym_lib_table
   (lib (name Analog_&_Interface)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Analog_&_Interface.lib)(options "")(descr ""))
-  (lib (name Capacitors_SMD)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Capacitors_SMD.lib)(options "")(descr ""))
+  (lib (name Capacitors_SMD)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Capacitors_SMD.lib)(options "")(descr "")(disabled))
   (lib (name Capacitors_THD)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Capacitors_THD.lib)(options "")(descr ""))
   (lib (name Connector_Generic)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Connector_Generic.lib)(options "")(descr ""))
   (lib (name Crystals_&_Oscillators)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Crystals_&_Oscillators.lib)(options "")(descr ""))
@@ -14,7 +14,7 @@
   (lib (name Pads)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Pads.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/power.lib)(options "")(descr ""))
   (lib (name Regulators)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Regulators.lib)(options "")(descr ""))
-  (lib (name Resistors_SMD)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Resistors_SMD.lib)(options "")(descr ""))
+  (lib (name Resistors_SMD)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Resistors_SMD.lib)(options "")(descr "")(disabled))
   (lib (name SAMTEC)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/SAMTEC.lib)(options "")(descr ""))
   (lib (name Standard_Logic)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Standard_Logic.lib)(options "")(descr ""))
   (lib (name Switch)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Switch.lib)(options "")(descr ""))
