@@ -7619,7 +7619,7 @@ AR Path="/5C16BF8E/5F742157" Ref="TP?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5F742157" Ref="TP10"  Part="1" 
 F 0 "TP10" H 14758 2618 50  0000 L CNN
 F 1 "TestPoint" H 14758 2527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14900 2500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 14900 2500 50  0001 C CNN
 F 3 "~" H 14900 2500 50  0001 C CNN
 	1    14700 2500
 	-1   0    0    1   
@@ -7633,7 +7633,7 @@ AR Path="/5C16BF8E/5F7A2E7E" Ref="TP?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5F7A2E7E" Ref="TP11"  Part="1" 
 F 0 "TP11" H 14758 4418 50  0000 L CNN
 F 1 "TestPoint" H 14758 4327 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14900 4300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 14900 4300 50  0001 C CNN
 F 3 "~" H 14900 4300 50  0001 C CNN
 	1    14700 4300
 	-1   0    0    1   
@@ -7649,7 +7649,7 @@ AR Path="/5C16BF8E/5F805386" Ref="TP?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5F805386" Ref="TP9"  Part="1" 
 F 0 "TP9" H 14608 6218 50  0000 L CNN
 F 1 "TestPoint" H 14608 6127 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14750 6100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 14750 6100 50  0001 C CNN
 F 3 "~" H 14750 6100 50  0001 C CNN
 	1    14550 6100
 	-1   0    0    1   
@@ -7667,7 +7667,7 @@ AR Path="/5C16BF8E/5F861998" Ref="TP?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5F861998" Ref="TP8"  Part="1" 
 F 0 "TP8" H 14458 8518 50  0000 L CNN
 F 1 "TestPoint" H 14458 8427 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 14600 8400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 14600 8400 50  0001 C CNN
 F 3 "~" H 14600 8400 50  0001 C CNN
 	1    14400 8400
 	-1   0    0    1   
@@ -7683,7 +7683,7 @@ AR Path="/5C16BF8E/5F9282C9" Ref="TP?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5F9282C9" Ref="TP7"  Part="1" 
 F 0 "TP7" H 9508 7618 50  0000 L CNN
 F 1 "TestPoint" H 9508 7527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9650 7500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9650 7500 50  0001 C CNN
 F 3 "~" H 9650 7500 50  0001 C CNN
 	1    9450 7500
 	0    1    1    0   
@@ -7698,7 +7698,7 @@ AR Path="/5C16BF8E/5F9761ED" Ref="TP?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5F9761ED" Ref="TP5"  Part="1" 
 F 0 "TP5" H 8058 9768 50  0000 L CNN
 F 1 "TestPoint" H 8058 9677 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8200 9650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 9650 50  0001 C CNN
 F 3 "~" H 8200 9650 50  0001 C CNN
 	1    8000 9650
 	0    1    1    0   
@@ -7714,7 +7714,7 @@ AR Path="/5C16BF8E/5F9F839A" Ref="TP?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5F9F839A" Ref="TP4"  Part="1" 
 F 0 "TP4" H 3308 9268 50  0000 L CNN
 F 1 "TestPoint" H 3308 9177 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3450 9150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3450 9150 50  0001 C CNN
 F 3 "~" H 3450 9150 50  0001 C CNN
 	1    3250 9150
 	1    0    0    -1  
@@ -8741,7 +8741,7 @@ AR Path="/5C16BF8E/5F8BFCD0" Ref="TP?"  Part="1"
 AR Path="/5C16BF8E/5DB9B7E6/5F8BFCD0" Ref="TP6"  Part="1" 
 F 0 "TP6" V 9708 6768 50  0000 L CNN
 F 1 "TestPoint" V 9800 6650 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9850 6650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9850 6650 50  0001 C CNN
 F 3 "~" H 9850 6650 50  0001 C CNN
 	1    9650 6650
 	0    1    1    0   
@@ -9335,4 +9335,34 @@ Wire Wire Line
 	6350 7100 6450 7100
 Wire Wire Line
 	6450 7100 6450 7050
+$Comp
+L Connector_Generic:TestPoint TP?
+U 1 1 5FC62BFE
+P 8000 10150
+AR Path="/5C16BF8E/5FC62BFE" Ref="TP?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5FC62BFE" Ref="TP12"  Part="1" 
+F 0 "TP12" H 8058 10268 50  0000 L CNN
+F 1 "TestPoint" H 8058 10177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 10150 50  0001 C CNN
+F 3 "~" H 8200 10150 50  0001 C CNN
+	1    8000 10150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC94969
+P 7850 10150
+AR Path="/5C16C03C/5FC94969" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA59/5FC94969" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5FC94969" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5FC94969" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 7850 9900 50  0001 C CNN
+F 1 "GND" H 7855 9977 50  0000 C CNN
+F 2 "" H 7850 10150 50  0001 C CNN
+F 3 "" H 7850 10150 50  0001 C CNN
+	1    7850 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 10150 8000 10150
 $EndSCHEMATC
