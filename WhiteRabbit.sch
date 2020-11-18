@@ -1039,8 +1039,6 @@ LVPECL, OSC_OUT On:\nOS1 = 1\nOS0 = 1
 Wire Wire Line
 	7150 1450 7450 1450
 Wire Wire Line
-	7150 1550 7450 1550
-Wire Wire Line
 	6500 1450 6850 1450
 Wire Wire Line
 	10050 2450 9200 2450
@@ -1063,8 +1061,6 @@ F 3 "" H 6500 1550 50  0001 C CNN
 	1    6500 1550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6500 1550 6850 1550
 Text Notes 7350 1750 0    50   ~ 10
 1
 Text Notes 7350 1850 0    50   ~ 10
@@ -3107,59 +3103,6 @@ F 36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 $Comp
 L Resistors_SMD:R0402_0R_JUMPER R?
-U 1 1 5CDA8A06
-P 6850 1550
-AR Path="/5BCEDA39/5CDA8A06" Ref="R?"  Part="1" 
-AR Path="/5C907554/5CC8CB69/5CDA8A06" Ref="R?"  Part="1" 
-AR Path="/5C16BF13/5CDA8A06" Ref="R95"  Part="1" 
-F 0 "R95" H 6800 1600 50  0000 C CNN
-F 1 "R0402_0R_JUMPER" H 6850 1340 60  0001 L CNN
-F 2 "RESC1005X40N" H 6850 530 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6850 1160 60  0001 L CNN
-F 4 "0" H 7150 1600 50  0000 C CNN "~"
-F 5 "R0402_0R_JUMPER" H 6850 1070 60  0001 L CNN "Part Number"
-F 6 "Resistor" H 6850 980 60  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 6850 890 60  0001 L CNN "Library Path"
-F 8 "=Value" H 6850 800 60  0001 L CNN "Comment"
-F 9 "Standard" H 6850 710 60  0001 L CNN "Component Kind"
-F 10 "Standard" H 6850 620 60  0001 L CNN "Component Type"
-F 11 "~~" H 6850 440 60  0001 L CNN "PackageDescription"
-F 12 "2" H 6850 350 60  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 6850 260 60  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 6850 170 60  0001 L CNN "Footprint Ref"
-F 15 "0" H 6850 80  60  0001 L CNN "Val"
-F 16 "Not Recommended" H 6850 -10 60  0001 L CNN "Status"
-F 17 "~~" H 6850 -100 60  0001 L CNN "Power"
-F 18 "~~" H 6850 -190 60  0001 L CNN "TC"
-F 19 "~~" H 6850 -280 60  0001 L CNN "Voltage"
-F 20 "~~" H 6850 -370 60  0001 L CNN "Tolerance"
-F 21 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 6850 -460 60  0001 L CNN "Part Description"
-F 22 "GENERIC" H 6850 -550 60  0001 L CNN "Manufacturer"
-F 23 "R0402_0R_JUMPER" H 6850 -640 60  0001 L CNN "Manufacturer Part Number"
-F 24 "0402" H 6850 -730 60  0001 L CNN "Case"
-F 25 "No" H 6850 -820 60  0001 L CNN "PressFit"
-F 26 "Yes" H 6850 -910 60  0001 L CNN "Mounted"
-F 27 "~~" H 6850 -1000 60  0001 L CNN "Sense Comment"
-F 28 "No" H 6850 -1090 60  0001 L CNN "Sense"
-F 29 "~~" H 6850 -1180 60  0001 L CNN "Status Comment"
-F 30 "No" H 6850 -1270 60  0001 L CNN "Socket"
-F 31 "Yes" H 6850 -1360 60  0001 L CNN "SMD"
-F 32 "~~" H 6850 -1450 60  0001 L CNN "ComponentHeight"
-F 33 "YAGEO PHYCOMP" H 6850 -1540 60  0001 L CNN "Manufacturer1 Example"
-F 34 "232270591001L" H 6850 -1630 60  0001 L CNN "Manufacturer1 Part Number"
-F 35 "0.4mm" H 6850 -1720 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6850 -1810 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 6850 -1900 60  0001 L CNN "Author"
-F 38 "12/03/07 00:00:00" H 6850 -1990 60  0001 L CNN "CreateDate"
-F 39 "10/17/12 00:00:00" H 6850 -2080 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 6850 -2170 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6850 -2260 60  0001 L CNN "License"
-F 42 "dnf" H 7250 1600 50  0000 C CNN "config"
-	1    6850 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistors_SMD:R0402_0R_JUMPER R?
 U 1 1 5CDA9D77
 P 6850 2050
 AR Path="/5BCEDA39/5CDA9D77" Ref="R?"  Part="1" 
@@ -4016,9 +3959,11 @@ F 3 "" H 7650 5200 50  0001 C CNN
 	1    7650 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8850 2450 8900 2450
 $Comp
-L Capacitors_SMD2:CC0402_2.2NF_50V_10%_X7R C114
-U 1 1 5FDBB333
+L Capacitors_SMD:CC0402_2.2NF_50V_10%_X7R C114
+U 1 1 6002D4BB
 P 5500 1250
 F 0 "C114" H 5650 1497 50  0000 C CNN
 F 1 "CC0402_2.2NF_50V_10%_X7R" H 5500 1005 50  0001 L CNN
@@ -4065,8 +4010,8 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD2:R0402_40R2_1%_0.0625W_100PPM R79
-U 1 1 5FDE1780
+L Resistors_SMD:R0402_40R2_1%_0.0625W_100PPM R79
+U 1 1 60034566
 P 8900 2450
 F 0 "R79" H 9050 2647 50  0000 C CNN
 F 1 "R0402_40R2_1%_0.0625W_100PPM" H 8900 2255 50  0001 L CNN
@@ -4113,6 +4058,62 @@ F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    8900 2450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Capacitors_SMD:CC0402_100NF_25V_10%_X5R C417
+U 1 1 6004EE05
+P 6850 1600
+F 0 "C417" H 6850 1650 50  0000 C CNN
+F 1 "CC0402_100NF_25V_10%_X5R" H 6850 1355 50  0001 L CNN
+F 2 "Marble:CAPC1005X55N" H 6850 1280 50  0001 L CNN
+F 3 " " H 6850 1205 50  0001 L CNN
+F 4 "100nF" H 7200 1650 50  0000 C CNN "Val"
+F 5 "CC0402_100NF_25V_10%_X5R" H 6850 1130 50  0001 L CNN "Part Number"
+F 6 "Capacitor - non polarized" H 6850 1055 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Capacitors.SchLib" H 6850 980 50  0001 L CNN "Library Path"
+F 8 "100nF" H 6850 905 50  0001 L CNN "Comment"
+F 9 "Standard" H 6850 830 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 6850 755 50  0001 L CNN "Component Type"
+F 11 "2" H 6850 680 50  0001 L CNN "Pin Count"
+F 12 "PcbLib\\Capacitors SMD.PcbLib" H 6850 605 50  0001 L CNN "Footprint Path"
+F 13 "CAPC1005X55N" H 6850 530 50  0001 L CNN "Footprint Ref"
+F 14 " " H 6850 455 50  0001 L CNN "PackageDescription"
+F 15 "None" H 6850 380 50  0001 L CNN "Status"
+F 16 " " H 6850 305 50  0001 L CNN "Status Comment"
+F 17 "25V" H 6850 230 50  0001 L CNN "Voltage"
+F 18 "X5R" H 6850 155 50  0001 L CNN "TC"
+F 19 "±10%" H 6850 80  50  0001 L CNN "Tolerance"
+F 20 "SMD Multilayer Chip Ceramic Capacitor" H 6850 5   50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 6850 -70 50  0001 L CNN "Manufacturer"
+F 22 "CC0402_100NF_25V_10%_X5R" H 6850 -145 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 6850 -220 50  0001 L CNN "Case"
+F 24 "Yes" H 6850 -295 50  0001 L CNN "Mounted"
+F 25 "No" H 6850 -370 50  0001 L CNN "Socket"
+F 26 "Yes" H 6850 -445 50  0001 L CNN "SMD"
+F 27 " " H 6850 -520 50  0001 L CNN "PressFit"
+F 28 "No" H 6850 -595 50  0001 L CNN "Sense"
+F 29 " " H 6850 -670 50  0001 L CNN "Sense Comment"
+F 30 " " H 6850 -745 50  0001 L CNN "ComponentHeight"
+F 31 "Samsung" H 6850 -820 50  0001 L CNN "Manufacturer1 Example"
+F 32 "CL05A104KA5NNNC" H 6850 -895 50  0001 L CNN "Manufacturer1 Part Number"
+F 33 "0.55mm" H 6850 -970 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 34 "CERN DEM JLC" H 6850 -1045 50  0001 L CNN "Author"
+F 35 "12/10/13 00:00:00" H 6850 -1120 50  0001 L CNN "CreateDate"
+F 36 "05/25/20 00:00:00" H 6850 -1195 50  0001 L CNN "LatestRevisionDate"
+F 37 "Capacitors SMD" H 6850 -1345 50  0001 L CNN "Library Name"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6850 -1495 50  0001 L CNN "License"
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8850 2450 8900 2450
+	7450 1550 7300 1550
+Wire Wire Line
+	7300 1550 7300 1600
+Wire Wire Line
+	7300 1600 7150 1600
+Wire Wire Line
+	6850 1600 6700 1600
+Wire Wire Line
+	6700 1600 6700 1550
+Wire Wire Line
+	6700 1550 6500 1550
 $EndSCHEMATC
