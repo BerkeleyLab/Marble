@@ -38,6 +38,7 @@ over multiple sheets, here are block diagrams that can act as introductions or
 indexes to the actual machine-readable and DRC'd schematics.
 
 * I2C subsystems: [marble_i2.eps](docs/marble2_i2c.eps)
+* Power Routing: [m_power.eps](docs/m_power.eps)
 
 These are EPS files, authored using [xcircuit](http://opencircuitdesign.com/xcircuit/).
 Maybe you want to use GhostView to look at them.
