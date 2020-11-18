@@ -3016,6 +3016,22 @@ F 3 "" H 1600 5900 50  0001 C CNN
 	1    1600 5900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector_Generic:TestPoint TP?
+U 1 1 5FC58449
+P 9500 7500
+AR Path="/5C16BF8E/5FC58449" Ref="TP?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5FC58449" Ref="TP?"  Part="1" 
+AR Path="/5BD32060/5FC58449" Ref="TP13"  Part="1" 
+F 0 "TP13" H 9558 7618 50  0000 L CNN
+F 1 "TestPoint" H 9558 7527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9700 7500 50  0001 C CNN
+F 3 "~" H 9700 7500 50  0001 C CNN
+	1    9500 7500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 7500 9500 7500
 Wire Bus Line
 	15000 950  15000 1250
 Wire Bus Line

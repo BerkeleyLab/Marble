@@ -5590,4 +5590,20 @@ Wire Wire Line
 	8650 4500 8650 9200
 NoConn ~ 8000 6300
 NoConn ~ 8000 6500
+$Comp
+L Connector_Generic:TestPoint TP?
+U 1 1 5FCD8B83
+P 6250 1900
+AR Path="/5C16BF8E/5FCD8B83" Ref="TP?"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5FCD8B83" Ref="TP?"  Part="1" 
+AR Path="/5C16C03C/5FCD8B83" Ref="TP15"  Part="1" 
+F 0 "TP15" H 6308 2018 50  0000 L CNN
+F 1 "TestPoint" H 6308 1927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6450 1900 50  0001 C CNN
+F 3 "~" H 6450 1900 50  0001 C CNN
+	1    6250 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 1900 6250 1900
 $EndSCHEMATC
