@@ -2754,22 +2754,22 @@ U 1 1 5DA37AF5
 P 5700 3300
 F 0 "C138" H 5850 3450 50  0000 C CNN
 F 1 "CC0402_2.2NF_50V_10%_X7R" H 5700 3040 60  0001 L CNN
-F 2 "CAPC1005X55N" H 5700 2230 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1005X55N" H 5700 2230 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X7R_PHYCOMP.pdf" H 5700 2860 60  0001 L CNN
 F 4 "2.2nF" H 5850 3150 50  0000 C CNN "~"
 F 5 "CC0402_2.2NF_50V_10%_X7R" H 5700 2770 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 5700 2680 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 5700 2590 60  0001 L CNN "Library Path"
-F 8 "=Value" H 5700 2500 60  0001 L CNN "Comment"
+F 8 "2.2nF" H 5700 2500 60  0001 L CNN "Comment"
 F 9 "Standard" H 5700 2410 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 5700 2320 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 5700 2140 60  0001 L CNN "Pin Count"
+F 11 "2" H 5700 2140 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 5700 2050 60  0001 L CNN "Footprint Path"
 F 13 "CAPC1005X55N" H 5700 1960 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 5700 1870 60  0001 L CNN "PackageDescription"
+F 14 " " H 5700 1870 60  0001 L CNN "PackageDescription"
 F 15 "2.2nF" H 5700 1780 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 5700 1690 60  0001 L CNN "Status"
-F 17 "~~" H 5700 1600 60  0001 L CNN "Status Comment"
+F 17 " " H 5700 1600 60  0001 L CNN "Status Comment"
 F 18 "50V" H 5700 1510 60  0001 L CNN "Voltage"
 F 19 "X7R" H 5700 1420 60  0001 L CNN "TC"
 F 20 "±10%" H 5700 1330 60  0001 L CNN "Tolerance"
@@ -2780,10 +2780,10 @@ F 24 "0402" H 5700 970 60  0001 L CNN "Case"
 F 25 "Yes" H 5700 880 60  0001 L CNN "Mounted"
 F 26 "No" H 5700 790 60  0001 L CNN "Socket"
 F 27 "Yes" H 5700 700 60  0001 L CNN "SMD"
-F 28 "~~" H 5700 610 60  0001 L CNN "PressFit"
+F 28 " " H 5700 610 60  0001 L CNN "PressFit"
 F 29 "No" H 5700 520 60  0001 L CNN "Sense"
-F 30 "~~" H 5700 430 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 5700 340 60  0001 L CNN "ComponentHeight"
+F 30 " " H 5700 430 60  0001 L CNN "Sense Comment"
+F 31 " " H 5700 340 60  0001 L CNN "ComponentHeight"
 F 32 "PHYCOMP" H 5700 250 60  0001 L CNN "Manufacturer1 Example"
 F 33 "223858715627" H 5700 160 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.55mm" H 5700 70  60  0001 L CNN "Manufacturer1 ComponentHeight"
@@ -2791,8 +2791,10 @@ F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X7R_PHYCOMP.pdf
 F 36 "CERN DEM JLC" H 5700 -110 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 5700 -200 60  0001 L CNN "CreateDate"
 F 38 "12/03/07 00:00:00" H 5700 -290 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 5700 -380 60  0001 L CNN "Library Name"
+F 39 "Capacitors.DbLib" H 5700 -380 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5700 -470 60  0001 L CNN "License"
+F 41 "Capacitors SMD" H 5700 3300 50  0001 C CNN "Database Table Name"
+F 42 "Capacitors SMD" H 5700 3300 50  0001 C CNN "Footprint Library"
 	1    5700 3300
 	1    0    0    -1  
 $EndComp

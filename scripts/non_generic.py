@@ -7,6 +7,7 @@ def non_generic(iname, oname, verbose=False):
     # Read mapping file
     manuf_ng = {}
     partn_ng = {}
+    done_list = {}
     with open("scripts/generic_subst", "r") as f:
         for ll in f.readlines():
             if ll[0] == "#":
@@ -32,8 +33,10 @@ def non_generic(iname, oname, verbose=False):
                     exit(1)
                 if manuf == "GENERIC":
                     try:
-                        pp = partn, manuf_ng[partn], partn_ng[partn]
-                        print("Substitution: %s => %s %s" % pp)
+                        flag = "  DUP!" if partn in done_list else ""
+                        done_list[partn] = True
+                        pp = partn, manuf_ng[partn], partn_ng[partn], flag
+                        print("Substitution: %s => %s %s%s" % pp)
                         row[1] = manuf_ng[partn]
                         row[2] = partn_ng[partn]
                     except Exception:

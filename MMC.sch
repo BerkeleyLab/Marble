@@ -448,22 +448,22 @@ U 1 1 5CAA1FB0
 P 2550 3300
 F 0 "C102" V 2654 3410 50  0000 L CNN
 F 1 "CC0402_100PF_50V_5%_C0G" H 2550 3040 60  0001 L CNN
-F 2 "CAPC1005X55N" H 2550 2230 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 2550 2860 60  0001 L CNN
+F 2 "Capacitors SMD:CAPC1005X55N" H 2550 2230 60  0001 L CNN
+F 3 " " H 2550 2860 60  0001 L CNN
 F 4 "100pF" V 2745 3410 50  0000 L CNN "~"
 F 5 "CC0402_100PF_50V_5%_C0G" H 2550 2770 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2550 2680 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Capacitors.SchLib" H 2550 2590 60  0001 L CNN "Library Path"
-F 8 "=Value" H 2550 2500 60  0001 L CNN "Comment"
+F 8 "100pF" H 2550 2500 60  0001 L CNN "Comment"
 F 9 "Standard" H 2550 2410 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 2550 2320 60  0001 L CNN "Component Type"
-F 11 "2.0000000000000000e+00" H 2550 2140 60  0001 L CNN "Pin Count"
+F 11 "2" H 2550 2140 60  0001 L CNN "Pin Count"
 F 12 "PcbLib\\Capacitors SMD.PcbLib" H 2550 2050 60  0001 L CNN "Footprint Path"
 F 13 "CAPC1005X55N" H 2550 1960 60  0001 L CNN "Footprint Ref"
-F 14 "~~" H 2550 1870 60  0001 L CNN "PackageDescription"
+F 14 " " H 2550 1870 60  0001 L CNN "PackageDescription"
 F 15 "100pF" H 2550 1780 60  0001 L CNN "Val"
 F 16 "Preferred" H 2550 1690 60  0001 L CNN "Status"
-F 17 "~~" H 2550 1600 60  0001 L CNN "Status Comment"
+F 17 " " H 2550 1600 60  0001 L CNN "Status Comment"
 F 18 "50V" H 2550 1510 60  0001 L CNN "Voltage"
 F 19 "C0G/NP0" H 2550 1420 60  0001 L CNN "TC"
 F 20 "±5%" H 2550 1330 60  0001 L CNN "Tolerance"
@@ -474,19 +474,20 @@ F 24 "0402" H 2550 970 60  0001 L CNN "Case"
 F 25 "Yes" H 2550 880 60  0001 L CNN "Mounted"
 F 26 "No" H 2550 790 60  0001 L CNN "Socket"
 F 27 "Yes" H 2550 700 60  0001 L CNN "SMD"
-F 28 "~~" H 2550 610 60  0001 L CNN "PressFit"
+F 28 " " H 2550 610 60  0001 L CNN "PressFit"
 F 29 "No" H 2550 520 60  0001 L CNN "Sense"
-F 30 "~~" H 2550 430 60  0001 L CNN "Sense Comment"
-F 31 "~~" H 2550 340 60  0001 L CNN "ComponentHeight"
+F 30 " " H 2550 430 60  0001 L CNN "Sense Comment"
+F 31 " " H 2550 340 60  0001 L CNN "ComponentHeight"
 F 32 "KEMET" H 2550 250 60  0001 L CNN "Manufacturer1 Example"
 F 33 "C0402C101J5GACTU" H 2550 160 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.55mm" H 2550 70  60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 2550 -20 60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 2550 -110 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 2550 -200 60  0001 L CNN "CreateDate"
-F 38 "04/22/15 00:00:00" H 2550 -290 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 2550 -380 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 -470 60  0001 L CNN "License"
+F 35 "CERN DEM JLC" H 2550 -110 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 2550 -200 60  0001 L CNN "CreateDate"
+F 37 "04/22/15 00:00:00" H 2550 -290 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors.DbLib" H 2550 -380 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 -470 60  0001 L CNN "License"
+F 40 "Capacitors SMD" H 2550 3300 50  0001 C CNN "Database Table Name"
+F 41 "Capacitors SMD" H 2550 3300 50  0001 C CNN "Footprint Library"
 	1    2550 3300
 	0    1    1    0   
 $EndComp
@@ -497,7 +498,7 @@ P 2000 3350
 F 0 "C93" V 2104 3460 50  0000 L CNN
 F 1 "CC0402_22PF_50V_5%_C0G" H 2000 3090 60  0001 L CNN
 F 2 "CAPC1005X55N" H 2000 2280 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 2000 2910 60  0001 L CNN
+F 3 " " H 2000 2910 60  0001 L CNN
 F 4 "22pF" V 2195 3460 50  0000 L CNN "~"
 F 5 "CC0402_22PF_50V_5%_C0G" H 2000 2820 60  0001 L CNN "Part Number"
 F 6 "Capacitor - non polarized" H 2000 2730 60  0001 L CNN "Library Ref"
@@ -529,13 +530,12 @@ F 31 "~~" H 2000 390 60  0001 L CNN "ComponentHeight"
 F 32 "KEMET" H 2000 300 60  0001 L CNN "Manufacturer1 Example"
 F 33 "C0402C220J5GACTU" H 2000 210 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.55mm" H 2000 120 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 2000 30  60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 2000 -60 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 2000 -150 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 2000 -240 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 2000 -330 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2000 -420 60  0001 L CNN "License"
-F 41 "dnf" V 2300 3550 50  0000 C CNN "config"
+F 35 "CERN DEM JLC" H 2000 -60 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 2000 -150 60  0001 L CNN "CreateDate"
+F 37 "12/03/07 00:00:00" H 2000 -240 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors SMD" H 2000 -330 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2000 -420 60  0001 L CNN "License"
+F 40 "dnf" V 2300 3550 50  0000 C CNN "config"
 	1    2000 3350
 	0    1    1    0   
 $EndComp
@@ -2565,12 +2565,11 @@ F 31 "~~" H 1500 390 60  0001 L CNN "ComponentHeight"
 F 32 "KEMET" H 1500 300 60  0001 L CNN "Manufacturer1 Example"
 F 33 "C0402C151J5GACTU" H 1500 210 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.55mm" H 1500 120 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_C0G_KEMET_(Commercial Grade).pdf" H 1500 30  60  0001 L CNN "HelpURL"
-F 36 "CERN DEM JLC" H 1500 -60 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 1500 -150 60  0001 L CNN "CreateDate"
-F 38 "04/22/15 00:00:00" H 1500 -240 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 1500 -330 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1500 -420 60  0001 L CNN "License"
+F 35 "CERN DEM JLC" H 1500 -60 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 1500 -150 60  0001 L CNN "CreateDate"
+F 37 "04/22/15 00:00:00" H 1500 -240 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors SMD" H 1500 -330 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1500 -420 60  0001 L CNN "License"
 	1    1500 3350
 	0    1    1    0   
 $EndComp
