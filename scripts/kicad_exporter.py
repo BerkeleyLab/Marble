@@ -33,6 +33,23 @@ class Kicad_exporter:
         self.board = board = pcbnew.LoadBoard(f_name)
         self.f_name = basename(f_name)
 
+        # Hack:  the file has SE55DE100 clearance set small enough to
+        # pass DRC, but for the Gerber export process it should be set
+        # to the actual desired value.
+        # Really only sets size of clearance circles where these nets
+        # cross power planes.  Programming hints from
+        # kicad.mmccoo.com/2017/04/18/modify-design-rules-from-python/
+        nc_name = "SE55DE100"
+        aa = board.GetDesignSettings().m_NetClasses.Find(nc_name)
+        if aa is None:
+            print("No %s net_class?" % nc_name)
+        else:
+            aa_old = aa.GetClearance()
+            aa_new = 222000  # according to Michal
+            aa_new = 200000  # lets ground plane connect between via pairs escaping FPGA
+            print("Adjusting %s clearance from %d to %d" % (nc_name, aa_old, aa_new))
+            aa.SetClearance(aa_new)
+
         if zone_refill:
             print('filling zones ...')
             zf = pcbnew.ZONE_FILLER(board)
