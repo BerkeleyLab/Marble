@@ -1548,13 +1548,13 @@ AR Path="/5C907554/5CC8CB69/5F188CA5" Ref="R?"  Part="1"
 AR Path="/5C907554/5C721515/5F188CA5" Ref="R6"  Part="1" 
 F 0 "R6" H 2650 6047 50  0000 C CNN
 F 1 "R0402_0R_JUMPER" H 2500 5655 50  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 2500 5580 50  0001 L CNN
+F 2 "RESC1005X40N" H 2500 5580 50  0001 L CNN
 F 3 " " H 2500 5505 50  0001 L CNN
 F 4 "0" H 2650 5956 50  0000 C CNN "Val"
 F 5 "R0402_0R_JUMPER" H 2500 5430 50  0001 L CNN "Part Number"
 F 6 "Resistor" H 2500 5355 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 2500 5280 50  0001 L CNN "Library Path"
-F 8 "0" H 2500 5205 50  0001 L CNN "Comment"
+F 8 "=Value" H 2500 5205 50  0001 L CNN "Comment"
 F 9 "Standard" H 2500 5130 50  0001 L CNN "Component Kind"
 F 10 "Standard" H 2500 5055 50  0001 L CNN "Component Type"
 F 11 " " H 2500 4980 50  0001 L CNN "PackageDescription"
@@ -1585,7 +1585,7 @@ F 35 "CERN DEM JLC" H 2500 3180 50  0001 L CNN "Author"
 F 36 "12/03/07 00:00:00" H 2500 3105 50  0001 L CNN "CreateDate"
 F 37 "10/17/12 00:00:00" H 2500 3030 50  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 2500 2955 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 2500 2880 50  0001 L CNN "Library Name"
+F 39 "Resistors SMD" H 2500 2880 50  0001 L CNN "Library Name"
 F 40 "Resistors SMD" H 2500 2805 50  0001 L CNN "Footprint Library"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2500 2730 50  0001 L CNN "License"
 	1    2500 5850
@@ -1766,13 +1766,13 @@ AR Path="/5C907554/5C417BCB/5F4C7872" Ref="R?"  Part="1"
 AR Path="/5C907554/5C721515/5F4C7872" Ref="R20"  Part="1" 
 F 0 "R20" V 5504 5710 50  0000 L CNN
 F 1 "R0402_4K7_1%_0.0625W_100PPM" H 5400 5440 60  0001 L CNN
-F 2 "RESC1005X40N" H 5400 4630 60  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 5400 4630 60  0001 L CNN
 F 3 "" H 5400 5260 60  0001 L CNN
 F 4 "4k7" V 5595 5710 50  0000 L CNN "~"
 F 5 "R0402_4K7_1%_0.0625W_100PPM" H 5400 5170 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 5400 5080 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 5400 4990 60  0001 L CNN "Library Path"
-F 8 "=Value" H 5400 4900 60  0001 L CNN "Comment"
+F 8 "4k7" H 5400 4900 60  0001 L CNN "Comment"
 F 9 "Standard" H 5400 4810 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 5400 4720 60  0001 L CNN "Component Type"
 F 11 "~~" H 5400 4540 60  0001 L CNN "PackageDescription"

@@ -2824,13 +2824,13 @@ AR Path="/5BD32060/5D535071" Ref="R?"  Part="1"
 AR Path="/5C16BF13/5D535071" Ref="R92"  Part="1" 
 F 0 "R92" H 4400 4350 50  0000 C CNN
 F 1 "R0402_240R_1%_0.0625W_100PPM" H 4250 4040 60  0001 L CNN
-F 2 "RESC1005X40N" H 4250 3230 60  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 4250 3230 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 4250 3860 60  0001 L CNN
 F 4 "240" H 4400 4150 50  0000 C CNN "~"
 F 5 "R0402_240R_1%_0.0625W_100PPM" H 4250 3770 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 4250 3680 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 4250 3590 60  0001 L CNN "Library Path"
-F 8 "=Value" H 4250 3500 60  0001 L CNN "Comment"
+F 8 "240" H 4250 3500 60  0001 L CNN "Comment"
 F 9 "Standard" H 4250 3410 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 4250 3320 60  0001 L CNN "Component Type"
 F 11 "~~" H 4250 3140 60  0001 L CNN "PackageDescription"
@@ -2875,13 +2875,13 @@ AR Path="/5BD32060/5D5502A2" Ref="R?"  Part="1"
 AR Path="/5C16BF13/5D5502A2" Ref="R93"  Part="1" 
 F 0 "R93" H 4400 5350 50  0000 C CNN
 F 1 "R0402_240R_1%_0.0625W_100PPM" H 4250 5040 60  0001 L CNN
-F 2 "RESC1005X40N" H 4250 4230 60  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 4250 4230 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 4250 4860 60  0001 L CNN
 F 4 "240" H 4400 5150 50  0000 C CNN "~"
 F 5 "R0402_240R_1%_0.0625W_100PPM" H 4250 4770 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 4250 4680 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 4250 4590 60  0001 L CNN "Library Path"
-F 8 "=Value" H 4250 4500 60  0001 L CNN "Comment"
+F 8 "240" H 4250 4500 60  0001 L CNN "Comment"
 F 9 "Standard" H 4250 4410 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 4250 4320 60  0001 L CNN "Component Type"
 F 11 "~~" H 4250 4140 60  0001 L CNN "PackageDescription"
@@ -2926,13 +2926,13 @@ AR Path="/5BD32060/5D557101" Ref="R?"  Part="1"
 AR Path="/5C16BF13/5D557101" Ref="R58"  Part="1" 
 F 0 "R58" V 2500 6550 50  0000 C CNN
 F 1 "R0402_240R_1%_0.0625W_100PPM" H 2300 6240 60  0001 L CNN
-F 2 "RESC1005X40N" H 2300 5430 60  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 2300 5430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 2300 6060 60  0001 L CNN
 F 4 "240" V 2400 6550 50  0000 C CNN "~"
 F 5 "R0402_240R_1%_0.0625W_100PPM" H 2300 5970 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 2300 5880 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 2300 5790 60  0001 L CNN "Library Path"
-F 8 "=Value" H 2300 5700 60  0001 L CNN "Comment"
+F 8 "240" H 2300 5700 60  0001 L CNN "Comment"
 F 9 "Standard" H 2300 5610 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 2300 5520 60  0001 L CNN "Component Type"
 F 11 "~~" H 2300 5340 60  0001 L CNN "PackageDescription"

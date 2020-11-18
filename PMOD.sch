@@ -582,13 +582,13 @@ AR Path="/5C907554/5CC8CB69/5F1E2EBD" Ref="R?"  Part="1"
 AR Path="/5BCEDA2C/5F1E2EBD" Ref="R4"  Part="1" 
 F 0 "R4" H 2700 1197 50  0000 C CNN
 F 1 "R0402_0R_JUMPER" H 2550 805 50  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 2550 730 50  0001 L CNN
+F 2 "RESC1005X40N" H 2550 730 50  0001 L CNN
 F 3 " " H 2550 655 50  0001 L CNN
 F 4 "0" H 2700 1106 50  0000 C CNN "Val"
 F 5 "R0402_0R_JUMPER" H 2550 580 50  0001 L CNN "Part Number"
 F 6 "Resistor" H 2550 505 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 2550 430 50  0001 L CNN "Library Path"
-F 8 "0" H 2550 355 50  0001 L CNN "Comment"
+F 8 "=Value" H 2550 355 50  0001 L CNN "Comment"
 F 9 "Standard" H 2550 280 50  0001 L CNN "Component Kind"
 F 10 "Standard" H 2550 205 50  0001 L CNN "Component Type"
 F 11 " " H 2550 130 50  0001 L CNN "PackageDescription"
@@ -619,7 +619,7 @@ F 35 "CERN DEM JLC" H 2550 -1670 50  0001 L CNN "Author"
 F 36 "12/03/07 00:00:00" H 2550 -1745 50  0001 L CNN "CreateDate"
 F 37 "10/17/12 00:00:00" H 2550 -1820 50  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 2550 -1895 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 2550 -1970 50  0001 L CNN "Library Name"
+F 39 "Resistors SMD" H 2550 -1970 50  0001 L CNN "Library Name"
 F 40 "Resistors SMD" H 2550 -2045 50  0001 L CNN "Footprint Library"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 -2120 50  0001 L CNN "License"
 	1    2550 1000
@@ -635,13 +635,13 @@ AR Path="/5C907554/5CC8CB69/5F1E60BE" Ref="R?"  Part="1"
 AR Path="/5BCEDA2C/5F1E60BE" Ref="R5"  Part="1" 
 F 0 "R5" H 2700 4647 50  0000 C CNN
 F 1 "R0402_0R_JUMPER" H 2550 4255 50  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 2550 4180 50  0001 L CNN
+F 2 "RESC1005X40N" H 2550 4180 50  0001 L CNN
 F 3 " " H 2550 4105 50  0001 L CNN
 F 4 "0" H 2700 4556 50  0000 C CNN "Val"
 F 5 "R0402_0R_JUMPER" H 2550 4030 50  0001 L CNN "Part Number"
 F 6 "Resistor" H 2550 3955 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 2550 3880 50  0001 L CNN "Library Path"
-F 8 "0" H 2550 3805 50  0001 L CNN "Comment"
+F 8 "=Value" H 2550 3805 50  0001 L CNN "Comment"
 F 9 "Standard" H 2550 3730 50  0001 L CNN "Component Kind"
 F 10 "Standard" H 2550 3655 50  0001 L CNN "Component Type"
 F 11 " " H 2550 3580 50  0001 L CNN "PackageDescription"
@@ -672,7 +672,7 @@ F 35 "CERN DEM JLC" H 2550 1780 50  0001 L CNN "Author"
 F 36 "12/03/07 00:00:00" H 2550 1705 50  0001 L CNN "CreateDate"
 F 37 "10/17/12 00:00:00" H 2550 1630 50  0001 L CNN "LatestRevisionDate"
 F 38 "Resistors SMD" H 2550 1555 50  0001 L CNN "Database Table Name"
-F 39 "Resistors.DbLib" H 2550 1480 50  0001 L CNN "Library Name"
+F 39 "Resistors SMD" H 2550 1480 50  0001 L CNN "Library Name"
 F 40 "Resistors SMD" H 2550 1405 50  0001 L CNN "Footprint Library"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 1330 50  0001 L CNN "License"
 	1    2550 4450
