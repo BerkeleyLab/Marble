@@ -639,7 +639,7 @@ F 2 "AG5300:AG5300" H 6700 8400 50  0001 L CNN
 F 3 "https://www.silvertel.com/images/datasheets/Ag5300-datasheet-smallest-30W-Power-Over-Ethernet-Plus-Module-PoEplusPD.pdf" H 6700 8300 50  0001 L CNN
 F 4 "Power-over-Ethernet Plus Module" H 6700 8200 50  0001 L CNN "Description"
 F 5 "14" H 6700 8100 50  0001 L CNN "Height"
-F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer_Name"
+F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer"
 F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer Part Number"
 	1    5550 8300
 	1    0    0    -1  
@@ -691,6 +691,7 @@ F 1 "1k@100MHz" V 4349 8650 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 4250 8650 50  0001 C CNN
 F 3 "~" H 4250 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4250 8650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TDK" H 4250 8650 50  0001 C CNN "Manufacturer"
 	1    4250 8650
 	0    -1   -1   0   
 $EndComp
@@ -711,6 +712,7 @@ F 1 "1k@100MHz" V 4849 8650 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 4750 8650 50  0001 C CNN
 F 3 "~" H 4750 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4750 8650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TDK" H 4750 8650 50  0001 C CNN "Manufacturer"
 	1    4750 8650
 	0    -1   -1   0   
 $EndComp
@@ -731,6 +733,7 @@ F 1 "1k@100MHz" V 5349 8650 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 5250 8650 50  0001 C CNN
 F 3 "~" H 5250 8650 50  0001 C CNN
 F 4 "MPZ2012S102A" V 5250 8650 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TDK" H 5250 8650 50  0001 C CNN "Manufacturer"
 	1    5250 8650
 	0    -1   -1   0   
 $EndComp
@@ -751,6 +754,7 @@ F 1 "1k@100MHz" V 4349 9050 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 4250 9050 50  0001 C CNN
 F 3 "~" H 4250 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4250 9050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TDK" H 4250 9050 50  0001 C CNN "Manufacturer"
 	1    4250 9050
 	0    -1   -1   0   
 $EndComp
@@ -771,6 +775,7 @@ F 1 "1k@100MHz" V 4849 9050 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 4750 9050 50  0001 C CNN
 F 3 "~" H 4750 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 4750 9050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TDK" H 4750 9050 50  0001 C CNN "Manufacturer"
 	1    4750 9050
 	0    -1   -1   0   
 $EndComp
@@ -791,6 +796,7 @@ F 1 "1k@100MHz" V 5349 9050 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 5250 9050 50  0001 C CNN
 F 3 "~" H 5250 9050 50  0001 C CNN
 F 4 "MPZ2012S102A" V 5250 9050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TDK" H 5250 9050 50  0001 C CNN "Manufacturer"
 	1    5250 9050
 	0    -1   -1   0   
 $EndComp
@@ -814,7 +820,8 @@ F 0 "D8" V 3554 8929 50  0000 L CNN
 F 1 "SMAJ58A" V 3645 8929 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:DIOM5226X262N" H 3600 8650 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3550 8850 50  0001 C CNN
-F 4 "SMAJ58A" H 3600 8850 50  0001 C CNN "Manufacturer Part Number"
+F 4 "SMAJ58A-13-F" H 3600 8850 50  0001 C CNN "Manufacturer Part Number"
+F 5 "DIODES INC" H 3600 8850 50  0001 C CNN "Manufacturer"
 	1    3600 8850
 	0    1    1    0   
 $EndComp

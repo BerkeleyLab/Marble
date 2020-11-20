@@ -92,6 +92,7 @@ F 1 "LM336M-2.5" V 2247 6930 60  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" H 2200 6900 60  0001 C CNN
 F 3 "" H 2200 6900 60  0000 C CNN
 F 4 "LM336M-2.5" V 2200 6900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 2200 6900 50  0001 C CNN "Manufacturer"
 	1    2200 6900
 	0    -1   -1   0   
 $EndComp
@@ -293,6 +294,7 @@ F 1 "LP5951MF-3.0/NOPB" H 2000 2583 60  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOT95P284X122-5N" H 2000 2583 60  0001 C CNN
 F 3 "" H 1700 2500 60  0000 C CNN
 F 4 "LP5951MF-3.0/NOPB" H 1700 2500 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 1700 2500 50  0001 C CNN "Manufacturer"
 	1    1700 2500
 	1    0    0    -1  
 $EndComp
@@ -329,6 +331,7 @@ F 1 "VM53S3-25.000-2.5/-30+75" H 4350 2033 60  0000 C CNN
 F 2 "ICs And Semiconductors SMD:OSCCC320X500X160-4N" H 4350 2033 60  0001 C CNN
 F 3 "" H 4050 1950 60  0000 C CNN
 F 4 "VM53S3-25.000-2.5/-30+75" H 4050 1950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnf" H 4350 1500 50  0000 C CNN "config"
 	1    4050 1950
 	1    0    0    -1  
 $EndComp
@@ -3445,8 +3448,8 @@ F 12 "Oscillator IVT3200C Serie, corner concave; 4 pin, 2.50mm L X 3.2mm W X 1.1
 F 13 "25MHz" H 4050 -520 60  0001 L CNN "Val"
 F 14 "~~" H 4050 -610 60  0001 L CNN "Status"
 F 15 "11pF 3.3V ±1ppm Surface Mount TCXO Voltage Controlled Oscillator (IT3200C Series)" H 4050 -700 60  0001 L CNN "Part Description"
-F 16 "RAKON" H 4050 -790 60  0001 L CNN "Manufacturer"
-F 17 "IVT3205CR 25.0 MHz or TXEAADSANF-25.000000" H 4050 -880 60  0001 L CNN "Manufacturer Part Number"
+F 16 "TAITIEN" H 4050 700 60  0000 L CNN "Manufacturer"
+F 17 "TXEAADSANF-25.000000" H 4050 610 60  0000 L CNN "Manufacturer Part Number"
 F 18 "4" H 4050 -970 60  0001 L CNN "Pin Count"
 F 19 "~~" H 4050 -1060 60  0001 L CNN "Case"
 F 20 "Yes" H 4050 -1150 60  0001 L CNN "Mounted"
@@ -3471,7 +3474,6 @@ F 38 "02/08/10 00:00:00" H 4050 -2770 60  0001 L CNN "CreateDate"
 F 39 "02/08/10 00:00:00" H 4050 -2860 60  0001 L CNN "LatestRevisionDate"
 F 40 "ICs And Semiconductors SMD" H 4050 -2950 60  0001 L CNN "Library Name"
 F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4050 -3040 60  0001 L CNN "License"
-F 42 "dnf" H 4350 700 50  0000 C CNN "config"
 	1    4050 1150
 	1    0    0    -1  
 $EndComp

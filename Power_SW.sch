@@ -283,7 +283,8 @@ F 0 "J9" H 3900 2900 50  0000 C CNN
 F 1 "2057-PH1-04-UA-ND" H 3700 2400 50  0000 C CNN
 F 2 "Connectors THD:SAMTEC_MTLW-104-07-L-S-250" H 3900 2700 50  0001 C CNN
 F 3 "~" H 3900 2700 50  0001 C CNN
-F 4 "2057-PH1-04-UA-ND" H 3900 2700 50  0001 C CNN "Manufacturer Part Number"
+F 4 "PH1-04-UA" H 3900 2700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Adam Tech" H 3900 2700 50  0001 C CNN "Manufacturer"
 	1    3900 2700
 	1    0    0    -1  
 $EndComp
@@ -6405,6 +6406,8 @@ F 0 "U47" H 7325 6825 50  0000 C CNN
 F 1 "TPS7A8901RTJT" H 7325 6734 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:QFN50P400X400X100-21N-S265" H 6700 6700 50  0001 C CNN
 F 3 "" H 6700 6700 50  0001 C CNN
+F 4 "TEXAS INSTRUMENTS" H 6700 6700 50  0001 C CNN "Manufacturer"
+F 5 "TPS7A8901RTJT" H 6700 6700 50  0001 C CNN "Manufacturer Part Number"
 	1    6700 6700
 	1    0    0    -1  
 $EndComp
@@ -7869,8 +7872,8 @@ F 4 "Switching Voltage Regulators 6V, 1.2 MHz, 3A Sync StepDown Convtr" H 10950 
 F 5 "1.6" H 10950 8900 50  0001 L CNN "Height"
 F 6 "946-MPM3830GQV-P" H 10950 8800 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=946-MPM3830GQV-P" H 10950 8700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Monolithic Power Systems (MPS)" H 10950 8600 50  0001 L CNN "Manufacturer_Name"
-F 9 "MPM3830GQV-P" H 10950 8500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "Monolithic Power Systems (MPS)" H 10950 8600 50  0001 L CNN "Manufacturer"
+F 9 "MPM3830GQV-P" H 10950 8500 50  0001 L CNN "Manufacturer Part Number"
 	1    9800 9100
 	1    0    0    -1  
 $EndComp

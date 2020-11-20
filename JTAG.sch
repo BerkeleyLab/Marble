@@ -1336,6 +1336,7 @@ F 1 "FTSH-105-01-L-DV-K-TR" H 5400 4600 50  0000 R CNN
 F 2 "SAMTEC SMD:SAMTEC_FTSH-105-01-L-DV-K" H 5600 3500 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 5200 2800 50  0001 C CNN
 F 4 "GRPB052VWQP-RC" H 5550 4050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "SULLINS" H 5550 4050 50  0001 C CNN "Manufacturer"
 	1    5550 4050
 	1    0    0    -1  
 $EndComp
@@ -3352,7 +3353,8 @@ F 0 "J6" H 7450 4150 50  0000 C CNN
 F 1 "2057-PH1-04-UA-ND" H 7750 3600 50  0000 C CNN
 F 2 "Connectors THD:SAMTEC_MTLW-104-07-L-S-250" H 7450 3950 50  0001 C CNN
 F 3 "~" H 7450 3950 50  0001 C CNN
-F 4 "2057-PH1-04-UA-ND" H 7450 3950 50  0001 C CNN "Manufacturer Part Number"
+F 4 "PH1-04-UA" H 7450 3950 50  0001 C CNN "Manufacturer Part Number"
+F 5 "Adam Tech" H 7450 3950 50  0001 C CNN "Manufacturer"
 	1    7450 3950
 	1    0    0    -1  
 $EndComp

@@ -22,6 +22,7 @@ F 1 "TCA9548ARGER" H 5150 3887 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:QFN50P400X400X100-25N-S220" H 5150 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 5200 3150 50  0001 C CNN
 F 4 "TCA9548ARGER" H 5150 2900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 5150 2900 50  0001 C CNN "Manufacturer"
 	1    5150 2900
 	1    0    0    -1  
 $EndComp

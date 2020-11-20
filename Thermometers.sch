@@ -22,6 +22,7 @@ F 1 "LM75AIMM/NOPB" H 7250 1400 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P490X109-8N" H 6900 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 6900 1850 50  0001 C CNN
 F 4 "LM75AIMM/NOPB" H 6900 1850 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 6900 1850 50  0001 C CNN "Manufacturer"
 	1    6900 1850
 	1    0    0    -1  
 $EndComp
@@ -141,6 +142,7 @@ F 1 "LM75AIMM/NOPB" H 7250 3300 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P490X109-8N" H 6900 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 6900 3750 50  0001 C CNN
 F 4 "LM75AIMM/NOPB" H 6900 3750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 6900 3750 50  0001 C CNN "Manufacturer"
 	1    6900 3750
 	1    0    0    -1  
 $EndComp
@@ -375,6 +377,7 @@ F 1 "STS8DN6LF6AG" H 6906 5705 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" H 6900 5675 50  0001 L CIN
 F 3 "www.st.com/resource/en/datasheet/CD00001537.pdf" H 6700 5750 50  0001 L CNN
 F 4 "STS8DN6LF6AG" H 6700 5750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "ST MICROELECTRONICS" H 6700 5750 50  0001 C CNN "Manufacturer"
 	1    6700 5750
 	1    0    0    -1  
 $EndComp
@@ -387,6 +390,7 @@ F 1 "STS8DN6LF6AG" H 8506 5705 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" H 8500 5675 50  0001 L CIN
 F 3 "www.st.com/resource/en/datasheet/CD00001537.pdf" H 8300 5750 50  0001 L CNN
 F 4 "STS8DN6LF6AG" H 8300 5750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "ST MICROELECTRONICS" H 8300 5750 50  0001 C CNN "Manufacturer"
 	2    8300 5750
 	1    0    0    -1  
 $EndComp

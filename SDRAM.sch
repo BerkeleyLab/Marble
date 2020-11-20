@@ -541,6 +541,7 @@ F 1 "TPS51200DRC" H 6600 8287 50  0000 C CNN
 F 2 "ICs_And_Semiconductors_SMD:TEXAS_DRC (S-PVSON-N10)" H 6600 8550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps51200.pdf" H 6600 8550 50  0001 C CNN
 F 4 "TPS51200DRC" H 6600 7700 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 6600 7700 50  0001 C CNN "Manufacturer"
 	1    6600 7700
 	1    0    0    -1  
 $EndComp
