@@ -1537,69 +1537,52 @@ Connection ~ 2500 7650
 $Comp
 L Resistors_SMD:R0402_0R_JUMPER R?
 U 1 1 5F188CA5
-P 3800 5850
+P 3900 5850
 AR Path="/5C907554/5CC8CB69/5F188CA5" Ref="R?"  Part="1" 
 AR Path="/5C907554/5C721515/5F188CA5" Ref="R6"  Part="1" 
-F 0 "R6" H 4100 5900 50  0000 C CNN
-F 1 "R0402_0R_JUMPER" H 3800 5655 50  0001 L CNN
-F 2 "RESC1005X40N" H 3800 5580 50  0001 L CNN
-F 3 " " H 3800 5505 50  0001 L CNN
-F 4 "0" H 3800 5900 50  0000 C CNN "Val"
-F 5 "R0402_0R_JUMPER" H 3800 5430 50  0001 L CNN "Part Number"
-F 6 "Resistor" H 3800 5355 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 3800 5280 50  0001 L CNN "Library Path"
-F 8 "=Value" H 3800 5205 50  0001 L CNN "Comment"
-F 9 "Standard" H 3800 5130 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 3800 5055 50  0001 L CNN "Component Type"
-F 11 " " H 3800 4980 50  0001 L CNN "PackageDescription"
-F 12 "2" H 3800 4905 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 3800 4830 50  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 3800 4755 50  0001 L CNN "Footprint Ref"
-F 15 "Not Recommended" H 3800 4680 50  0001 L CNN "Status"
-F 16 " " H 3800 4605 50  0001 L CNN "Power"
-F 17 " " H 3800 4530 50  0001 L CNN "TC"
-F 18 " " H 3800 4455 50  0001 L CNN "Voltage"
-F 19 " " H 3800 4380 50  0001 L CNN "Tolerance"
-F 20 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 3800 4305 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 3800 4230 50  0001 L CNN "Manufacturer"
-F 22 "R0402_0R_JUMPER" H 3800 4155 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0402" H 3800 4080 50  0001 L CNN "Case"
-F 24 "No" H 3800 4005 50  0001 L CNN "PressFit"
-F 25 "Yes" H 3800 3930 50  0001 L CNN "Mounted"
-F 26 " " H 3800 3855 50  0001 L CNN "Sense Comment"
-F 27 "No" H 3800 3780 50  0001 L CNN "Sense"
-F 28 " " H 3800 3705 50  0001 L CNN "Status Comment"
-F 29 "No" H 3800 3630 50  0001 L CNN "Socket"
-F 30 "Yes" H 3800 3555 50  0001 L CNN "SMD"
-F 31 " " H 3800 3480 50  0001 L CNN "ComponentHeight"
-F 32 "YAGEO PHYCOMP" H 3800 3405 50  0001 L CNN "Manufacturer1 Example"
-F 33 "232270591001L" H 3800 3330 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.4mm" H 3800 3255 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "CERN DEM JLC" H 3800 3180 50  0001 L CNN "Author"
-F 36 "12/03/07 00:00:00" H 3800 3105 50  0001 L CNN "CreateDate"
-F 37 "10/17/12 00:00:00" H 3800 3030 50  0001 L CNN "LatestRevisionDate"
-F 38 "Resistors SMD" H 3800 2955 50  0001 L CNN "Database Table Name"
-F 39 "Resistors SMD" H 3800 2880 50  0001 L CNN "Library Name"
-F 40 "Resistors SMD" H 3800 2805 50  0001 L CNN "Footprint Library"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3800 2730 50  0001 L CNN "License"
-	1    3800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F188CAB
-P 4250 5850
-AR Path="/5BD32060/5F188CAB" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/5F188CAB" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5F188CAB" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5CAAC367/5F188CAB" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5DCA928C/5E003981/5F188CAB" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C721515/5F188CAB" Ref="#PWR0582"  Part="1" 
-F 0 "#PWR0582" H 4250 5700 50  0001 C CNN
-F 1 "+3V3" H 4265 6023 50  0000 C CNN
-F 2 "" H 4250 5850 50  0001 C CNN
-F 3 "" H 4250 5850 50  0001 C CNN
-	1    4250 5850
+F 0 "R6" H 4200 5900 50  0000 C CNN
+F 1 "R0402_0R_JUMPER" H 3900 5655 50  0001 L CNN
+F 2 "RESC1005X40N" H 3900 5580 50  0001 L CNN
+F 3 " " H 3900 5505 50  0001 L CNN
+F 4 "0" H 3900 5900 50  0000 C CNN "Val"
+F 5 "R0402_0R_JUMPER" H 3900 5430 50  0001 L CNN "Part Number"
+F 6 "Resistor" H 3900 5355 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 3900 5280 50  0001 L CNN "Library Path"
+F 8 "=Value" H 3900 5205 50  0001 L CNN "Comment"
+F 9 "Standard" H 3900 5130 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 3900 5055 50  0001 L CNN "Component Type"
+F 11 " " H 3900 4980 50  0001 L CNN "PackageDescription"
+F 12 "2" H 3900 4905 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 3900 4830 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 3900 4755 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 3900 4680 50  0001 L CNN "Status"
+F 16 " " H 3900 4605 50  0001 L CNN "Power"
+F 17 " " H 3900 4530 50  0001 L CNN "TC"
+F 18 " " H 3900 4455 50  0001 L CNN "Voltage"
+F 19 " " H 3900 4380 50  0001 L CNN "Tolerance"
+F 20 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 3900 4305 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 3900 4230 50  0001 L CNN "Manufacturer"
+F 22 "R0402_0R_JUMPER" H 3900 4155 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 3900 4080 50  0001 L CNN "Case"
+F 24 "No" H 3900 4005 50  0001 L CNN "PressFit"
+F 25 "Yes" H 3900 3930 50  0001 L CNN "Mounted"
+F 26 " " H 3900 3855 50  0001 L CNN "Sense Comment"
+F 27 "No" H 3900 3780 50  0001 L CNN "Sense"
+F 28 " " H 3900 3705 50  0001 L CNN "Status Comment"
+F 29 "No" H 3900 3630 50  0001 L CNN "Socket"
+F 30 "Yes" H 3900 3555 50  0001 L CNN "SMD"
+F 31 " " H 3900 3480 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 3900 3405 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270591001L" H 3900 3330 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 3900 3255 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 3900 3180 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 3900 3105 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 3900 3030 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors SMD" H 3900 2955 50  0001 L CNN "Database Table Name"
+F 39 "Resistors SMD" H 3900 2880 50  0001 L CNN "Library Name"
+F 40 "Resistors SMD" H 3900 2805 50  0001 L CNN "Footprint Library"
+F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3900 2730 50  0001 L CNN "License"
+	1    3900 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2196,8 +2179,23 @@ Wire Wire Line
 Wire Wire Line
 	3800 8050 3800 7750
 Connection ~ 3950 8050
+$Comp
+L power:+1V5 #PWR?
+U 1 1 5FBFF00E
+P 4300 5850
+AR Path="/5BD32060/5FBFF00E" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C721515/5FBFF00E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4300 5700 50  0001 C CNN
+F 1 "+1V5" H 4315 6023 50  0000 C CNN
+F 2 "" H 4300 5850 50  0001 C CNN
+F 3 "" H 4300 5850 50  0001 C CNN
+	1    4300 5850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4100 5850 4250 5850
+	3800 5850 3900 5850
+Wire Wire Line
+	4200 5850 4300 5850
 Wire Bus Line
 	14350 850  14350 1150
 Wire Bus Line
