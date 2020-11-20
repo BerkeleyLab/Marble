@@ -1586,6 +1586,8 @@ F 0 "M2" H 8558 5146 50  0000 L CNN
 F 1 "Fan_Tacho_PC" H 8558 5055 50  0000 L CNN
 F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 8400 5060 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 8400 5060 50  0001 C CNN
+F 4 "SULLINS" H 8400 5150 50  0001 C CNN "Manufacturer"
+F 5 "SWR25X-NRTC-S03-ST-BA" H 8400 5150 50  0001 C CNN "Manufacturer Part Number"
 	1    8400 5150
 	1    0    0    -1  
 $EndComp
@@ -1597,6 +1599,8 @@ F 0 "M1" H 6958 5146 50  0000 L CNN
 F 1 "Fan_Tacho_PC" H 6958 5055 50  0000 L CNN
 F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 6800 5060 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 6800 5060 50  0001 C CNN
+F 4 "SULLINS" H 6800 5150 50  0001 C CNN "Manufacturer"
+F 5 "SWR25X-NRTC-S03-ST-BA" H 6800 5150 50  0001 C CNN "Manufacturer Part Number"
 	1    6800 5150
 	1    0    0    -1  
 $EndComp

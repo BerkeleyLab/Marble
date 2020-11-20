@@ -2078,6 +2078,7 @@ F 2 "Switches:PB_ALPS_SKHHLQA010" H 11950 1700 50  0001 C CNN
 F 3 "PB_ALPS_SKHHLQA010" H 11950 1700 50  0001 C CNN
 F 4 "SKHHLQA010" H 11950 1500 50  0001 C CNN "Manufacturer Part Number"
 F 5 "dnf" H 11950 1450 50  0000 C CNN "confing"
+F 6 "ALPS" H 11950 1500 50  0001 C CNN "Manufacturer"
 	1    11950 1500
 	-1   0    0    -1  
 $EndComp
@@ -2788,6 +2789,8 @@ F 0 "U54" H 7750 1411 50  0000 C CNN
 F 1 "STM32F207VCTx" H 7750 1320 50  0000 C CNN
 F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 7050 1700 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00237391.pdf" H 7750 4300 50  0001 C CNN
+F 4 "ST MICROELECTRONICS" H 7750 4300 50  0001 C CNN "Manufacturer"
+F 5 "STM32F207VCT6" H 7750 4300 50  0001 C CNN "Manufacturer Part Number"
 	1    7750 4300
 	1    0    0    -1  
 $EndComp
