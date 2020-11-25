@@ -37,7 +37,8 @@ KB=../KiBoM/KiBOM_CLI.py
 
 # ver needs to match the Rev attribute in .sch files
 # KiBoM seems to peek at that attribute when naming its output file
-ver="9"
+ver=`awk '/^Rev/{gsub("\"", "", $2); print $2}' $A.sch`
+echo "Found version name $ver in $A.sch"
 
 # Make sure we're running under bash so brace expansion works
 if ! test "`echo A{B,C}`" = "AB AC"; then
