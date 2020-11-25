@@ -4,7 +4,11 @@ LBNL: Dual FMC (HPC & LPC) NAD Carrier
 
 A general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications
 
-Status: under development
+Status: under development, prototype in testing
+
+## Basic Idea
+
+![block diagram](docs/block_k3.png)
 
 ## Tools
 
