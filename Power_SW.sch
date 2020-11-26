@@ -4701,7 +4701,7 @@ F 11 "50mm Pitch, Square; 44 Pin, 7.00mm L X 7.00mm W X 0.80mm H Body (W/Thermal
 F 12 "~~" H 6350 -3270 60  0001 L CNN "Status"
 F 13 "Quad Channel Digital PWM/PFM Proggrammable Power Management System" H 6350 -3360 60  0001 L CNN "Part Description"
 F 14 "EXAR" H 6350 -3450 60  0001 L CNN "Manufacturer"
-F 15 "XRP7724ILBTR-F" H 6350 -3540 60  0001 L CNN "Manufacturer Part Number"
+F 15 "XRP7724ILB-F" H 6350 -3540 60  0001 L CNN "Manufacturer Part Number"
 F 16 "45" H 6350 -3630 60  0001 L CNN "Pin Count"
 F 17 "QFN44" H 6350 -3720 60  0001 L CNN "Case"
 F 18 "Yes" H 6350 -3810 60  0001 L CNN "Mounted"

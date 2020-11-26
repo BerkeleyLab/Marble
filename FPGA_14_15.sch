@@ -2077,7 +2077,7 @@ F 11 "SOP, 20-Leads, Body 6.5x4.4mm, Pitch 0.65mm, IPC Medium Density" H 2600 21
 F 12 " " H 2600 2050 50  0001 L CNN "Status"
 F 13 "8-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" H 2600 1975 50  0001 L CNN "Part Description"
 F 14 "TEXAS INSTRUMENTS" H 2600 1900 50  0001 L CNN "Manufacturer"
-F 15 "TXB0108PW" H 2600 1825 50  0001 L CNN "Manufacturer Part Number"
+F 15 "TXB0108PWR" H 2600 1825 50  0001 L CNN "Manufacturer Part Number"
 F 16 "20" H 2600 1750 50  0001 L CNN "Pin Count"
 F 17 "TSSOP20" H 2600 1675 50  0001 L CNN "Case"
 F 18 "Yes" H 2600 1600 50  0001 L CNN "Mounted"
