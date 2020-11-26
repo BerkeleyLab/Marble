@@ -3,14 +3,18 @@
 import qrtools
 ss = "https://github.com/BerkeleyLab/Marble/releases/tag/v1.1"
 qr = qrtools.QR(ss, pixel_size=8, margin_size=3, level='L')
-qr.encode("mm_qr")  # sends 280 x 280 pixel result to mm_qr.png
+qr.encode("mm_qr")  # sends 312 x 312 pixel result to mm_qr.png
 
 # Next, use the "Bitmap to Component Converter" in the main KiCad project menu.
 # Load Bitmap and select mm_qr.png.
 # Choose 400 dpi to get a 19.8 mm output size,
 # and check "Negative" and "Front silk screen".
-# Export to Marble.pretty/qr_neg.kicad_mod
-# In Pcbnew, select the qr-codes on the top and bottom silkscreen layer
+# Export to logos/QR.kicad_mod
+# In Pcbnew, select the QR code on the top silkscreen layer
 # and choose `Update Footprint ...` from the context menu
 
-# Above instructions are tested with KiCad 5.1.5
+# Above instructions are tested with KiCad 5.1.8
+# Be aware of KiCAD issue #6514
+# https://gitlab.com/kicad/code/kicad/-/issues/6514
+# so if the results look corrupted, under KiCAD Preferences
+# select "Modern Toolset (Fallback)".
