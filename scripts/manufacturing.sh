@@ -2,26 +2,28 @@
 # run this script from the `Marble` project directory:
 # $ bash scripts/manufacturing.sh
 #
-# Versions tested on Debian Buster 2020-05-12:
-#  KiCad 5.1.6
+# Versions tested on Debian Buster 2020-11-25:
+#  KiCad 5.1.8 (previously OK with 5.1.5 and 5.1.6)
 #  KiBOM 1.8.0 (tested with commit baceef96)
 #
 # The export-steps have been scripted as far as reasonably possible with
-# Kicad 5.1.x, some files still need to be generated manually ...
+# Kicad 5.1.x, but some files still need to be generated manually ...
 #
 # Start the GUI with:
 #  kicad Marble.pro
 #
-# click schematic
+# Click schematic
 #  Tools / Generate Bill of Materials
 #    Make sure `Command line:` is empty
 #    Generate, Close
 #
-# click layout
-#    highly recommended to run DRC
-#
+# Click layout
+#  highly recommended to run DRC
 #  File / Fabrication Outputs / IPC-D-356 Netlist File ...
 #    Save
+#
+# OK (but not required) to exit the GUI at this point
+# Run this script
 #
 set -e
 # Assume kicad is in our $PATH
@@ -30,12 +32,20 @@ A=Marble
 KB=../KiBoM/KiBOM_CLI.py
 # KiBOM is cloned from
 # https://github.com/SchrodingersGat/KiBoM
+if ! test -r $KB; then
+  echo "KiBOM not found at $KB"
+  exit 1;
+fi
 
 # Make sure we're running under bash so brace expansion works
 if ! test "`echo A{B,C}`" = "AB AC"; then
   echo "Error, not running under bash"
   exit 1
 fi
+
+if git diff | grep -q .; then spec=xxxxxxxx; else spec=`git rev-parse --short=8 HEAD`; fi
+zipfile=marble-${spec}-fab.zip
+echo "Final .zip file will be named $zipfile"
 
 # remove any stray stale files
 rm -f marble*.dat
@@ -108,13 +118,13 @@ cp marble-stack.txt fab/marble-stack.txt
 (cat docs/README_fab.txt; cd fab; sha256sum marble-sha256.txt) > fab/README_fab.txt
 
 # Create the final zip file
-rm -f marble-fab.zip
-zip marble-fab.zip fab/*
+rm -f $zipfile
+zip $zipfile fab/*
 
 if true; then  # clean-up step, disable when debugging
   rm -f marble*.dat marble-xy.pos $A.d356 $A.xml "$bomfile" "${bomfile}.tmp" "$bomfile2"
   rm -rf PCB_layers fab
 fi
-# marble-fab.zip is the only generated file that should remain
-ls -l marble-fab.zip
+# marble-${spec}-fab.zip is the only generated file that should remain
+ls -l $zipfile
 echo DONE
