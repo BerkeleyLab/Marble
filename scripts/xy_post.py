@@ -2,14 +2,14 @@ import csv
 from sys import argv
 
 
-def xy_main(iname, oname, vers, verbose=False):
+def xy_main(iname, oname, verbose=False):
     # Output goes here
     fo = open(oname + "-xy.pos", "w")
     # Find out which refids made it to the KiBoM output file
     refids_keep = {}
     orders = {}
     order_count = 0
-    with open( "%s_bom_%s.csv" % (iname, vers), "r") as f:
+    with open( "%s_BOM.csv" % iname, "r") as f:
         reader = csv.reader(f)
         for row in reader:
             if len(row) > 3 and row[0][0] in "123456789":
@@ -81,6 +81,5 @@ def xy_main(iname, oname, vers, verbose=False):
 if __name__ == "__main__":
     iname = argv[1]
     oname = argv[2]
-    vers = argv[3]
-    verbose = len(argv) > 4
-    xy_main(iname, oname, vers, verbose=verbose)
+    verbose = len(argv) > 3
+    xy_main(iname, oname, verbose=verbose)

@@ -4,8 +4,7 @@
 #
 # Versions tested on Debian Buster 2020-05-12:
 #  KiCad 5.1.6
-#  KiBoM commit 38525f3  XXX port to 1.7.1
-#    (commit 38525f3 is not python3-compatible)
+#  KiBOM 1.8.0 (tested with commit baceef96)
 #
 # The export-steps have been scripted as far as reasonably possible with
 # Kicad 5.1.x, some files still need to be generated manually ...
@@ -26,19 +25,11 @@
 #
 set -e
 # Assume kicad is in our $PATH
-# The following setup unfortunately depends on where KiBoM is installed
+# The following setup unfortunately depends on where KiBOM is installed
 A=Marble
 KB=../KiBoM/KiBOM_CLI.py
-# KiBoM is cloned from
+# KiBOM is cloned from
 # https://github.com/SchrodingersGat/KiBoM
-# Then checkout commit 38525f3.  Master branch (as of July 10, 2019,
-# commit 5c25a8c) fails, see KiBoM issue #101
-#   https://github.com/SchrodingersGat/KiBoM/issues/101
-
-# ver needs to match the Rev attribute in .sch files
-# KiBoM seems to peek at that attribute when naming its output file
-ver=`awk '/^Rev/{gsub("\"", "", $2); print $2}' $A.sch`
-echo "Found version name $ver in $A.sch"
 
 # Make sure we're running under bash so brace expansion works
 if ! test "`echo A{B,C}`" = "AB AC"; then
@@ -49,12 +40,9 @@ fi
 # remove any stray stale files
 rm -f marble*.dat
 
-echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
-python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers
-
-# Check that all the right files are made
+# Check that all the GUI-generated files are made
 die=0
-for f in $A.{d356,xml} PCB_layers/$A-all.pos PCB_layers/$A-{B_Cu,B_Mask,B_Paste,B_SilkS,Edge_Cuts,F_Cu,F_Mask,F_Paste,F_SilkS,In{1,2,3,4,5,6,7,8,9,10}_Cu}.gbr PCB_layers/$A-{,N}PTH.drl; do
+for f in $A.{d356,xml}; do
   if ! test -r "$f"; then echo "missing: $f"; die=1;
   elif ! test "$f" = "`find \"$f\" -newer $A.kicad_pcb`"; then echo "stale:   $f"; die=1; else
   echo "OK:      $f"; fi
@@ -62,32 +50,43 @@ done
 if test $die = 1; then echo Aborting; exit 1; fi
 echo OK
 
-# Run KiBoM from the command line
-echo running KiBoM
-# for KiBom 38525f3 (untested)
-python2 $KB --cfg scripts/bom.ini $A.xml $A
-# for KiBom dae2583
-# python3 -m kibom --cfg scripts/bom.ini $A.xml .csv
-echo KiBoM complete
+echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
+python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers
+
+# Check that all the script-generated files are made
+die=0
+for f in PCB_layers/$A-all.pos PCB_layers/$A-{B_Cu,B_Mask,B_Paste,B_SilkS,Edge_Cuts,F_Cu,F_Mask,F_Paste,F_SilkS,In{1,2,3,4,5,6,7,8,9,10}_Cu}.gbr PCB_layers/$A-{,N}PTH.drl; do
+  if ! test -r "$f"; then echo "missing: $f"; die=1;
+  elif ! test "$f" = "`find \"$f\" -newer $A.kicad_pcb`"; then echo "stale:   $f"; die=1; else
+  echo "OK:      $f"; fi
+done
+if test $die = 1; then echo Aborting; exit 1; fi
+echo OK
+
+# Run KiBOM from the command line
+echo running KiBOM
+python3 $KB --cfg scripts/bom.ini $A.xml $A
+echo KiBOM complete
 
 # One more cross-check
-f=${A}_bom_${ver}.csv
-echo "$f"
-test -r "$f"
-test "$f" = "`find "$f" -newer $A.xml`"
+bomfile=${A}_BOM.csv
+bomfile2=${A}_BOMa.csv
+echo "$bomfile"
+test -r "$bomfile"
+test "$bomfile" = "`find "$bomfile" -newer $A.xml`"
 echo generated files are OK
 echo starting post-processing
 
 # Map generics to orderables
 # Implied dependence on file generic_subst
 test -r scripts/generic_subst
-python3 scripts/non_generic.py "$f" "${A}_bom_${ver}a.csv"
+python3 scripts/non_generic.py "$bomfile" "$bomfile2"
 
 # Additional postprocessing
-# input ${A}_bom_${ver}.csv $A-all.pos
+# input ${A}_BOM.csv $A-all.pos
 # output marble-xy.pos
-python3 scripts/xy_post.py ${A} marble "$ver" v > marble-stuff.log
-python3 scripts/xy_post.py ${A} marble "$ver"
+python3 scripts/xy_post.py ${A} marble v > marble-stuff.log
+python3 scripts/xy_post.py ${A} marble
 
 # Assemble files into fab directory
 rm -rf fab
@@ -98,7 +97,7 @@ for f in *.gbr *.drl; do
 done
 cd ..
 cp marble-xy.pos fab/marble-xy.pos
-cp "${A}_bom_${ver}a.csv" fab/marble-bom.csv
+cp "$bomfile2" fab/marble-bom.csv
 mv marble-stuff.log fab/
 cp $A.d356 fab/marble-ipc-d-356.txt
 cp marble-stack.txt fab/marble-stack.txt
@@ -113,7 +112,7 @@ rm -f marble-fab.zip
 zip marble-fab.zip fab/*
 
 if true; then  # clean-up step, disable when debugging
-  rm -f marble*.dat marble-xy.pos $A.d356 $A.xml "${A}_bom_${ver}.csv" "${A}_bom_${ver}.csv.tmp" "${A}_bom_${ver}a.csv"
+  rm -f marble*.dat marble-xy.pos $A.d356 $A.xml "$bomfile" "${bomfile}.tmp" "$bomfile2"
   rm -rf PCB_layers fab
 fi
 # marble-fab.zip is the only generated file that should remain
