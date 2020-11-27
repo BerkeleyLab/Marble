@@ -2848,97 +2848,97 @@ $EndComp
 $Comp
 L Logic:MT8JTF12864HZ-1G6G1 IC?
 U 2 1 5FAD9DFF
-P 3300 6350
+P 7700 900
 AR Path="/5FAD9DFF" Ref="IC?"  Part="2" 
 AR Path="/5BD32060/5FAD9DFF" Ref="IC1"  Part="2" 
-F 0 "IC1" H 4328 3700 50  0000 L CNN
-F 1 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 3300 975 50  0001 L CNN
-F 2 "ICs And Semiconductors SMD:SODIMM60P6760X3000X380-204" H 3300 900 50  0001 L CNN
-F 3 " " H 3300 825 50  0001 L CNN
-F 4 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 3300 750 50  0001 L CNN "Part Number"
-F 5 "MT8JTF12864HZ" H 3300 675 50  0001 L CNN "Library Ref"
-F 6 "SchLib\\Logic.SchLib" H 3300 600 50  0001 L CNN "Library Path"
-F 7 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 3300 525 50  0001 L CNN "Comment"
-F 8 "Standard" H 3300 450 50  0001 L CNN "Component Kind"
-F 9 "Standard" H 3300 375 50  0001 L CNN "Component Type"
-F 10 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 3300 300 50  0001 L CNN "Device"
-F 11 "SODIMM DDR3 204-Pin SDRAM Module, Body; 67.6mm L X 30mm W X 3.8mm H" H 3300 225 50  0001 L CNN "PackageDescription"
-F 12 " " H 3300 150 50  0001 L CNN "Status"
-F 13 "1Gb (128Mx64) SODIMM 204-Pin DDR3 SDRAM Module" H 3300 75  50  0001 L CNN "Part Description"
-F 14 "MICRON TECHNOLOGY" H 3300 0   50  0001 L CNN "Manufacturer"
-F 15 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 3300 -75 50  0001 L CNN "Manufacturer Part Number"
-F 16 "0" H 3300 -150 50  0001 L CNN "Pin Count"
-F 17 "SODIMM" H 3300 -225 50  0001 L CNN "Case"
-F 18 "Yes" H 3300 -300 50  0001 L CNN "Mounted"
-F 19 "No" H 3300 -375 50  0001 L CNN "Socket"
-F 20 "No" H 3300 -450 50  0001 L CNN "SMD"
-F 21 "No" H 3300 -525 50  0001 L CNN "PressFit"
-F 22 "No" H 3300 -600 50  0001 L CNN "Sense"
-F 23 "No" H 3300 -675 50  0001 L CNN "Bonding"
-F 24 " " H 3300 -750 50  0001 L CNN "Sense Comment"
-F 25 " " H 3300 -825 50  0001 L CNN "Status Comment"
-F 26 "3.8mm" H 3300 -900 50  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 3300 -975 50  0001 L CNN "Footprint Path"
-F 28 "SODIMM60P6760X3000X380-204" H 3300 -1050 50  0001 L CNN "Footprint Ref"
-F 29 " " H 3300 -1125 50  0001 L CNN "ComponentLink1Description"
-F 30 " " H 3300 -1200 50  0001 L CNN "ComponentLink2Description"
-F 31 "CERN DEM JLC" H 3300 -1275 50  0001 L CNN "Author"
-F 32 "08/09/12 00:00:00" H 3300 -1350 50  0001 L CNN "CreateDate"
-F 33 "08/09/12 00:00:00" H 3300 -1425 50  0001 L CNN "LatestRevisionDate"
-F 34 " " H 3300 -1500 50  0001 L CNN "SCEM"
-F 35 "Logic" H 3300 -1575 50  0001 L CNN "Database Table Name"
-F 36 "ICs And Semiconductors.DbLib" H 3300 -1650 50  0001 L CNN "Library Name"
-F 37 "ICs And Semiconductors SMD" H 3300 -1725 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3300 -1800 50  0001 L CNN "License"
-	2    3300 6350
+F 0 "IC1" H 8150 -4450 50  0000 L CNN
+F 1 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -4475 50  0001 L CNN
+F 2 "ICs And Semiconductors SMD:SODIMM60P6760X3000X380-204" H 7700 -4550 50  0001 L CNN
+F 3 " " H 7700 -4625 50  0001 L CNN
+F 4 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -4700 50  0001 L CNN "Part Number"
+F 5 "MT8JTF12864HZ" H 7700 -4775 50  0001 L CNN "Library Ref"
+F 6 "SchLib\\Logic.SchLib" H 7700 -4850 50  0001 L CNN "Library Path"
+F 7 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -4925 50  0001 L CNN "Comment"
+F 8 "Standard" H 7700 -5000 50  0001 L CNN "Component Kind"
+F 9 "Standard" H 7700 -5075 50  0001 L CNN "Component Type"
+F 10 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -5150 50  0001 L CNN "Device"
+F 11 "SODIMM DDR3 204-Pin SDRAM Module, Body; 67.6mm L X 30mm W X 3.8mm H" H 7700 -5225 50  0001 L CNN "PackageDescription"
+F 12 " " H 7700 -5300 50  0001 L CNN "Status"
+F 13 "1Gb (128Mx64) SODIMM 204-Pin DDR3 SDRAM Module" H 7700 -5375 50  0001 L CNN "Part Description"
+F 14 "MICRON TECHNOLOGY" H 7700 -5450 50  0001 L CNN "Manufacturer"
+F 15 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -5525 50  0001 L CNN "Manufacturer Part Number"
+F 16 "0" H 7700 -5600 50  0001 L CNN "Pin Count"
+F 17 "SODIMM" H 7700 -5675 50  0001 L CNN "Case"
+F 18 "Yes" H 7700 -5750 50  0001 L CNN "Mounted"
+F 19 "No" H 7700 -5825 50  0001 L CNN "Socket"
+F 20 "No" H 7700 -5900 50  0001 L CNN "SMD"
+F 21 "No" H 7700 -5975 50  0001 L CNN "PressFit"
+F 22 "No" H 7700 -6050 50  0001 L CNN "Sense"
+F 23 "No" H 7700 -6125 50  0001 L CNN "Bonding"
+F 24 " " H 7700 -6200 50  0001 L CNN "Sense Comment"
+F 25 " " H 7700 -6275 50  0001 L CNN "Status Comment"
+F 26 "3.8mm" H 7700 -6350 50  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 7700 -6425 50  0001 L CNN "Footprint Path"
+F 28 "SODIMM60P6760X3000X380-204" H 7700 -6500 50  0001 L CNN "Footprint Ref"
+F 29 " " H 7700 -6575 50  0001 L CNN "ComponentLink1Description"
+F 30 " " H 7700 -6650 50  0001 L CNN "ComponentLink2Description"
+F 31 "CERN DEM JLC" H 7700 -6725 50  0001 L CNN "Author"
+F 32 "08/09/12 00:00:00" H 7700 -6800 50  0001 L CNN "CreateDate"
+F 33 "08/09/12 00:00:00" H 7700 -6875 50  0001 L CNN "LatestRevisionDate"
+F 34 " " H 7700 -6950 50  0001 L CNN "SCEM"
+F 35 "Logic" H 7700 -7025 50  0001 L CNN "Database Table Name"
+F 36 "ICs And Semiconductors.DbLib" H 7700 -7100 50  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors SMD" H 7700 -7175 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7700 -7250 50  0001 L CNN "License"
+	2    7700 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Logic:MT8JTF12864HZ-1G6G1 IC?
 U 1 1 5FAD9DD6
-P 1850 6350
+P 2700 900
 AR Path="/5FAD9DD6" Ref="IC?"  Part="1" 
 AR Path="/5BD32060/5FAD9DD6" Ref="IC1"  Part="1" 
-F 0 "IC1" H 2878 3700 50  0000 L CNN
-F 1 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 1850 975 50  0001 L CNN
-F 2 "ICs And Semiconductors SMD:SODIMM60P6760X3000X380-204" H 1850 900 50  0001 L CNN
-F 3 " " H 1850 825 50  0001 L CNN
-F 4 "MT8JTF12864HZ-1G6G1" H 1850 750 50  0001 L CNN "Part Number"
-F 5 "MT8JTF12864HZ" H 1850 675 50  0001 L CNN "Library Ref"
-F 6 "SchLib\\Logic.SchLib" H 1850 600 50  0001 L CNN "Library Path"
-F 7 "MT8JTF12864HZ-1G6G1" H 1850 525 50  0001 L CNN "Comment"
-F 8 "Standard" H 1850 450 50  0001 L CNN "Component Kind"
-F 9 "Standard" H 1850 375 50  0001 L CNN "Component Type"
-F 10 "MT8JTF12864HZ-1G6G1" H 1850 300 50  0001 L CNN "Device"
-F 11 "SODIMM DDR3 204-Pin SDRAM Module, Body; 67.6mm L X 30mm W X 3.8mm H" H 1850 225 50  0001 L CNN "PackageDescription"
-F 12 " " H 1850 150 50  0001 L CNN "Status"
-F 13 "1Gb (128Mx64) SODIMM 204-Pin DDR3 SDRAM Module" H 1850 75  50  0001 L CNN "Part Description"
-F 14 "MICRON TECHNOLOGY" H 1850 0   50  0001 L CNN "Manufacturer"
-F 15 "MT8JTF12864HZ-1G6G1" H 1850 -75 50  0001 L CNN "Manufacturer Part Number"
-F 16 "0" H 1850 -150 50  0001 L CNN "Pin Count"
-F 17 "SODIMM" H 1850 -225 50  0001 L CNN "Case"
-F 18 "Yes" H 1850 -300 50  0001 L CNN "Mounted"
-F 19 "No" H 1850 -375 50  0001 L CNN "Socket"
-F 20 "No" H 1850 -450 50  0001 L CNN "SMD"
-F 21 "No" H 1850 -525 50  0001 L CNN "PressFit"
-F 22 "No" H 1850 -600 50  0001 L CNN "Sense"
-F 23 "No" H 1850 -675 50  0001 L CNN "Bonding"
-F 24 " " H 1850 -750 50  0001 L CNN "Sense Comment"
-F 25 " " H 1850 -825 50  0001 L CNN "Status Comment"
-F 26 "3.8mm" H 1850 -900 50  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 1850 -975 50  0001 L CNN "Footprint Path"
-F 28 "SODIMM60P6760X3000X380-204" H 1850 -1050 50  0001 L CNN "Footprint Ref"
-F 29 " " H 1850 -1125 50  0001 L CNN "ComponentLink1Description"
-F 30 " " H 1850 -1200 50  0001 L CNN "ComponentLink2Description"
-F 31 "CERN DEM JLC" H 1850 -1275 50  0001 L CNN "Author"
-F 32 "08/09/12 00:00:00" H 1850 -1350 50  0001 L CNN "CreateDate"
-F 33 "08/09/12 00:00:00" H 1850 -1425 50  0001 L CNN "LatestRevisionDate"
-F 34 " " H 1850 -1500 50  0001 L CNN "SCEM"
-F 35 "Logic" H 1850 -1575 50  0001 L CNN "Database Table Name"
-F 36 "ICs And Semiconductors.DbLib" H 1850 -1650 50  0001 L CNN "Library Name"
-F 37 "ICs And Semiconductors SMD" H 1850 -1725 50  0001 L CNN "Footprint Library"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1850 -1800 50  0001 L CNN "License"
-	1    1850 6350
+F 0 "IC1" H 3100 -4450 50  0000 L CNN
+F 1 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 2700 -4475 50  0001 L CNN
+F 2 "ICs And Semiconductors SMD:SODIMM60P6760X3000X380-204" H 2700 -4550 50  0001 L CNN
+F 3 " " H 2700 -4625 50  0001 L CNN
+F 4 "MT8JTF12864HZ-1G6G1" H 2700 -4700 50  0001 L CNN "Part Number"
+F 5 "MT8JTF12864HZ" H 2700 -4775 50  0001 L CNN "Library Ref"
+F 6 "SchLib\\Logic.SchLib" H 2700 -4850 50  0001 L CNN "Library Path"
+F 7 "MT8JTF12864HZ-1G6G1" H 2700 -4925 50  0001 L CNN "Comment"
+F 8 "Standard" H 2700 -5000 50  0001 L CNN "Component Kind"
+F 9 "Standard" H 2700 -5075 50  0001 L CNN "Component Type"
+F 10 "MT8JTF12864HZ-1G6G1" H 2700 -5150 50  0001 L CNN "Device"
+F 11 "SODIMM DDR3 204-Pin SDRAM Module, Body; 67.6mm L X 30mm W X 3.8mm H" H 2700 -5225 50  0001 L CNN "PackageDescription"
+F 12 " " H 2700 -5300 50  0001 L CNN "Status"
+F 13 "1Gb (128Mx64) SODIMM 204-Pin DDR3 SDRAM Module" H 2700 -5375 50  0001 L CNN "Part Description"
+F 14 "MICRON TECHNOLOGY" H 2700 -5450 50  0001 L CNN "Manufacturer"
+F 15 "MT8JTF12864HZ-1G6G1" H 2700 -5525 50  0001 L CNN "Manufacturer Part Number"
+F 16 "0" H 2700 -5600 50  0001 L CNN "Pin Count"
+F 17 "SODIMM" H 2700 -5675 50  0001 L CNN "Case"
+F 18 "Yes" H 2700 -5750 50  0001 L CNN "Mounted"
+F 19 "No" H 2700 -5825 50  0001 L CNN "Socket"
+F 20 "No" H 2700 -5900 50  0001 L CNN "SMD"
+F 21 "No" H 2700 -5975 50  0001 L CNN "PressFit"
+F 22 "No" H 2700 -6050 50  0001 L CNN "Sense"
+F 23 "No" H 2700 -6125 50  0001 L CNN "Bonding"
+F 24 " " H 2700 -6200 50  0001 L CNN "Sense Comment"
+F 25 " " H 2700 -6275 50  0001 L CNN "Status Comment"
+F 26 "3.8mm" H 2700 -6350 50  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 2700 -6425 50  0001 L CNN "Footprint Path"
+F 28 "SODIMM60P6760X3000X380-204" H 2700 -6500 50  0001 L CNN "Footprint Ref"
+F 29 " " H 2700 -6575 50  0001 L CNN "ComponentLink1Description"
+F 30 " " H 2700 -6650 50  0001 L CNN "ComponentLink2Description"
+F 31 "CERN DEM JLC" H 2700 -6725 50  0001 L CNN "Author"
+F 32 "08/09/12 00:00:00" H 2700 -6800 50  0001 L CNN "CreateDate"
+F 33 "08/09/12 00:00:00" H 2700 -6875 50  0001 L CNN "LatestRevisionDate"
+F 34 " " H 2700 -6950 50  0001 L CNN "SCEM"
+F 35 "Logic" H 2700 -7025 50  0001 L CNN "Database Table Name"
+F 36 "ICs And Semiconductors.DbLib" H 2700 -7100 50  0001 L CNN "Library Name"
+F 37 "ICs And Semiconductors SMD" H 2700 -7175 50  0001 L CNN "Footprint Library"
+F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2700 -7250 50  0001 L CNN "License"
+	1    2700 900 
 	1    0    0    -1  
 $EndComp
 $Comp

@@ -104,6 +104,56 @@ X 1 1 0 0 0 L 0 0 0 1 P
 ENDDRAW
 ENDDEF
 #
+# PLATED_HOLE3.0_PAD5.0
+#
+DEF PLATED_HOLE3.0_PAD5.0 B 0 50 Y Y 1 F N
+F0 "B" -50 0 50 H V R CNN
+F1 "PLATED_HOLE3.0_PAD5.0" 0 -155 50 H I L CNN
+F2 "Pads:MTG300_500" 0 -230 50 H I L CNN
+F3 "" 0 -305 50 H I L CNN
+F4 "Plated Hole" 0 0 50 H I C CNN "Family"
+F5 "PLATED_HOLE3.0_PAD5.0" 0 -380 50 H I L CNN "Part Number"
+F6 "Single Terminal Socket" 0 -455 50 H I L CNN "Library Ref"
+F7 "SchLib\\Pads.SchLib" 0 -530 50 H I L CNN "Library Path"
+F8 " " 0 -605 50 H I L CNN "Comment"
+F9 "Standard (No BOM)" 0 -680 50 H I L CNN "Component Kind"
+F10 "Standard (No BOM)" 0 -755 50 H I L CNN "Component Type"
+F11 "1" 0 -830 50 H I L CNN "Pin Count"
+F12 " " 0 -905 50 H I L CNN "Case"
+F13 "PcbLib\\Pads.PcbLib" 0 -980 50 H I L CNN "Footprint Path"
+F14 "MTG300_500" 0 -1055 50 H I L CNN "Footprint Ref"
+F15 "Plated Hole" 0 -1130 50 H I L CNN "Family"
+F16 "No" 0 -1205 50 H I L CNN "Mounted"
+F17 "No" 0 -1280 50 H I L CNN "Socket"
+F18 "No" 0 -1355 50 H I L CNN "SMD"
+F19 "No" 0 -1430 50 H I L CNN "Sense"
+F20 " " 0 -1505 50 H I L CNN "Sense Comment"
+F21 "None" 0 -1580 50 H I L CNN "Status"
+F22 " " 0 -1655 50 H I L CNN "Status Comment"
+F23 " " 0 -1730 50 H I L CNN "SCEM"
+F24 "Plated Through Hole: Hole Dia.=3.0mm Pad Dia.=6.0mm" 0 -1805 50 H I L CNN "Part Description"
+F25 " " 0 -1880 50 H I L CNN "Manufacturer"
+F26 " " 0 -1955 50 H I L CNN "Manufacturer Part Number"
+F27 "0mm" 0 -2030 50 H I L CNN "ComponentHeight"
+F28 " " 0 -2105 50 H I L CNN "Manufacturer1 Example"
+F29 " " 0 -2180 50 H I L CNN "Manufacturer1 Part Number"
+F30 " " 0 -2255 50 H I L CNN "Manufacturer1 ComponentHeight"
+F31 " " 0 -2330 50 H I L CNN "ComponentLink1Description"
+F32 " " 0 -2405 50 H I L CNN "ComponentLink2Description"
+F33 "CERN DEM JLC" 0 -2480 50 H I L CNN "Author"
+F34 "05/26/08 00:00:00" 0 -2555 50 H I L CNN "CreateDate"
+F35 "05/26/08 00:00:00" 0 -2630 50 H I L CNN "LatestRevisionDate"
+F36 "Plated Through Hole: Hole Dia.=3.0mm Pad Dia.=6.0mm" 0 -2705 50 H I L CNN "PackageDescription"
+F37 "Pads" 0 -2780 50 H I L CNN "Database Table Name"
+F38 "Eletro-mechanical.DbLib" 0 -2855 50 H I L CNN "Library Name"
+F39 "Pads" 0 -2930 50 H I L CNN "Footprint Library"
+F40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3005 50 H I L CNN "License"
+DRAW
+C 0 0 30 0 1 10 f
+X 1 1 0 0 0 L 0 0 0 1 P
+ENDDRAW
+ENDDEF
+#
 # PLATED_HOLE3.0_PAD6.0
 #
 DEF PLATED_HOLE3.0_PAD6.0 B 0 50 Y Y 1 L N

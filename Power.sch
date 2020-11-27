@@ -27,7 +27,7 @@ Text Label 2250 9350 0    50   ~ 10
 POE_VC2
 Text Label 2250 8950 0    50   ~ 10
 POE_VC3
-Text Label 2250 9950 0    50   ~ 10
+Text Label 2300 9950 0    50   ~ 10
 POE_VC4
 Wire Bus Line
 	2100 8250 2000 8250
@@ -649,10 +649,10 @@ L marble_misc:MB6S-Diode_Bridge D6
 U 1 1 5C35B2DE
 P 3250 8650
 F 0 "D6" H 3450 8800 50  0000 L CNN
-F 1 "MB210S-TP" H 2650 8800 50  0000 L CNN
+F 1 "KMB215STR" H 2650 8800 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC254P665X290-4N" H 3400 8775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 8650 50  0001 C CNN
-F 4 "KMB210STR" H 3250 8650 50  0001 C CNN "Manufacturer Part Number"
+F 4 "KMB215STR" H 3250 8650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "SMC" H 3250 8650 50  0001 C CNN "Manufacturer"
 	1    3250 8650
 	1    0    0    -1  
@@ -662,10 +662,10 @@ L marble_misc:MB6S-Diode_Bridge D7
 U 1 1 5C35B47B
 P 3250 9650
 F 0 "D7" H 3500 9750 50  0000 L CNN
-F 1 "MB210S-TP" H 2700 9850 50  0000 L CNN
+F 1 "KMB215STR" H 2700 9850 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOIC254P665X290-4N" H 3400 9775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 3250 9650 50  0001 C CNN
-F 4 "KMB210STR" H 3250 9650 50  0001 C CNN "Manufacturer Part Number"
+F 4 "KMB215STR" H 3250 9650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "SMC" H 3250 9650 50  0001 C CNN "Manufacturer"
 	1    3250 9650
 	1    0    0    -1  
