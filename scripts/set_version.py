@@ -1,13 +1,15 @@
 # Highly specialized program to update version and date in KiCAD .sch files
 # Fortunately it's really short.
-# still to-do: insert version into .kicad_pcb file
+# Suggest running this script, and committing the result,
+# in preparation for a release.
 from glob import glob
 from os import rename
 from sys import argv
 from datetime import datetime
+from re import sub
 
 
-def sch_version(f, new_veri, new_date):
+def sch_version(f, new_ver, new_date):
     print(f)
     of = open("temp", "w")
     for ll in open(f).readlines():
@@ -23,6 +25,20 @@ def sch_version(f, new_veri, new_date):
     rename("temp", f)
 
 
+def pcb_version(f, new_ver, new_date):
+    # still to-do: date?
+    print(f)
+    of = open("temp", "w")
+    for ll in open(f).readlines():
+        if 'gr_text "tag: ' in ll:
+            ll2 = sub(r'"tag: [^"]+"', '"tag: ' + new_ver + '"', ll)
+            of.write(ll2)
+        else:
+            of.write(ll)
+    of.close()
+    rename("temp", f)
+
+
 if __name__ == "__main__":
     if len(argv) < 2:
         print("no version")
@@ -31,3 +47,5 @@ if __name__ == "__main__":
     new_date = datetime.now().strftime('%Y-%m-%d')
     for f in glob("*.sch"):
         sch_version(f, new_ver, new_date)
+    for f in glob("*.kicad_pcb"):
+        pcb_version(f, new_ver, new_date)
