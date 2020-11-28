@@ -1,5 +1,6 @@
 *.bak
 *-bak
+*.bck
 *.dcm
 *.cmp
 *.log
