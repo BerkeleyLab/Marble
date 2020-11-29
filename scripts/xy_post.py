@@ -9,7 +9,7 @@ def xy_main(iname, oname, verbose=False):
     refids_keep = {}
     orders = {}
     order_count = 0
-    with open( "%s_BOM.csv" % iname, "r") as f:
+    with open("%s_BOM.csv" % iname, "r") as f:
         reader = csv.reader(f)
         for row in reader:
             if len(row) > 3 and row[0][0] in "123456789":
