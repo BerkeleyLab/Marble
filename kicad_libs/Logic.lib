@@ -38,10 +38,7 @@ F30 " " 0 -4750 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -4825 50 H I L CNN "Author"
 F32 "08/25/10 00:00:00" 0 -4900 50 H I L CNN "CreateDate"
 F33 "11/21/11 00:00:00" 0 -4975 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -5050 50 H I L CNN "SCEM"
-F35 "Logic" 0 -5125 50 H I L CNN "Database Table Name"
 F36 "ICs And Semiconductors.DbLib" 0 -5200 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -5275 50 H I L CNN "Footprint Library"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -5350 50 H I L CNN "License"
 DRAW
 S 0 -2400 1000 0 0 1 0 f
@@ -119,10 +116,7 @@ F30 " " 0 -7550 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -7625 50 H I L CNN "Author"
 F32 "08/09/12 00:00:00" 0 -7700 50 H I L CNN "CreateDate"
 F33 "08/09/12 00:00:00" 0 -7775 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -7850 50 H I L CNN "SCEM"
-F35 "Logic" 0 -7925 50 H I L CNN "Database Table Name"
 F36 "ICs And Semiconductors.DbLib" 0 -8000 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -8075 50 H I L CNN "Footprint Library"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -8150 50 H I L CNN "License"
 DRAW
 T 0 950 -5100 50 1 1 1 A0 Normal 0 R C

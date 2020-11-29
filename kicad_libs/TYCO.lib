@@ -40,9 +40,7 @@ F32 " " 0 -7700 50 H I L CNN "ComponentLink2Description"
 F33 "CERN DEM JLC" 0 -7775 50 H I L CNN "Author"
 F34 "08/08/12 00:00:00" 0 -7850 50 H I L CNN "CreateDate"
 F35 "08/08/12 00:00:00" 0 -7925 50 H I L CNN "LatestRevisionDate"
-F36 "Sockets" 0 -8000 50 H I L CNN "Database Table Name"
 F37 "Eletro-mechanical.DbLib" 0 -8075 50 H I L CNN "Library Name"
-F38 "Sockets" 0 -8150 50 H I L CNN "Footprint Library"
 F39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -8225 50 H I L CNN "License"
 DRAW
 T 900 500 -3300 70 1 1 1 DDR3 Normal 1 L C

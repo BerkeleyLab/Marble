@@ -38,9 +38,7 @@ F30 " " 0 -2750 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -2825 50 H I L CNN "Author"
 F32 "07/21/14 00:00:00" 0 -2900 50 H I L CNN "CreateDate"
 F33 "07/21/14 00:00:00" 0 -2975 50 H I L CNN "LatestRevisionDate"
-F34 "Optocouplers" 0 -3050 50 H I L CNN "Database Table Name"
 F35 "ICs And Semiconductors.DbLib" 0 -3125 50 H I L CNN "Library Name"
-F36 "ICs And Semiconductors SMD" 0 -3200 50 H I L CNN "Footprint Library"
 F37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3275 50 H I L CNN "License"
 DRAW
 S 0 -400 400 0 0 1 0 f

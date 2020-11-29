@@ -42,9 +42,7 @@ F34 "0.27mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "11/13/14 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "11/13/14 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -98,9 +96,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 60 -30 240 -30 N
@@ -153,9 +149,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -209,9 +203,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/12/13 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/03/15 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -265,9 +257,7 @@ F34 "0.35mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JMW" 0 -2670 50 H I L CNN "Author"
 F36 "09/22/15 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "09/22/15 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 0.1% Normal 0 C C
@@ -321,9 +311,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -377,9 +365,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -433,9 +419,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -489,9 +473,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -545,9 +527,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JMW" 0 -2670 50 H I L CNN "Author"
 F36 "07/06/15 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "07/06/15 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -601,9 +581,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -657,9 +635,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -713,9 +689,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -769,9 +743,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -825,9 +797,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -881,9 +851,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -937,9 +905,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -993,9 +959,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1049,9 +1013,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1105,9 +1067,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1161,9 +1121,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "02/03/15 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "02/03/15 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1217,9 +1175,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1273,9 +1229,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1329,9 +1283,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1385,9 +1337,7 @@ F34 "0.4mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "10/17/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1441,9 +1391,7 @@ F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 0.1% Normal 0 C C
@@ -1497,9 +1445,7 @@ F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 0.1% Normal 0 C C
@@ -1553,9 +1499,7 @@ F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 0.1% Normal 0 C C
@@ -1609,9 +1553,7 @@ F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 0.1% Normal 0 C C
@@ -1665,9 +1607,7 @@ F34 "0.55mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1721,9 +1661,7 @@ F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 0.1% Normal 0 C C
@@ -1777,9 +1715,7 @@ F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 0.1% Normal 0 C C
@@ -1833,9 +1769,7 @@ F34 "0.55mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "05/20/10 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "05/20/10 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -1889,9 +1823,7 @@ F34 "0.5mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "12/03/07 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "03/13/08 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 0.1% Normal 0 C C
@@ -1945,9 +1877,7 @@ F34 " " 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "05/11/10 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "09/03/12 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 1% Normal 0 C C
@@ -2001,9 +1931,7 @@ F34 " " 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "06/22/11 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
 F37 "11/20/15 00:00:00" 0 -2820 50 H I L CNN "LatestRevisionDate"
-F38 "Resistors SMD" 0 -2895 50 H I L CNN "Database Table Name"
 F39 "Resistors.DbLib" 0 -2970 50 H I L CNN "Library Name"
-F40 "Resistors SMD" 0 -3045 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3120 50 H I L CNN "License"
 DRAW
 T 0 150 0 25 1 0 1 5% Normal 0 C C

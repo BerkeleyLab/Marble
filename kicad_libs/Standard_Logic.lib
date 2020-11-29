@@ -38,10 +38,7 @@ F30 " " 0 -2610 50 H I L CNN "ComponentLink1Description"
 F31 " " 0 -2685 50 H I L CNN "ComponentLink2Description"
 F32 "03/03/10 00:00:00" 0 -2760 50 H I L CNN "CreateDate"
 F33 "03/03/10 00:00:00" 0 -2835 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -2910 50 H I L CNN "SCEM"
-F35 "Standard Logic" 0 -2985 50 H I L CNN "Database Table Name"
 F36 "ICs And Semiconductors.DbLib" 0 -3060 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -3135 50 H I L CNN "Footprint Library"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3210 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 0 -350 0 -50 N
@@ -91,10 +88,7 @@ F30 " " 0 -3350 50 H I L CNN "ComponentLink1Description"
 F31 " " 0 -3425 50 H I L CNN "ComponentLink2Description"
 F32 "07/07/14 00:00:00" 0 -3500 50 H I L CNN "CreateDate"
 F33 "03/30/17 00:00:00" 0 -3575 50 H I L CNN "LatestRevisionDate"
-F34 " " 0 -3650 50 H I L CNN "SCEM"
-F35 "Standard Logic" 0 -3725 50 H I L CNN "Database Table Name"
 F36 "ICs And Semiconductors.DbLib" 0 -3800 50 H I L CNN "Library Name"
-F37 "ICs And Semiconductors SMD" 0 -3875 50 H I L CNN "Footprint Library"
 F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3950 50 H I L CNN "License"
 DRAW
 S 0 -1000 600 0 0 1 0 f
