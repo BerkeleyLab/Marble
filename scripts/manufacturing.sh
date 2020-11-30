@@ -102,12 +102,15 @@ python3 scripts/xy_post.py ${A} marble
 rm -rf fab
 mkdir fab
 cd PCB_layers
-for f in *.gbr *.drl; do
-  cp $f ../fab/marble${f#$A}
+for f in *.gbr; do
+  sed -e '/TF.CreationDate/d' -e '/Created by KiCad/s/ date .*/*/' < $f > ../fab/marble${f#$A}
+done
+for f in *.drl; do
+  sed -e '/TF.CreationDate/d' -e '/ DRILL file /s/ date .*//' < $f > ../fab/marble${f#$A}
 done
 cd ..
-cp marble-xy.pos fab/marble-xy.pos
-cp "$bomfile2" fab/marble-bom.csv
+sed -e '/Module positions/s/ - created on .*/ ###/' < marble-xy.pos > fab/marble-xy.pos
+sed -e '/^BoM Date:/d' < "$bomfile2" > fab/marble-bom.csv
 mv marble-stuff.log fab/
 cp $A.d356 fab/marble-ipc-d-356.txt
 cp marble-stack.txt fab/marble-stack.txt
@@ -121,7 +124,7 @@ cp marble-stack.txt fab/marble-stack.txt
 rm -f $zipfile
 zip $zipfile fab/*
 
-if true; then  # clean-up step, disable when debugging
+if [ "$1" != "debug" ]; then  # clean-up step, can skip when debugging
   rm -f marble*.dat marble-xy.pos $A.d356 $A.xml "$bomfile" "${bomfile}.tmp" "$bomfile2"
   rm -rf PCB_layers fab
 fi
