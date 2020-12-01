@@ -26,6 +26,7 @@
 # Run this script
 #
 set -e
+export LC_COLLATE=C
 # Assume kicad is in our $PATH
 # The following setup unfortunately depends on where KiBOM is installed
 A=Marble
