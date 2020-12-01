@@ -43,7 +43,13 @@ if ! test "`echo A{B,C}`" = "AB AC"; then
   exit 1
 fi
 
-if git diff | grep -q .; then spec=xxxxxxxx; else spec=`git rev-parse --short=8 HEAD`; fi
+if git diff | grep -q .; then
+  spec=xxxxxxxx
+else
+  spec=`git rev-parse --short=8 HEAD`
+  SOURCE_DATE_EPOCH=`git log -1 --pretty=%ct`
+  # see https://reproducible-builds.org/docs/source-date-epoch/
+fi
 zipfile=marble-${spec}-fab.zip
 echo "Final .zip file will be named $zipfile"
 
@@ -122,7 +128,13 @@ cp marble-stack.txt fab/marble-stack.txt
 
 # Create the final zip file
 rm -f $zipfile
-zip $zipfile fab/*
+if test -n "$SOURCE_DATE_EPOCH"; then
+  echo "Forcing timestamp $SOURCE_DATE_EPOCH"
+  touch --date=@$SOURCE_DATE_EPOCH fab/*
+  zip --latest-time $zipfile fab/*
+else
+  zip $zipfile fab/*
+fi
 
 if [ "$1" != "debug" ]; then  # clean-up step, can skip when debugging
   rm -f marble*.dat marble-xy.pos $A.d356 $A.xml "$bomfile" "${bomfile}.tmp" "$bomfile2"
