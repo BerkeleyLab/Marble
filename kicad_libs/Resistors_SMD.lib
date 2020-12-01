@@ -1,18 +1,18 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# R0201_100R_1%_0.05W_200PPM
+# R0201_200R_1%_0.05W_200PPM
 #
-DEF R0201_100R_1%_0.05W_200PPM R 0 50 Y Y 1 L N
+DEF R0201_200R_1%_0.05W_200PPM R 0 50 Y Y 1 L N
 F0 "R" 150 70 50 H V C CNN
-F1 "R0201_100R_1%_0.05W_200PPM" 0 -195 50 H I L CNN
+F1 "R0201_200R_1%_0.05W_200PPM" 0 -195 50 H I L CNN
 F2 "Resistors SMD:RESC0603X28N" 0 -270 50 H I L CNN
 F3 " " 0 -345 50 H I L CNN
-F4 "100" 150 -70 50 H V C CNN "Val"
-F5 "R0201_100R_1%_0.05W_200PPM" 0 -420 50 H I L CNN "Part Number"
+F4 "200" 150 -70 50 H V C CNN "Val"
+F5 "R0201_200R_1%_0.05W_200PPM" 0 -420 50 H I L CNN "Part Number"
 F6 "Resistor - 1%" 0 -495 50 H I L CNN "Library Ref"
 F7 "SchLib\\Resistors.SchLib" 0 -570 50 H I L CNN "Library Path"
-F8 "100" 0 -645 50 H I L CNN "Comment"
+F8 "200" 0 -645 50 H I L CNN "Comment"
 F9 "Standard" 0 -720 50 H I L CNN "Component Kind"
 F10 "Standard" 0 -795 50 H I L CNN "Component Type"
 F11 " " 0 -870 50 H I L CNN "PackageDescription"
@@ -26,7 +26,7 @@ F18 " " 0 -1395 50 H I L CNN "Voltage"
 F19 "±1%" 0 -1470 50 H I L CNN "Tolerance"
 F20 "Thick Film Chip Resistor" 0 -1545 50 H I L CNN "Part Description"
 F21 "GENERIC" 0 -1620 50 H I L CNN "Manufacturer"
-F22 "R0201_100R_1%_0.05W_200PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
+F22 "R0201_200R_1%_0.05W_200PPM" 0 -1695 50 H I L CNN "Manufacturer Part Number"
 F23 "0201" 0 -1770 50 H I L CNN "Case"
 F24 "No" 0 -1845 50 H I L CNN "PressFit"
 F25 "Yes" 0 -1920 50 H I L CNN "Mounted"
@@ -37,7 +37,7 @@ F29 "No" 0 -2220 50 H I L CNN "Socket"
 F30 "Yes" 0 -2295 50 H I L CNN "SMD"
 F31 " " 0 -2370 50 H I L CNN "ComponentHeight"
 F32 "VISHAY" 0 -2445 50 H I L CNN "Manufacturer1 Example"
-F33 "CRCW0201100RFNED" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
+F33 "CRCW0201200RFNED" 0 -2520 50 H I L CNN "Manufacturer1 Part Number"
 F34 "0.27mm" 0 -2595 50 H I L CNN "Manufacturer1 ComponentHeight"
 F35 "CERN DEM JLC" 0 -2670 50 H I L CNN "Author"
 F36 "11/13/14 00:00:00" 0 -2745 50 H I L CNN "CreateDate"
