@@ -522,11 +522,11 @@ F 31 " " H 4300 2640 60  0001 L CNN "ComponentHeight"
 F 32 "AVX" H 4300 2550 60  0001 L CNN "Manufacturer1 Example"
 F 33 "02016D104KAT2A" H 4300 2460 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.33mm" H 4300 2370 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "CERN DEM JLC" H 4300 2190 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 4300 2100 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 4300 2010 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 4300 1920 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4300 1830 60  0001 L CNN "License"
+F 35 "CERN DEM JLC" H 4300 2190 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 4300 2100 60  0001 L CNN "CreateDate"
+F 37 "12/03/07 00:00:00" H 4300 2010 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors SMD" H 4300 1920 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4300 1830 60  0001 L CNN "License"
 	1    4300 5600
 	0    1    1    0   
 $EndComp
@@ -572,11 +572,11 @@ F 31 " " H 4300 40  60  0001 L CNN "ComponentHeight"
 F 32 "AVX" H 4300 -50 60  0001 L CNN "Manufacturer1 Example"
 F 33 "02016D104KAT2A" H 4300 -140 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.33mm" H 4300 -230 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "CERN DEM JLC" H 4300 -410 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 4300 -500 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 4300 -590 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 4300 -680 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4300 -770 60  0001 L CNN "License"
+F 35 "CERN DEM JLC" H 4300 -410 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 4300 -500 60  0001 L CNN "CreateDate"
+F 37 "12/03/07 00:00:00" H 4300 -590 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors SMD" H 4300 -680 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 4300 -770 60  0001 L CNN "License"
 	1    4300 3000
 	0    1    1    0   
 $EndComp

@@ -139,11 +139,11 @@ F 32 " " H 8300 -2200 60  0001 L CNN "ComponentHeight"
 F 33 "VISHAY" H 8300 -2290 60  0001 L CNN "Manufacturer1 Example"
 F 34 "CRCW0201200RFNED" H 8300 -2380 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.27mm" H 8300 -2470 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 37 "CERN DEM JLC" H 8300 -2650 60  0001 L CNN "Author"
-F 38 "11/13/14 00:00:00" H 8300 -2740 60  0001 L CNN "CreateDate"
-F 39 "11/13/14 00:00:00" H 8300 -2830 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 8300 -2920 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -3010 60  0001 L CNN "License"
+F 36 "CERN DEM JLC" H 8300 -2650 60  0001 L CNN "Author"
+F 37 "11/13/14 00:00:00" H 8300 -2740 60  0001 L CNN "CreateDate"
+F 38 "11/13/14 00:00:00" H 8300 -2830 60  0001 L CNN "LatestRevisionDate"
+F 39 "Resistors SMD" H 8300 -2920 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -3010 60  0001 L CNN "License"
 	1    8300 800 
 	1    0    0    -1  
 $EndComp
@@ -187,11 +187,11 @@ F 32 " " H 8300 -2100 60  0001 L CNN "ComponentHeight"
 F 33 "VISHAY" H 8300 -2190 60  0001 L CNN "Manufacturer1 Example"
 F 34 "CRCW0201200RFNED" H 8300 -2280 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.27mm" H 8300 -2370 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 37 "CERN DEM JLC" H 8300 -2550 60  0001 L CNN "Author"
-F 38 "11/13/14 00:00:00" H 8300 -2640 60  0001 L CNN "CreateDate"
-F 39 "11/13/14 00:00:00" H 8300 -2730 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 8300 -2820 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -2910 60  0001 L CNN "License"
+F 36 "CERN DEM JLC" H 8300 -2550 60  0001 L CNN "Author"
+F 37 "11/13/14 00:00:00" H 8300 -2640 60  0001 L CNN "CreateDate"
+F 38 "11/13/14 00:00:00" H 8300 -2730 60  0001 L CNN "LatestRevisionDate"
+F 39 "Resistors SMD" H 8300 -2820 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -2910 60  0001 L CNN "License"
 	1    8300 900 
 	1    0    0    -1  
 $EndComp

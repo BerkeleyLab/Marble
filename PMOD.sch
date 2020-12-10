@@ -621,8 +621,8 @@ F 34 "0.4mm" H 2550 -1595 50  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 2550 -1670 50  0001 L CNN "Author"
 F 36 "12/03/07 00:00:00" H 2550 -1745 50  0001 L CNN "CreateDate"
 F 37 "10/17/12 00:00:00" H 2550 -1820 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistors SMD" H 2550 -1970 50  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 -2120 50  0001 L CNN "License"
+F 38 "Resistors SMD" H 2550 -1970 50  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 -2120 50  0001 L CNN "License"
 	1    2550 1000
 	1    0    0    -1  
 $EndComp
@@ -672,8 +672,8 @@ F 34 "0.4mm" H 2550 1855 50  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 2550 1780 50  0001 L CNN "Author"
 F 36 "12/03/07 00:00:00" H 2550 1705 50  0001 L CNN "CreateDate"
 F 37 "10/17/12 00:00:00" H 2550 1630 50  0001 L CNN "LatestRevisionDate"
-F 39 "Resistors SMD" H 2550 1480 50  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 1330 50  0001 L CNN "License"
+F 38 "Resistors SMD" H 2550 1480 50  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2550 1330 50  0001 L CNN "License"
 	1    2550 4450
 	1    0    0    -1  
 $EndComp
@@ -742,11 +742,11 @@ F 31 " " H 3850 40  60  0001 L CNN "ComponentHeight"
 F 32 "AVX" H 3850 -50 60  0001 L CNN "Manufacturer1 Example"
 F 33 "02016D104KAT2A" H 3850 -140 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.33mm" H 3850 -230 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "CERN DEM JLC" H 3850 -410 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 3850 -500 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 3850 -590 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 3850 -680 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3850 -770 60  0001 L CNN "License"
+F 35 "CERN DEM JLC" H 3850 -410 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 3850 -500 60  0001 L CNN "CreateDate"
+F 37 "12/03/07 00:00:00" H 3850 -590 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors SMD" H 3850 -680 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3850 -770 60  0001 L CNN "License"
 	1    3850 3000
 	0    -1   1    0   
 $EndComp
@@ -809,11 +809,11 @@ F 31 " " H 3850 3490 60  0001 L CNN "ComponentHeight"
 F 32 "AVX" H 3850 3400 60  0001 L CNN "Manufacturer1 Example"
 F 33 "02016D104KAT2A" H 3850 3310 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.33mm" H 3850 3220 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "CERN DEM JLC" H 3850 3040 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 3850 2950 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 3850 2860 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 3850 2770 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3850 2680 60  0001 L CNN "License"
+F 35 "CERN DEM JLC" H 3850 3040 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 3850 2950 60  0001 L CNN "CreateDate"
+F 37 "12/03/07 00:00:00" H 3850 2860 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors SMD" H 3850 2770 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3850 2680 60  0001 L CNN "License"
 	1    3850 6450
 	0    -1   1    0   
 $EndComp
@@ -880,11 +880,11 @@ F 31 " " H 2450 3490 60  0001 L CNN "ComponentHeight"
 F 32 "AVX" H 2450 3400 60  0001 L CNN "Manufacturer1 Example"
 F 33 "02016D104KAT2A" H 2450 3310 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.33mm" H 2450 3220 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "CERN DEM JLC" H 2450 3040 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 2450 2950 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 2450 2860 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 2450 2770 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2450 2680 60  0001 L CNN "License"
+F 35 "CERN DEM JLC" H 2450 3040 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 2450 2950 60  0001 L CNN "CreateDate"
+F 37 "12/03/07 00:00:00" H 2450 2860 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors SMD" H 2450 2770 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2450 2680 60  0001 L CNN "License"
 	1    2450 6450
 	0    -1   1    0   
 $EndComp
@@ -947,11 +947,11 @@ F 31 " " H 2500 40  60  0001 L CNN "ComponentHeight"
 F 32 "AVX" H 2500 -50 60  0001 L CNN "Manufacturer1 Example"
 F 33 "02016D104KAT2A" H 2500 -140 60  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.33mm" H 2500 -230 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "CERN DEM JLC" H 2500 -410 60  0001 L CNN "Author"
-F 37 "12/03/07 00:00:00" H 2500 -500 60  0001 L CNN "CreateDate"
-F 38 "12/03/07 00:00:00" H 2500 -590 60  0001 L CNN "LatestRevisionDate"
-F 39 "Capacitors SMD" H 2500 -680 60  0001 L CNN "Library Name"
-F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2500 -770 60  0001 L CNN "License"
+F 35 "CERN DEM JLC" H 2500 -410 60  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 2500 -500 60  0001 L CNN "CreateDate"
+F 37 "12/03/07 00:00:00" H 2500 -590 60  0001 L CNN "LatestRevisionDate"
+F 38 "Capacitors SMD" H 2500 -680 60  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2500 -770 60  0001 L CNN "License"
 	1    2500 3000
 	0    -1   1    0   
 $EndComp
@@ -1001,8 +1001,8 @@ F 30 " " H 3050 -3350 50  0001 L CNN "ComponentLink2Description"
 F 31 " " H 3050 -3425 50  0001 L CNN "ComponentLink1Description"
 F 32 "04/01/16 00:00:00" H 3050 -3500 50  0001 L CNN "CreateDate"
 F 33 "04/01/16 00:00:00" H 3050 -3575 50  0001 L CNN "LatestRevisionDate"
-F 36 "ICs And Semiconductors.DbLib" H 3050 -3800 50  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3050 -3950 50  0001 L CNN "License"
+F 34 "ICs And Semiconductors.DbLib" H 3050 -3800 50  0001 L CNN "Library Name"
+F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3050 -3950 50  0001 L CNN "License"
 	1    3050 1100
 	1    0    0    -1  
 $EndComp
@@ -1044,8 +1044,8 @@ F 30 " " H 3050 100 50  0001 L CNN "ComponentLink2Description"
 F 31 " " H 3050 25  50  0001 L CNN "ComponentLink1Description"
 F 32 "04/01/16 00:00:00" H 3050 -50 50  0001 L CNN "CreateDate"
 F 33 "04/01/16 00:00:00" H 3050 -125 50  0001 L CNN "LatestRevisionDate"
-F 36 "ICs And Semiconductors.DbLib" H 3050 -350 50  0001 L CNN "Library Name"
-F 38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3050 -500 50  0001 L CNN "License"
+F 34 "ICs And Semiconductors.DbLib" H 3050 -350 50  0001 L CNN "Library Name"
+F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 3050 -500 50  0001 L CNN "License"
 	1    3050 4550
 	1    0    0    -1  
 $EndComp
