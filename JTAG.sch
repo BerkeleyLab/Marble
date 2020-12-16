@@ -1313,8 +1313,9 @@ F 0 "J14" H 5400 4700 50  0000 R CNN
 F 1 "FTSH-105-01-L-DV-K-TR" H 5400 4600 50  0000 R CNN
 F 2 "SAMTEC SMD:SAMTEC_FTSH-105-01-L-DV-K" H 5600 3500 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 5200 2800 50  0001 C CNN
-F 4 "GRPB052VWQP-RC" H 5550 4050 50  0001 C CNN "Manufacturer Part Number"
-F 5 "SULLINS" H 5550 4050 50  0001 C CNN "Manufacturer"
+F 4 "SAMTEC" H 5550 4050 50  0001 C CNN "Manufacturer"
+F 5 "FTSH-105-01-L-DV-K" H 5550 4050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Yes" H 5550 4050 50  0001 C CNN "SMD"
 	1    5550 4050
 	1    0    0    -1  
 $EndComp
