@@ -24,14 +24,14 @@ Overview of the process:
 Besides [KiCad](https://www.kicad.org/) itself, this requires installation of
 [KiBoM](https://github.com/SchrodingersGat/KiBoM) 1.8.0.
 
-While any KiCad version 5.1.x (x >= 5) is likely fine for viewing,
+While any KiCad version 5.1.x (x &ge; 5) is likely fine for viewing,
 and even editing and artifact-generation, we have taken steps to create
 [reproducible](https://reproducible-builds.org) fabrication artifacts.
 This means byte-for-byte identical zip files, independent of which person
 and computer runs the process.  For this to work, you need
 a specially patched version of KiCad 5.1.8.  This
 
-* (patch)[72610867-backport.diff]
+* [patch](72610867-backport.diff)
 
 is backported from the fix to KiCad [Issue #6553](https://gitlab.com/kicad/code/kicad/-/issues/6553).
 I personally build from the [source tarball](https://gitlab.com/kicad/code/kicad/-/archive/5.1.8/kicad-5.1.8.tar.gz)

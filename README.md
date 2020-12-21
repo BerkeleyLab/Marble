@@ -13,7 +13,7 @@ Status: under development, prototype in testing
 ## Tools
 
 The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
-version 5.1.8; you can feel comfortable using KiCad version 5.1.x, where x >= 5.
+version 5.1.8; you can feel comfortable using KiCad version 5.1.x, where x &ge; 5.
 Other versions will very likely either not read the files
 in this repo, or will save files that are not compatible with
 collaborators' reference installations.
