@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 '''
 Scripted pcbnew fabrication output.
-Generates gerber, drill and position files of a PCB.
+Generates Gerber, drill and position files of a PCB.
 '''
 import pcbnew
 import argparse
@@ -25,7 +25,7 @@ class Kicad_exporter:
     def __init__(self, f_name, plot_dir, zone_refill=True):
         '''
         f_name: the .kicad_pcb file to export
-        plot_dir: output directory for the gerber files
+        plot_dir: output directory for the Gerber files
         zone_refill: if True, re-calculate copper fills before plotting
         '''
         self.plot_dir = plot_dir
@@ -60,7 +60,7 @@ class Kicad_exporter:
         layers: list of layer names to plot
         '''
         # -----------------------
-        #  Generate gerber files
+        #  Generate Gerber files
         # -----------------------
         pctl = pcbnew.PLOT_CONTROLLER(self.board)
 

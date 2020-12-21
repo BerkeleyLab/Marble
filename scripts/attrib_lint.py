@@ -1,6 +1,6 @@
-# KiCAD schematic attribute linter
+# KiCad schematic attribute linter
 # checks component attributes in .sch files against contents of library
-# designed for KiCAD 5.1.x, i.e., EESchema Schematic File Version 4
+# designed for KiCad 5.1.x, i.e., EESchema Schematic File Version 4
 # assumes sym-lib-table is set up to find library foo in kicad_libs/foo.lib
 # those files have format EESchema-LIBRARY Version 2.4
 import csv
@@ -96,6 +96,6 @@ def process_sch(f):
 
 
 for fname in argv[1:]:
-    print("KiCAD schematic filename " + fname)
+    print("KiCad schematic filename " + fname)
     with open(fname, "r") as f:
         process_sch(f)

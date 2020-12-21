@@ -1,4 +1,4 @@
-# Highly specialized program to update version and date in KiCAD .sch files
+# Highly specialized program to update version and date in KiCad .sch files
 # Fortunately it's really short.
 # Suggest running this script, and committing the result,
 # in preparation for a release.

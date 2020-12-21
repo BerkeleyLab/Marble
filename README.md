@@ -13,11 +13,13 @@ Status: under development, prototype in testing
 ## Tools
 
 The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
-version 5.1.6.  Other versions will very likely either not read the files
+version 5.1.8; you can feel comfortable using KiCad version 5.1.x, where x >= 5.
+Other versions will very likely either not read the files
 in this repo, or will save files that are not compatible with
 collaborators' reference installations.
 We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
 
+See more comments about KiCad versions in [scripts/README.md](scripts/README.md).
 
 ## Major Parts
 

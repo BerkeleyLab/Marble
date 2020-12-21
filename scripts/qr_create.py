@@ -14,7 +14,7 @@ qr.encode("mm_qr")  # sends 312 x 312 pixel result to mm_qr.png
 # and choose `Update Footprint ...` from the context menu
 
 # Above instructions are tested with KiCad 5.1.8
-# Be aware of KiCAD issue #6514
+# Be aware of KiCad issue #6514
 # https://gitlab.com/kicad/code/kicad/-/issues/6514
-# so if the results look corrupted, under KiCAD Preferences
+# so if the results look corrupted, under KiCad Preferences
 # select "Modern Toolset (Fallback)".

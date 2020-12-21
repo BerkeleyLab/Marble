@@ -4,10 +4,10 @@
 #
 # Versions tested on Debian Buster 2020-11-25:
 #  KiCad 5.1.8 (previously OK with 5.1.5 and 5.1.6)
-#  KiBOM 1.8.0 (tested with commit baceef96)
+#  KiBoM 1.8.0 (tested with commit baceef96)
 #
 # The export-steps have been scripted as far as reasonably possible with
-# Kicad 5.1.x, but some files still need to be generated manually ...
+# KiCad 5.1.x, but some files still need to be generated manually ...
 #
 # Start the GUI with:
 #  kicad Marble.pro
@@ -28,13 +28,13 @@
 set -e
 export LC_COLLATE=C
 # Assume kicad is in our $PATH
-# The following setup unfortunately depends on where KiBOM is installed
+# The following setup unfortunately depends on where KiBoM is installed
 A=Marble
 KB=../KiBoM/KiBOM_CLI.py
-# KiBOM is cloned from
+# KiBoM is cloned from
 # https://github.com/SchrodingersGat/KiBoM
 if ! test -r $KB; then
-  echo "KiBOM not found at $KB"
+  echo "KiBoM not found at $KB"
   exit 1;
 fi
 
@@ -80,10 +80,10 @@ done
 if test $die = 1; then echo Aborting; exit 1; fi
 echo OK
 
-# Run KiBOM from the command line
-echo running KiBOM
+# Run KiBoM from the command line
+echo running KiBoM
 python3 $KB --cfg scripts/bom.ini $A.xml $A
-echo KiBOM complete
+echo KiBoM complete
 
 # One more cross-check
 bomfile=${A}_BOM.csv

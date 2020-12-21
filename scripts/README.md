@@ -5,7 +5,7 @@
 `convert docs/marble2_i2c.eps -scale 1330 marble2_i2c.png`
 before pasting into I2C_MUX.sch
 
-## QR code on silkcsreen
+## QR code on silkscreen
 
 See instructions in `qr_create.py`.
 
@@ -20,6 +20,24 @@ There are two GUI actions that must be performed by hand, before the script can 
 
 Overview of the process:
 ![process](../docs/manufacturing_scripts.png)
+
+Besides [KiCad](https://www.kicad.org/) itself, this requires installation of
+[KiBoM](https://github.com/SchrodingersGat/KiBoM) 1.8.0.
+
+While any KiCad version 5.1.x (x >= 5) is likely fine for viewing,
+and even editing and artifact-generation, we have taken steps to create
+[reproducible](https://reproducible-builds.org) fabrication artifacts.
+This means byte-for-byte identical zip files, independent of which person
+and computer runs the process.  For this to work, you need
+a specially patched version of KiCad 5.1.8.  This
+
+* (patch)[72610867-backport.diff]
+
+is backported from the fix to KiCad [Issue #6553](https://gitlab.com/kicad/code/kicad/-/issues/6553).
+I personally build from the [source tarball](https://gitlab.com/kicad/code/kicad/-/archive/5.1.8/kicad-5.1.8.tar.gz)
+in a [Debian Buster](https://www.debian.org/releases/buster/) [chroot](https://en.wikipedia.org/wiki/Chroot).
+If you build KiCad from git sources, you will have to fight the build system to keep the
+version string (embedded in the fabrication outputs) from identifying itself as "dirty".
 
 ## Xilinx constraint file
 
