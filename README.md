@@ -1,22 +1,25 @@
 # Marble board
 
-LBNL: Dual FMC (HPC & LPC) NAD/AMC Carrier
+LBNL: Dual FMC (HPC & LPC) NAD Carrier
 
 A general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications
 
-Status: under development
+Status: under development, prototype in testing
 
-## [Specifications](specs.md)
+## Basic Idea
 
+![block diagram](docs/block_k3.png)
 
 ## Tools
 
 The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
-version 5.1.5.  Other versions will very likely either not read the files
+version 5.1.8; you can feel comfortable using KiCad version 5.1.x, where x &ge; 5.
+Other versions will very likely either not read the files
 in this repo, or will save files that are not compatible with
 collaborators' reference installations.
 We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
 
+See more comments about KiCad versions in [scripts/README.md](scripts/README.md).
 
 ## Major Parts
 
@@ -29,19 +32,32 @@ We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
 * U35: Maxlinear [XRP7724](https://www.maxlinear.com/product/power-management/universal-pmics/universal-pmics/xrp7724) Quad PWM Power Controller
 * Y1: Taitien [TXEAADSANF-25.000000](https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf) 25 MHz VCTCXO
 
-## Xilinx constraint file
-
-Somewhat specialized tool for creating an xdc file for the Marble board, based on a netlist file exported from KiCad.
-In the KiCad (version 5.1.x) schematic GUI (eeschema): 
-* use menu picks Tools / Generate Netlist File
-* OrcadPCB2 tab / Generate Netlist / Save
-* result shows up as AMC_FMC_Carrier-PcbDoc.net
-* Finally from the command line run "python3 netlist_to_xdc AMC_FMC_Carrier-PcbDoc.net"
-* result shows up as Marble.xdc
-
 ## (Almost) Reality:
 
-![layout](marble_top.png)
+![layout](docs/marble_top.png)
+
+## Auxiliary documentation
+
+25-page schematics like this are a modern reality, but that doesn't mean they
+are easy to navigate.  To aid in understanding subsystems that are splattered
+over multiple sheets, here are block diagrams that can act as introductions or
+indexes to the actual machine-readable and DRC'd schematics.
+
+* I2C subsystems: [marble_i2.eps](docs/marble2_i2c.eps)
+* Power Routing: [m_power.eps](docs/m_power.eps)
+
+These are EPS files, authored using [xcircuit](http://opencircuitdesign.com/xcircuit/).
+Maybe you want to use GhostView to look at them.
+
+## Scripting and processing
+
+See the [scripts subdirectory](scripts) for
+instructions and helper scripts covering:
+
+* Updating the I2C subsystem diagram in schematics
+* Inserting QR code on silkcsreen
+* Generating artifacts for manufacturing
+* Generating Xilinx constraint file
 
 ## Special note about the prototype Marble-Mini
 

@@ -40,11 +40,7 @@ F32 " " 0 -2550 50 H I L CNN "ComponentLink2Description"
 F33 "CERN DEM JLC" 0 -2625 50 H I L CNN "Author"
 F34 "11/12/14 00:00:00" 0 -2700 50 H I L CNN "CreateDate"
 F35 "11/12/14 00:00:00" 0 -2775 50 H I L CNN "LatestRevisionDate"
-F36 " " 0 -2850 50 H I L CNN "CreateDate1"
-F37 " " 0 -2925 50 H I L CNN "LatestRevisionDate1"
-F38 "Diodes" 0 -3000 50 H I L CNN "Database Table Name"
 F39 "ICs And Semiconductors.DbLib" 0 -3075 50 H I L CNN "Library Name"
-F40 "ICs And Semiconductors SMD" 0 -3150 50 H I L CNN "Footprint Library"
 F41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3225 50 H I L CNN "License"
 DRAW
 P 2 0 1 10 100 0 200 0 N

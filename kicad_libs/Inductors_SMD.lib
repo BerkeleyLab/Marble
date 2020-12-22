@@ -37,9 +37,7 @@ F29 "0.65mm" 0 -2220 50 H I L CNN "ComponentHeight"
 F30 "CERN DEM JLC" 0 -2295 50 H I L CNN "Author"
 F31 "07/23/14 00:00:00" 0 -2370 50 H I L CNN "CreateDate"
 F32 "10/25/18 00:00:00" 0 -2445 50 H I L CNN "LatestRevisionDate"
-F33 "Inductors SMD" 0 -2520 50 H I L CNN "Database Table Name"
 F34 "Inductors & Transformers.DbLib" 0 -2595 50 H I L CNN "Library Name"
-F35 "Inductors SMD" 0 -2670 50 H I L CNN "Footprint Library"
 F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2745 50 H I L CNN "License"
 DRAW
 S 90 -35 210 -25 0 1 0 F
@@ -93,9 +91,7 @@ F29 "1.8mm" 0 -2220 50 H I L CNN "ComponentHeight"
 F30 "CERN DEM JLC" 0 -2295 50 H I L CNN "Author"
 F31 "12/02/09 00:00:00" 0 -2370 50 H I L CNN "CreateDate"
 F32 "12/02/09 00:00:00" 0 -2445 50 H I L CNN "LatestRevisionDate"
-F33 "Inductors SMD" 0 -2520 50 H I L CNN "Database Table Name"
 F34 "Inductors & Transformers.DbLib" 0 -2595 50 H I L CNN "Library Name"
-F35 "Inductors SMD" 0 -2670 50 H I L CNN "Footprint Library"
 F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2745 50 H I L CNN "License"
 DRAW
 S 90 -35 210 -25 0 1 0 F
@@ -149,9 +145,7 @@ F29 "6.5mm" 0 -2200 50 H I L CNN "ComponentHeight"
 F30 "CERN DEM JLC" 0 -2275 50 H I L CNN "Author"
 F31 "02/22/17 00:00:00" 0 -2350 50 H I L CNN "CreateDate"
 F32 "02/22/17 00:00:00" 0 -2425 50 H I L CNN "LatestRevisionDate"
-F33 "Inductors SMD" 0 -2500 50 H I L CNN "Database Table Name"
 F34 "Inductors & Transformers.DbLib" 0 -2575 50 H I L CNN "Library Name"
-F35 "Inductors SMD" 0 -2650 50 H I L CNN "Footprint Library"
 F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2725 50 H I L CNN "License"
 DRAW
 B 4 0 1 10 100 50 86 50 75 27 75 0 N
@@ -201,9 +195,7 @@ F29 "2mm" 0 -2200 50 H I L CNN "ComponentHeight"
 F30 "CERN DEM JLC" 0 -2275 50 H I L CNN "Author"
 F31 "07/10/14 00:00:00" 0 -2350 50 H I L CNN "CreateDate"
 F32 "07/10/14 00:00:00" 0 -2425 50 H I L CNN "LatestRevisionDate"
-F33 "Inductors SMD" 0 -2500 50 H I L CNN "Database Table Name"
 F34 "Inductors & Transformers.DbLib" 0 -2575 50 H I L CNN "Library Name"
-F35 "Inductors SMD" 0 -2650 50 H I L CNN "Footprint Library"
 F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2725 50 H I L CNN "License"
 DRAW
 P 2 0 1 0 70 70 230 70 N
@@ -254,9 +246,7 @@ F29 "4mm" 0 -2200 50 H I L CNN "ComponentHeight"
 F30 "CERN DEM JMW" 0 -2275 50 H I L CNN "Author"
 F31 "08/06/15 00:00:00" 0 -2350 50 H I L CNN "CreateDate"
 F32 "08/06/15 00:00:00" 0 -2425 50 H I L CNN "LatestRevisionDate"
-F33 "Inductors SMD" 0 -2500 50 H I L CNN "Database Table Name"
 F34 "Inductors & Transformers.DbLib" 0 -2575 50 H I L CNN "Library Name"
-F35 "Inductors SMD" 0 -2650 50 H I L CNN "Footprint Library"
 F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2725 50 H I L CNN "License"
 DRAW
 B 4 0 1 10 100 50 86 50 75 27 75 0 N
@@ -306,9 +296,7 @@ F29 "1mm" 0 -2200 50 H I L CNN "ComponentHeight"
 F30 "CERN DEM JLC" 0 -2275 50 H I L CNN "Author"
 F31 "10/20/16 00:00:00" 0 -2350 50 H I L CNN "CreateDate"
 F32 "10/20/16 00:00:00" 0 -2425 50 H I L CNN "LatestRevisionDate"
-F33 "Inductors SMD" 0 -2500 50 H I L CNN "Database Table Name"
 F34 "Inductors & Transformers.DbLib" 0 -2575 50 H I L CNN "Library Name"
-F35 "Inductors SMD" 0 -2650 50 H I L CNN "Footprint Library"
 F36 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -2725 50 H I L CNN "License"
 DRAW
 B 4 0 1 10 100 50 86 50 75 27 75 0 N

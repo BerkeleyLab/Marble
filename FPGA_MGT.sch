@@ -100,11 +100,11 @@ Wire Wire Line
 	8000 900  8300 900 
 Connection ~ 8000 900 
 $Comp
-L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R59
+L Resistors_SMD:R0201_200R_1%_0.05W_200PPM R59
 U 1 1 5DC80DBA
 P 8300 800
 F 0 "R59" H 8300 850 50  0000 C CNN
-F 1 "R0201_100R_1%_0.05W_200PPM" H 8300 590 60  0001 L CNN
+F 1 "R0201_200R_1%_0.05W_200PPM" H 8300 590 60  0001 L CNN
 F 2 "RESC0603X28N" H 8300 -220 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 410 60  0001 L CNN
 F 4 "200" H 8650 850 50  0000 C CNN "~"
@@ -114,15 +114,15 @@ F 7 "SchLib\\Resistors.SchLib" H 8300 140 60  0001 L CNN "Library Path"
 F 8 "=Value" H 8300 50  60  0001 L CNN "Comment"
 F 9 "Standard" H 8300 -40 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 8300 -130 60  0001 L CNN "Component Type"
-F 11 "~~" H 8300 -310 60  0001 L CNN "PackageDescription"
+F 11 " " H 8300 -310 60  0001 L CNN "PackageDescription"
 F 12 "2" H 8300 -400 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 8300 -490 60  0001 L CNN "Footprint Path"
 F 14 "RESC0603X28N" H 8300 -580 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 8300 -670 60  0001 L CNN "Val"
+F 15 "200" H 8300 -670 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8300 -760 60  0001 L CNN "Status"
 F 17 "0.05W" H 8300 -850 60  0001 L CNN "Power"
 F 18 "±200ppm/°C" H 8300 -940 60  0001 L CNN "TC"
-F 19 "~~" H 8300 -1030 60  0001 L CNN "Voltage"
+F 19 " " H 8300 -1030 60  0001 L CNN "Voltage"
 F 20 "±1%" H 8300 -1120 60  0001 L CNN "Tolerance"
 F 21 "Thick Film Chip Resistor" H 8300 -1210 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 8300 -1300 60  0001 L CNN "Manufacturer"
@@ -130,30 +130,29 @@ F 23 "R0201_200R_1%_0.05W_200PPM" H 8300 -1390 60  0001 L CNN "Manufacturer Part
 F 24 "0201" H 8300 -1480 60  0001 L CNN "Case"
 F 25 "No" H 8300 -1570 60  0001 L CNN "PressFit"
 F 26 "Yes" H 8300 -1660 60  0001 L CNN "Mounted"
-F 27 "~~" H 8300 -1750 60  0001 L CNN "Sense Comment"
+F 27 " " H 8300 -1750 60  0001 L CNN "Sense Comment"
 F 28 "No" H 8300 -1840 60  0001 L CNN "Sense"
-F 29 "~~" H 8300 -1930 60  0001 L CNN "Status Comment"
+F 29 " " H 8300 -1930 60  0001 L CNN "Status Comment"
 F 30 "No" H 8300 -2020 60  0001 L CNN "Socket"
 F 31 "Yes" H 8300 -2110 60  0001 L CNN "SMD"
-F 32 "~~" H 8300 -2200 60  0001 L CNN "ComponentHeight"
+F 32 " " H 8300 -2200 60  0001 L CNN "ComponentHeight"
 F 33 "VISHAY" H 8300 -2290 60  0001 L CNN "Manufacturer1 Example"
 F 34 "CRCW0201200RFNED" H 8300 -2380 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.27mm" H 8300 -2470 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 -2560 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 8300 -2650 60  0001 L CNN "Author"
-F 38 "11/13/14 00:00:00" H 8300 -2740 60  0001 L CNN "CreateDate"
-F 39 "11/13/14 00:00:00" H 8300 -2830 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 8300 -2920 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -3010 60  0001 L CNN "License"
+F 36 "CERN DEM JLC" H 8300 -2650 60  0001 L CNN "Author"
+F 37 "11/13/14 00:00:00" H 8300 -2740 60  0001 L CNN "CreateDate"
+F 38 "11/13/14 00:00:00" H 8300 -2830 60  0001 L CNN "LatestRevisionDate"
+F 39 "Resistors SMD" H 8300 -2920 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -3010 60  0001 L CNN "License"
 	1    8300 800 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0201_100R_1%_0.05W_200PPM R60
+L Resistors_SMD:R0201_200R_1%_0.05W_200PPM R60
 U 1 1 5DCA56EB
 P 8300 900
 F 0 "R60" H 8300 950 50  0000 C CNN
-F 1 "R0201_100R_1%_0.05W_200PPM" H 8300 690 60  0001 L CNN
+F 1 "R0201_200R_1%_0.05W_200PPM" H 8300 690 60  0001 L CNN
 F 2 "RESC0603X28N" H 8300 -120 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 510 60  0001 L CNN
 F 4 "200" H 8650 950 50  0000 C CNN "~"
@@ -163,15 +162,15 @@ F 7 "SchLib\\Resistors.SchLib" H 8300 240 60  0001 L CNN "Library Path"
 F 8 "=Value" H 8300 150 60  0001 L CNN "Comment"
 F 9 "Standard" H 8300 60  60  0001 L CNN "Component Kind"
 F 10 "Standard" H 8300 -30 60  0001 L CNN "Component Type"
-F 11 "~~" H 8300 -210 60  0001 L CNN "PackageDescription"
+F 11 " " H 8300 -210 60  0001 L CNN "PackageDescription"
 F 12 "2" H 8300 -300 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 8300 -390 60  0001 L CNN "Footprint Path"
 F 14 "RESC0603X28N" H 8300 -480 60  0001 L CNN "Footprint Ref"
-F 15 "100" H 8300 -570 60  0001 L CNN "Val"
+F 15 "200" H 8300 -570 60  0001 L CNN "Val"
 F 16 "Not Recommended" H 8300 -660 60  0001 L CNN "Status"
 F 17 "0.05W" H 8300 -750 60  0001 L CNN "Power"
 F 18 "±200ppm/°C" H 8300 -840 60  0001 L CNN "TC"
-F 19 "~~" H 8300 -930 60  0001 L CNN "Voltage"
+F 19 " " H 8300 -930 60  0001 L CNN "Voltage"
 F 20 "±1%" H 8300 -1020 60  0001 L CNN "Tolerance"
 F 21 "Thick Film Chip Resistor" H 8300 -1110 60  0001 L CNN "Part Description"
 F 22 "GENERIC" H 8300 -1200 60  0001 L CNN "Manufacturer"
@@ -179,21 +178,20 @@ F 23 "R0201_200R_1%_0.05W_200PPM" H 8300 -1290 60  0001 L CNN "Manufacturer Part
 F 24 "0201" H 8300 -1380 60  0001 L CNN "Case"
 F 25 "No" H 8300 -1470 60  0001 L CNN "PressFit"
 F 26 "Yes" H 8300 -1560 60  0001 L CNN "Mounted"
-F 27 "~~" H 8300 -1650 60  0001 L CNN "Sense Comment"
+F 27 " " H 8300 -1650 60  0001 L CNN "Sense Comment"
 F 28 "No" H 8300 -1740 60  0001 L CNN "Sense"
-F 29 "~~" H 8300 -1830 60  0001 L CNN "Status Comment"
+F 29 " " H 8300 -1830 60  0001 L CNN "Status Comment"
 F 30 "No" H 8300 -1920 60  0001 L CNN "Socket"
 F 31 "Yes" H 8300 -2010 60  0001 L CNN "SMD"
-F 32 "~~" H 8300 -2100 60  0001 L CNN "ComponentHeight"
+F 32 " " H 8300 -2100 60  0001 L CNN "ComponentHeight"
 F 33 "VISHAY" H 8300 -2190 60  0001 L CNN "Manufacturer1 Example"
 F 34 "CRCW0201200RFNED" H 8300 -2280 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.27mm" H 8300 -2370 60  0001 L CNN "Manufacturer1 ComponentHeight"
-F 36 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0201_VISHAY_CRCW e3.pdf" H 8300 -2460 60  0001 L CNN "HelpURL"
-F 37 "CERN DEM JLC" H 8300 -2550 60  0001 L CNN "Author"
-F 38 "11/13/14 00:00:00" H 8300 -2640 60  0001 L CNN "CreateDate"
-F 39 "11/13/14 00:00:00" H 8300 -2730 60  0001 L CNN "LatestRevisionDate"
-F 40 "Resistors SMD" H 8300 -2820 60  0001 L CNN "Library Name"
-F 41 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -2910 60  0001 L CNN "License"
+F 36 "CERN DEM JLC" H 8300 -2550 60  0001 L CNN "Author"
+F 37 "11/13/14 00:00:00" H 8300 -2640 60  0001 L CNN "CreateDate"
+F 38 "11/13/14 00:00:00" H 8300 -2730 60  0001 L CNN "LatestRevisionDate"
+F 39 "Resistors SMD" H 8300 -2820 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8300 -2910 60  0001 L CNN "License"
 	1    8300 900 
 	1    0    0    -1  
 $EndComp
@@ -205,6 +203,8 @@ F 0 "U1" H 2750 3317 50  0000 C CNN
 F 1 "XC7K160T-2FFG676C" H 2750 3226 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD_BGA:BGA676C100P26X26_2700X2700X260" H 2750 1950 50  0001 C CNN
 F 3 "" H 2750 1950 50  0000 C CNN
+F 4 "XILINX" H 2750 1950 50  0001 C CNN "Manufacturer"
+F 5 "XC7K160T-2FFG676C" H 2750 1950 50  0001 C CNN "Manufacturer Part Number"
 	5    2750 1950
 	1    0    0    -1  
 $EndComp

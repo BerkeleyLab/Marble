@@ -1,5 +1,5 @@
-# Maniuplates a KiCAD desgin to put rescue symbols into a library
-# While pieces of this program might be reused, this specificially targets
+# Manipulates a KiCad design to put rescue symbols into a library
+# While pieces of this program might be reused, this specifically targets
 # https://github.com/BerkeleyLab/Marble
 # commit f815339cb69ce2841891022435b374af312367b9
 
@@ -87,7 +87,7 @@ def select_dest(pp):
         try:
             chk1 = open(libname, "r")
             chk1.close()
-            # FIle already existed, so open as append, and don't put in header
+            # File already existed, so open as append, and don't put in header
             # You probably want to rm kicad_libs/* before running this program
             print("Extending " + pp)
             outfile = open(libname, "a")
