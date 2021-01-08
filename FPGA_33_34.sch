@@ -2172,6 +2172,8 @@ Wire Wire Line
 	3800 5850 3900 5850
 Wire Wire Line
 	4200 5850 4300 5850
+Text Label 5750 7450 0    50   ~ 10
+LD17_T
 Wire Bus Line
 	14350 850  14350 1150
 Wire Bus Line
@@ -2182,4 +2184,6 @@ Wire Bus Line
 	14350 1300 14350 2900
 Wire Bus Line
 	14350 5600 14350 8800
+Text Label 5750 6050 0    50   ~ 10
+LD16_T
 $EndSCHEMATC
