@@ -22,7 +22,7 @@ F 1 "10103594-0001LF" H 1700 2510 60  0001 L CNN
 F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 1700 1610 60  0001 L CNN
 F 3 "" H 1700 2330 60  0001 L CNN
 F 4 "Micro-USB AB 2.0" H 1650 2650 50  0000 L CNN "~"
-F 5 "10103594-0001LF" H 1700 2240 60  0001 L CNN "Part Number"
+F 5 "HIROSE_ZX62RD-AB-5P8" H 1700 2240 60  0001 L CNN "Part Number"
 F 6 "Connector USB 5 Pin + 1Shield" H 1700 2150 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Connectors.SchLib" H 1700 2060 60  0001 L CNN "Library Path"
 F 8 "=Family" H 1700 1970 60  0001 L CNN "Comment"
@@ -44,7 +44,7 @@ F 23 " " H 1700 530 60  0001 L CNN "Sense Comment"
 F 24 " " H 1700 440 60  0001 L CNN "Status Comment"
 F 25 "Obsolete" H 1700 350 60  0001 L CNN "Status"
 F 26 "Micro-USB 2.0 Right Angle, SMD Type AB - Reverse (Top mount), Shell Through Hole" H 1700 170 60  0001 L CNN "Part Description"
-F 27 "HIROSE (HRS)" H 1700 80  60  0001 L CNN "Manufacturer"
+F 27 "AMP" H 1700 80  60  0001 L CNN "Manufacturer"
 F 28 "10103594-0001LF" H 1700 -10 60  0001 L CNN "Manufacturer Part Number"
 F 29 "2.35mm" H 1700 -100 60  0001 L CNN "ComponentHeight"
 F 30 "Package-Drawing" H 1700 -370 60  0001 L CNN "ComponentLink1Description"

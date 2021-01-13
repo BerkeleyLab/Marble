@@ -19,7 +19,7 @@ F11 "QFN, 0.50mm Pitch, Square; 56 Pin, 8.00mm L X 8.00mm W X 1.00mm H Body (4.3
 F12 " " 0 -2500 50 H I L CNN "Status"
 F13 "Alaska Integrated 10/100/1000 Mbps Energy Efficient Ethernet Transceiver" 0 -2575 50 H I L CNN "Part Description"
 F14 "MARVELL TECHNOLOGY" 0 -2650 50 H I L CNN "Manufacturer"
-F15 "88E1512-XX-NNP2I000" 0 -2725 50 H I L CNN "Manufacturer Part Number"
+F15 "88E1512-A0-NNP2I000" 0 -2725 50 H I L CNN "Manufacturer Part Number"
 F16 "57" 0 -2800 50 H I L CNN "Pin Count"
 F17 "QFN56" 0 -2875 50 H I L CNN "Case"
 F18 "Yes" 0 -2950 50 H I L CNN "Mounted"
