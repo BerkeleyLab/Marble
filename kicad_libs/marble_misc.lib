@@ -117,20 +117,20 @@ X ADJ 9 1350 -450 200 L 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #
-# BELFUSE_0826-1X1T-HS-F-Miscellaneous
+# BELFUSE_0826-1X1T-80-F-Miscellaneous
 #
-DEF BELFUSE_0826-1X1T-HS-F-Miscellaneous J 0 60 Y Y 1 F N
+DEF BELFUSE_0826-1X1T-80-F-Miscellaneous J 0 60 Y Y 1 F N
 F0 "J" 900 50 50 H V C CNN
-F1 "BELFUSE_0826-1X1T-HS-F-Miscellaneous" 900 -3050 50 H V C CNN
+F1 "BELFUSE_0826-1X1T-80-F-Miscellaneous" 900 -3050 50 H V C CNN
 F2 "Miscellaneous THD:BELFUSE_0826-1X1T-80-F" 0 -3150 60 H I L CNN
 F3 "" 0 -3220 60 H I L CNN
-F4 "BELFUSE_0826-1X1T-HS-F" 0 -3310 60 H I L CNN "Part Number"
-F5 "BELFUSE_0826-1X1T-HS-F" 0 -3400 60 H I L CNN "Library Ref"
+F4 "BELFUSE_0826-1X1T-GH-F" 0 -3310 60 H I L CNN "Part Number"
+F5 "BELFUSE_0826-1X1T-GH-F" 0 -3400 60 H I L CNN "Library Ref"
 F6 "SchLib\\Connectors.SchLib" 0 -3490 60 H I L CNN "Library Path"
 F7 "=Family" 0 -3580 60 H I L CNN "Comment"
 F8 "Standard" 0 -3670 60 H I L CNN "Component Kind"
 F9 "Standard" 0 -3760 60 H I L CNN "Component Type"
-F10 " " 0 -3850 60 H I L CNN "Device"
+F10 "0826-1X1T-GH-F" 0 -3850 60 H I L CNN "Device"
 F11 "BELFUSE_0826-1X1T-80-F" 0 -3940 60 H I L CNN "Footprint"
 F12 " " 0 -4030 60 H I L CNN "PackageDescription"
 F13 "20" 0 -4120 60 H I L CNN "Pin Count"
@@ -148,7 +148,7 @@ F24 " " 0 -5110 60 H I L CNN "Status Comment"
 F25 "None" 0 -5200 60 H I L CNN "Status"
 F27 "1 Port, Orange Green/Yellow LEDs, RJ45 1000BaseT, PoE, Gigabit MagJack® Connector Module" 0 -5380 60 H I L CNN "Part Description"
 F28 "BELFUSE" 0 -5470 60 H I L CNN "Manufacturer"
-F29 "0826-1X1T-80-F" 0 -5560 60 H I L CNN "Manufacturer Part Number"
+F29 "0826-1X1T-GH-F" 0 -5560 60 H I L CNN "Manufacturer Part Number"
 F30 "13.61mm" 0 -5650 60 H I L CNN "ComponentHeight"
 F33 " " 0 -5920 60 H I L CNN "ComponentLink1Description"
 F35 " " 0 -6100 60 H I L CNN "ComponentLink2Description"

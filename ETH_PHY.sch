@@ -2322,22 +2322,22 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L marble_misc:BELFUSE_0826-1X1T-HS-F-Miscellaneous J4
+L marble_misc:BELFUSE_0826-1X1T-80-F-Miscellaneous J4
 U 1 1 5DB81DF6
 P 12500 1900
 AR Path="/5DB81DF6" Ref="J4"  Part="1" 
 AR Path="/5BCEDA59/5DB81DF6" Ref="J4"  Part="1" 
 F 0 "J4" H 13400 2067 50  0000 C CNN
-F 1 "BELFUSE_0826-1X1T-GH-F " H 13400 1976 50  0000 C CNN
+F 1 "BELFUSE_0826-1X1T-GH-F" H 13400 1976 50  0000 C CNN
 F 2 "BELFUSE_0826-1X1T-80-F" H 12500 -2040 60  0001 L CNN
 F 3 "" H 12500 -1320 60  0001 L CNN
-F 4 "BELFUSE_0826-1X1T-GH-F " H 12500 -1410 60  0001 L CNN "Part Number"
-F 5 "BELFUSE_0826-1X1T-GH-F " H 12500 -1500 60  0001 L CNN "Library Ref"
+F 4 "BELFUSE_0826-1X1T-GH-F" H 12500 -1410 60  0001 L CNN "Part Number"
+F 5 "BELFUSE_0826-1X1T-GH-F" H 12500 -1500 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Connectors.SchLib" H 12500 -1590 60  0001 L CNN "Library Path"
 F 7 "=Family" H 12500 -1680 60  0001 L CNN "Comment"
 F 8 "Standard" H 12500 -1770 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 12500 -1860 60  0001 L CNN "Component Type"
-F 10 "0826-1X1T-GH-F " H 12500 -1950 60  0001 L CNN "Device"
+F 10 "0826-1X1T-GH-F" H 12500 -1950 60  0001 L CNN "Device"
 F 11 " " H 12500 -2130 60  0001 L CNN "PackageDescription"
 F 12 "20" H 12500 -2220 60  0001 L CNN "Pin Count"
 F 13 " " H 12500 -2310 60  0001 L CNN "Case"
@@ -2354,7 +2354,7 @@ F 23 " " H 12500 -3210 60  0001 L CNN "Status Comment"
 F 24 "None" H 12500 -3300 60  0001 L CNN "Status"
 F 25 "1 Port, Orange Green/Yellow LEDs, RJ45 1000BaseT, PoE, Gigabit MagJack® Connector Module" H 12500 -3480 60  0001 L CNN "Part Description"
 F 26 "BELFUSE" H 12500 -3570 60  0001 L CNN "Manufacturer"
-F 27 "0826-1X1T-80-F" H 12500 -3660 60  0001 L CNN "Manufacturer Part Number"
+F 27 "0826-1X1T-GH-F" H 12500 -3660 60  0001 L CNN "Manufacturer Part Number"
 F 28 "13.61mm" H 12500 -3750 60  0001 L CNN "ComponentHeight"
 F 29 " " H 12500 -4020 60  0001 L CNN "ComponentLink1Description"
 F 30 " " H 12500 -4200 60  0001 L CNN "ComponentLink2Description"
@@ -3097,6 +3097,8 @@ Wire Wire Line
 	6000 4500 6050 4500
 Text Notes 3000 4550 0    79   ~ 0
 R80 mounted, R65 DNF -> PHY ADDR = 1\nR65 mounted, R80 DNF -> PHY ADDR = 0
+Text Notes 12450 1600 0    50   ~ 0
+Use -GH variant for its 720 mA PoE avg. current rating,\nwhich meets the needs of U40 and IEEE 802.3at-2009.
 Wire Bus Line
 	8900 4500 8900 4800
 Wire Bus Line
