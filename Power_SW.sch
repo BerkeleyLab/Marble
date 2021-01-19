@@ -417,7 +417,7 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5DBB7E7F
-P 14700 4150
+P 14700 3800
 AR Path="/5BD32060/5DBB7E7F" Ref="#PWR?"  Part="1" 
 AR Path="/5BABAC65/5DBB7E7F" Ref="#PWR?"  Part="1" 
 AR Path="/5CC24E97/5DBB7E7F" Ref="#PWR?"  Part="1" 
@@ -427,11 +427,11 @@ AR Path="/5CC8AFE1/5DBB7E7F" Ref="#PWR?"  Part="1"
 AR Path="/5BCEDA59/5DBB7E7F" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5DBB7E7F" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5DB9B7E6/5DBB7E7F" Ref="#PWR0543"  Part="1" 
-F 0 "#PWR0543" H 14700 4000 50  0001 C CNN
-F 1 "+3V3" H 14715 4323 50  0000 C CNN
-F 2 "" H 14700 4150 50  0001 C CNN
-F 3 "" H 14700 4150 50  0001 C CNN
-	1    14700 4150
+F 0 "#PWR0543" H 14700 3650 50  0001 C CNN
+F 1 "+3V3" H 14715 3973 50  0000 C CNN
+F 2 "" H 14700 3800 50  0001 C CNN
+F 3 "" H 14700 3800 50  0001 C CNN
+	1    14700 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1823,8 +1823,6 @@ F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    13900 5950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14200 4150 14400 4150
 $Comp
 L Capacitors_SMD:CC0805_47UF_6.3V_20%_X5R C152
 U 1 1 5D2E0E7D
@@ -2266,7 +2264,7 @@ Wire Wire Line
 	13550 7750 13900 7750
 Connection ~ 13550 4150
 Wire Wire Line
-	13550 4150 13900 4150
+	13550 4150 13800 4150
 Wire Wire Line
 	12200 4150 12350 4150
 $Comp
@@ -5209,19 +5207,16 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D8BEC35
-P 14400 4150
+P 14400 3800
 AR Path="/5BABAC65/5D8BEC35" Ref="#FLG?"  Part="1" 
 AR Path="/5C16BF8E/5DB9B7E6/5D8BEC35" Ref="#FLG0153"  Part="1" 
-F 0 "#FLG0153" H 14400 4225 50  0001 C CNN
-F 1 "PWR_FLAG" H 14400 4323 50  0000 C CNN
-F 2 "" H 14400 4150 50  0001 C CNN
-F 3 " " H 14400 4150 50  0001 C CNN
-	1    14400 4150
+F 0 "#FLG0153" H 14400 3875 50  0001 C CNN
+F 1 "PWR_FLAG" H 14400 3973 50  0000 C CNN
+F 2 "" H 14400 3800 50  0001 C CNN
+F 3 " " H 14400 3800 50  0001 C CNN
+	1    14400 3800
 	1    0    0    -1  
 $EndComp
-Connection ~ 14400 4150
-Wire Wire Line
-	14400 4150 14700 4150
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D8D9728
@@ -7158,7 +7153,6 @@ F 3 " " H 14900 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14700 4300 14700 4150
-Connection ~ 14700 4150
 $Comp
 L Connector_Generic:TestPoint TP?
 U 1 1 5F805386
@@ -9141,4 +9135,65 @@ F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 Connection ~ 2950 10250
+$Comp
+L Inductors_SMD:IND1806_MURATA_BLM41PG600SN1L L45
+U 1 1 606C0DCD
+P 13900 3800
+F 0 "L45" H 14050 3900 50  0000 C CNN
+F 1 "IND1806_MURATA_BLM41PG600SN1L" H 13900 3610 60  0001 L CNN
+F 2 "INDC4516X180N" H 13900 2800 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND1806_MURATA_BLM41P.pdf" H 13900 3430 60  0001 L CNN
+F 4 "60R@100MHz" H 14050 3700 50  0000 C CNN "~"
+F 5 "IND1806_MURATA_BLM41PG600SN1L" H 13900 3340 60  0001 L CNN "Part Number"
+F 6 "Inductor" H 13900 3250 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Inductors & Transformers.SchLib" H 13900 3160 60  0001 L CNN "Library Path"
+F 8 "=Value" H 13900 3070 60  0001 L CNN "Comment"
+F 9 "Standard" H 13900 2980 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 13900 2890 60  0001 L CNN "Component Type"
+F 11 " " H 13900 2710 60  0001 L CNN "PackageDescription"
+F 12 "2" H 13900 2620 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Inductors SMD.PcbLib" H 13900 2530 60  0001 L CNN "Footprint Path"
+F 14 "INDC4516X180N" H 13900 2440 60  0001 L CNN "Footprint Ref"
+F 15 "60R@100MHz" H 13900 2350 60  0001 L CNN "Val"
+F 16 "None" H 13900 2260 60  0001 L CNN "Status"
+F 17 "6A" H 13900 2170 60  0001 L CNN "Power"
+F 18 "0.01R" H 13900 2080 60  0001 L CNN "Resistance"
+F 19 " " H 13900 1990 60  0001 L CNN "Tolerance"
+F 20 "SMD EMI Suppression Chip Ferrite Bead (BLM41P Series)" H 13900 1900 60  0001 L CNN "Part Description"
+F 21 "MURATA" H 13900 1810 60  0001 L CNN "Manufacturer"
+F 22 "BLM41PG600SN1L" H 13900 1720 60  0001 L CNN "Manufacturer Part Number"
+F 23 "1806" H 13900 1630 60  0001 L CNN "Case"
+F 24 "Yes" H 13900 1540 60  0001 L CNN "Mounted"
+F 25 "No" H 13900 1450 60  0001 L CNN "Socket"
+F 26 "Yes" H 13900 1360 60  0001 L CNN "SMD"
+F 27 " " H 13900 1270 60  0001 L CNN "Sense Comment"
+F 28 "No" H 13900 1180 60  0001 L CNN "Sense"
+F 29 " " H 13900 1090 60  0001 L CNN "Status Comment"
+F 30 "1.8mm" H 13900 1000 60  0001 L CNN "ComponentHeight"
+F 31 "CERN DEM JLC" H 13900 820 60  0001 L CNN "Author"
+F 32 "12/02/09 00:00:00" H 13900 730 60  0001 L CNN "CreateDate"
+F 33 "12/02/09 00:00:00" H 13900 640 60  0001 L CNN "LatestRevisionDate"
+F 34 "Inductors SMD" H 13900 550 60  0001 L CNN "Library Name"
+F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 13900 460 60  0001 L CNN "License"
+	1    13900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 4150 14700 4150
+Wire Wire Line
+	14400 3800 14200 3800
+Wire Wire Line
+	13900 3800 13800 3800
+Wire Wire Line
+	13800 3800 13800 4150
+Connection ~ 13800 4150
+Wire Wire Line
+	13800 4150 13900 4150
+Wire Wire Line
+	14700 3800 14700 4150
+Connection ~ 14700 4150
+Wire Wire Line
+	14400 3800 14700 3800
+Connection ~ 14400 3800
+Connection ~ 14700 3800
 $EndSCHEMATC
