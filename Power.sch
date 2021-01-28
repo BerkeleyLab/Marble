@@ -1251,15 +1251,15 @@ Wire Wire Line
 	7450 8450 7900 8450
 Connection ~ 7450 8750
 $Comp
-L Resistors_SMD:R1206_0R02_1%_0.5W_100PPM R182
+L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R182
 U 1 1 5E1246EE
 P 12100 1900
 F 0 "R182" H 12250 2000 50  0000 C CNN
-F 1 "R1206_0R02_1%_0.5W_100PPM" H 12100 1690 60  0001 L CNN
+F 1 "R1206_0R082_1%_0.5W_100PPM" H 12100 1690 60  0001 L CNN
 F 2 "RESC3216X80N" H 12100 880 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 12100 1510 60  0001 L CNN
-F 4 "0R02" H 12250 1800 50  0000 C CNN "~"
-F 5 "R1206_0R02_1%_0.5W_100PPM" H 12100 1420 60  0001 L CNN "Part Number"
+F 4 "0R082" H 12250 1800 50  0000 C CNN "~"
+F 5 "R1206_0R082_1%_0.5W_100PPM" H 12100 1420 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12100 1330 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12100 1240 60  0001 L CNN "Library Path"
 F 8 "=Value" H 12100 1150 60  0001 L CNN "Comment"
@@ -1269,15 +1269,15 @@ F 11 " " H 12100 790 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12100 700 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12100 610 60  0001 L CNN "Footprint Path"
 F 14 "RESC3216X80N" H 12100 520 60  0001 L CNN "Footprint Ref"
-F 15 "0R02" H 12100 430 60  0001 L CNN "Val"
+F 15 "0R082" H 12100 430 60  0001 L CNN "Val"
 F 16 "None" H 12100 340 60  0001 L CNN "Status"
 F 17 "0.5W" H 12100 250 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12100 160 60  0001 L CNN "TC"
 F 19 " " H 12100 70  60  0001 L CNN "Voltage"
 F 20 "±1%" H 12100 -20 60  0001 L CNN "Tolerance"
 F 21 "Low Value Flat Chip Resistor" H 12100 -110 60  0001 L CNN "Part Description"
-F 22 "STACKPOLE" H 12100 -200 60  0001 L CNN "Manufacturer"
-F 23 "CSR1206FK20L0" H 12100 -290 60  0001 L CNN "Manufacturer Part Number"
+F 22 "Ohmite" H 12100 -200 60  0001 L CNN "Manufacturer"
+F 23 "KDV12DR082ET" H 12100 -290 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 12100 -380 60  0001 L CNN "Case"
 F 25 "No" H 12100 -470 60  0001 L CNN "PressFit"
 F 26 "Yes" H 12100 -560 60  0001 L CNN "Mounted"
@@ -1299,15 +1299,15 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R1206_0R02_1%_0.5W_100PPM R183
+L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R183
 U 1 1 5E156EFB
 P 12100 5300
 F 0 "R183" H 12250 5400 50  0000 C CNN
-F 1 "R1206_0R02_1%_0.5W_100PPM" H 12100 5090 60  0001 L CNN
+F 1 "R1206_0R082_1%_0.5W_100PPM" H 12100 5090 60  0001 L CNN
 F 2 "RESC3216X80N" H 12100 4280 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_WELWYN_LRF.pdf" H 12100 4910 60  0001 L CNN
-F 4 "0R02" H 12250 5200 50  0000 C CNN "~"
-F 5 "R1206_0R02_1%_0.5W_100PPM" H 12100 4820 60  0001 L CNN "Part Number"
+F 4 "0R082" H 12250 5200 50  0000 C CNN "~"
+F 5 "R1206_0R082_1%_0.5W_100PPM" H 12100 4820 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 12100 4730 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 12100 4640 60  0001 L CNN "Library Path"
 F 8 "=Value" H 12100 4550 60  0001 L CNN "Comment"
@@ -1317,15 +1317,15 @@ F 11 " " H 12100 4190 60  0001 L CNN "PackageDescription"
 F 12 "2" H 12100 4100 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Resistors SMD.PcbLib" H 12100 4010 60  0001 L CNN "Footprint Path"
 F 14 "RESC3216X80N" H 12100 3920 60  0001 L CNN "Footprint Ref"
-F 15 "0R02" H 12100 3830 60  0001 L CNN "Val"
+F 15 "0R082" H 12100 3830 60  0001 L CNN "Val"
 F 16 "None" H 12100 3740 60  0001 L CNN "Status"
 F 17 "0.5W" H 12100 3650 60  0001 L CNN "Power"
 F 18 "±100ppm/°C" H 12100 3560 60  0001 L CNN "TC"
 F 19 " " H 12100 3470 60  0001 L CNN "Voltage"
 F 20 "±1%" H 12100 3380 60  0001 L CNN "Tolerance"
 F 21 "Low Value Flat Chip Resistor" H 12100 3290 60  0001 L CNN "Part Description"
-F 22 "STACKPOLE" H 12100 3200 60  0001 L CNN "Manufacturer"
-F 23 "CSR1206FK20L0" H 12100 3110 60  0001 L CNN "Manufacturer Part Number"
+F 22 "Ohmite" H 12100 3200 60  0001 L CNN "Manufacturer"
+F 23 "KDV12DR082ET" H 12100 3110 60  0001 L CNN "Manufacturer Part Number"
 F 24 "1206" H 12100 3020 60  0001 L CNN "Case"
 F 25 "No" H 12100 2930 60  0001 L CNN "PressFit"
 F 26 "Yes" H 12100 2840 60  0001 L CNN "Mounted"
@@ -3943,18 +3943,18 @@ Text Label 4100 1850 0    50   ~ 0
 Text Label 9800 8450 0    50   ~ 0
 +12VS
 $Comp
-L Resistors_SMD:R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ R15
+L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R15
 U 1 1 6056FF79
 P 4600 1450
 F 0 "R15" H 4750 1650 50  0000 C CNN
-F 1 "R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ" H 4600 1255 50  0001 L CNN
+F 1 "R1206_0R082_1%_0.5W_100PPM" H 4600 1255 50  0001 L CNN
 F 2 "Resistors SMD:RESC3216X75N" H 4600 1180 50  0001 L CNN
 F 3 " " H 4600 1105 50  0001 L CNN
-F 4 "0R068" H 4750 1550 50  0000 C CNN "Val"
-F 5 "R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ" H 4600 1030 50  0001 L CNN "Part Number"
-F 6 "Resistor - 5%" H 4600 955 50  0001 L CNN "Library Ref"
+F 4 "0R082" H 4750 1550 50  0000 C CNN "Val"
+F 5 "R1206_0R082_1%_0.5W_100PPM" H 4600 1030 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 4600 955 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 4600 880 50  0001 L CNN "Library Path"
-F 8 "0R068" H 4600 805 50  0001 L CNN "Comment"
+F 8 "0R082" H 4600 805 50  0001 L CNN "Comment"
 F 9 "Standard" H 4600 730 50  0001 L CNN "Component Kind"
 F 10 "Standard" H 4600 655 50  0001 L CNN "Component Type"
 F 11 " " H 4600 580 50  0001 L CNN "PackageDescription"
@@ -3965,10 +3965,10 @@ F 15 "Not Recommended" H 4600 280 50  0001 L CNN "Status"
 F 16 "0.5W" H 4600 205 50  0001 L CNN "Power"
 F 17 "±100ppm/°C" H 4600 130 50  0001 L CNN "TC"
 F 18 " " H 4600 55  50  0001 L CNN "Voltage"
-F 19 "±5%" H 4600 -20 50  0001 L CNN "Tolerance"
+F 19 "±1%" H 4600 -20 50  0001 L CNN "Tolerance"
 F 20 "High power Low Resistance Thick Film Chip Resistor" H 4600 -95 50  0001 L CNN "Part Description"
-F 21 "PANASONIC" H 4600 -170 50  0001 L CNN "Manufacturer"
-F 22 "ERJ8BWJR068V" H 4600 -245 50  0001 L CNN "Manufacturer Part Number"
+F 21 "Ohmite" H 4600 -170 50  0001 L CNN "Manufacturer"
+F 22 "KDV12DR082ET" H 4600 -245 50  0001 L CNN "Manufacturer Part Number"
 F 23 "1206" H 4600 -320 50  0001 L CNN "Case"
 F 24 "No" H 4600 -395 50  0001 L CNN "PressFit"
 F 25 "Yes" H 4600 -470 50  0001 L CNN "Mounted"
@@ -3990,18 +3990,18 @@ F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ R16
+L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R16
 U 1 1 60571C51
 P 4600 1750
 F 0 "R16" H 4750 1947 50  0000 C CNN
-F 1 "R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ" H 4600 1555 50  0001 L CNN
+F 1 "R1206_0R082_1%_0.5W_100PPM" H 4600 1555 50  0001 L CNN
 F 2 "Resistors SMD:RESC3216X75N" H 4600 1480 50  0001 L CNN
 F 3 " " H 4600 1405 50  0001 L CNN
-F 4 "0R068" H 4750 1850 50  0000 C CNN "Val"
-F 5 "R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ" H 4600 1330 50  0001 L CNN "Part Number"
-F 6 "Resistor - 5%" H 4600 1255 50  0001 L CNN "Library Ref"
+F 4 "0R082" H 4750 1850 50  0000 C CNN "Val"
+F 5 "R1206_0R082_1%_0.5W_100PPM" H 4600 1330 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 4600 1255 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 4600 1180 50  0001 L CNN "Library Path"
-F 8 "0R068" H 4600 1105 50  0001 L CNN "Comment"
+F 8 "0R082" H 4600 1105 50  0001 L CNN "Comment"
 F 9 "Standard" H 4600 1030 50  0001 L CNN "Component Kind"
 F 10 "Standard" H 4600 955 50  0001 L CNN "Component Type"
 F 11 " " H 4600 880 50  0001 L CNN "PackageDescription"
@@ -4012,10 +4012,10 @@ F 15 "Not Recommended" H 4600 580 50  0001 L CNN "Status"
 F 16 "0.5W" H 4600 505 50  0001 L CNN "Power"
 F 17 "±100ppm/°C" H 4600 430 50  0001 L CNN "TC"
 F 18 " " H 4600 355 50  0001 L CNN "Voltage"
-F 19 "±5%" H 4600 280 50  0001 L CNN "Tolerance"
+F 19 "±1%" H 4600 280 50  0001 L CNN "Tolerance"
 F 20 "High power Low Resistance Thick Film Chip Resistor" H 4600 205 50  0001 L CNN "Part Description"
-F 21 "PANASONIC" H 4600 130 50  0001 L CNN "Manufacturer"
-F 22 "ERJ8BWJR068V" H 4600 55  50  0001 L CNN "Manufacturer Part Number"
+F 21 "Ohmite" H 4600 130 50  0001 L CNN "Manufacturer"
+F 22 "KDV12DR082ET" H 4600 55  50  0001 L CNN "Manufacturer Part Number"
 F 23 "1206" H 4600 -20 50  0001 L CNN "Case"
 F 24 "No" H 4600 -95 50  0001 L CNN "PressFit"
 F 25 "Yes" H 4600 -170 50  0001 L CNN "Mounted"
@@ -4037,18 +4037,18 @@ F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ R17
+L Resistors_SMD:R1206_0R082_1%_0.5W_100PPM R17
 U 1 1 60572389
 P 4600 2050
 F 0 "R17" H 4750 2250 50  0000 C CNN
-F 1 "R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ" H 4600 1855 50  0001 L CNN
+F 1 "R1206_0R082_1%_0.5W_100PPM" H 4600 1855 50  0001 L CNN
 F 2 "Resistors SMD:RESC3216X75N" H 4600 1780 50  0001 L CNN
 F 3 " " H 4600 1705 50  0001 L CNN
-F 4 "0R068" H 4750 2150 50  0000 C CNN "Val"
-F 5 "R1206_0R068_5%_0.5W_100PPM_PANASONIC_ERJ" H 4600 1630 50  0001 L CNN "Part Number"
-F 6 "Resistor - 5%" H 4600 1555 50  0001 L CNN "Library Ref"
+F 4 "0R082" H 4750 2150 50  0000 C CNN "Val"
+F 5 "R1206_0R082_1%_0.5W_100PPM" H 4600 1630 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 4600 1555 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 4600 1480 50  0001 L CNN "Library Path"
-F 8 "0R068" H 4600 1405 50  0001 L CNN "Comment"
+F 8 "0R082" H 4600 1405 50  0001 L CNN "Comment"
 F 9 "Standard" H 4600 1330 50  0001 L CNN "Component Kind"
 F 10 "Standard" H 4600 1255 50  0001 L CNN "Component Type"
 F 11 " " H 4600 1180 50  0001 L CNN "PackageDescription"
@@ -4059,10 +4059,10 @@ F 15 "Not Recommended" H 4600 880 50  0001 L CNN "Status"
 F 16 "0.5W" H 4600 805 50  0001 L CNN "Power"
 F 17 "±100ppm/°C" H 4600 730 50  0001 L CNN "TC"
 F 18 " " H 4600 655 50  0001 L CNN "Voltage"
-F 19 "±5%" H 4600 580 50  0001 L CNN "Tolerance"
+F 19 "±1%" H 4600 580 50  0001 L CNN "Tolerance"
 F 20 "High power Low Resistance Thick Film Chip Resistor" H 4600 505 50  0001 L CNN "Part Description"
-F 21 "PANASONIC" H 4600 430 50  0001 L CNN "Manufacturer"
-F 22 "ERJ8BWJR068V" H 4600 355 50  0001 L CNN "Manufacturer Part Number"
+F 21 "Ohmite" H 4600 430 50  0001 L CNN "Manufacturer"
+F 22 "KDV12DR082ET" H 4600 355 50  0001 L CNN "Manufacturer Part Number"
 F 23 "1206" H 4600 280 50  0001 L CNN "Case"
 F 24 "No" H 4600 205 50  0001 L CNN "PressFit"
 F 25 "Yes" H 4600 130 50  0001 L CNN "Mounted"

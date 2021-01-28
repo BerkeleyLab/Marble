@@ -49,6 +49,9 @@ indexes to the actual machine-readable and DRC'd schematics.
 These are EPS files, authored using [xcircuit](http://opencircuitdesign.com/xcircuit/).
 Maybe you want to use GhostView to look at them.
 
+Also see notes on [current measurement capabilities](docs/shunts.md)
+at runtime.
+
 ## Scripting and processing
 
 See the [scripts subdirectory](scripts) for
