@@ -10,10 +10,10 @@ config register as shown in this table:
 | I2C address   |                      | 0x80      | 0x82      | 0x84
 | INA219 refid  |                      | U17       | U32       | U57
 | shunt value   |                      | 0.082 Ohm | 0.082 Ohm | 0.0273 Ohm
-|               |    00  ( &pm; 40mV)   | 0.488 A   | 0.488 A   | 1.46 A
-|               |    01  ( &pm; 80mV)   | 0.976 A   | 0.976 A   | 2.93 A
-|               |    10  ( &pm; 160mV)  | 1.951 A   | 1.951 A   | 5.85 A
-| (default)     |    11  ( &pm; 320mV)  | 3.902 A   | 3.902 A   | 11.71 A
+|               |   00  ( &pm; 40mV)   | 0.488 A   | 0.488 A   | 1.46 A
+|               |   01  ( &pm; 80mV)   | 0.976 A   | 0.976 A   | 2.93 A
+|               |   10  ( &pm; 160mV)  | 1.951 A   | 1.951 A   | 5.85 A
+| (default)     |   11  ( &pm; 320mV)  | 3.902 A   | 3.902 A   | 11.71 A
 
 Note that the first-run boards so far have 0.02 Ohm shunt resistors
 for U17 and U32, which give pretty ridiculous values for
@@ -26,5 +26,5 @@ Considerations that led to those resistor values were:
 * Can turn range up or down by a factor of two for special use cases
 * Full-scale 160 mV should not burn up the 1206 0.5W shunt resistor
 
-Final answer used on the second batch of Marble-Mini, as shown above:
-Ohmite KDV12DR082ET (tripled for the main input shunt).
+Final answer, as shown above, and also used on the second batch of Marble-Mini:
+82 mOhm Ohmite KDV12DR082ET (tripled for the main input shunt).
