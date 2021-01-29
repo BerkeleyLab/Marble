@@ -104,6 +104,7 @@ python3 scripts/non_generic.py "$bomfile" "$bomfile2"
 # output marble-xy.pos
 python3 scripts/xy_post.py ${A} marble v > marble-stuff.log
 python3 scripts/xy_post.py ${A} marble
+python3 scripts/find_tp.py ${A}.kicad_pcb > testpoint_map.gbr
 
 # Assemble files into fab directory
 rm -rf fab
@@ -122,8 +123,10 @@ mv marble-stuff.log fab/
 cp $A.d356 fab/marble-ipc-d-356.txt
 cp marble-stack.txt fab/marble-stack.txt
 # XXX confirm/correct board stackup diagram with Creotech
+cp scripts/testpoint_map.gvp fab/testpoint_map.gvp
+mv testpoint_map.gbr fab/testpoint_map.gbr
 
-# fancy Larry stuff, presumably nobody will care
+# Fancy file integrity feature, presumably nobody besides Larry will care
 (cd fab && sha256sum * > marble-sha256.txt)
 (cat docs/README_fab.txt; cd fab; sha256sum marble-sha256.txt) > fab/README_fab.txt
 

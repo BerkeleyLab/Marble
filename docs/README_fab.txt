@@ -54,6 +54,12 @@ Bill-of-material, X-Y placement, and IPC-D-356 files:
   marble-xy.pos
   marble-ipc-d-356.txt
 
+Two more oddball files, not used for fab:
+  testpoint_map.gbr
+  testpoint_map.gvp
+They are there to produce a PDF that might help troublehsooting:
+gerbv -p testpoint_map.gvp -x pdf -o testpoint_map.pdf
+
 SHA-256 signature file, which can be used to verify the integrity
 and version of all of the files listed above:
   marble-sha256.txt
