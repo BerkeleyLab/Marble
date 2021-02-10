@@ -689,36 +689,36 @@ Wire Wire Line
 Wire Wire Line
 	3100 4100 3550 4100
 Text HLabel 10200 1550 2    50   Output ~ 0
-QSFP1_TX_0_P
-Text HLabel 10200 1650 2    50   Output ~ 0
-QSFP1_TX_0_N
-Text HLabel 10200 1750 2    50   Input ~ 0
-QSFP1_RX_0_P
-Text HLabel 10200 1850 2    50   Input ~ 0
-QSFP1_RX_0_N
-Text HLabel 10200 2000 2    50   Output ~ 0
 QSFP1_TX_1_P
-Text HLabel 10200 2100 2    50   Output ~ 0
+Text HLabel 10200 1650 2    50   Output ~ 0
 QSFP1_TX_1_N
-Text HLabel 10200 2200 2    50   Input ~ 0
+Text HLabel 10200 1750 2    50   Input ~ 0
 QSFP1_RX_1_P
-Text HLabel 10200 2300 2    50   Input ~ 0
+Text HLabel 10200 1850 2    50   Input ~ 0
 QSFP1_RX_1_N
-Text HLabel 10200 2450 2    50   Output ~ 0
+Text HLabel 10200 2000 2    50   Output ~ 0
 QSFP1_TX_2_P
-Text HLabel 10200 2550 2    50   Output ~ 0
+Text HLabel 10200 2100 2    50   Output ~ 0
 QSFP1_TX_2_N
-Text HLabel 10200 2650 2    50   Input ~ 0
+Text HLabel 10200 2200 2    50   Input ~ 0
 QSFP1_RX_2_P
-Text HLabel 10200 2750 2    50   Input ~ 0
+Text HLabel 10200 2300 2    50   Input ~ 0
 QSFP1_RX_2_N
-Text HLabel 10200 2900 2    50   Output ~ 0
+Text HLabel 10200 2450 2    50   Output ~ 0
+QSFP1_TX_4_P
+Text HLabel 10200 2550 2    50   Output ~ 0
+QSFP1_TX_4_N
+Text HLabel 10200 2650 2    50   Input ~ 0
+QSFP1_RX_4_P
+Text HLabel 10200 2750 2    50   Input ~ 0
+QSFP1_RX_4_N
+Text HLabel 10200 1100 2    50   Output ~ 0
 QSFP1_TX_3_P
-Text HLabel 10200 3000 2    50   Output ~ 0
+Text HLabel 10200 1200 2    50   Output ~ 0
 QSFP1_TX_3_N
-Text HLabel 10200 3100 2    50   Input ~ 0
+Text HLabel 10200 1300 2    50   Input ~ 0
 QSFP1_RX_3_P
-Text HLabel 10200 3200 2    50   Input ~ 0
+Text HLabel 10200 1400 2    50   Input ~ 0
 QSFP1_RX_3_N
 Text HLabel 5900 5100 0    50   Input ~ 0
 CLKMUX_RST
@@ -761,20 +761,20 @@ MGT_TX_3_N
 Text Label 9550 2450 0    50   ~ 10
 MGT_TX_3_P
 Wire Wire Line
-	9350 3000 10200 3000
+	9350 1200 10200 1200
 Wire Wire Line
-	9350 2900 10200 2900
-Text Label 9550 2900 0    50   ~ 10
+	9350 1100 10200 1100
+Text Label 9550 1100 0    50   ~ 10
 MGT_TX_0_P
-Text Label 9550 3000 0    50   ~ 10
+Text Label 9550 1200 0    50   ~ 10
 MGT_TX_0_N
 Wire Wire Line
-	9350 3200 10200 3200
+	9350 1400 10200 1400
 Wire Wire Line
-	9350 3100 10200 3100
-Text Label 9550 3200 0    50   ~ 10
+	9350 1300 10200 1300
+Text Label 9550 1400 0    50   ~ 10
 MGT_RX_0_N
-Text Label 9550 3100 0    50   ~ 10
+Text Label 9550 1300 0    50   ~ 10
 MGT_RX_0_P
 Wire Wire Line
 	9350 1850 10200 1850
@@ -801,13 +801,13 @@ Wire Wire Line
 Wire Wire Line
 	3100 7350 3550 7350
 Text HLabel 3550 7650 2    50   Input ~ 0
-QSFP2_RX_2_N
+QSFP2_RX_4_N
 Text HLabel 3550 7550 2    50   Input ~ 0
-QSFP2_RX_2_P
+QSFP2_RX_4_P
 Text HLabel 3550 7450 2    50   Output ~ 0
-QSFP2_TX_2_N
+QSFP2_TX_4_N
 Text HLabel 3550 7350 2    50   Output ~ 0
-QSFP2_TX_2_P
+QSFP2_TX_4_P
 Wire Wire Line
 	3100 6750 3550 6750
 Wire Wire Line
@@ -817,21 +817,21 @@ Wire Wire Line
 Wire Wire Line
 	3100 6450 3550 6450
 Text HLabel 3550 6750 2    50   Input ~ 0
-QSFP2_RX_0_N
-Text HLabel 3550 6650 2    50   Input ~ 0
-QSFP2_RX_0_P
-Text HLabel 3550 6550 2    50   Output ~ 0
-QSFP2_TX_0_N
-Text HLabel 3550 6450 2    50   Output ~ 0
-QSFP2_TX_0_P
-Text HLabel 3550 6900 2    50   Output ~ 0
-QSFP2_TX_1_P
-Text HLabel 3550 7000 2    50   Output ~ 0
-QSFP2_TX_1_N
-Text HLabel 3550 7100 2    50   Input ~ 0
-QSFP2_RX_1_P
-Text HLabel 3550 7200 2    50   Input ~ 0
 QSFP2_RX_1_N
+Text HLabel 3550 6650 2    50   Input ~ 0
+QSFP2_RX_1_P
+Text HLabel 3550 6550 2    50   Output ~ 0
+QSFP2_TX_1_N
+Text HLabel 3550 6450 2    50   Output ~ 0
+QSFP2_TX_1_P
+Text HLabel 3550 6900 2    50   Output ~ 0
+QSFP2_TX_2_P
+Text HLabel 3550 7000 2    50   Output ~ 0
+QSFP2_TX_2_N
+Text HLabel 3550 7100 2    50   Input ~ 0
+QSFP2_RX_2_P
+Text HLabel 3550 7200 2    50   Input ~ 0
+QSFP2_RX_2_N
 Wire Wire Line
 	3100 6900 3550 6900
 Wire Wire Line

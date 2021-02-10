@@ -1625,59 +1625,59 @@ Wire Wire Line
 Wire Wire Line
 	5950 2350 6900 2350
 Text Label 6100 1750 0    50   ~ 0
-QSFP_TX_1_P
-Text Label 6100 1650 0    50   ~ 0
-QSFP_TX_1_N
-Text Label 6100 2050 0    50   ~ 0
 QSFP_TX_2_P
-Text Label 6100 1950 0    50   ~ 0
+Text Label 6100 1650 0    50   ~ 0
 QSFP_TX_2_N
+Text Label 6100 2050 0    50   ~ 0
+QSFP_TX_4_P
+Text Label 6100 1950 0    50   ~ 0
+QSFP_TX_4_N
 Text Label 8500 2850 0    50   ~ 0
 QSFP_TX_3_P
 Text Label 8500 2950 0    50   ~ 0
 QSFP_TX_3_N
 Text Label 6100 3150 0    50   ~ 0
-QSFP_RX_0_P
-Text Label 6100 3250 0    50   ~ 0
-QSFP_RX_0_N
-Text Label 8500 1750 0    50   ~ 0
 QSFP_RX_1_P
-Text Label 8500 1650 0    50   ~ 0
+Text Label 6100 3250 0    50   ~ 0
 QSFP_RX_1_N
-Text Label 8500 2050 0    50   ~ 0
+Text Label 8500 1750 0    50   ~ 0
 QSFP_RX_2_P
-Text Label 8500 1950 0    50   ~ 0
+Text Label 8500 1650 0    50   ~ 0
 QSFP_RX_2_N
+Text Label 8500 2050 0    50   ~ 0
+QSFP_RX_4_P
+Text Label 8500 1950 0    50   ~ 0
+QSFP_RX_4_N
 Text Label 6100 2850 0    50   ~ 0
 QSFP_RX_3_P
 Text Label 8500 3250 0    50   ~ 0
-QSFP_TX_0_N
-Text Label 8500 3150 0    50   ~ 0
-QSFP_TX_0_P
-Text HLabel 9150 3150 2    50   Input ~ 0
-QSFP_TX_0_P
-Text HLabel 9150 3250 2    50   Input ~ 0
-QSFP_TX_0_N
-Text HLabel 6050 3150 0    50   Output ~ 0
-QSFP_RX_0_P
-Text HLabel 6050 3250 0    50   Output ~ 0
-QSFP_RX_0_N
-Text HLabel 6050 1750 0    50   Input ~ 0
-QSFP_TX_1_P
-Text HLabel 6050 1650 0    50   Input ~ 0
 QSFP_TX_1_N
-Text HLabel 9150 1750 2    50   Output ~ 0
+Text Label 8500 3150 0    50   ~ 0
+QSFP_TX_1_P
+Text HLabel 9150 3150 2    50   Input ~ 0
+QSFP_TX_1_P
+Text HLabel 9150 3250 2    50   Input ~ 0
+QSFP_TX_1_N
+Text HLabel 6050 3150 0    50   Output ~ 0
 QSFP_RX_1_P
-Text HLabel 9150 1650 2    50   Output ~ 0
+Text HLabel 6050 3250 0    50   Output ~ 0
 QSFP_RX_1_N
-Text HLabel 6050 2050 0    50   Input ~ 0
+Text HLabel 6050 1750 0    50   Input ~ 0
 QSFP_TX_2_P
-Text HLabel 6050 1950 0    50   Input ~ 0
+Text HLabel 6050 1650 0    50   Input ~ 0
 QSFP_TX_2_N
-Text HLabel 9150 2050 2    50   Output ~ 0
+Text HLabel 9150 1750 2    50   Output ~ 0
 QSFP_RX_2_P
-Text HLabel 9150 1950 2    50   Output ~ 0
+Text HLabel 9150 1650 2    50   Output ~ 0
 QSFP_RX_2_N
+Text HLabel 6050 2050 0    50   Input ~ 0
+QSFP_TX_4_P
+Text HLabel 6050 1950 0    50   Input ~ 0
+QSFP_TX_4_N
+Text HLabel 9150 2050 2    50   Output ~ 0
+QSFP_RX_4_P
+Text HLabel 9150 1950 2    50   Output ~ 0
+QSFP_RX_4_N
 Text HLabel 9150 2850 2    50   Input ~ 0
 QSFP_TX_3_P
 Text HLabel 9150 2950 2    50   Input ~ 0
