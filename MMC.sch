@@ -3583,7 +3583,6 @@ NoConn ~ 8650 6800
 NoConn ~ 8650 6700
 NoConn ~ 8650 6600
 NoConn ~ 8650 5900
-NoConn ~ 8650 5700
 NoConn ~ 8650 4900
 NoConn ~ 8650 4800
 NoConn ~ 8650 4700
@@ -3625,6 +3624,10 @@ Text HLabel 10500 5800 2    50   Output ~ 0
 DDR_1V5_EN
 Wire Wire Line
 	10500 5800 8650 5800
+Text HLabel 10500 5700 2    50   Input ~ 10
+XRP_POWER_GOOD
+Wire Wire Line
+	10500 5700 8650 5700
 Wire Bus Line
 	9350 3500 9350 3700
 Wire Bus Line
