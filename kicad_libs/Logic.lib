@@ -38,8 +38,8 @@ F30 " " 0 -4750 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -4825 50 H I L CNN "Author"
 F32 "08/25/10 00:00:00" 0 -4900 50 H I L CNN "CreateDate"
 F33 "11/21/11 00:00:00" 0 -4975 50 H I L CNN "LatestRevisionDate"
-F36 "ICs And Semiconductors.DbLib" 0 -5200 50 H I L CNN "Library Name"
-F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -5350 50 H I L CNN "License"
+F34 "ICs And Semiconductors.DbLib" 0 -5200 50 H I L CNN "Library Name"
+F35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -5350 50 H I L CNN "License"
 DRAW
 S 0 -2400 1000 0 0 1 0 f
 S 0 -2350 20 -2260 0 1 0 F
@@ -116,8 +116,8 @@ F30 " " 0 -7550 50 H I L CNN "ComponentLink2Description"
 F31 "CERN DEM JLC" 0 -7625 50 H I L CNN "Author"
 F32 "08/09/12 00:00:00" 0 -7700 50 H I L CNN "CreateDate"
 F33 "08/09/12 00:00:00" 0 -7775 50 H I L CNN "LatestRevisionDate"
-F36 "ICs And Semiconductors.DbLib" 0 -8000 50 H I L CNN "Library Name"
-F38 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -8150 50 H I L CNN "License"
+F34 "ICs And Semiconductors.DbLib" 0 -8000 50 H I L CNN "Library Name"
+F35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -8150 50 H I L CNN "License"
 DRAW
 T 0 950 -5100 50 1 1 1 A0 Normal 0 R C
 T 0 50 -5100 50 1 1 1 A1 Normal 0 L C
@@ -325,6 +325,27 @@ T 0 950 -5200 50 1 2 1 VTT Normal 0 R C
 T 0 50 -700 50 1 2 1 WE# Normal 0 L C
 S 0 -5300 1000 0 1 1 0 f
 S 0 -5300 1000 0 2 1 0 f
+ENDDRAW
+ENDDEF
+#
+# TPS3703A7330DSERQ1
+#
+DEF TPS3703A7330DSERQ1 U 0 30 Y Y 1 F N
+F0 "U" 1150 300 50 H V L CNN
+F1 "TPS3703A7330DSERQ1" 1150 200 50 H V L CNN
+F2 "SON50P150X150X80-6N" 1150 100 50 H I L CNN
+F3 "" 1150 0 50 H I L CNN
+F4 "Supervisory Circuits Automotive high-accuracy window supervisor with reset time delay 6-WSON -40 to 125" 1150 -100 50 H I L CNN "Description"
+F5 "0.8" 1150 -200 50 H I L CNN "Height"
+F6 "TPS3703A7330DSERQ1" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 f
+X SENSE 1 0 0 200 R 50 50 0 0 P
+X VDD 2 0 -100 200 R 50 50 0 0 P
+X CT 3 0 -200 200 R 50 50 0 0 P
+X ~RESET 4 1300 -100 200 L 50 50 0 0 P
+X GND 5 1300 -200 200 L 50 50 0 0 P
+X ~MR 6 1300 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

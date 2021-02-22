@@ -2011,87 +2011,10 @@ Wire Wire Line
 	1650 9050 2450 9050
 Connection ~ 12900 8850
 Connection ~ 13000 7950
-Text HLabel 4700 7200 0    50   Input ~ 10
+Text HLabel 4200 6850 2    50   Input ~ 10
 XRP_POWER_GOOD
-$Comp
-L power:GND #PWR?
-U 1 1 60A21969
-P 5900 6350
-AR Path="/5BD32060/60A21969" Ref="#PWR?"  Part="1" 
-AR Path="/5BABAC65/60A21969" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24E97/60A21969" Ref="#PWR?"  Part="1" 
-AR Path="/5CC393D3/60A21969" Ref="#PWR?"  Part="1" 
-AR Path="/5CC6DBF7/60A21969" Ref="#PWR?"  Part="1" 
-AR Path="/5CC8AFE1/60A21969" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/60A21969" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/60A21969" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 5900 6100 50  0001 C CNN
-F 1 "GND" H 5905 6177 50  0000 C CNN
-F 2 "" H 5900 6350 50  0001 C CNN
-F 3 "" H 5900 6350 50  0001 C CNN
-	1    5900 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 6300 5900 6350
-$Comp
-L Transistors:BSS138LT1G Q?
-U 1 1 60A21990
-P 5650 6150
-AR Path="/5C907554/5C417BCB/60A21990" Ref="Q?"  Part="1" 
-AR Path="/5C907554/60A21990" Ref="Q15"  Part="1" 
-F 0 "Q15" H 5969 6246 50  0000 L CNN
-F 1 "BSS138LT1G" H 5969 6155 50  0000 L CNN
-F 2 "ICs And Semiconductors SMD:SOT95P240X110-3N" H 5650 4940 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 5650 5660 60  0001 L CNN
-F 4 "BSS138LT1G" H 5650 5570 60  0001 L CNN "Part Number"
-F 5 "N-MOSFET-D 1G 2S 3D" H 5650 5480 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Transistors.SchLib" H 5650 5390 60  0001 L CNN "Library Path"
-F 7 "BSS138LT1G" H 5650 5300 60  0001 L CNN "Comment"
-F 8 "Standard" H 5650 5210 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 5650 5120 60  0001 L CNN "Component Type"
-F 10 "BSS138LT1G" H 5650 5030 60  0001 L CNN "Device"
-F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 5650 4850 60  0001 L CNN "PackageDescription"
-F 12 " " H 5650 4760 60  0001 L CNN "Status"
-F 13 "50V 200mA N-Channel Enhancement Mode Field-Effect Transistor" H 5650 4670 60  0001 L CNN "Part Description"
-F 14 "ON SEMICONDUCTOR" H 5650 4580 60  0001 L CNN "Manufacturer"
-F 15 "BSS138LT1G" H 5650 4490 60  0001 L CNN "Manufacturer Part Number"
-F 16 "3" H 5650 4400 60  0001 L CNN "Pin Count"
-F 17 "SOT23-3" H 5650 4310 60  0001 L CNN "Case"
-F 18 "Yes" H 5650 4220 60  0001 L CNN "Mounted"
-F 19 "No" H 5650 4130 60  0001 L CNN "Socket"
-F 20 "No" H 5650 4040 60  0001 L CNN "PressFit"
-F 21 "Yes" H 5650 3950 60  0001 L CNN "SMD"
-F 22 "No" H 5650 3860 60  0001 L CNN "Sense"
-F 23 " " H 5650 3770 60  0001 L CNN "Sense Comment"
-F 24 "No" H 5650 3680 60  0001 L CNN "Bonding"
-F 25 " " H 5650 3590 60  0001 L CNN "Status Comment"
-F 26 "1.11mm" H 5650 3500 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 5650 3410 60  0001 L CNN "Footprint Path"
-F 28 "SOT95P240X110-3N" H 5650 3320 60  0001 L CNN "Footprint Ref"
-F 29 " " H 5650 3050 60  0001 L CNN "ComponentLink1Description"
-F 30 " " H 5650 2870 60  0001 L CNN "ComponentLink2Description"
-F 31 "CERN DEM JLC" H 5650 2780 60  0001 L CNN "Author"
-F 32 "03/23/09 00:00:00" H 5650 2690 60  0001 L CNN "CreateDate"
-F 33 "03/23/09 00:00:00" H 5650 2600 60  0001 L CNN "LatestRevisionDate"
-F 34 "ICs And Semiconductors SMD" H 5650 2510 60  0001 L CNN "Library Name"
-F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5650 2420 60  0001 L CNN "License"
-	1    5650 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 5450 5900 5900
 Wire Wire Line
 	5900 5450 7000 5450
 Wire Wire Line
-	5650 6150 5200 6150
-Wire Wire Line
-	5200 6150 5200 6850
-Wire Wire Line
-	3850 6850 5200 6850
-Wire Wire Line
-	4700 7200 5200 7200
-Wire Wire Line
-	5200 7200 5200 6850
-Connection ~ 5200 6850
+	4200 6850 3850 6850
 $EndSCHEMATC

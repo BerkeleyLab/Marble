@@ -2572,32 +2572,32 @@ Connection ~ 12650 5950
 Wire Wire Line
 	12650 5950 12950 5950
 $Comp
-L Inductors_SMD:IND_2.2UH_20%_BOURNS_SRP6540 L17
+L Inductors_SMD:IND_1.8UH_20%_XAL7070-182ME L17
 U 1 1 5D7F2D5A
 P 11900 2350
 F 0 "L17" H 12050 2450 50  0000 C CNN
-F 1 "IND_2.2UH_20%_BOURNS_SRP6540" H 11900 2160 60  0001 L CNN
-F 2 "IND_BOURNS_SRP6540" H 11900 1350 60  0001 L CNN
+F 1 "IND_1.8UH_20%_XAL7070-182ME" H 11900 2160 60  0001 L CNN
+F 2 "Inductors SMD:IND_BOURNS_SRP6540" H 11900 1350 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_BOURNS_SRP6540.pdf" H 11900 1980 60  0001 L CNN
-F 4 "2.2uH" H 12050 2300 50  0000 C CNN "~"
-F 5 "IND_2.2UH_20%_BOURNS_SRP6540" H 11900 1890 60  0001 L CNN "Part Number"
+F 4 "1.8uH" H 12050 2300 50  0000 C CNN "~"
+F 5 "IND_1.8UH_20%_XAL7070-182ME" H 11900 1890 60  0001 L CNN "Part Number"
 F 6 "Inductor" H 11900 1800 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Inductors & Transformers.SchLib" H 11900 1710 60  0001 L CNN "Library Path"
-F 8 "=Value" H 11900 1620 60  0001 L CNN "Comment"
+F 8 "1.8uH" H 11900 1620 60  0001 L CNN "Comment"
 F 9 "Standard" H 11900 1530 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 11900 1440 60  0001 L CNN "Component Type"
 F 11 " " H 11900 1260 60  0001 L CNN "PackageDescription"
 F 12 "2" H 11900 1170 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Inductors SMD.PcbLib" H 11900 1080 60  0001 L CNN "Footprint Path"
 F 14 "IND_BOURNS_SRP6540" H 11900 990 60  0001 L CNN "Footprint Ref"
-F 15 "2.2uH" H 11900 900 60  0001 L CNN "Val"
+F 15 "1.8uH" H 11900 900 60  0001 L CNN "Val"
 F 16 "None" H 11900 810 60  0001 L CNN "Status"
-F 17 "9A" H 11900 720 60  0001 L CNN "Power"
-F 18 "0.0155R" H 11850 2200 60  0000 L CNN "Resistance"
+F 17 "15.8A" H 11900 720 60  0001 L CNN "Power"
+F 18 "0.00405R" H 11800 2200 60  0000 L CNN "Resistance"
 F 19 "±20%" H 11900 540 60  0001 L CNN "Tolerance"
 F 20 "Shielded SMD Power Inductor" H 11900 450 60  0001 L CNN "Part Description"
-F 21 "BOURNS" H 11900 360 60  0001 L CNN "Manufacturer"
-F 22 "SRP6540-2R2M" H 11900 270 60  0001 L CNN "Manufacturer Part Number"
+F 21 "Colilcraft" H 11900 360 60  0001 L CNN "Manufacturer"
+F 22 "XAL7070-182ME" H 11900 270 60  0001 L CNN "Manufacturer Part Number"
 F 23 " " H 11900 180 60  0001 L CNN "Case"
 F 24 "Yes" H 11900 90  60  0001 L CNN "Mounted"
 F 25 "No" H 11900 0   60  0001 L CNN "Socket"
@@ -2609,38 +2609,38 @@ F 30 "4mm" H 11900 -450 60  0001 L CNN "ComponentHeight"
 F 31 "CERN DEM JMW" H 11900 -630 60  0001 L CNN "Author"
 F 32 "08/06/15 00:00:00" H 11900 -720 60  0001 L CNN "CreateDate"
 F 33 "08/06/15 00:00:00" H 11900 -810 60  0001 L CNN "LatestRevisionDate"
-F 34 "Inductors SMD" H 11900 -900 60  0001 L CNN "Library Name"
+F 34 "Inductors & Transformers.DbLib" H 11900 -900 60  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11900 -990 60  0001 L CNN "License"
 	1    11900 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Inductors_SMD:IND_2.2UH_20%_BOURNS_SRP6540 L18
+L Inductors_SMD:IND_1.8UH_20%_XAL7070-182ME L18
 U 1 1 5D85AB67
 P 11900 4150
 F 0 "L18" H 12050 4250 50  0000 C CNN
-F 1 "IND_2.2UH_20%_BOURNS_SRP6540" H 11900 3960 60  0001 L CNN
-F 2 "IND_BOURNS_SRP6540" H 11900 3150 60  0001 L CNN
+F 1 "IND_1.8UH_20%_XAL7070-182ME" H 11900 3960 60  0001 L CNN
+F 2 "Inductors SMD:IND_BOURNS_SRP6540" H 11900 3150 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_BOURNS_SRP6540.pdf" H 11900 3780 60  0001 L CNN
-F 4 "2.2uH" H 12050 4100 50  0000 C CNN "~"
-F 5 "IND_2.2UH_20%_BOURNS_SRP6540" H 11900 3690 60  0001 L CNN "Part Number"
+F 4 "1.8uH" H 12050 4100 50  0000 C CNN "~"
+F 5 "IND_1.8UH_20%_XAL7070-182ME" H 11900 3690 60  0001 L CNN "Part Number"
 F 6 "Inductor" H 11900 3600 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Inductors & Transformers.SchLib" H 11900 3510 60  0001 L CNN "Library Path"
-F 8 "=Value" H 11900 3420 60  0001 L CNN "Comment"
+F 8 "1.8uH" H 11900 3420 60  0001 L CNN "Comment"
 F 9 "Standard" H 11900 3330 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 11900 3240 60  0001 L CNN "Component Type"
 F 11 " " H 11900 3060 60  0001 L CNN "PackageDescription"
 F 12 "2" H 11900 2970 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Inductors SMD.PcbLib" H 11900 2880 60  0001 L CNN "Footprint Path"
 F 14 "IND_BOURNS_SRP6540" H 11900 2790 60  0001 L CNN "Footprint Ref"
-F 15 "2.2uH" H 11900 2700 60  0001 L CNN "Val"
+F 15 "1.8uH" H 11900 2700 60  0001 L CNN "Val"
 F 16 "None" H 11900 2610 60  0001 L CNN "Status"
-F 17 "9A" H 11900 2520 60  0001 L CNN "Power"
-F 18 "0.0155R" H 11850 4000 60  0000 L CNN "Resistance"
+F 17 "15.8A" H 11900 2520 60  0001 L CNN "Power"
+F 18 "0.00405R" H 11800 4000 60  0000 L CNN "Resistance"
 F 19 "±20%" H 11900 2340 60  0001 L CNN "Tolerance"
 F 20 "Shielded SMD Power Inductor" H 11900 2250 60  0001 L CNN "Part Description"
-F 21 "BOURNS" H 11900 2160 60  0001 L CNN "Manufacturer"
-F 22 "SRP6540-2R2M" H 11900 2070 60  0001 L CNN "Manufacturer Part Number"
+F 21 "Colilcraft" H 11900 2160 60  0001 L CNN "Manufacturer"
+F 22 "XAL7070-182ME" H 11900 2070 60  0001 L CNN "Manufacturer Part Number"
 F 23 " " H 11900 1980 60  0001 L CNN "Case"
 F 24 "Yes" H 11900 1890 60  0001 L CNN "Mounted"
 F 25 "No" H 11900 1800 60  0001 L CNN "Socket"
@@ -2652,38 +2652,38 @@ F 30 "4mm" H 11900 1350 60  0001 L CNN "ComponentHeight"
 F 31 "CERN DEM JMW" H 11900 1170 60  0001 L CNN "Author"
 F 32 "08/06/15 00:00:00" H 11900 1080 60  0001 L CNN "CreateDate"
 F 33 "08/06/15 00:00:00" H 11900 990 60  0001 L CNN "LatestRevisionDate"
-F 34 "Inductors SMD" H 11900 900 60  0001 L CNN "Library Name"
+F 34 "Inductors & Transformers.DbLib" H 11900 900 60  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11900 810 60  0001 L CNN "License"
 	1    11900 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Inductors_SMD:IND_2.2UH_20%_BOURNS_SRP6540 L20
+L Inductors_SMD:IND_1.8UH_20%_XAL7070-182ME L20
 U 1 1 5D883F38
 P 11900 7750
 F 0 "L20" H 12050 7850 50  0000 C CNN
-F 1 "IND_2.2UH_20%_BOURNS_SRP6540" H 11900 7560 60  0001 L CNN
-F 2 "IND_BOURNS_SRP6540" H 11900 6750 60  0001 L CNN
+F 1 "IND_1.8UH_20%_XAL7070-182ME" H 11900 7560 60  0001 L CNN
+F 2 "Inductors SMD:IND_BOURNS_SRP6540" H 11900 6750 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_BOURNS_SRP6540.pdf" H 11900 7380 60  0001 L CNN
-F 4 "2.2uH" H 12050 7700 50  0000 C CNN "~"
-F 5 "IND_2.2UH_20%_BOURNS_SRP6540" H 11900 7290 60  0001 L CNN "Part Number"
+F 4 "1.8uH" H 12050 7700 50  0000 C CNN "~"
+F 5 "IND_1.8UH_20%_XAL7070-182ME" H 11900 7290 60  0001 L CNN "Part Number"
 F 6 "Inductor" H 11900 7200 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Inductors & Transformers.SchLib" H 11900 7110 60  0001 L CNN "Library Path"
-F 8 "=Value" H 11900 7020 60  0001 L CNN "Comment"
+F 8 "1.8uH" H 11900 7020 60  0001 L CNN "Comment"
 F 9 "Standard" H 11900 6930 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 11900 6840 60  0001 L CNN "Component Type"
 F 11 " " H 11900 6660 60  0001 L CNN "PackageDescription"
 F 12 "2" H 11900 6570 60  0001 L CNN "Pin Count"
 F 13 "PcbLib\\Inductors SMD.PcbLib" H 11900 6480 60  0001 L CNN "Footprint Path"
 F 14 "IND_BOURNS_SRP6540" H 11900 6390 60  0001 L CNN "Footprint Ref"
-F 15 "2.2uH" H 11900 6300 60  0001 L CNN "Val"
+F 15 "1.8uH" H 11900 6300 60  0001 L CNN "Val"
 F 16 "None" H 11900 6210 60  0001 L CNN "Status"
-F 17 "9A" H 11900 6120 60  0001 L CNN "Power"
-F 18 "0.0155R" H 11850 7600 60  0000 L CNN "Resistance"
+F 17 "15.8A" H 11900 6120 60  0001 L CNN "Power"
+F 18 "0.00405R" H 11850 7600 60  0000 L CNN "Resistance"
 F 19 "±20%" H 11900 5940 60  0001 L CNN "Tolerance"
 F 20 "Shielded SMD Power Inductor" H 11900 5850 60  0001 L CNN "Part Description"
-F 21 "BOURNS" H 11900 5760 60  0001 L CNN "Manufacturer"
-F 22 "SRP6540-2R2M" H 11900 5670 60  0001 L CNN "Manufacturer Part Number"
+F 21 "Colilcraft" H 11900 5760 60  0001 L CNN "Manufacturer"
+F 22 "XAL7070-182ME" H 11900 5670 60  0001 L CNN "Manufacturer Part Number"
 F 23 " " H 11900 5580 60  0001 L CNN "Case"
 F 24 "Yes" H 11900 5490 60  0001 L CNN "Mounted"
 F 25 "No" H 11900 5400 60  0001 L CNN "Socket"
@@ -2695,7 +2695,7 @@ F 30 "4mm" H 11900 4950 60  0001 L CNN "ComponentHeight"
 F 31 "CERN DEM JMW" H 11900 4770 60  0001 L CNN "Author"
 F 32 "08/06/15 00:00:00" H 11900 4680 60  0001 L CNN "CreateDate"
 F 33 "08/06/15 00:00:00" H 11900 4590 60  0001 L CNN "LatestRevisionDate"
-F 34 "Inductors SMD" H 11900 4500 60  0001 L CNN "Library Name"
+F 34 "Inductors & Transformers.DbLib" H 11900 4500 60  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11900 4410 60  0001 L CNN "License"
 	1    11900 7750
 	1    0    0    -1  
@@ -9171,8 +9171,8 @@ AR Path="/5C16C03C/60BC3A66" Ref="#PWR?"  Part="1"
 AR Path="/5BCEDA39/60BC3A66" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/60BC3A66" Ref="#PWR?"  Part="1" 
 AR Path="/60BC3A66" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/60BC3A66" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4450 9700 50  0001 C CNN
+AR Path="/5C16BF8E/5DB9B7E6/60BC3A66" Ref="#PWR0388"  Part="1" 
+F 0 "#PWR0388" H 4450 9700 50  0001 C CNN
 F 1 "+3.3P" V 4465 10023 50  0000 C CNN
 F 2 "" H 4450 9850 50  0001 C CNN
 F 3 "" H 4450 9850 50  0001 C CNN
@@ -9187,8 +9187,8 @@ AR Path="/5C16C03C/60BF1A86" Ref="#PWR?"  Part="1"
 AR Path="/5BCEDA39/60BF1A86" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/60BF1A86" Ref="#PWR?"  Part="1" 
 AR Path="/60BF1A86" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/60BF1A86" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 750 9700 50  0001 C CNN
+AR Path="/5C16BF8E/5DB9B7E6/60BF1A86" Ref="#PWR0582"  Part="1" 
+F 0 "#PWR0582" H 750 9700 50  0001 C CNN
 F 1 "+3.3P" V 800 10000 50  0000 C CNN
 F 2 "" H 750 9850 50  0001 C CNN
 F 3 "" H 750 9850 50  0001 C CNN
