@@ -45,14 +45,20 @@ def edit_row(row, text):
     x_prefix = 'set_property -dict {PACKAGE_PIN ' + io_number + ' '
     x_suffix = '} [get_ports ' + name + ']'
 
+    if "QSFP1_" in row or "MGT_TX_" in row or "MGT_RX_" in row:
+        return None  # GTX pins aren't placed in constraint files
     if text == '/FPGA/':
         if '_P' in row or '_N' in row:
-            return x_prefix + 'IOSTANDARD ' + 'DIFF_SSTL15' + x_suffix
+            if "_DQS" in row or "_CK_" in row:
+                return x_prefix + 'IOSTANDARD ' + 'DIFF_SSTL15' + x_suffix
+            # as opposed to RAS_N CAS_N CS_N WE_N RST_N that are single-ended
         if 'DDR3_' in row:
             return x_prefix + 'IOSTANDARD ' + 'SSTL15' + x_suffix
     if "/FPGA/" in text and "TMDS" in row:
         return x_prefix + 'IOSTANDARD ' + 'TMDS_33' + x_suffix
-
+    if "DDR_REF_CLK_C_" in row:
+        # print("debug "+row)
+        return x_prefix + 'IOSTANDARD ' + 'DIFF_SSTL15' + x_suffix
     our_io = io_type[text]
     if "Pmod2" in name:  # special case, can't tell just from prefix alone
         our_io = "LVCMOS15"  # Pmod1 is LVCMOS25
@@ -113,6 +119,8 @@ def main(filename):
                 row = edit_row(row, 'FMC1')
             elif 'FMC2' in row:
                 row = edit_row(row, 'FMC2')
+            if row is None:
+                continue
             f.write(row + '\n')
             cnt += 1
         elif False:
