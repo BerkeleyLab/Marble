@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Overview to Marble module}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Hardware requirements}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Software requirements}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Power connection}{3}{section.2}%
+\contentsline {section}{\numberline {3}Microcontroller programing}{5}{section.3}%
+\contentsline {section}{\numberline {4}Power Supply programing}{5}{section.4}%
+\contentsline {section}{\numberline {5}FPGA programing}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}FMC test}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}QSFP test}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Ethernet test}{9}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Appendix}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}An alternative way to program FPGA}{10}{subsection.6.1}%

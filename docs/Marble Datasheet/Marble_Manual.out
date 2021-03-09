@@ -1,0 +1,30 @@
+\BOOKMARK [1][-]{section.1}{Overview to Marble module}{}% 1
+\BOOKMARK [1][-]{section.2}{FPGA}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{FPGA reset}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{JTAG}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{External JTAG}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Internal USB-JTAG}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Selfe JTAG}{subsection.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{LEDs}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.4}{FPGA Programming}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Internal JTAG}{subsection.2.4}% 10
+\BOOKMARK [3][-]{subsubsection.2.4.2}{External JTAG}{subsection.2.4}% 11
+\BOOKMARK [1][-]{section.3}{SO-DIMM}{}% 12
+\BOOKMARK [1][-]{section.4}{GTH Routing}{}% 13
+\BOOKMARK [1][-]{section.5}{Clocking}{}% 14
+\BOOKMARK [1][-]{section.6}{PMOD connectors}{}% 15
+\BOOKMARK [1][-]{section.7}{QSFP}{}% 16
+\BOOKMARK [1][-]{section.8}{Ethernet}{}% 17
+\BOOKMARK [1][-]{section.9}{FMC}{}% 18
+\BOOKMARK [1][-]{section.10}{USB-UART}{}% 19
+\BOOKMARK [2][-]{subsection.10.1}{FPGA UART}{section.10}% 20
+\BOOKMARK [2][-]{subsection.10.2}{MMC UART}{section.10}% 21
+\BOOKMARK [1][-]{section.11}{Power}{}% 22
+\BOOKMARK [2][-]{subsection.11.1}{FANs controller}{section.11}% 23
+\BOOKMARK [1][-]{section.12}{MMC}{}% 24
+\BOOKMARK [2][-]{subsection.12.1}{Programing}{section.12}% 25
+\BOOKMARK [2][-]{subsection.12.2}{LEDs}{section.12}% 26
+\BOOKMARK [2][-]{subsection.12.3}{I2C Tree}{section.12}% 27
+\BOOKMARK [1][-]{section.13}{Mechanical dimensions}{}% 28
+\BOOKMARK [1][-]{section.14}{Appendix}{}% 29
+\BOOKMARK [2][-]{subsection.14.1}{Power supply test points}{section.14}% 30
