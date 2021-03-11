@@ -8120,8 +8120,8 @@ Wire Wire Line
 	11200 7600 11200 7050
 Wire Wire Line
 	11200 7600 12150 7600
-Wire Bus Line
-	13550 4750 13550 4950
 Text Notes 13050 7900 0    50   ~ 0
 CT = 50nF ~~ 150ms \n     reset delay
+Wire Bus Line
+	13550 4750 13550 4950
 $EndSCHEMATC
