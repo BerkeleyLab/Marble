@@ -9,7 +9,11 @@
 \usepackage[svgnames]{xcolor}
 \usepackage{subfig}
 \usepackage{booktabs}
+\usepackage{multirow}
 \usepackage{svg}
+\usepackage{tabu}
+\usepackage{ltablex}
+
 
 \setlist{leftmargin=*}
 \usepackage{listings}
@@ -53,7 +57,7 @@ Design files are made in KiCad and are licensed under the CERN OHL v.~1.2.
 
 \clearpage
 
-\section{Overview to Marble module}
+\section{Overview}
 
 \begin{leftbar}
 Design files are open source and can be downloaded from GitHub:
@@ -70,32 +74,102 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
 \end{center}
 \end{figure}
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=1\linewidth]{marble_references.png}
+ \caption{Marble board components.}\label{block}
+\end{center}
+\end{figure}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\hspace*{-1cm}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{@{}ccp{0.3\linewidth}p{0.3\linewidth}c@{}}
+\toprule
+\textbf{Callout} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Reference\\ Designator\end{tabular}} &
+  \textbf{Component Description} &
+  \textbf{Notes} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Schematic \\ Page\end{tabular}} \\ \midrule
+1  & U1  & FPGA Xilinx Kintex-7      & XC7K160T-2FFG676C &  \\
+2  & SK1 & DD3 SO-DIMM memory module & VR7PU286458FBAMJT &  \\
+3  & U4  & 10/100/1000 Ethernet PHY  & 88E1512-A0-NNP2I000  &  \\
+4  & J14, J6 & Microcontroller programing connectors         &                   &  \\
+5  & U2  & 8x8 Clock Crosspoint Switch   & ADN4600ACPZ	     &  \\
+6  & U35  & Power Management      & XRP7724ILBTR-F   &  \\
+7  & J1, J19 & 12V power input       & FC68148(DC-10A), 641119-2  &  \\
+8  & J11    & FPGA JTAG connector    & 87831-1420   &  \\
+9  & U40  &  PoE module              & AG5300          &  \\
+10 & M1, M2 & 3-pin PC fan connectors & SWR25X-NRTC-S03-ST-BA &  \\
+11 & J8  & QSFP connector    		 & QSFP8-038-01-L-D-RA1 &  \\
+12 & J17 & QSFP connector            & QSFP8-038-01-L-D-RA1   &  \\
+13 & P2  & FMC HPC connector         & ASP-134486-01 &  \\
+14 & P1  & FMC HPC connector         & ASP-134486-01     &  \\
+15 & J12 & PMOD connected to FPGA    & PPTC062LJBN-RC     &  \\
+16 & J16 & PMOD connected to microcontroller  & PPTC062LJBN-RC    &  \\
+17 & J13 & PMOD connected to FPGA    & PPTC062LJBN-RC    &  \\
+18 & SW3 & User button connected to microcontroller      &  KSS241GLFS  &  \\
+19 & SW5 & FPGA reset button   		 & KSS241GLFS      &  \\
+20 & LD13, LD14 & User LEDs connected to shared I2C bus & KPH-1608CGCK &  \\
+21 & LD11-12, LD15 & User LEDs connected to microcontroller &  KPH-1608CGCK  &  \\
+22 & LD16, LD17    & User LEDs connected to FPGA &  KPH-1608CGCK     &  \\
+23 & SW1 & Memory write protection switch  & A6SN-1101 &  \\
+24 & Y6  & 10-280MHz Clock generator   & SI570  &  \\
+25 & J2, J5    & External clock source input & U.FL      &  \\
+26 & J3, J7 &  External clock source input &   U.FL       &  \\
+27 & U44-U50    & GTX Transceivers Mux & PI3DBS12212AZBSEX  &  \\
+28 & J9  & Power Management programming header & 0.1 inch male 4-pin header &  \\
+29 & Y1-Y3, U20 & Interlnal 125 MHz \& 20MHz clock sources & CDCM61004RHBT &  \\
+30 & U30 &  FPGA SPI flash memory  & S25FL128SAGMFIR01 &  \\
+31 & U5  &  I2C multiplexer    & TCA9548ARGER   &  \\
+32 & U23 &  Double USB - UART bridge, USB-JTAG bridge for FPGA & FT4232H-56Q   &  \\
+33 & U54 & Housekeeping Microcontroller  & STM32F207VCTx  &  \\
+34 & J10 & Micro USB connector for U23  & 10103594-0001LF  &  \\
+35 & SW2 & \textcolor{red}{Not populated user button (physically connected to SW3)}  & SKHHLQA010  &  \\ 
+36 & U60 & Overvoltage and Undervoltage Reset IC & TPS3703A7330DSERQ1 &  \\
+37 & LD4-10, LD18-19 & Power rails indicator LEDs & KPH-1608CGCK &  \\ \bottomrule
+
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}
+\hspace*{-1cm}
+
+
 The board has the following functionalities and features:
 \begin{enumerate}
 	\item Xilinx Kintex-7 FPGA XC7K160T-2FFG676C
 	\item Supports FPGA golden image
+	\item Housekeeping microcontroller (Module Management Controller) with UART console
 	\item DDR3 204-SODIMM memory module connector. The board supports up to 4 GB memory.
 	\item Two FMC HPC connectors, but not all signals are connected to the FPGA.
 	\item 1Gb Ethernet with PoE
 	\item Built-in clock generator that supports White Rabbit synchronization
 	\item Various input clock configurations
 	\item Two QSFP cages that support data transfer up to 40 Gb/s each
-	\item Built-in USB JTAG which works with OpenOCD
-	\item Module Management Controller with UART console
+	\item Built-in USB JTAG which works with OpenOCD	
 \end{enumerate}
 
-\section{FPGA}
-The board is equipped with FPGA Kintex-7 XC7K160T-2FFG676C and the occupancy of each bank is shown below:
-\begin{enumerate}
-	\item bank 12 HR +2.5V FMC2 LA 00-16 (plus SPI, Self JTAG)
-	\item bank 13 HR +2.5V FMC2 HA
-	\item bank 14 HR +2.5V FMC2 LA 17-33 (plus config, Pmod)
-	\item bank 15 HR +2.5V FMC1 LA 00-16 (plus I2C, UART, Pmod)
-	\item bank 16 HR +2.5V FMC1 LA 17-33 (plus RGMII)
-	\item bank 32 HP +1.5V DDR3
-	\item bank 33 HP +1.5V DDR3 (plus Pmod, White Rabbit)
-	\item bank 34 HP +1.5V DDR3
-\end{enumerate}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{@{}lcl@{}}
+\toprule
+FPGA Bank  & Bank Power Supply & Discription \\ \midrule
+Bank 12 HR & +2.5V             & FMC2 LA 00-16 (plus SPI, Self JTAG) \\
+Bank 13 HR & +2.5V             & FMC2 HA\\
+Bank 14 HR & +2.5V             & FMC2 LA 17-33 (plus config, Pmod)\\
+Bank 15 HR & +2.5V             & FMC1 LA 00-16 (plus I2C, UART, Pmod)\\
+Bank 16 HR & +2.5V             & FMC1 LA 17-33 (plus RGMII)\\
+Bank 32 HP & +1.5V             & DDR3        \\
+Bank 33 HP & +1.5V             & DDR3 (plus Pmod, White Rabbit) \\
+Bank 34 HP & +1.5V             & DDR3       \\ \bottomrule
+\end{tabular}
+\caption{}
+\label{tab:banks}
+\end{table}
 
 The S25FL128SAGMFIR01 configuration memory is connected to the FPGA chip. By default, the FPGA chip loads the configuration from the flash memory after correct power cycle. The module is equipped with a switch (fig \ref{bootsw}) that blocks the programming of the configuration memory. When the switch is in the ON position, Write Protection is enabled. WP signal status can be read via I2C IO expander.
 
@@ -130,12 +204,20 @@ from USB bus switches the multiplexer to pass data from FT4232 to FPGA.
 
 \subsubsection{Self-JTAG}
 Internal self-JTAG can be used only when USB cable and external JTAG are not connected. In this configuration FPGA JTAG signals are connected to FPGA Bank 12:
-\begin{enumerate}
-	\item \menu{JTAG TDI > Self\_FPGA\_TDI (IO\_L10P)}
-	\item \menu{JTAG TCK > Self\_FPGA\_TCK (IO\_L10N)}
-	\item \menu{JTAG TMS > Self\_FPGA\_TMS (IO\_L20P)}
-	\item \menu{JTAG TDO > Self\_FPGA\_TDO (IO\_L20N)}
-\end{enumerate}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{@{}ccc@{}}
+\toprule
+Signal name& Self JTAG signal & FPGA pin \\ \midrule
+JTAG TDI & Self\_FPGA\_TDI & IO\_L10P \\
+JTAG TCK & Self\_FPGA\_TCK & IO\_L10N \\
+JTAG TMS & Self\_FPGA\_TMS & IO\_L20P \\
+JTAG TDO & Self\_FPGA\_TDO & IO\_L20N \\ \bottomrule
+\end{tabular}
+\caption{}
+\label{tab:selfjtag}
+\end{table}
 
 \subsection{LEDs}
 Two general purpose LEDs are connected to the FPGA chip:
@@ -185,7 +267,13 @@ Programming FPGA using Vivado and Digilent JTAG HS3 connected to J11:
 
 \section{SO-DIMM}
 
-The size of the DDR3 memory can be determined by the user by assembling the appropriate SO-DIMM module to the board. The use of a 204 pin SO-DIMM connector allows up to 4 GB of RAM to be connected to the FPGA. An I2C interface is provided to the memory module so that additional information about the module can be read. The default power supply for memory and HP banks is set to 1.5V and can only be changed by changing resistors. ECC is not supported by the module.
+The size of the DDR3 memory can be determined by the user by assembling the appropriate SO-DIMM module to the board. The use of a 204 pin SO-DIMM connector allows up to 4 GB of RAM to be connected to the FPGA. An I2C interface is provided to the memory module so that additional information about the module can be read. The default power supply for memory and HP banks is set to 1.5V and can only be changed by changing resistors. ECC is not supported by the module.\\
+
+A reference design with a memory controller and a constraint file can be found here:
+\begin{leftbar}
+https://github.com/BerkeleyLab/bedrock
+\end{leftbar}
+See its projects/test\_marble\_family directory.
 
 \section{GTH Routing}
 Gigabit transceivers routing can bo configured be the microcontroller. Transceivers from Bank 116 are permanrntly connected to module QSFP1. Transceivers form Bank 115 can be routed in 3 ways:
@@ -219,18 +307,49 @@ Transceiver routing configuration can be set by the microcontroller. Three signa
 \end{center}
 \end{figure}
 
+Use UART console to change the transceiver routing style. 
+
 \section{Clocking}
-This section describes how and where clock signals are routed. There are 3 on-board clock sources:
-\begin{enumerate}
-	\item White Rabbit clock generator - provides following clocks:
-		\begin{enumerate}
-			\item 125 MHz connected to the clock mux
-			\item 125 MHz connected to the FPGA bank 33; can operate as a DDR3 reference clock
-			\item 25 MHz for MMC and Ethernet PHY
-		\end{enumerate}
-	\item Si570 - provides variable clock frequencies for 10 MHz to 280 MHz; connected to the clock mux
-	\item VCXO - provides 20 MHz clock for FPGA bank 33
-\end{enumerate}
+This section describes how and where clock signals are routed. There are 7 on-board clock sources:
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{@{}llp{0.6\linewidth}@{}}
+\toprule
+Clock Name &
+  Reference &
+  Description \\ \midrule
+\multirow{2}{*}{System Clock} &
+  Y1, Y2 &
+  \multirow{2}{9cm}{Y1 and Y2 can be soldered interchangeably and provide a reference clock source for the U20 chip} \\
+ &
+  U20 &
+  \multirow{2}{9cm}{U20 is an ultra-low jitter clock generator that provides a 125 MHz clock for the FPGA bank 33 that can operate as a DDR3 reference clock. Additionally, U20 generates 125 MHz clock which is connected to the clock mux. }
+   \\
+Additional Clock &
+  Y3 &
+  VCXO - provides 20 MHz clock for FPGA bank 33 \\
+User Clock &
+  Y6 &
+  Si570 - provides variable clock frequencies for 10 MHz to 280 MHz; connected to the clock mux \\
+\begin{tabular}[c]{@{}l@{}}User U.FL Clock 1\\ (differential pair)\end{tabular} &
+  J2, J5 &
+  External clock source input \\
+\begin{tabular}[c]{@{}l@{}}User U.FLClock 2\\ (differential pair)\end{tabular} &
+  J3, J7 &
+  External clock source input \\
+FMC1 M2C &
+  P1 & GBTCLK 0 \& 1
+   \\
+FMC2 M2C &
+  P2 & GBTCLK 0 \& 1
+   \\ \bottomrule
+\end{tabular}
+\caption{}
+\label{tab:clk-table}
+\end{table}
+
+
 Marble supports external clock sources from FMC and from U.FL connectors. Thanks to the clock mux, any clock input can be connected to any FPGA MGT clock inputs. Clock routing and Si570 frequency can be changed over I2C from the house-keeping microcontroller or the FPGA.
 
 \begin{figure}[H]
@@ -240,6 +359,8 @@ Marble supports external clock sources from FMC and from U.FL connectors. Thanks
 \end{center}
 \end{figure}
 
+\subsection{White Rabbit clock generator}
+The clock chips available on the board allow implementation of the White Rabbit protocol. White Rabbit provides sub-nanosecond accuracy and picoseconds precision of synchronization for large distributed systems.
 
 \section{Pmod connectors}
 Marble has 3 Pmod connectors that support 3.3V logic level:
