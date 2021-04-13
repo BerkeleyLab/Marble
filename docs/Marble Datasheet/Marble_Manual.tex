@@ -236,7 +236,7 @@ See its projects/test\_marble\_family directory.
 \subsubsection{Internal JTAG}
 Download the latest version of the FPGA testing code from github:
 \begin{leftbar}
-https://github.com/BerkeleyLab/Bedrock/tree/marblev2
+https://github.com/BerkeleyLab/Bedrock
 \end{leftbar}
 
 \begin{leftbar}
@@ -276,9 +276,9 @@ https://github.com/BerkeleyLab/bedrock
 See its projects/test\_marble\_family directory.
 
 \section{GTH Routing}
-Gigabit transceivers routing can bo configured be the microcontroller. Transceivers from Bank 116 are permanrntly connected to module QSFP1. Transceivers form Bank 115 can be routed in 3 ways:
+Gigabit transceivers routing can be configured by the microcontroller. Transceivers from Bank 116 are permanently connected to module QSFP1. Transceivers from Bank 115 can be routed in 3 ways:
 \begin{enumerate}
-    \item 4 transceivers connected to module QSFP2
+    \item 4 transceivers connected to QSFP2
     \item 4 transceivers connected to FMC P2
     \item 2 transceivers connected to FMC P2 and 2 transceivers connected to FMC P1
 \end{enumerate}
@@ -324,14 +324,14 @@ Clock Name &
   \multirow{2}{9cm}{Y1 and Y2 can be soldered interchangeably and provide a reference clock source for the U20 chip} \\
  &
   U20 &
-  \multirow{2}{9cm}{U20 is an ultra-low jitter clock generator that provides a 125 MHz clock for the FPGA bank 33 that can operate as a DDR3 reference clock. Additionally, U20 generates 125 MHz clock which is connected to the clock mux. }
+  \multirow{2}{9cm}{U20 is an ultra-low jitter clock generator that provides a 125 MHz clock for the FPGA bank 33 that can operate as a DDR3 reference clock. Additionally, U20 generates 125 MHz clock which is connected to the clock multiplexer. }
    \\
 Additional Clock &
   Y3 &
   VCXO - provides 20 MHz clock for FPGA bank 33 \\
 User Clock &
   Y6 &
-  Si570 - provides variable clock frequencies for 10 MHz to 280 MHz; connected to the clock mux \\
+  Si570 - provides variable clock frequencies for 10 MHz to 280 MHz; connected to the clock multiplexer \\
 \begin{tabular}[c]{@{}l@{}}User U.FL Clock 1\\ (differential pair)\end{tabular} &
   J2, J5 &
   External clock source input \\
@@ -350,7 +350,7 @@ FMC2 M2C &
 \end{table}
 
 
-Marble supports external clock sources from FMC and from U.FL connectors. Thanks to the clock mux, any clock input can be connected to any FPGA MGT clock inputs. Clock routing and Si570 frequency can be changed over I2C from the house-keeping microcontroller or the FPGA.
+Marble supports external clock sources from FMC and from U.FL connectors. Thanks to the clock multiplexer, any clock input can be connected to any FPGA MGT clock input. Clock routing and Si570 frequency can be changed over I2C from the house-keeping microcontroller or the FPGA.
 
 \begin{figure}[H]
 \begin{center}
@@ -365,8 +365,8 @@ The clock chips available on the board allow implementation of the White Rabbit 
 \section{Pmod connectors}
 Marble has 3 Pmod connectors that support 3.3V logic level:
 \begin{enumerate}
-	\item 2 of them are connected to FPGA (J12 and J13)
-	\item 1 is connected the MMC (J6)
+	\item J12 and J13 are connected to FPGA
+	\item J6 is connected the MMC
 \end{enumerate}
 
 \begin{table}[htbp]
@@ -446,7 +446,7 @@ PHY\_RSTn                          & IO\_L10N\_16                     \\ \bottom
 \caption{RGMII pins assignment}
 \label{tab:rgmii}
 \end{table}
-Using MDIO interface PHY can be monitored by housekeeping microcontroller. IP address and MAC address are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash).
+The Ethernet PHY can be monitored over MDIO by the MMC. IP address and MAC address are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash).
 The MDIO address is set to 1 but it can be changed by changing the resistor on the module.
 
 \section{FMC}
@@ -487,12 +487,12 @@ FPGA UART occupies FT4232's channel 3. UART signals are connected to bank 15 pin
 	\item RX output IO\_0\_15
 \end{enumerate}
 \subsection{MMC UART}
-MMC UART occupies FT4232's channel 4. UART is used as a housekeeping microcontroller console. Terminal configuraton is 1N8 115200 baudrate. The FT4232's channel 2 DTR signal can be used to provide a reset signal for the microcontroller.
+MMC UART occupies FT4232's channel 4 and is used as the MMC serial console. Terminal configuraton is 1N8 115200 baudrate. The FT4232's channel 2 DTR signal can be used to provide a reset signal for the microcontroller.
 
 
 \section{Power}
-Several hardware options are avialable to provide the nominal +12V power to the board.
-It can come from TE Connector(3-641119-2) - J19 (fig. \ref{j19}) or by standard barrel connector (Type A: 5.5 mm OD, 2.1 mm ID) - J1. Input voltage range: 10V - 18V. Additionally, PoE can be used to power the module.
+Several hardware options are available to provide the nominal +12V power to the board.
+It can come from TE Connector (3-641119-2) - J19 (fig. \ref{j19}) or by standard barrel connector (Type A: 5.5 mm OD, 2.1 mm ID) - J1. Input voltage range: 10V - 18V. Additionally, PoE can be used to power the module.
 
 \begin{figure}[H]
 \begin{center}
@@ -501,9 +501,9 @@ It can come from TE Connector(3-641119-2) - J19 (fig. \ref{j19}) or by standard 
 \end{center}
 \end{figure}
 
-When the power is connected, the board starts automatically. If there is a failure of any power rail, the LED corresponding to it will not light up.
+When the power is connected, the board starts up automatically. If there is a failure of any power rail, the LED corresponding to it will not light up.
 
-Block diagram of Marble's power tree is shown in figure \ref{pwr}. The USB-UART bridge is powered from the micro usb connector via a converter (U22). The supervising microcontroller has a separate converter (U18) connected directly to the power input. The main voltages supplying the FPGA are produced by U35 - the programmable power management system. U35 turns on the individual power channels in the proper sequence and provides power to the additional converter (U58) and LDOs (U31, U36, U37, U47).
+Block diagram of Marble's power tree is shown in figure \ref{pwr}. The USB-UART bridge is powered from the micro USB connector via a converter (U22). The supervising microcontroller has a separate converter (U18) connected directly to the power input. The main voltages supplying the FPGA are produced by U35 - the programmable power management system. U35 turns on the individual power channels in the proper sequence and provides power to the additional converter (U58) and LDOs (U31, U36, U37, U47).
 
 \begin{figure}[H]
 \begin{center}
@@ -550,7 +550,7 @@ Two additional temperature sensors based on the LM75 chip provide temperature me
 Module Management Controller (MMC) is based on STM32F207 microcontroller and provides housekeeping functions such as:
 \begin{enumerate}
 	\item Simple UART console over USB-UART bridge to control all functions
-	\item Monitoring voltage, current consumption and warnings signals on power rails
+	\item Monitoring voltage, current consumption and warning signals on power rails
 	\item Temperature monitoring at several locations
 	\item Controlling and monitoring fans
 	\item Configuring clock multiplexer
@@ -587,7 +587,7 @@ https://https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/unified\_marble
 A recent version of OpenOCD (v0.10.0 or later) is required.
 \begin{enumerate}
 	\item Connect JTAG module to \textbf{J14}
-	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 boudrate.
+	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 baudrate.
 	\item Power up the board.
 	\item Program the microcontroller using the following commands:
 	\begin{enumerate}
@@ -597,7 +597,7 @@ A recent version of OpenOCD (v0.10.0 or later) is required.
 $ make marble_download
 	\end{lstlisting}
 	\end{enumerate}
-	\item After the successful programming, a menu in the serial terminal should appeared and LEDs (LD15, LD11, LD12) should blink in the "snake" pattern.
+	\item After successful programming, a menu in the serial terminal should appeared and LEDs (LD15, LD11, LD12) should blink in the "snake" pattern.
 \end{enumerate}
 \subsection{LEDs}
 Three general purpose LEDs are connected to the MMC chip:
@@ -614,7 +614,7 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
 	\item I2C\_FPGA - This bus is shared between the MMC and the FPGA chip. Through an I2C switch, it is connected to:
 	\begin{enumerate}
 		\item FMC 1 and FMC 2
-		\item Clock mux
+		\item Clock multiplexer
 		\item SO-DIMM module
 		\item QSFP 1 and QSFP 2
 		\item Current measurement devices, Si570 and IO expanders
@@ -632,21 +632,21 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\linewidth]{mechanical.png}
- \caption{The mechanical dimensions of Marble}\label{mechanical}
+ \caption{Mechanical dimensions}\label{mechanical}
 \end{center}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\linewidth]{holes.png}
- \caption{The position of mounting holes}\label{holes}
+ \caption{Mounting holes positioning}\label{holes}
 \end{center}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\linewidth]{connectors.png}
- \caption{The position of the protruding connectors}\label{connectors}
+ \caption{Protruding connectors positioning}\label{connectors}
 \end{center}
 \end{figure}
 
