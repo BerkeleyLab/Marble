@@ -15,16 +15,16 @@
 \contentsline {section}{\numberline {5}Pmod connectors}{11}{section.5}%
 \contentsline {section}{\numberline {6}QSFP}{12}{section.6}%
 \contentsline {section}{\numberline {7}Ethernet}{13}{section.7}%
-\contentsline {section}{\numberline {8}FMC}{14}{section.8}%
-\contentsline {section}{\numberline {9}USB-UART}{14}{section.9}%
-\contentsline {subsection}{\numberline {9.1}FPGA UART}{14}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}MMC UART}{14}{subsection.9.2}%
-\contentsline {section}{\numberline {10}Power}{15}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Fan controller}{16}{subsection.10.1}%
-\contentsline {section}{\numberline {11}MMC}{17}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Programing}{18}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}LEDs}{19}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}I2C Tree}{19}{subsection.11.3}%
-\contentsline {section}{\numberline {12}Mechanical dimensions}{21}{section.12}%
-\contentsline {section}{\numberline {13}Appendix}{24}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Power supply test points}{24}{subsection.13.1}%
+\contentsline {section}{\numberline {8}FMC}{15}{section.8}%
+\contentsline {section}{\numberline {9}USB-UART}{15}{section.9}%
+\contentsline {subsection}{\numberline {9.1}FPGA UART}{15}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}MMC UART}{16}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Power}{16}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Fan controller}{17}{subsection.10.1}%
+\contentsline {section}{\numberline {11}MMC}{18}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Programing}{19}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}LEDs}{20}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}I2C Tree}{20}{subsection.11.3}%
+\contentsline {section}{\numberline {12}Mechanical dimensions}{22}{section.12}%
+\contentsline {section}{\numberline {13}Appendix}{25}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Power supply test points}{25}{subsection.13.1}%

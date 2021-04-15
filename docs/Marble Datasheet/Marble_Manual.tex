@@ -404,7 +404,7 @@ Marble is equipped with 2 QSFP cages (\ref{qsfp}). Each can support 40 Gb/s of d
 	\item QSFP number 2 - high-speed lines are connected to the FPGA bank 115 through the gigabit multiplexer.
 \end{enumerate}
 
-QSFPs control signals are connected to the I2C IO expander (U34)(\ref{qsfpio}) which is accessible from FPGA or MMC.
+QSFPs control signals are connected to the I2C IO expander (U34)(\ref{qsfpio}) which is accessible from FPGA or MMC. The connection of the differential signals to the FPGA is shown in the tables (\ref{tab:qsfp1-table})(\ref{tab:qsfp2-table}). QSFP2 is not directly connected to the FPGA chip. It is connected via a gigabit multiplexer which is controlled from the MMC. By default, the multiplexer is configured to connect the QSFP2 to the FPGA. In order to choose a different configuration or restore the default, select the appropriate option from the MMC console.
 
 \begin{figure}[H]
 \begin{center}
@@ -420,6 +420,57 @@ QSFPs control signals are connected to the I2C IO expander (U34)(\ref{qsfpio}) w
 \end{center}
 \end{figure}
 
+\begin{table}[htbp]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+FPGA Pin     & QSFP Signal  \\ \midrule
+MGTXTXP0\_116 & QSFP1\_TX\_3\_P \\
+MGTXTXN0\_116 & QSFP1\_TX\_3\_N \\
+MGTXRXP0\_116 & QSFP1\_RX\_3\_P \\
+MGTXRXN0\_116 & QSFP1\_RX\_3\_N \\ \midrule
+MGTXTXP1\_116 & QSFP1\_TX\_1\_P \\
+MGTXTXN1\_116 & QSFP1\_TX\_1\_N \\
+MGTXRXP1\_116 & QSFP1\_RX\_1\_P \\
+MGTXRXN1\_116 & QSFP1\_RX\_1\_N \\ \midrule
+MGTXTXP2\_116 & QSFP1\_TX\_2\_P \\
+MGTXTXN2\_116 & QSFP1\_TX\_2\_N \\
+MGTXRXP2\_116 & QSFP1\_RX\_2\_P \\
+MGTXRXN2\_116 & QSFP1\_RX\_2\_N \\ \midrule
+MGTXTXP3\_116 & QSFP1\_TX\_4\_P \\
+MGTXTXN3\_116 & QSFP1\_TX\_4\_N \\
+MGTXRXP3\_116 & QSFP1\_RX\_4\_P \\
+MGTXRXN3\_116 & QSFP1\_RX\_4\_N \\ \bottomrule
+\end{tabular}
+\caption{QSFP1 pins connection}
+\label{tab:qsfp1-table}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+FPGA Pin     & QSFP Signal  \\ \midrule
+MGTXTXP0\_115 & QSFP1\_TX\_3\_P \\
+MGTXTXN0\_115 & QSFP1\_TX\_3\_N \\
+MGTXRXP0\_115 & QSFP1\_RX\_3\_P \\
+MGTXRXN0\_115 & QSFP1\_RX\_3\_N \\ \midrule
+MGTXTXP1\_115 & QSFP1\_TX\_1\_P \\
+MGTXTXN1\_115 & QSFP1\_TX\_1\_N \\
+MGTXRXP1\_115 & QSFP1\_RX\_1\_P \\
+MGTXRXN1\_115 & QSFP1\_RX\_1\_N \\ \midrule
+MGTXTXP2\_115 & QSFP1\_TX\_2\_P \\
+MGTXTXN2\_115 & QSFP1\_TX\_2\_N \\
+MGTXRXP2\_115 & QSFP1\_RX\_2\_P \\
+MGTXRXN2\_115 & QSFP1\_RX\_2\_N \\ \midrule
+MGTXTXP3\_115 & QSFP1\_TX\_4\_P \\
+MGTXTXN3\_115 & QSFP1\_TX\_4\_N \\
+MGTXRXP3\_115 & QSFP1\_RX\_4\_P \\
+MGTXRXN3\_115 & QSFP1\_RX\_4\_N \\ \bottomrule
+\end{tabular}
+\caption{QSFP2 pins connection}
+\label{tab:qsfp2-table}
+\end{table}
 
 \section{Ethernet}
 Marble is equipped with Ethernet PHY (88E1512) which supports 10/100/1000BASE-T. PHY is connected to the FPGA bank 16 via RGMII interface:
@@ -446,10 +497,11 @@ PHY\_RSTn                          & IO\_L10N\_16                     \\ \bottom
 \caption{RGMII pins assignment}
 \label{tab:rgmii}
 \end{table}
-The Ethernet PHY can be monitored over MDIO by the MMC. IP address and MAC address are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash).
-The MDIO address is set to 1 but it can be changed by changing the resistor on the module.
+The Ethernet PHY can be monitored over MDIO by the MMC. IP address and MAC address are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash). To read the internal PHY configuration registers, select the appropriate option from the MMC console.
+By default, the MDIO address is set to 1 but it can be changed by changing the resistor on the module. To set address to 1, desolder resistor R80 and solder resistor R65 with value 0R.
 
 \section{FMC}
+Both FMC sockets are equipped with HPC (High Pin Count) type connector but not all signals were connected to FPGA and MMC.
 The connection of both FMC connectors is shown below:
 \begin{enumerate}
     \item \textbf{FMC P1} signal connection:
