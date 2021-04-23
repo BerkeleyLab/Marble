@@ -30,7 +30,7 @@ export LC_COLLATE=C
 # Assume kicad is in our $PATH
 # The following setup unfortunately depends on where KiBoM is installed
 A=Marble
-KB=../KiBoM/KiBOM_CLI.py
+KB=../../KiBoM/KiBOM_CLI.py
 # KiBoM is cloned from
 # https://github.com/SchrodingersGat/KiBoM
 if ! test -r $KB; then
@@ -128,7 +128,7 @@ mv testpoint_map.gbr fab/testpoint_map.gbr
 
 # Fancy file integrity feature, presumably nobody besides Larry will care
 (cd fab && sha256sum * > marble-sha256.txt)
-(cat docs/README_fab.txt; cd fab; sha256sum marble-sha256.txt) > fab/README_fab.txt
+(cat ../docs/README_fab.txt; cd fab; sha256sum marble-sha256.txt) > fab/README_fab.txt
 
 # Create the final zip file
 rm -f $zipfile
