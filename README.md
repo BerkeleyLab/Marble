@@ -19,7 +19,7 @@ in this repo, or will save files that are not compatible with
 collaborators' reference installations.
 We also make use of [KiBoM](https://github.com/SchrodingersGat/KiBoM).
 
-See more comments about KiCad versions in [scripts/README.md](scripts/README.md).
+See more comments about KiCad versions in [design/scripts/README.md](design/scripts/README.md).
 
 ## Major Parts
 
@@ -52,9 +52,11 @@ Maybe you want to use GhostView to look at them.
 Also see notes on [current measurement capabilities](docs/shunts.md)
 at runtime.
 
+Our use of the XRP7724 PWM Power Controller has its own [README](xr_chip/README.md).
+
 ## Scripting and processing
 
-See the [scripts subdirectory](scripts) for
+See the [scripts subdirectory](design/scripts) for
 instructions and helper scripts covering:
 
 * Updating the I2C subsystem diagram in schematics
