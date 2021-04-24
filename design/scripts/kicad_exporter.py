@@ -6,7 +6,7 @@ Generates Gerber, drill and position files of a PCB.
 import pcbnew
 import argparse
 from os.path import join, basename
-from datetime import datetime
+from subprocess import check_output
 import re
 
 
@@ -19,6 +19,12 @@ def natural_sort(ll, field='reference'):
         return [convert(c) for c in re.split('([0-9]+)', key[field])]
 
     return sorted(ll, key=alphanum_key)
+
+
+def desc():
+    ''' the git describe string '''
+    tmp = check_output(['git', 'describe', '--dirty', '--always'])
+    return tmp.decode('ascii').strip()
 
 
 class Kicad_exporter:
@@ -55,10 +61,18 @@ class Kicad_exporter:
             zf = pcbnew.ZONE_FILLER(board)
             zf.Fill(board.Zones())
 
-    def export_gerbers(self, layers=['F.Cu', 'B.Cu']):
+    def export_gerbers(self, layers=None, n_inner_layers=0):
         '''
         layers: list of layer names to plot
+        or
+        n_inner_layers: number of inner layers to plot
         '''
+        if layers is None:
+            l_names = ['Cu', 'Mask', 'Paste', 'SilkS']
+            layers = [f + ll for ll in l_names for f in ['F.', 'B.']]
+            layers += ['Edge.Cuts']
+            layers += ['In{}.Cu'.format(i + 1) for i in range(n_inner_layers)]
+
         # -----------------------
         #  Generate Gerber files
         # -----------------------
@@ -151,8 +165,12 @@ class Kicad_exporter:
             'position_mm': (pcbnew.ToMM(pos[0]), -pcbnew.ToMM(pos[1]))
         }
 
-    def export_pos(self):
-        ''' create kicad-like .pos file with footprint coordinates '''
+    def export_pos(self, dnf_parts=[], skip_th=True):
+        '''
+        create kicad-like .pos file with footprint coordinates
+        dnf_parts is a list of reference designators which will be excluded
+        skip_th: exclude through-hole parts from the file if true
+        '''
         f_name = self.f_name.replace('.kicad_pcb', '-all.pos')
         modules = self.board.GetModules()
 
@@ -164,7 +182,10 @@ class Kicad_exporter:
             if m.GetAttributes() & pcbnew.MOD_VIRTUAL:  # skip if virtual!
                 continue
 
-            if m.GetAttributes() & pcbnew.MOD_CMS == 0:  # skip if not SMD
+            if skip_th and m.GetAttributes() & pcbnew.MOD_CMS == 0:  # skip if not SMD
+                continue
+
+            if m.GetReference() in dnf_parts:  # skip dnf parts
                 continue
 
             m_props.append(self.get_pos_props(m))
@@ -185,12 +206,12 @@ class Kicad_exporter:
         print('> ' + f_name)
         with open(join(self.plot_dir, f_name), 'w') as f:
             f.write('''\
-### Module positions - created on {0:} ###
+### Module positions for {0:}
 ### Printed by {1:}
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref  Val  Package  PosX  PosY  Rot  Side
-'''.format(datetime.now(), __file__))
+'''.format(desc(), __file__))
 
             for m in m_props:
                 f.write('''\

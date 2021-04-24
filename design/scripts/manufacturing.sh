@@ -107,6 +107,8 @@ python3 scripts/xy_post.py ${A} marble
 python3 scripts/find_tp.py ${A}.kicad_pcb > testpoint_map.gbr
 
 # Assemble files into fab directory
+# Includes stripping out date and revision info from KiCad exports,
+# so we have a chance of making reproducible output
 rm -rf fab
 mkdir fab
 cd PCB_layers
@@ -117,7 +119,7 @@ for f in *.drl; do
   sed -e '/TF.CreationDate/d' -e '/ DRILL file /s/ date .*//' < $f > ../fab/marble${f#$A}
 done
 cd ..
-sed -e '/Module positions/s/ - created on .*/ ###/' < marble-xy.pos > fab/marble-xy.pos
+sed -e '/Module positions/s/ - created on .*/ ###/' -e '/Module positions/s/ for .*/ ###/' < marble-xy.pos > fab/marble-xy.pos
 sed -e '/^BoM Date:/d' < "$bomfile2" > fab/marble-bom.csv
 mv marble-stuff.log fab/
 cp $A.d356 fab/marble-ipc-d-356.txt
