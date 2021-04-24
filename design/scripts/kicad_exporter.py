@@ -165,7 +165,7 @@ class Kicad_exporter:
             'position_mm': (pcbnew.ToMM(pos[0]), -pcbnew.ToMM(pos[1]))
         }
 
-    def export_pos(self, dnf_parts=[], skip_th=True):
+    def export_pos(self, dnf_parts=[], skip_th=True, verbose=False):
         '''
         create kicad-like .pos file with footprint coordinates
         dnf_parts is a list of reference designators which will be excluded
@@ -179,13 +179,21 @@ class Kicad_exporter:
         # -------------------------
         m_props = []
         for m in modules:
+            refid = self.get_pos_props(m)["reference"]
+
             if m.GetAttributes() & pcbnew.MOD_VIRTUAL:  # skip if virtual!
+                if verbose:
+                    print("skip virt: {}".format(refid))
                 continue
 
             if skip_th and m.GetAttributes() & pcbnew.MOD_CMS == 0:  # skip if not SMD
+                if verbose:
+                    print("skip thru: {}".format(refid))
                 continue
 
             if m.GetReference() in dnf_parts:  # skip dnf parts
+                if verbose:
+                    print("skip dnf:  {}".format(refid))
                 continue
 
             m_props.append(self.get_pos_props(m))
@@ -236,6 +244,17 @@ if __name__ == "__main__":
         type=int,
         help='Number of inner layers (InX.Cu) to export. Default: 0'
     )
+    parser.add_argument(
+        '--keep-thru', dest='keep_thru',
+        action='store_true', default=False,
+        help='Keep through-hole components in placement file'
+    )
+    parser.add_argument(
+        '-v', '--verbose', dest='verbose',
+        action='store_true', default=False,
+        help='Verbose listing of not-placed components'
+    )
+
     args = parser.parse_args()
 
     l_names = ['Cu', 'Mask', 'Paste', 'SilkS']
@@ -246,4 +265,4 @@ if __name__ == "__main__":
     ke = Kicad_exporter(args.kicad_pcb, args.export_dir)
     ke.export_gerbers(layers)
     ke.export_drills()
-    ke.export_pos()
+    ke.export_pos(skip_th=(not args.keep_thru), verbose=args.verbose)
