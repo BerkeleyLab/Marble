@@ -6,13 +6,13 @@ Marble is a dual FMC FPGA carrier board developed for general purpose use in par
 
 The design responds deployment needs in an accelerator environment: reliability, ability to be remotely programmed, safety watchdog, self monitoring, etc. It is intended to be the base digital design for instrumentation electronics, with the capability of connecting to different I/O or analog front ends through the FMC connectors, and is optimized for cost effectiveness for deployments of hundreds of units. It is based on a Network Attached Device (NAD) approach, where high-speed serial links serve as the communication backbone with other systems in the accelerator.
 
-The Marble design is fully Open Source (licensed under the CERN Open Hardware License v1.2) and designed using Open Source tools (KiCAD).
-
 ## Basic Idea
 
 ![block diagram](docs/block_k3.png)
 
 ## Tools
+
+The Marble design is fully Open Source (licensed under the CERN Open Hardware License v1.2) and designed using Open Source tools (KiCAD).
 
 The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
 version 5.1.8; you can feel comfortable using KiCad version 5.1.x, where x &ge; 5.
