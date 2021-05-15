@@ -6,8 +6,6 @@ Marble is a dual FMC FPGA carrier board developed for general purpose use in par
 
 The design responds deployment needs in an accelerator environment: reliability, ability to be remotely programmed, safety watchdog, self monitoring, etc. It is intended to be the base digital design for instrumentation electronics, with the capability of connecting to different I/O or analog front ends through the FMC connectors, and is optimized for cost effectiveness for deployments of hundreds of units. It is based on a Network Attached Device (NAD) approach, where high-speed serial links serve as the communication backbone with other systems in the accelerator.
 
-The initial design is supported by the Berkeley Accelerator Controls and Instrumentation (BACI), a DOE High Energy Physics (HEP) General Accelerator R&D (GARD) program and carried out by the Accelerator Technology Group (ATG) at LBNL, in collaboration with the Warsaw University of Technology and Creotech Instruments in Poland.
-
 The Marble design is fully Open Source (licensed under the CERN Open Hardware License v1.2) and designed using Open Source tools (KiCAD).
 
 ## Basic Idea
@@ -73,3 +71,9 @@ That's a *different board*: 4xSFP instead of 2xQSFP, and no SO-DIMM socket
 are the most obvious indicators.
 You can go [directly](https://github.com/BerkeleyLab/Marble-Mini/releases/tag/v1.0rc3)
 to the documentation related to that manufacturing run.
+
+## Credits
+
+The initial design is supported by the Berkeley Accelerator Controls and Instrumentation (BACI), a DOE High Energy Physics (HEP) General Accelerator R&D (GARD) program and carried out by the Accelerator Technology Group (ATG) at LBNL, in collaboration with the Warsaw University of Technology (WUT) and Creotech Instruments in Poland.
+
+The board was designed by Michal Gaska (WUT) and Larry Doolittle (LBNL) is the mastermind behind the design. Michael Betz, Vamsi Vytla, Sergio Paiagua and Eric Norum (LBNL) have also contributed to the design and supporting software and firmware throughout the development.
