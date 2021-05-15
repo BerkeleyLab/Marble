@@ -7,7 +7,8 @@
 \usepackage{enumitem}
 \usepackage{listings}
 \usepackage[svgnames]{xcolor}
-\usepackage{subfig}
+
+
 
 \setlist{leftmargin=*}
 \usepackage{listings}
@@ -28,11 +29,7 @@
 \graphicspath{{figures/}} %Setting the graphicspath
 \renewcommand\abstractname{Introduction}
 
-
-
-
 \title{Marble -- Factory Acceptance Tests\\ \small{v1.0 2020}}
-\author{Michał Gąska, michalgaska2@gmail.com}
 
 \begin{document}
 
@@ -70,22 +67,22 @@ To perform all of the tests following hardware are required:
 \begin{enumerate}
     \item Lab bench power supply.
     \item Micro USB calbe.
-    \item QSFP loopback module. 
-    \item FMC Tester module. 
-    \item Multimeter. 
+    \item QSFP loopback module.
+    \item FMC Tester module.
+    \item Multimeter.
     \item MMC JTAG (example: SEGGER J-LINK mini).
-    \item FPGA JTAG (example: Digilent JTAG HS3).   
+    \item FPGA JTAG (example: Digilent JTAG HS3).
 \end{enumerate}
 
 \subsection{Software requirements}
 To perform all of the tests following software are required:
 \begin{enumerate}
     \item Vivado 19.1.
-    \item Serial port terminal. 
+    \item Serial port terminal.
 \end{enumerate}
 
 \section{Power connection}
-Before connecting the power supply for the first time, check that the main bus is not shorted. Using a multimeter set in resistance measurement mode, measure the resistance between metal pads of the J19 connector (Figure \ref{01}). 
+Before connecting the power supply for the first time, check that the main bus is not shorted. Using a multimeter set in resistance measurement mode, measure the resistance between metal pads of the J19 connector (Figure \ref{01}).
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{J19.png}
@@ -96,8 +93,8 @@ Before connecting the power supply for the first time, check that the main bus i
 Measured resistance should be around \textbf{{\color{red}200 kOhm}}
 \end{leftbar}
 
-If the resistance is correct, connect the main power. For this purpose, the current limitation on the power supply should be set to 100mA and the voltage to 12V. \textbf{Make sure that the current limit of the laboratory power supply is on.} Now the power cable can be connected to the board and the used laboratory power supply channel can be switched on. 
-This should result in the \textit{12V} LED lighting up as shown  on Figure \ref{02}. Now it is recommended to go to section \nameref{microcontroller}. 
+If the resistance is correct, connect the main power. For this purpose, the current limitation on the power supply should be set to 100mA and the voltage to 12V. \textbf{Make sure that the current limit of the laboratory power supply is on.} Now the power cable can be connected to the board and the used laboratory power supply channel can be switched on.
+This should result in the \textit{12V} LED lighting up as shown  on Figure \ref{02}. Now it is recommended to go to section \nameref{microcontroller}.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.8\linewidth, angle = 180]{xrpoff.png}
@@ -113,7 +110,7 @@ Download the latest version of the microcontroller testing code from github:
 https://https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/i2c\_rework
 \end{leftbar}
 
-A recent version of OpenOCD (v0.10.0 or later) is required. 
+A recent version of OpenOCD (v0.10.0 or later) is required.
 \begin{enumerate}
 	\item Connect JTAG module to \textbf{J14} like it is shown on Figure \ref{23}.
 	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 boudrate.
@@ -198,7 +195,7 @@ https://github.com/BerkeleyLab/Bedrock/tree/marblev2
 \end{leftbar}
 
 \begin{leftbar}
-Before testing the FPGA it is recommended to set up the current limit to 2A on the lab power supply. 
+Before testing the FPGA it is recommended to set up the current limit to 2A on the lab power supply.
 \end{leftbar}
 \subsection{FMC test}
 \begin{leftbar}
@@ -215,13 +212,13 @@ Board power should be turned off when inserting and removing the FMC module.
 	\item Program the FPGA using the following steps:
 	\begin{enumerate}
 	\item Go to the folder \textbf{Bedrock/projects/test\_marble\_family/}
-	\item Open command termianal and run command: 
+	\item Open command termianal and run command:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
 $ mutil usb
 	\end{lstlisting}
 	\end{enumerate}
 	\item To make a test do the following steps:
-	\begin{enumerate}	
+	\begin{enumerate}
 	\item Go to the folder \textbf{Bedrock/projects/test\_marble\_family/}
 	\item To test P1 FMC connector run the following command:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
@@ -236,13 +233,11 @@ $ PYTHONPATH=../../badger:../../periphera\l_drivers
 	\end{enumerate}
 \end{enumerate}
 
-\begin{figure}[H]%
-    \centering
-    \subfloat[\centering FMC 1]{{\includegraphics[width=7cm]{fmc1.png} }}%
-    \qquad
-    \subfloat[\centering FMC 2]{{\includegraphics[width=7cm]{fmc2.png} }}%
-    \caption{FMC connectors with plugged FMC Tester board.}%
-    \label{fig:example}%
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.9\linewidth]{fmc_tester.png}
+ \caption{FMC connectors with plugged FMC Tester board.}
+\end{center}
 \end{figure}
 
 \subsection{QSFP test}
@@ -257,12 +252,12 @@ Board power should be turned off when inserting and removing the QSFP module.
 	\begin{enumerate}
 		\item Run Vivado
 		\item Go to \menu{Flow>Open Hardware Manager} and then  \menu{Tools>Auto Connect}
-		\item Click \menu{Tools>Program Device>xc7k160t\_0} to open the programming window. 
+		\item Click \menu{Tools>Program Device>xc7k160t\_0} to open the programming window.
 		\item Choose the \textit{bitstream file} and click \menu{Program}
 	\end{enumerate}
 	\item After the successful programming, the Dashboard should start automatically.
 	\item Detect links by clicking \menu{Serial I/O Links>Auto-detect links}
-	\item Correct detected and working links should look like in figure \ref{links}.  
+	\item Correct detected and working links should look like in figure \ref{links}.
 	\item Connect the QSFP loopback module to the other QSFP connector and repeat the above steps.
 \end{enumerate}
 
@@ -279,13 +274,13 @@ The following steps should be performed to test the Ethernet:
     \item Program the FPGA using the following steps:
 	\begin{enumerate}
 	\item Go to the folder \textbf{Bedrock/projects/test\_marble\_family/}
-	\item Open command termianal and run command: 
+	\item Open command termianal and run command:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
 $ mutil usb
 	\end{lstlisting}
 	\end{enumerate}
     \item Change the network adapter settings to connect with static \textbf{192.168.9.10} IP address.
-    \item Connect Marble to the computer using an ethernet cable. 
+    \item Connect Marble to the computer using an ethernet cable.
     \item In Linux command terminal run:
     \begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
 $ ping 192.168.9.10
@@ -316,7 +311,7 @@ Programming FPGA using Vivado and Digilent JTAG HS3:
 \begin{enumerate}
 		\item Run Vivado
 		\item Go to \menu{Flow>Open Hardware Manager} and then  \menu{Tools>Auto Connect}
-		\item Click \menu{Tools>Program Device>xc7k160t\_0} to open the programming window. 
+		\item Click \menu{Tools>Program Device>xc7k160t\_0} to open the programming window.
 		\item Choose the \textit{bitstream file} and click \menu{Program}
 
 	\item After the successful programming, the Dashboard should start automatically.
