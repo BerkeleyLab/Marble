@@ -1,10 +1,14 @@
 # Marble board
 
-LBNL: Dual FMC (HPC & LPC) NAD Carrier
+Marble is a dual FMC FPGA carrier board developed for general purpose use in particle accelerator electronics instrumentation. It is currently under development and the base platform for two accelerator projects at DOE: ALS-U (the Advanced Light Source Upgrade at LBNL and the LCLS-II HE (the Linac Coherent Light Source II High Energy upgrade).
 
-A general purpose carrier board, sized to satisfy needs of some BPM and LLRF applications
+![marble](docs/marble.jpg)
 
-Status: under development, prototype in testing
+The design responds deployment needs in an accelerator environment: reliability, ability to be remotely programmed, safety watchdog, self monitoring, etc. It is intended to be the base digital design for instrumentation electronics, with the capability of connecting to different I/O or analog front ends through the FMC connectors, and is optimized for cost effectiveness for deployments of hundreds of units. It is based on a Network Attached Device (NAD) approach, where high-speed serial links serve as the communication backbone with other systems in the accelerator.
+
+The initial design is supported by the Berkeley Accelerator Controls and Instrumentation (BACI), a DOE High Energy Physics (HEP) General Accelerator R&D (GARD) program and carried out by the Accelerator Technology Group (ATG) at LBNL, in collaboration with the Warsaw University of Technology and Creotech Instruments in Poland.
+
+The Marble design is fully Open Source (licensed under the CERN Open Hardware License v1.2) and designed using Open Source tools (KiCAD).
 
 ## Basic Idea
 
@@ -31,10 +35,6 @@ See more comments about KiCad versions in [design/scripts/README.md](design/scri
 * U23: FTDI [FT4232H-56Q](https://www.ftdichip.com/Products/ICs/FT4232H.htm) USB interface
 * U35: Maxlinear [XRP7724](https://www.maxlinear.com/product/power-management/universal-pmics/universal-pmics/xrp7724) Quad PWM Power Controller
 * Y1: Taitien [TXEAADSANF-25.000000](https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf) 25 MHz VCTCXO
-
-## (Almost) Reality:
-
-![layout](docs/marble_top.png)
 
 ## Auxiliary documentation
 
