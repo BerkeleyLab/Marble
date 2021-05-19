@@ -62,16 +62,6 @@ instructions and helper scripts covering:
 * Generating artifacts for manufacturing
 * Generating Xilinx constraint file
 
-## Special note about the prototype Marble-Mini
-
-Due to evolving branding ideas, the first prototype run of
-[Marble-Mini](https://github.com/BerkeleyLab/Marble-Mini) boards was
-marked "Marble v1.0rc3" and the QR code pointed to this Marble repo.
-That's a *different board*: 4xSFP instead of 2xQSFP, and no SO-DIMM socket
-are the most obvious indicators.
-You can go [directly](https://github.com/BerkeleyLab/Marble-Mini/releases/tag/v1.0rc3)
-to the documentation related to that manufacturing run.
-
 ## Credits
 
 The initial design is supported by the Berkeley Accelerator Controls and Instrumentation (BACI), a DOE High Energy Physics (HEP) General Accelerator R&D (GARD) program and carried out by the Accelerator Technology Group (ATG) at LBNL, in collaboration with the Warsaw University of Technology (WUT) and Creotech Instruments in Poland.
