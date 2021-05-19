@@ -1493,7 +1493,7 @@ F11 "POE_VC[1..4]" I L 8400 4850 50
 F12 "CLK_25MHZ" I L 8400 4550 50
 $EndSheet
 Text Notes 2500 2500 0    394  ~ 79
-Marble v2
+Marble
 Wire Wire Line
 	2350 11650 3950 11650
 Connection ~ 4150 10550
