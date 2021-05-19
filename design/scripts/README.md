@@ -19,7 +19,7 @@ This includes Gerbers and BoM files.  See `manufacturing.sh`.
 There are two GUI actions that must be performed by hand, before the script can take over.
 
 Overview of the process:
-![process](../docs/manufacturing_scripts.png)
+![process](../../docs/manufacturing_scripts.png)
 
 Besides [KiCad](https://www.kicad.org/) itself, this requires installation of
 [KiBoM](https://github.com/SchrodingersGat/KiBoM) 1.8.0.
