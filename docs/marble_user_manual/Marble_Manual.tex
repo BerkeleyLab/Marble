@@ -13,7 +13,7 @@
 \usepackage{svg}
 \usepackage{tabu}
 \usepackage{ltablex}
-
+\usepackage{longtable}
 
 \setlist{leftmargin=*}
 \usepackage{listings}
@@ -81,18 +81,14 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
 \end{center}
 \end{figure}
 
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-\hspace*{-1cm}
-\begin{table}[htbp]
-\centering
-\begin{tabular}{@{}ccp{0.3\linewidth}p{0.3\linewidth}c@{}}
+\begin{longtable}[htbp]{@{}ccp{0.3\linewidth}p{0.3\linewidth}c@{}}
 \toprule
 \textbf{Callout} &
   \textbf{\begin{tabular}[c]{@{}c@{}}Reference\\ Designator\end{tabular}} &
   \textbf{Component Description} &
   \textbf{Notes} &
   \textbf{\begin{tabular}[c]{@{}c@{}}Schematic \\ Page\end{tabular}} \\ \midrule
+
 1  & U1  & FPGA Xilinx Kintex-7      & XC7K160T-2FFG676C &  \\
 2  & SK1 & DD3 SO-DIMM memory module & VR7PU286458FBAMJT &  \\
 3  & U4  & 10/100/1000 Ethernet PHY  & 88E1512-A0-NNP2I000  &  \\
@@ -131,12 +127,9 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
 36 & U60 & Overvoltage and Undervoltage Reset IC & TPS3703A7330DSERQ1 &  \\
 37 & LD4-10, LD18-19 & Power rails indicator LEDs & KPH-1608CGCK &  \\ \bottomrule
 
-\end{tabular}
 \caption{}
 \label{tab:my-table}
-\end{table}
-\hspace*{-1cm}
-
+\end{longtable}
 
 The board has the following functionalities and features:
 \begin{enumerate}
