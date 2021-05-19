@@ -50,7 +50,7 @@ This document presents a user--friendly guide on how to perform Factory Acceptan
 \section{Overview to Marble module}
 
 \begin{leftbar}
-Design files are open source and can be downolad from Gilhub:
+Design files are open source and can be download from GitHub:
 
 https://github.com/BerkeleyLab/Marble
 \end{leftbar}
@@ -66,7 +66,7 @@ downloaded files correspond to your board.
 To perform all of the tests following hardware are required:
 \begin{enumerate}
     \item Lab bench power supply.
-    \item Micro USB calbe.
+    \item Micro USB cable.
     \item QSFP loopback module.
     \item FMC Tester module.
     \item Multimeter.
@@ -105,7 +105,7 @@ This should result in the \textit{12V} LED lighting up as shown  on Figure \ref{
 \section{Microcontroller programing}
 \label{microcontroller}
 
-Download the latest version of the microcontroller testing code from github:
+Download the latest version of the microcontroller testing code from GitHub:
 \begin{leftbar}
 https://https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/i2c\_rework
 \end{leftbar}
@@ -113,7 +113,7 @@ https://https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/i2c\_rework
 A recent version of OpenOCD (v0.10.0 or later) is required.
 \begin{enumerate}
 	\item Connect JTAG module to \textbf{J14} like it is shown on Figure \ref{23}.
-	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 boudrate.
+	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 baudrate.
 	\item Power up the board.
 	\item Program the microcontroller using the following commands:
 	\begin{enumerate}
@@ -160,8 +160,8 @@ Before doing the steps below, it is highly recommended to measure if there are n
 
 Perform the following steps only and exclusively when there are no shorts on the power rails!
 \begin{enumerate}
-    \item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 boudrate.
-    \item Set up votage to 12V and the current limit to 1A on lab power supply.
+    \item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 baudrate.
+    \item Set up voltage to 12V and the current limit to 1A on lab power supply.
     \item Power up the board.
     \item From the menu displayed in the serial terminal, select the option \menu{g) XRP7724 go}.
     \item Make a power cycle by turning off and on the lab power supply.
@@ -189,7 +189,7 @@ Perform the following steps only and exclusively when there are no shorts on the
 \end{figure}
 
 \section{FPGA programing}
-Download the latest version of the FPGA testing code from github:
+Download the latest version of the FPGA testing code from GitHub:
 \begin{leftbar}
 https://github.com/BerkeleyLab/Bedrock/tree/marblev2
 \end{leftbar}
@@ -203,16 +203,16 @@ Board power should be turned off when inserting and removing the FMC module.
 \end{leftbar}
 \begin{enumerate}
 	\item Plug FMC Tester module to one of the FMC connector as it is shown on Figure \ref{fig:example}.
-	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 boudrate.
+	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 baudrate.
 	\item Change the network adapter settings to connect with static \textbf{192.168.9.10} IP address.
-    \item Connect Marble to the computer using an ethernet cable.
+    \item Connect Marble to the computer using an Ethernet cable.
     \item Power up the board.
     \item In the serial terminal menu choose \menu{4) GPIO control
 >a) FMC power} to turn on power for FMCs.
 	\item Program the FPGA using the following steps:
 	\begin{enumerate}
 	\item Go to the folder \textbf{Bedrock/projects/test\_marble\_family/}
-	\item Open command termianal and run command:
+	\item Open command terminal and run command:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
 $ mutil usb
 	\end{lstlisting}
@@ -274,13 +274,13 @@ The following steps should be performed to test the Ethernet:
     \item Program the FPGA using the following steps:
 	\begin{enumerate}
 	\item Go to the folder \textbf{Bedrock/projects/test\_marble\_family/}
-	\item Open command termianal and run command:
+	\item Open command terminal and run command:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
 $ mutil usb
 	\end{lstlisting}
 	\end{enumerate}
     \item Change the network adapter settings to connect with static \textbf{192.168.9.10} IP address.
-    \item Connect Marble to the computer using an ethernet cable.
+    \item Connect Marble to the computer using an Ethernet cable.
     \item In Linux command terminal run:
     \begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
 $ ping 192.168.9.10
