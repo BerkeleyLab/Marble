@@ -314,26 +314,26 @@ Clock Name &
   Description \\ \midrule
 \multirow{2}{*}{System Clock} &
   Y1, Y2 &
-  \multirow{2}{9cm}{Y1 and Y2 can be soldered interchangeably and provide a reference clock source for the U20 chip} \\
+  Y1 and Y2 can be soldered interchangeably and provide a reference clock source for the U20 chip \\[0.1cm]
  &
   U20 &
-  \multirow{2}{9cm}{U20 is an ultra-low jitter clock generator that provides a 125 MHz clock for the FPGA bank 33 that can operate as a DDR3 reference clock. Additionally, U20 generates 125 MHz clock which is connected to the clock multiplexer. }
-   \\
+ U20 is an ultra-low jitter clock generator that provides a 125 MHz clock for the FPGA bank 33 that can operate as a DDR3 reference clock. Additionally, U20 generates 125 MHz clock which is connected to the clock multiplexer.
+   \\ [0.3cm]
 Additional Clock &
   Y3 &
-  VCXO - provides 20 MHz clock for FPGA bank 33 \\
+  VCXO - provides 20 MHz clock for FPGA bank 33 \\[0.2cm]
 User Clock &
   Y6 &
-  Si570 - provides variable clock frequencies for 10 MHz to 280 MHz; connected to the clock multiplexer \\
+  Si570 - provides variable clock frequencies for 10 MHz to 280 MHz; connected to the clock multiplexer \\[0.1cm]
 \begin{tabular}[c]{@{}l@{}}User U.FL Clock 1\\ (differential pair)\end{tabular} &
   J2, J5 &
-  External clock source input \\
+  External clock source input \\[0.4cm]
 \begin{tabular}[c]{@{}l@{}}User U.FLClock 2\\ (differential pair)\end{tabular} &
   J3, J7 &
-  External clock source input \\
+  External clock source input \\[0.4cm]
 FMC1 M2C &
   P1 & GBTCLK 0 \& 1
-   \\
+   \\[0.5cm]
 FMC2 M2C &
   P2 & GBTCLK 0 \& 1
    \\ \bottomrule
@@ -341,7 +341,6 @@ FMC2 M2C &
 \caption{}
 \label{tab:clk-table}
 \end{table}
-
 
 Marble supports external clock sources from FMC and from U.FL connectors. Thanks to the clock multiplexer, any clock input can be connected to any FPGA MGT clock input. Clock routing and Si570 frequency can be changed over I2C from the house-keeping microcontroller or the FPGA.
 
