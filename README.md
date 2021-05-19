@@ -34,33 +34,31 @@ See more comments about KiCad versions in [design/scripts/README.md](design/scri
 * U35: Maxlinear [XRP7724](https://www.maxlinear.com/product/power-management/universal-pmics/universal-pmics/xrp7724) Quad PWM Power Controller
 * Y1: Taitien [TXEAADSANF-25.000000](https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf) 25 MHz VCTCXO
 
-## Auxiliary documentation
+## Documentation
 
-25-page schematics like this are a modern reality, but that doesn't mean they
-are easy to navigate.  To aid in understanding subsystems that are splattered
-over multiple sheets, here are block diagrams that can act as introductions or
-indexes to the actual machine-readable and DRC'd schematics.
+Documentation is available in the [docs directory](docs/):
 
-* I2C subsystems: [marble_i2.eps](docs/marble2_i2c.eps)
-* Power Routing: [m_power.eps](docs/m_power.eps)
+* [User Guide](docs/marble_user_guide/Marble_User_Guide.pdf)
+* [Fabrication acceptance test guide](docs/marble_test_guide/Marble_Test_Guide.pdf)
 
-These are EPS files, authored using [xcircuit](http://opencircuitdesign.com/xcircuit/).
-Maybe you want to use GhostView to look at them.
 
-Also see notes on [current measurement capabilities](docs/shunts.md)
-at runtime.
+If you have a physical board that has already been tested you can jump directly to the User Guide. If you need to qualify, test or troubleshoot a board, you can use the fabrication acceptance test guide. These documents are also available as artifacts for each fabrication release.
 
-Our use of the XRP7724 PWM Power Controller has its own [README](xr_chip/README.md).
+Other documentation includes information on the XRP7724 PWM Power Controller, which has its own [README](xr_chip/README.md), and notes on [current measurement capabilities](docs/shunts.md)
 
-## Scripting and processing
+## Manufacturing package and other scripted processes
 
-See the [scripts subdirectory](design/scripts) for
-instructions and helper scripts covering:
+The Marble design source files, along with documentation, are available in this repository under version control.
+Other non-source artifacts (such as fabrication packages) are available for download for each manufactured release.
 
-* Updating the I2C subsystem diagram in schematics
+Every Marble fabrication run, a new version release is tagged in this repository and the corresponding artifacts are made available for download (e.g. manufacturing package, documentation, etc.). The physical boards have a QR code on them, pointing to the board's tagged release on GitHub so a physical board can be mapped to the source code and fabrication package used for its manufacture.
+
+Updating the QR code for a new release, updating the silkscreen design accordingly and generating a fabrication package is a process in itself. That and other processes are partially scripted. Additional information on those processes and the scripts used can be found in the [scripts subdirectory](design/scripts), covering:
+
 * Inserting QR code on silkcsreen
 * Generating artifacts for manufacturing
 * Generating Xilinx constraint file
+* Updating the I2C subsystem diagram in schematics
 
 ## Credits
 
