@@ -1,5 +1,5 @@
 Marble board
-LBNL-Creotech collaboration: Dual FMC (HPC & LPC) NAD Carrier
+Dual FMC FPGA carrier board developed for general purpose use in particle accelerator electronics instrumentation.
 
 https://github.com/BerkeleyLab/Marble
 
@@ -64,5 +64,5 @@ SHA-256 signature file, which can be used to verify the integrity
 and version of all of the files listed above:
   marble-sha256.txt
 That file's SHA-256 signature, in turn, is found at the end of
-this README fle.
+this README file.
 
