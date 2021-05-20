@@ -50,10 +50,11 @@ Other documentation includes information on the XRP7724 PWM Power Controller, wh
 
 The Marble design source files, along with documentation, are available in this repository under version control.
 Other non-source artifacts (such as fabrication packages) are available for download for each manufactured release.
+If you would like to manufacture Marble boards from any of the released version, download the manufacturing package for that particular version from the list of artifacts and request a quote from your favorite vendor. Marble is not yet available as a catalog item from any of our manufacturing partners.
 
-Every Marble fabrication run, a new version release is tagged in this repository and the corresponding artifacts are made available for download (e.g. manufacturing package, documentation, etc.). The physical boards have a QR code on them, pointing to the board's tagged release on GitHub so a physical board can be mapped to the source code and fabrication package used for its manufacture.
+When a new design version of Marble is ready for manufacture, a release is tagged in this repository and the corresponding artifacts are made available for download (e.g. manufacturing package, documentation, etc.). The physical boards have a [QR code](https://en.wikipedia.org/wiki/QR_code) on them, pointing to the board's tagged release on GitHub so a physical board can be mapped to the source code and fabrication package used for its manufacture.
 
-Updating the QR code for a new release, updating the silkscreen design accordingly and generating a fabrication package is a process in itself. That and other processes are partially scripted. Additional information on those processes and the scripts used can be found in the [scripts subdirectory](design/scripts), covering:
+Updating the QR code for a new release, updating the silkscreen design accordingly and generating a fabrication package is a process in itself. That and other processes are partially scripted. Additional information on those processes and the scripts used can be found in the [scripts subdirectory](design/scripts). A [README](design/scripts/README.md) covers the following:
 
 * Inserting QR code on silkcsreen
 * Generating artifacts for manufacturing
