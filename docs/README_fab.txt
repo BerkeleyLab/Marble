@@ -18,6 +18,11 @@ Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
 (0.35mm pad).  The overall board size is 150 mm x 180 mm,
 similar to the AMC double-width standard.
 
+- PCB Material: FR4
+- Soldermask color: Red
+- Silkscreen color: White
+- Copper weight for inner layers is 0.5 oz and for outer layers is 1oz + 0.5oz = 1.5oz
+
 Copper Gerber files, in order:
   marble-F_Cu.gbr
   marble-In1_Cu.gbr
