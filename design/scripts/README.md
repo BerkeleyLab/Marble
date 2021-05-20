@@ -1,6 +1,6 @@
 # Marble board scripting and processes
 
-When a new design version of Marble is ready for manufacture, a release is tagged in this repository and the corresponding artifacts are made available for download (e.g. manufacturing package, documentation, etc.). The physical boards have a [QR code](https://en.wikipedia.org/wiki/QR_code) on them, pointing to the board's tagged release on GitHub so a physical board can be mapped to the source code and fabrication package used for its manufacture.
+When a new design version of Marble is ready for manufacture, a release is tagged in this repository and the corresponding artifacts are made available for download (e.g. manufacturing package, documentation, etc.). We want the physical boards to have a [QR code](https://en.wikipedia.org/wiki/QR_code) on them, pointing to the board's tagged release on GitHub.  This way a physical board can be mapped to the source code and fabrication package that was used for its manufacture.
 
 Updating the QR code for a new release, updating the silkscreen design accordingly and generating a fabrication package is a process in itself. That and other processes are partially scripted and documented here.
 
@@ -24,7 +24,9 @@ From the design directory, run the Python script:
 ```console
 $ python scripts/qr_create.py
 ```
-S
+That will create a `mm_qr.png` file, which you should be able to preview and
+scan with your phone to confirm it has the intended link.
+
 Open the KiCad project: `design/Marble.pro`
 
 Open the `Bitmap to Component Converter` clicking on this button at the top of the screen:
@@ -37,16 +39,11 @@ Open the `PCB Layout Editor` clicking on this button at the top of the screen:
 
 ![Pcbnew](img/pcbnew_button.png)
 
-Unselect every layer on the right-hand side except for `F.silkS`. If the silkscreen doesn't clearly show up, press `b` on your keyboard.
+Press the `b` key to fill copper planes (completing connectivity and getting rid of rats-nest visual clutter), and unselect every layer on the right-hand side except for `F.silkS`.  There's a nice "Hide All Layers" feature available by right-clicking on the layer list.
 
 Select the QR code, right click and select `Update footprint...`. Click `Update` and `Close`.
 
-The Above instructions are tested with KiCad 5.1.8. Be aware of KiCad issue [#6514](https://gitlab.com/kicad/code/kicad/-/issues/6514). If the results look corrupted and you are not able to scan the QR code from the PCB layout editor, select `Modern Toolset (Fallback)` under KiCad Preferences.
-
-
-
-This includes Gerbers and BoM files.  See `manufacturing.sh`.
-There are two GUI actions that must be performed by hand, before the script can take over.
+The above instructions are tested with KiCad 5.1.8. Be aware of KiCad issue [#6514](https://gitlab.com/kicad/code/kicad/-/issues/6514). If the results look corrupted and you are not able to scan the QR code from the PCB layout editor, select `Modern Toolset (Fallback)` under KiCad Preferences.
 
 ### Generate the manufacturing package
 
@@ -56,11 +53,11 @@ First, we need to perform two steps using the GUI before we can have a Python sc
 
 * Generate the Bill of Materials (BOM): From KiCad, open the `Schematic Layout Editor` clicking on this button at the top of the screen:
 
- ![Pcbnew](img/schem_button.png)
+![Pcbnew](img/schem_button.png)
 
- Then click on `Tools/ Generate Bill of Materials`. Make sure `Command line:` field is empty, click `Generate` and `Close`.
+Then click on `Tools/ Generate Bill of Materials`. Make sure `Command line:` field is empty, click `Generate` and `Close`.
 
- * Generate Netlist:
+* Generate Netlist:
 
 Open the `PCB Layout Editor` clicking on this button at the top of the screen:
 
@@ -70,7 +67,7 @@ Perform a Design Rules Check (DRC). Click on this button in the top menu:
 
 ![drc](img/drc_button.png)
 
-and click on `Run DRC`. Then generate the netlist by clicking on `File / Fabrication Outputs / IPC-D-356 Netlist File...`, click `Save`.
+and click on `Run DRC`. Then generate a netlist file by clicking on `File / Fabrication Outputs / IPC-D-356 Netlist File...`, click `Save`.  Fab houses often use this file format to set up their testing of bare boards.
 
 After these steps, we're ready to have the manufacturing script take over and generate the fabrication package.
 
