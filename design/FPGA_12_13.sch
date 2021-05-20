@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 20 25
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Marble"
+Date "2021-05-18"
+Rev "v1.1"
+Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
 Comment3 ""
