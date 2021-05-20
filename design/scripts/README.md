@@ -29,13 +29,13 @@ Open the KiCad project: `design/Marble.pro`
 
 Open the `Bitmap to Component Converter` clicking on this button at the top of the screen:
 
-![Bitmap to Component Converter](bit2comp_button.png)
+![Bitmap to Component Converter](img/bit2comp_button.png)
 
 Click on `Load Bitmap` and select the `mm_qr.png` that you just generated with the Python script. Choose 400 x 400 DPI to get a 19.8 mm output size. Check the `Negative` and `Front silk screen`, click `Export` and select `logos/QR.kicad_mod` to replace the previous QR code with the new one. You can now close the `Bitmap to Component Converter` and insert the QR code into the silkscreen.
 
 Open the `PCB Layout Editor` clicking on this button at the top of the screen:
 
-![Pcbnew](pcbnew_button.png)
+![Pcbnew](img/pcbnew_button.png)
 
 Unselect every layer on the right-hand side except for `F.silkS`. If the silkscreen doesn't clearly show up, press `b` on your keyboard.
 
@@ -56,7 +56,7 @@ First, we need to perform two steps using the GUI before we can have a Python sc
 
 * Generate the Bill of Materials (BOM): From KiCad, open the `Schematic Layout Editor` clicking on this button at the top of the screen:
 
- ![Pcbnew](schem_button.png)
+ ![Pcbnew](img/schem_button.png)
 
  Then click on `Tools/ Generate Bill of Materials`. Make sure `Command line:` field is empty, click `Generate` and `Close`.
 
@@ -64,11 +64,11 @@ First, we need to perform two steps using the GUI before we can have a Python sc
 
 Open the `PCB Layout Editor` clicking on this button at the top of the screen:
 
-![Pcbnew](pcbnew_button.png)
+![Pcbnew](img/pcbnew_button.png)
 
 Perform a Design Rules Check (DRC). Click on this button in the top menu:
 
-![drc](drc_button.png)
+![drc](img/drc_button.png)
 
 and click on `Run DRC`. Then generate the netlist by clicking on `File / Fabrication Outputs / IPC-D-356 Netlist File...`, click `Save`.
 
@@ -100,7 +100,7 @@ based on a netlist file exported from KiCad.
 
 From KiCad (version 5.1.x), open the `Schematic Layout Editor` clicking on this button at the top of the screen:
 
- ![Pcbnew](schem_button.png)
+![Pcbnew](img/schem_button.png)
 
 * From the top menu, select `Tools / Generate Netlist File`
 * Select the `OrcadPCB2 tab`, click on `Generate Netlist` and `Save`. The result shows up as `Marble.net`
@@ -115,7 +115,7 @@ The result shows up as `Marble.xdc`, which can be used for your FPGA designs.
 
 Run the following command from the top level directory before parting the I2C subsystem diagram into the `I2C_MUX.sch` schematic:
 ```console
-convert docs/marble2_i2c.eps -scale 1330 marble2_i2c.png
+$ convert docs/marble2_i2c.eps -scale 1330 marble2_i2c.png
 ```
 ## Reproducible fabrication package builds
 
