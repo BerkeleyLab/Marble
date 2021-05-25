@@ -1,0 +1,1201 @@
+PowerArchitect5
+# Copyright (c) 2012 Exar Corp.
+#
+# This is a PowerArchitect 5 project configuration file.
+#
+# This file contains configuration information for:
+#
+#        PowerExar Programmable Power systems
+#
+# This file should not be altered or edited by inexperienced users.
+#
+# For more information, please see:
+# http://www.exar.com/power/power-conversion/programmable-power/
+#
+
+{
+ "Appellation": "Power Supply", 
+ "Command Line Switches": {
+  "com_port": "autopick", 
+  "com_timeout": ".50", 
+  "filenames": [], 
+  "flask_enable": false, 
+  "gui_advanced_gpio_enable": false, 
+  "gui_debug_enable": false, 
+  "gui_extra_enable": false, 
+  "gui_model_viewer_enable": false, 
+  "gui_override_enable": false, 
+  "gui_pid_enable": false, 
+  "gui_reset_settings": false, 
+  "gui_show_enable": false, 
+  "gui_yflash_debug_enable": false, 
+  "i": false, 
+  "ii": false, 
+  "log_level": 30, 
+  "override_ignore": false, 
+  "pwr_dumpregs": false, 
+  "pwr_eia_e196": false, 
+  "pwr_expert_enable": false, 
+  "pwr_hex": false, 
+  "pwr_immediate_en_boot": false, 
+  "pwr_ram_hex": false, 
+  "pwr_yfextra": null, 
+  "pwr_yfextra_clear": false
+ }, 
+ "Comments": "", 
+ "Company Name": "", 
+ "Contact Email": "", 
+ "Contact Name": "", 
+ "Contact Telephone": "", 
+ "Device": [
+  {
+   "Add LDO33 to ResetOut Group": false, 
+   "Add to Power Ok Group": true, 
+   "Additional Flash Data": ":00000001FF", 
+   "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M", 
+   "Aux ADC Sampling": [
+    "ISENSE", 
+    "VIN", 
+    "Temp", 
+    "VOUT", 
+    "ISENSE", 
+    "ISENSE", 
+    "ISENSE", 
+    "---", 
+    "ISENSE", 
+    "VIN", 
+    "---", 
+    "---", 
+    "ISENSE", 
+    "ISENSE", 
+    "---", 
+    "---"
+   ], 
+   "Channel": [
+    {
+     "Appellation": "Xrp7724ChannelM", 
+     "Auto-Select Components": false, 
+     "Bandwidth Percentage": 10.0, 
+     "Bandwidth Percentage Calculation": 10.0, 
+     "Bode Curves": null, 
+     "Channel Enable": true, 
+     "Channel Name": "", 
+     "Channel Switching Frequency": "494kHz", 
+     "Compensator Denominator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Compensator Numerator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Crossover Frequency": 7.587414206581671, 
+     "Deadtime Setting": "Adaptive", 
+     "Design Change Warning": "<xr.MVC.model.MVCDataTypes.Undefined object at 0x09281050>", 
+     "Design Strategy": 0, 
+     "Discrete Pole": 0.0, 
+     "Enable Resistor Divider": false, 
+     "Fault Action": "Shutdown Channel", 
+     "Fault Delay": 100.0, 
+     "First Zero": 0.4, 
+     "First Zero Frequency": 3.0, 
+     "Frequency Multiplier": 2, 
+     "Gain Margin": 0.0, 
+     "Iout": 0.6, 
+     "Kd": 2427.4707710826333, 
+     "Ki": 7.485974962972705, 
+     "Kp": 285.9614211227017, 
+     "Large ESR Mode": false, 
+     "Lock Coefficients": false, 
+     "Lower Comparator Value": "-3", 
+     "Max Current": 6.0, 
+     "OVS": false, 
+     "OVS For PFM to PWM": false, 
+     "Over Voltage Protection (%)": 10.0, 
+     "PFM": "PFM Disabled", 
+     "PID Coefficient A": 5442, 
+     "PID Coefficient B": 22486, 
+     "PID Coefficient C": 4855, 
+     "PID Coefficient D": 33, 
+     "PID Coefficient E": 127, 
+     "PID Gain": 2, 
+     "PID Numeric A": 2720, 
+     "PID Numeric B": -5140, 
+     "PID Numeric C": 2427, 
+     "PID Numeric D": 1, 
+     "PID Numeric E": 0, 
+     "PartList": [
+      {
+       "Appellation": "CapacitorList", 
+       "Capacitor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel0-Xrp7724ChannelM-PartList0-CapacitorList-Capacitor0-Capacitor", 
+         "C": 220.0, 
+         "Derated": false, 
+         "Esr": 3.0, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "V Rating": 30.0, 
+         "_GUID": "7477cd38d4344d15574b60c13a9eb98dab7d0740"
+        }
+       ], 
+       "_GUID": "5cb5d0c2addd24ac0d40fe81d50293d45a065e76"
+      }, 
+      {
+       "Appellation": "FETList", 
+       "FET": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel0-Xrp7724ChannelM-PartList1-FETList-FET0-FET", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qg": 8.0, 
+         "Qty": 1, 
+         "Rds On": 10.0, 
+         "Rg": 0.0, 
+         "Vds Max": 30.0, 
+         "_GUID": "28708924ae24784803ba5aba300b22198c9808c1"
+        }
+       ], 
+       "_GUID": "491aa5bc0e3f7279a028288cf41d38b91ac9fb70"
+      }, 
+      {
+       "Appellation": "FETList", 
+       "FET": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel0-Xrp7724ChannelM-PartList2-FETList-FET0-FET", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qg": 8.0, 
+         "Qty": 1, 
+         "Rds On": 7.0, 
+         "Rg": 0.0, 
+         "Vds Max": 30.0, 
+         "_GUID": "28708924ae24784803ba5aba300b22198c9808c1"
+        }
+       ], 
+       "_GUID": "491aa5bc0e3f7279a028288cf41d38b91ac9fb70"
+      }, 
+      {
+       "Appellation": "InductorList", 
+       "Inductor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel0-Xrp7724ChannelM-PartList3-InductorList-Inductor0-Inductor", 
+         "DCr": 15.5, 
+         "I max": 10.0, 
+         "L": 2.2, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "_GUID": "df585ff3df2309c664a0d119aca80278a54efa7f"
+        }
+       ], 
+       "_GUID": "6b33a074f3a8b6a34f6519d3b6e19a601c4792d4"
+      }, 
+      {
+       "Appellation": "CapacitorList", 
+       "Capacitor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel0-Xrp7724ChannelM-PartList4-CapacitorList-Capacitor0-Capacitor", 
+         "C": 200.0, 
+         "Derated": false, 
+         "Esr": 3.0, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "V Rating": 30.0, 
+         "_GUID": "7477cd38d4344d15574b60c13a9eb98dab7d0740"
+        }
+       ], 
+       "_GUID": "5cb5d0c2addd24ac0d40fe81d50293d45a065e76"
+      }, 
+      {
+       "Appellation": "ResistorDividerList", 
+       "ResistorDivider": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel0-Xrp7724ChannelM-PartList5-ResistorDividerList-ResistorDivider0-ResistorDivider", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "R1": 5.11, 
+         "R2": 1.0, 
+         "Tolerance": 20.0, 
+         "_GUID": "2ffa9ba06eab87b4bad7833b89854d3a36c93c18"
+        }
+       ], 
+       "_GUID": "690a979f852d2df02b5c34b800620925cd3a6bea"
+      }
+     ], 
+     "Phase Margin": 51.928673681632745, 
+     "Plant Denominator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Plant Numerator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Power Good Max (%)": 1.0, 
+     "Power Good Min (%)": 1.0, 
+     "Ramp Down Rate": 5.020242914979757, 
+     "Ramp Down Rate (V/ms)": 0.19919354838709677, 
+     "Ramp Up Rate": 5.020242914979757, 
+     "Ramp Up Rate (V/ms)": 0.19919354838709677, 
+     "Restart Delay": 100.0, 
+     "Second Zero": 0.8, 
+     "Second Zero Frequency": 6.1, 
+     "Standby Voltage": 0.6, 
+     "Stop Threshold": 0.5, 
+     "Upper Comparator Value": "3", 
+     "Use Predefined Input Voltage": false, 
+     "Vin": 5.0, 
+     "Vout": 2.5, 
+     "Vout Delay": 100.0, 
+     "Vref Prescale": "<= 3.2V [5.0mV Steps]", 
+     "Wait For Regulation": true, 
+     "Wait For Shutdown": false, 
+     "Warning Message": "", 
+     "_GUID": "bed7fe457748e894bb81c825f96881b9eb854b0c"
+    }, 
+    {
+     "Appellation": "Xrp7724ChannelM", 
+     "Auto-Select Components": false, 
+     "Bandwidth Percentage": 10.0, 
+     "Bandwidth Percentage Calculation": 10.0, 
+     "Bode Curves": null, 
+     "Channel Enable": true, 
+     "Channel Name": "", 
+     "Channel Switching Frequency": "247kHz", 
+     "Compensator Denominator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Compensator Numerator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Crossover Frequency": 8.388202017414505, 
+     "Deadtime Setting": "Adaptive", 
+     "Design Change Warning": "<xr.MVC.model.MVCDataTypes.Undefined object at 0x0928C210>", 
+     "Design Strategy": 0, 
+     "Discrete Pole": 0.0, 
+     "Enable Resistor Divider": false, 
+     "Fault Action": "Shutdown Channel", 
+     "Fault Delay": 100.0, 
+     "First Zero": 0.4, 
+     "First Zero Frequency": 3.4, 
+     "Frequency Multiplier": 1, 
+     "Gain Margin": 0.0, 
+     "Iout": 0.8, 
+     "Kd": 1488.0550004016775, 
+     "Ki": 22.434867636545505, 
+     "Kp": 387.59440961474274, 
+     "Large ESR Mode": true, 
+     "Lock Coefficients": false, 
+     "Lower Comparator Value": "-3", 
+     "Max Current": 8.0, 
+     "OVS": true, 
+     "OVS For PFM to PWM": true, 
+     "Over Voltage Protection (%)": 18.78787878786, 
+     "PFM": "PFM Disabled", 
+     "PID Coefficient A": 7592, 
+     "PID Coefficient B": 19313, 
+     "PID Coefficient C": 5952, 
+     "PID Coefficient D": 36, 
+     "PID Coefficient E": 124, 
+     "PID Gain": 1, 
+     "PID Numeric A": 1898, 
+     "PID Numeric B": -3363, 
+     "PID Numeric C": 1488, 
+     "PID Numeric D": 1, 
+     "PID Numeric E": 0, 
+     "PartList": [
+      {
+       "Appellation": "CapacitorList", 
+       "Capacitor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel1-Xrp7724ChannelM-PartList0-CapacitorList-Capacitor0-Capacitor", 
+         "C": 220.0, 
+         "Derated": false, 
+         "Esr": 3.0, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "V Rating": 30.0, 
+         "_GUID": "7477cd38d4344d15574b60c13a9eb98dab7d0740"
+        }
+       ], 
+       "_GUID": "5cb5d0c2addd24ac0d40fe81d50293d45a065e76"
+      }, 
+      {
+       "Appellation": "FETList", 
+       "FET": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel1-Xrp7724ChannelM-PartList1-FETList-FET0-FET", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qg": 8.0, 
+         "Qty": 1, 
+         "Rds On": 10.0, 
+         "Rg": 0.0, 
+         "Vds Max": 30.0, 
+         "_GUID": "28708924ae24784803ba5aba300b22198c9808c1"
+        }
+       ], 
+       "_GUID": "491aa5bc0e3f7279a028288cf41d38b91ac9fb70"
+      }, 
+      {
+       "Appellation": "FETList", 
+       "FET": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel1-Xrp7724ChannelM-PartList2-FETList-FET0-FET", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qg": 8.0, 
+         "Qty": 1, 
+         "Rds On": 7.0, 
+         "Rg": 0.0, 
+         "Vds Max": 30.0, 
+         "_GUID": "28708924ae24784803ba5aba300b22198c9808c1"
+        }
+       ], 
+       "_GUID": "491aa5bc0e3f7279a028288cf41d38b91ac9fb70"
+      }, 
+      {
+       "Appellation": "InductorList", 
+       "Inductor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel1-Xrp7724ChannelM-PartList3-InductorList-Inductor0-Inductor", 
+         "DCr": 4.2, 
+         "I max": 10.0, 
+         "L": 1.8, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "_GUID": "df585ff3df2309c664a0d119aca80278a54efa7f"
+        }
+       ], 
+       "_GUID": "6b33a074f3a8b6a34f6519d3b6e19a601c4792d4"
+      }, 
+      {
+       "Appellation": "CapacitorList", 
+       "Capacitor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel1-Xrp7724ChannelM-PartList4-CapacitorList-Capacitor0-Capacitor", 
+         "C": 200.0, 
+         "Derated": false, 
+         "Esr": 10.0, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "V Rating": 30.0, 
+         "_GUID": "7477cd38d4344d15574b60c13a9eb98dab7d0740"
+        }
+       ], 
+       "_GUID": "5cb5d0c2addd24ac0d40fe81d50293d45a065e76"
+      }, 
+      {
+       "Appellation": "ResistorDividerList", 
+       "ResistorDivider": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel1-Xrp7724ChannelM-PartList5-ResistorDividerList-ResistorDivider0-ResistorDivider", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "R1": 5.11, 
+         "R2": 1.0, 
+         "Tolerance": 20.0, 
+         "_GUID": "2ffa9ba06eab87b4bad7833b89854d3a36c93c18"
+        }
+       ], 
+       "_GUID": "690a979f852d2df02b5c34b800620925cd3a6bea"
+      }
+     ], 
+     "Phase Margin": 42.256318967761985, 
+     "Plant Denominator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Plant Numerator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Power Good Max (%)": 18.78787878786, 
+     "Power Good Min (%)": 0.6060606060606062, 
+     "Ramp Down Rate": 5.020242914979757, 
+     "Ramp Down Rate (V/ms)": 0.19919354838709677, 
+     "Ramp Up Rate": 5.020242914979757, 
+     "Ramp Up Rate (V/ms)": 0.19919354838709677, 
+     "Restart Delay": 100.0, 
+     "Second Zero": 0.8, 
+     "Second Zero Frequency": 6.7, 
+     "Standby Voltage": 0.6, 
+     "Stop Threshold": 1.5, 
+     "Upper Comparator Value": "3", 
+     "Use Predefined Input Voltage": false, 
+     "Vin": 5.0, 
+     "Vout": 3.3, 
+     "Vout Delay": 100.0, 
+     "Vref Prescale": "<= 5.5V [10mV Steps]", 
+     "Wait For Regulation": false, 
+     "Wait For Shutdown": false, 
+     "Warning Message": "", 
+     "_GUID": "bed7fe457748e894bb81c825f96881b9eb854b0c"
+    }, 
+    {
+     "Appellation": "Xrp7724ChannelM", 
+     "Auto-Select Components": false, 
+     "Bandwidth Percentage": 10.0, 
+     "Bandwidth Percentage Calculation": 10.0, 
+     "Bode Curves": null, 
+     "Channel Enable": true, 
+     "Channel Name": "", 
+     "Channel Switching Frequency": "494kHz", 
+     "Compensator Denominator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Compensator Numerator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Crossover Frequency": 5.698661101250287, 
+     "Deadtime Setting": "Adaptive", 
+     "Design Change Warning": "<xr.MVC.model.MVCDataTypes.Undefined object at 0x09295310>", 
+     "Design Strategy": 0, 
+     "Discrete Pole": 0.0, 
+     "Enable Resistor Divider": false, 
+     "Fault Action": "Shutdown Channel", 
+     "Fault Delay": 100.0, 
+     "First Zero": 0.4, 
+     "First Zero Frequency": 2.3, 
+     "Frequency Multiplier": 2, 
+     "Gain Margin": 0.0, 
+     "Iout": 1.04, 
+     "Kd": 1449.419387433599, 
+     "Ki": 2.5214275913194797, 
+     "Kp": 128.2408950253639, 
+     "Large ESR Mode": false, 
+     "Lock Coefficients": false, 
+     "Lower Comparator Value": "-3", 
+     "Max Current": 10.4, 
+     "OVS": false, 
+     "OVS For PFM to PWM": false, 
+     "Over Voltage Protection (%)": 10.0, 
+     "PFM": "PFM Disabled", 
+     "PID Coefficient A": 6321, 
+     "PID Coefficient B": 20660, 
+     "PID Coefficient C": 5798, 
+     "PID Coefficient D": 42, 
+     "PID Coefficient E": 118, 
+     "PID Gain": 1, 
+     "PID Numeric A": 1580, 
+     "PID Numeric B": -3027, 
+     "PID Numeric C": 1449, 
+     "PID Numeric D": 1, 
+     "PID Numeric E": 0, 
+     "PartList": [
+      {
+       "Appellation": "CapacitorList", 
+       "Capacitor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel2-Xrp7724ChannelM-PartList0-CapacitorList-Capacitor0-Capacitor", 
+         "C": 220.0, 
+         "Derated": false, 
+         "Esr": 3.0, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "V Rating": 30.0, 
+         "_GUID": "7477cd38d4344d15574b60c13a9eb98dab7d0740"
+        }
+       ], 
+       "_GUID": "5cb5d0c2addd24ac0d40fe81d50293d45a065e76"
+      }, 
+      {
+       "Appellation": "FETList", 
+       "FET": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel2-Xrp7724ChannelM-PartList1-FETList-FET0-FET", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qg": 8.0, 
+         "Qty": 1, 
+         "Rds On": 10.0, 
+         "Rg": 0.0, 
+         "Vds Max": 30.0, 
+         "_GUID": "28708924ae24784803ba5aba300b22198c9808c1"
+        }
+       ], 
+       "_GUID": "491aa5bc0e3f7279a028288cf41d38b91ac9fb70"
+      }, 
+      {
+       "Appellation": "FETList", 
+       "FET": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel2-Xrp7724ChannelM-PartList2-FETList-FET0-FET", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qg": 8.0, 
+         "Qty": 1, 
+         "Rds On": 7.0, 
+         "Rg": 0.0, 
+         "Vds Max": 30.0, 
+         "_GUID": "28708924ae24784803ba5aba300b22198c9808c1"
+        }
+       ], 
+       "_GUID": "491aa5bc0e3f7279a028288cf41d38b91ac9fb70"
+      }, 
+      {
+       "Appellation": "InductorList", 
+       "Inductor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel2-Xrp7724ChannelM-PartList3-InductorList-Inductor0-Inductor", 
+         "DCr": 1.8, 
+         "I max": 10.0, 
+         "L": 1.3, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "_GUID": "df585ff3df2309c664a0d119aca80278a54efa7f"
+        }
+       ], 
+       "_GUID": "6b33a074f3a8b6a34f6519d3b6e19a601c4792d4"
+      }, 
+      {
+       "Appellation": "CapacitorList", 
+       "Capacitor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel2-Xrp7724ChannelM-PartList4-CapacitorList-Capacitor0-Capacitor", 
+         "C": 600.0, 
+         "Derated": false, 
+         "Esr": 3.0, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "V Rating": 30.0, 
+         "_GUID": "7477cd38d4344d15574b60c13a9eb98dab7d0740"
+        }
+       ], 
+       "_GUID": "5cb5d0c2addd24ac0d40fe81d50293d45a065e76"
+      }, 
+      {
+       "Appellation": "ResistorDividerList", 
+       "ResistorDivider": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel2-Xrp7724ChannelM-PartList5-ResistorDividerList-ResistorDivider0-ResistorDivider", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "R1": 5.11, 
+         "R2": 1.0, 
+         "Tolerance": 20.0, 
+         "_GUID": "2ffa9ba06eab87b4bad7833b89854d3a36c93c18"
+        }
+       ], 
+       "_GUID": "690a979f852d2df02b5c34b800620925cd3a6bea"
+      }
+     ], 
+     "Phase Margin": 68.24698842589817, 
+     "Plant Denominator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Plant Numerator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Power Good Max (%)": 1.0, 
+     "Power Good Min (%)": 1.0, 
+     "Ramp Down Rate": 5.020242914979757, 
+     "Ramp Down Rate (V/ms)": 0.19919354838709677, 
+     "Ramp Up Rate": 5.020242914979757, 
+     "Ramp Up Rate (V/ms)": 0.19919354838709677, 
+     "Restart Delay": 100.0, 
+     "Second Zero": 0.8, 
+     "Second Zero Frequency": 4.6, 
+     "Standby Voltage": 0.6, 
+     "Stop Threshold": 0.5, 
+     "Upper Comparator Value": "3", 
+     "Use Predefined Input Voltage": false, 
+     "Vin": 5.0, 
+     "Vout": 1.0, 
+     "Vout Delay": 100.0, 
+     "Vref Prescale": "<= 1.6V [2.5 mV Steps]", 
+     "Wait For Regulation": true, 
+     "Wait For Shutdown": false, 
+     "Warning Message": "", 
+     "_GUID": "bed7fe457748e894bb81c825f96881b9eb854b0c"
+    }, 
+    {
+     "Appellation": "Xrp7724ChannelM", 
+     "Auto-Select Components": false, 
+     "Bandwidth Percentage": 10.0, 
+     "Bandwidth Percentage Calculation": 10.0, 
+     "Bode Curves": null, 
+     "Channel Enable": true, 
+     "Channel Name": "", 
+     "Channel Switching Frequency": "494kHz", 
+     "Compensator Denominator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Compensator Numerator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Crossover Frequency": 10.730224074290096, 
+     "Deadtime Setting": "Adaptive", 
+     "Design Change Warning": "<xr.MVC.model.MVCDataTypes.Undefined object at 0x092A2D90>", 
+     "Design Strategy": 0, 
+     "Discrete Pole": 0.0, 
+     "Enable Resistor Divider": false, 
+     "Fault Action": "Shutdown and Auto-restart Channel", 
+     "Fault Delay": 100.0, 
+     "First Zero": 0.4, 
+     "First Zero Frequency": 4.3, 
+     "Frequency Multiplier": 2, 
+     "Gain Margin": 0.0, 
+     "Iout": 0.4, 
+     "Kd": 1175.1623754932193, 
+     "Ki": 7.248067597901354, 
+     "Kp": 195.77909365502865, 
+     "Large ESR Mode": false, 
+     "Lock Coefficients": false, 
+     "Lower Comparator Value": "-3", 
+     "Max Current": 4.0, 
+     "OVS": false, 
+     "OVS For PFM to PWM": false, 
+     "Over Voltage Protection (%)": 10.0, 
+     "PFM": "PFM Disabled", 
+     "PID Coefficient A": 5513, 
+     "PID Coefficient B": 22584, 
+     "PID Coefficient C": 4701, 
+     "PID Coefficient D": 32, 
+     "PID Coefficient E": 0, 
+     "PID Gain": 1, 
+     "PID Numeric A": 1378, 
+     "PID Numeric B": -2546, 
+     "PID Numeric C": 1175, 
+     "PID Numeric D": 1, 
+     "PID Numeric E": 0, 
+     "PartList": [
+      {
+       "Appellation": "CapacitorList", 
+       "Capacitor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel3-Xrp7724ChannelM-PartList0-CapacitorList-Capacitor0-Capacitor", 
+         "C": 220.0, 
+         "Derated": false, 
+         "Esr": 3.0, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "V Rating": 30.0, 
+         "_GUID": "7477cd38d4344d15574b60c13a9eb98dab7d0740"
+        }
+       ], 
+       "_GUID": "5cb5d0c2addd24ac0d40fe81d50293d45a065e76"
+      }, 
+      {
+       "Appellation": "FETList", 
+       "FET": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel3-Xrp7724ChannelM-PartList1-FETList-FET0-FET", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qg": 8.0, 
+         "Qty": 1, 
+         "Rds On": 10.0, 
+         "Rg": 0.0, 
+         "Vds Max": 30.0, 
+         "_GUID": "28708924ae24784803ba5aba300b22198c9808c1"
+        }
+       ], 
+       "_GUID": "491aa5bc0e3f7279a028288cf41d38b91ac9fb70"
+      }, 
+      {
+       "Appellation": "FETList", 
+       "FET": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel3-Xrp7724ChannelM-PartList2-FETList-FET0-FET", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qg": 8.0, 
+         "Qty": 1, 
+         "Rds On": 7.0, 
+         "Rg": 0.0, 
+         "Vds Max": 30.0, 
+         "_GUID": "28708924ae24784803ba5aba300b22198c9808c1"
+        }
+       ], 
+       "_GUID": "491aa5bc0e3f7279a028288cf41d38b91ac9fb70"
+      }, 
+      {
+       "Appellation": "InductorList", 
+       "Inductor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel3-Xrp7724ChannelM-PartList3-InductorList-Inductor0-Inductor", 
+         "DCr": 15.5, 
+         "I max": 10.0, 
+         "L": 2.2, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "_GUID": "df585ff3df2309c664a0d119aca80278a54efa7f"
+        }
+       ], 
+       "_GUID": "6b33a074f3a8b6a34f6519d3b6e19a601c4792d4"
+      }, 
+      {
+       "Appellation": "CapacitorList", 
+       "Capacitor": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel3-Xrp7724ChannelM-PartList4-CapacitorList-Capacitor0-Capacitor", 
+         "C": 100.0, 
+         "Derated": false, 
+         "Esr": 3.0, 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "Qty": 1, 
+         "V Rating": 30.0, 
+         "_GUID": "7477cd38d4344d15574b60c13a9eb98dab7d0740"
+        }
+       ], 
+       "_GUID": "5cb5d0c2addd24ac0d40fe81d50293d45a065e76"
+      }, 
+      {
+       "Appellation": "ResistorDividerList", 
+       "ResistorDivider": [
+        {
+         "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-Channel3-Xrp7724ChannelM-PartList5-ResistorDividerList-ResistorDivider0-ResistorDivider", 
+         "Locked": false, 
+         "Manufacturer Name": "Vendor", 
+         "Part Number": "Part Number", 
+         "R1": 5.11, 
+         "R2": 1.0, 
+         "Tolerance": 20.0, 
+         "_GUID": "2ffa9ba06eab87b4bad7833b89854d3a36c93c18"
+        }
+       ], 
+       "_GUID": "690a979f852d2df02b5c34b800620925cd3a6bea"
+      }
+     ], 
+     "Phase Margin": 49.12384468180289, 
+     "Plant Denominator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Plant Numerator": {
+      "0": 0.0, 
+      "1": 0.0, 
+      "2": 0.0
+     }, 
+     "Power Good Max (%)": 10.000000000008, 
+     "Power Good Min (%)": 10.000000000008, 
+     "Ramp Down Rate": 5.020242914979757, 
+     "Ramp Down Rate (V/ms)": 0.19919354838709677, 
+     "Ramp Up Rate": 5.020242914979757, 
+     "Ramp Up Rate (V/ms)": 0.19919354838709677, 
+     "Restart Delay": 100.0, 
+     "Second Zero": 0.8, 
+     "Second Zero Frequency": 8.6, 
+     "Standby Voltage": 0.6, 
+     "Stop Threshold": 0.5, 
+     "Upper Comparator Value": "3", 
+     "Use Predefined Input Voltage": false, 
+     "Vin": 5.0, 
+     "Vout": 1.8, 
+     "Vout Delay": 100.0, 
+     "Vref Prescale": "<= 3.2V [5.0mV Steps]", 
+     "Wait For Regulation": true, 
+     "Wait For Shutdown": false, 
+     "Warning Message": "", 
+     "_GUID": "bed7fe457748e894bb81c825f96881b9eb854b0c"
+    }
+   ], 
+   "Channel Positioning Override": false, 
+   "Channel Sequencing": {
+    "Ramp": {}, 
+    "Shutdown": {
+     "pw0": [
+      {
+       "delay": 0, 
+       "supply": 0
+      }, 
+      {
+       "delay": 0, 
+       "supply": 1
+      }, 
+      {
+       "delay": 0, 
+       "supply": 2
+      }, 
+      {
+       "delay": 0, 
+       "supply": 3
+      }
+     ], 
+     "pw1": [], 
+     "pw2": []
+    }, 
+    "Startup": {
+     "pw0": [
+      {
+       "delay": 50, 
+       "supply": 3
+      }, 
+      {
+       "delay": 50, 
+       "supply": 2
+      }, 
+      {
+       "delay": 50, 
+       "supply": 0
+      }, 
+      {
+       "delay": 0, 
+       "supply": 1
+      }
+     ], 
+     "pw1": [], 
+     "pw2": []
+    }
+   }, 
+   "Config Version": 0, 
+   "FaultFollow Ch1 Stops Ch2": false, 
+   "FaultFollow Ch1 Stops Ch3": false, 
+   "FaultFollow Ch1 Stops Ch4": false, 
+   "FaultFollow Ch2 Stops Ch1": false, 
+   "FaultFollow Ch2 Stops Ch3": false, 
+   "FaultFollow Ch2 Stops Ch4": false, 
+   "FaultFollow Ch3 Stops Ch1": false, 
+   "FaultFollow Ch3 Stops Ch2": false, 
+   "FaultFollow Ch3 Stops Ch4": false, 
+   "FaultFollow Ch4 Stops Ch1": false, 
+   "FaultFollow Ch4 Stops Ch2": false, 
+   "FaultFollow Ch4 Stops Ch3": false, 
+   "Final Flash Data": ":10000000FFC5000A034100FA02DA2013E114330DA0\n:1000100000000800C000280215EB4E393E191401FB\n:1000200001010101011E1ECE04B00D00400040CBB5\n:10003000014F643D3D154257D612F7217F1228F833\n:10004000FFC50009034100FA02DA201DE129671A01\n:100050000000150208006C020907423F46191A0009\n:1000600040004044441C1E9E44B00D00400040FF30\n:1000700001A3423D3D1DA84B711740247CA9187770\n:10008000FFC5000A034100FA02DA2027E114330D0C\n:10009000000003004D00100211EF584E56191010C9\n:1000A00010101010101E1ECE04B00D00400040CBEA\n:1000B00000BA501E1E18B150B416A62A7601185563\n:1000C000FFC5000A034100FA02DA2013E114330DE0\n:1000D000000005008A001D02916F5C3033190E206C\n:1000E00020202020201E1ECE04B00D00400040CB5A\n:1000F0000083483D3D15895838125D200011184E87\n:100100000500004C4F4C18170030019F51020200AF\n:100110000416040A1000000000080F1710170F64DF\n:10012000425048180C30180000000000000000FF8A\n:10013000FFFFFFFFFFFFFFFFFFFFFF0F000000B704\n:100140000002000201002E00000F02050203090B4D\n:100150000909000000000F00020000000201010078\n:10016000000000040400000060426161610002625E\n:100170000162FA00800000FF1202E3001C0000464A\n:100180000002500000FFFF3206320432000003007C\n:1001900000000000000002000400070000000064EE\n:1001A0002164646420646464216464642364640A74\n:1001B000200A0519FFFF000000FFFF0004FFFF08F1\n:00000001FF\n", 
+   "Force Temp Polling": false, 
+   "Fundamental Frequency": "247.6", 
+   "GPIO 0": {
+    "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-B_GPIO_0", 
+    "GPIO Ch 1": false, 
+    "GPIO Ch 2": false, 
+    "GPIO Ch 3": false, 
+    "GPIO Ch 4": false, 
+    "GPIO Ch LDO33": false, 
+    "GPIO Channel Enable": 0, 
+    "GPIO Clock In": 0, 
+    "GPIO Clock Out": 0, 
+    "GPIO Comparator 1 Pwr Good Ch 1": false, 
+    "GPIO Comparator 1 Pwr Good Ch 2": false, 
+    "GPIO Comparator 1 Pwr Good Ch 3": false, 
+    "GPIO Comparator 1 Pwr Good Ch 4": false, 
+    "GPIO Comparator Over-Current Fault Ch 1": false, 
+    "GPIO Comparator Over-Current Fault Ch 2": false, 
+    "GPIO Comparator Over-Current Fault Ch 3": false, 
+    "GPIO Comparator Over-Current Fault Ch 4": false, 
+    "GPIO Comparator Over-Current Warning Ch 1": false, 
+    "GPIO Comparator Over-Current Warning Ch 2": false, 
+    "GPIO Comparator Over-Current Warning Ch 3": false, 
+    "GPIO Comparator Over-Current Warning Ch 4": false, 
+    "GPIO Comparator Over-Temp Fault": false, 
+    "GPIO Comparator Over-Temp Warning": false, 
+    "GPIO Comparator Over-Voltage Faulr Ch 2": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 1": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 3": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 4": false, 
+    "GPIO Comparator Under-Voltage Fault": false, 
+    "GPIO Comparator Under-Voltage Warning": false, 
+    "GPIO Group": 0, 
+    "GPIO I2C Address": 0, 
+    "GPIO Invert": false, 
+    "GPIO Name": "", 
+    "GPIO Normal/Standby Ch 1": false, 
+    "GPIO Normal/Standby Ch 2": false, 
+    "GPIO Normal/Standby Ch 3": false, 
+    "GPIO Normal/Standby Ch 4": false, 
+    "GPIO Pin Mode": "External Clock-In", 
+    "GPIO Reset Delay": 0.0, 
+    "GPIO ResetOut Ch 1": false, 
+    "GPIO ResetOut Ch 2": false, 
+    "GPIO ResetOut Ch 3": false, 
+    "GPIO ResetOut Ch 4": false, 
+    "GPIO ResetOut LDO33": false, 
+    "Test Config": "", 
+    "_GUID": "726079cb3bb859c3bdf16cf911bea35f91ce411f"
+   }, 
+   "GPIO 1": {
+    "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-B_GPIO_1", 
+    "GPIO Ch 1": false, 
+    "GPIO Ch 2": false, 
+    "GPIO Ch 3": false, 
+    "GPIO Ch 4": false, 
+    "GPIO Ch LDO33": false, 
+    "GPIO Channel Enable": 0, 
+    "GPIO Clock In": 0, 
+    "GPIO Clock Out": 0, 
+    "GPIO Comparator 1 Pwr Good Ch 1": false, 
+    "GPIO Comparator 1 Pwr Good Ch 2": true, 
+    "GPIO Comparator 1 Pwr Good Ch 3": false, 
+    "GPIO Comparator 1 Pwr Good Ch 4": false, 
+    "GPIO Comparator Over-Current Fault Ch 1": false, 
+    "GPIO Comparator Over-Current Fault Ch 2": false, 
+    "GPIO Comparator Over-Current Fault Ch 3": false, 
+    "GPIO Comparator Over-Current Fault Ch 4": false, 
+    "GPIO Comparator Over-Current Warning Ch 1": false, 
+    "GPIO Comparator Over-Current Warning Ch 2": false, 
+    "GPIO Comparator Over-Current Warning Ch 3": false, 
+    "GPIO Comparator Over-Current Warning Ch 4": false, 
+    "GPIO Comparator Over-Temp Fault": false, 
+    "GPIO Comparator Over-Temp Warning": false, 
+    "GPIO Comparator Over-Voltage Faulr Ch 2": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 1": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 3": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 4": false, 
+    "GPIO Comparator Under-Voltage Fault": false, 
+    "GPIO Comparator Under-Voltage Warning": false, 
+    "GPIO Group": 0, 
+    "GPIO I2C Address": 0, 
+    "GPIO Invert": true, 
+    "GPIO Name": "", 
+    "GPIO Normal/Standby Ch 1": false, 
+    "GPIO Normal/Standby Ch 2": false, 
+    "GPIO Normal/Standby Ch 3": false, 
+    "GPIO Normal/Standby Ch 4": false, 
+    "GPIO Pin Mode": "HW Power Good", 
+    "GPIO Reset Delay": 0.0, 
+    "GPIO ResetOut Ch 1": false, 
+    "GPIO ResetOut Ch 2": false, 
+    "GPIO ResetOut Ch 3": false, 
+    "GPIO ResetOut Ch 4": false, 
+    "GPIO ResetOut LDO33": false, 
+    "Test Config": "", 
+    "_GUID": "726079cb3bb859c3bdf16cf911bea35f91ce411f"
+   }, 
+   "HW Overrides": {}, 
+   "I2C Address": 40, 
+   "IF Overrides": {}, 
+   "LDO B Voltage": "3.3V", 
+   "Min Positions": [
+    "CH1", 
+    "---", 
+    "CH2 OVS", 
+    "---", 
+    "CH3", 
+    "CH4", 
+    "CH2", 
+    "---", 
+    "CH1", 
+    "---", 
+    "CH2 OVS", 
+    "---", 
+    "CH3", 
+    "CH4", 
+    "CH2 OVS", 
+    "---"
+   ], 
+   "OTP Fault": 125.0, 
+   "OTP Restart Threshold": 105.0, 
+   "OTP Warning": 110.0, 
+   "PSIO 0": {
+    "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-B_PSIO_0", 
+    "GPIO Ch 1": false, 
+    "GPIO Ch 2": false, 
+    "GPIO Ch 3": false, 
+    "GPIO Ch 4": false, 
+    "GPIO Ch LDO33": false, 
+    "GPIO Channel Enable": 0, 
+    "GPIO Clock In": 0, 
+    "GPIO Clock Out": 0, 
+    "GPIO Comparator 1 Pwr Good Ch 1": false, 
+    "GPIO Comparator 1 Pwr Good Ch 2": false, 
+    "GPIO Comparator 1 Pwr Good Ch 3": false, 
+    "GPIO Comparator 1 Pwr Good Ch 4": false, 
+    "GPIO Comparator Over-Current Fault Ch 1": false, 
+    "GPIO Comparator Over-Current Fault Ch 2": false, 
+    "GPIO Comparator Over-Current Fault Ch 3": false, 
+    "GPIO Comparator Over-Current Fault Ch 4": false, 
+    "GPIO Comparator Over-Current Warning Ch 1": false, 
+    "GPIO Comparator Over-Current Warning Ch 2": false, 
+    "GPIO Comparator Over-Current Warning Ch 3": false, 
+    "GPIO Comparator Over-Current Warning Ch 4": false, 
+    "GPIO Comparator Over-Temp Fault": false, 
+    "GPIO Comparator Over-Temp Warning": false, 
+    "GPIO Comparator Over-Voltage Faulr Ch 2": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 1": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 3": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 4": false, 
+    "GPIO Comparator Under-Voltage Fault": false, 
+    "GPIO Comparator Under-Voltage Warning": false, 
+    "GPIO Group": 0, 
+    "GPIO I2C Address": 0, 
+    "GPIO Invert": false, 
+    "GPIO Name": "", 
+    "GPIO Normal/Standby Ch 1": false, 
+    "GPIO Normal/Standby Ch 2": false, 
+    "GPIO Normal/Standby Ch 3": false, 
+    "GPIO Normal/Standby Ch 4": false, 
+    "GPIO Pin Mode": "General Input", 
+    "GPIO Reset Delay": 0.0, 
+    "GPIO ResetOut Ch 1": false, 
+    "GPIO ResetOut Ch 2": false, 
+    "GPIO ResetOut Ch 3": false, 
+    "GPIO ResetOut Ch 4": false, 
+    "GPIO ResetOut LDO33": false, 
+    "Test Config": "", 
+    "_GUID": "726079cb3bb859c3bdf16cf911bea35f91ce411f"
+   }, 
+   "PSIO 1": {
+    "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-B_PSIO_1", 
+    "GPIO Ch 1": false, 
+    "GPIO Ch 2": false, 
+    "GPIO Ch 3": false, 
+    "GPIO Ch 4": false, 
+    "GPIO Ch LDO33": false, 
+    "GPIO Channel Enable": 0, 
+    "GPIO Clock In": 0, 
+    "GPIO Clock Out": 0, 
+    "GPIO Comparator 1 Pwr Good Ch 1": false, 
+    "GPIO Comparator 1 Pwr Good Ch 2": false, 
+    "GPIO Comparator 1 Pwr Good Ch 3": false, 
+    "GPIO Comparator 1 Pwr Good Ch 4": false, 
+    "GPIO Comparator Over-Current Fault Ch 1": false, 
+    "GPIO Comparator Over-Current Fault Ch 2": false, 
+    "GPIO Comparator Over-Current Fault Ch 3": false, 
+    "GPIO Comparator Over-Current Fault Ch 4": false, 
+    "GPIO Comparator Over-Current Warning Ch 1": false, 
+    "GPIO Comparator Over-Current Warning Ch 2": false, 
+    "GPIO Comparator Over-Current Warning Ch 3": false, 
+    "GPIO Comparator Over-Current Warning Ch 4": false, 
+    "GPIO Comparator Over-Temp Fault": false, 
+    "GPIO Comparator Over-Temp Warning": false, 
+    "GPIO Comparator Over-Voltage Faulr Ch 2": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 1": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 3": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 4": false, 
+    "GPIO Comparator Under-Voltage Fault": false, 
+    "GPIO Comparator Under-Voltage Warning": false, 
+    "GPIO Group": 0, 
+    "GPIO I2C Address": 0, 
+    "GPIO Invert": false, 
+    "GPIO Name": "", 
+    "GPIO Normal/Standby Ch 1": false, 
+    "GPIO Normal/Standby Ch 2": false, 
+    "GPIO Normal/Standby Ch 3": false, 
+    "GPIO Normal/Standby Ch 4": false, 
+    "GPIO Pin Mode": "General Input", 
+    "GPIO Reset Delay": 0.0, 
+    "GPIO ResetOut Ch 1": false, 
+    "GPIO ResetOut Ch 2": false, 
+    "GPIO ResetOut Ch 3": false, 
+    "GPIO ResetOut Ch 4": false, 
+    "GPIO ResetOut LDO33": false, 
+    "Test Config": "", 
+    "_GUID": "726079cb3bb859c3bdf16cf911bea35f91ce411f"
+   }, 
+   "PSIO 2": {
+    "Appellation": "PowerXRProject-Power Supply-Device0-Xrp7724M-B_PSIO_2", 
+    "GPIO Ch 1": false, 
+    "GPIO Ch 2": false, 
+    "GPIO Ch 3": false, 
+    "GPIO Ch 4": false, 
+    "GPIO Ch LDO33": false, 
+    "GPIO Channel Enable": 0, 
+    "GPIO Clock In": 0, 
+    "GPIO Clock Out": 0, 
+    "GPIO Comparator 1 Pwr Good Ch 1": false, 
+    "GPIO Comparator 1 Pwr Good Ch 2": false, 
+    "GPIO Comparator 1 Pwr Good Ch 3": false, 
+    "GPIO Comparator 1 Pwr Good Ch 4": false, 
+    "GPIO Comparator Over-Current Fault Ch 1": false, 
+    "GPIO Comparator Over-Current Fault Ch 2": false, 
+    "GPIO Comparator Over-Current Fault Ch 3": false, 
+    "GPIO Comparator Over-Current Fault Ch 4": false, 
+    "GPIO Comparator Over-Current Warning Ch 1": false, 
+    "GPIO Comparator Over-Current Warning Ch 2": false, 
+    "GPIO Comparator Over-Current Warning Ch 3": false, 
+    "GPIO Comparator Over-Current Warning Ch 4": false, 
+    "GPIO Comparator Over-Temp Fault": false, 
+    "GPIO Comparator Over-Temp Warning": false, 
+    "GPIO Comparator Over-Voltage Faulr Ch 2": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 1": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 3": false, 
+    "GPIO Comparator Over-Voltage Fault Ch 4": false, 
+    "GPIO Comparator Under-Voltage Fault": false, 
+    "GPIO Comparator Under-Voltage Warning": false, 
+    "GPIO Group": 0, 
+    "GPIO I2C Address": 0, 
+    "GPIO Invert": false, 
+    "GPIO Name": "", 
+    "GPIO Normal/Standby Ch 1": false, 
+    "GPIO Normal/Standby Ch 2": false, 
+    "GPIO Normal/Standby Ch 3": false, 
+    "GPIO Normal/Standby Ch 4": false, 
+    "GPIO Pin Mode": "General Input", 
+    "GPIO Reset Delay": 0.0, 
+    "GPIO ResetOut Ch 1": false, 
+    "GPIO ResetOut Ch 2": false, 
+    "GPIO ResetOut Ch 3": false, 
+    "GPIO ResetOut Ch 4": false, 
+    "GPIO ResetOut LDO33": false, 
+    "Test Config": "", 
+    "_GUID": "726079cb3bb859c3bdf16cf911bea35f91ce411f"
+   }, 
+   "ResetOut Delay": 0, 
+   "UVLO Fault": 4.6, 
+   "UVLO Warning": 4.8, 
+   "V5EXT": false, 
+   "V5Ext Threshold High": "4.80V", 
+   "V5Ext Threshold Low": "150mV", 
+   "Vin": 5.0, 
+   "Wait For Regulation": false, 
+   "Wait For Shutdown": false, 
+   "YF Overrides": {}, 
+   "_GUID": "943e59bf5026c6a2b2e3880fd0712be2036fa410"
+  }
+ ], 
+ "PowerArchitect Version List": [
+  "5.2-r3"
+ ], 
+ "Program Name": "", 
+ "Program Number": "", 
+ "Project Name": "New Project", 
+ "_GUID": "20d67045fe946a005629adf8989ad5e74d1d9495"
+}
