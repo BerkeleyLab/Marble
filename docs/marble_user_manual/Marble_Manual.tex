@@ -255,6 +255,96 @@ Programming FPGA using Vivado and Digilent JTAG HS3 connected to J11:
 	\item After the successful programming, LEDs LD16 and LD17 should blink alternately.
 \end{enumerate}
 
+\section{MMC}
+Module Management Controller (MMC) is based on STM32F207 microcontroller and provides housekeeping functions such as:
+\begin{enumerate}
+	\item Simple UART console over USB-UART bridge to control all functions
+	\item Monitoring voltage, current consumption and warning signals on power rails
+	\item Temperature monitoring at several locations
+	\item Controlling and monitoring fans
+	\item Configuring clock multiplexer
+	\item Configuring MGT switches
+	\item Resetting FPGA and controlling booting
+	\item Programming Power Management Controller
+	\item Controlling FMC power delivery and the presence of the cards
+	\item Ensuring communication over MDIO with Ethernet PHY
+	\item Ensuring communication over SPI with FPGA
+\end{enumerate}
+
+Most of the above mentioned functionality is available from the UART console level. Using a simple terminal user can control MMC functions by sending appropriate commands by selecting an item from menu (Fig. \ref{menu}). 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.5\linewidth]{menu.png}
+ \caption{UART console menu}\label{menu}
+\end{center}
+\end{figure}
+
+\subsection{Programing}
+MMC programing can be done by using external tools such as STM Nucleo-SWD programmer, SEGGER J-LINK Mini (Fig. \ref{mmcjtag}, Fig. \ref{mmcjtagswd}).
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=1\linewidth]{mmcjtag.png}
+ \caption{MMC JTAG and SWD interfaces}\label{mmcjtag}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=1\linewidth]{mmcjtagswd.png}
+ \caption{MMC JTAG and SWD connectors}\label{mmcjtagswd}
+\end{center}
+\end{figure}
+
+Download the latest version of the microcontroller testing code from GitHub:
+\begin{leftbar}
+https://https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/unified\_marble
+\end{leftbar}
+
+A recent version of OpenOCD (v0.10.0 or later) is required.
+\begin{enumerate}
+	\item Connect JTAG module to \textbf{J14}
+	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 baudrate.
+	\item Power up the board.
+	\item Program the microcontroller using the following commands:
+	\begin{enumerate}
+	\item Go to the main folder of the downloaded repository.
+	\item Open command terminal and run command:
+	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
+$ make marble_download
+	\end{lstlisting}
+	\end{enumerate}
+	\item After successful programming, a menu in the serial terminal should appeared and LEDs (LD15, LD11, LD12) should blink in the "snake" pattern.
+\end{enumerate}
+\subsection{LEDs}
+Three general purpose LEDs are connected to the MMC chip:
+\begin{enumerate}
+	\item LED11 - connected to pin PE1
+	\item LED12 - connected to pin PE2
+	\item LED15 - connected to pin PE0
+\end{enumerate}
+
+\subsection{I2C Tree}
+Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c}):
+\begin{enumerate}
+	\item I2C\_PM - supports devices for power management, temperature measurement and fan control
+	\item I2C\_FPGA - This bus is shared between the MMC and the FPGA chip. Through an I2C switch, it is connected to:
+	\begin{enumerate}
+		\item FMC 1 and FMC 2
+		\item Clock multiplexer
+		\item SO-DIMM module
+		\item QSFP 1 and QSFP 2
+		\item Current measurement devices, Si570 and IO expanders
+	\end{enumerate}
+\end{enumerate}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=1\linewidth]{marble2_i2c.png}
+ \caption{I2C map}\label{i2c}
+\end{center}
+\end{figure}
+
 \section{SO-DIMM}
 
 The size of the DDR3 memory can be determined by the user by assembling the appropriate SO-DIMM module to the board. The use of a 204 pin SO-DIMM connector allows up to 4 GB of RAM to be connected to the FPGA. An I2C interface is provided to the memory module so that additional information about the module can be read. The default power supply for memory and HP banks is set to 1.5V and can only be changed by changing resistors. ECC is not supported by the module.\\
@@ -520,12 +610,12 @@ The connection of both FMC connectors is shown below:
 \end{enumerate}
 
 \section{USB-UART}
-The USB-UART bridge (FT4232H) has 2 channels of UART:
+By default, the USB-UART bridge (FT4232H) has 4 UART channels. Only the last 2 of these are used for communication over the serial interface. The first channel is used as a JTAG interface, while the second channel uses only the DTR signal to generate a reset signal.
 \subsection{FPGA UART}
 FPGA UART occupies FT4232's channel 3. UART signals are connected to bank 15 pins:
 \begin{enumerate}
-	\item TX input IO\_L1P\_15
-	\item RX output IO\_0\_15
+	\item TX input - IO\_L1P\_15
+	\item RX output - IO\_0\_15
 \end{enumerate}
 \subsection{MMC UART}
 MMC UART occupies FT4232's channel 4 and is used as the MMC serial console. Terminal configuraton is 1N8 115200 baudrate. The FT4232's channel 2 DTR signal can be used to provide a reset signal for the microcontroller.
@@ -546,13 +636,6 @@ When the power is connected, the board starts up automatically. If there is a fa
 
 Block diagram of Marble's power tree is shown in figure \ref{pwr}. The USB-UART bridge is powered from the micro USB connector via a converter (U22). The supervising microcontroller has a separate converter (U18) connected directly to the power input. The main voltages supplying the FPGA are produced by U35 - the programmable power management system. U35 turns on the individual power channels in the proper sequence and provides power to the additional converter (U58) and LDOs (U31, U36, U37, U47).
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=1.1\linewidth]{m_power.png}
- \caption{Marble power routing}\label{pwr}
-\end{center}
-\end{figure}
-
 Power supply features:
 \begin{enumerate}
 	\item Over-temperature protection.
@@ -562,6 +645,15 @@ Power supply features:
 	\item The presence of the power rails is indicated by LED diodes
 	\item 12V power supply for both FMCs can be controlled independently by the microcontroller. Additionally,  current can be measured.
 \end{enumerate}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=1.1\linewidth]{m_power.png}
+ \caption{Marble power routing}\label{pwr}
+\end{center}
+\end{figure}
+
+
 \subsection{Fan controller}
 The fan control and temperature monitoring of the FPGA chip is done with the MAX6639 chip. Selection, mounting, and configuration of the fans is outside the scope of this document. The fans can be automatically controlled by measuring the temperature on the diode inside the FPGA. If the temperature exceeds a preset alarm threshold an ALERT signal will be issued. If the temperature continues to rise and exceeds another threshold, an "OVER-TEMP" signal will be issued and the FPGA will automatically power down. Through the I2C interface it is possible to read and write all MAX6639 configuration registers. Additionally, signals from both fan tachometers are monitored.
 
@@ -587,86 +679,7 @@ Two additional temperature sensors based on the LM75 chip provide temperature me
 \label{tab:my-table}
 \end{table}
 
-\section{MMC}
-Module Management Controller (MMC) is based on STM32F207 microcontroller and provides housekeeping functions such as:
-\begin{enumerate}
-	\item Simple UART console over USB-UART bridge to control all functions
-	\item Monitoring voltage, current consumption and warning signals on power rails
-	\item Temperature monitoring at several locations
-	\item Controlling and monitoring fans
-	\item Configuring clock multiplexer
-	\item Configuring MGT switches
-	\item Resetting FPGA and controlling booting
-	\item Programming Power Management Controller
-	\item Controlling FMC power delivery and the presence of the cards
-	\item Ensuring communication over MDIO with Ethernet PHY
-	\item Ensuring communication over SPI with FPGA
-\end{enumerate}
 
-\subsection{Programing}
-MMC programing can be done by using external tools such as STM Nucleo-SWD programmer, SEGGER J-LINK Mini (Fig. \ref{mmcjtag}, Fig. \ref{mmcjtagswd}).
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=1\linewidth]{mmcjtag.png}
- \caption{MMC JTAG and SWD interfaces}\label{mmcjtag}
-\end{center}
-\end{figure}
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=1\linewidth]{mmcjtagswd.png}
- \caption{MMC JTAG and SWD connectors}\label{mmcjtagswd}
-\end{center}
-\end{figure}
-
-Download the latest version of the microcontroller testing code from GitHub:
-\begin{leftbar}
-https://https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/unified\_marble
-\end{leftbar}
-
-A recent version of OpenOCD (v0.10.0 or later) is required.
-\begin{enumerate}
-	\item Connect JTAG module to \textbf{J14}
-	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed in the operating system. Use 115200 baudrate.
-	\item Power up the board.
-	\item Program the microcontroller using the following commands:
-	\begin{enumerate}
-	\item Go to the main folder of the downloaded repository.
-	\item Open command terminal and run command:
-	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
-$ make marble_download
-	\end{lstlisting}
-	\end{enumerate}
-	\item After successful programming, a menu in the serial terminal should appeared and LEDs (LD15, LD11, LD12) should blink in the "snake" pattern.
-\end{enumerate}
-\subsection{LEDs}
-Three general purpose LEDs are connected to the MMC chip:
-\begin{enumerate}
-	\item LED11 - connected to pin PE1
-	\item LED12 - connected to pin PE2
-	\item LED15 - connected to pin PE0
-\end{enumerate}
-
-\subsection{I2C Tree}
-Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c}):
-\begin{enumerate}
-	\item I2C\_PM - supports devices for power management, temperature measurement and fan control
-	\item I2C\_FPGA - This bus is shared between the MMC and the FPGA chip. Through an I2C switch, it is connected to:
-	\begin{enumerate}
-		\item FMC 1 and FMC 2
-		\item Clock multiplexer
-		\item SO-DIMM module
-		\item QSFP 1 and QSFP 2
-		\item Current measurement devices, Si570 and IO expanders
-	\end{enumerate}
-\end{enumerate}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=1\linewidth]{marble2_i2c.png}
- \caption{I2C map}\label{i2c}
-\end{center}
-\end{figure}
 
 \section{Mechanical dimensions}
 
