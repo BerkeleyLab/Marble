@@ -13,8 +13,8 @@ If you have made changes to the Marble design and are ready to generate the manu
 * [KiCad](https://www.kicad.org/): version 5.1.x (x &ge; 5)
 * [KiBoM](https://github.com/SchrodingersGat/KiBoM) 1.8.0.
 
-A patch to KiCad is needed in order to support [reproducible](https://reproducible-builds.org) fabrication package builds.
-More details on this are available below.
+KiCad version 5.1.10 (no suffixes) or later is needed in order to support [reproducible](https://reproducible-builds.org) fabrication package builds. This means byte-for-byte identical zip files, independent of which person and computer runs the process.
+
 
 ### Update the QR code on the silkscreen
 
@@ -114,19 +114,3 @@ Run the following command from the top level directory before parting the I2C su
 ```console
 $ convert docs/marble2_i2c.eps -scale 1330 marble2_i2c.png
 ```
-## Reproducible fabrication package builds
-
-While any KiCad version 5.1.x (x &ge; 5) is likely fine for viewing,
-and even editing and artifact-generation, we have taken steps to create
-[reproducible](https://reproducible-builds.org) fabrication artifacts.
-This means byte-for-byte identical zip files, independent of which person
-and computer runs the process.  For this to work, you need
-a specially patched version of KiCad 5.1.8.  This
-
-* [patch](72610867-backport.diff)
-
-is backported from the fix to KiCad [Issue #6553](https://gitlab.com/kicad/code/kicad/-/issues/6553).
-This process has been tested building from the [source tarball](https://gitlab.com/kicad/code/kicad/-/archive/5.1.8/kicad-5.1.8.tar.gz)
-in a [Debian Buster](https://www.debian.org/releases/buster/) [chroot](https://en.wikipedia.org/wiki/Chroot).
-If you build KiCad from git sources, you will have to fight the build system to keep the
-version string (embedded in the fabrication outputs) from identifying itself as "dirty".
