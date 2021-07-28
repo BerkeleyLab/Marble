@@ -7810,7 +7810,8 @@ F 2 "ICs And Semiconductors SMD:SON50P150X150X80-6N" H 15200 7500 50  0001 L CNN
 F 3 "https://www.ti.com/lit/gpn/TPS3703-Q1" H 15200 7400 50  0001 L CNN
 F 4 "Supervisory Circuits Automotive high-accuracy window supervisor with reset time delay 6-WSON -40 to 125" H 15200 7300 50  0001 L CNN "Description"
 F 5 "0.8" H 15200 7200 50  0001 L CNN "Height"
-F 6 "TPS3703A7330DSERQ1" H 15200 6800 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "TEXAS INSTRUMENTS" H 15200 6900 50  0001 L CNN "Manufacturer"
+F 7 "TPS3703A7330DSERQ1" H 15200 6800 50  0001 L CNN "Manufacturer Part Number"
 	1    14050 7400
 	-1   0    0    -1
 $EndComp

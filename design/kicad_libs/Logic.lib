@@ -337,7 +337,8 @@ F2 "SON50P150X150X80-6N" 1150 100 50 H I L CNN
 F3 "" 1150 0 50 H I L CNN
 F4 "Supervisory Circuits Automotive high-accuracy window supervisor with reset time delay 6-WSON -40 to 125" 1150 -100 50 H I L CNN "Description"
 F5 "0.8" 1150 -200 50 H I L CNN "Height"
-F6 "TPS3703A7330DSERQ1" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+F6 "TEXAS INSTRUMENTS" 1150 -500 50 H I L CNN "Manufacturer"
+F7 "TPS3703A7330DSERQ1" 1150 -600 50 H I L CNN "Manufacturer Part Number"
 DRAW
 P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 f
 X SENSE 1 0 0 200 R 50 50 0 0 P
