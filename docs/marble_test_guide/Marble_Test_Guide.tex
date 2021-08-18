@@ -78,7 +78,15 @@ To perform all tests the following hardware is required:
 To perform all tests the following software is required:
 \begin{enumerate}
     \item Vivado 19.1.
-    \item Serial port terminal.
+    \item Serial port terminal. Example Miniterm, can be installed by:	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
+$ sudo apt-get install python3-serial
+	\end{lstlisting}
+	\item OpenOCD, can be installed by:
+	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
+$ sudo apt-get install openocd
+	\end{lstlisting}
+	
+    
 \end{enumerate}
 
 \section{Power connection}
@@ -94,7 +102,7 @@ Measured resistance should be around \textbf{{\color{red}200 kOhm}}
 \end{leftbar}
 
 If the resistance is correct, connect the main power. For this purpose, the current limitation on the power supply should be set to 100mA and the voltage to 12V. \textbf{Make sure that the current limit of the laboratory power supply is on.} Now the power cable can be connected to the board and the used laboratory power supply channel can be switched on.
-This should result in the \textit{12V} LED lighting up as shown  on Figure \ref{02}. Now it is recommended to go to section \nameref{microcontroller}.
+This should result in the \textit{3.3V} and \textit{12V} LEDs lighting up as shown  on Figure \ref{02}. Now it is recommended to go to section \nameref{microcontroller}.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.8\linewidth, angle = 180]{xrpoff.png}
@@ -120,7 +128,7 @@ A recent version of OpenOCD (v0.10.0 or later) is required.
 	\item Go to the main folder of the downloaded repository.
 	\item From the command line, run the following:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
-$ make download
+$ make marble_download
 	\end{lstlisting}
 	\end{enumerate}
 	\item After successful programming, a menu in the serial terminal should appear and LEDs (LD15, LD11, LD12) should blink.
@@ -146,8 +154,8 @@ Before doing the steps below it is highly recommended to verify that there are n
     \item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)}.
     \item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)}.
     \item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3USB)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3P)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)}.
     \item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)}.
 \end{enumerate}
 
@@ -175,8 +183,8 @@ Before doing the steps below it is highly recommended to verify that there are n
     	\item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)} - expected voltage: +1.5V.
     	\item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)} - expected voltage: +1.2V.
     	\item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)} - expected voltage: +3.3V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3USB)} - expected voltage: +3.3V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3P)} - expected voltage: +3.3V.
+    	\item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)} - expected voltage: +3.3V.
+    	\item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)} - expected voltage: +3.3V.
     	\item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)} - expected voltage: +1.05V.
 \end{enumerate}
 \end{enumerate}
