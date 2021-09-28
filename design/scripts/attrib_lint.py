@@ -51,7 +51,7 @@ def check_lib_ref(lr):
         return libs[lib][aa[1]]
 
 
-def cross_check(refid, lib_ref, attrs, lib_ref_attrs):
+def cross_check(refid, value, lib_ref, attrs, lib_ref_attrs):
     if len(attrs) == 0:
         return
     print("%d attrs in %s" % (len(attrs), refid))
@@ -68,6 +68,13 @@ def cross_check(refid, lib_ref, attrs, lib_ref_attrs):
     for k in sorted(lib_ref_attrs):
         if k not in attrs:
             print("%s: not in component %s" % (k, refid))
+    if "Part Number" in attrs:
+        part_num = attrs["Part Number"]
+        if part_num != value:
+            print("%s: part-value mismatch %s :: %s" % (refid, part_num, value))
+    else:
+        print("%s: what?" % refid)
+        print(sorted(attrs.keys()))
 
 
 def process_sch(f):
@@ -76,6 +83,7 @@ def process_sch(f):
     lib_ref = None
     lib_ref_attrs = None
     refid = None
+    value = None
     for row in reader:
         # print(row)
         if row[0] == "$Comp":
@@ -83,15 +91,20 @@ def process_sch(f):
             attrs = {}
         elif row[0] == "$EndComp":
             in_comp = False
-            cross_check(refid, lib_ref, attrs, lib_ref_attrs)
+            cross_check(refid, value, lib_ref, attrs, lib_ref_attrs)
+            refid = None
+            value = None
         elif in_comp:
             if row[0] == "L":
                     lib_ref = row[1]
                     lib_ref_attrs = check_lib_ref(lib_ref)
             elif row[0] == "F" and len(row) > 2:
-                if int(row[1]) == 0:
+                rnum = int(row[1])
+                if rnum == 0:
                     refid = row[2]
-                if int(row[1]) > 3:
+                if rnum == 1:
+                    value = row[2]
+                if rnum > 3:
                     attrs[row[-1]] = row[2]
 
 

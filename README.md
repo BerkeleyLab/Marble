@@ -34,46 +34,45 @@ See more comments about KiCad versions in [design/scripts/README.md](design/scri
 * U35: Maxlinear [XRP7724](https://www.maxlinear.com/product/power-management/universal-pmics/universal-pmics/xrp7724) Quad PWM Power Controller
 * Y1: Taitien [TXEAADSANF-25.000000](https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf) 25 MHz VCTCXO
 
-## Auxiliary documentation
+## Documentation
 
-25-page schematics like this are a modern reality, but that doesn't mean they
-are easy to navigate.  To aid in understanding subsystems that are splattered
-over multiple sheets, here are block diagrams that can act as introductions or
-indexes to the actual machine-readable and DRC'd schematics.
+Documentation is available in the [docs directory](docs/):
 
-* I2C subsystems: [marble_i2.eps](docs/marble2_i2c.eps)
-* Power Routing: [m_power.eps](docs/m_power.eps)
+* [User Guide](docs/marble_user_guide/Marble_User_Guide.pdf)
+* [Fabrication acceptance test guide](docs/marble_test_guide/Marble_Test_Guide.pdf)
 
-These are EPS files, authored using [xcircuit](http://opencircuitdesign.com/xcircuit/).
-Maybe you want to use GhostView to look at them.
 
-Also see notes on [current measurement capabilities](docs/shunts.md)
-at runtime.
+If you have a physical board that has already been tested you can jump directly to the User Guide. If you need to qualify, test or troubleshoot a board, you can use the fabrication acceptance test guide. These documents are also available as artifacts for each fabrication release.
 
-Our use of the XRP7724 PWM Power Controller has its own [README](xr_chip/README.md).
+Other documentation includes information on the XRP7724 PWM Power Controller, which has its own [README](xr_chip/README.md), and notes on [current measurement capabilities](docs/shunts.md)
 
-## Scripting and processing
+## Manufacturing package and other scripted processes
 
-See the [scripts subdirectory](design/scripts) for
-instructions and helper scripts covering:
+The Marble design source files, along with documentation, are available in this repository under version control.
+Other non-source artifacts (such as fabrication packages) are available for download for each manufactured release.
+If you would like to manufacture Marble boards from any of the released version, download the manufacturing package for that particular version from the list of artifacts and request a quote from your favorite vendor. Marble is not yet available as a catalog item from any of our manufacturing partners.
 
-* Updating the I2C subsystem diagram in schematics
+When a new design version of Marble is ready for manufacture, a release is tagged in this repository and the corresponding artifacts are made available for download (e.g. manufacturing package, documentation, etc.). The physical boards have a [QR code](https://en.wikipedia.org/wiki/QR_code) on them, pointing to the board's tagged release on GitHub so a physical board can be mapped to the source code and fabrication package used for its manufacture.
+
+Updating the QR code for a new release, updating the silkscreen design accordingly and generating a fabrication package is a process in itself. That and other processes are partially scripted. Additional information on those processes and the scripts used can be found in the [scripts subdirectory](design/scripts). A [README](design/scripts/README.md) covers the following:
+
 * Inserting QR code on silkcsreen
 * Generating artifacts for manufacturing
 * Generating Xilinx constraint file
-
-## Special note about the prototype Marble-Mini
-
-Due to evolving branding ideas, the first prototype run of
-[Marble-Mini](https://github.com/BerkeleyLab/Marble-Mini) boards was
-marked "Marble v1.0rc3" and the QR code pointed to this Marble repo.
-That's a *different board*: 4xSFP instead of 2xQSFP, and no SO-DIMM socket
-are the most obvious indicators.
-You can go [directly](https://github.com/BerkeleyLab/Marble-Mini/releases/tag/v1.0rc3)
-to the documentation related to that manufacturing run.
+* Updating the I2C subsystem diagram in schematics
 
 ## Credits
 
 The initial design is supported by the Berkeley Accelerator Controls and Instrumentation (BACI), a DOE High Energy Physics (HEP) General Accelerator R&D (GARD) program and carried out by the Accelerator Technology Group (ATG) at LBNL, in collaboration with the Warsaw University of Technology (WUT) and Creotech Instruments in Poland.
 
 The board was designed by Michal Gaska (WUT) and Larry Doolittle (LBNL) is the mastermind behind the design. Michael Betz, Vamsi Vytla, Sergio Paiagua and Eric Norum (LBNL) have also contributed to the design and supporting software and firmware throughout the development.
+
+## Copyright
+
+Marble Copyright (c) 2019, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Department of Energy). All rights reserved.
+
+This documentation describes Marble and is licensed under the CERN OHL v. 1.2.
+
+NOTICE. This documentation was developed under funding from the U.S. Department of Energy and the U.S. Government consequently retains certain rights. As such, the U.S. Government has been granted for itself and others acting on its behalf a paid-up, nonexclusive, irrevocable, worldwide license in the documentation to reproduce, distribute copies to the public, prepare derivative works, and perform publicly and display publicly, and to permit others to do so.
+
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). THIS DOCUMENTATION IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. Please see the CERN OHL v.1.2 for applicable conditions.

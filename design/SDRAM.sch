@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 25
 Title "Marble"
-Date "2019-01-16"
-Rev "9"
+Date "2021-05-18"
+Rev "v1.1"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
@@ -74,7 +74,7 @@ F 1 "GND" H 6605 8027 50  0000 C CNN
 F 2 "" H 6600 8200 50  0001 C CNN
 F 3 "" H 6600 8200 50  0001 C CNN
 	1    6600 8200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6100 7900 6000 7900
@@ -93,7 +93,7 @@ F 1 "+3V3" H 7315 7273 50  0000 C CNN
 F 2 "" H 7300 7100 50  0001 C CNN
 F 3 "" H 7300 7100 50  0001 C CNN
 	1    7300 7100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR025
@@ -104,7 +104,7 @@ F 1 "GND" H 7805 8027 50  0000 C CNN
 F 2 "" H 7800 8200 50  0001 C CNN
 F 3 "" H 7800 8200 50  0001 C CNN
 	1    7800 8200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7800 8100 7800 8200
@@ -117,7 +117,7 @@ F 1 "+3V3" H 6015 7623 50  0000 C CNN
 F 2 "" H 6000 7450 50  0001 C CNN
 F 3 "" H 6000 7450 50  0001 C CNN
 	1    6000 7450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6000 7450 6000 7500
@@ -134,7 +134,7 @@ F 1 "GND" H 5955 8027 50  0000 C CNN
 F 2 "" H 5950 8200 50  0001 C CNN
 F 3 "" H 5950 8200 50  0001 C CNN
 	1    5950 8200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6100 7700 5750 7700
@@ -155,7 +155,7 @@ F 1 "GND" H 8855 7627 50  0000 C CNN
 F 2 "" H 8850 7800 50  0001 C CNN
 F 3 "" H 8850 7800 50  0001 C CNN
 	1    8850 7800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR028
@@ -166,7 +166,7 @@ F 1 "GND" H 9255 7627 50  0000 C CNN
 F 2 "" H 9250 7800 50  0001 C CNN
 F 3 "" H 9250 7800 50  0001 C CNN
 	1    9250 7800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR018
@@ -177,7 +177,7 @@ F 1 "GND" H 5555 7327 50  0000 C CNN
 F 2 "" H 5550 7500 50  0001 C CNN
 F 3 "" H 5550 7500 50  0001 C CNN
 	1    5550 7500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8400 7750 8400 7800
@@ -192,7 +192,7 @@ F 1 "GND" H 7155 8027 50  0000 C CNN
 F 2 "" H 7150 8200 50  0001 C CNN
 F 3 "" H 7150 8200 50  0001 C CNN
 	1    7150 8200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 8250 7500 0    50   ~ 10
 VTT_DDR3
@@ -251,7 +251,7 @@ F 38 "10/17/12 00:00:00" H 7300 3470 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 7300 3380 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7300 3290 60  0001 L CNN "License"
 	1    7300 7100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R30
@@ -299,7 +299,7 @@ F 38 "10/17/12 00:00:00" H 7800 4170 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 7800 4080 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7800 3990 60  0001 L CNN "License"
 	1    7800 7800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Resistors_SMD:R0402_10K_1%_0.0625W_100PPM R31
@@ -347,7 +347,7 @@ F 38 "10/17/12 00:00:00" H 8000 4170 60  0001 L CNN "LatestRevisionDate"
 F 39 "Resistors SMD" H 8000 4080 60  0001 L CNN "Library Name"
 F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8000 3990 60  0001 L CNN "License"
 	1    8000 7800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7100 7800 7800 7800
@@ -363,7 +363,7 @@ F 1 "VTT_DDR3" H 9265 7673 50  0000 C CNN
 F 2 "" H 9250 7500 50  0001 C CNN
 F 3 "" H 9250 7500 50  0001 C CNN
 	1    9250 7500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9050 5000 0    50   ~ 10
 DDR3_A15
@@ -373,9 +373,9 @@ $Comp
 L Capacitors_SMD:CC0603_22UF_6.3V_20%_X5R C?
 U 1 1 5CD7078D
 P 5550 7200
-AR Path="/5C16BF8E/5DB9B7E6/5CD7078D" Ref="C?"  Part="1" 
-AR Path="/5C16BF13/5CD7078D" Ref="C?"  Part="1" 
-AR Path="/5BD32060/5CD7078D" Ref="C22"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5CD7078D" Ref="C?"  Part="1"
+AR Path="/5C16BF13/5CD7078D" Ref="C?"  Part="1"
+AR Path="/5BD32060/5CD7078D" Ref="C22"  Part="1"
 F 0 "C22" V 5600 7200 50  0000 L CNN
 F 1 "CC0603_22UF_6.3V_20%_X5R" H 5550 6940 60  0001 L CNN
 F 2 "CAPC1709X100N" H 5550 6130 60  0001 L CNN
@@ -417,15 +417,15 @@ F 37 "09/13/16 00:00:00" H 5550 3610 60  0001 L CNN "LatestRevisionDate"
 F 38 "Capacitors SMD" H 5550 3520 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5550 3430 60  0001 L CNN "License"
 	1    5550 7200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Capacitors_SMD:CC0603_22UF_6.3V_20%_X5R C?
 U 1 1 5CD70C22
 P 8850 7500
-AR Path="/5C16BF8E/5DB9B7E6/5CD70C22" Ref="C?"  Part="1" 
-AR Path="/5C16BF13/5CD70C22" Ref="C?"  Part="1" 
-AR Path="/5BD32060/5CD70C22" Ref="C26"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5CD70C22" Ref="C?"  Part="1"
+AR Path="/5C16BF13/5CD70C22" Ref="C?"  Part="1"
+AR Path="/5BD32060/5CD70C22" Ref="C26"  Part="1"
 F 0 "C26" V 8900 7500 50  0000 L CNN
 F 1 "CC0603_22UF_6.3V_20%_X5R" H 8850 7240 60  0001 L CNN
 F 2 "CAPC1709X100N" H 8850 6430 60  0001 L CNN
@@ -467,15 +467,15 @@ F 37 "09/13/16 00:00:00" H 8850 3910 60  0001 L CNN "LatestRevisionDate"
 F 38 "Capacitors SMD" H 8850 3820 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 8850 3730 60  0001 L CNN "License"
 	1    8850 7500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Capacitors_SMD:CC0603_22UF_6.3V_20%_X5R C?
 U 1 1 5CD70E8C
 P 9250 7500
-AR Path="/5C16BF8E/5DB9B7E6/5CD70E8C" Ref="C?"  Part="1" 
-AR Path="/5C16BF13/5CD70E8C" Ref="C?"  Part="1" 
-AR Path="/5BD32060/5CD70E8C" Ref="C27"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/5CD70E8C" Ref="C?"  Part="1"
+AR Path="/5C16BF13/5CD70E8C" Ref="C?"  Part="1"
+AR Path="/5BD32060/5CD70E8C" Ref="C27"  Part="1"
 F 0 "C27" V 9300 7500 50  0000 L CNN
 F 1 "CC0603_22UF_6.3V_20%_X5R" H 9250 7240 60  0001 L CNN
 F 2 "CAPC1709X100N" H 9250 6430 60  0001 L CNN
@@ -517,7 +517,7 @@ F 37 "09/13/16 00:00:00" H 9250 3910 60  0001 L CNN "LatestRevisionDate"
 F 38 "Capacitors SMD" H 9250 3820 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 9250 3730 60  0001 L CNN "License"
 	1    9250 7500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	7500 7500 8850 7500
@@ -537,7 +537,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps51200.pdf" H 6600 8550 50  0001 C CNN
 F 4 "TPS51200DRC" H 6600 7700 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TEXAS INSTRUMENTS" H 6600 7700 50  0001 C CNN "Manufacturer"
 	1    6600 7700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5550 7200 6600 7200
@@ -545,9 +545,9 @@ $Comp
 L Capacitors_SMD:CC0402_1UF_16V_10%_X5R C?
 U 1 1 5CD746C9
 P 5950 7900
-AR Path="/5CC393D3/5CD746C9" Ref="C?"  Part="1" 
-AR Path="/5BABAC65/5CD746C9" Ref="C?"  Part="1" 
-AR Path="/5BD32060/5CD746C9" Ref="C24"  Part="1" 
+AR Path="/5CC393D3/5CD746C9" Ref="C?"  Part="1"
+AR Path="/5BABAC65/5CD746C9" Ref="C?"  Part="1"
+AR Path="/5BD32060/5CD746C9" Ref="C24"  Part="1"
 F 0 "C24" V 6054 8010 50  0000 L CNN
 F 1 "CC0402_1UF_16V_10%_X5R" H 5950 7640 60  0001 L CNN
 F 2 "Capacitors SMD:CAPC1005X55N" H 5950 6830 60  0001 L CNN
@@ -589,15 +589,15 @@ F 37 "10/25/12 00:00:00" H 5950 4310 60  0001 L CNN "LatestRevisionDate"
 F 38 "Capacitors.DbLib" H 5950 4220 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5950 4130 60  0001 L CNN "License"
 	1    5950 7900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Capacitors_SMD:CC0201_100NF_6.3V_10%_X5R C?
 U 1 1 5CDD5242
 P 7150 7900
-AR Path="/5BCEDA59/5CDD5242" Ref="C?"  Part="1" 
-AR Path="/5C16BF13/5CDD5242" Ref="C?"  Part="1" 
-AR Path="/5BD32060/5CDD5242" Ref="C25"  Part="1" 
+AR Path="/5BCEDA59/5CDD5242" Ref="C?"  Part="1"
+AR Path="/5C16BF13/5CDD5242" Ref="C?"  Part="1"
+AR Path="/5BD32060/5CDD5242" Ref="C25"  Part="1"
 F 0 "C25" V 7254 8010 50  0000 L CNN
 F 1 "CC0201_100NF_6.3V_10%_X5R" H 7150 7640 60  0001 L CNN
 F 2 "CAPC0603X33N" H 7150 6830 60  0001 L CNN
@@ -639,7 +639,7 @@ F 37 "12/03/07 00:00:00" H 7150 4310 60  0001 L CNN "LatestRevisionDate"
 F 38 "Capacitors SMD" H 7150 4220 60  0001 L CNN "Library Name"
 F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7150 4130 60  0001 L CNN "License"
 	1    7150 7900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	7100 7900 7150 7900
@@ -648,8 +648,8 @@ $Comp
 L TYCO:TYCO_2-2013022-1 SK?
 U 1 1 5FAD9D83
 P 7700 900
-AR Path="/5FAD9D83" Ref="SK?"  Part="1" 
-AR Path="/5BD32060/5FAD9D83" Ref="SK1"  Part="1" 
+AR Path="/5FAD9D83" Ref="SK?"  Part="1"
+AR Path="/5BD32060/5FAD9D83" Ref="SK1"  Part="1"
 F 0 "SK1" H 8200 973 50  0000 C CNN
 F 1 "TYCO_2-2013022-1" H 7700 -4475 50  0001 L CNN
 F 2 "Sockets:TYCO_2-2013022-1" H 7700 -4550 50  0001 L CNN
@@ -688,8 +688,8 @@ F 34 "08/08/12 00:00:00" H 7700 -6950 50  0001 L CNN "CreateDate"
 F 35 "08/08/12 00:00:00" H 7700 -7025 50  0001 L CNN "LatestRevisionDate"
 F 36 "Eletro-mechanical.DbLib" H 7700 -7175 50  0001 L CNN "Library Name"
 F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7700 -7325 50  0001 L CNN "License"
-	1    7700 900 
-	1    0    0    -1  
+	1    7700 900
+	1    0    0    -1
 $EndComp
 Text Label 6900 1000 0    50   ~ 10
 VREF_DDR3
@@ -1030,7 +1030,7 @@ F 1 "VTT_DDR3" V 1600 6400 50  0000 C CNN
 F 2 "" H 1600 6100 50  0001 C CNN
 F 3 "" H 1600 6100 50  0001 C CNN
 	1    1600 6100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L marble_misc:VTT_DDR3 #PWR0217
@@ -1041,7 +1041,7 @@ F 1 "VTT_DDR3" V 4800 6400 50  0000 C CNN
 F 2 "" H 4800 6100 50  0001 C CNN
 F 3 "" H 4800 6100 50  0001 C CNN
 	1    4800 6100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	3900 2600 4800 2600
@@ -1197,7 +1197,7 @@ F 1 "+1V5" V 1615 1328 50  0000 L CNN
 F 2 "" H 1600 1200 50  0001 C CNN
 F 3 "" H 1600 1200 50  0001 C CNN
 	1    1600 1200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+1V5 #PWR0224
@@ -1208,7 +1208,7 @@ F 1 "+1V5" V 1615 1628 50  0000 L CNN
 F 2 "" H 1600 1500 50  0001 C CNN
 F 3 "" H 1600 1500 50  0001 C CNN
 	1    1600 1500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+1V5 #PWR0225
@@ -1219,7 +1219,7 @@ F 1 "+1V5" V 1615 1928 50  0000 L CNN
 F 2 "" H 1600 1800 50  0001 C CNN
 F 3 "" H 1600 1800 50  0001 C CNN
 	1    1600 1800
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+1V5 #PWR0259
@@ -1230,7 +1230,7 @@ F 1 "+1V5" V 1615 2228 50  0000 L CNN
 F 2 "" H 1600 2100 50  0001 C CNN
 F 3 "" H 1600 2100 50  0001 C CNN
 	1    1600 2100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+1V5 #PWR0260
@@ -1241,7 +1241,7 @@ F 1 "+1V5" V 4815 1328 50  0000 L CNN
 F 2 "" H 4800 1200 50  0001 C CNN
 F 3 "" H 4800 1200 50  0001 C CNN
 	1    4800 1200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:+1V5 #PWR0261
@@ -1252,7 +1252,7 @@ F 1 "+1V5" V 4815 1628 50  0000 L CNN
 F 2 "" H 4800 1500 50  0001 C CNN
 F 3 "" H 4800 1500 50  0001 C CNN
 	1    4800 1500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:+1V5 #PWR0376
@@ -1263,7 +1263,7 @@ F 1 "+1V5" V 4815 1928 50  0000 L CNN
 F 2 "" H 4800 1800 50  0001 C CNN
 F 3 "" H 4800 1800 50  0001 C CNN
 	1    4800 1800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:+1V5 #PWR0378
@@ -1274,7 +1274,7 @@ F 1 "+1V5" V 4815 2228 50  0000 L CNN
 F 2 "" H 4800 2100 50  0001 C CNN
 F 3 "" H 4800 2100 50  0001 C CNN
 	1    4800 2100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	1600 2100 2500 2100
@@ -1323,7 +1323,7 @@ F 1 "GND" V 1605 2172 50  0000 R CNN
 F 2 "" H 1600 2300 50  0001 C CNN
 F 3 "" H 1600 2300 50  0001 C CNN
 	1    1600 2300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0386
@@ -1334,7 +1334,7 @@ F 1 "GND" V 1605 2472 50  0000 R CNN
 F 2 "" H 1600 2600 50  0001 C CNN
 F 3 "" H 1600 2600 50  0001 C CNN
 	1    1600 2600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0459
@@ -1345,7 +1345,7 @@ F 1 "GND" V 1605 2772 50  0000 R CNN
 F 2 "" H 1600 2900 50  0001 C CNN
 F 3 "" H 1600 2900 50  0001 C CNN
 	1    1600 2900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0460
@@ -1356,7 +1356,7 @@ F 1 "GND" V 1605 3072 50  0000 R CNN
 F 2 "" H 1600 3200 50  0001 C CNN
 F 3 "" H 1600 3200 50  0001 C CNN
 	1    1600 3200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0461
@@ -1367,7 +1367,7 @@ F 1 "GND" V 1605 3372 50  0000 R CNN
 F 2 "" H 1600 3500 50  0001 C CNN
 F 3 "" H 1600 3500 50  0001 C CNN
 	1    1600 3500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0462
@@ -1378,7 +1378,7 @@ F 1 "GND" V 1605 3572 50  0000 R CNN
 F 2 "" H 1600 3700 50  0001 C CNN
 F 3 "" H 1600 3700 50  0001 C CNN
 	1    1600 3700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0463
@@ -1389,7 +1389,7 @@ F 1 "GND" V 1605 3872 50  0000 R CNN
 F 2 "" H 1600 4000 50  0001 C CNN
 F 3 "" H 1600 4000 50  0001 C CNN
 	1    1600 4000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0464
@@ -1400,7 +1400,7 @@ F 1 "GND" V 1605 4172 50  0000 R CNN
 F 2 "" H 1600 4300 50  0001 C CNN
 F 3 "" H 1600 4300 50  0001 C CNN
 	1    1600 4300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0558
@@ -1411,7 +1411,7 @@ F 1 "GND" V 1605 4472 50  0000 R CNN
 F 2 "" H 1600 4600 50  0001 C CNN
 F 3 "" H 1600 4600 50  0001 C CNN
 	1    1600 4600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0559
@@ -1422,7 +1422,7 @@ F 1 "GND" V 1605 4772 50  0000 R CNN
 F 2 "" H 1600 4900 50  0001 C CNN
 F 3 "" H 1600 4900 50  0001 C CNN
 	1    1600 4900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0560
@@ -1433,7 +1433,7 @@ F 1 "GND" V 1605 5072 50  0000 R CNN
 F 2 "" H 1600 5200 50  0001 C CNN
 F 3 "" H 1600 5200 50  0001 C CNN
 	1    1600 5200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0631
@@ -1444,7 +1444,7 @@ F 1 "GND" V 1605 5272 50  0000 R CNN
 F 2 "" H 1600 5400 50  0001 C CNN
 F 3 "" H 1600 5400 50  0001 C CNN
 	1    1600 5400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0653
@@ -1455,7 +1455,7 @@ F 1 "GND" V 1605 5572 50  0000 R CNN
 F 2 "" H 1600 5700 50  0001 C CNN
 F 3 "" H 1600 5700 50  0001 C CNN
 	1    1600 5700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0654
@@ -1466,7 +1466,7 @@ F 1 "GND" V 1605 5672 50  0000 R CNN
 F 2 "" H 1600 5800 50  0001 C CNN
 F 3 "" H 1600 5800 50  0001 C CNN
 	1    1600 5800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0655
@@ -1477,7 +1477,7 @@ F 1 "GND" V 4805 2172 50  0000 R CNN
 F 2 "" H 4800 2300 50  0001 C CNN
 F 3 "" H 4800 2300 50  0001 C CNN
 	1    4800 2300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0657
@@ -1488,7 +1488,7 @@ F 1 "GND" V 4805 2472 50  0000 R CNN
 F 2 "" H 4800 2600 50  0001 C CNN
 F 3 "" H 4800 2600 50  0001 C CNN
 	1    4800 2600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0662
@@ -1499,7 +1499,7 @@ F 1 "GND" V 4805 2672 50  0000 R CNN
 F 2 "" H 4800 2800 50  0001 C CNN
 F 3 "" H 4800 2800 50  0001 C CNN
 	1    4800 2800
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0663
@@ -1510,7 +1510,7 @@ F 1 "GND" V 4805 2972 50  0000 R CNN
 F 2 "" H 4800 3100 50  0001 C CNN
 F 3 "" H 4800 3100 50  0001 C CNN
 	1    4800 3100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0664
@@ -1521,7 +1521,7 @@ F 1 "GND" V 4805 3272 50  0000 R CNN
 F 2 "" H 4800 3400 50  0001 C CNN
 F 3 "" H 4800 3400 50  0001 C CNN
 	1    4800 3400
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0665
@@ -1532,7 +1532,7 @@ F 1 "GND" V 4805 3572 50  0000 R CNN
 F 2 "" H 4800 3700 50  0001 C CNN
 F 3 "" H 4800 3700 50  0001 C CNN
 	1    4800 3700
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0666
@@ -1543,7 +1543,7 @@ F 1 "GND" V 4805 3872 50  0000 R CNN
 F 2 "" H 4800 4000 50  0001 C CNN
 F 3 "" H 4800 4000 50  0001 C CNN
 	1    4800 4000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0667
@@ -1554,7 +1554,7 @@ F 1 "GND" V 4805 4172 50  0000 R CNN
 F 2 "" H 4800 4300 50  0001 C CNN
 F 3 "" H 4800 4300 50  0001 C CNN
 	1    4800 4300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0668
@@ -1565,7 +1565,7 @@ F 1 "GND" V 4805 4372 50  0000 R CNN
 F 2 "" H 4800 4500 50  0001 C CNN
 F 3 "" H 4800 4500 50  0001 C CNN
 	1    4800 4500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0700
@@ -1576,7 +1576,7 @@ F 1 "GND" V 4805 4672 50  0000 R CNN
 F 2 "" H 4800 4800 50  0001 C CNN
 F 3 "" H 4800 4800 50  0001 C CNN
 	1    4800 4800
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0703
@@ -1587,7 +1587,7 @@ F 1 "GND" V 4805 4972 50  0000 R CNN
 F 2 "" H 4800 5100 50  0001 C CNN
 F 3 "" H 4800 5100 50  0001 C CNN
 	1    4800 5100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0723
@@ -1598,7 +1598,7 @@ F 1 "GND" V 4805 5272 50  0000 R CNN
 F 2 "" H 4800 5400 50  0001 C CNN
 F 3 "" H 4800 5400 50  0001 C CNN
 	1    4800 5400
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0724
@@ -1609,7 +1609,7 @@ F 1 "GND" V 4805 5572 50  0000 R CNN
 F 2 "" H 4800 5700 50  0001 C CNN
 F 3 "" H 4800 5700 50  0001 C CNN
 	1    4800 5700
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	1600 6000 2500 6000
@@ -1622,7 +1622,7 @@ F 1 "GND" V 1605 5872 50  0000 R CNN
 F 2 "" H 1600 6000 50  0001 C CNN
 F 3 "" H 1600 6000 50  0001 C CNN
 	1    1600 6000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	3900 6100 4800 6100
@@ -1639,7 +1639,7 @@ F 1 "GND" V 6605 4372 50  0000 R CNN
 F 2 "" H 6600 4500 50  0001 C CNN
 F 3 "" H 6600 4500 50  0001 C CNN
 	1    6600 4500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0728
@@ -1650,7 +1650,7 @@ F 1 "GND" V 6605 4072 50  0000 R CNN
 F 2 "" H 6600 4200 50  0001 C CNN
 F 3 "" H 6600 4200 50  0001 C CNN
 	1    6600 4200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0729
@@ -1661,7 +1661,7 @@ F 1 "GND" V 6605 3872 50  0000 R CNN
 F 2 "" H 6600 4000 50  0001 C CNN
 F 3 "" H 6600 4000 50  0001 C CNN
 	1    6600 4000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0730
@@ -1672,7 +1672,7 @@ F 1 "GND" V 6605 3572 50  0000 R CNN
 F 2 "" H 6600 3700 50  0001 C CNN
 F 3 "" H 6600 3700 50  0001 C CNN
 	1    6600 3700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0731
@@ -1683,7 +1683,7 @@ F 1 "GND" V 6605 3272 50  0000 R CNN
 F 2 "" H 6600 3400 50  0001 C CNN
 F 3 "" H 6600 3400 50  0001 C CNN
 	1    6600 3400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0732
@@ -1694,7 +1694,7 @@ F 1 "GND" V 6605 2972 50  0000 R CNN
 F 2 "" H 6600 3100 50  0001 C CNN
 F 3 "" H 6600 3100 50  0001 C CNN
 	1    6600 3100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0733
@@ -1705,7 +1705,7 @@ F 1 "GND" V 6605 2672 50  0000 R CNN
 F 2 "" H 6600 2800 50  0001 C CNN
 F 3 "" H 6600 2800 50  0001 C CNN
 	1    6600 2800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0734
@@ -1716,7 +1716,7 @@ F 1 "GND" V 6605 2372 50  0000 R CNN
 F 2 "" H 6600 2500 50  0001 C CNN
 F 3 "" H 6600 2500 50  0001 C CNN
 	1    6600 2500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0735
@@ -1727,7 +1727,7 @@ F 1 "GND" V 6605 2072 50  0000 R CNN
 F 2 "" H 6600 2200 50  0001 C CNN
 F 3 "" H 6600 2200 50  0001 C CNN
 	1    6600 2200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0736
@@ -1738,7 +1738,7 @@ F 1 "GND" V 6605 1772 50  0000 R CNN
 F 2 "" H 6600 1900 50  0001 C CNN
 F 3 "" H 6600 1900 50  0001 C CNN
 	1    6600 1900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0737
@@ -1749,7 +1749,7 @@ F 1 "GND" V 6605 1472 50  0000 R CNN
 F 2 "" H 6600 1600 50  0001 C CNN
 F 3 "" H 6600 1600 50  0001 C CNN
 	1    6600 1600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0738
@@ -1760,7 +1760,7 @@ F 1 "GND" V 6605 1272 50  0000 R CNN
 F 2 "" H 6600 1400 50  0001 C CNN
 F 3 "" H 6600 1400 50  0001 C CNN
 	1    6600 1400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0739
@@ -1771,7 +1771,7 @@ F 1 "GND" V 6605 972 50  0000 R CNN
 F 2 "" H 6600 1100 50  0001 C CNN
 F 3 "" H 6600 1100 50  0001 C CNN
 	1    6600 1100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR0740
@@ -1782,7 +1782,7 @@ F 1 "GND" V 9805 872 50  0000 R CNN
 F 2 "" H 9800 1000 50  0001 C CNN
 F 3 "" H 9800 1000 50  0001 C CNN
 	1    9800 1000
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0741
@@ -1793,7 +1793,7 @@ F 1 "GND" V 9805 1172 50  0000 R CNN
 F 2 "" H 9800 1300 50  0001 C CNN
 F 3 "" H 9800 1300 50  0001 C CNN
 	1    9800 1300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0742
@@ -1804,7 +1804,7 @@ F 1 "GND" V 9805 1472 50  0000 R CNN
 F 2 "" H 9800 1600 50  0001 C CNN
 F 3 "" H 9800 1600 50  0001 C CNN
 	1    9800 1600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0743
@@ -1815,7 +1815,7 @@ F 1 "GND" V 9805 1772 50  0000 R CNN
 F 2 "" H 9800 1900 50  0001 C CNN
 F 3 "" H 9800 1900 50  0001 C CNN
 	1    9800 1900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0744
@@ -1826,7 +1826,7 @@ F 1 "GND" V 9805 2072 50  0000 R CNN
 F 2 "" H 9800 2200 50  0001 C CNN
 F 3 "" H 9800 2200 50  0001 C CNN
 	1    9800 2200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0745
@@ -1837,7 +1837,7 @@ F 1 "GND" V 9805 2372 50  0000 R CNN
 F 2 "" H 9800 2500 50  0001 C CNN
 F 3 "" H 9800 2500 50  0001 C CNN
 	1    9800 2500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0746
@@ -1848,7 +1848,7 @@ F 1 "GND" V 9805 2672 50  0000 R CNN
 F 2 "" H 9800 2800 50  0001 C CNN
 F 3 "" H 9800 2800 50  0001 C CNN
 	1    9800 2800
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0747
@@ -1859,7 +1859,7 @@ F 1 "GND" V 9805 2972 50  0000 R CNN
 F 2 "" H 9800 3100 50  0001 C CNN
 F 3 "" H 9800 3100 50  0001 C CNN
 	1    9800 3100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0748
@@ -1870,7 +1870,7 @@ F 1 "GND" V 9805 3172 50  0000 R CNN
 F 2 "" H 9800 3300 50  0001 C CNN
 F 3 "" H 9800 3300 50  0001 C CNN
 	1    9800 3300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0749
@@ -1881,7 +1881,7 @@ F 1 "GND" V 9805 3472 50  0000 R CNN
 F 2 "" H 9800 3600 50  0001 C CNN
 F 3 "" H 9800 3600 50  0001 C CNN
 	1    9800 3600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0750
@@ -1892,7 +1892,7 @@ F 1 "GND" V 9805 3772 50  0000 R CNN
 F 2 "" H 9800 3900 50  0001 C CNN
 F 3 "" H 9800 3900 50  0001 C CNN
 	1    9800 3900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0751
@@ -1903,7 +1903,7 @@ F 1 "GND" V 9805 4072 50  0000 R CNN
 F 2 "" H 9800 4200 50  0001 C CNN
 F 3 "" H 9800 4200 50  0001 C CNN
 	1    9800 4200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR0752
@@ -1914,7 +1914,7 @@ F 1 "GND" V 9805 4372 50  0000 R CNN
 F 2 "" H 9800 4500 50  0001 C CNN
 F 3 "" H 9800 4500 50  0001 C CNN
 	1    9800 4500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+1V5 #PWR0753
@@ -1925,7 +1925,7 @@ F 1 "+1V5" V 6615 5028 50  0000 L CNN
 F 2 "" H 6600 4900 50  0001 C CNN
 F 3 "" H 6600 4900 50  0001 C CNN
 	1    6600 4900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6600 4900 7500 4900
@@ -1938,7 +1938,7 @@ F 1 "+1V5" V 6615 5328 50  0000 L CNN
 F 2 "" H 6600 5200 50  0001 C CNN
 F 3 "" H 6600 5200 50  0001 C CNN
 	1    6600 5200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6600 5200 7500 5200
@@ -1951,7 +1951,7 @@ F 1 "+1V5" V 6615 5628 50  0000 L CNN
 F 2 "" H 6600 5500 50  0001 C CNN
 F 3 "" H 6600 5500 50  0001 C CNN
 	1    6600 5500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6600 5500 7500 5500
@@ -1964,7 +1964,7 @@ F 1 "+1V5" V 6615 5928 50  0000 L CNN
 F 2 "" H 6600 5800 50  0001 C CNN
 F 3 "" H 6600 5800 50  0001 C CNN
 	1    6600 5800
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6600 5800 7500 5800
@@ -1977,7 +1977,7 @@ F 1 "+1V5" V 6615 6228 50  0000 L CNN
 F 2 "" H 6600 6100 50  0001 C CNN
 F 3 "" H 6600 6100 50  0001 C CNN
 	1    6600 6100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6600 6100 7500 6100
@@ -1990,7 +1990,7 @@ F 1 "+1V5" V 9815 5028 50  0000 L CNN
 F 2 "" H 9800 4900 50  0001 C CNN
 F 3 "" H 9800 4900 50  0001 C CNN
 	1    9800 4900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:+1V5 #PWR0759
@@ -2001,7 +2001,7 @@ F 1 "+1V5" V 9815 5328 50  0000 L CNN
 F 2 "" H 9800 5200 50  0001 C CNN
 F 3 "" H 9800 5200 50  0001 C CNN
 	1    9800 5200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8900 5200 9800 5200
@@ -2016,7 +2016,7 @@ F 1 "+1V5" V 9815 5628 50  0000 L CNN
 F 2 "" H 9800 5500 50  0001 C CNN
 F 3 "" H 9800 5500 50  0001 C CNN
 	1    9800 5500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:+1V5 #PWR0761
@@ -2027,7 +2027,7 @@ F 1 "+1V5" V 9815 5928 50  0000 L CNN
 F 2 "" H 9800 5800 50  0001 C CNN
 F 3 "" H 9800 5800 50  0001 C CNN
 	1    9800 5800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8900 5800 9800 5800
@@ -2042,7 +2042,7 @@ F 1 "+1V5" V 9815 6228 50  0000 L CNN
 F 2 "" H 9800 6100 50  0001 C CNN
 F 3 "" H 9800 6100 50  0001 C CNN
 	1    9800 6100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	8900 6100 9800 6100
@@ -2089,7 +2089,7 @@ Entry Wire Line
 Entry Wire Line
 	14900 1150 15000 1250
 Wire Wire Line
-	14450 950  14900 950 
+	14450 950  14900 950
 Wire Wire Line
 	14450 1050 14900 1050
 Text Label 14450 950  0    50   ~ 10
@@ -2103,7 +2103,7 @@ DDR3_BA[0..2]
 Wire Wire Line
 	14450 1150 14900 1150
 Wire Bus Line
-	15000 950  15300 950 
+	15000 950  15300 950
 Wire Bus Line
 	15300 1400 15000 1400
 Entry Wire Line
@@ -2317,11 +2317,11 @@ Entry Wire Line
 Entry Wire Line
 	13100 1150 13000 1050
 Entry Wire Line
-	13100 1050 13000 950 
+	13100 1050 13000 950
 Text HLabel 13350 950  2    50   BiDi ~ 10
 DDR3_DQ[32..63]
 Wire Bus Line
-	13350 950  13100 950 
+	13350 950  13100 950
 Wire Wire Line
 	12550 2450 13000 2450
 Wire Wire Line
@@ -2353,7 +2353,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 1050 13000 1050
 Wire Wire Line
-	12550 950  13000 950 
+	12550 950  13000 950
 Entry Wire Line
 	13100 4150 13000 4050
 Entry Wire Line
@@ -2593,11 +2593,11 @@ Entry Wire Line
 Entry Wire Line
 	11250 1150 11150 1050
 Entry Wire Line
-	11250 1050 11150 950 
+	11250 1050 11150 950
 Text HLabel 11500 950  2    50   BiDi ~ 10
 DDR3_DQ[0..31]
 Wire Bus Line
-	11500 950  11250 950 
+	11500 950  11250 950
 Wire Wire Line
 	10700 2450 11150 2450
 Wire Wire Line
@@ -2629,7 +2629,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 1050 11150 1050
 Wire Wire Line
-	10700 950  11150 950 
+	10700 950  11150 950
 Text Label 10700 2550 0    50   ~ 0
 DDR3_DQ16
 Text Label 10700 2650 0    50   ~ 0
@@ -2819,7 +2819,7 @@ F 1 "+1V5" H 5565 7373 50  0000 C CNN
 F 2 "" H 5550 7200 50  0001 C CNN
 F 3 "" H 5550 7200 50  0001 C CNN
 	1    5550 7200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 5550 7200
 $Comp
@@ -2831,14 +2831,14 @@ F 1 "+1V5" H 8415 7923 50  0000 C CNN
 F 2 "" H 8400 7750 50  0001 C CNN
 F 3 "" H 8400 7750 50  0001 C CNN
 	1    8400 7750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Logic:MT8JTF12864HZ-1G6G1 IC?
 U 2 1 5FAD9DFF
 P 7700 900
-AR Path="/5FAD9DFF" Ref="IC?"  Part="2" 
-AR Path="/5BD32060/5FAD9DFF" Ref="IC1"  Part="2" 
+AR Path="/5FAD9DFF" Ref="IC?"  Part="2"
+AR Path="/5BD32060/5FAD9DFF" Ref="IC1"  Part="2"
 F 0 "IC1" H 8150 -4450 50  0000 L CNN
 F 1 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -4475 50  0001 L CNN
 F 2 "ICs And Semiconductors SMD:SODIMM60P6760X3000X380-204" H 7700 -4550 50  0001 L CNN
@@ -2875,15 +2875,15 @@ F 32 "08/09/12 00:00:00" H 7700 -6800 50  0001 L CNN "CreateDate"
 F 33 "08/09/12 00:00:00" H 7700 -6875 50  0001 L CNN "LatestRevisionDate"
 F 34 "ICs And Semiconductors.DbLib" H 7700 -7100 50  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7700 -7250 50  0001 L CNN "License"
-	2    7700 900 
-	1    0    0    -1  
+	2    7700 900
+	1    0    0    -1
 $EndComp
 $Comp
 L Logic:MT8JTF12864HZ-1G6G1 IC?
 U 1 1 5FAD9DD6
 P 2700 900
-AR Path="/5FAD9DD6" Ref="IC?"  Part="1" 
-AR Path="/5BD32060/5FAD9DD6" Ref="IC1"  Part="1" 
+AR Path="/5FAD9DD6" Ref="IC?"  Part="1"
+AR Path="/5BD32060/5FAD9DD6" Ref="IC1"  Part="1"
 F 0 "IC1" H 3100 -4450 50  0000 L CNN
 F 1 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 2700 -4475 50  0001 L CNN
 F 2 "ICs And Semiconductors SMD:SODIMM60P6760X3000X380-204" H 2700 -4550 50  0001 L CNN
@@ -2920,15 +2920,15 @@ F 32 "08/09/12 00:00:00" H 2700 -6800 50  0001 L CNN "CreateDate"
 F 33 "08/09/12 00:00:00" H 2700 -6875 50  0001 L CNN "LatestRevisionDate"
 F 34 "ICs And Semiconductors.DbLib" H 2700 -7100 50  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2700 -7250 50  0001 L CNN "License"
-	1    2700 900 
-	1    0    0    -1  
+	1    2700 900
+	1    0    0    -1
 $EndComp
 $Comp
 L TYCO:TYCO_2-2013022-1 SK?
 U 2 1 5FAD9DAD
 P 2700 900
-AR Path="/5FAD9DAD" Ref="SK?"  Part="2" 
-AR Path="/5BD32060/5FAD9DAD" Ref="SK1"  Part="2" 
+AR Path="/5FAD9DAD" Ref="SK?"  Part="2"
+AR Path="/5BD32060/5FAD9DAD" Ref="SK1"  Part="2"
 F 0 "SK1" H 3200 973 50  0000 C CNN
 F 1 "TYCO_2-2013022-1" H 2700 -4475 50  0001 L CNN
 F 2 "Sockets:TYCO_2-2013022-1" H 2700 -4550 50  0001 L CNN
@@ -2967,8 +2967,8 @@ F 34 "08/08/12 00:00:00" H 2700 -6950 50  0001 L CNN "CreateDate"
 F 35 "08/08/12 00:00:00" H 2700 -7025 50  0001 L CNN "LatestRevisionDate"
 F 36 "Eletro-mechanical.DbLib" H 2700 -7175 50  0001 L CNN "Library Name"
 F 37 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 2700 -7325 50  0001 L CNN "License"
-	2    2700 900 
-	1    0    0    -1  
+	2    2700 900
+	1    0    0    -1
 $EndComp
 Text Label 4050 6000 0    50   ~ 0
 I2C_DDR3_SCL
@@ -2986,32 +2986,32 @@ $Comp
 L power:+3.3P #PWR?
 U 1 1 6018E9C0
 P 1600 5900
-AR Path="/5C16C03C/6018E9C0" Ref="#PWR?"  Part="1" 
-AR Path="/5BCEDA39/6018E9C0" Ref="#PWR?"  Part="1" 
-AR Path="/5D05A99E/6018E9C0" Ref="#PWR?"  Part="1" 
-AR Path="/5C16BF8E/6018E9C0" Ref="#PWR?"  Part="1" 
-AR Path="/6018E9C0" Ref="#PWR?"  Part="1" 
-AR Path="/5BD32060/6018E9C0" Ref="#PWR0725"  Part="1" 
+AR Path="/5C16C03C/6018E9C0" Ref="#PWR?"  Part="1"
+AR Path="/5BCEDA39/6018E9C0" Ref="#PWR?"  Part="1"
+AR Path="/5D05A99E/6018E9C0" Ref="#PWR?"  Part="1"
+AR Path="/5C16BF8E/6018E9C0" Ref="#PWR?"  Part="1"
+AR Path="/6018E9C0" Ref="#PWR?"  Part="1"
+AR Path="/5BD32060/6018E9C0" Ref="#PWR0725"  Part="1"
 F 0 "#PWR0725" H 1600 5750 50  0001 C CNN
 F 1 "+3.3P" V 1600 6100 50  0000 C CNN
 F 2 "" H 1600 5900 50  0001 C CNN
 F 3 "" H 1600 5900 50  0001 C CNN
 	1    1600 5900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Connector_Generic:TestPoint TP?
 U 1 1 5FC58449
 P 9500 7500
-AR Path="/5C16BF8E/5FC58449" Ref="TP?"  Part="1" 
-AR Path="/5C16BF8E/5DB9B7E6/5FC58449" Ref="TP?"  Part="1" 
-AR Path="/5BD32060/5FC58449" Ref="TP13"  Part="1" 
+AR Path="/5C16BF8E/5FC58449" Ref="TP?"  Part="1"
+AR Path="/5C16BF8E/5DB9B7E6/5FC58449" Ref="TP?"  Part="1"
+AR Path="/5BD32060/5FC58449" Ref="TP13"  Part="1"
 F 0 "TP13" H 9558 7618 50  0000 L CNN
 F 1 "TestPoint" H 9558 7527 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9700 7500 50  0001 C CNN
 F 3 " " H 9700 7500 50  0001 C CNN
 	1    9500 7500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	9250 7500 9500 7500

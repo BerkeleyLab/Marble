@@ -1,5 +1,5 @@
 Marble board
-LBNL-Creotech collaboration: Dual FMC (HPC & LPC) NAD Carrier
+Dual FMC FPGA carrier board developed for general purpose use in particle accelerator electronics instrumentation.
 
 https://github.com/BerkeleyLab/Marble
 
@@ -17,6 +17,11 @@ according to the board stackup description:
 Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
 (0.35mm pad).  The overall board size is 150 mm x 180 mm,
 similar to the AMC double-width standard.
+
+- PCB Material: FR4
+- Soldermask color: Red
+- Silkscreen color: White
+- Copper weight for inner layers is 0.5 oz and for outer layers is 1oz + 0.5oz = 1.5oz
 
 Copper Gerber files, in order:
   marble-F_Cu.gbr
@@ -64,5 +69,5 @@ SHA-256 signature file, which can be used to verify the integrity
 and version of all of the files listed above:
   marble-sha256.txt
 That file's SHA-256 signature, in turn, is found at the end of
-this README fle.
+this README file.
 

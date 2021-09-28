@@ -1,52 +1,116 @@
 # Marble board scripting and processes
 
-## Update I2C subsystem diagram in schematics
+When a new design version of Marble is ready for manufacture, a release is tagged in this repository and the corresponding artifacts are made available for download (e.g. manufacturing package, documentation, etc.). We want the physical boards to have a [QR code](https://en.wikipedia.org/wiki/QR_code) on them, pointing to the board's tagged release on GitHub.  This way a physical board can be mapped to the source code and fabrication package that was used for its manufacture.
 
-`convert docs/marble2_i2c.eps -scale 1330 marble2_i2c.png`
-before pasting into I2C_MUX.sch
+Updating the QR code for a new release, updating the silkscreen design accordingly and generating a fabrication package is a process in itself. That and other processes are partially scripted and documented here.
 
-## QR code on silkscreen
+## Generating the manufacturing package
 
-See instructions in `qr_create.py`.
+If you have made changes to the Marble design and are ready to generate the manufacturing package, the first step is to pick a version number for the new release. The current version is `v1.1`.
 
-The current [QR code](https://en.wikipedia.org/wiki/QR_code) string added
-to the manufactured boards is
-`https://github.com/BerkeleyLab/Marble`, pointing to this documentation.
+### Required software
 
-## Generating artifacts for manufacturing
+* [KiCad](https://www.kicad.org/): version 5.1.x (x &ge; 5)
+* [KiBoM](https://github.com/SchrodingersGat/KiBoM) 1.8.0.
 
-This includes Gerbers and BoM files.  See `manufacturing.sh`.
-There are two GUI actions that must be performed by hand, before the script can take over.
+KiCad version 5.1.10 (no suffixes) or later is needed in order to support [reproducible](https://reproducible-builds.org) fabrication package builds. This means byte-for-byte identical zip files, independent of which person and computer runs the process.
 
-Overview of the process:
-![process](../docs/manufacturing_scripts.png)
 
-Besides [KiCad](https://www.kicad.org/) itself, this requires installation of
-[KiBoM](https://github.com/SchrodingersGat/KiBoM) 1.8.0.
+### Update the QR code on the silkscreen
 
-While any KiCad version 5.1.x (x &ge; 5) is likely fine for viewing,
-and even editing and artifact-generation, we have taken steps to create
-[reproducible](https://reproducible-builds.org) fabrication artifacts.
-This means byte-for-byte identical zip files, independent of which person
-and computer runs the process.  For this to work, you need
-a specially patched version of KiCad 5.1.8.  This
+The QR code needs to be re-generated so it points to the new version release. To update the URL, edit the Python script used to generate the QR code image: `design/scripts/qr_create.py`. The URL in that file pointing to the current release is: <https://github.com/BerkeleyLab/Marble/releases/tag/v1.1>.
 
-* [patch](72610867-backport.diff)
+From the design directory, run the Python script:
+```console
+$ python scripts/qr_create.py
+```
+That will create a `mm_qr.png` file, which you should be able to preview and
+scan with your phone to confirm it has the intended link.
 
-is backported from the fix to KiCad [Issue #6553](https://gitlab.com/kicad/code/kicad/-/issues/6553).
-I personally build from the [source tarball](https://gitlab.com/kicad/code/kicad/-/archive/5.1.8/kicad-5.1.8.tar.gz)
-in a [Debian Buster](https://www.debian.org/releases/buster/) [chroot](https://en.wikipedia.org/wiki/Chroot).
-If you build KiCad from git sources, you will have to fight the build system to keep the
-version string (embedded in the fabrication outputs) from identifying itself as "dirty".
+Open the KiCad project: `design/Marble.pro`
+
+Open the `Bitmap to Component Converter` clicking on this button at the top of the screen:
+
+![Bitmap to Component Converter](img/bit2comp_button.png)
+
+Click on `Load Bitmap` and select the `mm_qr.png` that you just generated with the Python script. Choose 400 x 400 DPI to get a 19.8 mm output size. Check the `Negative` and `Front silk screen`, click `Export` and select `logos/QR.kicad_mod` to replace the previous QR code with the new one. You can now close the `Bitmap to Component Converter` and insert the QR code into the silkscreen.
+
+Open the `PCB Layout Editor` clicking on this button at the top of the screen:
+
+![Pcbnew](img/pcbnew_button.png)
+
+Press the `b` key to fill copper planes (completing connectivity and getting rid of rats-nest visual clutter), and unselect every layer on the right-hand side except for `F.silkS`.  There's a nice "Hide All Layers" feature available by right-clicking on the layer list.
+
+Select the QR code, right click and select `Update footprint...`. Click `Update` and `Close`.
+
+The above instructions are tested with KiCad 5.1.8. Be aware of KiCad issue [#6514](https://gitlab.com/kicad/code/kicad/-/issues/6514). If the results look corrupted and you are not able to scan the QR code from the PCB layout editor, select `Modern Toolset (Fallback)` under KiCad Preferences.
+
+### Generate the manufacturing package
+
+Now that you have the updated QR code on the silkscreen, we're ready to generate the manufacturing package. The process is summarized in the diagram below.
+
+First, we need to perform two steps using the GUI before we can have a Python script take over and generate the fabrication package:
+
+* Generate the Bill of Materials (BOM): From KiCad, open the `Schematic Layout Editor` clicking on this button at the top of the screen:
+
+![Pcbnew](img/schem_button.png)
+
+Then click on `Tools/ Generate Bill of Materials`. Make sure `Command line:` field is empty, click `Generate` and `Close`.
+
+* Generate Netlist:
+
+Open the `PCB Layout Editor` clicking on this button at the top of the screen:
+
+![Pcbnew](img/pcbnew_button.png)
+
+Perform a Design Rules Check (DRC). Click on this button in the top menu:
+
+![drc](img/drc_button.png)
+
+and click on `Run DRC`. Then generate a netlist file by clicking on `File / Fabrication Outputs / IPC-D-356 Netlist File...`, click `Save`.  Fab houses often use this file format to set up their testing of bare boards.
+
+After these steps, we're ready to have the manufacturing script take over and generate the fabrication package.
+
+From the `design` directory, run:
+
+```console
+$ bash scripts/manufacturing.sh
+```
+
+If everything worked out correctly, the script should have generated the fabrication package in a zipped archive containing the usual manufacturing files for both
+PCB fabrication and turn-key assembly:
+* Gerber
+* Drill
+* IPC-D-356
+* Board stackup
+* BoM
+* X-Y placement
+
+The above process is summarized in the diagram below.
+
+![process](../../docs/manufacturing_scripts.png)
 
 ## Xilinx constraint file
 
-We have a somewhat specialized tool for creating an xdc file for this board,
+A somewhat specialized tool is available to create an XDC file for the Marble design,
 based on a netlist file exported from KiCad.
-In the KiCad (version 5.1.x) schematic GUI (eeschema):
 
-* use menu picks Tools / Generate Netlist File
-* OrcadPCB2 tab / Generate Netlist / Save
-* result shows up as Marble.net
-* Finally from the command line run "python3 netlist_to_xdc.py Marble.net"
-* result shows up as Marble.xdc
+From KiCad (version 5.1.x), open the `Schematic Layout Editor` clicking on this button at the top of the screen:
+
+![Pcbnew](img/schem_button.png)
+
+* From the top menu, select `Tools / Generate Netlist File`
+* Select the `OrcadPCB2 tab`, click on `Generate Netlist` and `Save`. The result shows up as `Marble.net`
+* If the above netlist was saved in the `design` directory, from the command line run:
+```console
+$ python3 scripts/netlist_to_xdc.py Marble.net
+```
+
+The result shows up as `Marble.xdc`, which can be used for your FPGA designs.
+
+## Update I2C subsystem diagram in schematics
+
+Run the following command from the top level directory before parting the I2C subsystem diagram into the `I2C_MUX.sch` schematic:
+```console
+$ convert docs/marble2_i2c.eps -scale 1330 marble2_i2c.png
+```
