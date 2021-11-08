@@ -14,7 +14,7 @@ The design responds deployment needs in an accelerator environment: reliability,
 
 The Marble design is fully Open Source (licensed under the CERN Open Hardware License v1.2) and designed using Open Source tools (KiCAD).
 
-The schematic/layout tool used is [KiCad EDA](http://www.kicad-pcb.org/)
+The schematic/layout tool used is [KiCad EDA](http://www.kicad.org/)
 version 5.1.8; you can feel comfortable using KiCad version 5.1.x, where x &ge; 5.
 Other versions will very likely either not read the files
 in this repo, or will save files that are not compatible with
