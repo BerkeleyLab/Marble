@@ -8437,7 +8437,7 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistors_SMD2:R0402_18K_1%_0.0625W_100PPM R69
+L Resistors_SMD:R0402_18K_1%_0.0625W_100PPM R69
 U 1 1 62508517
 P 8200 7900
 F 0 "R69" V 8396 7840 50  0000 R CNN
