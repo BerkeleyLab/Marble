@@ -20,5 +20,4 @@
   (lib (name Switch)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Switch.lib)(options "")(descr ""))
   (lib (name Transistors)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/Transistors.lib)(options "")(descr ""))
   (lib (name TYCO)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/TYCO.lib)(options "")(descr ""))
-  (lib (name Marble-rescue)(type Legacy)(uri ${KIPRJMOD}/Marble-rescue.lib)(options "")(descr "")(disabled))
 )
