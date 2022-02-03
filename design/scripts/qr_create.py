@@ -1,7 +1,7 @@
 # In Debian Buster, apt-get install python-qrtools and run this program with python2.
 # In Debian Bullseye, apt-get install python3-qrtools and run this program with python3 (untested).
 import qrtools
-ss = "https://github.com/BerkeleyLab/Marble/releases/tag/v1.1"
+ss = "https://github.com/BerkeleyLab/Marble/releases/tag/v1.2"
 qr = qrtools.QR(ss, pixel_size=8, margin_size=3, level='L')
 qr.encode("mm_qr")  # sends 312 x 312 pixel result to mm_qr.png
 

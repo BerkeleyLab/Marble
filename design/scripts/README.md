@@ -18,7 +18,7 @@ KiCad version 5.1.10 (no suffixes) or later is needed in order to support [repro
 
 ### Update the QR code on the silkscreen
 
-The QR code needs to be re-generated so it points to the new version release. To update the URL, edit the Python script used to generate the QR code image: `design/scripts/qr_create.py`. The URL in that file pointing to the current release is: <https://github.com/BerkeleyLab/Marble/releases/tag/v1.1>.
+The QR code needs to be re-generated so it points to the new version release. To update the URL, edit the Python script used to generate the QR code image: `design/scripts/qr_create.py`. The URL in that file pointing to the current release is: <https://github.com/BerkeleyLab/Marble/releases/tag/v1.2>.
 
 From the design directory, run the Python script:
 ```console
