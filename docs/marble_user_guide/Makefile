@@ -4,6 +4,8 @@ all: $(TEXFILE:.tex=.pdf)
 
 %.pdf: %.tex
 	pdflatex -interaction nonstopmode -halt-on-error -file-line-error $<
+# Run twice to get references right
+	pdflatex -interaction nonstopmode -halt-on-error -file-line-error $<
 
 clean:
 	@rm -f \
