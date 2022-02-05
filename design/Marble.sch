@@ -5,8 +5,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 25
 Title "Marble"
-Date "2021-05-18"
-Rev "v1.1"
+Date "2022-02-03"
+Rev "v1.2"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""

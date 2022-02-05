@@ -6,7 +6,7 @@ Updating the QR code for a new release, updating the silkscreen design according
 
 ## Generating the manufacturing package
 
-If you have made changes to the Marble design and are ready to generate the manufacturing package, the first step is to pick a version number for the new release. The current version is `v1.1`.
+If you have made changes to the Marble design and are ready to generate the manufacturing package, the first step is to pick a version number for the new release. The current version is `v1.2`.
 
 ### Required software
 
