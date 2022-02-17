@@ -1122,7 +1122,7 @@ F 0 "U16" H 2900 4315 50  0000 C CNN
 F 1 "AD5662BRMZ-1" H 2900 4224 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P490X110-8N" H 2550 2460 60  0001 L CNN
 F 3 "" H 2550 3180 60  0001 L CNN
-F 4 "AD5662BRMZ-1" H 2550 3090 60  0001 L CNN "Part Number"
+F 4 "AD5662BRMZ-1 or DAC8550IDGKT " H 2550 3090 60  0001 L CNN "Part Number"
 F 5 "AD5662" H 2550 3000 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 2550 2910 60  0001 L CNN "Library Path"
 F 7 "=Device" H 2550 2820 60  0001 L CNN "Comment"
@@ -1133,7 +1133,7 @@ F 11 "SOP, 0.65mm, Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium D
 F 12 " " H 2550 2280 60  0001 L CNN "Status"
 F 13 "2.7V to 5.5V, 250uA, Rail-to-Rail Output 16-Bit nanoDAC" H 2550 2190 60  0001 L CNN "Part Description"
 F 14 "ANALOG DEVICES" H 2550 2100 60  0001 L CNN "Manufacturer"
-F 15 "AD5662BRMZ-1" H 2550 2010 60  0001 L CNN "Manufacturer Part Number"
+F 15 "AD5662BRMZ-1 or DAC8550IDGKT " H 2550 2010 60  0001 L CNN "Manufacturer Part Number"
 F 16 "8" H 2550 1920 60  0001 L CNN "Pin Count"
 F 17 "MSOP8" H 2550 1830 60  0001 L CNN "Case"
 F 18 "Yes" H 2550 1740 60  0001 L CNN "Mounted"
@@ -3462,13 +3462,13 @@ F 0 "U19" H 2900 5315 50  0000 C CNN
 F 1 "AD5662BRMZ-1" H 2900 5224 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P490X110-8N" H 2550 3460 60  0001 L CNN
 F 3 "" H 2550 4180 60  0001 L CNN
-F 4 "AD5662BRMZ-1" H 2550 4090 60  0001 L CNN "Part Number"
+F 4 "AD5662BRMZ-1 or DAC8550IDGKT " H 2550 4090 60  0001 L CNN "Part Number"
 F 5 "AD5662" H 2550 4000 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 2550 3910 60  0001 L CNN "Library Path"
 F 7 "=Device" H 2550 3820 60  0001 L CNN "Comment"
 F 8 "Standard" H 2550 3730 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 2550 3640 60  0001 L CNN "Component Type"
-F 10 "AD5662BRMZ-1" H 2550 3550 60  0001 L CNN "Device"
+F 10 "AD5662BRMZ-1 or DAC8550IDGKT " H 2550 3550 60  0001 L CNN "Device"
 F 11 "SOP, 0.65mm, Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" H 2550 3370 60  0001 L CNN "PackageDescription"
 F 12 " " H 2550 3280 60  0001 L CNN "Status"
 F 13 "2.7V to 5.5V, 250uA, Rail-to-Rail Output 16-Bit nanoDAC" H 2550 3190 60  0001 L CNN "Part Description"
