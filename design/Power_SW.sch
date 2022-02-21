@@ -4519,49 +4519,6 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    2050 7450
 	0    1    1    0   
 $EndComp
-$Comp
-L Regulators:XRP7724ILB-F U35
-U 1 1 5D32B439
-P 6350 1600
-F 0 "U35" H 6850 1765 50  0000 C CNN
-F 1 "XRP7724ILBTR-F" H 6850 1674 50  0000 C CNN
-F 2 "ICs And Semiconductors SMD:QFN50P700X700X80-45N-S520" H 6350 -3090 60  0001 L CNN
-F 3 "" H 6350 -2370 60  0001 L CNN
-F 4 "XRP7724ILB-F" H 6350 -2460 60  0001 L CNN "Part Number"
-F 5 "XRP7724ILB-F" H 6350 -2550 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Regulators.SchLib" H 6350 -2640 60  0001 L CNN "Library Path"
-F 7 "=Device" H 6350 -2730 60  0001 L CNN "Comment"
-F 8 "Standard" H 6350 -2820 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 6350 -2910 60  0001 L CNN "Component Type"
-F 10 "XRP7724ILBTR-F" H 6350 -3000 60  0001 L CNN "Device"
-F 11 "50mm Pitch, Square; 44 Pin, 7.00mm L X 7.00mm W X 0.80mm H Body (W/Thermal Tab 5.2mm X 5.2mm), IPC Medium Density" H 6350 -3180 60  0001 L CNN "PackageDescription"
-F 12 " " H 6350 -3270 60  0001 L CNN "Status"
-F 13 "Quad Channel Digital PWM/PFM Programmable Power Management System" H 6350 -3360 60  0001 L CNN "Part Description"
-F 14 "EXAR" H 6350 -3450 60  0001 L CNN "Manufacturer"
-F 15 "XRP7724ILB-F" H 6350 -3540 60  0001 L CNN "Manufacturer Part Number"
-F 16 "45" H 6350 -3630 60  0001 L CNN "Pin Count"
-F 17 "QFN44" H 6350 -3720 60  0001 L CNN "Case"
-F 18 "Yes" H 6350 -3810 60  0001 L CNN "Mounted"
-F 19 "No" H 6350 -3900 60  0001 L CNN "Socket"
-F 20 "Yes" H 6350 -3990 60  0001 L CNN "SMD"
-F 21 "No" H 6350 -4080 60  0001 L CNN "PressFit"
-F 22 "No" H 6350 -4170 60  0001 L CNN "Sense"
-F 23 " " H 6350 -4260 60  0001 L CNN "Sense Comment"
-F 24 "No" H 6350 -4350 60  0001 L CNN "Bonding"
-F 25 " " H 6350 -4440 60  0001 L CNN "Status Comment"
-F 26 "0.8mm" H 6350 -4530 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 6350 -4620 60  0001 L CNN "Footprint Path"
-F 28 "QFN50P700X700X80-45N-S520" H 6350 -4710 60  0001 L CNN "Footprint Ref"
-F 29 " " H 6350 -4980 60  0001 L CNN "ComponentLink1Description"
-F 30 " " H 6350 -5160 60  0001 L CNN "ComponentLink2Description"
-F 31 "CERN DEM JLC" H 6350 -5250 60  0001 L CNN "Author"
-F 32 "11/20/14 00:00:00" H 6350 -5340 60  0001 L CNN "CreateDate"
-F 33 "11/20/14 00:00:00" H 6350 -5430 60  0001 L CNN "LatestRevisionDate"
-F 34 "ICs And Semiconductors SMD" H 6350 -5610 60  0001 L CNN "Library Name"
-F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6350 -5700 60  0001 L CNN "License"
-	1    6350 1600
-	1    0    0    -1  
-$EndComp
 Connection ~ 12950 5950
 Wire Wire Line
 	12950 5950 13250 5950
@@ -8737,4 +8694,47 @@ $EndComp
 Connection ~ 6650 7150
 Text Notes 8450 7100 0    89   ~ 18
 2V0
+$Comp
+L Regulators:XRP7724ILB-F U35
+U 1 1 5D32B439
+P 6350 1600
+F 0 "U35" H 6850 1765 50  0000 C CNN
+F 1 "XRP7724ILBTR-F" H 6850 1674 50  0000 C CNN
+F 2 "ICs And Semiconductors SMD:QFN50P700X700X80-45N-S520" H 6350 -3090 60  0001 L CNN
+F 3 "" H 6350 -2370 60  0001 L CNN
+F 4 "XRP7724ILB-F" H 6350 -2460 60  0001 L CNN "Part Number"
+F 5 "XRP7724ILB-F" H 6350 -2550 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Regulators.SchLib" H 6350 -2640 60  0001 L CNN "Library Path"
+F 7 "=Device" H 6350 -2730 60  0001 L CNN "Comment"
+F 8 "Standard" H 6350 -2820 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 6350 -2910 60  0001 L CNN "Component Type"
+F 10 "XRP7724ILBTR-F" H 6350 -3000 60  0001 L CNN "Device"
+F 11 "50mm Pitch, Square; 44 Pin, 7.00mm L X 7.00mm W X 0.80mm H Body (W/Thermal Tab 5.2mm X 5.2mm), IPC Medium Density" H 6350 -3180 60  0001 L CNN "PackageDescription"
+F 12 " " H 6350 -3270 60  0001 L CNN "Status"
+F 13 "Quad Channel Digital PWM/PFM Programmable Power Management System" H 6350 -3360 60  0001 L CNN "Part Description"
+F 14 "EXAR" H 6350 -3450 60  0001 L CNN "Manufacturer"
+F 15 "XRP7724ILB-F" H 6350 -3540 60  0001 L CNN "Manufacturer Part Number"
+F 16 "45" H 6350 -3630 60  0001 L CNN "Pin Count"
+F 17 "QFN44" H 6350 -3720 60  0001 L CNN "Case"
+F 18 "Yes" H 6350 -3810 60  0001 L CNN "Mounted"
+F 19 "No" H 6350 -3900 60  0001 L CNN "Socket"
+F 20 "Yes" H 6350 -3990 60  0001 L CNN "SMD"
+F 21 "No" H 6350 -4080 60  0001 L CNN "PressFit"
+F 22 "No" H 6350 -4170 60  0001 L CNN "Sense"
+F 23 " " H 6350 -4260 60  0001 L CNN "Sense Comment"
+F 24 "No" H 6350 -4350 60  0001 L CNN "Bonding"
+F 25 " " H 6350 -4440 60  0001 L CNN "Status Comment"
+F 26 "0.8mm" H 6350 -4530 60  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 6350 -4620 60  0001 L CNN "Footprint Path"
+F 28 "QFN50P700X700X80-45N-S520" H 6350 -4710 60  0001 L CNN "Footprint Ref"
+F 29 " " H 6350 -4980 60  0001 L CNN "ComponentLink1Description"
+F 30 " " H 6350 -5160 60  0001 L CNN "ComponentLink2Description"
+F 31 "CERN DEM JLC" H 6350 -5250 60  0001 L CNN "Author"
+F 32 "11/20/14 00:00:00" H 6350 -5340 60  0001 L CNN "CreateDate"
+F 33 "11/20/14 00:00:00" H 6350 -5430 60  0001 L CNN "LatestRevisionDate"
+F 34 "ICs And Semiconductors SMD" H 6350 -5610 60  0001 L CNN "Library Name"
+F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6350 -5700 60  0001 L CNN "License"
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -325,33 +325,26 @@ $EndComp
 $Comp
 L marble_misc:Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache Y2
 U 1 1 5C2F3070
-P 4050 1950
-F 0 "Y2" H 4350 2139 60  0000 C CNN
-F 1 "VM53S3-25.000-2.5/-30+75" H 4350 2033 60  0000 C CNN
-F 2 "ICs And Semiconductors SMD:OSCCC320X500X160-4N" H 4350 2033 60  0001 C CNN
-F 3 "" H 4050 1950 60  0000 C CNN
-F 4 "VM53S3-25.000-2.5/-30+75" H 4050 1950 50  0001 C CNN "Manufacturer Part Number"
-F 5 "dnf" H 4350 1500 50  0000 C CNN "config"
-	1    4050 1950
+P 4050 2100
+F 0 "Y2" H 4350 2289 60  0000 C CNN
+F 1 "VM53S3-25.000-2.5/-30+75" H 4350 2183 60  0000 C CNN
+F 2 "ICs And Semiconductors SMD:OSCCC320X500X160-4N" H 4350 2183 60  0001 C CNN
+F 3 "" H 4050 2100 60  0000 C CNN
+F 4 "VM53S3-25.000-2.5/-30+75" H 4050 2100 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnf" H 4350 1650 50  0000 C CNN "config"
+	1    4050 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3850 1450 3550 1450
 Wire Wire Line
-	3550 1450 3550 2250
-Wire Wire Line
-	3550 2250 3850 2250
+	3550 2400 3850 2400
 Wire Wire Line
 	3850 1250 3700 1250
 Wire Wire Line
-	3700 1250 3700 2050
-Wire Wire Line
 	3700 2600 3600 2600
 Wire Wire Line
-	3850 2050 3700 2050
-Connection ~ 3700 2050
-Wire Wire Line
-	3700 2050 3700 2600
+	3850 2200 3700 2200
 Wire Wire Line
 	3150 1450 3550 1450
 Connection ~ 3550 1450
@@ -415,42 +408,33 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5C30B761
-P 4850 1500
+P 4925 1450
 AR Path="/5BD32060/5C30B761" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF13/5C30B761" Ref="#PWR0187"  Part="1" 
-F 0 "#PWR0187" H 4850 1250 50  0001 C CNN
-F 1 "GND" H 4855 1327 50  0000 C CNN
-F 2 "" H 4850 1500 50  0001 C CNN
-F 3 "" H 4850 1500 50  0001 C CNN
-	1    4850 1500
+F 0 "#PWR0187" H 4925 1200 50  0001 C CNN
+F 1 "GND" H 4930 1277 50  0000 C CNN
+F 2 "" H 4925 1450 50  0001 C CNN
+F 3 "" H 4925 1450 50  0001 C CNN
+	1    4925 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C30CFB7
-P 4850 2300
+P 4850 2450
 AR Path="/5BD32060/5C30CFB7" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF13/5C30CFB7" Ref="#PWR0188"  Part="1" 
-F 0 "#PWR0188" H 4850 2050 50  0001 C CNN
-F 1 "GND" H 4855 2127 50  0000 C CNN
-F 2 "" H 4850 2300 50  0001 C CNN
-F 3 "" H 4850 2300 50  0001 C CNN
-	1    4850 2300
+F 0 "#PWR0188" H 4850 2200 50  0001 C CNN
+F 1 "GND" H 4855 2277 50  0000 C CNN
+F 2 "" H 4850 2450 50  0001 C CNN
+F 3 "" H 4850 2450 50  0001 C CNN
+	1    4850 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 1450 4850 1500
+	4850 2400 4850 2450
 Wire Wire Line
-	4850 2250 4850 2300
-Wire Wire Line
-	4850 1250 5250 1250
-Wire Wire Line
-	5250 1250 5250 2050
-Wire Wire Line
-	5250 2050 4850 2050
-Wire Wire Line
-	5500 1250 5250 1250
-Connection ~ 5250 1250
+	5250 2200 4850 2200
 $Comp
 L power:GND #PWR?
 U 1 1 5C32CAC5
@@ -4049,4 +4033,72 @@ Wire Wire Line
 	6700 1600 6700 1550
 Wire Wire Line
 	6700 1550 6500 1550
+Wire Wire Line
+	4850 1250 5250 1250
+$Comp
+L Resistors_SMD:R0402_0R_JUMPER R?
+U 1 1 62AE10A4
+P 5250 1800
+AR Path="/5BCEDA39/62AE10A4" Ref="R?"  Part="1" 
+AR Path="/5C16BF13/62AE10A4" Ref="R82"  Part="1" 
+F 0 "R82" H 5200 1850 50  0000 C CNN
+F 1 "R0402_0R_JUMPER" H 5250 1590 60  0001 L CNN
+F 2 "RESC1005X40N" H 5250 780 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5250 1410 60  0001 L CNN
+F 4 "0" H 5550 1850 50  0000 C CNN "~"
+F 5 "R0402_0R_JUMPER" H 5250 1320 60  0001 L CNN "Part Number"
+F 6 "Resistor" H 5250 1230 60  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 5250 1140 60  0001 L CNN "Library Path"
+F 8 "=Value" H 5250 1050 60  0001 L CNN "Comment"
+F 9 "Standard" H 5250 960 60  0001 L CNN "Component Kind"
+F 10 "Standard" H 5250 870 60  0001 L CNN "Component Type"
+F 11 " " H 5250 690 60  0001 L CNN "PackageDescription"
+F 12 "2" H 5250 600 60  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 5250 510 60  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 5250 420 60  0001 L CNN "Footprint Ref"
+F 15 "0" H 5250 330 60  0001 L CNN "Val"
+F 16 "Not Recommended" H 5250 240 60  0001 L CNN "Status"
+F 17 " " H 5250 150 60  0001 L CNN "Power"
+F 18 " " H 5250 60  60  0001 L CNN "TC"
+F 19 " " H 5250 -30 60  0001 L CNN "Voltage"
+F 20 " " H 5250 -120 60  0001 L CNN "Tolerance"
+F 21 "1A (0.05R Max DC Resistance) Zero Ohm Jumper" H 5250 -210 60  0001 L CNN "Part Description"
+F 22 "GENERIC" H 5250 -300 60  0001 L CNN "Manufacturer"
+F 23 "R0402_0R_JUMPER" H 5250 -390 60  0001 L CNN "Manufacturer Part Number"
+F 24 "0402" H 5250 -480 60  0001 L CNN "Case"
+F 25 "No" H 5250 -570 60  0001 L CNN "PressFit"
+F 26 "Yes" H 5250 -660 60  0001 L CNN "Mounted"
+F 27 " " H 5250 -750 60  0001 L CNN "Sense Comment"
+F 28 "No" H 5250 -840 60  0001 L CNN "Sense"
+F 29 " " H 5250 -930 60  0001 L CNN "Status Comment"
+F 30 "No" H 5250 -1020 60  0001 L CNN "Socket"
+F 31 "Yes" H 5250 -1110 60  0001 L CNN "SMD"
+F 32 " " H 5250 -1200 60  0001 L CNN "ComponentHeight"
+F 33 "YAGEO PHYCOMP" H 5250 -1290 60  0001 L CNN "Manufacturer1 Example"
+F 34 "232270591001L" H 5250 -1380 60  0001 L CNN "Manufacturer1 Part Number"
+F 35 "0.4mm" H 5250 -1470 60  0001 L CNN "Manufacturer1 ComponentHeight"
+F 36 "CERN DEM JLC" H 5250 -1650 60  0001 L CNN "Author"
+F 37 "12/03/07 00:00:00" H 5250 -1740 60  0001 L CNN "CreateDate"
+F 38 "10/17/12 00:00:00" H 5250 -1830 60  0001 L CNN "LatestRevisionDate"
+F 39 "Resistors SMD" H 5250 -1920 60  0001 L CNN "Library Name"
+F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5250 -2010 60  0001 L CNN "License"
+	1    5250 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 1500 5250 1250
+Connection ~ 5250 1250
+Wire Wire Line
+	5250 1250 5500 1250
+Wire Wire Line
+	4925 1450 4850 1450
+Connection ~ 3700 2200
+Wire Wire Line
+	3700 2200 3700 2600
+Wire Wire Line
+	3700 1250 3700 2200
+Wire Wire Line
+	5250 1800 5250 2200
+Wire Wire Line
+	3550 1450 3550 2400
 $EndSCHEMATC

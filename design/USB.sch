@@ -1151,7 +1151,7 @@ F 3 "" H 10800 5750 50  0001 C CNN
 	1    10800 5750
 	-1   0    0    -1  
 $EndComp
-Text HLabel 13050 5600 2    50   Input ~ 10
+Text HLabel 13050 5850 2    50   Input ~ 10
 EN_CON_JTAG
 Wire Wire Line
 	9500 3800 10150 3800
@@ -5440,6 +5440,113 @@ Wire Wire Line
 	9850 5300 9850 8400
 Wire Wire Line
 	9950 5200 9950 8500
+Wire Wire Line
+	13400 7650 10150 7650
+Wire Wire Line
+	10150 3800 10150 7650
+Wire Wire Line
+	15050 7650 14400 7650
+Text Label 14525 7650 0    50   ~ 10
+EN_USB_JTAG
+Wire Wire Line
+	13400 7250 13250 7250
+Wire Wire Line
+	13250 7250 13250 7150
+Connection ~ 13250 7150
+$Comp
+L marble_misc:SN74LVC1G125DCKT-Standard_Logic U?
+U 1 1 6245A646
+P 12425 5650
+AR Path="/5C907554/5CC8CB69/6245A646" Ref="U?"  Part="1" 
+AR Path="/5C16C03C/6245A646" Ref="U61"  Part="1" 
+F 0 "U61" H 12575 5061 50  0000 C CNN
+F 1 "SN74LVC1G125DCKT" H 12575 4970 50  0000 C CNN
+F 2 "SOT65P210X110-5N" H 12425 4300 60  0001 L CNN
+F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G125DCKT.pdf" H 12425 5020 60  0001 L CNN
+F 4 "SN74LVC1G125DCKT" H 12425 4930 60  0001 L CNN "Part Number"
+F 5 "741G125" H 12425 4840 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Standard Logic.SchLib" H 12425 4750 60  0001 L CNN "Library Path"
+F 7 "=Device" H 12425 4660 60  0001 L CNN "Comment"
+F 8 "Standard" H 12425 4570 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 12425 4480 60  0001 L CNN "Component Type"
+F 10 "SN74LVC1G125DCKT" H 12425 4390 60  0001 L CNN "Device"
+F 11 "SOT353, SC70-5, SOT, 0.65mm Pitch, 5 pin, 1.25mm W X 2.00mm L X 1.10mm H, IPC Medium Density" H 12425 4210 60  0001 L CNN "PackageDescription"
+F 12 " " H 12425 4120 60  0001 L CNN "Status"
+F 13 "Single Bus Buffer Gate With 3-State Outputs" H 12425 4030 60  0001 L CNN "Part Description"
+F 14 "TEXAS INSTRUMENTS" H 12425 3940 60  0001 L CNN "Manufacturer"
+F 15 "SN74LVC1G125DCKT" H 12425 3850 60  0001 L CNN "Manufacturer Part Number"
+F 16 "5" H 12425 3760 60  0001 L CNN "Pin Count"
+F 17 "SOT353" H 12425 3670 60  0001 L CNN "Case"
+F 18 "Yes" H 12425 3580 60  0001 L CNN "Mounted"
+F 19 "No" H 12425 3490 60  0001 L CNN "Socket"
+F 20 "Yes" H 12425 3400 60  0001 L CNN "SMD"
+F 21 "No" H 12425 3310 60  0001 L CNN "PressFit"
+F 22 "No" H 12425 3220 60  0001 L CNN "Sense"
+F 23 " " H 12425 3130 60  0001 L CNN "Sense Comment"
+F 24 "No" H 12425 3040 60  0001 L CNN "Bonding"
+F 25 " " H 12425 2950 60  0001 L CNN "Status Comment"
+F 26 "1.1mm" H 12425 2860 60  0001 L CNN "ComponentHeight"
+F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 12425 2770 60  0001 L CNN "Footprint Path"
+F 28 "SOT65P210X110-5N" H 12425 2680 60  0001 L CNN "Footprint Ref"
+F 29 "CERN DEM JLC" H 12425 2590 60  0001 L CNN "Author"
+F 30 " " H 12425 2320 60  0001 L CNN "ComponentLink1Description"
+F 31 " " H 12425 2140 60  0001 L CNN "ComponentLink2Description"
+F 32 "12/19/11 00:00:00" H 12425 2050 60  0001 L CNN "CreateDate"
+F 33 "12/19/11 00:00:00" H 12425 1960 60  0001 L CNN "LatestRevisionDate"
+F 34 "ICs And Semiconductors SMD" H 12425 1870 60  0001 L CNN "Library Name"
+F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12425 1780 60  0001 L CNN "License"
+	1    12425 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6245A64C
+P 11725 6150
+AR Path="/5BD32060/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5C417BCB/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5C907554/5CC8CB69/6245A64C" Ref="#PWR?"  Part="1" 
+AR Path="/5C16C03C/6245A64C" Ref="#PWR0223"  Part="1" 
+F 0 "#PWR0223" H 11725 5900 50  0001 C CNN
+F 1 "GND" H 11730 5977 50  0000 C CNN
+F 2 "" H 11725 6150 50  0001 C CNN
+F 3 "" H 11725 6150 50  0001 C CNN
+	1    11725 6150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11925 6150 11725 6150
+Wire Wire Line
+	13050 5850 12625 5850
+$Comp
+L power:GND #PWR0228
+U 1 1 624EFF5D
+P 12325 5550
+F 0 "#PWR0228" H 12325 5300 50  0001 C CNN
+F 1 "GND" H 12330 5377 50  0000 C CNN
+F 2 "" H 12325 5550 50  0001 C CNN
+F 3 "" H 12325 5550 50  0001 C CNN
+	1    12325 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11050 5600 11800 5600
+Wire Wire Line
+	11800 5850 11925 5850
+Text HLabel 13050 5275 2    50   Output ~ 10
+EN_CON_JTAG_R
+Wire Wire Line
+	11800 5275 11800 5600
+Wire Wire Line
+	11800 5275 13050 5275
+Connection ~ 11800 5600
+Wire Wire Line
+	11800 5600 11800 5850
 $Comp
 L power:+3.3P #PWR0109
 U 1 1 6226FBE9
@@ -5457,117 +5564,21 @@ F 3 "" H 10800 1400 50  0001 C CNN
 	1    10800 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13400 7650 10150 7650
-Wire Wire Line
-	10150 3800 10150 7650
-Wire Wire Line
-	15050 7650 14400 7650
-Text Label 14525 7650 0    50   ~ 10
-EN_USB_JTAG
-Wire Wire Line
-	13400 7250 13250 7250
-Wire Wire Line
-	13250 7250 13250 7150
-Connection ~ 13250 7150
-$Comp
-L marble_misc:SN74LVC1G125DCKT-Standard_Logic U?
-U 1 1 6245A646
-P 12425 5400
-AR Path="/5C907554/5CC8CB69/6245A646" Ref="U?"  Part="1" 
-AR Path="/5C16C03C/6245A646" Ref="U61"  Part="1" 
-F 0 "U61" H 12575 4811 50  0000 C CNN
-F 1 "SN74LVC1G125DCKT" H 12575 4720 50  0000 C CNN
-F 2 "SOT65P210X110-5N" H 12425 4050 60  0001 L CNN
-F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G125DCKT.pdf" H 12425 4770 60  0001 L CNN
-F 4 "SN74LVC1G125DCKT" H 12425 4680 60  0001 L CNN "Part Number"
-F 5 "741G125" H 12425 4590 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Standard Logic.SchLib" H 12425 4500 60  0001 L CNN "Library Path"
-F 7 "=Device" H 12425 4410 60  0001 L CNN "Comment"
-F 8 "Standard" H 12425 4320 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 12425 4230 60  0001 L CNN "Component Type"
-F 10 "SN74LVC1G125DCKT" H 12425 4140 60  0001 L CNN "Device"
-F 11 "SOT353, SC70-5, SOT, 0.65mm Pitch, 5 pin, 1.25mm W X 2.00mm L X 1.10mm H, IPC Medium Density" H 12425 3960 60  0001 L CNN "PackageDescription"
-F 12 " " H 12425 3870 60  0001 L CNN "Status"
-F 13 "Single Bus Buffer Gate With 3-State Outputs" H 12425 3780 60  0001 L CNN "Part Description"
-F 14 "TEXAS INSTRUMENTS" H 12425 3690 60  0001 L CNN "Manufacturer"
-F 15 "SN74LVC1G125DCKT" H 12425 3600 60  0001 L CNN "Manufacturer Part Number"
-F 16 "5" H 12425 3510 60  0001 L CNN "Pin Count"
-F 17 "SOT353" H 12425 3420 60  0001 L CNN "Case"
-F 18 "Yes" H 12425 3330 60  0001 L CNN "Mounted"
-F 19 "No" H 12425 3240 60  0001 L CNN "Socket"
-F 20 "Yes" H 12425 3150 60  0001 L CNN "SMD"
-F 21 "No" H 12425 3060 60  0001 L CNN "PressFit"
-F 22 "No" H 12425 2970 60  0001 L CNN "Sense"
-F 23 " " H 12425 2880 60  0001 L CNN "Sense Comment"
-F 24 "No" H 12425 2790 60  0001 L CNN "Bonding"
-F 25 " " H 12425 2700 60  0001 L CNN "Status Comment"
-F 26 "1.1mm" H 12425 2610 60  0001 L CNN "ComponentHeight"
-F 27 "PcbLib\\ICs And Semiconductors SMD.PcbLib" H 12425 2520 60  0001 L CNN "Footprint Path"
-F 28 "SOT65P210X110-5N" H 12425 2430 60  0001 L CNN "Footprint Ref"
-F 29 "CERN DEM JLC" H 12425 2340 60  0001 L CNN "Author"
-F 30 " " H 12425 2070 60  0001 L CNN "ComponentLink1Description"
-F 31 " " H 12425 1890 60  0001 L CNN "ComponentLink2Description"
-F 32 "12/19/11 00:00:00" H 12425 1800 60  0001 L CNN "CreateDate"
-F 33 "12/19/11 00:00:00" H 12425 1710 60  0001 L CNN "LatestRevisionDate"
-F 34 "ICs And Semiconductors SMD" H 12425 1620 60  0001 L CNN "Library Name"
-F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 12425 1530 60  0001 L CNN "License"
-	1    12425 5400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6245A64C
-P 11725 5900
-AR Path="/5BD32060/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5BABAC65/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24E97/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC393D3/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC6DBF7/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC8AFE1/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5C417BCB/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5C907554/5CC8CB69/6245A64C" Ref="#PWR?"  Part="1" 
-AR Path="/5C16C03C/6245A64C" Ref="#PWR0223"  Part="1" 
-F 0 "#PWR0223" H 11725 5650 50  0001 C CNN
-F 1 "GND" H 11730 5727 50  0000 C CNN
-F 2 "" H 11725 5900 50  0001 C CNN
-F 3 "" H 11725 5900 50  0001 C CNN
-	1    11725 5900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	11925 5900 11725 5900
-Wire Wire Line
-	13050 5600 12625 5600
-$Comp
-L power:GND #PWR0228
-U 1 1 624EFF5D
-P 12325 5300
-F 0 "#PWR0228" H 12325 5050 50  0001 C CNN
-F 1 "GND" H 12330 5127 50  0000 C CNN
-F 2 "" H 12325 5300 50  0001 C CNN
-F 3 "" H 12325 5300 50  0001 C CNN
-	1    12325 5300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11050 5600 11925 5600
 $Comp
 L power:+3.3P #PWR0506
 U 1 1 6254BEB9
-P 12625 5800
+P 12625 6050
 AR Path="/5C16C03C/6254BEB9" Ref="#PWR0506"  Part="1" 
 AR Path="/5BCEDA39/6254BEB9" Ref="#PWR?"  Part="1" 
 AR Path="/5D05A99E/6254BEB9" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/6254BEB9" Ref="#PWR?"  Part="1" 
 AR Path="/5CA40231/6254BEB9" Ref="#PWR?"  Part="1" 
 AR Path="/6254BEB9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0506" H 12625 5650 50  0001 C CNN
-F 1 "+3.3P" V 12625 6000 50  0000 C CNN
-F 2 "" H 12625 5800 50  0001 C CNN
-F 3 "" H 12625 5800 50  0001 C CNN
-	1    12625 5800
+F 0 "#PWR0506" H 12625 5900 50  0001 C CNN
+F 1 "+3.3P" V 12625 6250 50  0000 C CNN
+F 2 "" H 12625 6050 50  0001 C CNN
+F 3 "" H 12625 6050 50  0001 C CNN
+	1    12625 6050
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
