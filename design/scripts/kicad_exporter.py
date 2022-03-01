@@ -219,7 +219,7 @@ class Kicad_exporter:
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref  Val  Package  PosX  PosY  Rot  Side
-'''.format(desc(), __file__))
+'''.format(desc(), basename(__file__)))
 
             for m in m_props:
                 f.write('''\

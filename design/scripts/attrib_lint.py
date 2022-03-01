@@ -96,8 +96,8 @@ def process_sch(f):
             value = None
         elif in_comp:
             if row[0] == "L":
-                    lib_ref = row[1]
-                    lib_ref_attrs = check_lib_ref(lib_ref)
+                lib_ref = row[1]
+                lib_ref_attrs = check_lib_ref(lib_ref)
             elif row[0] == "F" and len(row) > 2:
                 rnum = int(row[1])
                 if rnum == 0:
