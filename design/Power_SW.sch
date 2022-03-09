@@ -1591,7 +1591,7 @@ F 18 "0.025R" H 14850 4230 60  0001 L CNN "Resistance"
 F 19 "±25%" H 14850 4140 60  0001 L CNN "Tolerance"
 F 20 "SMD EMIFIL Suppression Chip Ferrite Bead" H 14850 4050 60  0001 L CNN "Part Description"
 F 21 "MURATA" H 14850 3960 60  0001 L CNN "Manufacturer"
-F 22 "BLM18SG121TN1D" H 14850 3870 60  0001 L CNN "Manufacturer Part Number"
+F 22 "BLM18SG121TN1D or BLM18SG121TZ1D" H 14850 3870 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 14850 3780 60  0001 L CNN "Case"
 F 24 "Yes" H 14850 3690 60  0001 L CNN "Mounted"
 F 25 "No" H 14850 3600 60  0001 L CNN "Socket"
@@ -1634,7 +1634,7 @@ F 18 "0.025R" H 7450 7930 60  0001 L CNN "Resistance"
 F 19 "±25%" H 7450 7840 60  0001 L CNN "Tolerance"
 F 20 "SMD EMIFIL Suppression Chip Ferrite Bead" H 7450 7750 60  0001 L CNN "Part Description"
 F 21 "MURATA" H 7450 7660 60  0001 L CNN "Manufacturer"
-F 22 "BLM18SG121TN1D" H 7450 7570 60  0001 L CNN "Manufacturer Part Number"
+F 22 "BLM18SG121TN1D or BLM18SG121TZ1D" H 7450 7570 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 7450 7480 60  0001 L CNN "Case"
 F 24 "Yes" H 7450 7390 60  0001 L CNN "Mounted"
 F 25 "No" H 7450 7300 60  0001 L CNN "Socket"
@@ -1677,7 +1677,7 @@ F 18 "0.025R" H 14650 6530 60  0001 L CNN "Resistance"
 F 19 "±25%" H 14650 6440 60  0001 L CNN "Tolerance"
 F 20 "SMD EMIFIL Suppression Chip Ferrite Bead" H 14650 6350 60  0001 L CNN "Part Description"
 F 21 "MURATA" H 14650 6260 60  0001 L CNN "Manufacturer"
-F 22 "BLM18SG121TN1D" H 14650 6170 60  0001 L CNN "Manufacturer Part Number"
+F 22 "BLM18SG121TN1D or BLM18SG121TZ1D" H 14650 6170 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 14650 6080 60  0001 L CNN "Case"
 F 24 "Yes" H 14650 5990 60  0001 L CNN "Mounted"
 F 25 "No" H 14650 5900 60  0001 L CNN "Socket"
@@ -4601,7 +4601,7 @@ F 18 "0.025R" H 3400 7730 60  0001 L CNN "Resistance"
 F 19 "±25%" H 3400 7640 60  0001 L CNN "Tolerance"
 F 20 "SMD EMIFIL Suppression Chip Ferrite Bead" H 3400 7550 60  0001 L CNN "Part Description"
 F 21 "MURATA" H 3400 7460 60  0001 L CNN "Manufacturer"
-F 22 "BLM18SG121TN1D" H 3400 7370 60  0001 L CNN "Manufacturer Part Number"
+F 22 "BLM18SG121TN1D or BLM18SG121TZ1D" H 3400 7370 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 3400 7280 60  0001 L CNN "Case"
 F 24 "Yes" H 3400 7190 60  0001 L CNN "Mounted"
 F 25 "No" H 3400 7100 60  0001 L CNN "Socket"
@@ -5164,7 +5164,7 @@ F 13 "750mA" H 4350 490 60  0001 L CNN "Power"
 F 14 " " H 4350 400 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 4350 310 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 4350 220 60  0001 L CNN "Manufacturer"
-F 17 "BAT165AX" H 4350 130 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX or BAT165E6327HTSA1" H 4350 130 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 4350 40  60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 4350 -50 60  0001 L CNN "Case"
 F 20 "Yes" H 4350 -140 60  0001 L CNN "Mounted"
@@ -5211,7 +5211,7 @@ F 13 "750mA" H 4450 1190 60  0001 L CNN "Power"
 F 14 " " H 4450 1100 60  0001 L CNN "Status"
 F 15 "Medium Power AF Schottky Diode" H 4450 1010 60  0001 L CNN "Part Description"
 F 16 "INFINEON" H 4450 920 60  0001 L CNN "Manufacturer"
-F 17 "BAT165AX" H 4450 830 60  0001 L CNN "Manufacturer Part Number"
+F 17 "BAT165AX or BAT165E6327HTSA1" H 4450 830 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 4450 740 60  0001 L CNN "Pin Count"
 F 19 "SOD323" H 4450 650 60  0001 L CNN "Case"
 F 20 "Yes" H 4450 560 60  0001 L CNN "Mounted"
@@ -6909,7 +6909,7 @@ F 5 "1.6" H 10950 8900 50  0001 L CNN "Height"
 F 6 "946-MPM3830GQV-P" H 10950 8800 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=946-MPM3830GQV-P" H 10950 8700 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Monolithic Power Systems (MPS)" H 10950 8600 50  0001 L CNN "Manufacturer"
-F 9 "MPM3830GQV-P" H 10950 8500 50  0001 L CNN "Manufacturer Part Number"
+F 9 "MPM3830GQV-P or MPM3830GQVP" H 10950 8500 50  0001 L CNN "Manufacturer Part Number"
 	1    9800 9100
 	1    0    0    -1  
 $EndComp
@@ -7369,7 +7369,7 @@ F 18 "0.025R" H 12100 7230 60  0001 L CNN "Resistance"
 F 19 "±25%" H 12100 7140 60  0001 L CNN "Tolerance"
 F 20 "SMD EMIFIL Suppression Chip Ferrite Bead" H 12100 7050 60  0001 L CNN "Part Description"
 F 21 "MURATA" H 12100 6960 60  0001 L CNN "Manufacturer"
-F 22 "BLM18SG121TN1D" H 12100 6870 60  0001 L CNN "Manufacturer Part Number"
+F 22 "BLM18SG121TN1D or BLM18SG121TZ1D" H 12100 6870 60  0001 L CNN "Manufacturer Part Number"
 F 23 "0603" H 12100 6780 60  0001 L CNN "Case"
 F 24 "Yes" H 12100 6690 60  0001 L CNN "Mounted"
 F 25 "No" H 12100 6600 60  0001 L CNN "Socket"
@@ -7702,7 +7702,7 @@ F 1 "NX3008NBKV" H 900 6000 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOTFL50P160X60-6N" H 1100 6450 50  0001 C CNN
 F 3 "" H 1100 6450 50  0001 C CNN
 F 4 "NXP" H 1100 6450 50  0001 C CNN "Manufacturer"
-F 5 "NX3008NBKV" H 1100 6450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NX3008NBKV or SI1036X-T1-GE3" H 1100 6450 50  0001 C CNN "Manufacturer Part Number"
 	1    1100 6450
 	1    0    0    -1  
 $EndComp
@@ -7715,7 +7715,7 @@ F 1 "NX3008NBKV" H 1900 5900 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOTFL50P160X60-6N" H 2150 6400 50  0001 C CNN
 F 3 "" H 2150 6400 50  0001 C CNN
 F 4 "NXP" H 2150 6400 50  0001 C CNN "Manufacturer"
-F 5 "NX3008NBKV" H 2150 6400 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NX3008NBKV or SI1036X-T1-GE3" H 2150 6400 50  0001 C CNN "Manufacturer Part Number"
 	2    2150 6400
 	1    0    0    -1  
 $EndComp
@@ -7728,7 +7728,7 @@ F 1 "NX3008NBKV" H 3100 6000 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOTFL50P160X60-6N" H 3300 6450 50  0001 C CNN
 F 3 "" H 3300 6450 50  0001 C CNN
 F 4 "NXP" H 3300 6450 50  0001 C CNN "Manufacturer"
-F 5 "NX3008NBKV" H 3300 6450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NX3008NBKV or SI1036X-T1-GE3" H 3300 6450 50  0001 C CNN "Manufacturer Part Number"
 	1    3300 6450
 	1    0    0    -1  
 $EndComp
@@ -7741,7 +7741,7 @@ F 1 "NX3008NBKV" H 4150 5900 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOTFL50P160X60-6N" H 4350 6400 50  0001 C CNN
 F 3 "" H 4350 6400 50  0001 C CNN
 F 4 "NXP" H 4350 6400 50  0001 C CNN "Manufacturer"
-F 5 "NX3008NBKV" H 4350 6400 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NX3008NBKV or SI1036X-T1-GE3" H 4350 6400 50  0001 C CNN "Manufacturer Part Number"
 	2    4350 6400
 	1    0    0    -1  
 $EndComp
@@ -8336,6 +8336,7 @@ F 0 "U47" H 7675 7075 50  0000 C CNN
 F 1 "ADM7155ACPZ-02-R7" H 7675 6984 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SON50P300X300X80-9N-R175X248" H 7250 7000 50  0001 C CNN
 F 3 "" H 7250 7000 50  0001 C CNN
+F 4 "ADM7155ACPZ-02-R7" H 7250 7000 50  0001 C CNN "Manufacturer Part Number"
 	1    7250 7000
 	1    0    0    -1  
 $EndComp

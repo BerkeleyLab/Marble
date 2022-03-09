@@ -606,6 +606,7 @@ F 4 "Power-over-Ethernet Plus Module" H 6700 8200 50  0001 L CNN "Description"
 F 5 "14" H 6700 8100 50  0001 L CNN "Height"
 F 6 "Silvertel" H 6700 7900 50  0001 L CNN "Manufacturer"
 F 7 "AG5300" H 6700 7800 50  0001 L CNN "Manufacturer Part Number"
+F 8 "dnf" H 6200 8100 50  0000 C CNN "config"
 	1    5550 8300
 	1    0    0    -1  
 $EndComp
@@ -657,7 +658,7 @@ F 0 "L35" V 4440 8650 50  0000 C CNN
 F 1 "1k@100MHz" V 4349 8650 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 4250 8650 50  0001 C CNN
 F 3 " " H 4250 8650 50  0001 C CNN
-F 4 "MPZ2012S102A" V 4250 8650 50  0001 C CNN "Manufacturer Part Number"
+F 4 "MPZ2012S102A or ACML-0805H-102-T" V 4250 8650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" H 4250 8650 50  0001 C CNN "Manufacturer"
 	1    4250 8650
 	0    -1   -1   0   
@@ -678,7 +679,7 @@ F 0 "L37" V 4940 8650 50  0000 C CNN
 F 1 "1k@100MHz" V 4849 8650 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 4750 8650 50  0001 C CNN
 F 3 " " H 4750 8650 50  0001 C CNN
-F 4 "MPZ2012S102A" V 4750 8650 50  0001 C CNN "Manufacturer Part Number"
+F 4 "MPZ2012S102A or ACML-0805H-102-T" V 4750 8650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" H 4750 8650 50  0001 C CNN "Manufacturer"
 	1    4750 8650
 	0    -1   -1   0   
@@ -699,7 +700,7 @@ F 0 "L39" V 5440 8650 50  0000 C CNN
 F 1 "1k@100MHz" V 5349 8650 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 5250 8650 50  0001 C CNN
 F 3 " " H 5250 8650 50  0001 C CNN
-F 4 "MPZ2012S102A" V 5250 8650 50  0001 C CNN "Manufacturer Part Number"
+F 4 "MPZ2012S102A or ACML-0805H-102-T" V 5250 8650 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" H 5250 8650 50  0001 C CNN "Manufacturer"
 	1    5250 8650
 	0    -1   -1   0   
@@ -720,7 +721,7 @@ F 0 "L36" V 4440 9050 50  0000 C CNN
 F 1 "1k@100MHz" V 4349 9050 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 4250 9050 50  0001 C CNN
 F 3 " " H 4250 9050 50  0001 C CNN
-F 4 "MPZ2012S102A" V 4250 9050 50  0001 C CNN "Manufacturer Part Number"
+F 4 "MPZ2012S102A or ACML-0805H-102-T" V 4250 9050 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" H 4250 9050 50  0001 C CNN "Manufacturer"
 	1    4250 9050
 	0    -1   -1   0   
@@ -741,7 +742,7 @@ F 0 "L38" V 4940 9050 50  0000 C CNN
 F 1 "1k@100MHz" V 4849 9050 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 4750 9050 50  0001 C CNN
 F 3 " " H 4750 9050 50  0001 C CNN
-F 4 "MPZ2012S102A" V 4750 9050 50  0001 C CNN "Manufacturer Part Number"
+F 4 "MPZ2012S102A or ACML-0805H-102-T" V 4750 9050 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" H 4750 9050 50  0001 C CNN "Manufacturer"
 	1    4750 9050
 	0    -1   -1   0   
@@ -762,7 +763,7 @@ F 0 "L40" V 5440 9050 50  0000 C CNN
 F 1 "1k@100MHz" V 5349 9050 50  0000 C CNN
 F 2 "Inductors SMD:INDC2012X145N" H 5250 9050 50  0001 C CNN
 F 3 " " H 5250 9050 50  0001 C CNN
-F 4 "MPZ2012S102A" V 5250 9050 50  0001 C CNN "Manufacturer Part Number"
+F 4 "MPZ2012S102A or ACML-0805H-102-T" V 5250 9050 50  0001 C CNN "Manufacturer Part Number"
 F 5 "TDK" H 5250 9050 50  0001 C CNN "Manufacturer"
 	1    5250 9050
 	0    -1   -1   0   
@@ -986,7 +987,7 @@ F 13 "1A" H 1900 1490 60  0001 L CNN "Power"
 F 14 " " H 1900 1400 60  0001 L CNN "Status"
 F 15 "Surface Mount Schottky Barrier Rectifier" H 1900 1310 60  0001 L CNN "Part Description"
 F 16 "VISHAY GENERAL SEMICONDUCTOR" H 1900 1220 60  0001 L CNN "Manufacturer"
-F 17 "SS16" H 1900 1130 60  0001 L CNN "Manufacturer Part Number"
+F 17 "SS16 or SS16FP" H 1900 1130 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 1900 1040 60  0001 L CNN "Pin Count"
 F 19 "DO-214AC" H 1900 950 60  0001 L CNN "Case"
 F 20 "Yes" H 1900 860 60  0001 L CNN "Mounted"
@@ -1031,7 +1032,7 @@ F 13 "1A" H 7900 7040 60  0001 L CNN "Power"
 F 14 " " H 7900 6950 60  0001 L CNN "Status"
 F 15 "Surface Mount Schottky Barrier Rectifier" H 7900 6860 60  0001 L CNN "Part Description"
 F 16 "VISHAY GENERAL SEMICONDUCTOR" H 7900 6770 60  0001 L CNN "Manufacturer"
-F 17 "SS16" H 7900 6680 60  0001 L CNN "Manufacturer Part Number"
+F 17 "SS16 or SS16FP" H 7900 6680 60  0001 L CNN "Manufacturer Part Number"
 F 18 "2" H 7900 6590 60  0001 L CNN "Pin Count"
 F 19 "DO-214AC" H 7900 6500 60  0001 L CNN "Case"
 F 20 "Yes" H 7900 6410 60  0001 L CNN "Mounted"
@@ -1082,7 +1083,7 @@ F 19 " " H 7900 6770 60  0001 L CNN "TC"
 F 20 "±20%" H 7900 6680 60  0001 L CNN "Tolerance"
 F 21 "Aluminum Electrolytic SMT Capacitor" H 7900 6590 60  0001 L CNN "Part Description"
 F 22 "PANASONIC" H 7900 6500 60  0001 L CNN "Manufacturer"
-F 23 "EEEFK1C471AP" H 7900 6410 60  0001 L CNN "Manufacturer Part Number"
+F 23 "EEEFK1C471AP or 16SEV470M8X10.5" H 7900 6410 60  0001 L CNN "Manufacturer Part Number"
 F 24 "F" H 7900 6320 60  0001 L CNN "Case"
 F 25 "Yes" H 7900 6230 60  0001 L CNN "Mounted"
 F 26 "No" H 7900 6140 60  0001 L CNN "Socket"
@@ -1353,6 +1354,7 @@ F 32 "09/24/13 00:00:00" H 11700 -1840 60  0001 L CNN "CreateDate"
 F 33 "09/24/13 00:00:00" H 11700 -1930 60  0001 L CNN "LatestRevisionDate"
 F 34 "ICs And Semiconductors SMD" H 11700 -2020 60  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11700 -2110 60  0001 L CNN "License"
+F 36 "dnf" H 12050 1450 50  0000 C CNN "config"
 	1    11700 2300
 	-1   0    0    -1  
 $EndComp
@@ -1379,7 +1381,7 @@ F 11 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" H 11450 -150 60  00
 F 12 " " H 11450 -240 60  0001 L CNN "Status"
 F 13 "-30V -19.7A P-Channel MOSFET" H 11450 -330 60  0001 L CNN "Part Description"
 F 14 "VISHAY SILICONIX" H 11450 -420 60  0001 L CNN "Manufacturer"
-F 15 "SI4425DDY-T1-GE3" H 11450 -510 60  0001 L CNN "Manufacturer Part Number"
+F 15 "SI4425DDY-T1-GE3 or SI4459BDY-T1-GE3" H 11450 -510 60  0001 L CNN "Manufacturer Part Number"
 F 16 "8" H 11450 -600 60  0001 L CNN "Pin Count"
 F 17 "SOIC8" H 11450 -690 60  0001 L CNN "Case"
 F 18 "Yes" H 11450 -780 60  0001 L CNN "Mounted"
@@ -1437,7 +1439,7 @@ F 11 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" H 11450 3250 60  00
 F 12 " " H 11450 3160 60  0001 L CNN "Status"
 F 13 "-30V -19.7A P-Channel MOSFET" H 11450 3070 60  0001 L CNN "Part Description"
 F 14 "VISHAY SILICONIX" H 11450 2980 60  0001 L CNN "Manufacturer"
-F 15 "SI4425DDY-T1-GE3" H 11450 2890 60  0001 L CNN "Manufacturer Part Number"
+F 15 "SI4425DDY-T1-GE3 or SI4459BDY-T1-GE3" H 11450 2890 60  0001 L CNN "Manufacturer Part Number"
 F 16 "8" H 11450 2800 60  0001 L CNN "Pin Count"
 F 17 "SOIC8" H 11450 2710 60  0001 L CNN "Case"
 F 18 "Yes" H 11450 2620 60  0001 L CNN "Mounted"
@@ -1495,7 +1497,7 @@ F 11 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" H 2750 400 60  0001
 F 12 " " H 2750 310 60  0001 L CNN "Status"
 F 13 "-30V -19.7A P-Channel MOSFET" H 2750 220 60  0001 L CNN "Part Description"
 F 14 "VISHAY SILICONIX" H 2750 130 60  0001 L CNN "Manufacturer"
-F 15 "SI4425DDY-T1-GE3" H 2750 40  60  0001 L CNN "Manufacturer Part Number"
+F 15 "SI4425DDY-T1-GE3 or SI4459BDY-T1-GE3" H 2750 40  60  0001 L CNN "Manufacturer Part Number"
 F 16 "8" H 2750 -50 60  0001 L CNN "Pin Count"
 F 17 "SOIC8" H 2750 -140 60  0001 L CNN "Case"
 F 18 "Yes" H 2750 -230 60  0001 L CNN "Mounted"
@@ -1538,7 +1540,7 @@ F 11 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" H 8850 7000 60  000
 F 12 " " H 8850 6910 60  0001 L CNN "Status"
 F 13 "-30V -19.7A P-Channel MOSFET" H 8850 6820 60  0001 L CNN "Part Description"
 F 14 "VISHAY SILICONIX" H 8850 6730 60  0001 L CNN "Manufacturer"
-F 15 "SI4425DDY-T1-GE3" H 8850 6640 60  0001 L CNN "Manufacturer Part Number"
+F 15 "SI4425DDY-T1-GE3 or SI4459BDY-T1-GE3" H 8850 6640 60  0001 L CNN "Manufacturer Part Number"
 F 16 "8" H 8850 6550 60  0001 L CNN "Pin Count"
 F 17 "SOIC8" H 8850 6460 60  0001 L CNN "Case"
 F 18 "Yes" H 8850 6370 60  0001 L CNN "Mounted"
@@ -3016,7 +3018,7 @@ F 11 "SOIC, 2.54mm Pitch, 4 Pin, Body 6.5mm W X 4.6mm L X 4.6mm H" H 5850 8270 6
 F 12 " " H 5850 8180 60  0001 L CNN "Status"
 F 13 "4-Pin High Operating Temperature Phototransistor Optocoupler" H 5850 8090 60  0001 L CNN "Part Description"
 F 14 "FAIRCHILD SEMICONDUCTOR" H 5850 8000 60  0001 L CNN "Manufacturer"
-F 15 "FOD817DSD" H 5850 7910 60  0001 L CNN "Manufacturer Part Number"
+F 15 "FOD817DSD or FOD817B3SD" H 5850 7910 60  0001 L CNN "Manufacturer Part Number"
 F 16 "4" H 5850 7820 60  0001 L CNN "Pin Count"
 F 17 "SOIC4" H 5850 7730 60  0001 L CNN "Case"
 F 18 "Yes" H 5850 7640 60  0001 L CNN "Mounted"
@@ -3063,7 +3065,7 @@ F 11 "SOTFL (SOT666), 0.50mm, Pitch; 6 Pin, 1.20mm W X 1.60mm L X 0.60mm H Body,
 F 12 " " H 8900 7760 60  0001 L CNN "Status"
 F 13 "-45V -100mA PNP General Purpose Double Transistor" H 8900 7670 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 8900 7580 60  0001 L CNN "Manufacturer"
-F 15 "BC857BV" H 8900 7490 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BC857BV or BCM857BV,115" H 8900 7490 60  0001 L CNN "Manufacturer Part Number"
 F 16 "6" H 8900 7400 60  0001 L CNN "Pin Count"
 F 17 "SOT666" H 8900 7310 60  0001 L CNN "Case"
 F 18 "Yes" H 8900 7220 60  0001 L CNN "Mounted"
@@ -3106,7 +3108,7 @@ F 11 "SOTFL (SOT666), 0.50mm, Pitch; 6 Pin, 1.20mm W X 1.60mm L X 0.60mm H Body,
 F 12 " " H 9450 7760 60  0001 L CNN "Status"
 F 13 "-45V -100mA PNP General Purpose Double Transistor" H 9450 7670 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 9450 7580 60  0001 L CNN "Manufacturer"
-F 15 "BC857BV" H 9450 7490 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BC857BV or BCM857BV,115" H 9450 7490 60  0001 L CNN "Manufacturer Part Number"
 F 16 "6" H 9450 7400 60  0001 L CNN "Pin Count"
 F 17 "SOT666" H 9450 7310 60  0001 L CNN "Case"
 F 18 "Yes" H 9450 7220 60  0001 L CNN "Mounted"
@@ -3154,7 +3156,7 @@ F 11 "SOTFL (SOT666), 0.50mm, Pitch; 6 Pin, 1.20mm W X 1.60mm L X 0.60mm H Body,
 F 12 " " H 2800 1160 60  0001 L CNN "Status"
 F 13 "-45V -100mA PNP General Purpose Double Transistor" H 2800 1070 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 2800 980 60  0001 L CNN "Manufacturer"
-F 15 "BC857BV,115" H 2800 890 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BC857BV or BCM857BV,115" H 2800 890 60  0001 L CNN "Manufacturer Part Number"
 F 16 "6" H 2800 800 60  0001 L CNN "Pin Count"
 F 17 "SOT666" H 2800 710 60  0001 L CNN "Case"
 F 18 "Yes" H 2800 620 60  0001 L CNN "Mounted"
@@ -3197,7 +3199,7 @@ F 11 "SOTFL (SOT666), 0.50mm, Pitch; 6 Pin, 1.20mm W X 1.60mm L X 0.60mm H Body,
 F 12 " " H 3350 1160 60  0001 L CNN "Status"
 F 13 "-45V -100mA PNP General Purpose Double Transistor" H 3350 1070 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 3350 980 60  0001 L CNN "Manufacturer"
-F 15 "BC857BV,115" H 3350 890 60  0001 L CNN "Manufacturer Part Number"
+F 15 "BC857BV or BCM857BV,115" H 3350 890 60  0001 L CNN "Manufacturer Part Number"
 F 16 "6" H 3350 800 60  0001 L CNN "Pin Count"
 F 17 "SOT666" H 3350 710 60  0001 L CNN "Case"
 F 18 "Yes" H 3350 620 60  0001 L CNN "Mounted"
@@ -3469,6 +3471,7 @@ F 32 "09/24/13 00:00:00" H 11700 1560 60  0001 L CNN "CreateDate"
 F 33 "09/24/13 00:00:00" H 11700 1470 60  0001 L CNN "LatestRevisionDate"
 F 34 "ICs And Semiconductors SMD" H 11700 1380 60  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11700 1290 60  0001 L CNN "License"
+F 36 "dnf" H 12050 4850 50  0000 C CNN "config"
 	1    11700 5700
 	-1   0    0    -1  
 $EndComp
@@ -3602,6 +3605,7 @@ F 32 "09/24/13 00:00:00" H 5350 -2090 60  0001 L CNN "CreateDate"
 F 33 "09/24/13 00:00:00" H 5350 -2180 60  0001 L CNN "LatestRevisionDate"
 F 34 "ICs And Semiconductors SMD" H 5350 -2270 60  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 5350 -2360 60  0001 L CNN "License"
+F 36 "dnf" H 5700 1200 50  0000 C CNN "config"
 	1    5350 2050
 	1    0    0    -1  
 $EndComp
@@ -3852,7 +3856,7 @@ F 1 "TE_641119-2" H 1073 1273 50  0000 R CNN
 F 2 "Marble:641119-2" H 1100 1000 50  0001 C CNN
 F 3 "" H 1100 1300 50  0001 C CNN
 F 4 "AMP" H 1100 1300 50  0001 C CNN "Manufacturer"
-F 5 "641119-2" H 1100 1300 50  0001 C CNN "Manufacturer Part Number"
+F 5 "3-641119-2" H 1100 1300 50  0001 C CNN "Manufacturer Part Number"
 	1    1100 1300
 	1    0    0    1   
 $EndComp
@@ -4133,6 +4137,7 @@ F 6 "MYRGC075050R31RA" H 4300 3950 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/MYRGP330100B21RA/?qs=xZ%2FP%252Ba9zWqZm9TTCiIsITQ%3D%3D" H 4300 3850 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Murata Electronics" H 4300 3750 50  0001 L CNN "Manufacturer_Name"
 F 9 "MYRGC075050R31RA" H 4300 3650 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "MYRGC075050R31RA" H 3550 3950 50  0001 C CNN "Manufacturer Part Number"
 	1    3550 3950
 	1    0    0    -1  
 $EndComp
@@ -4356,6 +4361,324 @@ Wire Wire Line
 	2800 4300 3150 4300
 Wire Wire Line
 	2350 4300 2800 4300
+$Comp
+L Analog_ADC:INA219AxD U62
+U 1 1 62482FD9
+P 7775 2400
+F 0 "U62" H 7875 2825 50  0000 C CNN
+F 1 "INA219AIDR" H 8000 2750 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8575 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 8125 2300 50  0001 C CNN
+F 4 "INA219AIDR" H 7775 2400 50  0001 C CNN "Manufacturer Part Number"
+	1    7775 2400
+	1    0    0    -1  
+$EndComp
+Text Label 8725 2300 2    50   ~ 10
+I2C_APP_SCL
+Text Label 8725 2200 2    50   ~ 10
+I2C_APP_SDA
+$Comp
+L power:GND #PWR?
+U 1 1 624BE874
+P 8275 2450
+AR Path="/5BD32060/624BE874" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/624BE874" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/624BE874" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/624BE874" Ref="#PWR0544"  Part="1" 
+F 0 "#PWR0544" H 8275 2200 50  0001 C CNN
+F 1 "GND" V 8280 2277 50  0000 C CNN
+F 2 "" H 8275 2450 50  0001 C CNN
+F 3 "" H 8275 2450 50  0001 C CNN
+	1    8275 2450
+	0    -1   1    0   
+$EndComp
+Text Label 8725 2600 2    50   ~ 10
+I2C_APP_SDA
+Wire Wire Line
+	8725 2200 8175 2200
+Wire Wire Line
+	8175 2600 8725 2600
+Wire Wire Line
+	8175 2300 8725 2300
+Wire Wire Line
+	8175 2500 8275 2500
+$Comp
+L power:GND #PWR?
+U 1 1 624F5828
+P 7775 2800
+AR Path="/5C16C03C/624F5828" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/624F5828" Ref="#PWR0849"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/624F5828" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0849" H 7775 2550 50  0001 C CNN
+F 1 "GND" H 7780 2627 50  0000 C CNN
+F 2 "" H 7775 2800 50  0001 C CNN
+F 3 "" H 7775 2800 50  0001 C CNN
+	1    7775 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3P #PWR?
+U 1 1 6259D98A
+P 7775 2000
+AR Path="/5C16C03C/6259D98A" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/6259D98A" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/6259D98A" Ref="#PWR0850"  Part="1" 
+AR Path="/6259D98A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0850" H 7775 1850 50  0001 C CNN
+F 1 "+3.3P" H 7790 2173 50  0000 C CNN
+F 2 "" H 7775 2000 50  0001 C CNN
+F 3 "" H 7775 2000 50  0001 C CNN
+	1    7775 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 2450 8275 2500
+$Comp
+L power:+12V #PWR0851
+U 1 1 6263C107
+P 7175 2300
+AR Path="/5C16BF8E/6263C107" Ref="#PWR0851"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/6263C107" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0851" H 7175 2150 50  0001 C CNN
+F 1 "+12V" H 7190 2473 50  0000 C CNN
+F 2 "" H 7175 2300 50  0001 C CNN
+F 3 "" H 7175 2300 50  0001 C CNN
+	1    7175 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7375 2300 7175 2300
+Text Label 7150 2500 0    50   ~ 0
++12VS
+Wire Wire Line
+	7150 2500 7375 2500
+Wire Notes Line
+	6950 1750 8825 1750
+Wire Notes Line
+	8825 1750 8825 3025
+Wire Notes Line
+	8825 3025 6950 3025
+Wire Notes Line
+	6950 3025 6950 1750
+Text Notes 6950 1725 0    50   ~ 0
+INA219 (U57) mounting option
+$Comp
+L Analog_ADC:INA219AxD U63
+U 1 1 627B5668
+P 14350 2725
+F 0 "U63" H 14450 3150 50  0000 C CNN
+F 1 "INA219AIDR" H 14575 3075 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 15150 2375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 14700 2625 50  0001 C CNN
+F 4 "INA219AIDR" H 14350 2725 50  0001 C CNN "Manufacturer Part Number"
+	1    14350 2725
+	1    0    0    -1  
+$EndComp
+Text Label 15300 2625 2    50   ~ 10
+I2C_APP_SCL
+Text Label 15300 2525 2    50   ~ 10
+I2C_APP_SDA
+$Comp
+L power:GND #PWR?
+U 1 1 627B5670
+P 14850 2825
+AR Path="/5BD32060/627B5670" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/627B5670" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/627B5670" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/627B5670" Ref="#PWR0858"  Part="1" 
+F 0 "#PWR0858" H 14850 2575 50  0001 C CNN
+F 1 "GND" V 14855 2652 50  0000 C CNN
+F 2 "" H 14850 2825 50  0001 C CNN
+F 3 "" H 14850 2825 50  0001 C CNN
+	1    14850 2825
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	15300 2525 14750 2525
+Wire Wire Line
+	14750 2625 15300 2625
+Wire Wire Line
+	14750 2825 14850 2825
+$Comp
+L power:GND #PWR?
+U 1 1 627B567B
+P 14350 3125
+AR Path="/5C16C03C/627B567B" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/627B567B" Ref="#PWR0855"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/627B567B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0855" H 14350 2875 50  0001 C CNN
+F 1 "GND" H 14355 2952 50  0000 C CNN
+F 2 "" H 14350 3125 50  0001 C CNN
+F 3 "" H 14350 3125 50  0001 C CNN
+	1    14350 3125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3P #PWR?
+U 1 1 627B5681
+P 14350 2325
+AR Path="/5C16C03C/627B5681" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/627B5681" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/627B5681" Ref="#PWR0854"  Part="1" 
+AR Path="/627B5681" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0854" H 14350 2175 50  0001 C CNN
+F 1 "+3.3P" H 14365 2498 50  0000 C CNN
+F 2 "" H 14350 2325 50  0001 C CNN
+F 3 "" H 14350 2325 50  0001 C CNN
+	1    14350 2325
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13725 2825 13950 2825
+Wire Notes Line
+	13525 2075 15400 2075
+Wire Notes Line
+	15400 2075 15400 3350
+Wire Notes Line
+	15400 3350 13525 3350
+Wire Notes Line
+	13525 3350 13525 2075
+Text Notes 13525 2050 0    50   ~ 0
+INA219 (U17) mounting option
+$Comp
+L Analog_ADC:INA219AxD U64
+U 1 1 627CA522
+P 14425 6150
+F 0 "U64" H 14525 6575 50  0000 C CNN
+F 1 "INA219AIDR" H 14650 6500 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 15225 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 14775 6050 50  0001 C CNN
+F 4 "INA219AIDR" H 14425 6150 50  0001 C CNN "Manufacturer Part Number"
+	1    14425 6150
+	1    0    0    -1  
+$EndComp
+Text Label 15375 6050 2    50   ~ 10
+I2C_APP_SCL
+Text Label 15375 5950 2    50   ~ 10
+I2C_APP_SDA
+Wire Wire Line
+	15375 5950 14825 5950
+Wire Wire Line
+	14825 6050 15375 6050
+Wire Wire Line
+	14825 6250 14925 6250
+$Comp
+L power:GND #PWR?
+U 1 1 627CA535
+P 14425 6550
+AR Path="/5C16C03C/627CA535" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/627CA535" Ref="#PWR0857"  Part="1" 
+AR Path="/5C16BF8E/5DB9B7E6/627CA535" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0857" H 14425 6300 50  0001 C CNN
+F 1 "GND" H 14430 6377 50  0000 C CNN
+F 2 "" H 14425 6550 50  0001 C CNN
+F 3 "" H 14425 6550 50  0001 C CNN
+	1    14425 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3P #PWR?
+U 1 1 627CA53B
+P 14425 5750
+AR Path="/5C16C03C/627CA53B" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/627CA53B" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/627CA53B" Ref="#PWR0856"  Part="1" 
+AR Path="/627CA53B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0856" H 14425 5600 50  0001 C CNN
+F 1 "+3.3P" H 14440 5923 50  0000 C CNN
+F 2 "" H 14425 5750 50  0001 C CNN
+F 3 "" H 14425 5750 50  0001 C CNN
+	1    14425 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14925 6200 14925 6250
+Wire Wire Line
+	13800 6250 14025 6250
+Wire Notes Line
+	13600 5500 15475 5500
+Wire Notes Line
+	15475 5500 15475 6775
+Wire Notes Line
+	15475 6775 13600 6775
+Wire Notes Line
+	13600 6775 13600 5500
+Text Notes 13600 5475 0    50   ~ 0
+INA219 (U32) mounting option
+Wire Wire Line
+	14750 2925 14750 2825
+Connection ~ 14750 2825
+$Comp
+L marble_misc:+12V_FMC1 #PWR?
+U 1 1 6280994E
+P 13725 2825
+AR Path="/5BD31F9A/6280994E" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/6280994E" Ref="#PWR0852"  Part="1" 
+AR Path="/6280994E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0852" H 13725 2675 50  0001 C CNN
+F 1 "+12V_FMC1" H 13725 2975 50  0000 C CNN
+F 2 "" H 13725 2825 50  0001 C CNN
+F 3 "" H 13725 2825 50  0001 C CNN
+	1    13725 2825
+	1    0    0    -1  
+$EndComp
+Text Label 11875 1900 0    50   ~ 0
+FMC1_P
+Text Label 13700 2625 0    50   ~ 0
+FMC1_P
+Wire Wire Line
+	13700 2625 13950 2625
+Text Label 11875 5300 0    50   ~ 0
+FMC2_P
+Text Label 13750 6050 0    50   ~ 0
+FMC2_P
+Wire Wire Line
+	13750 6050 14025 6050
+$Comp
+L marble_misc:+12V_FMC2 #PWR?
+U 1 1 62898143
+P 13800 6250
+AR Path="/5BD31F9F/62898143" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/62898143" Ref="#PWR0853"  Part="1" 
+F 0 "#PWR0853" H 13800 6100 50  0001 C CNN
+F 1 "+12V_FMC2" H 13825 6400 50  0000 C CNN
+F 2 "" H 13800 6250 50  0001 C CNN
+F 3 "" H 13800 6250 50  0001 C CNN
+	1    13800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 627CA52A
+P 14925 6200
+AR Path="/5BD32060/627CA52A" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/627CA52A" Ref="#PWR?"  Part="1" 
+AR Path="/5D05A99E/627CA52A" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/627CA52A" Ref="#PWR0859"  Part="1" 
+F 0 "#PWR0859" H 14925 5950 50  0001 C CNN
+F 1 "GND" V 14930 6027 50  0000 C CNN
+F 2 "" H 14925 6200 50  0001 C CNN
+F 3 "" H 14925 6200 50  0001 C CNN
+	1    14925 6200
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3P #PWR?
+U 1 1 628EA83D
+P 14925 6350
+AR Path="/5C16C03C/628EA83D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/628EA83D" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/628EA83D" Ref="#PWR0860"  Part="1" 
+AR Path="/628EA83D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0860" H 14925 6200 50  0001 C CNN
+F 1 "+3.3P" V 14925 6550 50  0000 C CNN
+F 2 "" H 14925 6350 50  0001 C CNN
+F 3 "" H 14925 6350 50  0001 C CNN
+	1    14925 6350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	14925 6350 14825 6350
 Wire Bus Line
 	2100 8250 2100 9850
 $EndSCHEMATC
