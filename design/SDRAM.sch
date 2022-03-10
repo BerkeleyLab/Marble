@@ -2843,7 +2843,7 @@ F 0 "IC1" H 8150 -4450 50  0000 L CNN
 F 1 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -4475 50  0001 L CNN
 F 2 "ICs And Semiconductors SMD:SODIMM60P6760X3000X380-204" H 7700 -4550 50  0001 L CNN
 F 3 " " H 7700 -4625 50  0001 L CNN
-F 4 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -4700 50  0001 L CNN "Part Number"
+F 4 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7350 -4550 50  0000 L CNN "Part Number"
 F 5 "MT8JTF12864HZ" H 7700 -4775 50  0001 L CNN "Library Ref"
 F 6 "SchLib\\Logic.SchLib" H 7700 -4850 50  0001 L CNN "Library Path"
 F 7 "MT8JTF12864HZ-1G6G1 or VR7PU286458FBAMJT" H 7700 -4925 50  0001 L CNN "Comment"
@@ -2875,6 +2875,7 @@ F 32 "08/09/12 00:00:00" H 7700 -6800 50  0001 L CNN "CreateDate"
 F 33 "08/09/12 00:00:00" H 7700 -6875 50  0001 L CNN "LatestRevisionDate"
 F 34 "ICs And Semiconductors.DbLib" H 7700 -7100 50  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 7700 -7250 50  0001 L CNN "License"
+F 36 "dnf" H 8250 -4650 50  0000 C CNN "config"
 	2    7700 900 
 	1    0    0    -1  
 $EndComp

@@ -4135,7 +4135,7 @@ F 4 "1.0A, NON-ISOLATED POL DC/DC CONVERTER, SMT, 2.5-5.5VIN, 3.30VOUT, -40 TO 1
 F 5 "1.04" H 4300 4050 50  0001 L CNN "Height"
 F 6 "MYRGC075050R31RA" H 4300 3950 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/MYRGP330100B21RA/?qs=xZ%2FP%252Ba9zWqZm9TTCiIsITQ%3D%3D" H 4300 3850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Murata Electronics" H 4300 3750 50  0001 L CNN "Manufacturer_Name"
+F 8 "MURATA" H 4300 3750 50  0001 L CNN "Manufacturer"
 F 9 "MYRGC075050R31RA" H 4300 3650 50  0001 L CNN "Manufacturer_Part_Number"
 F 10 "MYRGC075050R31RA" H 3550 3950 50  0001 C CNN "Manufacturer Part Number"
 	1    3550 3950
@@ -4370,6 +4370,7 @@ F 1 "INA219AIDR" H 8000 2750 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8575 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 8125 2300 50  0001 C CNN
 F 4 "INA219AIDR" H 7775 2400 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 8300 2000 50  0001 C CNN "Manufacturer"
 	1    7775 2400
 	1    0    0    -1  
 $EndComp
@@ -4471,6 +4472,7 @@ F 1 "INA219AIDR" H 14575 3075 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 15150 2375 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 14700 2625 50  0001 C CNN
 F 4 "INA219AIDR" H 14350 2725 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 8300 2000 50  0001 C CNN "Manufacturer"
 	1    14350 2725
 	1    0    0    -1  
 $EndComp
@@ -4549,6 +4551,7 @@ F 1 "INA219AIDR" H 14650 6500 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 15225 5800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 14775 6050 50  0001 C CNN
 F 4 "INA219AIDR" H 14425 6150 50  0001 C CNN "Manufacturer Part Number"
+F 5 "TEXAS INSTRUMENTS" H 8300 2000 50  0001 C CNN "Manufacturer"
 	1    14425 6150
 	1    0    0    -1  
 $EndComp
