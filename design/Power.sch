@@ -4362,7 +4362,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4300 2800 4300
 $Comp
-L Analog_ADC:INA219AxD U62
+L marble_misc:INA219AxD U62
 U 1 1 62482FD9
 P 7775 2400
 F 0 "U62" H 7875 2825 50  0000 C CNN
@@ -4463,7 +4463,7 @@ Wire Notes Line
 Text Notes 6950 1725 0    50   ~ 0
 INA219 (U57) mounting option
 $Comp
-L Analog_ADC:INA219AxD U63
+L marble_misc:INA219AxD U63
 U 1 1 627B5668
 P 14350 2725
 F 0 "U63" H 14450 3150 50  0000 C CNN
@@ -4541,7 +4541,7 @@ Wire Notes Line
 Text Notes 13525 2050 0    50   ~ 0
 INA219 (U17) mounting option
 $Comp
-L Analog_ADC:INA219AxD U64
+L marble_misc:INA219AxD U64
 U 1 1 627CA522
 P 14425 6150
 F 0 "U64" H 14525 6575 50  0000 C CNN
