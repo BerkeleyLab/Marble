@@ -7062,63 +7062,16 @@ NoConn ~ 9800 9950
 $Comp
 L Resistors_SMD:R0402_100K_1%_0.0625W_100PPM R26
 U 1 1 6018E651
-P 11250 9150
-F 0 "R26" V 11354 9210 50  0000 L CNN
-F 1 "R0402_100K_1%_0.0625W_100PPM" H 11250 8955 50  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 11250 8880 50  0001 L CNN
-F 3 " " H 11250 8805 50  0001 L CNN
-F 4 "100k" V 11445 9210 50  0000 L CNN "Val"
-F 5 "R0402_100K_1%_0.0625W_100PPM" H 11250 8730 50  0001 L CNN "Part Number"
-F 6 "Resistor - 1%" H 11250 8655 50  0001 L CNN "Library Ref"
-F 7 "SchLib\\Resistors.SchLib" H 11250 8580 50  0001 L CNN "Library Path"
-F 8 "100k" H 11250 8505 50  0001 L CNN "Comment"
-F 9 "Standard" H 11250 8430 50  0001 L CNN "Component Kind"
-F 10 "Standard" H 11250 8355 50  0001 L CNN "Component Type"
-F 11 " " H 11250 8280 50  0001 L CNN "PackageDescription"
-F 12 "2" H 11250 8205 50  0001 L CNN "Pin Count"
-F 13 "PcbLib\\Resistors SMD.PcbLib" H 11250 8130 50  0001 L CNN "Footprint Path"
-F 14 "RESC1005X40N" H 11250 8055 50  0001 L CNN "Footprint Ref"
-F 15 "Not Recommended" H 11250 7980 50  0001 L CNN "Status"
-F 16 "0.0625W" H 11250 7905 50  0001 L CNN "Power"
-F 17 "±100ppm/°C" H 11250 7830 50  0001 L CNN "TC"
-F 18 " " H 11250 7755 50  0001 L CNN "Voltage"
-F 19 "±1%" H 11250 7680 50  0001 L CNN "Tolerance"
-F 20 "General Purpose Thick Film Chip Resistor" H 11250 7605 50  0001 L CNN "Part Description"
-F 21 "GENERIC" H 11250 7530 50  0001 L CNN "Manufacturer"
-F 22 "R0402_100K_1%_0.0625W_100PPM" H 11250 7455 50  0001 L CNN "Manufacturer Part Number"
-F 23 "0402" H 11250 7380 50  0001 L CNN "Case"
-F 24 "No" H 11250 7305 50  0001 L CNN "PressFit"
-F 25 "Yes" H 11250 7230 50  0001 L CNN "Mounted"
-F 26 " " H 11250 7155 50  0001 L CNN "Sense Comment"
-F 27 "No" H 11250 7080 50  0001 L CNN "Sense"
-F 28 " " H 11250 7005 50  0001 L CNN "Status Comment"
-F 29 "No" H 11250 6930 50  0001 L CNN "Socket"
-F 30 "Yes" H 11250 6855 50  0001 L CNN "SMD"
-F 31 " " H 11250 6780 50  0001 L CNN "ComponentHeight"
-F 32 "YAGEO PHYCOMP" H 11250 6705 50  0001 L CNN "Manufacturer1 Example"
-F 33 "232270671004L" H 11250 6630 50  0001 L CNN "Manufacturer1 Part Number"
-F 34 "0.4mm" H 11250 6555 50  0001 L CNN "Manufacturer1 ComponentHeight"
-F 35 "CERN DEM JLC" H 11250 6480 50  0001 L CNN "Author"
-F 36 "12/03/07 00:00:00" H 11250 6405 50  0001 L CNN "CreateDate"
-F 37 "10/17/12 00:00:00" H 11250 6330 50  0001 L CNN "LatestRevisionDate"
-F 38 "Resistors.DbLib" H 11250 6180 50  0001 L CNN "Library Name"
-F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11250 6030 50  0001 L CNN "License"
-	1    11250 9150
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistors_SMD:R0402_150K_1%_0.0625W_100PPM R27
-U 1 1 6018E67D
 P 11250 9600
-F 0 "R27" V 11354 9660 50  0000 L CNN
-F 1 "R0402_150K_1%_0.0625W_100PPM" H 11250 9405 50  0001 L CNN
+F 0 "R26" V 11354 9660 50  0000 L CNN
+F 1 "R0402_100K_1%_0.0625W_100PPM" H 11250 9405 50  0001 L CNN
 F 2 "Resistors SMD:RESC1005X40N" H 11250 9330 50  0001 L CNN
 F 3 " " H 11250 9255 50  0001 L CNN
-F 4 "150k" V 11445 9660 50  0000 L CNN "Val"
-F 5 "R0402_150K_1%_0.0625W_100PPM" H 11250 9180 50  0001 L CNN "Part Number"
+F 4 "100k" V 11445 9660 50  0000 L CNN "Val"
+F 5 "R0402_100K_1%_0.0625W_100PPM" H 11250 9180 50  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 11250 9105 50  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 11250 9030 50  0001 L CNN "Library Path"
-F 8 "150k" H 11250 8955 50  0001 L CNN "Comment"
+F 8 "100k" H 11250 8955 50  0001 L CNN "Comment"
 F 9 "Standard" H 11250 8880 50  0001 L CNN "Component Kind"
 F 10 "Standard" H 11250 8805 50  0001 L CNN "Component Type"
 F 11 " " H 11250 8730 50  0001 L CNN "PackageDescription"
@@ -7132,7 +7085,7 @@ F 18 " " H 11250 8205 50  0001 L CNN "Voltage"
 F 19 "±1%" H 11250 8130 50  0001 L CNN "Tolerance"
 F 20 "General Purpose Thick Film Chip Resistor" H 11250 8055 50  0001 L CNN "Part Description"
 F 21 "GENERIC" H 11250 7980 50  0001 L CNN "Manufacturer"
-F 22 "R0402_150K_1%_0.0625W_100PPM" H 11250 7905 50  0001 L CNN "Manufacturer Part Number"
+F 22 "R0402_100K_1%_0.0625W_100PPM" H 11250 7905 50  0001 L CNN "Manufacturer Part Number"
 F 23 "0402" H 11250 7830 50  0001 L CNN "Case"
 F 24 "No" H 11250 7755 50  0001 L CNN "PressFit"
 F 25 "Yes" H 11250 7680 50  0001 L CNN "Mounted"
@@ -7143,7 +7096,7 @@ F 29 "No" H 11250 7380 50  0001 L CNN "Socket"
 F 30 "Yes" H 11250 7305 50  0001 L CNN "SMD"
 F 31 " " H 11250 7230 50  0001 L CNN "ComponentHeight"
 F 32 "YAGEO PHYCOMP" H 11250 7155 50  0001 L CNN "Manufacturer1 Example"
-F 33 "232270671504L" H 11250 7080 50  0001 L CNN "Manufacturer1 Part Number"
+F 33 "232270671004L" H 11250 7080 50  0001 L CNN "Manufacturer1 Part Number"
 F 34 "0.4mm" H 11250 7005 50  0001 L CNN "Manufacturer1 ComponentHeight"
 F 35 "CERN DEM JLC" H 11250 6930 50  0001 L CNN "Author"
 F 36 "12/03/07 00:00:00" H 11250 6855 50  0001 L CNN "CreateDate"
@@ -8738,5 +8691,52 @@ F 34 "ICs And Semiconductors SMD" H 6350 -5610 60  0001 L CNN "Library Name"
 F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 6350 -5700 60  0001 L CNN "License"
 	1    6350 1600
 	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_SMD:R0402_150K_1%_0.0625W_100PPM R27
+U 1 1 6018E67D
+P 11250 9150
+F 0 "R27" V 11354 9210 50  0000 L CNN
+F 1 "R0402_150K_1%_0.0625W_100PPM" H 11250 8955 50  0001 L CNN
+F 2 "Resistors SMD:RESC1005X40N" H 11250 8880 50  0001 L CNN
+F 3 " " H 11250 8805 50  0001 L CNN
+F 4 "150k" V 11445 9210 50  0000 L CNN "Val"
+F 5 "R0402_150K_1%_0.0625W_100PPM" H 11250 8730 50  0001 L CNN "Part Number"
+F 6 "Resistor - 1%" H 11250 8655 50  0001 L CNN "Library Ref"
+F 7 "SchLib\\Resistors.SchLib" H 11250 8580 50  0001 L CNN "Library Path"
+F 8 "150k" H 11250 8505 50  0001 L CNN "Comment"
+F 9 "Standard" H 11250 8430 50  0001 L CNN "Component Kind"
+F 10 "Standard" H 11250 8355 50  0001 L CNN "Component Type"
+F 11 " " H 11250 8280 50  0001 L CNN "PackageDescription"
+F 12 "2" H 11250 8205 50  0001 L CNN "Pin Count"
+F 13 "PcbLib\\Resistors SMD.PcbLib" H 11250 8130 50  0001 L CNN "Footprint Path"
+F 14 "RESC1005X40N" H 11250 8055 50  0001 L CNN "Footprint Ref"
+F 15 "Not Recommended" H 11250 7980 50  0001 L CNN "Status"
+F 16 "0.0625W" H 11250 7905 50  0001 L CNN "Power"
+F 17 "±100ppm/°C" H 11250 7830 50  0001 L CNN "TC"
+F 18 " " H 11250 7755 50  0001 L CNN "Voltage"
+F 19 "±1%" H 11250 7680 50  0001 L CNN "Tolerance"
+F 20 "General Purpose Thick Film Chip Resistor" H 11250 7605 50  0001 L CNN "Part Description"
+F 21 "GENERIC" H 11250 7530 50  0001 L CNN "Manufacturer"
+F 22 "R0402_150K_1%_0.0625W_100PPM" H 11250 7455 50  0001 L CNN "Manufacturer Part Number"
+F 23 "0402" H 11250 7380 50  0001 L CNN "Case"
+F 24 "No" H 11250 7305 50  0001 L CNN "PressFit"
+F 25 "Yes" H 11250 7230 50  0001 L CNN "Mounted"
+F 26 " " H 11250 7155 50  0001 L CNN "Sense Comment"
+F 27 "No" H 11250 7080 50  0001 L CNN "Sense"
+F 28 " " H 11250 7005 50  0001 L CNN "Status Comment"
+F 29 "No" H 11250 6930 50  0001 L CNN "Socket"
+F 30 "Yes" H 11250 6855 50  0001 L CNN "SMD"
+F 31 " " H 11250 6780 50  0001 L CNN "ComponentHeight"
+F 32 "YAGEO PHYCOMP" H 11250 6705 50  0001 L CNN "Manufacturer1 Example"
+F 33 "232270671504L" H 11250 6630 50  0001 L CNN "Manufacturer1 Part Number"
+F 34 "0.4mm" H 11250 6555 50  0001 L CNN "Manufacturer1 ComponentHeight"
+F 35 "CERN DEM JLC" H 11250 6480 50  0001 L CNN "Author"
+F 36 "12/03/07 00:00:00" H 11250 6405 50  0001 L CNN "CreateDate"
+F 37 "10/17/12 00:00:00" H 11250 6330 50  0001 L CNN "LatestRevisionDate"
+F 38 "Resistors.DbLib" H 11250 6180 50  0001 L CNN "Library Name"
+F 39 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 11250 6030 50  0001 L CNN "License"
+	1    11250 9150
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
