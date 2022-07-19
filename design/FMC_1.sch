@@ -3021,6 +3021,10 @@ NoConn ~ 13600 9100
 NoConn ~ 13600 9200
 NoConn ~ 8700 6450
 NoConn ~ 13600 5500
-NoConn ~ 12850 9400
-NoConn ~ 10200 10250
+Text HLabel 10200 10250 0    50   Output ~ 0
+VIO_B_M2C
+Text Label 10300 10250 0    50   ~ 0
+VIO_B_M2C
+Text Label 12850 9400 0    50   ~ 0
+VIO_B_M2C
 $EndSCHEMATC
