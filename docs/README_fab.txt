@@ -10,7 +10,7 @@ Gerber, Drill, IPC-D-356, Board stackup, BoM, and X-Y placement.
 The design is created in, and these manufacturing files are mostly
 exported from, KiCad version 5.1.8.
 
-This is a 12-layer, 1.6mm board.  Materials and thicknesses
+This is a 12-layer, 1.75mm board.  Materials and thicknesses
 according to the board stackup description:
   marble-stack.txt
 
