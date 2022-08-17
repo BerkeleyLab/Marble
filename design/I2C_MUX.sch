@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 25
 Title "Marble"
 Date "2022-02-03"
-Rev "v1.2"
+Rev "v1.3"
 Comp "Michał Gąska / WUT"
 Comment1 ""
 Comment2 ""
