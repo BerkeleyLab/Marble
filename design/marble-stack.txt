@@ -1,7 +1,7 @@
 Number	Name	Type	Manufacturer	Material	Process	Thickness (mm)	Weight (oz)	Dk	Df
 	Top Overlay	Overlay
 	Top Solder	Solder Mask	Altium Designer	SM-001		0.025		4	0.03
-	Top Surface Finish	Surface Finish		Gold	IAu	0.02
+	Top Surface Finish	Surface Finish		Gold	IAu	0.005
 1	Top Layer	Signal	Altium Designer	CF-004	ED	0.035	1
 	Dielectric 1	Prepreg	Altium Designer	PP-013		0.11		4.3	0.02
 2	Int1 (GND)	Plane	Altium Designer	CF-004	ED	0.018	0.5
@@ -25,6 +25,6 @@ Number	Name	Type	Manufacturer	Material	Process	Thickness (mm)	Weight (oz)	Dk	Df
 11	Int10 (PWR)	Plane	Altium Designer	CF-004	ED	0.018	0.5
 	Dielectric 11	Prepreg	Altium Designer	PP-013		0.11		4.3	0.02
 12	Bottom Layer	Signal	Altium Designer	CF-004	ED	0.035	1
-	Bottom Surface Finish	Surface Finish		Gold	IAu	0.02
+	Bottom Surface Finish	Surface Finish		Gold	IAu	0.005
 	Bottom Solder	Solder Mask	Altium Designer	SM-001		0.025		4	0.03
 	Bottom Overlay	Overlay
