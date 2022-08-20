@@ -1,5 +1,14 @@
 import csv
 from sys import argv
+import string
+import re
+
+
+# non-ASCII and control characters don't belong in a CSV file, IMHO
+def defang(ss):
+    s1 = re.sub(r'[\t\n\r\x0b\x0c]', ' ', ss)
+    keep = string.digits + string.ascii_letters + string.punctuation + " "
+    return re.sub(r'[^{0}\n]'.format(keep), '', s1)
 
 
 def non_generic(iname, oname, verbose=False):
@@ -27,7 +36,7 @@ def non_generic(iname, oname, verbose=False):
                 # print(row)
                 manuf = row[1]
                 partn = row[2]
-                if partn[0:2] == "b'":
+                if partn.startswith("b'"):
                     # Can happen when wrong python version used for KiBoM
                     print("Corrupted input file: " + iname)
                     exit(1)
@@ -41,6 +50,8 @@ def non_generic(iname, oname, verbose=False):
                         row[2] = partn_ng[partn]
                     except Exception:
                         print("No match for %s" % partn)
+            if len(row) > 9 and row[0][0] in "123456789":
+                row[9] = defang(row[9])  # hope this is Description
             writer.writerow(row)
     return
 
