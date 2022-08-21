@@ -110,7 +110,9 @@ The result shows up as `Marble.xdc`, which can be used for your FPGA designs.
 
 ## Update I2C subsystem diagram in schematics
 
-Run the following command from the top level directory before parting the I2C subsystem diagram into the `I2C_MUX.sch` schematic:
+Run the following command from the top level directory before importing the I2C subsystem diagram into the `I2C_MUX.sch` schematic:
 ```console
-$ convert docs/marble2_i2c.eps -scale 1330 marble2_i2c.png
+$ convert docs/marble2_i2c.eps -scale 1840 marble2_i2c.png
 ```
+where `convert` is part of [ImageMagick](https://en.wikipedia.org/wiki/ImageMagick)
+(Debian and derivatives: `apt-get install imagemagick`).
