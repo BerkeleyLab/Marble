@@ -18,7 +18,11 @@ def xy_main(iname, oname, verbose=False):
                 if "SLOT" in partn or "HOLE" in partn:
                     continue
                 order_count += 1
-                refids = row[3].split()
+                refid_cnt = int(row[3])
+                refids = row[4].split()
+                if refid_cnt != len(refids):
+                    print("BAD refid parsing %d != len(%s)" % (refid_cnt, row[4]))
+                    exit(1)
                 for r in refids:
                     refids_keep[r] = True
                 orders[partn] = orders[partn]+len(refids) if partn in orders else len(refids)
