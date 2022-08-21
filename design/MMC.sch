@@ -888,13 +888,13 @@ U 1 1 5CD28E72
 P 6000 6950
 F 0 "R146" V 6000 6950 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 6000 6740 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 5930 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 5930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 6560 60  0001 L CNN
 F 4 "1k" V 6300 6950 50  0000 L CNN "~"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 6000 6470 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6000 6380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6000 6290 60  0001 L CNN "Library Path"
-F 8 "1k" H 6000 6200 60  0001 L CNN "Comment"
+F 8 "=Value" H 6000 6200 60  0001 L CNN "Comment"
 F 9 "Standard" H 6000 6110 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6000 6020 60  0001 L CNN "Component Type"
 F 11 " " H 6000 5840 60  0001 L CNN "PackageDescription"
@@ -936,13 +936,13 @@ U 1 1 5CD3844A
 P 6250 6950
 F 0 "R147" V 6250 6950 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 6250 6740 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6250 5930 60  0001 L CNN
+F 2 "RESC1005X40N" H 6250 5930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6250 6560 60  0001 L CNN
 F 4 "1k" V 6550 6950 50  0000 L CNN "~"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 6250 6470 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6250 6380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6250 6290 60  0001 L CNN "Library Path"
-F 8 "1k" H 6250 6200 60  0001 L CNN "Comment"
+F 8 "=Value" H 6250 6200 60  0001 L CNN "Comment"
 F 9 "Standard" H 6250 6110 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6250 6020 60  0001 L CNN "Component Type"
 F 11 " " H 6250 5840 60  0001 L CNN "PackageDescription"
@@ -984,13 +984,13 @@ U 1 1 5CD47A29
 P 6500 6950
 F 0 "R158" V 6500 6950 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 6500 6740 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 5930 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 5930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 6560 60  0001 L CNN
 F 4 "DNP" V 6800 6950 50  0000 L CNN "~"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 6500 6470 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 6500 6380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 6500 6290 60  0001 L CNN "Library Path"
-F 8 "1k" H 6500 6200 60  0001 L CNN "Comment"
+F 8 "=Value" H 6500 6200 60  0001 L CNN "Comment"
 F 9 "Standard" H 6500 6110 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 6500 6020 60  0001 L CNN "Component Type"
 F 11 " " H 6500 5840 60  0001 L CNN "PackageDescription"
@@ -3848,13 +3848,13 @@ U 1 1 5CD19897
 P 5750 6950
 F 0 "R144" V 5750 6950 50  0000 L CNN
 F 1 "R0402_1K_1%_0.0625W_100PPM" H 5750 6740 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 5750 5930 60  0001 L CNN
+F 2 "RESC1005X40N" H 5750 5930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 5750 6560 60  0001 L CNN
 F 4 "1k" V 6050 6950 50  0000 L CNN "~"
 F 5 "R0402_1K_1%_0.0625W_100PPM" H 5750 6470 60  0001 L CNN "Part Number"
 F 6 "Resistor - 1%" H 5750 6380 60  0001 L CNN "Library Ref"
 F 7 "SchLib\\Resistors.SchLib" H 5750 6290 60  0001 L CNN "Library Path"
-F 8 "1k" H 5750 6200 60  0001 L CNN "Comment"
+F 8 "=Value" H 5750 6200 60  0001 L CNN "Comment"
 F 9 "Standard" H 5750 6110 60  0001 L CNN "Component Kind"
 F 10 "Standard" H 5750 6020 60  0001 L CNN "Component Type"
 F 11 " " H 5750 5840 60  0001 L CNN "PackageDescription"
