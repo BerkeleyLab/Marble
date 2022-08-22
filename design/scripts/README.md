@@ -63,11 +63,15 @@ Open the `PCB Layout Editor` clicking on this button at the top of the screen:
 
 ![Pcbnew](img/pcbnew_button.png)
 
-Perform a Design Rules Check (DRC). Click on this button in the top menu:
+(Optional, strongly recommended after any design change) Perform a Design Rules Check (DRC). Click on this button in the top menu:
 
 ![drc](img/drc_button.png)
 
-and click on `Run DRC`. Then generate a netlist file by clicking on `File / Fabrication Outputs / IPC-D-356 Netlist File...`, click `Save`.  Fab houses often use this file format to set up their testing of bare boards.
+and click on `Run DRC`.  The current design does unfortunately have a baseline
+of three DRC errors:  overlapping courtyards of part pairs (U57, U62), (U32, U64), and (U17, U63).
+These are INA219 chips with two package options supported with two (overlapping) footprints.
+
+Then generate a netlist file by clicking on `File / Fabrication Outputs / IPC-D-356 Netlist File...`, click `Save`.  Fab houses often use this file format to set up their testing of bare boards.
 
 After these steps, we're ready to have the manufacturing script take over and generate the fabrication package.
 
