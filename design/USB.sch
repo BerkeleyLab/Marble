@@ -1063,7 +1063,7 @@ F 13 " " H 2400 3540 60  0001 L CNN "Power"
 F 14 " " H 2400 3450 60  0001 L CNN "Status"
 F 15 "Ultra Low Capacitance (1pF) Double Rail-to-Rail ESD Protection Diode (8kV)" H 2400 3360 60  0001 L CNN "Part Description"
 F 16 "NXP SEMICONDUCTORS" H 2400 3270 60  0001 L CNN "Manufacturer"
-F 17 "PRTR5V0U2X" H 2400 3180 60  0001 L CNN "Manufacturer Part Number"
+F 17 "PRTR5V0U2X,215" H 2400 3180 60  0001 L CNN "Manufacturer Part Number"
 F 18 "4" H 2400 3090 60  0001 L CNN "Pin Count"
 F 19 "SOT143B" H 2400 3000 60  0001 L CNN "Case"
 F 20 "Yes" H 2400 2910 60  0001 L CNN "Mounted"
@@ -1371,7 +1371,7 @@ F 11 "QFN, 0.50mm Pitch, Square; 56 Pin, 8.00mm L X 8.00mm W X 1.00mm H body (6.
 F 12 " " H 6600 -2870 60  0001 L CNN "Status"
 F 13 "Quad High Speed USB to Multipurpose UART/MPSSE IC" H 6600 -2960 60  0001 L CNN "Part Description"
 F 14 "FUTURE TECHNOLOGY DEVICES INTERNATIONAL (FTDI)" H 6600 -3050 60  0001 L CNN "Manufacturer"
-F 15 "FT4232H-56Q" H 6600 -3140 60  0001 L CNN "Manufacturer Part Number"
+F 15 "FT4232H-56Q-REEL" H 6600 -3140 60  0001 L CNN "Manufacturer Part Number"
 F 16 "57" H 6600 -3230 60  0001 L CNN "Pin Count"
 F 17 "QFN56" H 6600 -3320 60  0001 L CNN "Case"
 F 18 "Yes" H 6600 -3410 60  0001 L CNN "Mounted"
@@ -1398,25 +1398,25 @@ $EndComp
 Wire Wire Line
 	8000 8100 8000 8300
 $Comp
-L Regulators:TLV62565DBVT U22
+L Regulators:TLV62565DBV U22
 U 1 1 5C6DFD9F
 P 3550 1800
 F 0 "U22" H 3850 1965 50  0000 C CNN
-F 1 "TLV62565DBVT" H 3850 1874 50  0000 C CNN
+F 1 "TLV62565DBV" H 3850 1874 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOT95P280X145-5N" H 3550 310 60  0001 L CNN
 F 3 "" H 3550 1030 60  0001 L CNN
-F 4 "TLV62565DBVT" H 3550 940 60  0001 L CNN "Part Number"
+F 4 "TLV62565DBV" H 3550 940 60  0001 L CNN "Part Number"
 F 5 "TLV62565" H 3550 850 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Regulators.SchLib" H 3550 760 60  0001 L CNN "Library Path"
 F 7 "=Device" H 3550 670 60  0001 L CNN "Comment"
 F 8 "Standard" H 3550 580 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 3550 490 60  0001 L CNN "Component Type"
-F 10 "TLV62565DBVT" H 3550 400 60  0001 L CNN "Device"
+F 10 "TLV62565DBV" H 3550 400 60  0001 L CNN "Device"
 F 11 "SOT, 0.95mm Pitch; 5 Pin, 1.60mm W X 2.90mm L X 1.45mm H Body, IPC Medium Density" H 3550 220 60  0001 L CNN "PackageDescription"
 F 12 " " H 3550 130 60  0001 L CNN "Status"
 F 13 "1.5A High Efficiency Step-Down Converter, Adjustable Output Voltage" H 3550 40  60  0001 L CNN "Part Description"
 F 14 "TEXAS INSTRUMENTS" H 3550 -50 60  0001 L CNN "Manufacturer"
-F 15 "TLV62565DBVT or TLV62565DBVR" H 3550 -140 60  0001 L CNN "Manufacturer Part Number"
+F 15 "TLV62565DBVR" H 3550 -140 60  0001 L CNN "Manufacturer Part Number"
 F 16 "5" H 3550 -230 60  0001 L CNN "Pin Count"
 F 17 "SOT23-5" H 3550 -320 60  0001 L CNN "Case"
 F 18 "Yes" H 3550 -410 60  0001 L CNN "Mounted"

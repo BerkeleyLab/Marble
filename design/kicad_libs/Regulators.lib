@@ -1,25 +1,25 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# TLV62565DBVT
+# TLV62565DBV
 #
-DEF TLV62565DBVT IC 0 50 Y Y 1 L N
+DEF TLV62565DBV IC 0 50 Y Y 1 L N
 F0 "IC" 300 50 50 H V C CNN
-F1 "TLV62565DBVT" 0 -575 50 H I L CNN
+F1 "TLV62565DBV" 0 -575 50 H I L CNN
 F2 "ICs And Semiconductors SMD:SOT95P280X145-5N" 0 -650 50 H I L CNN
 F3 " " 0 -725 50 H I L CNN
-F4 "TLV62565DBVT" 0 -800 50 H I L CNN "Part Number"
+F4 "TLV62565DBV" 0 -800 50 H I L CNN "Part Number"
 F5 "TLV62565" 0 -875 50 H I L CNN "Library Ref"
 F6 "SchLib\\Regulators.SchLib" 0 -950 50 H I L CNN "Library Path"
-F7 "TLV62565DBVT" 0 -1025 50 H I L CNN "Comment"
+F7 "TLV62565DBV" 0 -1025 50 H I L CNN "Comment"
 F8 "Standard" 0 -1100 50 H I L CNN "Component Kind"
 F9 "Standard" 0 -1175 50 H I L CNN "Component Type"
-F10 "TLV62565DBVT" 0 -1250 50 H I L CNN "Device"
+F10 "TLV62565DBV" 0 -1250 50 H I L CNN "Device"
 F11 "SOT, 0.95mm Pitch; 5 Pin, 1.60mm W X 2.90mm L X 1.45mm H Body, IPC Medium Density" 0 -1325 50 H I L CNN "PackageDescription"
 F12 " " 0 -1400 50 H I L CNN "Status"
 F13 "1.5A High Efficiency Step-Down Converter, Adjustable Output Voltage" 0 -1475 50 H I L CNN "Part Description"
 F14 "TEXAS INSTRUMENTS" 0 -1550 50 H I L CNN "Manufacturer"
-F15 "TLV62565DBVT" 0 -1625 50 H I L CNN "Manufacturer Part Number"
+F15 "TLV62565DBVR" 0 -1625 50 H I L CNN "Manufacturer Part Number"
 F16 "5" 0 -1700 50 H I L CNN "Pin Count"
 F17 "SOT23-5" 0 -1775 50 H I L CNN "Case"
 F18 "Yes" 0 -1850 50 H I L CNN "Mounted"

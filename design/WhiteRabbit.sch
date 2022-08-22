@@ -1142,25 +1142,25 @@ F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic:CDCM61004RHBT U20
+L Logic:CDCM61004RHB U20
 U 1 1 5C5B8FC6
 P 7650 1150
 F 0 "U20" H 8150 1315 50  0000 C CNN
-F 1 "CDCM61004RHBT" H 8150 1224 50  0000 C CNN
+F 1 "CDCM61004RHB" H 8150 1224 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:QFN50P500X500X100-33N-S355" H 7650 -2340 60  0001 L CNN
 F 3 "" H 7650 -1620 60  0001 L CNN
-F 4 "CDCM61004RHBT" H 7650 -1710 60  0001 L CNN "Part Number"
+F 4 "CDCM61004RHB" H 7650 -1710 60  0001 L CNN "Part Number"
 F 5 "CDCM61004RHB" H 7650 -1800 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Logic.SchLib" H 7650 -1890 60  0001 L CNN "Library Path"
 F 7 "=Device" H 7650 -1980 60  0001 L CNN "Comment"
 F 8 "Standard" H 7650 -2070 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 7650 -2160 60  0001 L CNN "Component Type"
-F 10 "CDCM61004RHBT" H 7650 -2250 60  0001 L CNN "Device"
+F 10 "CDCM61004RHB" H 7650 -2250 60  0001 L CNN "Device"
 F 11 "QFN, (MO-220-VHHD-4) 0.50mm pitch,square; 8 pin X 8 pin, 5mm X 5mm X 1.00mm H body (w/thermal tab 3.5 X 3.5mm),  IPC Medium Density" H 7650 -2430 60  0001 L CNN "PackageDescription"
 F 12 " " H 7650 -2520 60  0001 L CNN "Status"
 F 13 "Four Output, Integrated VCO, Low-Jitter Clock Generator" H 7650 -2610 60  0001 L CNN "Part Description"
 F 14 "TEXAS INSTRUMENTS" H 7650 -2700 60  0001 L CNN "Manufacturer"
-F 15 "CDCM61004RHBT or CDCM61004RHBR" H 7650 -2790 60  0001 L CNN "Manufacturer Part Number"
+F 15 "CDCM61004RHBT" H 7650 -2790 60  0001 L CNN "Manufacturer Part Number"
 F 16 "33" H 7650 -2880 60  0001 L CNN "Pin Count"
 F 17 "QFN32" H 7650 -2970 60  0001 L CNN "Case"
 F 18 "Yes" H 7650 -3060 60  0001 L CNN "Mounted"
@@ -1207,7 +1207,7 @@ F 13 "20MHz" H 7850 2880 60  0001 L CNN "Val"
 F 14 " " H 7850 2790 60  0001 L CNN "Status"
 F 15 "3.3V, ±100ppm, 15pF, 0..70°C, HCMOS Tri-State Surface Mount, VCXO Voltage Controlled Oscillator (CFPV-45 Series)" H 7850 2700 60  0001 L CNN "Part Description"
 F 16 "IQD FREQUENCY PRODUCTS" H 7850 2610 60  0001 L CNN "Manufacturer"
-F 17 "LFVCXO026156 or KV7050B20.0000C3GD00 or ECS-VXO-73-20.00-TR" H 7850 2520 60  0001 L CNN "Manufacturer Part Number"
+F 17 "ECS-VXO-73-20.00-TR" H 7850 4075 50  0000 L CNN "Manufacturer Part Number"
 F 18 "6" H 7850 2430 60  0001 L CNN "Pin Count"
 F 19 " " H 7850 2340 60  0001 L CNN "Case"
 F 20 "Yes" H 7850 2250 60  0001 L CNN "Mounted"
@@ -3511,7 +3511,7 @@ F 12 "Oscillator Si570 Serie, 8 pins, 5x7mm" H 7850 3975 50  0001 L CNN "Package
 F 13 " " H 7850 3900 50  0001 L CNN "Status"
 F 14 "10-280MHz 3.3V ±20ppm LVDS Any-Rate I2C Programmable XO Oscillator Si570 Series" H 7850 3825 50  0001 L CNN "Part Description"
 F 15 "SILICON LABS" H 7850 3750 50  0001 L CNN "Manufacturer"
-F 16 "570BBC000121DG or 571BJA000107DG" H 7850 3675 50  0001 L CNN "Manufacturer Part Number"
+F 16 "570NCB000933DG" H 7850 4825 50  0000 L CNN "Manufacturer Part Number"
 F 17 "8" H 7850 3600 50  0001 L CNN "Pin Count"
 F 18 " " H 7850 3525 50  0001 L CNN "Case"
 F 19 "Yes" H 7850 3450 50  0001 L CNN "Mounted"

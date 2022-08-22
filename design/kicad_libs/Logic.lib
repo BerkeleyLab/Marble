@@ -1,20 +1,20 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CDCM61004RHBT
+# CDCM61004RHB
 #
-DEF CDCM61004RHBT IC 0 50 Y Y 1 L N
+DEF CDCM61004RHB IC 0 50 Y Y 1 L N
 F0 "IC" 500 50 50 H V C CNN
-F1 "CDCM61004RHBT" 0 -2575 50 H I L CNN
+F1 "CDCM61004RHB" 0 -2575 50 H I L CNN
 F2 "ICs And Semiconductors SMD:QFN50P500X500X100-33N-S355" 0 -2650 50 H I L CNN
 F3 " " 0 -2725 50 H I L CNN
-F4 "CDCM61004RHBT" 0 -2800 50 H I L CNN "Part Number"
+F4 "CDCM61004RHB" 0 -2800 50 H I L CNN "Part Number"
 F5 "CDCM61004RHB" 0 -2875 50 H I L CNN "Library Ref"
 F6 "SchLib\\Logic.SchLib" 0 -2950 50 H I L CNN "Library Path"
-F7 "CDCM61004RHBT" 0 -3025 50 H I L CNN "Comment"
+F7 "CDCM61004RHB" 0 -3025 50 H I L CNN "Comment"
 F8 "Standard" 0 -3100 50 H I L CNN "Component Kind"
 F9 "Standard" 0 -3175 50 H I L CNN "Component Type"
-F10 "CDCM61004RHBT" 0 -3250 50 H I L CNN "Device"
+F10 "CDCM61004RHB" 0 -3250 50 H I L CNN "Device"
 F11 "QFN, (MO-220-VHHD-4) 0.50mm pitch,square; 8 pin X 8 pin, 5mm X 5mm X 1.00mm H body (w/thermal tab 3.5 X 3.5mm),  IPC Medium Density" 0 -3325 50 H I L CNN "PackageDescription"
 F12 " " 0 -3400 50 H I L CNN "Status"
 F13 "Four Output, Integrated VCO, Low-Jitter Clock Generator" 0 -3475 50 H I L CNN "Part Description"
