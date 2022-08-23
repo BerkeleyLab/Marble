@@ -1067,19 +1067,19 @@ X 9 9 -200 -500 200 R 60 0 0 2 P
 ENDDRAW
 ENDDEF
 #
-# MPM3830GQV-P
+# MPM3830GQV
 #
-DEF MPM3830GQV-P U? 0 30 Y Y 1 F N
+DEF MPM3830GQV U? 0 30 Y Y 1 F N
 F0 "U?" 200 250 50 H V L CNN
-F1 "MPM3830GQV-P" 200 150 50 H V L CNN
-F2 "MPM3830GQVP" 1150 100 50 H I L CNN
+F1 "MPM3830GQV" 200 150 50 H V L CNN
+F2 "MPM3830GQV" 1150 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/MPM3830GQV-P.pdf" 1150 0 50 H I L CNN
 F4 "Switching Voltage Regulators 6V, 1.2 MHz, 3A Sync StepDown Convtr" 1150 -100 50 H I L CNN "Description"
 F5 "1.6" 1150 -200 50 H I L CNN "Height"
 F6 "946-MPM3830GQV-P" 1150 -300 50 H I L CNN "Mouser Part Number"
 F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=946-MPM3830GQV-P" 1150 -400 50 H I L CNN "Mouser Price/Stock"
 F8 "Monolithic Power Systems (MPS)" 1150 -500 50 H I L CNN "Manufacturer"
-F9 "MPM3830GQV-P" 1150 -600 50 H I L CNN "Manufacturer Part Number"
+F9 "MPM3830GQVP" 1150 -600 50 H I L CNN "Manufacturer Part Number"
 DRAW
 P 5 0 1 6 200 100 900 100 900 -1000 200 -1000 200 100 f
 X EN 1 0 -400 200 R 50 50 0 0 P
@@ -1344,26 +1344,26 @@ X RFU 6 800 -400 200 L 70 70 2 1 P
 ENDDRAW
 ENDDEF
 #
-# SN74LVC1G125DCKT-Standard_Logic
+# SN74LVC1G125DCK-Standard_Logic
 #
-DEF SN74LVC1G125DCKT-Standard_Logic IC 0 60 Y Y 1 L N
+DEF SN74LVC1G125DCK-Standard_Logic IC 0 60 Y Y 1 L N
 F0 "IC" 200 -50 50 H V L CNN
-F1 "SN74LVC1G125DCKT-Standard_Logic" 200 -300 50 H V L CNN
+F1 "SN74LVC1G125DCK-Standard_Logic" 200 -300 50 H V L CNN
 F2 "ICs And Semiconductors SMD:SOT65P210X110-5N" 0 -540 60 H I L CNN
 F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G125DCKT.pdf" 0 -630 60 H I L CNN
-F4 "SN74LVC1G125DCKT" 0 -720 60 H I L CNN "Part Number"
+F4 "SN74LVC1G125DCK" 0 -720 60 H I L CNN "Part Number"
 F5 "741G125" 0 -810 60 H I L CNN "Library Ref"
 F6 "SchLib\\Standard Logic.SchLib" 0 -900 60 H I L CNN "Library Path"
 F7 "=Device" 0 -990 60 H I L CNN "Comment"
 F8 "Standard" 0 -1080 60 H I L CNN "Component Kind"
 F9 "Standard" 0 -1170 60 H I L CNN "Component Type"
-F10 "SN74LVC1G125DCKT" 0 -1260 60 H I L CNN "Device"
+F10 "SN74LVC1G125DCK" 0 -1260 60 H I L CNN "Device"
 F11 "SOT65P210X110-5N" 0 -1350 60 H I L CNN "Footprint"
 F12 "SOT353, SC70-5, SOT, 0.65mm Pitch, 5 pin, 1.25mm W X 2.00mm L X 1.10mm H, IPC Medium Density" 0 -1440 60 H I L CNN "PackageDescription"
 F13 " " 0 -1530 60 H I L CNN "Status"
 F14 "Single Bus Buffer Gate With 3-State Outputs" 0 -1620 60 H I L CNN "Part Description"
 F15 "TEXAS INSTRUMENTS" 0 -1710 60 H I L CNN "Manufacturer"
-F16 "SN74LVC1G125DCKT" 0 -1800 60 H I L CNN "Manufacturer Part Number"
+F16 "SN74LVC1G125DCK3" 0 -1800 60 H I L CNN "Manufacturer Part Number"
 F17 "5" 0 -1890 60 H I L CNN "Pin Count"
 F18 "SOT353" 0 -1980 60 H I L CNN "Case"
 F19 "Yes" 0 -2070 60 H I L CNN "Mounted"
@@ -1567,11 +1567,11 @@ X RFU 99 -900 2000 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# STS2DNE60-Transistor_FET
+# SQ4920EY-Transistor_FET
 #
-DEF STS2DNE60-Transistor_FET Q 0 0 Y N 2 F N
+DEF SQ4920EY-Transistor_FET Q 0 0 Y N 2 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "STS2DNE60-Transistor_FET" 200 0 50 H V L CNN
+F1 "SQ4920EY-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
