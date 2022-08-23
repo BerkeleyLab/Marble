@@ -374,25 +374,25 @@ X G 5 100 -300 100 R 0 0 2 1 P
 ENDDRAW
 ENDDEF
 #
-# SI4425DDY-T1-GE3
+# SI4459BDY-T1-GE3
 #
-DEF SI4425DDY-T1-GE3 T 0 50 Y Y 1 L N
+DEF SI4459BDY-T1-GE3 T 0 50 Y Y 1 L N
 F0 "T" 550 -250 50 V V C CNN
-F1 "SI4425DDY-T1-GE3" 0 -845 50 H I L CNN
+F1 "SI4459BDY-T1-GE3" 0 -845 50 H I L CNN
 F2 "ICs And Semiconductors SMD:SOIC127P600X175-8N" 0 -920 50 H I L CNN
 F3 " " 0 -995 50 H I L CNN
-F4 "SI4425DDY-T1-GE3" 0 -1070 50 H I L CNN "Part Number"
-F5 "SI4425DDY" 0 -1145 50 H I L CNN "Library Ref"
+F4 "SI4459BDY-T1-GE3" 0 -1070 50 H I L CNN "Part Number"
+F5 "SI4459BDY" 0 -1145 50 H I L CNN "Library Ref"
 F6 "SchLib\\Transistors.SchLib" 0 -1220 50 H I L CNN "Library Path"
-F7 "SI4425DDY-T1-GE3" 0 -1295 50 H I L CNN "Comment"
+F7 "SI4459BDY-T1-GE3" 0 -1295 50 H I L CNN "Comment"
 F8 "Standard" 0 -1370 50 H I L CNN "Component Kind"
 F9 "Standard" 0 -1445 50 H I L CNN "Component Type"
-F10 "SI4425DDY-T1-GE3" 0 -1520 50 H I L CNN "Device"
+F10 "SI4459BDY-T1-GE3" 0 -1520 50 H I L CNN "Device"
 F11 "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density" 0 -1595 50 H I L CNN "PackageDescription"
 F12 " " 0 -1670 50 H I L CNN "Status"
-F13 "-30V -19.7A P-Channel MOSFET" 0 -1745 50 H I L CNN "Part Description"
+F13 "-30V -20A P-Channel MOSFET" 0 -1745 50 H I L CNN "Part Description"
 F14 "VISHAY SILICONIX" 0 -1820 50 H I L CNN "Manufacturer"
-F15 "SI4425DDY-T1-GE3" 0 -1895 50 H I L CNN "Manufacturer Part Number"
+F15 "SI4459BDY-T1-GE3" 0 -1895 50 H I L CNN "Manufacturer Part Number"
 F16 "8" 0 -1970 50 H I L CNN "Pin Count"
 F17 "SOIC8" 0 -2045 50 H I L CNN "Case"
 F18 "Yes" 0 -2120 50 H I L CNN "Mounted"
