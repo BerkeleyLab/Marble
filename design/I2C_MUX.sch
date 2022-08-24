@@ -360,12 +360,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R45
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R45
 U 1 1 5C5ABFCC
 P 6500 2150
 F 0 "R45" H 6400 2150 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6500 1940 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 1130 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 1130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 1760 60  0001 L CNN
 F 4 "2k2" H 6900 2150 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6500 1670 60  0001 L CNN "Part Number"
@@ -397,7 +397,7 @@ F 30 "No" H 6500 -670 60  0001 L CNN "Socket"
 F 31 "Yes" H 6500 -760 60  0001 L CNN "SMD"
 F 32 " " H 6500 -850 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6500 -940 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6500 -1030 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6500 -1030 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6500 -1120 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6500 -1300 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6500 -1390 60  0001 L CNN "CreateDate"
@@ -408,12 +408,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R46
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R46
 U 1 1 5C5B01D9
 P 6500 2250
 F 0 "R46" H 6400 2250 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2040 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 1230 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 1230 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 1860 60  0001 L CNN
 F 4 "2k2" H 6900 2250 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6500 1770 60  0001 L CNN "Part Number"
@@ -445,7 +445,7 @@ F 30 "No" H 6500 -570 60  0001 L CNN "Socket"
 F 31 "Yes" H 6500 -660 60  0001 L CNN "SMD"
 F 32 " " H 6500 -750 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6500 -840 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6500 -930 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6500 -930 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6500 -1020 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6500 -1200 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6500 -1290 60  0001 L CNN "CreateDate"
@@ -456,12 +456,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R47
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R47
 U 1 1 5C5B20E3
 P 6500 2350
 F 0 "R47" H 6400 2350 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2140 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 1330 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 1330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 1960 60  0001 L CNN
 F 4 "2k2" H 6900 2350 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6500 1870 60  0001 L CNN "Part Number"
@@ -493,7 +493,7 @@ F 30 "No" H 6500 -470 60  0001 L CNN "Socket"
 F 31 "Yes" H 6500 -560 60  0001 L CNN "SMD"
 F 32 " " H 6500 -650 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6500 -740 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6500 -830 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6500 -830 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6500 -920 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6500 -1100 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6500 -1190 60  0001 L CNN "CreateDate"
@@ -504,12 +504,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R48
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R48
 U 1 1 5C5B3FEA
 P 6500 2450
 F 0 "R48" H 6400 2450 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2240 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 1430 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 1430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 2060 60  0001 L CNN
 F 4 "2k2" H 6900 2450 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6500 1970 60  0001 L CNN "Part Number"
@@ -541,7 +541,7 @@ F 30 "No" H 6500 -370 60  0001 L CNN "Socket"
 F 31 "Yes" H 6500 -460 60  0001 L CNN "SMD"
 F 32 " " H 6500 -550 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6500 -640 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6500 -730 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6500 -730 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6500 -820 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6500 -1000 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6500 -1090 60  0001 L CNN "CreateDate"
@@ -552,12 +552,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R49
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R49
 U 1 1 5C5B5EF0
 P 6000 2550
 F 0 "R49" H 5900 2550 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2340 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 1530 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 1530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2160 60  0001 L CNN
 F 4 "2k2" H 6400 2550 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2070 60  0001 L CNN "Part Number"
@@ -589,7 +589,7 @@ F 30 "No" H 6000 -270 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -360 60  0001 L CNN "SMD"
 F 32 " " H 6000 -450 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -540 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6000 -630 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6000 -630 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -720 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6000 -900 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6000 -990 60  0001 L CNN "CreateDate"
@@ -600,12 +600,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R50
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R50
 U 1 1 5C5B7DF9
 P 6000 2650
 F 0 "R50" H 5900 2650 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2440 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 1630 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 1630 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2260 60  0001 L CNN
 F 4 "2k2" H 6400 2650 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2170 60  0001 L CNN "Part Number"
@@ -637,7 +637,7 @@ F 30 "No" H 6000 -170 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 -260 60  0001 L CNN "SMD"
 F 32 " " H 6000 -350 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -440 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6000 -530 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6000 -530 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -620 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6000 -800 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6000 -890 60  0001 L CNN "CreateDate"
@@ -648,12 +648,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R51
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R51
 U 1 1 5C5B9D07
 P 6500 2750
 F 0 "R51" H 6400 2750 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2540 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 1730 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 1730 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 2360 60  0001 L CNN
 F 4 "2k2" H 6900 2750 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2270 60  0001 L CNN "Part Number"
@@ -685,7 +685,7 @@ F 30 "No" H 6500 -70 60  0001 L CNN "Socket"
 F 31 "Yes" H 6500 -160 60  0001 L CNN "SMD"
 F 32 " " H 6500 -250 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6500 -340 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6500 -430 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6500 -430 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6500 -520 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6500 -700 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6500 -790 60  0001 L CNN "CreateDate"
@@ -696,12 +696,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R52
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R52
 U 1 1 5C5BBC14
 P 6500 2850
 F 0 "R52" H 6400 2850 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2640 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 1830 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 1830 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 2460 60  0001 L CNN
 F 4 "2k2" H 6900 2850 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2370 60  0001 L CNN "Part Number"
@@ -733,7 +733,7 @@ F 30 "No" H 6500 30  60  0001 L CNN "Socket"
 F 31 "Yes" H 6500 -60 60  0001 L CNN "SMD"
 F 32 " " H 6500 -150 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6500 -240 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6500 -330 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6500 -330 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6500 -420 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6500 -600 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6500 -690 60  0001 L CNN "CreateDate"
@@ -744,12 +744,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R53
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R53
 U 1 1 5C5BDB24
 P 6000 2950
 F 0 "R53" H 5900 2950 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2740 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 1930 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 1930 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2560 60  0001 L CNN
 F 4 "2k2" H 6400 2950 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2470 60  0001 L CNN "Part Number"
@@ -781,7 +781,7 @@ F 30 "No" H 6000 130 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 40  60  0001 L CNN "SMD"
 F 32 " " H 6000 -50 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -140 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6000 -230 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6000 -230 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -320 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6000 -500 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6000 -590 60  0001 L CNN "CreateDate"
@@ -792,12 +792,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R54
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R54
 U 1 1 5C5BFA31
 P 6000 3050
 F 0 "R54" H 5900 3050 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2840 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 2030 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 2030 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2660 60  0001 L CNN
 F 4 "2k2" H 6400 3050 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2570 60  0001 L CNN "Part Number"
@@ -829,7 +829,7 @@ F 30 "No" H 6000 230 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 140 60  0001 L CNN "SMD"
 F 32 " " H 6000 50  60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 -40 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6000 -130 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6000 -130 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -220 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6000 -400 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6000 -490 60  0001 L CNN "CreateDate"
@@ -840,12 +840,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R55
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R55
 U 1 1 5C5C193D
 P 6000 3150
 F 0 "R55" H 5900 3150 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2940 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 2130 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 2130 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2760 60  0001 L CNN
 F 4 "2k2" H 6400 3150 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2670 60  0001 L CNN "Part Number"
@@ -877,7 +877,7 @@ F 30 "No" H 6000 330 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 240 60  0001 L CNN "SMD"
 F 32 " " H 6000 150 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 60  60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6000 -30 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6000 -30 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 -120 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6000 -300 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6000 -390 60  0001 L CNN "CreateDate"
@@ -888,12 +888,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R56
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R56
 U 1 1 5C5C384C
 P 6000 3250
 F 0 "R56" H 5900 3250 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3040 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 2230 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 2230 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 2860 60  0001 L CNN
 F 4 "2k2" H 6400 3250 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6000 2770 60  0001 L CNN "Part Number"
@@ -936,12 +936,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R57
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R57
 U 1 1 5C5C575C
 P 6500 3350
 F 0 "R57" H 6400 3350 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6500 3140 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 2330 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 2330 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 2960 60  0001 L CNN
 F 4 "2k2" H 6900 3350 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2870 60  0001 L CNN "Part Number"
@@ -973,7 +973,7 @@ F 30 "No" H 6500 530 60  0001 L CNN "Socket"
 F 31 "Yes" H 6500 440 60  0001 L CNN "SMD"
 F 32 " " H 6500 350 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6500 260 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6500 170 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6500 170 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6500 80  60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6500 -100 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6500 -190 60  0001 L CNN "CreateDate"
@@ -984,12 +984,12 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R75
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R75
 U 1 1 5C5C766B
 P 6500 3450
 F 0 "R75" H 6400 3450 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6500 3240 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6500 2430 60  0001 L CNN
+F 2 "RESC1005X40N" H 6500 2430 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6500 3060 60  0001 L CNN
 F 4 "2k2" H 6900 3450 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6500 2970 60  0001 L CNN "Part Number"
@@ -1021,7 +1021,7 @@ F 30 "No" H 6500 630 60  0001 L CNN "Socket"
 F 31 "Yes" H 6500 540 60  0001 L CNN "SMD"
 F 32 " " H 6500 450 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6500 360 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6500 270 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6500 270 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6500 180 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6500 0   60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6500 -90 60  0001 L CNN "CreateDate"
@@ -1419,12 +1419,12 @@ Wire Wire Line
 Wire Wire Line
 	6000 3550 6000 3600
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R91
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R91
 U 1 1 5C5CB48E
 P 6000 3650
 F 0 "R91" H 5900 3650 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3440 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 2630 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 2630 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 3260 60  0001 L CNN
 F 4 "2k2" H 6400 3650 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3170 60  0001 L CNN "Part Number"
@@ -1456,7 +1456,7 @@ F 30 "No" H 6000 830 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 740 60  0001 L CNN "SMD"
 F 32 " " H 6000 650 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 560 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6000 470 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6000 470 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 380 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6000 200 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6000 110 60  0001 L CNN "CreateDate"
@@ -1470,12 +1470,12 @@ Wire Wire Line
 	6300 3550 6300 3650
 Connection ~ 6300 3550
 $Comp
-L Resistors_SMD:R0402_22K_1%_0.0625W_100PPM R83
+L Resistors_SMD:R0402_2K2_1%_0.0625W_100PPM R83
 U 1 1 5C5C957B
 P 6000 3550
 F 0 "R83" H 5900 3550 50  0000 C CNN
 F 1 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3340 60  0001 L CNN
-F 2 "Resistors SMD:RESC1005X40N" H 6000 2530 60  0001 L CNN
+F 2 "RESC1005X40N" H 6000 2530 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" H 6000 3160 60  0001 L CNN
 F 4 "2k2" H 6400 3550 50  0000 C CNN "~"
 F 5 "R0402_2K2_1%_0.0625W_100PPM" H 6000 3070 60  0001 L CNN "Part Number"
@@ -1507,7 +1507,7 @@ F 30 "No" H 6000 730 60  0001 L CNN "Socket"
 F 31 "Yes" H 6000 640 60  0001 L CNN "SMD"
 F 32 " " H 6000 550 60  0001 L CNN "ComponentHeight"
 F 33 "YAGEO PHYCOMP" H 6000 460 60  0001 L CNN "Manufacturer1 Example"
-F 34 "" H 6000 370 60  0001 L CNN "Manufacturer1 Part Number"
+F 34 "232270672202L" H 6000 370 60  0001 L CNN "Manufacturer1 Part Number"
 F 35 "0.4mm" H 6000 280 60  0001 L CNN "Manufacturer1 ComponentHeight"
 F 36 "CERN DEM JLC" H 6000 100 60  0001 L CNN "Author"
 F 37 "12/03/07 00:00:00" H 6000 10  60  0001 L CNN "CreateDate"
