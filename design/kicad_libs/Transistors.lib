@@ -135,25 +135,25 @@ X B 5 0 0 90 R 0 0 2 1 P
 ENDDRAW
 ENDDEF
 #
-# BSS138LT1G
+# BSS138L
 #
-DEF BSS138LT1G T 0 50 Y Y 1 L N
+DEF BSS138L T 0 50 Y Y 1 L N
 F0 "T" 150 200 50 H V R CNN
-F1 "BSS138LT1G" 0 -295 50 H I L CNN
+F1 "BSS138L" 0 -295 50 H I L CNN
 F2 "ICs And Semiconductors SMD:SOT95P240X110-3N" 0 -370 50 H I L CNN
 F3 " " 0 -445 50 H I L CNN
-F4 "BSS138LT1G" 0 -520 50 H I L CNN "Part Number"
+F4 "BSS138L" 0 -520 50 H I L CNN "Part Number"
 F5 "N-MOSFET-D 1G 2S 3D" 0 -595 50 H I L CNN "Library Ref"
 F6 "SchLib\\Transistors.SchLib" 0 -670 50 H I L CNN "Library Path"
-F7 "BSS138LT1G" 0 -745 50 H I L CNN "Comment"
+F7 "BSS138L" 0 -745 50 H I L CNN "Comment"
 F8 "Standard" 0 -820 50 H I L CNN "Component Kind"
 F9 "Standard" 0 -895 50 H I L CNN "Component Type"
-F10 "BSS138LT1G" 0 -970 50 H I L CNN "Device"
+F10 "BSS138L" 0 -970 50 H I L CNN "Device"
 F11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" 0 -1045 50 H I L CNN "PackageDescription"
 F12 " " 0 -1120 50 H I L CNN "Status"
 F13 "50V 200mA N-Channel Enhancement Mode Field-Effect Transistor" 0 -1195 50 H I L CNN "Part Description"
-F14 "ON SEMICONDUCTOR" 0 -1270 50 H I L CNN "Manufacturer"
-F15 "BSS138LT1G" 0 -1345 50 H I L CNN "Manufacturer Part Number"
+F14 "ONSEMI" 0 -1270 50 H I L CNN "Manufacturer"
+F15 "BSS138L" 0 -1345 50 H I L CNN "Manufacturer Part Number"
 F16 "3" 0 -1420 50 H I L CNN "Pin Count"
 F17 "SOT23-3" 0 -1495 50 H I L CNN "Case"
 F18 "Yes" 0 -1570 50 H I L CNN "Mounted"

@@ -104,25 +104,25 @@ X DVDD 6 1400 -800 200 L 60 60 2 1 W
 ENDDRAW
 ENDDEF
 #
-# AD5662BRMZ-1
+# DAC8550IDGK
 #
-DEF AD5662BRMZ-1 IC 0 50 Y Y 1 L N
+DEF DAC8550IDGK IC 0 50 Y Y 1 L N
 F0 "IC" 350 50 50 H V C CNN
-F1 "AD5662BRMZ-1" 0 -775 50 H I L CNN
+F1 "DAC8550IDGK" 0 -775 50 H I L CNN
 F2 "ICs And Semiconductors SMD:SOP65P490X110-8N" 0 -850 50 H I L CNN
 F3 " " 0 -925 50 H I L CNN
-F4 "AD5662BRMZ-1" 0 -1000 50 H I L CNN "Part Number"
-F5 "AD5662" 0 -1075 50 H I L CNN "Library Ref"
+F4 "DAC8550IDGK" 0 -1000 50 H I L CNN "Part Number"
+F5 "DAC8550" 0 -1075 50 H I L CNN "Library Ref"
 F6 "SchLib\\Analog & Interface.SchLib" 0 -1150 50 H I L CNN "Library Path"
-F7 "AD5662BRMZ-1" 0 -1225 50 H I L CNN "Comment"
+F7 "DAC8550IDGK" 0 -1225 50 H I L CNN "Comment"
 F8 "Standard" 0 -1300 50 H I L CNN "Component Kind"
 F9 "Standard" 0 -1375 50 H I L CNN "Component Type"
-F10 "AD5662BRMZ-1" 0 -1450 50 H I L CNN "Device"
+F10 "DAC8550IDGK" 0 -1450 50 H I L CNN "Device"
 F11 "SOP, 0.65mm, Pitch; 8 Pin, 3.0mm W X 3.0mm L X 1.10mm H Body, IPC Medium Density" 0 -1525 50 H I L CNN "PackageDescription"
 F12 " " 0 -1600 50 H I L CNN "Status"
 F13 "2.7V to 5.5V, 250uA, Rail-to-Rail Output 16-Bit nanoDAC" 0 -1675 50 H I L CNN "Part Description"
-F14 "ANALOG DEVICES" 0 -1750 50 H I L CNN "Manufacturer"
-F15 "AD5662BRMZ-1" 0 -1825 50 H I L CNN "Manufacturer Part Number"
+F14 "TEXAS INSTRUMENTS" 0 -1750 50 H I L CNN "Manufacturer"
+F15 "DAC8550IDGK" 0 -1825 50 H I L CNN "Manufacturer Part Number"
 F16 "8" 0 -1900 50 H I L CNN "Pin Count"
 F17 "MSOP8" 0 -1975 50 H I L CNN "Case"
 F18 "Yes" 0 -2050 50 H I L CNN "Mounted"

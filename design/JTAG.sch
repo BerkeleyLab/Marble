@@ -1509,27 +1509,27 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistors:BSS138LT1G Q?
+L Transistors:BSS138L Q?
 U 1 1 5D50F1E9
 P 2000 5650
 AR Path="/5C907554/5C417BCB/5D50F1E9" Ref="Q?"  Part="1" 
 AR Path="/5CA40231/5D50F1E9" Ref="Q17"  Part="1" 
 F 0 "Q17" H 2319 5746 50  0000 L CNN
-F 1 "BSS138LT1G" H 2319 5655 50  0000 L CNN
+F 1 "BSS138L" H 2319 5655 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOT95P240X110-3N" H 2000 4440 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2000 5160 60  0001 L CNN
-F 4 "BSS138LT1G" H 2000 5070 60  0001 L CNN "Part Number"
+F 4 "BSS138L" H 2000 5070 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 2000 4980 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 2000 4890 60  0001 L CNN "Library Path"
-F 7 "BSS138LT1G" H 2000 4800 60  0001 L CNN "Comment"
+F 7 "BSS138L" H 2000 4800 60  0001 L CNN "Comment"
 F 8 "Standard" H 2000 4710 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 2000 4620 60  0001 L CNN "Component Type"
-F 10 "BSS138LT1G" H 2000 4530 60  0001 L CNN "Device"
+F 10 "BSS138L" H 2000 4530 60  0001 L CNN "Device"
 F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 2000 4350 60  0001 L CNN "PackageDescription"
 F 12 " " H 2000 4260 60  0001 L CNN "Status"
 F 13 "50V 200mA N-Channel Enhancement Mode Field-Effect Transistor" H 2000 4170 60  0001 L CNN "Part Description"
-F 14 "ON SEMICONDUCTOR" H 2000 4080 60  0001 L CNN "Manufacturer"
-F 15 "BSS138LT1G" H 2000 3990 60  0001 L CNN "Manufacturer Part Number"
+F 14 "ONSEMI" H 2000 4080 60  0001 L CNN "Manufacturer"
+F 15 "BSS138L" H 2000 3990 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 2000 3900 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 2000 3810 60  0001 L CNN "Case"
 F 18 "Yes" H 2000 3720 60  0001 L CNN "Mounted"
@@ -1735,27 +1735,27 @@ Wire Wire Line
 Wire Wire Line
 	2300 5650 2700 5650
 $Comp
-L Transistors:BSS138LT1G Q?
+L Transistors:BSS138L Q?
 U 1 1 5D1CAAEE
 P 2450 6450
 AR Path="/5C907554/5C417BCB/5D1CAAEE" Ref="Q?"  Part="1" 
 AR Path="/5CA40231/5D1CAAEE" Ref="Q5"  Part="1" 
 F 0 "Q5" H 2769 6546 50  0000 L CNN
-F 1 "BSS138LT1G" H 2769 6455 50  0000 L CNN
+F 1 "BSS138L" H 2769 6455 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOT95P240X110-3N" H 2450 5240 60  0001 L CNN
 F 3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf" H 2450 5960 60  0001 L CNN
-F 4 "BSS138LT1G" H 2450 5870 60  0001 L CNN "Part Number"
+F 4 "BSS138L" H 2450 5870 60  0001 L CNN "Part Number"
 F 5 "N-MOSFET-D 1G 2S 3D" H 2450 5780 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Transistors.SchLib" H 2450 5690 60  0001 L CNN "Library Path"
-F 7 "BSS138LT1G" H 2450 5600 60  0001 L CNN "Comment"
+F 7 "BSS138L" H 2450 5600 60  0001 L CNN "Comment"
 F 8 "Standard" H 2450 5510 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 2450 5420 60  0001 L CNN "Component Type"
-F 10 "BSS138LT1G" H 2450 5330 60  0001 L CNN "Device"
+F 10 "BSS138L" H 2450 5330 60  0001 L CNN "Device"
 F 11 "SOT23 3-Leads, Pitch 0.95mm - Body 1.4x3mm, IPC Medium Density" H 2450 5150 60  0001 L CNN "PackageDescription"
 F 12 " " H 2450 5060 60  0001 L CNN "Status"
 F 13 "50V 200mA N-Channel Enhancement Mode Field-Effect Transistor" H 2450 4970 60  0001 L CNN "Part Description"
-F 14 "ON SEMICONDUCTOR" H 2450 4880 60  0001 L CNN "Manufacturer"
-F 15 "BSS138LT1G" H 2450 4790 60  0001 L CNN "Manufacturer Part Number"
+F 14 "ONSEMI" H 2450 4880 60  0001 L CNN "Manufacturer"
+F 15 "BSS138L" H 2450 4790 60  0001 L CNN "Manufacturer Part Number"
 F 16 "3" H 2450 4700 60  0001 L CNN "Pin Count"
 F 17 "SOT23-3" H 2450 4610 60  0001 L CNN "Case"
 F 18 "Yes" H 2450 4520 60  0001 L CNN "Mounted"
