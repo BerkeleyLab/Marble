@@ -623,25 +623,25 @@ EN_CON_JTAG_R
 Text HLabel 8850 9450 2    50   Input ~ 10
 EN_USB_JTAG
 $Comp
-L Analog_&_Interface:PCA9555AHF U39
+L Analog_&_Interface:PCAL9555AHF U39
 U 1 1 5D0D4F3C
 P 7400 8850
 F 0 "U39" H 7800 9015 50  0000 C CNN
-F 1 "PCA9555AHF,128" H 7800 8924 50  0000 C CNN
+F 1 "PCAL9555AHF" H 7800 8924 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:QFN50P400X400X80-25N-S225" H 7400 5960 60  0001 L CNN
 F 3 "" H 7400 6680 60  0001 L CNN
-F 4 "PCA9555AHF,128" H 7400 6590 60  0001 L CNN "Part Number"
-F 5 "PCA9555AHF" H 7400 6500 60  0001 L CNN "Library Ref"
+F 4 "PCAL9555AHF" H 7400 6590 60  0001 L CNN "Part Number"
+F 5 "PCAL9555AHF" H 7400 6500 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 7400 6410 60  0001 L CNN "Library Path"
 F 7 "=Device" H 7400 6320 60  0001 L CNN "Comment"
 F 8 "Standard" H 7400 6230 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 7400 6140 60  0001 L CNN "Component Type"
-F 10 "PCA9555AHF,128" H 7400 6050 60  0001 L CNN "Device"
+F 10 "PCAL9555AHF" H 7400 6050 60  0001 L CNN "Device"
 F 11 "QFN,0.50mm pitch,square;6 pin X 6 pin,4.10mm X 4.10mm body (w/thermal tab 2.25 X 2.25 mm), IPC Medium Density" H 7400 5870 60  0001 L CNN "PackageDescription"
 F 12 " " H 7400 5780 60  0001 L CNN "Status"
 F 13 "Low-Voltage 16-Bit I2C-bus I/O Port With Interrupt and Weak Pull-Up" H 7400 5690 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 7400 5600 60  0001 L CNN "Manufacturer"
-F 15 "PCA9555AHF,128 or PCAL9555AHF,128 or CAT9555HV6 or CAT9555HT6" H 7400 5510 60  0001 L CNN "Manufacturer Part Number"
+F 15 "PCAL9555AHF" H 7400 5510 60  0001 L CNN "Manufacturer Part Number"
 F 16 "25" H 7400 5420 60  0001 L CNN "Pin Count"
 F 17 "QFN24" H 7400 5330 60  0001 L CNN "Case"
 F 18 "Yes" H 7400 5240 60  0001 L CNN "Mounted"
@@ -671,25 +671,25 @@ Connection ~ 7200 10550
 Wire Wire Line
 	7200 10550 7200 10600
 $Comp
-L Analog_&_Interface:PCA9555AHF U34
+L Analog_&_Interface:PCAL9555AHF U34
 U 1 1 5D17325E
 P 2650 8850
 F 0 "U34" H 3050 9015 50  0000 C CNN
-F 1 "PCA9555AHF,128" H 3050 8924 50  0000 C CNN
+F 1 "PCAL9555AHF" H 3050 8924 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:QFN50P400X400X80-25N-S225" H 2650 5960 60  0001 L CNN
 F 3 "" H 2650 6680 60  0001 L CNN
-F 4 "PCA9555AHF,128" H 2650 6590 60  0001 L CNN "Part Number"
-F 5 "PCA9555AHF" H 2650 6500 60  0001 L CNN "Library Ref"
+F 4 "PCAL9555AHF" H 2650 6590 60  0001 L CNN "Part Number"
+F 5 "PCAL9555AHF" H 2650 6500 60  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 2650 6410 60  0001 L CNN "Library Path"
 F 7 "=Device" H 2650 6320 60  0001 L CNN "Comment"
 F 8 "Standard" H 2650 6230 60  0001 L CNN "Component Kind"
 F 9 "Standard" H 2650 6140 60  0001 L CNN "Component Type"
-F 10 "PCA9555AHF,128" H 2650 6050 60  0001 L CNN "Device"
+F 10 "PCAL9555AHF" H 2650 6050 60  0001 L CNN "Device"
 F 11 "QFN,0.50mm pitch,square;6 pin X 6 pin,4.10mm X 4.10mm body (w/thermal tab 2.25 X 2.25 mm), IPC Medium Density" H 2650 5870 60  0001 L CNN "PackageDescription"
 F 12 " " H 2650 5780 60  0001 L CNN "Status"
 F 13 "Low-Voltage 16-Bit I2C-bus I/O Port With Interrupt and Weak Pull-Up" H 2650 5690 60  0001 L CNN "Part Description"
 F 14 "NXP SEMICONDUCTORS" H 2650 5600 60  0001 L CNN "Manufacturer"
-F 15 "PCA9555AHF,128 or PCAL9555AHF,128 or CAT9555HV6 or CAT9555HT6" H 2650 5510 60  0001 L CNN "Manufacturer Part Number"
+F 15 "PCAL9555AHF" H 2650 5510 60  0001 L CNN "Manufacturer Part Number"
 F 16 "25" H 2650 5420 60  0001 L CNN "Pin Count"
 F 17 "QFN24" H 2650 5330 60  0001 L CNN "Case"
 F 18 "Yes" H 2650 5240 60  0001 L CNN "Mounted"

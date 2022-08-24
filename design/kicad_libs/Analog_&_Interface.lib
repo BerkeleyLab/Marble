@@ -501,25 +501,25 @@ X VOUT 5 700 200 200 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
-# PCA9555AHF
+# PCAL9555AHF
 #
-DEF PCA9555AHF IC 0 50 Y Y 1 L N
+DEF PCAL9555AHF IC 0 50 Y Y 1 L N
 F0 "IC" 400 50 50 H V C CNN
-F1 "PCA9555AHF" 0 -1975 50 H I L CNN
+F1 "PCAL9555AHF" 0 -1975 50 H I L CNN
 F2 "ICs And Semiconductors SMD:QFN50P400X400X80-25N-S225" 0 -2050 50 H I L CNN
 F3 " " 0 -2125 50 H I L CNN
-F4 "PCA9555AHF" 0 -2200 50 H I L CNN "Part Number"
-F5 "PCA9555AHF" 0 -2275 50 H I L CNN "Library Ref"
+F4 "PCAL9555AHF" 0 -2200 50 H I L CNN "Part Number"
+F5 "PCAL9555AHF" 0 -2275 50 H I L CNN "Library Ref"
 F6 "SchLib\\Analog & Interface.SchLib" 0 -2350 50 H I L CNN "Library Path"
-F7 "PCA9555AHF" 0 -2425 50 H I L CNN "Comment"
+F7 "PCAL9555AHF" 0 -2425 50 H I L CNN "Comment"
 F8 "Standard" 0 -2500 50 H I L CNN "Component Kind"
 F9 "Standard" 0 -2575 50 H I L CNN "Component Type"
-F10 "PCA9555AHF" 0 -2650 50 H I L CNN "Device"
+F10 "PCAL9555AHF" 0 -2650 50 H I L CNN "Device"
 F11 "QFN,0.50mm pitch,square;6 pin X 6 pin,4.10mm X 4.10mm body (w/thermal tab 2.25 X 2.25 mm), IPC Medium Density" 0 -2725 50 H I L CNN "PackageDescription"
 F12 " " 0 -2800 50 H I L CNN "Status"
 F13 "Low-Voltage 16-Bit I2C-bus I/O Port With Interrupt and Weak Pull-Up" 0 -2875 50 H I L CNN "Part Description"
 F14 "NXP SEMICONDUCTORS" 0 -2950 50 H I L CNN "Manufacturer"
-F15 "PCA9555AHF" 0 -3025 50 H I L CNN "Manufacturer Part Number"
+F15 "PCAL9555AHF" 0 -3025 50 H I L CNN "Manufacturer Part Number"
 F16 "25" 0 -3100 50 H I L CNN "Pin Count"
 F17 "QFN24" 0 -3175 50 H I L CNN "Case"
 F18 "Yes" 0 -3250 50 H I L CNN "Mounted"
