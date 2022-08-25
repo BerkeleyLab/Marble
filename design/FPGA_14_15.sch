@@ -48,27 +48,27 @@ Wire Wire Line
 Wire Wire Line
 	6900 2300 6900 2200
 $Comp
-L marble_misc:S25FL128SAGMFIR01 U30
+L marble_misc:S25FL128S U30
 U 1 1 5C40DA57
 P 13400 850
 F 0 "U30" H 13700 1017 50  0000 C CNN
-F 1 "S25FL128SAGMFIR01" H 13700 926 50  0000 C CNN
+F 1 "S25FL128S" H 13700 926 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOIC127P1030X265-16N" H 13400 850 50  0001 C CNN
 F 3 "" H 13400 850 50  0001 C CNN
 F 4 "INFINEON" H 13400 850 50  0001 C CNN "Manufacturer"
-F 5 "S25FL128SAGMFIR01 or S25FL128SDPMFV000" H 13400 850 50  0001 C CNN "Manufacturer Part Number"
+F 5 "S25FL128SAGMFBR00" H 13400 850 50  0001 C CNN "Manufacturer Part Number"
 	1    13400 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L marble_misc:S25FL128SAGMFIR01 U30
+L marble_misc:S25FL128S U30
 U 2 1 5C40DA9C
 P 14700 850
 F 0 "U30" H 15000 1017 50  0000 C CNN
-F 1 "S25FL128SAGMFIR01" H 15000 926 50  0000 C CNN
+F 1 "S25FL128S" H 15000 926 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOIC127P1030X265-16N" H 14700 850 50  0001 C CNN
 F 3 "" H 14700 850 50  0001 C CNN
-F 4 "S25FL128SAGMFIR01 or S25FL128SDPMFV000" H 14700 850 50  0001 C CNN "Manufacturer Part Number"
+F 4 "S25FL128SAGMFBR00" H 14700 850 50  0001 C CNN "Manufacturer Part Number"
 F 5 "INFINEON" H 14700 850 50  0001 C CNN "Manufacturer"
 	2    14700 850 
 	1    0    0    -1  
@@ -2434,6 +2434,8 @@ Text HLabel 3950 3500 2    50   Output ~ 10
 I2C_Repeaters_RST
 Wire Wire Line
 	3950 3500 3900 3500
+Text Notes 14250 1850 0    50   ~ 0
+Note: It's important to use a flash chip with\na full part number (like S25FL128SAGMFIR01)\nthat has an "R" in the third-to-last slot,\nto get VIO support. See chapter 12 of the\ndata sheet, "Ordering Information".
 Wire Bus Line
 	14750 7100 14750 7850
 $EndSCHEMATC
