@@ -19,7 +19,7 @@ Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
 similar to the AMC double-width standard.
 
 - PCB Material: FR4
-- Soldermask color: Red
+- Soldermask color: Black
 - Silkscreen color: White
 - Copper weight for inner layers is 0.5 oz and for outer layers is 1oz + 0.5oz = 1.5oz
 
