@@ -1222,10 +1222,10 @@ AR Path="/5BCEDA2C/62DD2CAE" Ref="IC?"  Part="1"
 AR Path="/5C907554/62DD2CAE" Ref="IC?"  Part="1" 
 AR Path="/5C907554/5C721515/62DD2CAE" Ref="U42"  Part="1" 
 F 0 "U42" H 3900 5915 50  0000 C CNN
-F 1 "TXB0108PW" H 3900 5824 50  0000 C CNN
+F 1 "TXS0108E" H 3900 5824 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P640X120-20N" H 3600 3400 50  0001 L CNN
 F 3 " " H 3600 3325 50  0001 L CNN
-F 4 "TXB0108PW" H 3600 3250 50  0001 L CNN "Part Number"
+F 4 "TXS0108E" H 3600 3250 50  0001 L CNN "Part Number"
 F 5 "TXB0108PW" H 3600 3175 50  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 3600 3100 50  0001 L CNN "Library Path"
 F 7 "TXB0108PW" H 3600 3025 50  0001 L CNN "Comment"
@@ -1236,7 +1236,7 @@ F 11 "SOP, 20-Leads, Body 6.5x4.4mm, Pitch 0.65mm, IPC Medium Density" H 3600 27
 F 12 " " H 3600 2650 50  0001 L CNN "Status"
 F 13 "8-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" H 3600 2575 50  0001 L CNN "Part Description"
 F 14 "TEXAS INSTRUMENTS" H 3600 2500 50  0001 L CNN "Manufacturer"
-F 15 "TXB0108PWR" H 3600 2425 50  0001 L CNN "Manufacturer Part Number"
+F 15 "TXS0108E" H 3600 2425 50  0001 L CNN "Manufacturer Part Number"
 F 16 "20" H 3600 2350 50  0001 L CNN "Pin Count"
 F 17 "TSSOP20" H 3600 2275 50  0001 L CNN "Case"
 F 18 "Yes" H 3600 2200 50  0001 L CNN "Mounted"

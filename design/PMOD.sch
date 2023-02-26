@@ -968,10 +968,10 @@ L Analog_&_Interface:TXB0108PW U3
 U 1 1 5F81323C
 P 3050 1100
 F 0 "U3" H 3350 1265 50  0000 C CNN
-F 1 "TXB0108PW" H 3350 1174 50  0000 C CNN
+F 1 "TXS0108E" H 3350 1174 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P640X120-20N" H 3050 -1250 50  0001 L CNN
 F 3 " " H 3050 -1325 50  0001 L CNN
-F 4 "TXB0108PW" H 3050 -1400 50  0001 L CNN "Part Number"
+F 4 "TXS0108E" H 3050 -1400 50  0001 L CNN "Part Number"
 F 5 "TXB0108PW" H 3050 -1475 50  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 3050 -1550 50  0001 L CNN "Library Path"
 F 7 "TXB0108PW" H 3050 -1625 50  0001 L CNN "Comment"
@@ -982,7 +982,7 @@ F 11 "SOP, 20-Leads, Body 6.5x4.4mm, Pitch 0.65mm, IPC Medium Density" H 3050 -1
 F 12 " " H 3050 -2000 50  0001 L CNN "Status"
 F 13 "8-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" H 3050 -2075 50  0001 L CNN "Part Description"
 F 14 "TEXAS INSTRUMENTS" H 3050 -2150 50  0001 L CNN "Manufacturer"
-F 15 "TXB0108PWR" H 3050 -2225 50  0001 L CNN "Manufacturer Part Number"
+F 15 "TXS0108E" H 3050 -2225 50  0001 L CNN "Manufacturer Part Number"
 F 16 "20" H 3050 -2300 50  0001 L CNN "Pin Count"
 F 17 "TSSOP20" H 3050 -2375 50  0001 L CNN "Case"
 F 18 "Yes" H 3050 -2450 50  0001 L CNN "Mounted"
@@ -1011,10 +1011,10 @@ L Analog_&_Interface:TXB0108PW U12
 U 1 1 5F8269CE
 P 3050 4550
 F 0 "U12" H 3350 4715 50  0000 C CNN
-F 1 "TXB0108PW" H 3350 4624 50  0000 C CNN
+F 1 "TXS0108E" H 3350 4624 50  0000 C CNN
 F 2 "ICs And Semiconductors SMD:SOP65P640X120-20N" H 3050 2200 50  0001 L CNN
 F 3 " " H 3050 2125 50  0001 L CNN
-F 4 "TXB0108PW" H 3050 2050 50  0001 L CNN "Part Number"
+F 4 "TXS0108E" H 3050 2050 50  0001 L CNN "Part Number"
 F 5 "TXB0108PW" H 3050 1975 50  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 3050 1900 50  0001 L CNN "Library Path"
 F 7 "TXB0108PW" H 3050 1825 50  0001 L CNN "Comment"
@@ -1025,7 +1025,7 @@ F 11 "SOP, 20-Leads, Body 6.5x4.4mm, Pitch 0.65mm, IPC Medium Density" H 3050 15
 F 12 " " H 3050 1450 50  0001 L CNN "Status"
 F 13 "8-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" H 3050 1375 50  0001 L CNN "Part Description"
 F 14 "TEXAS INSTRUMENTS" H 3050 1300 50  0001 L CNN "Manufacturer"
-F 15 "TXB0108PWR" H 3050 1225 50  0001 L CNN "Manufacturer Part Number"
+F 15 "TXS0108E" H 3050 1225 50  0001 L CNN "Manufacturer Part Number"
 F 16 "20" H 3050 1150 50  0001 L CNN "Pin Count"
 F 17 "TSSOP20" H 3050 1075 50  0001 L CNN "Case"
 F 18 "Yes" H 3050 1000 50  0001 L CNN "Mounted"

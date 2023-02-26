@@ -2042,10 +2042,10 @@ AR Path="/5C907554/5C721515/635D324F" Ref="U?"  Part="1"
 AR Path="/5C907554/5F569040/635D324F" Ref="U?"  Part="1" 
 AR Path="/5C907554/5CC8CB69/635D324F" Ref="U53"  Part="1" 
 F 0 "U53" H 2900 5300 50  0000 C CNN
-F 1 "TXB0108PW" H 2700 5200 50  0000 L CNN
+F 1 "TXS0108E" H 2700 5200 50  0000 L CNN
 F 2 "ICs And Semiconductors SMD:SOP65P640X120-20N" H 2600 2800 50  0001 L CNN
 F 3 " " H 2600 2725 50  0001 L CNN
-F 4 "TXB0108PW" H 2600 2650 50  0001 L CNN "Part Number"
+F 4 "TXS0108E" H 2600 2650 50  0001 L CNN "Part Number"
 F 5 "TXB0108PW" H 2600 2575 50  0001 L CNN "Library Ref"
 F 6 "SchLib\\Analog & Interface.SchLib" H 2600 2500 50  0001 L CNN "Library Path"
 F 7 "TXB0108PW" H 2600 2425 50  0001 L CNN "Comment"
@@ -2056,7 +2056,7 @@ F 11 "SOP, 20-Leads, Body 6.5x4.4mm, Pitch 0.65mm, IPC Medium Density" H 2600 21
 F 12 " " H 2600 2050 50  0001 L CNN "Status"
 F 13 "8-Bit Bidirectional Voltage-Level Translator with Automatic Direction Sensing and ±15kV ESD Protection" H 2600 1975 50  0001 L CNN "Part Description"
 F 14 "TEXAS INSTRUMENTS" H 2600 1900 50  0001 L CNN "Manufacturer"
-F 15 "TXB0108PWR" H 2600 1825 50  0001 L CNN "Manufacturer Part Number"
+F 15 "TXS0108E" H 2600 1825 50  0001 L CNN "Manufacturer Part Number"
 F 16 "20" H 2600 1750 50  0001 L CNN "Pin Count"
 F 17 "TSSOP20" H 2600 1675 50  0001 L CNN "Case"
 F 18 "Yes" H 2600 1600 50  0001 L CNN "Mounted"
@@ -2080,19 +2080,19 @@ F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 	1    2600 5150
 	1    0    0    -1  
 $EndComp
-Text Label 3450 5650 0    50   ~ 10
+Text Label 3450 5450 0    50   ~ 10
 FPGA_INT_T
 Text Label 3450 6050 0    50   ~ 10
 I2C_FPGA_SW_RST_T
 Text Label 3450 5850 0    50   ~ 10
 FPGA_XR_GPIO_0_T
-Text Label 3450 5450 0    50   ~ 10
+Text Label 3450 5650 0    50   ~ 10
 EXP_INT_T
 Text Label 5700 3900 0    50   ~ 10
 I2C_FPGA_SW_RST_T
 Text Label 5700 3500 0    50   ~ 10
 FPGA_XR_GPIO_0_T
-Text Label 5700 3400 0    50   ~ 10
+Text Label 5700 3600 0    50   ~ 10
 EXP_INT_T
 Wire Wire Line
 	4200 5450 3400 5450
@@ -2106,7 +2106,7 @@ Wire Wire Line
 	6500 3900 5700 3900
 Wire Wire Line
 	5700 3500 6500 3500
-Text Label 5700 3600 0    50   ~ 10
+Text Label 5700 3400 0    50   ~ 10
 FPGA_INT_T
 Wire Wire Line
 	6500 3600 5700 3600
@@ -2118,13 +2118,13 @@ Text Label 1700 5850 0    50   ~ 10
 FPGA_XR_GPIO_0
 Wire Wire Line
 	2400 5850 1550 5850
-Text HLabel 1550 5450 0    50   Input ~ 10
-EXP_INT
-Text Label 2000 5450 2    50   ~ 10
-EXP_INT
 Text HLabel 1550 5650 0    50   Input ~ 10
+EXP_INT
+Text Label 2000 5650 2    50   ~ 10
+EXP_INT
+Text HLabel 1550 5450 0    50   Input ~ 10
 FPGA_INT
-Text Label 1700 5650 0    50   ~ 10
+Text Label 1700 5450 0    50   ~ 10
 FPGA_INT
 Text Label 1700 6050 0    50   ~ 10
 I2C_FPGA_SW_RST

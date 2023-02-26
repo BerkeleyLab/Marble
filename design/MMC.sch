@@ -242,7 +242,7 @@ Wire Wire Line
 	10500 2700 8650 2700
 Wire Wire Line
 	10500 6200 8650 6200
-Text HLabel 10500 2800 2    50   Input ~ 10
+Text HLabel 10500 2800 2    50   Output ~ 10
 MMC_CONS_PROG_TxD
 Text HLabel 10500 2900 2    50   Input ~ 10
 MMC_CONS_PROG_RxD
@@ -388,13 +388,13 @@ Text HLabel 3400 4000 2    50   Input ~ 10
 CLK_25MHZ
 Text Label 2800 4000 0    50   ~ 10
 CLK_25MHZ
-Text HLabel 9900 2400 2    50   Input ~ 10
+Text HLabel 9900 2400 2    50   Output ~ 10
 FPGA_SCK
 Text HLabel 9900 2300 2    50   Input ~ 10
 FPGA_SSEL
 Text HLabel 9900 2500 2    50   Input ~ 10
 FPGA_MISO
-Text HLabel 9900 4100 2    50   Input ~ 10
+Text HLabel 9900 4100 2    50   Output ~ 10
 FPGA_MOSI
 Wire Wire Line
 	9900 2400 8650 2400
@@ -3542,8 +3542,6 @@ NoConn ~ 8650 4400
 NoConn ~ 6850 4300
 NoConn ~ 6850 4200
 NoConn ~ 6850 4000
-NoConn ~ 8650 3100
-NoConn ~ 8650 3000
 NoConn ~ 6850 6000
 NoConn ~ 6850 6100
 NoConn ~ 8650 4000
@@ -3900,6 +3898,133 @@ Wire Notes Line
 	5650 7550 7425 7550
 Wire Notes Line
 	5650 7900 7425 7900
+$Comp
+L Connector:Conn_01x14_Male J?
+U 1 1 641AAA84
+P 10350 8800
+AR Path="/5BCEDA3D/641AAA84" Ref="J?"  Part="1" 
+AR Path="/5BCEDA39/641AAA84" Ref="J22"  Part="1" 
+F 0 "J22" H 10322 8774 50  0000 R CNN
+F 1 "Test connector " H 10322 8683 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Left" H 10350 8800 50  0001 C CNN
+F 3 "~" H 10350 8800 50  0001 C CNN
+	1    10350 8800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 8300 10150 8300
+Wire Wire Line
+	9550 8400 10150 8400
+Wire Wire Line
+	9550 8500 10150 8500
+Wire Wire Line
+	9550 8600 10150 8600
+Wire Wire Line
+	9550 8700 10150 8700
+Wire Wire Line
+	9550 8900 10150 8900
+Wire Wire Line
+	9550 9000 10150 9000
+Wire Wire Line
+	9550 9100 10150 9100
+Wire Wire Line
+	9550 9200 10150 9200
+Wire Wire Line
+	9550 9300 10150 9300
+Wire Wire Line
+	9550 9400 10150 9400
+Wire Wire Line
+	9550 9500 10150 9500
+$Comp
+L power:GND #PWR?
+U 1 1 641AAA97
+P 9450 8850
+AR Path="/5BD32060/641AAA97" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/641AAA97" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/641AAA97" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/641AAA97" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/641AAA97" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/641AAA97" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/641AAA97" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/641AAA97" Ref="#PWR0862"  Part="1" 
+F 0 "#PWR0862" H 9450 8600 50  0001 C CNN
+F 1 "GND" H 9455 8677 50  0000 C CNN
+F 2 "" H 9450 8850 50  0001 C CNN
+F 3 "" H 9450 8850 50  0001 C CNN
+	1    9450 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 8850 9450 8800
+Wire Wire Line
+	9450 8800 9550 8800
+Wire Wire Line
+	9550 8900 9550 8800
+Connection ~ 9550 8800
+Wire Wire Line
+	9550 8800 10150 8800
+$Comp
+L power:+3.3P #PWR?
+U 1 1 641D3385
+P 9450 8150
+AR Path="/5C16C03C/641D3385" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA39/641D3385" Ref="#PWR0861"  Part="1" 
+AR Path="/5C16BF8E/641D3385" Ref="#PWR?"  Part="1" 
+AR Path="/641D3385" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0861" H 9450 8000 50  0001 C CNN
+F 1 "+3.3P" H 9465 8323 50  0000 C CNN
+F 2 "" H 9450 8150 50  0001 C CNN
+F 3 "" H 9450 8150 50  0001 C CNN
+	1    9450 8150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 8200 9450 8150
+Wire Wire Line
+	9450 8200 10150 8200
+Text Label 9550 8600 0    50   ~ 10
+FPGA_MISO
+Text Label 9550 8400 0    50   ~ 10
+FPGA_SSEL
+Text Label 9550 8500 0    50   ~ 10
+FPGA_SCK
+Text Label 9550 8300 0    50   ~ 10
+FPGA_INT
+Text Label 9550 8700 0    50   ~ 10
+FPGA_MOSI
+Text Label 9550 9100 0    50   ~ 10
+I2C_PM_SDA
+Text Label 9550 9000 0    50   ~ 10
+I2C_PM_SCL
+Text Label 9550 9300 0    50   ~ 10
+I2C_FPGA_SDA
+Text Label 9550 9200 0    50   ~ 10
+I2C_FPGA_SCL
+Text Label 9600 3000 2    50   ~ 10
+MMC_CONS_CTS
+Text Label 9600 3100 2    50   ~ 10
+MMC_CONS_RTS
+Wire Wire Line
+	10500 3000 8650 3000
+Wire Wire Line
+	10500 3100 8650 3100
+Text HLabel 10500 3000 2    50   Input ~ 10
+MMC_CONS_CTS
+Text HLabel 10500 3100 2    50   Output ~ 10
+MMC_CONS_RTS
+$Comp
+L Connector:Conn_01x14_Male J?
+U 1 1 640BE295
+P 11700 8750
+AR Path="/5BCEDA3D/640BE295" Ref="J?"  Part="1" 
+AR Path="/5BCEDA39/640BE295" Ref="J21"  Part="1" 
+F 0 "J21" H 11672 8724 50  0000 R CNN
+F 1 "Test connector " H 11672 8633 50  0000 R CNN
+F 2 "Connector:Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical" H 11700 8750 50  0001 C CNN
+F 3 "~" H 11700 8750 50  0001 C CNN
+	1    11700 8750
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	9350 3500 9350 3700
 Wire Bus Line

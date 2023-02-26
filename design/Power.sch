@@ -36,19 +36,19 @@ POE_VC[1..4]
 $Comp
 L power:GND #PWR?
 U 1 1 5DAECF35
-P 1450 2150
+P 1200 2150
 AR Path="/5C16C03C/5DAECF35" Ref="#PWR?"  Part="1" 
 AR Path="/5BCEDA59/5DAECF35" Ref="#PWR?"  Part="1" 
 AR Path="/5C16BF8E/5DAECF35" Ref="#PWR0214"  Part="1" 
-F 0 "#PWR0214" H 1450 1900 50  0001 C CNN
-F 1 "GND" H 1455 1977 50  0000 C CNN
-F 2 "" H 1450 2150 50  0001 C CNN
-F 3 "" H 1450 2150 50  0001 C CNN
-	1    1450 2150
+F 0 "#PWR0214" H 1200 1900 50  0001 C CNN
+F 1 "GND" H 1205 1977 50  0000 C CNN
+F 2 "" H 1200 2150 50  0001 C CNN
+F 3 "" H 1200 2150 50  0001 C CNN
+	1    1200 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 2050 1450 2150
+	1200 2050 1200 2150
 $Sheet
 S 12400 7650 1350 1000
 U 5DB9B7E6
@@ -78,7 +78,7 @@ $EndComp
 Wire Wire Line
 	3600 2400 3600 2150
 Wire Wire Line
-	1450 1850 1900 1850
+	1200 1850 1350 1850
 Wire Wire Line
 	2850 2600 2950 2600
 $Comp
@@ -2777,44 +2777,44 @@ Wire Wire Line
 $Comp
 L Miscellaneous:CLIFF_FC68148(DC-10A) J1
 U 1 1 5CC087DA
-P 1250 1750
-F 0 "J1" H 1344 1823 50  0000 C CNN
-F 1 "CLIFF_FC68148(DC-10A)" H 1250 1260 60  0001 L CNN
-F 2 "Miscellaneous THD:CLIFF_FC68148(DC-10A)" H 1250 360 60  0001 L CNN
-F 3 "" H 1250 1080 60  0001 L CNN
-F 4 "CLIFF_FC68148(DC-10A)" H 1250 990 60  0001 L CNN "Part Number"
-F 5 "CLIFF_FC68148(DC-10A)" H 1250 900 60  0001 L CNN "Library Ref"
-F 6 "SchLib\\Connectors.SchLib" H 1250 810 60  0001 L CNN "Library Path"
-F 7 " " H 1250 720 60  0001 L CNN "Comment"
-F 8 "Standard" H 1250 630 60  0001 L CNN "Component Kind"
-F 9 "Standard" H 1250 540 60  0001 L CNN "Component Type"
-F 10 " " H 1250 450 60  0001 L CNN "Device"
-F 11 " " H 1250 270 60  0001 L CNN "PackageDescription"
-F 12 "3" H 1250 180 60  0001 L CNN "Pin Count"
-F 13 " " H 1250 90  60  0001 L CNN "Case"
-F 14 "PcbLib\\Miscellaneous THD.PcbLib" H 1250 0   60  0001 L CNN "Footprint Path"
-F 15 "CLIFF_FC68148(DC-10A)" H 1250 -90 60  0001 L CNN "Footprint Ref"
-F 16 "Jack" H 1250 -180 60  0001 L CNN "Family"
-F 17 "Yes" H 1250 -270 60  0001 L CNN "Mounted"
-F 18 "No" H 1250 -360 60  0001 L CNN "Socket"
-F 19 "No" H 1250 -450 60  0001 L CNN "PressFit"
-F 20 "No" H 1250 -540 60  0001 L CNN "SMD"
-F 21 "No" H 1250 -630 60  0001 L CNN "Sense"
-F 22 " " H 1250 -720 60  0001 L CNN "Sense Comment"
-F 23 " " H 1250 -810 60  0001 L CNN "Status Comment"
-F 24 "None" H 1250 -900 60  0001 L CNN "Status"
-F 25 "12V/5A, 2.1mm Diameter Pin, DC Power Socket With  Switch (DC10A Type)" H 1250 -1080 60  0001 L CNN "Part Description"
-F 26 "CLIFF ELECTRONIC COMPONENTS" H 1250 -1170 60  0001 L CNN "Manufacturer"
-F 27 "FC68148" H 1250 -1260 60  0001 L CNN "Manufacturer Part Number"
-F 28 "11mm" H 1250 -1350 60  0001 L CNN "ComponentHeight"
-F 29 " " H 1250 -1620 60  0001 L CNN "ComponentLink1Description"
-F 30 " " H 1250 -1800 60  0001 L CNN "ComponentLink2Description"
-F 31 "CERN DEM JLC" H 1250 -1890 60  0001 L CNN "Author"
-F 32 "11/23/10 00:00:00" H 1250 -1980 60  0001 L CNN "CreateDate"
-F 33 "11/23/10 00:00:00" H 1250 -2070 60  0001 L CNN "LatestRevisionDate"
-F 34 "Miscellaneous THD" H 1250 -2160 60  0001 L CNN "Library Name"
-F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1250 -2250 60  0001 L CNN "License"
-	1    1250 1750
+P 1000 1750
+F 0 "J1" H 1094 1823 50  0000 C CNN
+F 1 "CLIFF_FC68148(DC-10A)" H 1000 1260 60  0001 L CNN
+F 2 "Miscellaneous THD:CLIFF_FC68148(DC-10A)" H 1000 360 60  0001 L CNN
+F 3 "" H 1000 1080 60  0001 L CNN
+F 4 "CLIFF_FC68148(DC-10A)" H 1000 990 60  0001 L CNN "Part Number"
+F 5 "CLIFF_FC68148(DC-10A)" H 1000 900 60  0001 L CNN "Library Ref"
+F 6 "SchLib\\Connectors.SchLib" H 1000 810 60  0001 L CNN "Library Path"
+F 7 " " H 1000 720 60  0001 L CNN "Comment"
+F 8 "Standard" H 1000 630 60  0001 L CNN "Component Kind"
+F 9 "Standard" H 1000 540 60  0001 L CNN "Component Type"
+F 10 " " H 1000 450 60  0001 L CNN "Device"
+F 11 " " H 1000 270 60  0001 L CNN "PackageDescription"
+F 12 "3" H 1000 180 60  0001 L CNN "Pin Count"
+F 13 " " H 1000 90  60  0001 L CNN "Case"
+F 14 "PcbLib\\Miscellaneous THD.PcbLib" H 1000 0   60  0001 L CNN "Footprint Path"
+F 15 "CLIFF_FC68148(DC-10A)" H 1000 -90 60  0001 L CNN "Footprint Ref"
+F 16 "Jack" H 1000 -180 60  0001 L CNN "Family"
+F 17 "Yes" H 1000 -270 60  0001 L CNN "Mounted"
+F 18 "No" H 1000 -360 60  0001 L CNN "Socket"
+F 19 "No" H 1000 -450 60  0001 L CNN "PressFit"
+F 20 "No" H 1000 -540 60  0001 L CNN "SMD"
+F 21 "No" H 1000 -630 60  0001 L CNN "Sense"
+F 22 " " H 1000 -720 60  0001 L CNN "Sense Comment"
+F 23 " " H 1000 -810 60  0001 L CNN "Status Comment"
+F 24 "None" H 1000 -900 60  0001 L CNN "Status"
+F 25 "12V/5A, 2.1mm Diameter Pin, DC Power Socket With  Switch (DC10A Type)" H 1000 -1080 60  0001 L CNN "Part Description"
+F 26 "CLIFF ELECTRONIC COMPONENTS" H 1000 -1170 60  0001 L CNN "Manufacturer"
+F 27 "FC68148" H 1000 -1260 60  0001 L CNN "Manufacturer Part Number"
+F 28 "11mm" H 1000 -1350 60  0001 L CNN "ComponentHeight"
+F 29 " " H 1000 -1620 60  0001 L CNN "ComponentLink1Description"
+F 30 " " H 1000 -1800 60  0001 L CNN "ComponentLink2Description"
+F 31 "CERN DEM JLC" H 1000 -1890 60  0001 L CNN "Author"
+F 32 "11/23/10 00:00:00" H 1000 -1980 60  0001 L CNN "CreateDate"
+F 33 "11/23/10 00:00:00" H 1000 -2070 60  0001 L CNN "LatestRevisionDate"
+F 34 "Miscellaneous THD" H 1000 -2160 60  0001 L CNN "Library Name"
+F 35 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." H 1000 -2250 60  0001 L CNN "License"
+	1    1000 1750
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -3340,7 +3340,7 @@ F 3 "" H 6300 3900 50  0001 C CNN
 	1    6300 3900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1450 1950
+NoConn ~ 1200 1950
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5D2029CE
@@ -4682,6 +4682,35 @@ F 3 "" H 14925 6350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14925 6350 14825 6350
+$Comp
+L Diode:1.5KExxA D10
+U 1 1 64A0A5B0
+P 1350 2000
+F 0 "D10" V 1350 2050 50  0000 L CNN
+F 1 "5.0SMDJ12AS" V 1450 2050 50  0000 L CNN
+F 2 "Diode_SMD:D_SMC" H 1350 1800 50  0001 C CNN
+F 3 "" H 1300 2000 50  0001 C CNN
+F 4 "5.0SMDJ12AS" V 1350 2000 50  0001 C CNN "Part Number"
+	1    1350 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 1850 1900 1850
+Connection ~ 1350 1850
+$Comp
+L power:GND #PWR?
+U 1 1 64A3A05D
+P 1350 2150
+AR Path="/5C16C03C/64A3A05D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA59/64A3A05D" Ref="#PWR?"  Part="1" 
+AR Path="/5C16BF8E/64A3A05D" Ref="#PWR0888"  Part="1" 
+F 0 "#PWR0888" H 1350 1900 50  0001 C CNN
+F 1 "GND" H 1355 1977 50  0000 C CNN
+F 2 "" H 1350 2150 50  0001 C CNN
+F 3 "" H 1350 2150 50  0001 C CNN
+	1    1350 2150
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	2100 8250 2100 9850
 $EndSCHEMATC

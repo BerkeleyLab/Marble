@@ -1254,10 +1254,6 @@ Text Label 7000 3400 0    50   ~ 10
 I2C_APP_SCL
 Text Label 7000 3500 0    50   ~ 10
 I2C_APP_SDA
-Wire Wire Line
-	6000 3200 7850 3200
-Wire Wire Line
-	6000 3300 7850 3300
 Connection ~ 6000 3200
 Connection ~ 6000 3300
 $Comp
@@ -1329,10 +1325,6 @@ QSFP1_SCL
 Text Label 7000 3100 0    50   ~ 10
 QSFP1_SDA
 Wire Wire Line
-	6000 3000 7850 3000
-Wire Wire Line
-	6000 3100 7850 3100
-Wire Wire Line
 	6000 2950 6000 3000
 Connection ~ 6000 3000
 Wire Wire Line
@@ -1347,8 +1339,6 @@ I2C_CLK_SCL
 Text Label 7000 2700 0    50   ~ 10
 I2C_CLK_SDA
 Wire Wire Line
-	6000 2600 7850 2600
-Wire Wire Line
 	6000 2550 6000 2600
 Wire Wire Line
 	5550 2700 6000 2700
@@ -1356,8 +1346,6 @@ Connection ~ 6000 2600
 Wire Wire Line
 	6000 2650 6000 2700
 Connection ~ 6000 2700
-Wire Wire Line
-	6000 2700 7850 2700
 $Comp
 L power:+3.3P #PWR?
 U 1 1 5F60B33D
@@ -1519,12 +1507,8 @@ F 40 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To 
 $EndComp
 Connection ~ 6500 3400
 Wire Wire Line
-	6500 3400 7850 3400
-Wire Wire Line
 	5550 3400 6500 3400
 Connection ~ 6500 3500
-Wire Wire Line
-	6500 3500 7850 3500
 Wire Wire Line
 	5550 3500 6500 3500
 Wire Wire Line
@@ -1555,22 +1539,14 @@ Wire Wire Line
 	6800 3450 6800 3650
 Connection ~ 6500 2200
 Wire Wire Line
-	6500 2200 7850 2200
-Wire Wire Line
 	5550 2200 6500 2200
 Connection ~ 6500 2300
-Wire Wire Line
-	6500 2300 7850 2300
 Wire Wire Line
 	5550 2300 6500 2300
 Connection ~ 6500 2400
 Wire Wire Line
-	6500 2400 7850 2400
-Wire Wire Line
 	5550 2400 6500 2400
 Connection ~ 6500 2500
-Wire Wire Line
-	6500 2500 7850 2500
 Wire Wire Line
 	5550 2500 6500 2500
 Wire Wire Line
@@ -1603,16 +1579,8 @@ Wire Wire Line
 	6800 2850 6800 3350
 Connection ~ 6500 2800
 Wire Wire Line
-	6500 2800 7850 2800
-Wire Wire Line
-	5550 2800 6500 2800
-Wire Wire Line
 	6300 2650 6300 2950
 Connection ~ 6500 2900
-Wire Wire Line
-	6500 2900 7850 2900
-Wire Wire Line
-	5550 2900 6500 2900
 $Bitmap
 Pos 3750 6050
 Scale 1.000000
@@ -2787,4 +2755,124 @@ A7 ED 62 AA 5F A6 7A 7B AC 81 00 00 00 00 AC 56 12 98 00 00 00 00 00 00 C0 40 24
 0F D6 FF 01 21 15 D2 7D 9D 29 4F 74 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Wire Wire Line
+	5550 2900 6500 2900
+Wire Wire Line
+	5550 2800 6500 2800
+Wire Wire Line
+	6500 3500 7850 3500
+Wire Wire Line
+	6500 3400 7850 3400
+Wire Wire Line
+	6000 3300 7850 3300
+Wire Wire Line
+	6000 3200 7850 3200
+Wire Wire Line
+	6000 3100 7850 3100
+Wire Wire Line
+	6000 3000 7850 3000
+Wire Wire Line
+	6500 2900 7850 2900
+Wire Wire Line
+	6500 2800 7850 2800
+Wire Wire Line
+	6000 2700 7850 2700
+Wire Wire Line
+	6000 2600 7850 2600
+Wire Wire Line
+	6500 2500 7850 2500
+Wire Wire Line
+	6500 2400 7850 2400
+Wire Wire Line
+	6500 2300 7850 2300
+Wire Wire Line
+	6500 2200 7850 2200
+Text Label 6550 4250 0    50   ~ 10
+I2C_FMC1_SCL
+Text Label 6550 4350 0    50   ~ 10
+I2C_FMC1_SDA
+Text Label 6550 4450 0    50   ~ 10
+I2C_FMC2_SCL
+Text Label 6550 4550 0    50   ~ 10
+I2C_FMC2_SDA
+Text Label 6550 5250 0    50   ~ 10
+QSFP2_SCL
+Text Label 6550 5350 0    50   ~ 10
+QSFP2_SDA
+Text Label 6550 5450 0    50   ~ 10
+I2C_APP_SCL
+Text Label 6550 5550 0    50   ~ 10
+I2C_APP_SDA
+Text Label 6550 5050 0    50   ~ 10
+QSFP1_SCL
+Text Label 6550 5150 0    50   ~ 10
+QSFP1_SDA
+Text Label 6550 4650 0    50   ~ 10
+I2C_CLK_SCL
+Text Label 6550 4750 0    50   ~ 10
+I2C_CLK_SDA
+$Comp
+L Connector:Conn_01x14_Male J20
+U 1 1 63F08CEE
+P 7350 4850
+F 0 "J20" H 7322 4824 50  0000 R CNN
+F 1 "Test connector " H 7322 4733 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 7350 4850 50  0001 C CNN
+F 3 "~" H 7350 4850 50  0001 C CNN
+	1    7350 4850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4250 7150 4250
+Wire Wire Line
+	6550 4350 7150 4350
+Wire Wire Line
+	6550 4450 7150 4450
+Wire Wire Line
+	6550 4550 7150 4550
+Wire Wire Line
+	6550 4650 7150 4650
+Wire Wire Line
+	6550 4750 7150 4750
+Wire Wire Line
+	6550 4950 7150 4950
+Wire Wire Line
+	6550 5050 7150 5050
+Wire Wire Line
+	6550 5150 7150 5150
+Wire Wire Line
+	6550 5250 7150 5250
+Wire Wire Line
+	6550 5350 7150 5350
+Wire Wire Line
+	6550 5450 7150 5450
+Wire Wire Line
+	6550 5550 7150 5550
+$Comp
+L power:GND #PWR?
+U 1 1 64184CBE
+P 6450 4900
+AR Path="/5BD32060/64184CBE" Ref="#PWR?"  Part="1" 
+AR Path="/5BABAC65/64184CBE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC24E97/64184CBE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC393D3/64184CBE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC6DBF7/64184CBE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8AFE1/64184CBE" Ref="#PWR?"  Part="1" 
+AR Path="/5BCEDA3D/64184CBE" Ref="#PWR0678"  Part="1" 
+F 0 "#PWR0678" H 6450 4650 50  0001 C CNN
+F 1 "GND" H 6455 4727 50  0000 C CNN
+F 2 "" H 6450 4900 50  0001 C CNN
+F 3 "" H 6450 4900 50  0001 C CNN
+	1    6450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4900 6450 4850
+Wire Wire Line
+	6450 4850 6550 4850
+Wire Wire Line
+	6550 4950 6550 4850
+Connection ~ 6550 4850
+Wire Wire Line
+	6550 4850 7150 4850
 $EndSCHEMATC
