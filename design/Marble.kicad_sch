@@ -7629,6 +7629,9 @@
     (property "Manufacturer Part Number" "904-27-2-23-2-B-0" (id 4) (at 93.98 378.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Wakefield-Vette" (id 5) (at 93.98 378.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (sheet (at 360.68 153.67) (size 35.56 15.24) (fields_autoplaced)
