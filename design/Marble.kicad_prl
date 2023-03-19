@@ -12,7 +12,7 @@
       "vias": 1.0,
       "zones": 0.6
     },
-    "ratsnest_display_mode": 0,
+    "ratsnest_display_mode": 1,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,

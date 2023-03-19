@@ -12756,6 +12756,9 @@
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005dca928c/00000000-0000-0000-0000-00005e003981/00000000-0000-0000-0000-000062c92056"
       (reference "C104") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
     )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c417bcb/58bfc207-a895-4f8c-84ca-df0a11066900"
+      (reference "C105") (unit 1) (value "CC0201_470NF_4V_20%_X5R") (footprint "CAPC0603X33N")
+    )
     (path "/00000000-0000-0000-0000-00005c16bf13/00000000-0000-0000-0000-00005d34a7aa"
       (reference "C106") (unit 1) (value "CC0603_22UF_6.3V_20%_X5R") (footprint "CAPC1709X100N")
     )
@@ -12820,7 +12823,7 @@
       (reference "C126") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/f1c26e8d-34fc-4936-aeec-64466f09496c"
-      (reference "C127") (unit 1) (value "100uF") (footprint "CAPMP7343X310N")
+      (reference "C127") (unit 1) (value "100uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005f486d31"
       (reference "C128") (unit 1) (value "CC0402_100NF_25V_10%_X5R") (footprint "CAPC1005X55N")
@@ -12848,6 +12851,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005cb408c0"
       (reference "C136") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c417bcb/8e6c5f3a-8a21-42b7-bccf-924e2e6b5dd3"
+      (reference "C137") (unit 1) (value "CC0201_470NF_4V_20%_X5R") (footprint "CAPC0603X33N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/0043ef0c-f447-4ede-889e-ab633b888481"
       (reference "C138") (unit 1) (value "CC0603_4.7UF_25V_10%_X5R") (footprint "Capacitors SMD:CAPC1608X90N")
@@ -13738,7 +13744,7 @@
       (reference "D9") (unit 1) (value "BAT165") (footprint "ICs And Semiconductors SMD:SOD2512X110N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-000064a0a5b0"
-      (reference "D10") (unit 1) (value "5.0SMDJ12AS") (footprint "Diode_SMD:D_SMC")
+      (reference "D10") (unit 1) (value "S5D-E3/9AT") (footprint "Diode_SMD:D_SMC")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005ceb9676"
       (reference "D12") (unit 1) (value "SS16") (footprint "DIOM5127X229N")
