@@ -39,14 +39,18 @@ class Kicad_exporter:
         self.board = board = pcbnew.LoadBoard(f_name)
         self.f_name = basename(f_name)
 
-        # Hack:  the file has SE55DE100 clearance set small enough to
-        # pass DRC, but for the Gerber export process it should be set
-        # to the actual desired value.
+        # Hack needed for KiCad 5.1.x:
+        # the file has SE55DE100 clearance set small enough to pass DRC,
+        # but for the Gerber export process it should be set to the actual
+        # desired value.
         # Really only sets size of clearance circles where these nets
         # cross power planes.  Programming hints from
         # kicad.mmccoo.com/2017/04/18/modify-design-rules-from-python/
         nc_name = "SE55DE100"
-        aa = board.GetDesignSettings().m_NetClasses.Find(nc_name)
+        try:
+            aa = board.GetDesignSettings().m_NetClasses.Find(nc_name)
+        except Exception:
+            aa = None
         if aa is None:
             print("No %s net_class?" % nc_name)
         else:
@@ -86,12 +90,18 @@ class Kicad_exporter:
         popt.SetPlotReference(True)
         popt.SetPlotInvisibleText(False)
         popt.SetExcludeEdgeLayer(True)
-        popt.SetPlotPadsOnSilkLayer(False)
+        try:
+            popt.SetPlotPadsOnSilkLayer(False)
+        except Exception:
+            pass
         popt.SetPlotViaOnMaskLayer(False)
         popt.SetUseAuxOrigin(False)
         popt.SetDrillMarksType(popt.NO_DRILL_SHAPE)
         popt.SetScale(1.0)
-        popt.SetLineWidth(pcbnew.FromMM(0.1))  # .1 mm
+        try:
+            popt.SetLineWidth(pcbnew.FromMM(0.1))  # 0.1 mm
+        except Exception:
+            pass
         popt.SetMirror(False)
         popt.SetNegative(False)
 
@@ -150,7 +160,11 @@ class Kicad_exporter:
             raise RuntimeError('on illegal layer: ' + m.GetReference())
 
         pos = m.GetPosition()
-        pos -= self.board.GetAuxOrigin()  # subtract user place offset
+        try:
+            o1 = self.board.GetAuxOrigin()  # KiCad 5.1.x
+        except Exception:
+            o1 = self.board.GetDesignSettings().GetAuxOrigin()  # KiCad 6
+        pos -= o1  # subtract user place offset
         if layer == pcbnew.B_Cu:  # match pcbnew behaviour
             pos.x = -pos.x
 
@@ -172,7 +186,11 @@ class Kicad_exporter:
         skip_th: exclude through-hole parts from the file if true
         '''
         f_name = self.f_name.replace('.kicad_pcb', '-all.pos')
-        modules = self.board.GetModules()
+        # see https://gitlab.com/kicad/code/kicad/-/issues/10867
+        try:
+            modules = self.board.GetModules()  # Kicad 5.1.x
+        except Exception:
+            modules = self.board.Footprints()  # KiCad 6
 
         # -------------------------
         #  Get and sort properties
@@ -181,12 +199,14 @@ class Kicad_exporter:
         for m in modules:
             refid = self.get_pos_props(m)["reference"]
 
-            if m.GetAttributes() & pcbnew.MOD_VIRTUAL:  # skip if virtual!
+            # if m.GetAttributes() & pcbnew.MOD_VIRTUAL:  # skip if virtual!
+            if False:  # XXX
                 if verbose:
                     print("skip virt: {}".format(refid))
                 continue
 
-            if skip_th and m.GetAttributes() & pcbnew.MOD_CMS == 0:  # skip if not SMD
+            # if skip_th and m.GetAttributes() & pcbnew.MOD_CMS == 0:  # skip if not SMD
+            if False:  # XXX
                 if verbose:
                     print("skip thru: {}".format(refid))
                 continue

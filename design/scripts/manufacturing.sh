@@ -2,45 +2,46 @@
 # run this script from the `Marble` project directory:
 # $ bash scripts/manufacturing.sh
 #
-# Versions tested on Debian Buster 2020-11-25:
-#  KiCad 5.1.8 (previously OK with 5.1.5 and 5.1.6)
-#  KiBoM 1.8.0 (tested with commit baceef96)
+# Versions tested on Debian Bullseye 2023-03-20:
+#  KiCad 6.0.6 (wish for more varied experience)
+#  KiBoM 1.8.0 (tested with commit ac29a12)
+#  kiauto 2.2.1 (tested natively, docker and chroot)
 #
-# The export-steps have been scripted as far as reasonably possible with
-# KiCad 5.1.x, but some files still need to be generated manually ...
+# Installation process for kiauto:
+#  sudo apt-get install xvfb xdotool
+#  sudo apt-get install python3-xvfbwrapper python3-psutil
+#    (or let pip3 find xvfbwrapper and psutil)
+#  pip3 install kiauto==2.2.1
 #
-# Start the GUI with:
-#  kicad Marble.pro
+# No need to open the GUI!  Everything can be done using this script
+# including generation of the BOM .xml and IPC-D-356 Netlist files.
 #
-# Click schematic
-#  Tools / Generate Bill of Materials
-#    Make sure `Command line:` is empty
-#    Generate, Close
-#
-# Click layout
-#  highly recommended to run DRC
-#  File / Fabrication Outputs / IPC-D-356 Netlist File ...
-#    Save
-#
-# OK (but not required) to exit the GUI at this point
-# Run this script
+# Make sure
+#  KiBoM is in $PYTHONPATH
+#  kiauto binaries are in $PATH
+# Run this script using bash
 #
 set -e
 export LC_COLLATE=C
-# Assume kicad is in our $PATH
-# The following setup unfortunately depends on where KiBoM is installed
 A=Marble
-KB=../../KiBoM/KiBOM_CLI.py
-# KiBoM is cloned from
-# https://github.com/SchrodingersGat/KiBoM
-if ! test -r $KB; then
-  echo "KiBoM not found at $KB"
-  exit 1;
-fi
 
-# Make sure we're running under bash so brace expansion works
+# Make sure we're running under bash so brace expansion and which works
 if ! test "$(echo A{B,C})" = "AB AC"; then
   echo "Error, not running under bash"
+  exit 1
+fi
+
+# KiBoM is cloned from
+# https://github.com/SchrodingersGat/KiBoM
+if ! python3 -m KiBOM_CLI --version; then
+  echo "KiBoM not found in \$PYTHONPATH"
+  exit 1
+fi
+
+# Assume kicad is in our $PATH
+
+if ! which eeschema_do pcbnew_do; then
+  echo "kiauto commands eeschema_do pcbnew_do not in \$PATH"
   exit 1
 fi
 
@@ -57,32 +58,28 @@ echo "Final .zip file will be named $zipfile"
 # remove any stray stale files
 rm -f marble*.dat
 
-# Check that all the GUI-generated files are made
-die=0
-for f in $A.{d356,xml}; do
-  if ! test -r "$f"; then echo "missing: $f"; die=1;
-  elif ! test "$f" = "$(find $f -newer $A.kicad_pcb)"; then echo "stale:   $f"; die=1; else
-  echo "OK:      $f"; fi
-done
-if test $die = 1; then echo Aborting; exit 1; fi
-echo OK
-
 echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
 python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers
+echo "running kiauto"
+# Generate the BOM .xml file
+eeschema_do bom_xml $A.kicad_sch .
+# Generate the IPC-D-356 Netlist File
+pcbnew_do ipc_netlist Marble.kicad_pcb -o $A.d356 .
 
 # Check that all the script-generated files are made
 die=0
-for f in PCB_layers/$A-all.pos PCB_layers/$A-{B_Cu,B_Mask,B_Paste,B_SilkS,Edge_Cuts,F_Cu,F_Mask,F_Paste,F_SilkS,In{1,2,3,4,5,6,7,8,9,10}_Cu}.gbr PCB_layers/$A-{,N}PTH.drl; do
+for f in PCB_layers/$A-all.pos PCB_layers/$A-{B_Cu,B_Mask,B_Paste,B_SilkS,Edge_Cuts,F_Cu,F_Mask,F_Paste,F_SilkS,In{1,2,3,4,5,6,7,8,9,10}_Cu}.gbr PCB_layers/$A-{,N}PTH.drl $A.{xml,d356}; do
   if ! test -r "$f"; then echo "missing: $f"; die=1;
   elif ! test "$f" = "$(find $f -newer $A.kicad_pcb)"; then echo "stale:   $f"; die=1; else
   echo "OK:      $f"; fi
 done
 if test $die = 1; then echo Aborting; exit 1; fi
 echo OK
+# XXX shouldn't $A.xml stale-ness be tested against .kicad_sch files?
 
 # Run KiBoM from the command line
 echo running KiBoM
-python3 $KB --cfg scripts/bom.ini $A.xml $A
+python3 -m KiBOM_CLI --cfg scripts/bom.ini $A.xml $A
 echo KiBoM complete
 
 # One more cross-check
