@@ -10704,6 +10704,9 @@
     (path "/00000000-0000-0000-0000-00005c16c03c/00000000-0000-0000-0000-00005bfd4ff2"
       (reference "#PWR0320") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005dca928c/00000000-0000-0000-0000-00005ea81fb7/ec77ed71-7d02-462a-95c1-3232be719c06"
+      (reference "#PWR0321") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005ca40231/00000000-0000-0000-0000-00005d4357cc"
       (reference "#PWR0322") (unit 1) (value "+3.3P") (footprint "")
     )
@@ -11693,6 +11696,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/1507665f-98f2-4bc1-bb17-8740379be2a6"
       (reference "#PWR0651") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005dca928c/00000000-0000-0000-0000-00005ea81fb7/f9923f75-8a50-416a-83d1-a14d9c268675"
+      (reference "#PWR0652") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005bd32060/00000000-0000-0000-0000-0000626bdcc1"
       (reference "#PWR0653") (unit 1) (value "GND") (footprint "")
@@ -12870,6 +12876,9 @@
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/9a720de6-bde1-4881-b43e-4e955ce270ae"
       (reference "C140") (unit 1) (value "CC0402_2.2UF_6.3V_10%_X5R") (footprint "Capacitors SMD:CAPC1005X55N")
     )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005dca928c/00000000-0000-0000-0000-00005ea81fb7/9ee828a0-bb33-4bae-b0cf-4bc9ac6e4eba"
+      (reference "C141") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
+    )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/00000000-0000-0000-0000-00005ebb5d69"
       (reference "C142") (unit 1) (value "CC0402_1UF_16V_10%_X5R") (footprint "Capacitors SMD:CAPC1005X55N")
     )
@@ -13692,6 +13701,9 @@
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005f98bf86"
       (reference "C415") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
     )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005dca928c/00000000-0000-0000-0000-00005ea81fb7/7458d213-f895-43ba-a6cb-935038a9a939"
+      (reference "C416") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
+    )
     (path "/00000000-0000-0000-0000-00005c16bf13/00000000-0000-0000-0000-00006004ee05"
       (reference "C417") (unit 1) (value "CC0402_100NF_25V_10%_X5R") (footprint "CAPC1005X55N")
     )
@@ -13871,6 +13883,12 @@
     )
     (path "/00000000-0000-0000-0000-00005bceda39/00000000-0000-0000-0000-0000641aaa84"
       (reference "J22") (unit 1) (value "Test connector ") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical_SMD_Pin1Left")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005dca928c/00000000-0000-0000-0000-00005ea81fb7/a53e7f07-7352-4a4d-9c5b-c06c715963eb"
+      (reference "J23") (unit 1) (value "HIROSE_U.FL-R-SMT-1(10)") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005dca928c/00000000-0000-0000-0000-00005ea81fb7/85be564b-7d9d-4872-9735-3ffa8f26035d"
+      (reference "J24") (unit 1) (value "HIROSE_U.FL-R-SMT-1(10)") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
     (path "/00000000-0000-0000-0000-000060326218/00000000-0000-0000-0000-00005e8478da"
       (reference "L1") (unit 1) (value "IND0603_MURATA_BLM18SG121TN1D") (footprint "INDC1608X65N")
