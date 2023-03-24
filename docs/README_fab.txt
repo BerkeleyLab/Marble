@@ -8,7 +8,7 @@ PCB fabrication and turn-key assembly:
 Gerber, Drill, IPC-D-356, Board stackup, BoM, and X-Y placement.
 
 The design is created in, and these manufacturing files are mostly
-exported from, KiCad version 5.1.8.
+exported from, KiCad version 6.0.6.
 
 This is a 12-layer, 1.72mm (nominal) board.  Materials and thicknesses
 according to the board stackup description:

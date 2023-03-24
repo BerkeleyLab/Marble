@@ -200,13 +200,14 @@ class Kicad_exporter:
             refid = self.get_pos_props(m)["reference"]
 
             # if m.GetAttributes() & pcbnew.MOD_VIRTUAL:  # skip if virtual!
-            if False:  # XXX
+            # skip if exclude from POS is ticked
+            if m.GetAttributes() & pcbnew.FP_EXCLUDE_FROM_POS_FILES:
                 if verbose:
-                    print("skip virt: {}".format(refid))
+                    print("skip exclude: {}".format(refid))
                 continue
 
             # if skip_th and m.GetAttributes() & pcbnew.MOD_CMS == 0:  # skip if not SMD
-            if False:  # XXX
+            if skip_th and m.GetAttributes() & pcbnew.FP_THROUGH_HOLE:
                 if verbose:
                     print("skip thru: {}".format(refid))
                 continue

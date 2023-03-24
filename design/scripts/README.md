@@ -10,11 +10,11 @@ If you have made changes to the Marble design and are ready to generate the manu
 
 ### Required software
 
-* [KiCad](https://www.kicad.org/): version 5.1.x (x &ge; 5)
+* [KiCad](https://www.kicad.org/): version 6.0.x (x &ge; 6)
 * [KiBoM](https://github.com/SchrodingersGat/KiBoM) 1.8.0.
 
-KiCad version 5.1.10 (no suffixes) or later is needed in order to support [reproducible](https://reproducible-builds.org) fabrication package builds. This means byte-for-byte identical zip files, independent of which person and computer runs the process.
-
+KiCad version 6 is needed.
+We hope this still supports [reproducible](https://reproducible-builds.org) fabrication package builds. This means byte-for-byte identical zip files, independent of which person and computer runs the process.
 
 ### Update the QR code on the silkscreen
 
@@ -43,7 +43,7 @@ Press the `b` key to fill copper planes (completing connectivity and getting rid
 
 Select the QR code, right click and select `Update footprint...`. Click `Update` and `Close`.
 
-The above instructions are tested with KiCad 5.1.8. Be aware of KiCad issue [#6514](https://gitlab.com/kicad/code/kicad/-/issues/6514). If the results look corrupted and you are not able to scan the QR code from the PCB layout editor, select `Modern Toolset (Fallback)` under KiCad Preferences.
+The above instructions are tested with KiCad 6.0.6. Be aware of KiCad issue [#6514](https://gitlab.com/kicad/code/kicad/-/issues/6514). If the results look corrupted and you are not able to scan the QR code from the PCB layout editor, select `Modern Toolset (Fallback)` under KiCad Preferences.
 
 ### Generate the manufacturing package
 
@@ -99,7 +99,7 @@ The above process is summarized in the diagram below.
 A somewhat specialized tool is available to create an XDC file for the Marble design,
 based on a netlist file exported from KiCad.
 
-From KiCad (version 5.1.x), open the `Schematic Layout Editor` clicking on this button at the top of the screen:
+From KiCad (version 6.0.x), open the `Schematic Layout Editor` clicking on this button at the top of the screen:
 
 ![Pcbnew](img/schem_button.png)
 
