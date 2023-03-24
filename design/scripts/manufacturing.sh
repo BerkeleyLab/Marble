@@ -151,7 +151,7 @@ rm -f "$zipfile"
 if test -n "$SOURCE_DATE_EPOCH"; then
   echo "Forcing timestamp $SOURCE_DATE_EPOCH"
   touch --date="@$SOURCE_DATE_EPOCH" fab/*
-  zip --latest-time "$zipfile" fab/*
+  TZ=UTC zip --latest-time "$zipfile" fab/*
 else
   zip "$zipfile" fab/*
 fi
