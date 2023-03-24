@@ -38,12 +38,14 @@ if ! python3 -m KiBOM_CLI --version; then
   exit 1
 fi
 
-# Assume kicad is in our $PATH
-
+# check for kiauto (see installation instructions above)
 if ! which eeschema_do pcbnew_do; then
   echo "kiauto commands eeschema_do pcbnew_do not in \$PATH"
   exit 1
 fi
+
+# kicad may or may not be in our $PATH
+# kicad_exporter.py will fail quickly if pcbnew is not in its search path
 
 if git diff | grep -q .; then
   spec=xxxxxxxx
@@ -112,17 +114,16 @@ cd PCB_layers
 for f in *.gbr; do
   sed \
     -e '/TF.CreationDate/d' \
-    -e '/Created by KiCad/s/ date .*/*/' \
-    -e '/GenerationSoftware/s/Pcbnew,(6\.0\..*)/Pcbnew,(6.0.x)/' \
-    -e '/Created by KiCad/s/(PCBNEW (6\.0\..*))/(PCBNEW (6.0.x))/' \
+    -e '/GenerationSoftware/s/Pcbnew,(\?6\.0\..*)\?\*/Pcbnew,(6.0.x)\*/' \
+    -e '/Created by KiCad/s/(PCBNEW (\?6\.0\..*\*/(PCBNEW (6.0.x))\*/' \
     < "$f" > "../fab/marble${f#$A}"
 done
 for f in *.drl; do
   sed \
     -e '/TF.CreationDate/d' \
     -e '/ DRILL file /s/ date .*//' \
-    -e '/GenerationSoftware/s/Pcbnew,(6\.0\..*)/Pcbnew,(6.0.x)/' \
-    -e '/DRILL file/s/{KiCad (6\.0\..*}/{KiCad (6.0.x)}/' \
+    -e '/GenerationSoftware/s/Pcbnew,(\?6\.0\..*)\?/Pcbnew,(6.0.x)/' \
+    -e '/DRILL file/s/{KiCad (\?6\.0\..*}/{KiCad (6.0.x)}/' \
     < "$f" > "../fab/marble${f#$A}"
 done
 cd ..
@@ -132,7 +133,7 @@ sed \
   < marble-xy.pos > fab/marble-xy.pos
 sed \
   -e '/^BoM Date:/d' \
-  -e '/KiCad Version/s/Eeschema (6\.0\..*)/Eeschema (6.0.x)/' \
+  -e '/KiCad Version/s/Eeschema (\?6\.0\..*/Eeschema (6.0.x)/' \
   < "$bomfile2" > fab/marble-bom.csv
 mv marble-stuff.log fab/
 cp $A.d356 fab/marble-ipc-d-356.txt
