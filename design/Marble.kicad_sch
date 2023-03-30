@@ -14564,10 +14564,10 @@
       (reference "R104") (unit 1) (value "R0402_47K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/d2d78074-9964-4899-84b8-e653f0e5aa25"
-      (reference "R105") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R105") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/be80300b-9e2f-4e40-87ab-a0670b5cf91f"
-      (reference "R106") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R106") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005c775ba9"
       (reference "R107") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
@@ -14645,7 +14645,7 @@
       (reference "R132") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/16e2ea3c-ffd9-4af0-955e-08efb169df92"
-      (reference "R133") (unit 1) (value "100R") (footprint "RESC1005X40N")
+      (reference "R133") (unit 1) (value "R0402_100R_1%_0.1W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/3d352813-d81b-4dbb-82d7-ab2672177b85"
       (reference "R134") (unit 1) (value "0R005") (footprint "RESC3216X80N")
@@ -14663,25 +14663,25 @@
       (reference "R138") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/6a803173-6d86-40c2-b28e-61fb78c7e25b"
-      (reference "R139") (unit 1) (value "100R") (footprint "RESC1005X40N")
+      (reference "R139") (unit 1) (value "R0402_100R_1%_0.1W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/a2f6ec0d-5b6f-49b4-a544-1e255ac86f8b"
-      (reference "R140") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R140") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/0fa38c18-efae-4fd1-9e63-c5f46f63c25f"
-      (reference "R141") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R141") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda39/00000000-0000-0000-0000-00005ccfa72e"
       (reference "R142") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/be93fc03-022d-4268-a623-8f4bd3d4c1d8"
-      (reference "R143") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R143") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda39/00000000-0000-0000-0000-00005cd19897"
       (reference "R144") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/6836a3af-f806-48b6-b3ae-d57348375f69"
-      (reference "R145") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R145") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda39/00000000-0000-0000-0000-00005cd28e72"
       (reference "R146") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
@@ -14690,13 +14690,13 @@
       (reference "R147") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/4656e926-4328-45bd-8b16-10aa8d38eb04"
-      (reference "R148") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R148") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/9b25213a-d3fe-4ad0-a0af-9d10e1e894b8"
-      (reference "R149") (unit 1) (value "100K") (footprint "RESC1005X40N")
+      (reference "R149") (unit 1) (value "R0402_100K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/0e7ae116-53ea-411b-9140-64364ef54324"
-      (reference "R150") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R150") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda39/00000000-0000-0000-0000-00005cc6f891"
       (reference "R151") (unit 1) (value "R0402_100R_1%_0.1W_100PPM") (footprint "RESC1005X40N")
@@ -14711,7 +14711,7 @@
       (reference "R154") (unit 1) (value "R0402_100R_1%_0.1W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/b74a8b8b-e476-4fe4-9487-025680aecf20"
-      (reference "R155") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R155") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda59/00000000-0000-0000-0000-00005daf2cf6"
       (reference "R156") (unit 1) (value "R0402_240R_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
@@ -14738,7 +14738,7 @@
       (reference "R163") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/1871f5b4-29c0-4dff-a696-867bb49cdb8b"
-      (reference "R164") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R164") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda59/00000000-0000-0000-0000-00005db27c8b"
       (reference "R165") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
@@ -14753,13 +14753,13 @@
       (reference "R168") (unit 1) (value "R0402_1K8_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/e8118aec-85ae-4af6-aae2-d436dfb20af7"
-      (reference "R169") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R169") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/68649e1e-b15b-4c86-8269-a1ac90ae0f7a"
-      (reference "R170") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R170") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/619204f7-3d81-4eff-b058-b22513541fe8"
-      (reference "R171") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R171") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005d05a99e/00000000-0000-0000-0000-00005d07ef2e"
       (reference "R172") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
@@ -14786,7 +14786,7 @@
       (reference "R179") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/7995aa86-6f15-48fb-89a7-f6e33ba9e7d5"
-      (reference "R180") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R180") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005c5044eb"
       (reference "R181") (unit 1) (value "R0402_47K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
@@ -14801,13 +14801,13 @@
       (reference "R184") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/c2cef769-1414-49a8-a299-eb1e7505aec4"
-      (reference "R185") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R185") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/1402c25f-afdf-47cd-bded-f616a89db7c9"
-      (reference "R186") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R186") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/fc40c8f7-09f9-4689-abfd-cf4e3e808e26"
-      (reference "R187") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R187") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005c88a4fd"
       (reference "R188") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
@@ -14816,13 +14816,13 @@
       (reference "R189") (unit 1) (value "R0402_3K6_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/58fbfa37-a763-4346-a452-ec7d8c3e7b2a"
-      (reference "R190") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R190") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/b46b4069-63fb-44ef-a715-ee0e0539f4d2"
-      (reference "R191") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R191") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/847cc0e2-09b7-47c7-aca7-e18cf4511d9c"
-      (reference "R192") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R192") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/32efd61f-8b4d-48d2-8c08-ac8c335398df"
       (reference "R193") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
@@ -14864,13 +14864,13 @@
       (reference "R205") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/8bd57187-c15b-479b-9095-7f8169cdf415"
-      (reference "R206") (unit 1) (value "100K") (footprint "RESC1005X40N")
+      (reference "R206") (unit 1) (value "R0402_100K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/2b27a5ca-2ed9-4c7f-9c8f-bcebabb527f7"
-      (reference "R207") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R207") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/5fcd9aa5-4562-4a60-b342-447867a6d088"
-      (reference "R208") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R208") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/00000000-0000-0000-0000-00005cda6911"
       (reference "R209") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
@@ -14879,7 +14879,7 @@
       (reference "R210") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/e61a39bd-ca9d-4d74-b8b0-595651e6217c"
-      (reference "R211") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R211") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005c51377f"
       (reference "R212") (unit 1) (value "R0402_82K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
@@ -14900,7 +14900,7 @@
       (reference "R217") (unit 1) (value "90K9") (footprint "Resistors_SMD:RESC1608X55N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/730cf8f0-87f8-40c3-b23e-c838fdb4e190"
-      (reference "R218") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R218") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/2180eb2f-c761-4557-af49-7fd0cb988420"
       (reference "R219") (unit 1) (value "13K3") (footprint "RESC1608X55N")
@@ -14975,10 +14975,10 @@
       (reference "R242") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/eb734ee1-9896-4dfa-9f09-236e55a97b94"
-      (reference "R243") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R243") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/9d4768e9-ffba-4958-b953-77abaca7c225"
-      (reference "R244") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R244") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/00000000-0000-0000-0000-00005d02947c"
       (reference "R245") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
@@ -15164,10 +15164,10 @@
       (reference "R305") (unit 1) (value "R0402_4K7_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/f6d3da7e-8a8e-40d3-8ce0-6bbe404e0a1e"
-      (reference "R306") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R306") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/21ce29ba-257c-45ed-b396-b423b1c6ec59"
-      (reference "R307") (unit 1) (value "0R") (footprint "RESC1005X40N")
+      (reference "R307") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/483c4d84-d6f8-4f31-aa79-d29e5cadc53a"
       (reference "R308") (unit 1) (value "R0402_100K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
