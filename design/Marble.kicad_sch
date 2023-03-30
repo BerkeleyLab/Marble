@@ -13918,9 +13918,6 @@
     (path "/00000000-0000-0000-0000-00005bceda3d/00000000-0000-0000-0000-000063f08cee"
       (reference "J20") (unit 1) (value "Test connector ") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005bceda39/00000000-0000-0000-0000-0000640be295"
-      (reference "J21") (unit 1) (value "Test connector ") (footprint "Connector:Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-00005bceda39/b84faaa4-00cc-44e0-96f2-eb8460e36472"
       (reference "J22") (unit 1) (value "Test connector ") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical")
     )
