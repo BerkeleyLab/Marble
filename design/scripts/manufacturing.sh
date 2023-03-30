@@ -133,6 +133,7 @@ sed \
   < marble-xy.pos > fab/marble-xy.pos
 sed \
   -e '/^BoM Date:/d' \
+  -e '/Component Groups:/d' \
   -e '/KiCad Version/s/Eeschema (\?6\.0\..*/Eeschema (6.0.x)/' \
   < "$bomfile2" > fab/marble-bom.csv
 mv marble-stuff.log fab/
