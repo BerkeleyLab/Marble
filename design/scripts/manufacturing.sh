@@ -23,6 +23,7 @@
 #
 set -e
 export LC_COLLATE=C
+umask 0022
 A=Marble
 
 # Make sure we're running under bash so brace expansion and which works
