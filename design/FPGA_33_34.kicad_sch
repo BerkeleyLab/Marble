@@ -11658,7 +11658,7 @@
     (property "Manufacturer" "TEXAS INSTRUMENTS" (id 14) (at 91.44 228.6 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Manufacturer Part Number" "TXS0108E" (id 15) (at 91.44 230.505 0)
+    (property "Manufacturer Part Number" "TXS0108EPWR" (id 15) (at 91.44 230.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Pin Count" "20" (id 16) (at 91.44 232.41 0)
