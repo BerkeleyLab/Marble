@@ -1,4 +1,4 @@
-# Rummage through KiCad pcbnew file,
+# Rummage through KiCad 6.0.x .kicad_pcb file,
 # looking for the coordinates of testpoints, and
 # emit a Gerber file marking their locations
 #
@@ -16,14 +16,14 @@ def get_coord(ss):
 
 
 def parse_pcb(f):
-    cnt = 2
+    mode = 0  # searching
     rv = []
     for ll in f.readlines():
-        if "module" in ll and "TestPoint_" in ll:
-            cnt = 0
-        if cnt == 1:
+        if mode == 0 and "footprint" in ll and "TestPoint_THTPad" in ll:
+            mode = 1
+        elif mode == 1 and "at" in ll:
             rv += [get_coord(ll)]
-        cnt += 1
+            mode = 0
     return rv
 
 

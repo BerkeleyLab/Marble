@@ -140,7 +140,6 @@ sed \
 mv marble-stuff.log fab/
 cp $A.d356 fab/marble-ipc-d-356.txt
 cp marble-stack.txt fab/marble-stack.txt
-# XXX confirm/correct board stackup diagram with Creotech
 cp scripts/testpoint_map.gvp fab/testpoint_map.gvp
 mv testpoint_map.gbr fab/testpoint_map.gbr
 
