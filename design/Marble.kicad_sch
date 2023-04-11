@@ -15674,7 +15674,7 @@
       (reference "Y5") (unit 1) (value "XTAL_8MHZ_TXC_7A-8.000MAAE-T") (footprint "XTAL_TXC_7A")
     )
     (path "/00000000-0000-0000-0000-00005c16bf13/00000000-0000-0000-0000-00005e9f18cb"
-      (reference "Y6") (unit 1) (value "OSC_10-280MHZ_SILICON-LAB_Si570BBC000121DG") (footprint "ICs And Semiconductors SMD:OSC_SILICON-LAB_SI570")
+      (reference "Y6") (unit 1) (value "OSC_10-280MHZ_SILICON-LAB_570NBB001808DGR") (footprint "ICs And Semiconductors SMD:OSC_SILICON-LAB_SI570")
     )
   )
 )
