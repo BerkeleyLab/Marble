@@ -59,15 +59,29 @@ zipfile=marble-${spec}-fab.zip
 echo "Final .zip file will be named $zipfile"
 
 # remove any stray stale files
-rm -f marble*.dat
+rm -f marble*.dat *.pdf *.erc *.drc *.xml
 
-echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
-python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers
 echo "running kiauto"
+# Export schematics to PDF, saves it as Marble.pdf
+eeschema_do export -a $A.kicad_sch .
+# Run ERC, saves a report Marble.erc
+echo "running ERC"
+eeschema_do run_erc $A.kicad_sch .
+# Run DRC, saves a report Marble.drc
+echo "running DRC"
+# Don't exit if you find DRC errors for now
+if pcbnew_do run_drc $A.kicad_pcb -s -o $A.drc .; then
+        echo "DRC errors found"
+        exit 0
+fi
+# Generate the IPC-D-356 Netlist File
+pcbnew_do ipc_netlist $A.kicad_pcb -o $A.d356 .
+
 # Generate the BOM .xml file
 eeschema_do bom_xml $A.kicad_sch .
-# Generate the IPC-D-356 Netlist File
-pcbnew_do ipc_netlist Marble.kicad_pcb -o $A.d356 .
+# generate all the .drl, .pos and gerbers after DRC check
+echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
+python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers
 
 # Check that all the script-generated files are made
 die=0
