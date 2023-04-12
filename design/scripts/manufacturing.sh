@@ -8,7 +8,7 @@
 #  kiauto 2.2.1 (tested natively, docker and chroot)
 #
 # Installation process for kiauto:
-#  sudo apt-get install xvfb xdotool
+#  sudo apt-get install xvfb xdotool python3-pip
 #  sudo apt-get install python3-xvfbwrapper python3-psutil
 #    (or let pip3 find xvfbwrapper and psutil)
 #  pip3 install kiauto==2.2.1
@@ -59,26 +59,42 @@ zipfile=marble-${spec}-fab.zip
 echo "Final .zip file will be named $zipfile"
 
 # remove any stray stale files
-rm -f marble*.dat *.pdf *.erc *.drc *.xml
+rm -f marble*.dat ./*.pdf ./*.erc ./*.drc ./*.xml
 
-echo "running kiauto"
+echo "Generating PDF schematics"
 # Export schematics to PDF, saves it as Marble.pdf
 eeschema_do export -a $A.kicad_sch .
+
 # Run ERC, saves a report Marble.erc
-echo "running ERC"
-eeschema_do run_erc $A.kicad_sch .
-# Run DRC, saves a report Marble.drc
-echo "running DRC"
-# Don't exit if you find DRC errors for now
-if pcbnew_do run_drc $A.kicad_pcb -s -o $A.drc .; then
-        echo "DRC errors found"
-        exit 0
+echo "Running ERC (schematic)"
+if eeschema_do run_erc $A.kicad_sch . 2> $A.erc.log; then
+  echo "Passed ERC.  Woo-hoo!"
+else
+  echo "ERC errors found.  Exiting."
+  echo "See $A.erc and $(wc -l $A.erc.log)"
+  exit 1
 fi
-# Generate the IPC-D-356 Netlist File
+echo "See $A.erc and $(wc -l $A.erc.log)"
+
+# Run DRC, saves a report Marble.drc
+echo "Running DRC (layout)"
+# -s or not?
+if pcbnew_do run_drc $A.kicad_pcb -o $A.drc . 2> $A.drc.log; then
+  echo "Passed DRC.  Woo-hoo!"
+else
+  echo "DRC errors found, but not exiting.  :-("
+  # exit 1
+fi
+echo "See $A.drc and $(wc -l $A.drc.log)"
+
+# Generate the IPC-D-356 netlist file
+echo "Generating IPC-D-356 netlist file"
 pcbnew_do ipc_netlist $A.kicad_pcb -o $A.d356 .
 
 # Generate the BOM .xml file
+echo "Generating BOM .xml file"
 eeschema_do bom_xml $A.kicad_sch .
+
 # generate all the .drl, .pos and gerbers after DRC check
 echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
 python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers
@@ -166,7 +182,10 @@ rm -f "$zipfile"
 if test -n "$SOURCE_DATE_EPOCH"; then
   echo "Forcing timestamp $SOURCE_DATE_EPOCH"
   touch --date="@$SOURCE_DATE_EPOCH" fab/*
-  TZ=UTC zip --latest-time "$zipfile" fab/*
+  TZ=UTC zip --no-extra --latest-time "$zipfile" fab/*
+  # Note the --no-extra flag; to be pedantic about timestamps,
+  # that means you should unpack with TZ=UTC unzip "$zipfile".  See
+  # https://lists.reproducible-builds.org/pipermail/rb-general/2023-April/002927.html
 else
   zip "$zipfile" fab/*
 fi
