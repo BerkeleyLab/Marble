@@ -182,8 +182,8 @@ rm -f "$zipfile"
 if test -n "$SOURCE_DATE_EPOCH"; then
   echo "Forcing timestamp $SOURCE_DATE_EPOCH"
   touch --date="@$SOURCE_DATE_EPOCH" fab/*
-  TZ=UTC zip --no-extra --latest-time "$zipfile" fab/*
-  # Note the --no-extra flag; to be pedantic about timestamps,
+  TZ=UTC zip -X --latest-time "$zipfile" fab/*
+  # Note the -X flag; to be pedantic about timestamps,
   # that means you should unpack with TZ=UTC unzip "$zipfile".  See
   # https://lists.reproducible-builds.org/pipermail/rb-general/2023-April/002927.html
 else
