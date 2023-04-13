@@ -64,7 +64,7 @@
       36
     ],
     "visible_layers": "000d020_800002d5",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "Marble.kicad_prl",
