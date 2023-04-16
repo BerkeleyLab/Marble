@@ -53,9 +53,25 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.19,
+          "via_gap": 0.19,
+          "width": 0.1
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.13
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|123650000|115781800|00000000-0000-0000-0000-00005e9f306a|ac77cd9d-82ab-4d9a-bff0-01c97a3239ec",
+        "copper_edge_clearance|123650000|117701800|00000000-0000-0000-0000-00005e9f306a|47c188b2-a83a-403b-8541-46e49fba3a00",
+        "courtyards_overlap|179000001|129400001|00000000-0000-0000-0000-00005ca1bd9a|00000000-0000-0000-0000-0000623104ad",
+        "courtyards_overlap|198150001|185215001|00000000-0000-0000-0000-00005c6f7a3a|00000000-0000-0000-0000-000062310493",
+        "courtyards_overlap|267086487|182950001|00000000-0000-0000-0000-00005f0e5728|00000000-0000-0000-0000-0000622a1216"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -77,7 +93,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
