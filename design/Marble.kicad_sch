@@ -12532,6 +12532,18 @@
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c721515/3a9af3b9-bf3b-46d3-95f2-f83e80cc8d35"
       (reference "#PWR0916") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/d23dd6bd-0128-43f1-b245-256d32e05dad"
+      (reference "#PWR0917") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/cf53af96-9941-470c-9c00-08f8fdd4b8e2"
+      (reference "#PWR0918") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/a5b62927-fe09-4877-ac92-1715cc64f0a8"
+      (reference "#PWR0919") (unit 1) (value "+2V5") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/b3481f60-0631-44e3-a5d8-af216ac95c51"
+      (reference "#PWR0920") (unit 1) (value "+2V5") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/521c20fe-0861-449b-b8e7-64b280e7ca66"
       (reference "#PWR0921") (unit 1) (value "GND") (footprint "")
     )
@@ -12547,11 +12559,8 @@
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/6bf63e70-919b-4d6c-8025-d1cc4117629c"
       (reference "#PWR0925") (unit 1) (value "+2V5") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/d26705e2-6c45-4889-b6a5-6213158affab"
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/f2c5120a-27c8-4bd5-ab4b-c68a6e2cd416"
       (reference "#PWR0926") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/4b8bc118-685f-4c47-91b9-8d0f2cf2af16"
-      (reference "#PWR0927") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/4a7b88b5-2d71-4e9b-a291-6f657163dbb1"
       (reference "#PWR0928") (unit 1) (value "GND") (footprint "")
@@ -13885,6 +13894,12 @@
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c721515/4c8aef1d-dcc4-4e07-91a7-06a85ba980d2"
       (reference "C431") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
     )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/43e8fd1d-9261-45ac-9592-1f7f4590613e"
+      (reference "C432") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/3a4c82a7-0d3d-4595-a8eb-3a2e17a676ac"
+      (reference "C433") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
+    )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c417bcb/00000000-0000-0000-0000-000061f445e1"
       (reference "D1") (unit 1) (value "BAT165") (footprint "ICs And Semiconductors SMD:SOD2512X110N")
     )
@@ -14314,9 +14329,6 @@
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005cc371bb"
       (reference "Q9") (unit 1) (value "BSS138L") (footprint "ICs And Semiconductors SMD:SOT95P240X110-3N")
     )
-    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/a880d450-d86b-4632-8db2-f0f52ab231a6"
-      (reference "Q10") (unit 1) (value "BSS138L") (footprint "ICs And Semiconductors SMD:SOT95P240X110-3N")
-    )
     (path "/00000000-0000-0000-0000-00005c16c03c/00000000-0000-0000-0000-00005ceeea7f"
       (reference "Q14") (unit 1) (value "BSS138L") (footprint "ICs And Semiconductors SMD:SOT95P240X110-3N")
     )
@@ -14374,8 +14386,8 @@
     (path "/00000000-0000-0000-0000-00005bceda2c/00000000-0000-0000-0000-00005f1e60be"
       (reference "R5") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
-    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/ed03f78b-45b8-49fd-84e3-1d6d8e1a92f4"
-      (reference "R6") (unit 1) (value "R0402_2K2_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/ae86ede8-0923-4351-a6ec-62ad9c5ee617"
+      (reference "R6") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/86986296-b3d9-432d-a43d-bb1c7d687c63"
       (reference "R8") (unit 1) (value "590K") (footprint "RESC1005X40N")
@@ -15639,6 +15651,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/7c78733b-c5c7-4578-bc85-ed10574269f8"
       (reference "U68") (unit 1) (value "SN74AVC2T245RSWR") (footprint "ICs And Semiconductors SMD:QFN40P140X180X55-10N")
+    )
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/7085bb3f-1695-4fdf-bb3d-736650e0303c"
+      (reference "U69") (unit 1) (value "TXS0102DCUR") (footprint "SOP50P310X90-8N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf13/00000000-0000-0000-0000-00005c5ab62a"
       (reference "Y1") (unit 1) (value "OSC_25MHZ_RAKON_IVT3205CR") (footprint "ICs And Semiconductors SMD:OSC_ABRACON_ASEMPC")
