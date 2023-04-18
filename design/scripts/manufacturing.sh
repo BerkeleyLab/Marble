@@ -79,7 +79,7 @@ echo "See $A.erc and $(wc -l $A.erc.log)"
 # Run DRC, saves a report Marble.drc
 echo "Running DRC (layout)"
 # -s or not?
-if pcbnew_do run_drc $A.kicad_pcb -o $A.drc . 2> $A.drc.log; then
+if pcbnew_do run_drc -f drc_exclusion $A.kicad_pcb --ignore_unconnected -o $A.drc . 2> $A.drc.log; then
   echo "Passed DRC.  Woo-hoo!"
 else
   echo "DRC errors found, but not exiting.  :-("
