@@ -7,7 +7,7 @@
   (title_block
     (title "Marble")
     (date "2022-08-24")
-    (rev "v1.3")
+    (rev "v1.4")
     (company "Michał Gąska / WUT")
     (comment 3 "BANK 13 & 14")
   )
@@ -4675,7 +4675,7 @@
   )
 
   (no_connect (at 57.15 141.605) (uuid 1ca1a863-8d8c-42fd-8d3b-37490c84a03c))
-  (no_connect (at 82.55 141.605) (uuid 1ca1a863-8d8c-42fd-8d3b-37490c84a03c))
+  (no_connect (at 82.55 141.605) (uuid 1ca1a863-8d8c-42fd-8d3b-37490c84a03d))
   (no_connect (at 368.3 26.67) (uuid 395641a7-fdeb-4c20-bc70-24a96e2c2792))
   (no_connect (at 266.7 96.52) (uuid 3f67aef5-9c53-4486-84e4-ff38bc777b58))
   (no_connect (at 368.3 24.13) (uuid 4bec5ca3-176c-4b68-a1ce-9bba2999bbf8))

@@ -7,7 +7,7 @@
   (title_block
     (title "Marble")
     (date "2022-08-24")
-    (rev "v1.3")
+    (rev "v1.4")
     (company "Michał Gąska / WUT")
     (comment 3 "MMC")
   )
@@ -5577,7 +5577,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 4cec5ce4-8668-4111-aeab-8c05ff9740bd)
   )
-  (text "Marble version legend:\nv1...v1.2 -  R144, R146, R147, R158 fitted\nv1.3 - R144, R146, R147 fitted, R158 DNP"
+  (text "Marble version legend:\nv1...v1.2 -  R144, R146, R147, R158 fitted\nv1.3 - R144, R146, R147 fitted, R158 DNP\nv1.4 - R144, R146, R158 fitted, R147 DNP"
     (at 144.78 198.755 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 55521a29-b168-4699-afff-bd421c4b9517)
@@ -7962,7 +7962,7 @@
     (property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" (id 3) (at 148.844 176.53 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "~" "1k" (id 4) (at 158.75 184.15 90)
+    (property "~" "DNP" (id 4) (at 158.75 184.15 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Part Number" "R0402_1K_1%_0.0625W_100PPM" (id 5) (at 146.558 176.53 0)
@@ -8092,7 +8092,7 @@
     (property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf" (id 3) (at 155.194 176.53 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "~" "DNP" (id 4) (at 165.1 184.15 90)
+    (property "~" "1k" (id 4) (at 165.1 184.15 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Part Number" "R0402_1K_1%_0.0625W_100PPM" (id 5) (at 152.908 176.53 0)
