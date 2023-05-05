@@ -6,12 +6,13 @@ Updating the QR code for a new release, updating the silkscreen design according
 
 ## Generating the manufacturing package
 
-If you have made changes to the Marble design and are ready to generate the manufacturing package, the first step is to pick a version number for the new release. The current version is `v1.3`.
+If you have made changes to the Marble design and are ready to generate the manufacturing package, the first step is to pick a version number for the new release. The current version is `v1.4`.
 
 ### Required software
 
 * [KiCad](https://www.kicad.org/): version 6.0.x (x &ge; 6)
-* [KiBoM](https://github.com/SchrodingersGat/KiBoM) 1.8.0.
+* [KiBoM](https://github.com/SchrodingersGat/KiBoM): version 1.8.0
+* [KiAuto](https://github.com/INTI-CMNB/KiAuto): version 2.2.1
 
 KiCad version 6 is needed.
 We hope this still supports [reproducible](https://reproducible-builds.org) fabrication package builds. This means byte-for-byte identical zip files, independent of which person and computer runs the process.
@@ -49,7 +50,7 @@ The above instructions are tested with KiCad 6.0.6. Be aware of KiCad issue [#65
 
 Now that you have the updated QR code on the silkscreen, we're ready to generate the manufacturing package. The process is summarized in the diagram below.
 
-The current design does unfortunately have a baseline of three DRC errors:  overlapping courtyards of part pairs (U57, U62), (U32, U64), and (U17, U63).
+The current design does unfortunately have a baseline of four DRC errors:  overlapping courtyards of part pairs (U57, U62), (U32, U64), (U17, U63) and copper edge clearance for J10.
 These are INA219 chips with two package options supported with two (overlapping) footprints.
 
 From the `design` directory, run:
@@ -66,6 +67,7 @@ PCB fabrication and turn-key assembly:
 * Board stackup
 * BoM
 * X-Y placement
+* Schematics
 
 The above process is summarized in the diagram below.
 
