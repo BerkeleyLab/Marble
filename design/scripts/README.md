@@ -10,7 +10,7 @@ If you have made changes to the Marble design and are ready to generate the manu
 
 ### Required software
 
-* [KiCad](https://www.kicad.org/): version 6.0.x (x &ge; 6)
+* [KiCad](https://www.kicad.org/): version 6.0.x (x &ge; 9)
 * [KiBoM](https://github.com/SchrodingersGat/KiBoM): version 1.8.0
 * [KiAuto](https://github.com/INTI-CMNB/KiAuto): version 2.2.1
 
@@ -19,7 +19,7 @@ We hope this still supports [reproducible](https://reproducible-builds.org) fabr
 
 ### Update the QR code on the silkscreen
 
-The QR code needs to be re-generated so it points to the new version release. To update the URL, edit the Python script used to generate the QR code image: `design/scripts/qr_create.py`. The URL in that file pointing to the current release is: <https://github.com/BerkeleyLab/Marble/releases/tag/v1.3>.
+The QR code needs to be re-generated so it points to the new version release. To update the URL, edit the Python script used to generate the QR code image: `design/scripts/qr_create.py`. The URL in that file pointing to the current release is: <https://github.com/BerkeleyLab/Marble/releases/tag/v1.4>.
 
 From the design directory, run the Python script:
 ```console
@@ -44,7 +44,7 @@ Press the `b` key to fill copper planes (completing connectivity and getting rid
 
 Select the QR code, right click and select `Update footprint...`. Click `Update` and `Close`.
 
-The above instructions are tested with KiCad 6.0.6. Be aware of KiCad issue [#6514](https://gitlab.com/kicad/code/kicad/-/issues/6514). If the results look corrupted and you are not able to scan the QR code from the PCB layout editor, select `Modern Toolset (Fallback)` under KiCad Preferences.
+The above instructions are tested with KiCad 6.0.11. Be aware of KiCad issue [#6514](https://gitlab.com/kicad/code/kicad/-/issues/6514). If the results look corrupted and you are not able to scan the QR code from the PCB layout editor, select `Modern Toolset (Fallback)` under KiCad Preferences.
 
 ### Generate the manufacturing package
 
@@ -82,8 +82,8 @@ From KiCad (version 6.0.x), open the `Schematic Layout Editor` clicking on this 
 
 ![Pcbnew](img/schem_button.png)
 
-* From the top menu, select `Tools / Generate Netlist File`
-* Select the `OrcadPCB2 tab`, click on `Generate Netlist` and `Save`. The result shows up as `Marble.net`
+* From the top menu, select `File / Export /  Netlist`
+* Select the `OrcadPCB2 tab`, click on `Export Netlist` and `Save`. The result shows up as `Marble.net`
 * If the above netlist was saved in the `design` directory, from the command line run:
 ```console
 $ python3 scripts/netlist_to_xdc.py Marble.net
