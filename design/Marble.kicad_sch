@@ -4929,7 +4929,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid ace56142-7f08-4c62-be49-29da817255a1)
   )
-  (text "Marble" (at 63.5 63.5 0)
+  (text "Marble v1.4" (at 63.5 63.5 0)
     (effects (font (size 10.0076 10.0076) (thickness 2.0015) bold) (justify left bottom))
     (uuid b0b0741d-aff5-4d1b-8695-b312af5317e4)
   )
