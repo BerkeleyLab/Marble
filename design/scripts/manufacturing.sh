@@ -97,7 +97,7 @@ eeschema_do bom_xml $A.kicad_sch .
 
 # generate all the .drl, .pos and gerbers after DRC check
 echo "Running kicad_exporter.py to generate .drl, .pos, and .gbr files"
-python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers
+python3 scripts/kicad_exporter.py --layers 10 $A.kicad_pcb PCB_layers --keep-thru
 
 # Check that all the script-generated files are made
 die=0
