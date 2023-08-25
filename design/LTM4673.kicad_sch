@@ -13209,7 +13209,6 @@
     (property "License" "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." (id 40) (at 101.6 178.054 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "conf" "dnp" (id 41) (at 105.41 78.74 0))
     (pin "1" (uuid efafd0a1-de1c-4beb-b7c9-c71e19093c8a))
     (pin "2" (uuid 37729d3c-f670-4b0f-ad23-ae881eec11ad))
   )
