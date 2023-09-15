@@ -12599,8 +12599,8 @@
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c721515/3a9af3b9-bf3b-46d3-95f2-f83e80cc8d35"
       (reference "#PWR0916") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/d23dd6bd-0128-43f1-b245-256d32e05dad"
-      (reference "#PWR0917") (unit 1) (value "+3V3") (footprint "")
+    (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/8454d71a-7b9a-46ce-859c-cb482da45dbb"
+      (reference "#PWR0917") (unit 1) (value "+3.3P") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/cf53af96-9941-470c-9c00-08f8fdd4b8e2"
       (reference "#PWR0918") (unit 1) (value "GND") (footprint "")
@@ -15717,7 +15717,7 @@
       (reference "U51") (unit 1) (value "SN74AVC2T245RSWR") (footprint "ICs And Semiconductors SMD:QFN40P140X180X55-10N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/00000000-0000-0000-0000-00006343fc0b"
-      (reference "U52") (unit 1) (value "TCA9517DGKR") (footprint "ICs And Semiconductors SMD:SOP65P490X110-8N")
+      (reference "U52") (unit 1) (value "TCA9803DGKR") (footprint "ICs And Semiconductors SMD:SOP65P490X110-8N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c721515/f1db41da-f0ea-422a-8bae-864fcd221b12"
       (reference "U53") (unit 1) (value "SN74AVC2T245RSWR") (footprint "ICs And Semiconductors SMD:QFN40P140X180X55-10N")
