@@ -14598,10 +14598,10 @@
       (reference "R38") (unit 1) (value "R0402_4K7_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda3d/00000000-0000-0000-0000-00005c5e9e49"
-      (reference "R39") (unit 1) (value "R0402_2K2_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
+      (reference "R39") (unit 1) (value "R0402_4k99_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda3d/00000000-0000-0000-0000-00005c5ea1d3"
-      (reference "R40") (unit 1) (value "R0402_2K2_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
+      (reference "R40") (unit 1) (value "R0402_4k99_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005bceda3d/00000000-0000-0000-0000-00005c5ebdc1"
       (reference "R41") (unit 1) (value "R0402_2K2_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
