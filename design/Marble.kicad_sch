@@ -15717,7 +15717,7 @@
       (reference "U51") (unit 1) (value "SN74AVC2T245RSWR") (footprint "ICs And Semiconductors SMD:QFN40P140X180X55-10N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/00000000-0000-0000-0000-00006343fc0b"
-      (reference "U52") (unit 1) (value "TCA9803DGKR") (footprint "ICs And Semiconductors SMD:SOP65P490X110-8N")
+      (reference "U52") (unit 1) (value "PCA9509DP") (footprint "ICs And Semiconductors SMD:SOP65P490X110-8N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c721515/f1db41da-f0ea-422a-8bae-864fcd221b12"
       (reference "U53") (unit 1) (value "SN74AVC2T245RSWR") (footprint "ICs And Semiconductors SMD:QFN40P140X180X55-10N")
