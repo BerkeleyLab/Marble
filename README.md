@@ -1,10 +1,10 @@
 # Marble board
 
-Marble is a dual FMC FPGA carrier board developed for general purpose use in particle accelerator electronics instrumentation. It is currently under development and the base platform for two accelerator projects at DOE: ALS-U (the Advanced Light Source Upgrade at LBNL and the LCLS-II HE (the Linac Coherent Light Source II High Energy upgrade).
+Marble is a dual FMC FPGA carrier board developed for general purpose use in particle accelerator electronics instrumentation. It is currently under development and the base platform for two accelerator projects at DOE: ALS-U (the Advanced Light Source Upgrade at LBNL) and LCLS-II HE (the Linac Coherent Light Source II High Energy upgrade).
 
 ![marble](docs/marble.jpg)
 
-The design responds deployment needs in an accelerator environment: reliability, ability to be remotely programmed, safety watchdog, self monitoring, etc. It is intended to be the base digital design for instrumentation electronics, with the capability of connecting to different I/O or analog front ends through the FMC connectors, and is optimized for cost effectiveness for deployments of hundreds of units. It is based on a Network Attached Device (NAD) approach, where high-speed serial links serve as the communication backbone with other systems in the accelerator.
+The design responds to deployment needs in an accelerator environment: reliability, ability to be remotely programmed, safety watchdog, self monitoring, etc. It is intended to be the base digital design for instrumentation electronics, with the capability of connecting to different I/O or analog front ends through the FMC connectors. It targets cost-effectiveness for deployments of hundreds of units. It is based on a Network Attached Device (NAD) approach, where high-speed serial links serve as the communication backbone with other systems in the accelerator.
 
 ## Basic Idea
 
@@ -32,7 +32,7 @@ See more comments about KiCad versions in [design/scripts/README.md](design/scri
 * U4: Marvell [88E1512](https://www.marvell.com/documents/eoxwrbluvwybgxvagkkf/) Ethernet PHY
 * U20: TI [CDCM61004](http://www.ti.com/product/CDCM61004) Clock Generator
 * U23: FTDI [FT4232H-56Q](https://www.ftdichip.com/Products/ICs/FT4232H.htm) USB interface
-* U35: Maxlinear [XRP7724](https://www.maxlinear.com/product/power-management/universal-pmics/universal-pmics/xrp7724) Quad PWM Power Controller
+* U35: Analog Devices [LTM4673](https://www.analog.com/en/products/ltm4673.html) Quad Output Voltage Regulator Module
 * Y1: Taitien [TXEAADSANF-25.000000](https://www.taitien.com/wp-content/uploads/2015/12/XO-0076_TX.pdf) 25 MHz VCTCXO
 
 ## Documentation
@@ -43,9 +43,9 @@ Documentation is available in the [docs directory](docs/):
 * [Fabrication acceptance test guide](docs/marble_test_guide/Marble_Test_Guide.pdf)
 
 
-If you have a physical board that has already been tested you can jump directly to the User Guide. If you need to qualify, test or troubleshoot a board, you can use the fabrication acceptance test guide. These documents are also available as artifacts for each fabrication release.
+If you have a physical board that has already been tested you can jump directly to the User Guide. If you need to qualify, test, or troubleshoot a board, you can use the fabrication acceptance test guide. These documents are also available as artifacts for each fabrication release.
 
-Other documentation includes information on the XRP7724 PWM Power Controller, which has its own [README](xr_chip/README.md), and notes on [current measurement capabilities](docs/shunts.md)
+Other documentation includes notes on the board's [current measurement capabilities](docs/shunts.md).
 
 ## Manufacturing package and other scripted processes
 
@@ -64,15 +64,15 @@ Updating the QR code for a new release, updating the silkscreen design according
 
 ## Credits
 
-The initial design is supported by the Berkeley Accelerator Controls and Instrumentation (BACI), a DOE High Energy Physics (HEP) General Accelerator R&D (GARD) program and carried out by the Accelerator Technology Group (ATG) at LBNL, in collaboration with the Warsaw University of Technology (WUT) and Creotech Instruments in Poland.
+The initial design work was supported by the Berkeley Accelerator Controls and Instrumentation (BACI), a DOE High Energy Physics (HEP) General Accelerator R&D (GARD) program and carried out by the Accelerator Technology Group (ATG) at LBNL, in collaboration with the Warsaw University of Technology (WUT) and Creotech Instruments in Poland.
 
-The board was designed by Michal Gaska (WUT) and Larry Doolittle (LBNL) is the mastermind behind the design. Michael Betz, Vamsi Vytla, Sergio Paiagua, Eric Norum, Shree Murthy, and Keith Penney (LBNL) have also contributed to the design and supporting software and firmware throughout the development.
+The board was designed by Michal Gaska (WUT), and Larry Doolittle (LBNL) is the mastermind behind the design. Michael Betz, Vamsi Vytla, Sergio Paiagua, Eric Norum, Shree Murthy, and Keith Penney (LBNL) have also contributed to the design and supporting software and firmware throughout the development.
 
 ## Copyright
 
-Marble Copyright (c) 2019, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Department of Energy). All rights reserved.
+Marble Copyright (c) 2019-2023, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Department of Energy). All rights reserved.
 
-This documentation describes Marble and is licensed under the CERN OHL v. 1.2.
+This documentation describes Marble and is licensed under the [CERN OHL v1.2](https://ohwr.org/project/licences/wikis/cern-ohl-v1.2).
 
 NOTICE. This documentation was developed under funding from the U.S. Department of Energy and the U.S. Government consequently retains certain rights. As such, the U.S. Government has been granted for itself and others acting on its behalf a paid-up, nonexclusive, irrevocable, worldwide license in the documentation to reproduce, distribute copies to the public, prepare derivative works, and perform publicly and display publicly, and to permit others to do so.
 
