@@ -6,8 +6,8 @@
 
   (title_block
     (title "Marble")
-    (date "2022-08-24")
-    (rev "v1.4")
+    (date "2024-03-05")
+    (rev "v1.4.2")
     (company "Michał Gąska / WUT")
     (comment 3 "WHITE RABBIT")
   )
