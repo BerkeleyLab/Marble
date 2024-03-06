@@ -1,7 +1,7 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: m_power.eps
 %%Creator: XCircuit v3.9 rev73
-%%CreationDate: Wed Nov 18 09:27:20 2020
+%%CreationDate: Tue Mar  5 21:15:09 2024
 %%Pages: 1
 %%BoundingBox: 68 68 1133 916
 %%DocumentNeededResources: font Helvetica Times-Roman
@@ -305,14 +305,14 @@ endgate
 1.000 90.000 192 144 <</@refid (R15,R16,R17) >> analog::resistor
 0 1.000 96 64 96 -32 288 -32 288 64 4 polygon
 (INA219) {/Helvetica cf} 2 21 0.000 1.000 192 16 label
-0 1.000 496 384 496 -240 848 -240 848 384 4 polygon
+0 1.000 496 384 496 -240 912 -240 912 384 4 polygon
 1.000 180.000 -384 -336 analog::diode
 ("Always On") {/Helvetica cf} 2 16 0.000 1.000 480 -368 label
-(XRP7724) {/Helvetica cf} 2 21 0.000 1.000 672 80 label
-(1) {/Helvetica cf} 2 23 0.000 1.000 832 336 label
-(2) {/Helvetica cf} 2 23 0.000 1.000 832 160 label
-(3) {/Helvetica cf} 2 23 0.000 1.000 832 -16 label
-(4) {/Helvetica cf} 2 23 0.000 1.000 832 -192 label
+(LTM4673) {/Helvetica cf} 2 21 0.000 1.000 672 80 label
+(0) {/Helvetica cf} 2 23 0.000 1.000 896 336 label
+(1) {/Helvetica cf} 2 23 0.000 1.000 896 160 label
+(2) {/Helvetica cf} 2 23 0.000 1.000 896 -16 label
+(3) {/Helvetica cf} 2 23 0.000 1.000 896 -192 label
 1 1.000 -384 304 -384 -288 2 polygon
 1 1.000 -384 -384 -384 -560 80 -560 3 polygon
 1.000 0.000 -384 304 generic::dot
@@ -327,26 +327,16 @@ endgate
 (+12V) {/Helvetica cf} 2 16 0.000 1.000 320 1296 label
 1.000 0.000 384 240 generic::dot
 (Fans, LEDs) {/Helvetica cf} 2 16 0.000 1.000 2048 720 label
-0 1.000 1024 368 1024 304 1088 304 1088 368 4 polygon
-1 1.000 848 336 1024 336 2 polygon
-(Q10) {/Helvetica cf} 2 16 0.000 1.000 928 352 label
-0 1.000 1024 192 1024 128 1088 128 1088 192 4 polygon
-1 1.000 848 160 1024 160 2 polygon
-(Q11) {/Helvetica cf} 2 16 0.000 1.000 928 176 label
-0 1.000 1024 16 1024 -48 1088 -48 1088 16 4 polygon
-1 1.000 848 -16 1024 -16 2 polygon
-(Q12) {/Helvetica cf} 2 16 0.000 1.000 928 0 label
-0 1.000 1024 -160 1024 -224 1088 -224 1088 -160 4 polygon
-1 1.000 848 -192 1024 -192 2 polygon
-(Q13) {/Helvetica cf} 2 16 0.000 1.000 928 -176 label
-1.000 0.000 2016 448 generic::circle
-1 1.000 1920 448 2016 448 2 polygon
-(+2V5) {/Helvetica cf} 2 20 0.000 1.000 2048 448 label
-1.000 0.000 2016 304 generic::circle
-1 1.000 1920 304 2016 304 2 polygon
-(+3V3) {/Helvetica cf} 2 20 0.000 1.000 2048 304 label
-1.000 0.000 2016 160 generic::circle
-(+1V0 \(VCCBRAM\)) {/Helvetica cf} 2 20 0.000 1.000 2048 160 label
+1 1.000 912 160 1184 160 2 polygon
+1 1.000 912 -192 1024 -192 2 polygon
+1.000 0.000 2016 368 generic::circle
+1 1.000 1920 368 2016 368 2 polygon
+(+2V5) {/Helvetica cf} 2 20 0.000 1.000 2048 368 label
+1.000 0.000 2016 192 generic::circle
+1 1.000 1920 192 2016 192 2 polygon
+(+3V3) {/Helvetica cf} 2 20 0.000 1.000 2048 192 label
+1.000 0.000 2016 544 generic::circle
+(+1V0 \(VCCBRAM\)) {/Helvetica cf} 2 20 0.000 1.000 2048 544 label
 1.000 0.000 2016 -368 generic::circle
 1 1.000 1920 -368 2016 -368 2 polygon
 (+1V8 \(VCCAUX\)) {/Helvetica cf} 2 20 0.000 1.000 2048 -368 label
@@ -403,11 +393,9 @@ endgate
 (Microcontroller, FMC 3P3VAUX,) {/Helvetica cf} 2 16 0.000 1.000 480 -432 label
 (Temperature and power monitoring) {/Helvetica cf} 2 16 0.000 1.000 480 -496
 label
-1 1.000 1088 -16 1328 -16 1328 160 2016 160 4 polygon
-1 1.000 1088 -192 1376 -192 1376 -368 1920 -368 4 polygon
-1 1.000 1088 336 1232 336 1232 448 1920 448 4 polygon
-1 1.000 1088 160 1280 160 1280 304 1920 304 4 polygon
-1.000 0.000 1280 160 generic::dot
+1 1.000 1184 -16 1376 -16 1376 -368 1920 -368 4 polygon
+1 1.000 1232 368 1232 368 1232 368 1920 368 4 polygon
+1.000 0.000 1280 -192 generic::dot
 1 1.000 256 144 384 144 384 704 3 polygon
 1 1.000 2016 736 384 736 2 polygon
 1.000 0.000 384 736 generic::dot
@@ -418,26 +406,18 @@ label
 (VTT_DDR3) {/Helvetica cf} 2 20 0.000 1.000 2048 -528 label
 (U31) {/Helvetica cf} 2 16 0.000 1.000 1456 -448 label
 1 1.000 304 -560 448 -560 448 -560 528 -560 4 polygon
-(Marble) {/Helvetica cf} 2 16 0.000 2.000 -464 1088 label
+(Marble v1.4) {/Helvetica cf} 2 16 0.000 2.000 -464 1088 label
 (Power Routing) {/Helvetica cf} 2 16 0.000 1.400 -464 992 label
-(ENABLE) {/Helvetica cf} 2 20 0.000 1.000 512 -64 label
+(\)) {} (FAULT0) {ol} (ENABLE \() {/Helvetica cf} 6 20 0.000 1.000 512 -96
+label
 (Microcontroller and) {/Helvetica cf} 2 16 0.000 1.000 -80 -224 label
 (Over-temperature shutdown) {/Helvetica cf} 2 16 0.000 1.000 -80 -288 label
-1 1.000 496 -64 384 -64 384 -208 272 -208 4 polygon
-1.000 0.000 384 512 generic::dot
-1 1.000 1056 -160 1056 -112 1152 -112 1152 512 4 polygon
-1 1.000 1056 16 1056 64 1152 64 3 polygon
-1.000 0.000 1152 64 generic::dot
-1 1.000 1056 192 1056 240 1152 240 3 polygon
-1.000 0.000 1152 240 generic::dot
-1 1.000 1056 368 1056 416 1152 416 3 polygon
-1.000 0.000 1152 416 generic::dot
-1 1.000 384 512 1152 512 2 polygon
+1 1.000 496 -96 416 -96 416 -208 272 -208 4 polygon
 (TP3) {/Helvetica cf} 2 23 0.000 1.000 -528 -192 label
 (TP2) {/Helvetica cf} 2 20 0.000 1.000 16 272 label
-(TP10) {/Helvetica cf} 2 20 0.000 1.000 1952 400 label
-(TP11) {/Helvetica cf} 2 20 0.000 1.000 1952 256 label
-(TP9) {/Helvetica cf} 2 20 0.000 1.000 1952 112 label
+(TP10) {/Helvetica cf} 2 20 0.000 1.000 1952 320 label
+(TP11) {/Helvetica cf} 2 20 0.000 1.000 1952 144 label
+(TP9) {/Helvetica cf} 2 20 0.000 1.000 1952 496 label
 (TP8) {/Helvetica cf} 2 20 0.000 1.000 1952 -416 label
 (TP14) {/Helvetica cf} 2 20 0.000 1.000 464 -624 label
 (TP5) {/Helvetica cf} 2 20 0.000 1.000 1952 -64 label
@@ -446,18 +426,18 @@ label
 1.000 0.000 -16 272 generic::circle
 1 1.000 -16 272 -32 272 2 polygon
 1.000 0.000 -32 272 generic::dot
-1.000 0.000 1920 400 generic::circle
-1 1.000 1920 400 1888 400 1888 448 3 polygon
-1.000 0.000 1888 448 generic::dot
-1.000 0.000 1920 256 generic::circle
-1 1.000 1920 256 1888 256 1888 304 3 polygon
-1.000 0.000 1888 304 generic::dot
+1.000 0.000 1920 320 generic::circle
+1 1.000 1920 320 1888 320 1888 368 3 polygon
+1.000 0.000 1888 368 generic::dot
+1.000 0.000 1920 144 generic::circle
+1 1.000 1920 144 1888 144 1888 192 3 polygon
+1.000 0.000 1888 192 generic::dot
 1.000 0.000 1920 -64 generic::circle
 1 1.000 1920 -64 1888 -64 1888 -16 3 polygon
 1.000 0.000 1888 -16 generic::dot
-1.000 0.000 1920 112 generic::circle
-1 1.000 1920 112 1888 112 1888 160 3 polygon
-1.000 0.000 1888 160 generic::dot
+1.000 0.000 1920 496 generic::circle
+1 1.000 1920 496 1888 496 1888 544 3 polygon
+1.000 0.000 1888 544 generic::dot
 1.000 0.000 1920 -272 generic::circle
 1 1.000 1920 -272 1888 -272 1888 -224 3 polygon
 1.000 0.000 1888 -224 generic::dot
@@ -488,7 +468,7 @@ label
 1 1.000 1376 -192 1376 -16 1440 -16 3 polygon
 1 1.000 1376 -224 1440 -224 2 polygon
 1.000 0.000 1376 -224 generic::dot
-1.000 0.000 1376 -192 generic::dot
+1.000 0.000 1376 -16 generic::dot
 (MPM3830) {/Helvetica cf} 2 21 0.000 1.000 1616 -784 label
 0 1.000 1440 -720 1440 -848 1792 -848 1792 -720 4 polygon
 1.000 0.000 2016 -784 generic::circle
@@ -499,7 +479,7 @@ label
 1 1.000 1920 -832 1888 -832 1888 -784 3 polygon
 1.000 0.000 1888 -784 generic::dot
 (U58) {/Helvetica cf} 2 16 0.000 1.000 1456 -704 label
-1 1.000 1280 160 1280 -784 1440 -784 3 polygon
+1 1.000 1280 192 1280 -784 1440 -784 3 polygon
 (TPS7A8901) {/Helvetica cf} 2 21 0.000 1.000 1616 -1008 label
 (U47) {/Helvetica cf} 2 16 0.000 1.000 1456 -928 label
 0 1.000 1440 -944 1440 -1136 1792 -1136 1792 -944 4 polygon
@@ -534,6 +514,13 @@ label
 1 1.000 1440 -256 1280 -256 2 polygon
 1.000 0.000 1280 -256 generic::dot
 1 1.000 432 -624 400 -624 400 -560 3 polygon
+1 1.000 1184 -16 1184 160 2 polygon
+1 1.000 912 -16 1120 -16 1120 368 1232 368 4 polygon
+(PWRGD) {/Helvetica cf} 2 20 0.000 1.000 512 -16 label
+1 1.000 272 -160 368 -160 368 -16 496 -16 4 polygon
+1 1.000 2016 544 1376 544 1376 544 1056 544 1056 320 1024 320 912 320 7 polygon
+1 1.000 1280 192 1920 192 2 polygon
+1 1.000 1024 -192 1280 -192 2 polygon
 pgsave restore showpage
 
 %%Trailer
