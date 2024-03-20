@@ -2,8 +2,8 @@
 # run this script from the `Marble` project directory:
 # $ bash scripts/manufacturing.sh
 #
-# Versions tested on Debian Bullseye 2023-03-20:
-#  KiCad 6.0.6 (wish for more varied experience)
+# Versions tested on Debian Bullseye 2024-03-20:
+#  KiCad 6.0.11 (wish for more varied experience)
 #  KiBoM 1.8.0 (tested with commit ac29a12)
 #  kiauto 2.2.1 (tested natively, docker and chroot)
 #
@@ -13,7 +13,7 @@
 #    (or let pip3 find xvfbwrapper and psutil)
 #  pip3 install kiauto==2.2.1
 #
-# No need to open the GUI!  Everything can be done using this script
+# No need to open the GUI!  Everything can be done using this script,
 # including generation of the BOM .xml and IPC-D-356 Netlist files.
 #
 # Make sure
@@ -26,7 +26,7 @@ export LC_COLLATE=C
 umask 0022
 A=Marble
 
-# Make sure we're running under bash so brace expansion and which works
+# Make sure we're running under bash, so brace expansion and which works
 if ! test "$(echo A{B,C})" = "AB AC"; then
   echo "Error, not running under bash"
   exit 1
@@ -39,7 +39,7 @@ if ! python3 -m KiBOM_CLI --version; then
   exit 1
 fi
 
-# check for kiauto (see installation instructions above)
+# Check for kiauto (see installation instructions above)
 if ! which eeschema_do pcbnew_do; then
   echo "kiauto commands eeschema_do pcbnew_do not in \$PATH"
   exit 1
@@ -58,11 +58,11 @@ fi
 zipfile=marble-${spec}-fab.zip
 echo "Final .zip file will be named $zipfile"
 
-# remove any stray stale files
+# Remove any stray stale files
 rm -f marble*.dat ./*.pdf ./*.erc ./*.drc ./*.xml
 
 echo "Generating PDF schematics"
-# Export schematics to PDF, saves it as Marble.pdf
+# Export schematics to PDF, saving it as Marble.pdf
 eeschema_do export -a $A.kicad_sch .
 
 # Run ERC, saves a report Marble.erc
@@ -76,7 +76,7 @@ else
 fi
 echo "See $A.erc and $(wc -l $A.erc.log)"
 
-# Run DRC, saves a report Marble.drc
+# Run DRC, which saves a report file called Marble.drc
 echo "Running DRC (layout)"
 # -s or not?
 if pcbnew_do run_drc -f drc_exclusion $A.kicad_pcb --ignore_unconnected -o $A.drc . 2> $A.drc.log; then
@@ -138,7 +138,7 @@ python3 scripts/find_tp.py ${A}.kicad_pcb > testpoint_map.gbr
 
 # Assemble files into fab directory
 # Includes stripping out date and revision info from KiCad exports,
-# so we have a chance of making reproducible output
+# so we have a good chance of making reproducible output.
 rm -rf fab
 mkdir fab
 cd PCB_layers
@@ -173,7 +173,7 @@ cp marble-stack.txt fab/marble-stack.txt
 cp scripts/testpoint_map.gvp fab/testpoint_map.gvp
 mv testpoint_map.gbr fab/testpoint_map.gbr
 
-# Fancy file integrity feature, presumably nobody besides Larry will care
+# Fancy file integrity feature.  Presumably nobody besides Larry will ever care.
 (cd fab && sha256sum -- * > marble-sha256.txt)
 (cat ../docs/README_fab.txt; cd fab; sha256sum marble-sha256.txt) > fab/README_fab.txt
 
@@ -183,9 +183,10 @@ if test -n "$SOURCE_DATE_EPOCH"; then
   echo "Forcing timestamp $SOURCE_DATE_EPOCH"
   touch --date="@$SOURCE_DATE_EPOCH" fab/*
   TZ=UTC zip -X --latest-time "$zipfile" fab/*
-  # Note the -X flag; to be pedantic about timestamps,
-  # that means you should unpack with TZ=UTC unzip "$zipfile".  See
+  # Note the -X flag, that keeps potentially bogus atime info out of the zipfile.  See
   # https://lists.reproducible-builds.org/pipermail/rb-general/2023-April/002927.html
+  # The TZ setup means that for full pedantic accuracy, you should unpack with
+  # TZ=UTC unzip "$zipfile".
 else
   zip "$zipfile" fab/*
 fi
@@ -196,4 +197,5 @@ if [ "$1" != "debug" ]; then  # clean-up step, can skip when debugging
 fi
 # marble-${spec}-fab.zip is the only generated file that should remain
 ls -l "$zipfile"
+sha256sum "$zipfile"
 echo DONE

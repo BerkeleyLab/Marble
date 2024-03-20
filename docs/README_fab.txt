@@ -8,11 +8,22 @@ PCB fabrication and turn-key assembly:
 Gerber, Drill, IPC-D-356, Board stackup, BoM, and X-Y placement.
 
 The design is created in, and these manufacturing files are mostly
-exported from, KiCad version 6.0.6.
+exported from, KiCad version 6.0.11.
 
 This is a 12-layer, 1.72mm (nominal) board.  Materials and thicknesses
 according to the board stackup description:
   marble-stack.txt
+
+Three heat sinks are called out in the BOM and shown on the schematic:
+  HS1  for U1 FPGA
+  HS2  for U35 Power Supply
+  H23  for U2 Clock Mux
+The latter two are stick-on.  HS1 is special: it clips on,
+but requires thermal grease applied between it and the FPGA.
+The hope is that the person assembling it is practiced with heat sinks,
+understands the importance of thermal grease, and has a tube on their shelf.
+Dow 340 seems to be the general-issue grease these days, but any known-good
+thermal grease is acceptable.
 
 Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
 (0.35mm pad).  The overall board size is 150 mm x 180 mm,
