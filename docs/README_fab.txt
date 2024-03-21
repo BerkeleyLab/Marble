@@ -34,6 +34,10 @@ similar to the AMC double-width standard.
 - Silkscreen color: White
 - Copper weight for inner layers is 0.5 oz and for outer layers is 1oz + 0.5oz = 1.5oz
 
+The SI conversion of the traditional PCB industry unit "1 oz" (really ounce/square-foot)
+is 305.15 g/m^2.  That _might_ convert to 34.15 micrometers layer thickness,
+but only if the copper plating has the density of pure bulk material at 20 C,
+
 Copper Gerber files, in order:
   marble-F_Cu.gbr
   marble-In1_Cu.gbr
