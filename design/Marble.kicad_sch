@@ -22838,10 +22838,10 @@
       (reference "R71") (unit 1) (value "R0402_150K_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-0000625e070a"
-      (reference "R72") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
+      (reference "R72") (unit 1) (value "R0402_47K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-0000625f25a2"
-      (reference "R73") (unit 1) (value "R0402_1K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
+      (reference "R73") (unit 1) (value "R0402_47K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/00000000-0000-0000-0000-00005fd9ee72"
       (reference "R74") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
@@ -23117,7 +23117,7 @@
       (reference "R165") (unit 1) (value "R0402_0R_JUMPER") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005ca40231/00000000-0000-0000-0000-00005c683ff0"
-      (reference "R166") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
+      (reference "R166") (unit 1) (value "R0402_4K7_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/22488bd7-2354-4516-b2b6-98ee476a7906"
       (reference "R167") (unit 1) (value "R0402_100K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
