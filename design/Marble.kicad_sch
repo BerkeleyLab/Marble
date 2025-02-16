@@ -18319,7 +18319,7 @@
     (path "/00000000-0000-0000-0000-00005c16c03c/00000000-0000-0000-0000-00006226fbe9"
       (reference "#PWR0109") (unit 1) (value "+3.3P") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-000062cc12f3"
+    (path "/00000000-0000-0000-0000-00005c16bf8e/e2dfc1d7-af6a-4a7a-b480-f72f26937b37"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005c417bcb/00000000-0000-0000-0000-00005e3168a3"
@@ -18646,7 +18646,7 @@
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005dc0475c"
       (reference "#PWR0218") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005dc074e0"
+    (path "/00000000-0000-0000-0000-00005c16bf8e/bdc7a71e-e549-48aa-9ae5-f04475afd425"
       (reference "#PWR0219") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005dbee3ee"
@@ -18682,7 +18682,7 @@
     (path "/00000000-0000-0000-0000-00005c16c03c/00000000-0000-0000-0000-00005d3a7995"
       (reference "#PWR0230") (unit 1) (value "+3.3P") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005dc007c1"
+    (path "/00000000-0000-0000-0000-00005c16bf8e/d21acd8a-11d0-4219-ae06-472fd9580479"
       (reference "#PWR0231") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005dc22ba0"
@@ -21073,8 +21073,8 @@
     (path "/00000000-0000-0000-0000-00005bceda39/00000000-0000-0000-0000-000062e1e120"
       (reference "C75") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
     )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-000062d5b279"
-      (reference "C76") (unit 1) (value "CC0402_22PF_50V_5%_C0G") (footprint "Capacitors SMD:CAPC1005X55N")
+    (path "/00000000-0000-0000-0000-00005c16bf8e/3e56f760-e236-4571-aa92-678864c04646"
+      (reference "C76") (unit 1) (value "CC0603_4.7UF_25V_10%_X5R") (footprint "Capacitors SMD:CAPC1608X90N")
     )
     (path "/00000000-0000-0000-0000-00005bceda39/00000000-0000-0000-0000-000062e41164"
       (reference "C77") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
@@ -21243,9 +21243,6 @@
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005c682128"
       (reference "C132") (unit 1) (value "CC0603_22UF_6.3V_20%_X5R") (footprint "CAPC1709X100N")
-    )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005c654fbc"
-      (reference "C133") (unit 1) (value "CC0201_100NF_6.3V_10%_X5R") (footprint "CAPC0603X33N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005c9c1496"
       (reference "C134") (unit 1) (value "CC0402_100NF_25V_10%_X5R") (footprint "CAPC1005X55N")
@@ -22342,6 +22339,9 @@
     (path "/00000000-0000-0000-0000-00005c16bf13/00000000-0000-0000-0000-00005e1c501e"
       (reference "L12") (unit 1) (value "IND0603_MURATA_BLM18SG121TN1D") (footprint "INDC1608X65N")
     )
+    (path "/00000000-0000-0000-0000-00005c16bf8e/b0f021a2-9a98-4c52-bd78-ad1699f62e04"
+      (reference "L13") (unit 1) (value "AOTA-B201610S3R3-101-T") (footprint "IND_WURTH_WE-PMCI_0806LR")
+    )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/00000000-0000-0000-0000-00005cf9305c"
       (reference "L14") (unit 1) (value "IND1806_MURATA_BLM41PG600SN1L") (footprint "INDC4516X180N")
     )
@@ -22645,6 +22645,9 @@
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/ae86ede8-0923-4351-a6ec-62ad9c5ee617"
       (reference "R6") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
+    (path "/00000000-0000-0000-0000-00005c16bf8e/23d81d25-dd1e-45e0-985e-52af0f24c184"
+      (reference "R7") (unit 1) (value "R0402_47K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
+    )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/e8444021-e619-4011-b5ed-da4f16c8710a/86986296-b3d9-432d-a43d-bb1c7d687c63"
       (reference "R8") (unit 1) (value "590K") (footprint "RESC1005X40N")
     )
@@ -22831,11 +22834,11 @@
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/00000000-0000-0000-0000-000062508517"
       (reference "R69") (unit 1) (value "R0402_18K_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
     )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-000062d04838"
-      (reference "R70") (unit 1) (value "R0402_510K_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
+    (path "/00000000-0000-0000-0000-00005c16bf8e/d444710d-05dd-4bf1-bb81-e1dbc10d82e3"
+      (reference "R70") (unit 1) (value "R0402_10K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
     )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-000062d07be5"
-      (reference "R71") (unit 1) (value "R0402_150K_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
+    (path "/00000000-0000-0000-0000-00005c16bf8e/b1ad74d5-088e-4c54-b024-feedfeba21bb"
+      (reference "R71") (unit 1) (value "R0402_4K7_1%_0.0625W_100PPM") (footprint "Resistors SMD:RESC1005X40N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-0000625e070a"
       (reference "R72") (unit 1) (value "R0402_47K_1%_0.0625W_100PPM") (footprint "RESC1005X40N")
@@ -23699,7 +23702,7 @@
       (reference "U6") (unit 1) (value "TXS0102DCUR") (footprint "SOP50P310X90-8N")
     )
     (path "/00000000-0000-0000-0000-00005ca40231/00000000-0000-0000-0000-00005e17ee5a"
-      (reference "U7") (unit 1) (value "NC7SZ66P5X") (footprint "SOT65P210X110-5N")
+      (reference "U7") (unit 1) (value "74LVC1G66GW,125") (footprint "SOT65P210X110-5N")
     )
     (path "/00000000-0000-0000-0000-00005ca40231/00000000-0000-0000-0000-00005d76517a"
       (reference "U8") (unit 1) (value "SN74AVC2T245RSWR") (footprint "ICs And Semiconductors SMD:QFN40P140X180X55-10N")
@@ -23708,7 +23711,7 @@
       (reference "U9") (unit 1) (value "SN74AVC2T245RSWR") (footprint "ICs And Semiconductors SMD:QFN40P140X180X55-10N")
     )
     (path "/00000000-0000-0000-0000-00005ca40231/00000000-0000-0000-0000-00005e17f12a"
-      (reference "U10") (unit 1) (value "NC7SZ66P5X") (footprint "SOT65P210X110-5N")
+      (reference "U10") (unit 1) (value "74LVC1G66GW,125") (footprint "SOT65P210X110-5N")
     )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005cc8cb69/00000000-0000-0000-0000-00005c4235b4"
       (reference "U11") (unit 1) (value "SN74LVC1G125DCK") (footprint "SOT65P210X110-5N")
@@ -23731,8 +23734,8 @@
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005cff49b6"
       (reference "U17") (unit 1) (value "INA219BIDCNT") (footprint "ICs And Semiconductors SMD:SOT65P280X145-8N")
     )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-000062c00a60"
-      (reference "U18") (unit 1) (value "MYRGC075050R31RA") (footprint "SamacSys_Parts:MYRGC075050")
+    (path "/00000000-0000-0000-0000-00005c16bf8e/054dc66b-a7db-4060-a302-3ec9b9c755ea"
+      (reference "U18") (unit 1) (value "AP62150Z6") (footprint "Package_TO_SOT_SMD:SOT-563")
     )
     (path "/00000000-0000-0000-0000-00005c16bf13/00000000-0000-0000-0000-00005d741523"
       (reference "U19") (unit 1) (value "DAC8550IDGK") (footprint "ICs And Semiconductors SMD:SOP65P490X110-8N")
