@@ -17992,6 +17992,9 @@
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/00000000-0000-0000-0000-00005d8d9728"
       (reference "#FLG0154") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005c16bf8e/68cd0813-adac-4ab0-a3ec-a65cce6af068"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005bd31f9f/00000000-0000-0000-0000-00005bfc3656"
       (reference "#PWR01") (unit 1) (value "+12V_FMC2") (footprint "")
     )
