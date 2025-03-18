@@ -696,27 +696,34 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=1\linewidth]{testpointsnumb.png}
+% testpoint_map.pdf created with
+%   gerbv -p testpoint_map.gvp -x pdf -o testpoint_map.pdf
+% in the fab directory, after the fab package is made.
+\includegraphics[width=1\linewidth]{testpoint_map.pdf}
  \caption{Test point map}\label{testpoints}
 \end{center}
 \end{figure}
 
 \begin{enumerate}[label=(\alph*)]
-	\item Number \textbf{1} - \textbf{TP13 VTT\_DDR3 (0.75V)}.
-	\item Number \textbf{2} - \textbf{TP5 MGTAVCC\_DDR3 (1.05V)}.
-	\item Number \textbf{3} - \textbf{PoE}
-	\item Number \textbf{4} - \textbf{MGTAVTT (+1.2V)}
-	\item Number \textbf{5} - \textbf{MGTAVCC (+1.05V)}
-	\item Number \textbf{6} - \textbf{+1V5}
-	\item Number \textbf{7} - \textbf{VCCAUXIO2V0 (+2.0V)}
-	\item Number \textbf{8} - \textbf{VCCAUX (+1.8V)}
-	\item Number \textbf{9} - \textbf{VCCBRAM (+1.0V)}
-	\item Number \textbf{10} - \textbf{+2V5}
-	\item Number \textbf{11} - \textbf{+3V3}
-	\item Number \textbf{12} - \textbf{GND}
-	\item Number \textbf{13} - \textbf{VTT\_DDR3 (+0.75V)}
-	\item Number \textbf{14} - \textbf{+3.3P (always-on)}
-	\item Number \textbf{15} - \textbf{+3V3\_USB}
+	\item Number \textbf{TP1} - \textbf{input to +3.3P regulator}
+	\item Number \textbf{TP2} - \textbf{+12VS}
+	\item Number \textbf{TP3} - \textbf{PoE}
+	\item Number \textbf{TP4} - \textbf{MGTAVTT (+1.2V)}
+	\item Number \textbf{TP5} - \textbf{MGTAVCC (+1.05V)}
+	\item Number \textbf{TP6} - \textbf{+1V5}
+	\item Number \textbf{TP7} - \textbf{VCCAUXIO2V0 (+2.0V)}
+	\item Number \textbf{TP8} - \textbf{VCCAUX (+1.8V)}
+	\item Number \textbf{TP9} - \textbf{VCCBRAM (+1.0V)}
+	\item Number \textbf{TP10} - \textbf{+2V5}
+	\item Number \textbf{TP11} - \textbf{+3V3}
+	\item Number \textbf{TP12} - \textbf{GND}
+	\item Number \textbf{TP13} - \textbf{VTT\_DDR3 (+0.75V)}
+	\item Number \textbf{TP14} - \textbf{+3.3P (always-on)}
+	\item Number \textbf{TP15} - \textbf{+3V3\_USB}
+% no vias, meaning they don't show up like the rest
+% TP17  TSENSE3+
+% TP18  TSENSE2
+% TP19  TSENSE1
 
 \end{enumerate}
 
