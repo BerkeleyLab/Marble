@@ -15,7 +15,6 @@ import json
 import os
 import sys
 hfile = os.path.join(sys.path[0], "hershey_sans1.json")
-print(hfile)
 font = json.load(open(hfile, "r"))
 # Would it be an improvement to put the resulting data directly in
 # this file?  It feels bad to mix code and data like that,
@@ -116,6 +115,7 @@ def gbr_head(comment):
 # and invokes the routines above.
 # That program would have argument handling based on Gang's qrsn.py.
 if __name__ == "__main__":
+    print(hfile)
     qr_test_text = "\
 00000000000000000000000000000\n\
 00000000000000000000000000000\n\
