@@ -1,0 +1,33 @@
+kibot:
+  version: 1
+global:
+  out_dir: output
+preflight:
+  check_zone_fills: true
+  erc: false
+  drc: false
+
+outputs:
+  - name: Info
+    type: info
+
+  - name: 'print_sch'
+    type: pdf_sch_print
+    dir: sch
+
+  - name: Diff Schematic
+    type: diff
+    dir: sch
+    options:
+      only_different: true
+      old: xxBASE
+      pcb: false
+
+  - name: Diff Layout
+    type: diff
+    dir: pcb
+    options:
+      only_different: true
+      old: xxBASE
+      pcb: true
+      dpi: 400
