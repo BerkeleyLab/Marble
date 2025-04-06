@@ -11,7 +11,7 @@ If you have made changes to the Marble design and are ready to generate the manu
 ### Required software
 
 * [KiCad](https://www.kicad.org/): version 6.0.x (x &ge; 9)
-* [KiBoM](https://github.com/SchrodingersGat/KiBoM): version 1.8.0
+* [KiBoM](https://github.com/SchrodingersGat/KiBoM): version 1.9.1
 * [KiAuto](https://github.com/INTI-CMNB/KiAuto): version 2.2.1
 
 KiCad version 6 is needed.
