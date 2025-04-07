@@ -1,0 +1,56 @@
+name: manufacturing.sh
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  fab:
+    name: Fab Outputs
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: script
+      run: |
+        cat <<EOF > runit.sh
+        #!/bin/sh
+        set -e -x
+        cd /io
+
+        apt-get update
+        apt-get install -yq git kicad xvfb xdotool python3-pip python3-xvfbwrapper python3-psutil zip
+
+        git config --global --add safe.directory /io
+
+        pip3 install --break-system-packages kiauto==2.2.1 kibom==1.9.1
+
+        cd design
+        bash scripts/manufacturing.sh
+        EOF
+        chmod +x runit.sh
+        docker run --rm --quiet \
+          --pull=always \
+          -v `pwd`:/io \
+          debian:12 \
+          /io/runit.sh
+
+    - name: output
+      run: |
+        set -e -x
+        cd design
+        for ff in *.zip
+        do
+            echo $ff
+            ls -l $ff
+            zipinfo $ff
+            sha256sum $ff > ${ff}.sha256
+            cat ${ff}.sha256
+        done
+    - name: zip
+      uses: actions/upload-artifact@v4
+      with:
+        name: marble
+        path: "design/*.zip*"
+    - name: check
+      run: >
+        ! unzip -p design/*.zip
+        | strings
+        | grep "$PWD"

@@ -2,16 +2,16 @@
 # run this script from the `Marble` project directory:
 # $ bash scripts/manufacturing.sh
 #
-# Versions tested on Debian Bullseye 2024-03-20:
+# Versions tested on Debian Bullseye 2025-04-07:
 #  KiCad 6.0.11 (wish for more varied experience)
-#  KiBoM 1.8.0 (tested with commit ac29a12)
+#  KiBoM 1.9.1
 #  kiauto 2.2.1 (tested natively, docker and chroot)
 #
 # Installation process for kiauto:
-#  sudo apt-get install xvfb xdotool python3-pip
+#  sudo apt-get install git xvfb xdotool python3-pip
 #  sudo apt-get install python3-xvfbwrapper python3-psutil
 #    (or let pip3 find xvfbwrapper and psutil)
-#  pip3 install kiauto==2.2.1
+#  pip3 install kiauto==2.2.1 kibom==1.9.1
 #
 # No need to open the GUI!  Everything can be done using this script,
 # including generation of the BOM .xml and IPC-D-356 Netlist files.
@@ -32,10 +32,8 @@ if ! test "$(echo A{B,C})" = "AB AC"; then
   exit 1
 fi
 
-# KiBoM is cloned from
-# https://github.com/SchrodingersGat/KiBoM
-if ! python3 -m KiBOM_CLI --version; then
-  echo "KiBoM not found in \$PYTHONPATH"
+if ! python3 -m kibom --version; then
+  echo "kibom not found in \$PYTHONPATH"
   exit 1
 fi
 
@@ -112,7 +110,7 @@ echo OK
 
 # Run KiBoM from the command line
 echo running KiBoM
-python3 -m KiBOM_CLI --cfg scripts/bom.ini $A.xml $A
+python3 -m kibom --cfg scripts/bom.ini $A.xml $A
 echo KiBoM complete
 
 # One more cross-check
