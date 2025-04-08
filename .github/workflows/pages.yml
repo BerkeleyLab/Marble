@@ -1,0 +1,80 @@
+name: Marble documentation
+
+on: [push, pull_request, workflow_dispatch]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    # We want to run on external PRs, but not on our own internal PRs as
+    # they'll be run by the push to the branch. Without this if check,
+    # checks are duplicated since internal PRs match both the push and
+    # pull_request events.
+    if: >
+      github.event_name == 'push' ||
+        github.event.pull_request.head.repo.full_name != github.repository
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install python PIP packages
+        run: |
+          python -m pip install \
+                sphinx>8
+
+      - name: Install documentation tools
+        run: |
+          sudo apt-get update
+          sudo apt-get -y install \
+                          make \
+                          imagemagick \
+                          ghostscript \
+                          texlive-latex-base
+          sudo sed -i -e '/pattern="PS"/ s/rights=".*" pattern=/rights="read|write" pattern=/g' \
+                      -e '/pattern="PDF"/ s/rights=".*" pattern=/rights="read|write" pattern=/g' \
+                      -e '/pattern="EPS"/ s/rights=".*" pattern=/rights="read|write" pattern=/g' \
+                      -e '/<\/policymap>/i \  <policy domain="coder" rights="read|write" pattern="{GIF,JPEG,PNG,WEBP}" \/>' /etc/ImageMagick-*/policy.xml
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build sphinx docs
+        run: |
+          make -C docs/sphinx html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/sphinx/_build/html
+
+  # Deploy job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    needs: build
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
