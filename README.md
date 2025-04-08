@@ -37,11 +37,7 @@ See more comments about KiCad versions in [design/scripts/README.md](design/scri
 
 ## Documentation
 
-Documentation is available in the [docs directory](docs/):
-
-* [User Guide](docs/marble_user_guide/Marble_User_Guide.pdf)
-* [Fabrication acceptance test guide](docs/marble_test_guide/Marble_Test_Guide.pdf)
-
+Documentation is available in the [Marble documentation page](https://berkeleylab.github.io/Marble/manuals.html).
 
 If you have a physical board that has already been tested you can jump directly to the User Guide. If you need to qualify, test, or troubleshoot a board, you can use the fabrication acceptance test guide. These documents are also available as artifacts for each fabrication release.
 
