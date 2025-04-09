@@ -45,7 +45,7 @@ jobs:
                           make \
                           imagemagick \
                           ghostscript \
-                          texlive-latex-base
+                          texlive-latex-recommended
           sudo sed -i -e '/pattern="PS"/ s/rights=".*" pattern=/rights="read|write" pattern=/g' \
                       -e '/pattern="PDF"/ s/rights=".*" pattern=/rights="read|write" pattern=/g' \
                       -e '/pattern="EPS"/ s/rights=".*" pattern=/rights="read|write" pattern=/g' \
