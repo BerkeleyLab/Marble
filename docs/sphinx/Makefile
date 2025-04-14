@@ -2,8 +2,8 @@
 #
 
 # $(MAKEF_DIR) as constructed includes a trailing slash (/)
-MAKEF_PATH 	  := $(abspath $(lastword $(MAKEFILE_LIST)))
-MAKEF_DIR 	  := $(dir $(MAKEF_PATH))
+MAKEF_PATH   := $(abspath $(lastword $(MAKEFILE_LIST)))
+MAKEF_DIR    := $(dir $(MAKEF_PATH))
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
@@ -18,9 +18,10 @@ TOP_DIR      := $(MAKEF_DIR)../../
 DESIGN_DIR   := $(TOP_DIR)design/
 DOCS_DIR     := $(TOP_DIR)docs/
 
-GEN_DOCS      = Marble_User_Guide.pdf \
-				Marble_Test_Guide.pdf \
-				Marble_Schematic.pdf
+GEN_DOCS      = \
+  Marble_User_Guide.pdf \
+  Marble_Test_Guide.pdf \
+  Marble_Schematic.pdf
 
 # Put it first so that "make" without argument is like "make help".
 help:

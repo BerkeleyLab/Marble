@@ -1,4 +1,4 @@
-﻿Board Layer Stack;;;;;;;;;;;;;
+Board Layer Stack;;;;;;;;;;;;;
 Number;Name;Type;Manufacturer;Material;Process;Thickness (mm);Weight (oz);Dk;Df;Orientation;;;
 ;Top Overlay;Overlay;;;;;;;;;;;
 ;Top Solder;Solder Mask;Altium Designer;SM-001;;0,025;;4;0,03;;;;
