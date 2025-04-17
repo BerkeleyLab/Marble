@@ -1,4 +1,4 @@
-name: manufacturing.sh
+name: Generate manufacturing files
 
 on: [push, pull_request, workflow_dispatch]
 
@@ -6,51 +6,67 @@ jobs:
   fab:
     name: Fab Outputs
     runs-on: ubuntu-latest
+    container:
+      image: docker.io/debian:12
     steps:
-    - uses: actions/checkout@v4
-    - name: script
-      run: |
-        cat <<EOF > runit.sh
-        #!/bin/sh
-        set -e -x
-        cd /io
+      # Git is required so that actions/checkout does a proper Git checkout
+      # instead of using the GitHub REST API.
+      - name: Install Git in container
+        run: |
+          apt-get update
+          apt-get -y install \
+            git
+          # one time fix to avoid permission problems later on
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-        apt-get update
-        apt-get install -yq git kicad xvfb xdotool python3-pip python3-xvfbwrapper python3-psutil zip
+      # Checks-out the repository under $GITHUB_WORKSPACE.
+      - uses: actions/checkout@v4
 
-        git config --global --add safe.directory /io
+      - name: Install dependencies
+        run: |
+          set -e -x
+          apt-get update
+          apt-get install -yq \
+            git \
+            kicad \
+            xvfb \
+            xdotool \
+            python3-pip \
+            python3-xvfbwrapper \
+            python3-psutil \
+            zip
 
-        pip3 install --break-system-packages kiauto==2.2.1 kibom==1.9.1
+          pip3 install --break-system-packages \
+            kiauto==2.2.1 \
+            kibom==1.9.1
 
-        cd design
-        bash scripts/manufacturing.sh
-        EOF
-        chmod +x runit.sh
-        docker run --rm --quiet \
-          --pull=always \
-          -v `pwd`:/io \
-          debian:12 \
-          /io/runit.sh
+      - name: Run manufacturing script
+        run: |
+          set -e -x
+          cd design
+          bash scripts/manufacturing.sh
 
-    - name: output
-      run: |
-        set -e -x
-        cd design
-        for ff in *.zip
-        do
-            echo $ff
-            ls -l $ff
-            zipinfo $ff
-            sha256sum $ff > ${ff}.sha256
-            cat ${ff}.sha256
-        done
-    - name: zip
-      uses: actions/upload-artifact@v4
-      with:
-        name: marble
-        path: "design/*.zip*"
-    - name: check
-      run: >
-        ! unzip -p design/*.zip
-        | strings
-        | grep "$PWD"
+      - name: Generate outputs
+        run: |
+          set -e -x
+          cd design
+          for ff in *.zip
+          do
+              echo $ff
+              ls -l $ff
+              zipinfo $ff
+              sha256sum $ff > ${ff}.sha256
+              cat ${ff}.sha256
+          done
+
+      - name: zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: marble
+          path: "design/*.zip*"
+
+      - name: check
+        run: >
+          ! unzip -p design/*.zip
+          | strings
+          | grep "$PWD"
