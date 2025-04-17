@@ -27,7 +27,6 @@ jobs:
           set -e -x
           apt-get update
           apt-get install -yq \
-            git \
             kicad \
             xvfb \
             xdotool \
@@ -59,13 +58,13 @@ jobs:
               cat ${ff}.sha256
           done
 
-      - name: zip
+      - name: Generate zip
         uses: actions/upload-artifact@v4
         with:
           name: marble
           path: "design/*.zip*"
 
-      - name: check
+      - name: Check $PWD is not in zip
         run: >
           ! unzip -p design/*.zip
           | strings
