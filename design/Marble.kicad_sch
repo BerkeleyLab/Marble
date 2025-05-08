@@ -35943,6 +35943,9 @@
     (path "/00000000-0000-0000-0000-000060326218/00000000-0000-0000-0000-00005e9d21e4"
       (reference "#FLG06") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005c16bf8e/68cd0813-adac-4ab0-a3ec-a65cce6af068"
+      (reference "#FLG07") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005c907554/00000000-0000-0000-0000-00005dca928c/00000000-0000-0000-0000-00005ea81fb7/00000000-0000-0000-0000-0000626af7d1"
       (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -36044,9 +36047,6 @@
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/00000000-0000-0000-0000-00005d8d9728"
       (reference "#FLG0154") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c16bf8e/68cd0813-adac-4ab0-a3ec-a65cce6af068"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005bd31f9f/00000000-0000-0000-0000-00005bfc3656"
       (reference "#PWR01") (unit 1) (value "+12V_FMC2") (footprint "")
@@ -40406,6 +40406,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c16bf8e/00000000-0000-0000-0000-00005db9b7e6/00000000-0000-0000-0000-00005d0f77d2"
       (reference "L16") (unit 1) (value "IND0603_MURATA_BLM18SG121TN1D") (footprint "INDC1608X65N")
+    )
+    (path "/00000000-0000-0000-0000-00005c16bf8e/caac1f58-a037-46e5-ae27-2b5c7c5838e1"
+      (reference "L17") (unit 1) (value "IND0603_MURATA_BLM18SG121TN1D") (footprint "INDC1608X65N")
     )
     (path "/00000000-0000-0000-0000-00005c16bf13/00000000-0000-0000-0000-00005fedb9e0"
       (reference "L19") (unit 1) (value "IND0603_MURATA_BLM18SG121TN1D") (footprint "INDC1608X65N")
