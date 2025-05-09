@@ -6,7 +6,7 @@ Updating the QR code for a new release, updating the silkscreen design according
 
 ## Generating the manufacturing package
 
-If you have made changes to the Marble design and are ready to generate the manufacturing package, the first step is to pick a version number for the new release. The current version is `v1.4.3`.
+If you have made changes to the Marble design and are ready to generate the manufacturing package, the first step is to pick a version number for the new release. The current version is `v1.4.4`.
 
 ### Required software
 
@@ -19,7 +19,7 @@ We hope this still supports [reproducible](https://reproducible-builds.org) fabr
 
 ### Update the QR code on the silkscreen
 
-The QR code needs to be re-generated so it points to the new version release. To update the URL, edit the Python script used to generate the QR code image: `design/scripts/qr_create.py`. The URL in that file pointing to the current release is: <https://github.com/BerkeleyLab/Marble/releases/tag/v1.4.3>.
+The QR code needs to be re-generated so it points to the new version release. To update the URL, edit the Python script used to generate the QR code image: `design/scripts/qr_create.py`. The URL in that file pointing to the current release is: <https://github.com/BerkeleyLab/Marble/releases/tag/v1.4.4>.
 
 From the design directory, run the Python script:
 ```console

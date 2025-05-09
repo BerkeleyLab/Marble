@@ -7,7 +7,7 @@
   (title_block
     (title "Marble")
     (date "2024-03-05")
-    (rev "v1.4.3")
+    (rev "v1.4.4")
     (company "Michał Gąska / WUT")
     (comment 3 "MMC")
   )
