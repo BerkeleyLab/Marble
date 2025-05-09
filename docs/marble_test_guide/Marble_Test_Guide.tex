@@ -7,7 +7,7 @@
 \usepackage{enumitem}
 \usepackage{listings}
 \usepackage[svgnames]{xcolor}
-\usepackage{background}
+%\usepackage{background}
 
 
 
@@ -29,9 +29,9 @@
 \usepackage{hyperref}
 \graphicspath{{figures/}} %Setting the graphicspath
 \renewcommand\abstractname{Introduction}
-\backgroundsetup{contents=Not for v1.4.x}
+%\backgroundsetup{contents=Not for v1.4.x}
 
-\title{Marble -- Factory Acceptance Tests\\ \small{v1.0 2020}}
+\title{Marble -- Factory Acceptance Tests\\ \small{v1.4 2025}}
 
 \begin{document}
 
@@ -72,7 +72,7 @@ To perform all tests the following hardware is required:
     \item QSFP loopback module.
     \item FMC Tester module.
     \item Multimeter.
-    \item MMC JTAG (example: SEGGER J-LINK mini).
+    \item MMC JTAG (either SEGGER J-LINK mini or STMicroelectronics ST-Link V2).
     \item FPGA JTAG (example: Digilent JTAG HS3).
 \end{enumerate}
 
@@ -115,7 +115,7 @@ This should result in the \textit{3.3V} and \textit{12V} LEDs lighting up as sho
 
 Download the latest version of the microcontroller testing code from GitHub:
 \begin{leftbar}
-https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/unified\_marble
+https://github.com/BerkeleyLab/Marble-MMC
 \end{leftbar}
 
 A recent version of OpenOCD (v0.10.0 or later) is required.
@@ -143,7 +143,7 @@ $ make marble_download
 
 
 
-\section{Power Supply programing}
+\section{Power Supply Programing}
 Before doing the steps below it is highly recommended to verify that there are no shorts on the power rails. This can be done by measuring the resistance between the test points:
 
 \begin{enumerate}
@@ -168,10 +168,14 @@ Before doing the steps below it is highly recommended to verify that there are n
 
 \textbf{Warning:} Only perform the following steps if there are no shorts on the power rails.
 \begin{enumerate}
-    \item Connect the micro USB cable and, using the serial terminal, connect to the last serial port for the new device listed in the operating system. Use 115200 baudrate.
+    \item Connect the micro USB cable and note the serial device name assigned to it (i.e. /dev/ttyUSB3).  It will always be the last port of a group of 4 associated with the Marble's FT4232 USB-to-UART.
     \item Set up voltage to 12V and the current limit to 1A on a lab power supply.
     \item Power up the board.
-    \item From the menu displayed in the serial terminal, select the option \menu{g) XRP7724 go}.
+    \item Open a terminal in the Marble-MMC repository downloaded in section 3.
+    \item Run the LTM4673 programming script (where \$TTY is the serial device name noted above):
+      \begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
+$ sh scripts/program_ltm4673.sh \$TTY -f LTM4673_reglist.txt -s
+      \end{lstlisting}
     \item Power cycle by turning the lab power supply Off and then On.
     \item All power LED indicators should be On (Figure \ref{leds}).
     \item Using multimeter measure the voltage between the test points:
