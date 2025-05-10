@@ -46,7 +46,8 @@
 \begin{abstract}
 %\includegraphics[width=1.0\linewidth]{PhysLogger.png}\\
 Marble is a fully open source dual FMC carrier board designed for the Accelerator Technologies Group of the Engineering Division of Lawrence Berkeley National Laboratory. This document presents the technical documentation of the Marble module divided into individual functional sections.
-Design files are made in KiCad and are licensed under the CERN OHL v.~1.2.
+Design files are made in KiCad 6 and are licensed under the CERN OHL \hbox{v.~1.2}.
+This guide primarily applies to Marble v1.4.x.
 \end{abstract}
 
 \clearpage
@@ -78,51 +79,49 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
 \end{center}
 \end{figure}
 
-\begin{longtable}[htbp]{@{}ccp{0.3\linewidth}p{0.3\linewidth}c@{}}
+\begin{longtable}[htbp]{@{}ccp{0.4\linewidth}p{0.3\linewidth}}
 \toprule
 \textbf{Callout} &
   \textbf{\begin{tabular}[c]{@{}c@{}}Reference\\ Designator\end{tabular}} &
   \textbf{Component Description} &
-  \textbf{Notes} &
-  \textbf{\begin{tabular}[c]{@{}c@{}}Schematic \\ Page\end{tabular}} \\ \midrule
-
-1  & U1  & FPGA Xilinx Kintex-7      & XC7K160T-2FFG676C &  \\
-2  & SK1 & DD3 SO-DIMM memory module & VR7PU286458FBAMJT &  \\
-3  & U4  & 10/100/1000 Ethernet PHY  & 88E1512-A0-NNP2I000  &  \\
-4  & J14, J6 & Microcontroller programing connectors         &                   &  \\
-5  & U2  & 8x8 Clock Crosspoint Switch   & ADN4600ACPZ	     &  \\
-6  & U35 & Power Management          & LTM4673IY\#PBF   &  \\
-7  & J1, J19 & 12V power input       & FC68148(DC-10A), 641119-2  &  \\
-8  & J11 & FPGA JTAG connector       & 87831-1420   &  \\
-9  & U40 & PoE module                & AG5300          &  \\
-10 & M1, M2 & 3-pin PC fan connectors & SWR25X-NRTC-S03-ST-BA &  \\
-11 & J8  & QSFP connector            & QSFP8-038-01-L-D-RA1 &  \\
-12 & J17 & QSFP connector            & QSFP8-038-01-L-D-RA1   &  \\
-13 & P2  & FMC HPC connector         & ASP-134486-01 &  \\
-14 & P1  & FMC HPC connector         & ASP-134486-01     &  \\
-15 & J12 & Pmod connected to FPGA    & PPTC062LJBN-RC     &  \\
-16 & J16 & Pmod connected to microcontroller  & PPTC062LJBN-RC    &  \\
-17 & J13 & Pmod connected to FPGA    & PPTC062LJBN-RC    &  \\
-18 & SW3 & User button connected to microcontroller      &  KSS241GLFS  &  \\
-19 & SW5 & FPGA reset button   		 & KSS241GLFS      &  \\
-20 & LD13, LD14 & User LEDs connected to shared I2C bus & KPH-1608CGCK &  \\
-21 & LD11-12, LD15 & User LEDs connected to microcontroller &  KPH-1608CGCK  &  \\
-22 & LD16, LD17    & User LEDs connected to FPGA &  KPH-1608CGCK     &  \\
-23 & SW1 & Memory write protection switch  & A6SN-1101 &  \\
-24 & Y6  & 10-280MHz Clock generator   & SI570  &  \\
-25 & J2, J5    & External clock source input & U.FL      &  \\
-26 & J3, J7 &  External clock source input &   U.FL       &  \\
-27 & U44-U50    & GTX Transceivers Mux & PI3DBS12212AZBSEX  &  \\
-28 & J9  & Power Management programming header & 0.1 inch male 4-pin header &  \\
-29 & Y1-Y3, U20 & Internal 125 MHz \& 20MHz clock sources & CDCM61004RHBT &  \\
-30 & U30 &  FPGA SPI flash memory  & S25FL128SAGMFIR01 &  \\
-31 & U5  &  I2C multiplexer    & TCA9548ARGER   &  \\
-32 & U23 &  Double USB - UART bridge, USB-JTAG bridge for FPGA & FT4232H-56Q   &  \\
-33 & U54 & Housekeeping Microcontroller  & STM32F207VCTx  &  \\
-34 & J10 & Micro USB connector for U23  & 10103594-0001LF  &  \\
-35 & SW2 & \textcolor{red}{Not populated user button (physically connected to SW3)}  & SKHHLQA010  &  \\
-36 & U60 & Over-voltage and Under-voltage Reset IC & TPS3703A7330DSERQ1 &  \\
-37 & LD4-10, LD18-19 & Power rails indicator LEDs & KPH-1608CGCK &  \\ \bottomrule
+  \textbf{Notes} \\ \midrule
+1  & U1  & FPGA Xilinx Kintex-7      & XC7K160T-2FFG676C \\
+2  & SK1 & DD3 SO-DIMM memory module & VR7PU286458FBAMJT \\
+3  & U4  & 10/100/1000 Ethernet PHY  & 88E1512-A0-NNP2I000  \\
+4  & J14, J6 & Microcontroller programing connectors         &                   \\
+5  & U2  & 8x8 Clock Crosspoint Switch   & ADN4600ACPZ	     \\
+6  & U35 & Power Management          & LTM4673IY\#PBF   \\
+7  & J1, J19 & 12V power input       & FC68148(DC-10A), 641119-2  \\
+8  & J11 & FPGA JTAG connector       & 87831-1420   \\
+9  & U40 & PoE module (optional)     & AG5300          \\
+10 & M1, M2 & 3-pin PC fan connectors & SWR25X-NRTC-S03-ST-BA \\
+11 & J8  & QSFP connector            & QSFP8-038-01-L-D-RA1 \\
+12 & J17 & QSFP connector            & QSFP8-038-01-L-D-RA1   \\
+13 & P2  & FMC HPC connector         & ASP-134486-01 \\
+14 & P1  & FMC HPC connector         & ASP-134486-01     \\
+15 & J12 & Pmod connected to FPGA    & PPTC062LJBN-RC     \\
+16 & J16 & Pmod connected to microcontroller  & PPTC062LJBN-RC    \\
+17 & J13 & Pmod connected to FPGA    & PPTC062LJBN-RC    \\
+18 & SW3 & User button connected to microcontroller      &  KSS241GLFS  \\
+19 & SW5 & FPGA reset button   		 & KSS241GLFS      \\
+20 & LD13, LD14 & User LEDs connected to shared I2C bus & KPH-1608CGCK \\
+21 & LD11-12, LD15 & User LEDs connected to microcontroller &  KPH-1608CGCK  \\
+22 & LD16, LD17    & User LEDs connected to FPGA &  KPH-1608CGCK     \\
+23 & SW1 & Memory write protection switch  & A6SN-1101 \\
+24 & Y6  & 10-280MHz Clock generator   & SI570  \\
+25 & J2, J5    & External clock source input & U.FL      \\
+26 & J3, J7 &  External clock source input &   U.FL       \\
+27 & U44-U50    & GTX Transceivers Mux & PI3DBS12212AZBSEX  \\
+28 & J9  & Power Management programming header & 0.1 inch male 4-pin header \\
+29 & Y1-Y3, U20 & Internal 125 MHz \& 20MHz clock sources & CDCM61004RHBT \\
+30 & U30 &  FPGA SPI flash memory  & S25FL128SAGMFIR01 \\
+31 & U5  &  I2C multiplexer    & TCA9548ARGER   \\
+32 & U23 &  USB bridge: UART and JTAG & FT4232H-56Q   \\
+33 & U54 & Housekeeping Microcontroller  & STM32F207VCTx  \\
+34 & J10 & Micro USB connector for U23  & 10103594-0001LF  \\
+35 & SW2 & \textcolor{red}{Not populated user button (physically connected to SW3)}  & SKHHLQA010  \\
+36 & U60 & Over-voltage and Under-voltage Reset IC & TPS3703A7330DSERQ1 \\
+37 & LD4-10, LD18-19 & Power rails indicator LEDs & KPH-1608CGCK \\ \bottomrule
 
 \caption{}
 \label{tab:my-table}
@@ -162,6 +161,7 @@ Bank 34 HP & +1.5V             & DDR3       \\ \bottomrule
 \end{table}
 
 The S25FL128SAGMFIR01 configuration memory is connected to the FPGA chip. By default, the FPGA chip loads the configuration from the flash memory after correct power cycle. The module is equipped with a switch (fig \ref{bootsw}) that blocks the programming of the configuration memory. When the switch is in the ON position, Write Protection is enabled. WP signal status can be read via I2C IO expander.
+This write-protect feature is a key part of the board's `unbrickable' feature.
 
 \begin{figure}[H]
 \begin{center}
@@ -193,7 +193,8 @@ Internal USB-JTAG is done by using the first data channel of FT4232, which can w
 from USB bus switches the multiplexer to pass data from FT4232 to FPGA.
 
 \subsubsection{Self-JTAG}
-Internal self-JTAG can be used only when USB cable and external JTAG are not connected. In this configuration FPGA JTAG signals are connected to FPGA Bank 12:
+Internal self-JTAG can be used only when USB cable and external JTAG are not connected. In this configuration FPGA JTAG signals are connected to FPGA Bank 12.
+Self-JTAG has not been tested; no known bitfiles or software supports it.
 
 \begin{table}[htbp]
 \centering
@@ -210,7 +211,7 @@ JTAG TDO & Self\_FPGA\_TDO & IO\_L20N \\ \bottomrule
 \end{table}
 
 \subsection{LEDs}
-Two general purpose LEDs are connected to the FPGA chip:
+Two general purpose LEDs are directly connected to the FPGA chip:
 \begin{enumerate}
 	\item LD16 - connected to pin IO\_L18P\_33
 	\item LD17 - connected to pin IO\_25\_33
@@ -230,7 +231,7 @@ https://github.com/BerkeleyLab/bedrock
 \end{leftbar}
 A bitfile for Marble testing can be built with Vivado 2020.2 or newer.  With build environment setup
 according to the documentation in bedrock/dependencies.txt, a bitfile can be built with:
-	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
+	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]
 $ cd bedrock/projects/test_marble_family
 	\end{lstlisting}
 
@@ -244,7 +245,7 @@ Program the FPGA using the following steps:
 	\item Go to the folder \textbf{bedrock/projects/test\_marble\_family/}
 	\item Open command terminal and run command:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
-$ BITFILE=marble2.$GITID.bit mutil usb
+$ BITFILE=marble2.$GITID.bit ./mutil usb
 	\end{lstlisting}
 	\item After the successful programming, LEDs LD16 and LD17 should blink alternately.
 \end{enumerate}
@@ -266,9 +267,10 @@ The size of the DDR3 memory can be determined by the user by assembling the appr
 
 A reference design with a memory controller and a constraint file can be found here:
 \begin{leftbar}
-https://github.com/BerkeleyLab/bedrock
+https://github.com/enjoy-digital/litex
 \end{leftbar}
-See its projects/test\_marble\_family directory.
+Bedrock's CI process has a job (marble\_ddr3\_test) that uses LiteX to build a valid bitfile.
+You can follow along by peeking in .gitlab/ci/oscope.gitlab-ci.yml.
 
 \section{GTX Routing}
 Gigabit transceivers routing can be configured by the microcontroller. Transceivers from Bank 116 are permanently connected to module QSFP1. Transceivers from Bank 115 can be routed in 3 ways:
@@ -467,7 +469,9 @@ MGTXRXN3\_115 & QSFP1\_RX\_4\_N \\ \bottomrule
 \end{table}
 
 \section{Ethernet}
-Marble is equipped with Ethernet PHY (88E1512) which supports 10/100/1000BASE-T. PHY is connected to the FPGA bank 16 via RGMII interface:
+Marble is equipped with Ethernet PHY (88E1512) which supports 10/100/1000BASE-T
+(bedrock firmware only supports 1000BASE-T).
+PHY is connected to the FPGA bank 16 via RGMII interface:
 
 \begin{table}[htbp]
 \centering
@@ -491,8 +495,10 @@ PHY\_RSTn                          & IO\_L10N\_16                     \\ \bottom
 \caption{RGMII pins assignment}
 \label{tab:rgmii}
 \end{table}
-The Ethernet PHY can be monitored over MDIO by the MMC. IP address and MAC address are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash). To read the internal PHY configuration registers, select the appropriate option from the MMC console.
-By default, the MDIO address is set to 1 but it can be changed by changing the resistor on the module. To set address to 1, desolder resistor R80 and solder resistor R65 with value 0R.
+The Ethernet PHY can be monitored over MDIO by the MMC. To read the internal PHY configuration registers, select the appropriate option from the MMC console.
+By default, the MDIO address is set to 1, but it can be changed by changing the resistor on the module. To set address to 1, desolder resistor R80 and solder resistor R65 with value 0R.
+
+The IP and MAC addresses are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash).  After the FPGA boots, this information is passed to the FPGA over SPI. This feature depends, of course, on having a bitfile that implements it; this is a standard part of Bedrock's test\_marble\_family bitfiles.
 
 \section{FMC}
 Both FMC sockets are equipped with HPC (High Pin Count) type connector but not all signals were connected to FPGA and MMC.
@@ -538,7 +544,7 @@ MMC UART occupies FT4232's channel 4 and is used as the MMC serial console. Term
 
 \section{Power}
 Several hardware options are available to provide the nominal +12V power to the board.
-It can come from TE Connector (3-641119-2) - J19 (fig. \ref{j19}) or by standard barrel connector (Type A: 5.5 mm OD, 2.1 mm ID) - J1. Input voltage range: 10V - 18V. Additionally, PoE can be used to power the module.
+It can come from TE Connector (3-641119-2) - J19 (fig. \ref{j19}) or by standard barrel connector (Type A: 5.5 mm OD, 2.1 mm ID) - J1. Input voltage range: 6V - 15V. Additionally, PoE can be used to power the module.
 
 \begin{figure}[H]
 \begin{center}
@@ -575,7 +581,7 @@ Two additional temperature sensors based on the LM75 chip provide temperature me
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.6\linewidth]{fans.png}
- \caption{FANs connectors}\label{fans}
+ \caption{Fan connectors}\label{fans}
 \end{center}
 \end{figure}
 
