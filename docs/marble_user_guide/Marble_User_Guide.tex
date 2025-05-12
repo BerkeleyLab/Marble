@@ -63,19 +63,19 @@ Design files are open source and can be downloaded from GitHub:
 https://github.com/BerkeleyLab/Marble
 \end{leftbar}
 
-Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram of the module is shown in figure \ref{block}.
+Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram of the module is shown in figure \ref{fig:block}.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\linewidth]{block_k3.png}
- \caption{Marble block diagram.}\label{block}
+ \caption{Marble block diagram.}\label{fig:block}
 \end{center}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\linewidth]{marble_references.png}
- \caption{Marble board components.}\label{block}
+ \caption{Marble board components.}\label{fig:components}
 \end{center}
 \end{figure}
 
@@ -124,7 +124,7 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
 37 & LD4-10, LD18-19 & Power rails indicator LEDs & KPH-1608CGCK \\ \bottomrule
 
 \caption{}
-\label{tab:my-table}
+\label{tab:callouts}
 \end{longtable}
 
 The board has the following functionalities and features:
@@ -160,13 +160,26 @@ Bank 34 HP & +1.5V             & DDR3       \\ \bottomrule
 \label{tab:banks}
 \end{table}
 
-The S25FL128SAGMFIR01 configuration memory is connected to the FPGA chip. By default, the FPGA chip loads the configuration from the flash memory after correct power cycle. The module is equipped with a switch (fig \ref{bootsw}) that blocks the programming of the configuration memory. When the switch is in the ON position, Write Protection is enabled. WP signal status can be read via I2C IO expander.
+\subsection{Configuration Memory}\label{sec:Overview:Configuration}
+
+The S25FL128SAGMFIR01 configuration memory is connected to the FPGA chip.
+By default, the FPGA chip loads the configuration from the lowest address of flash memory after correct power cycle.
+The module is equipped with a switch (fig \ref{fig:bootsw}) that blocks the programming of the configuration memory.
+When the switch is in the ON position, Write Protection is enabled. WP signal status can be read via I2C IO expander.
 This write-protect feature is a key part of the board's `unbrickable' feature.
+
+To write to configuration memory, an FPGA image must be loaded (e.g. via JTAG) which implements the chip's SPI
+interface and acts as a bridge between the host computer (via USB, Ethernet, or some other interface) and
+the flash IC.
+Common flash memory interface commands are beyond the scope of this document, but an example implementation
+of such a bridge is provided in ``bedrock/badger/spi\_flash.v''.
+The default Marble image (``bedrock/projects/test\_marble\_family'') provides an interface to this bridge on Ethernet port 804
+for configuration memory programming.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.5\linewidth]{bootsw.png}
- \caption{Memory write protection switch.}\label{bootsw}
+ \caption{Memory write protection switch.}\label{fig:bootsw}
 \end{center}
 \end{figure}
 
@@ -257,8 +270,7 @@ Programming FPGA using Vivado and Digilent JTAG HS3 connected to J11:
 		\item Go to \menu{Flow>Open Hardware Manager} and then  \menu{Tools>Auto Connect}
 		\item Click \menu{Tools>Program Device>xc7k160t\_0} to open the programming window.
 		\item Choose the \textit{bitstream file} and click \menu{Program}
-
-	\item After the successful programming, LEDs LD16 and LD17 should blink alternately.
+		\item After the successful programming, LEDs LD16 and LD17 should blink alternately.
 \end{enumerate}
 
 \section{SO-DIMM}
@@ -280,7 +292,11 @@ Gigabit transceivers routing can be configured by the microcontroller. Transceiv
     \item 2 transceivers connected to FMC P2 and 2 transceivers connected to FMC P1
 \end{enumerate}
 
-Transceiver routing configuration can be set by the microcontroller. Three signals control the multiplexers which provide high quality signal switching. Gigabit multiplexer switching can be done from the UART console. By default, the multiplexers are set to route signals to the second QSFP connector. In the table \ref{table}, the MUXx columns correspond to the controlling logical state.
+Transceiver routing configuration is controlled by the microcontroller via control of three select signals to onboard gigabit multiplexers.
+To query or set the routing multiplexers' state, use the UART console or the MMC's mailbox interface to the FPGA (see section \ref{sec:MMC:Mailbox}).
+Three signals control the multiplexers which provide high quality signal switching.
+By default, the multiplexers are set to route signals to the second QSFP connector.
+In the table \ref{tab:gtx_routing}, the MUXx columns correspond to the controlling logical state.
 
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
@@ -294,7 +310,7 @@ Transceiver routing configuration can be set by the microcontroller. Three signa
  & 0    & 1    & 1    & FCM2-DP0   & FMC2-DP1   & FMC1-DP0   & FMC2-DP3  \\
  & 1    & X    & X    & QSFP2:3/10 & QSFP2:1/12 & QSFP2:2/11 & QSFP2:4/9 \\ \bottomrule
 \end{tabular}
-\caption{GTX transceivers routing table}\label{table}
+\caption{GTX transceivers routing table}\label{tab:gtx_routing}
 \end{table}
 
 \begin{figure}[H]
@@ -303,8 +319,6 @@ Transceiver routing configuration can be set by the microcontroller. Three signa
  \caption{Transceivers routing block diagram.}\label{highspeed}
 \end{center}
 \end{figure}
-
-Use UART console to change the transceiver routing style.
 
 \section{Clocking}
 This section describes how and where clock signals are routed. There are 7 on-board clock sources:
@@ -400,7 +414,11 @@ Marble is equipped with 2 QSFP cages (\ref{qsfp}). Each can support 40 Gb/s of d
 	\item QSFP number 2 - high-speed lines are connected to the FPGA bank 115 through the gigabit multiplexer.
 \end{enumerate}
 
-QSFPs control signals are connected to the I2C IO expander (U34)(\ref{qsfpio}) which is accessible from FPGA or MMC. The connection of the differential signals to the FPGA is shown in the tables (\ref{tab:qsfp1-table})(\ref{tab:qsfp2-table}). QSFP2 is not directly connected to the FPGA chip. It is connected via a gigabit multiplexer which is controlled from the MMC. By default, the multiplexer is configured to connect the QSFP2 to the FPGA. In order to choose a different configuration or restore the default, select the appropriate option from the MMC console.
+QSFPs control signals are connected to the I2C IO expander (U34)(\ref{qsfpio}) which is accessible from FPGA or MMC.
+The connection of the differential signals to the FPGA is shown in the tables (\ref{tab:qsfp1-table})(\ref{tab:qsfp2-table}).
+QSFP2 is not directly connected to the FPGA chip, but is instead connected via a gigabit multiplexer which is controlled from the MMC.
+By default, the multiplexer is configured to connect the QSFP2 to the FPGA.
+To select a different configuration or restore the default, select the appropriate option from the MMC console or use the MMC's mailbox interface (\ref{sec:MMC:Mailbox}).
 
 \begin{figure}[H]
 \begin{center}
@@ -469,9 +487,9 @@ MGTXRXN3\_115 & QSFP1\_RX\_4\_N \\ \bottomrule
 \end{table}
 
 \section{Ethernet}
-Marble is equipped with Ethernet PHY (88E1512) which supports 10/100/1000BASE-T
-(bedrock firmware only supports 1000BASE-T).
-PHY is connected to the FPGA bank 16 via RGMII interface:
+Marble is equipped with one Ethernet PHY chip (88E1512) which supports 10/100/1000BASE-T
+(bedrock firmware only supports 1000BASE-T) and connects to a network via RJ45 connector J4
+and to the FPGA bank 16 via RGMII interface:
 
 \begin{table}[htbp]
 \centering
@@ -495,10 +513,14 @@ PHY\_RSTn                          & IO\_L10N\_16                     \\ \bottom
 \caption{RGMII pins assignment}
 \label{tab:rgmii}
 \end{table}
-The Ethernet PHY can be monitored over MDIO by the MMC. To read the internal PHY configuration registers, select the appropriate option from the MMC console.
-By default, the MDIO address is set to 1, but it can be changed by changing the resistor on the module. To set address to 1, desolder resistor R80 and solder resistor R65 with value 0R.
 
-The IP and MAC addresses are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash).  After the FPGA boots, this information is passed to the FPGA over SPI. This feature depends, of course, on having a bitfile that implements it; this is a standard part of Bedrock's test\_marble\_family bitfiles.
+The Ethernet PHY can be monitored over MDIO by the MMC. To read the internal PHY configuration registers, select the appropriate option from the MMC console.
+% By default, the MDIO address is set to 1, but it can be changed by changing the resistor on the module. To set address to 0, desolder resistor R80 and solder resistor R65 with value 0R.
+% Note that this would require commensurate customization of the MMC's firmware.
+
+The IP and MAC addresses are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash).
+After the FPGA boots, this information is passed to the FPGA over the pseudo-SPI mailbox (\ref{sec:MMC:Mailbox}).
+This feature depends, of course, on having a bitfile that implements it; this is a standard part of Bedrock's test\_marble\_family bitfiles.
 
 \section{FMC}
 Both FMC sockets are equipped with HPC (High Pin Count) type connector but not all signals were connected to FPGA and MMC.
@@ -540,6 +562,7 @@ FPGA UART occupies FT4232's channel 3. UART signals are connected to bank 15 pin
 \end{enumerate}
 \subsection{MMC UART}
 MMC UART occupies FT4232's channel 4 and is used as the MMC serial console. Terminal configuraton is 1N8 115200 baudrate. The FT4232's channel 2 DTR signal can be used to provide a reset signal for the microcontroller.
+See \ref{sec:MMC:Console} for details about the console interface.
 
 
 \section{Power}
@@ -595,10 +618,10 @@ Two additional temperature sensors based on the LM75 chip provide temperature me
 3            & Tacho            & 3            & Tacho            \\ \bottomrule
 \end{tabular}
 \caption{}
-\label{tab:my-table}
+\label{tab:fan_connectors}
 \end{table}
 
-\section{MMC}
+\section{MMC}\label{sec:MMC}
 Module Management Controller (MMC) is based on STM32F207 microcontroller and provides housekeeping functions such as:
 \begin{enumerate}
 	\item Simple UART console over USB-UART bridge to control all functions
@@ -614,7 +637,7 @@ Module Management Controller (MMC) is based on STM32F207 microcontroller and pro
 	\item Ensuring communication over SPI with FPGA
 \end{enumerate}
 
-\subsection{Programing}
+\subsection{Programing}\label{sec:MMC:Programming}
 MMC programing can be done by using external tools such as STM Nucleo-SWD programmer, SEGGER J-LINK Mini (Fig. \ref{mmcjtag}, Fig. \ref{mmcjtagswd}).
 
 \begin{figure}[H]
@@ -659,6 +682,29 @@ Three general purpose LEDs are connected to the MMC chip:
 	\item LED15 - connected to pin PE0
 \end{enumerate}
 
+\subsection{Console}\label{sec:MMC:Console}
+The MMC implements a console interface over its UART serial connection, intended primarily for human (as opposed to machine) interface.
+The interface is line-based, meaning it processes text input after receiving a line-ending character, which can be one or both of
+linefeed (ASCII/UTF-8 0x0a) or carriage return (ASCII/UTF-8 0x0d).
+The terminal emulator (e.g. miniterm, minicom, etc) should append such a line ending to every message for proper processing the the MMC.
+Note that this is \emph{not} the default behavior for many terminal emulators.
+After opening the connection in a terminal emulator (115200 baudrate, 8N1), type a question mark ('?') followed by a line ending to
+view a summary of available options.
+
+Many parameters configurable from the console interface are non-volatile (``sticky''), meaning they are stored in the (flash-emulated) EEPROM
+internal to the MMC and persist across power cycles.  These are intended to be ``set and forget'' parameters specific to your application.
+Non-volatile configuration parameters include:
+\begin{itemize}
+	\item{Ethernet MAC/IP addresses}
+	\item{Mailbox interface enable/disable}
+	\item{Speed of fans connected to M1 \& M2}
+	\item{Over-temperature shutdown threshold}
+	\item{MGT transceiver multiplexer settings}
+	\item{Identifying information for the Si570 frequency synthesizer}
+	\item{Watchdog configuration}
+	\item{Pmod connector J16 function}
+\end{itemize}
+
 \subsection{I2C Tree}
 Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c}):
 \begin{enumerate}
@@ -679,22 +725,32 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
 \end{center}
 \end{figure}
 
-\subsection{Pseudo-SPI Mailbox}
+\subsection{Pseudo-SPI Mailbox}\label{sec:MMC:Mailbox}
   The MMC communicates with the FPGA via a dedicated SPI bus between the two ICs.  The MMC is the bus controller and the
 FPGA is an (optional) bus responder/peripheral.  Each SPI transaction consists of 16 consecutive bits with the
 first octet representing the operation and address and the second octet representing the data.  An example implementation
 on the FPGA side is provided in (bedrock/projects/test\_marble\_family/mmc\_mailbox.v).
 
   Many of the board status and control features implemented in the console are also available from the mailbox, such as:
-\begin{enumerate}
-  \item Non-volatile IP and MAC addresses sent from the MMC to the FPGA automatically in response to the FPGA's "DONE" interrupt.
-  \item MGT multiplexer selection settings are periodically read from the FPGA giving the application logic the ability to get or set the mux settings.
-  \item Board status is periodically sent to the FPGA allowing the application logic to monitor the power supply voltages, currents, temperature readings, and fan speeds.
-  \item The watchdog hash values (see section XXX) are passed between the MMC and the FPGA via this mailbox interface
-  \item When the MMC is configured to use its Pmod connector in "LED mode", the FPGA can set the status of each Pmod I/O pin via the mailbox interface.
-\end{enumerate}
+\begin{itemize}
+	\item Non-volatile IP and MAC addresses sent from the MMC to the FPGA automatically in response to the FPGA's ``DONE'' interrupt.
+	\item MGT multiplexer selection settings are periodically read from the FPGA giving the application logic the ability to get or set the mux settings.
+	\item Board status is periodically sent to the FPGA allowing the application logic to monitor the power supply voltages, currents, temperature readings, and fan speeds.
+	\item The watchdog hash values (see section \ref{sec:MMC:Watchdog}) are passed between the MMC and the FPGA via this mailbox interface
+	\item When the MMC is configured to use its Pmod connector in ``LED mode'', the FPGA can set the status of each Pmod I/O pin via the mailbox interface.
+\end{itemize}
 
-  The mailbox contents, addresses, and encodings are documented in the "Marble-MMC" codebase (see Marble-MMC/doc/mailbox.md).
+  The mailbox contents, addresses, and encodings are documented in the ``Marble-MMC'' codebase (see Marble-MMC/doc/mailbox.md).
+
+\subsection{Watchdog}\label{sec:MMC:Watchdog}
+The MMC provides an optional watchdog feature which can be used to detect a failure in any part of the communications between a host computer
+and the FPGA (e.g. bad FPGA bitfile image, network failure, host computer failure, partial power loss, etc).  The watchdog is implemented
+as an authenticated keepalive timer with configurable timeout period.  If the period elapses, the FPGA is automatically rebooted from the
+lowest address of configuration memory where a default bitfile is typically stored which returns the Marble to a known state.  If the cause
+of the failure was a mis-configuration of the FPGA, this feature makes the equipment reachable again on the network after a the timeout
+period elapses (a boon for large-scale deployments).
+
+Note that the watchdog feature is disabled by default and must be configured and enabled from the MMC console interface to be used.
 
 \section{Mechanical dimensions}
 
