@@ -26,8 +26,12 @@ Dow 340 seems to be the general-issue grease these days, but any known-good
 thermal grease is acceptable.
 
 Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
-(0.35mm pad).  The overall board size is 150 mm x 180 mm,
-similar to the AMC double-width standard.
+(0.35mm pad).  Solder mask pad clearance is set to 0.024 mm,
+allowing 0.152 mm soldermask dams between pads that are separated
+by 0.200 mm.
+
+The overall board size is 150 mm x 180 mm, similar to the
+AMC double-width standard.
 
 - PCB Material: FR4
 - Soldermask color: Black
