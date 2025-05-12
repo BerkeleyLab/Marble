@@ -89,7 +89,7 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
 2  & SK1 & DD3 SO-DIMM memory module & VR7PU286458FBAMJT \\
 3  & U4  & 10/100/1000 Ethernet PHY  & 88E1512-A0-NNP2I000  \\
 4  & J14, J6 & Microcontroller programing connectors         &                   \\
-5  & U2  & 8x8 Clock Crosspoint Switch   & ADN4600ACPZ	     \\
+5  & U2  & 8x8 Clock Crosspoint Switch   & ADN4600ACPZ     \\
 6  & U35 & Power Management          & LTM4673IY\#PBF   \\
 7  & J1, J19 & 12V power input       & FC68148(DC-10A), 641119-2  \\
 8  & J11 & FPGA JTAG connector       & 87831-1420   \\
@@ -103,7 +103,7 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
 16 & J16 & Pmod connected to microcontroller  & PPTC062LJBN-RC    \\
 17 & J13 & Pmod connected to FPGA    & PPTC062LJBN-RC    \\
 18 & SW3 & User button connected to microcontroller      &  KSS241GLFS  \\
-19 & SW5 & FPGA reset button   		 & KSS241GLFS      \\
+19 & SW5 & FPGA reset button         & KSS241GLFS      \\
 20 & LD13, LD14 & User LEDs connected to shared I2C bus & KPH-1608CGCK \\
 21 & LD11-12, LD15 & User LEDs connected to microcontroller &  KPH-1608CGCK  \\
 22 & LD16, LD17    & User LEDs connected to FPGA &  KPH-1608CGCK     \\
@@ -162,18 +162,20 @@ Bank 34 HP & +1.5V             & DDR3       \\ \bottomrule
 
 \subsection{Configuration Memory}\label{sec:Overview:Configuration}
 
-The S25FL128SAGMFIR01 configuration memory is connected to the FPGA chip.
-By default, the FPGA chip loads the configuration from the lowest address of flash memory after correct power cycle.
-The module is equipped with a switch (fig \ref{fig:bootsw}) that blocks the programming of the configuration memory.
+A 16 Mbyte SPI flash memory chip (Infineon S25FL128SAGMFIR01) is directly connected to the FPGA,
+and the FPGA is configured with M[2:0] = 001 for Master SPI Mode.
+The configuration is automatically loaded from the lowest address of flash memory after a power cycle or reset.
+The board is equipped with a switch (fig \ref{fig:bootsw}) that can block the programming of the configuration memory.
 When the switch is in the ON position, Write Protection is enabled. WP signal status can be read via I2C IO expander.
 This write-protect feature is a key part of the board's `unbrickable' feature.
 
-To write to configuration memory, an FPGA image must be loaded (e.g. via JTAG) which implements the chip's SPI
-interface and acts as a bridge between the host computer (via USB, Ethernet, or some other interface) and
-the flash IC.
-Common flash memory interface commands are beyond the scope of this document, but an example implementation
-of such a bridge is provided in ``bedrock/badger/spi\_flash.v''.
-The default Marble image (``bedrock/projects/test\_marble\_family'') provides an interface to this bridge on Ethernet port 804
+To write to configuration memory the first time, an FPGA image must be loaded some other way
+(on-board USB JTAG, or external JTAG pod on J11).
+That image then acts as a bridge between the host computer and the flash IC over its SPI interface,
+allowing a ``golden image'' to be written to flash (with the WP switch OFF).
+An example implementation of such a bridge (from Ethernet) is provided in bedrock.
+See ``bedrock/badger/spi\_flash.v'' and ``bedrock/badger/tests/spi\_test.py''.
+The default Marble image (``bedrock/projects/test\_marble\_family'') provides this interface on Ethernet port 804
 for configuration memory programming.
 
 \begin{figure}[H]
@@ -487,9 +489,9 @@ MGTXRXN3\_115 & QSFP1\_RX\_4\_N \\ \bottomrule
 \end{table}
 
 \section{Ethernet}
-Marble is equipped with one Ethernet PHY chip (88E1512) which supports 10/100/1000BASE-T
-(bedrock firmware only supports 1000BASE-T) and connects to a network via RJ45 connector J4
-and to the FPGA bank 16 via RGMII interface:
+Marble is equipped with one Ethernet PHY chip (Marvell 88E1512) which supports 10/100/1000BASE-T
+(bedrock firmware only supports 1000BASE-T) and connects to a network via RJ45 connector \hbox{J4}.
+It attaches to FPGA bank 16 via an RGMII interface:
 
 \begin{table}[htbp]
 \centering
@@ -582,7 +584,7 @@ Block diagram of Marble's power tree is shown in figure \ref{pwr}. The USB-UART 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=1.1\linewidth]{m_power.png}
+\includegraphics[width=1.0\linewidth]{m_power.png}
  \caption{Marble power routing}\label{pwr}
 \end{center}
 \end{figure}
