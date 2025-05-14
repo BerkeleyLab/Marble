@@ -90,8 +90,34 @@ $ sudo apt-get install openocd
 	\end{lstlisting}
 \end{enumerate}
 
-\section{Power connection}
-Before connecting the power supply for the first time, check that the main bus is not shorted. Using a multimeter set in resistance measurement mode, measure the resistance between metal pads of the J19 connector (Figure \ref{01}).
+\section{Power connection}\label{sec:Power_Connection}
+Before connecting the power supply for the first time, it is highly recommended to verify that there are no shorts on the power rails.
+First, use a multimeter set in resistance measurement mode to measure the resistance between metal pads of the J19 connector (Figure \ref{01})
+and ensure it is not electrically shorted (should not be <200 Ohms).
+
+Next, measure the resistance between the power supply test points:
+
+\begin{enumerate}
+    \item \textbf{TP12 (GND)} and \textbf{TP7 (+2V0)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP9 (+1V0)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP10 (+2V5)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP8 (+1V8)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)}.
+\end{enumerate}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=1\linewidth]{Marble_TP.png}
+ \caption{Test points. }\label{tp}
+\end{center}
+\end{figure}
+
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{J19.png}
@@ -143,31 +169,10 @@ $ make marble_download
 \end{figure}
 
 
-
 \section{Power Supply Programing}
-Before doing the steps below it is highly recommended to verify that there are no shorts on the power rails. This can be done by measuring the resistance between the test points:
 
-\begin{enumerate}
-    \item \textbf{TP12 (GND)} and \textbf{TP7 (+2V0)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP9 (+1V0)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP10 (+2V5)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP8 (+1V8)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)}.
-\end{enumerate}
+\textbf{Warning:} Only perform the following steps if there are no shorts on the power rails (see section \ref{sec:Power_Connection}).
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=1\linewidth]{Marble_TP.png}
- \caption{Test points. }\label{tp}
-\end{center}
-\end{figure}
-
-\textbf{Warning:} Only perform the following steps if there are no shorts on the power rails.
 \begin{enumerate}
     \item Connect the micro USB cable and note the serial device name assigned to it (i.e. /dev/ttyUSB3).  It will always be the last port of a group of 4 associated with the Marble's FT4232 USB-to-UART.
     \item Set up voltage to 12V and the current limit to 1A on a lab power supply.
@@ -175,7 +180,7 @@ Before doing the steps below it is highly recommended to verify that there are n
     \item Open a terminal in the Marble-MMC repository downloaded in section 3.
     \item Run the LTM4673 programming script (where \$TTY is the serial device name noted above):
       \begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
-$ sh scripts/program_ltm4673.sh \$TTY -f LTM4673_reglist.txt -s
+$ sh scripts/program_ltm4673.sh $TTY -f LTM4673_reglist.txt -s
       \end{lstlisting}
     \item Power cycle by turning the lab power supply Off and then On.
     \item All power LED indicators should be On (Figure \ref{leds}).

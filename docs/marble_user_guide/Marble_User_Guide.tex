@@ -693,20 +693,6 @@ Note that this is \emph{not} the default behavior for many terminal emulators.
 After opening the connection in a terminal emulator (115200 baudrate, 8N1), type a question mark ('?') followed by a line ending to
 view a summary of available options.
 
-Many parameters configurable from the console interface are non-volatile (``sticky''), meaning they are stored in the (flash-emulated) EEPROM
-internal to the MMC and persist across power cycles.  These are intended to be ``set and forget'' parameters specific to your application.
-Non-volatile configuration parameters include:
-\begin{itemize}
-	\item{Ethernet MAC/IP addresses}
-	\item{Mailbox interface enable/disable}
-	\item{Speed of fans connected to M1 \& M2}
-	\item{Over-temperature shutdown threshold}
-	\item{MGT transceiver multiplexer settings}
-	\item{Identifying information for the Si570 frequency synthesizer}
-	\item{Watchdog configuration}
-	\item{Pmod connector J16 function}
-\end{itemize}
-
 \subsection{I2C Tree}
 Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c}):
 \begin{enumerate}
@@ -728,31 +714,10 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
 \end{figure}
 
 \subsection{Pseudo-SPI Mailbox}\label{sec:MMC:Mailbox}
-  The MMC communicates with the FPGA via a dedicated SPI bus between the two ICs.  The MMC is the bus controller and the
-FPGA is an (optional) bus responder/peripheral.  Each SPI transaction consists of 16 consecutive bits with the
-first octet representing the operation and address and the second octet representing the data.  An example implementation
-on the FPGA side is provided in (bedrock/projects/test\_marble\_family/mmc\_mailbox.v).
-
-  Many of the board status and control features implemented in the console are also available from the mailbox, such as:
-\begin{itemize}
-	\item Non-volatile IP and MAC addresses sent from the MMC to the FPGA automatically in response to the FPGA's ``DONE'' interrupt.
-	\item MGT multiplexer selection settings are periodically read from the FPGA giving the application logic the ability to get or set the mux settings.
-	\item Board status is periodically sent to the FPGA allowing the application logic to monitor the power supply voltages, currents, temperature readings, and fan speeds.
-	\item The watchdog hash values (see section \ref{sec:MMC:Watchdog}) are passed between the MMC and the FPGA via this mailbox interface
-	\item When the MMC is configured to use its Pmod connector in ``LED mode'', the FPGA can set the status of each Pmod I/O pin via the mailbox interface.
-\end{itemize}
-
-  The mailbox contents, addresses, and encodings are documented in the ``Marble-MMC'' codebase (see Marble-MMC/doc/mailbox.md).
-
-\subsection{Watchdog}\label{sec:MMC:Watchdog}
-The MMC provides an optional watchdog feature which can be used to detect a failure in any part of the communications between a host computer
-and the FPGA (e.g. bad FPGA bitfile image, network failure, host computer failure, partial power loss, etc).  The watchdog is implemented
-as an authenticated keepalive timer with configurable timeout period.  If the period elapses, the FPGA is automatically rebooted from the
-lowest address of configuration memory where a default bitfile is typically stored which returns the Marble to a known state.  If the cause
-of the failure was a mis-configuration of the FPGA, this feature makes the equipment reachable again on the network after a the timeout
-period elapses (a boon for large-scale deployments).
-
-Note that the watchdog feature is disabled by default and must be configured and enabled from the MMC console interface to be used.
+  The MMC can communicate with the FPGA via a dedicated SPI bus between the two ICs.
+  The standard firmware image for Marble boards (at ``https://github.com/BerkeleyLab/Marble-MMC'') implements a mailbox
+  interface over this SPI bus which provides board information and configuration options to the FPGA application.
+  For details, see ``Marble-MMC/doc/mailbox.md''.
 
 \section{Mechanical dimensions}
 
