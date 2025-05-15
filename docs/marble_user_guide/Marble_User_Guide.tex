@@ -34,7 +34,7 @@
 \graphicspath{{figures/}} %Setting the graphicspath
 \renewcommand\abstractname{Introduction}
 
-\title{Marble -- User Guide\\ \small{v1.0 2021}}
+\title{Marble -- User Guide\\ \small{v1.4 2025}}
 \author{}
 
 \begin{document}
@@ -702,10 +702,10 @@ Three general purpose LEDs are connected to the MMC chip:
 \subsection{Console}\label{sec:MMC:Console}
 The MMC implements a console interface over its UART serial connection, intended primarily for human (as opposed to machine) interface.
 The interface is line-based, meaning it processes text input after receiving a line-ending character, which can be one or both of
-linefeed (ASCII/UTF-8 0x0a) or carriage return (ASCII/UTF-8 0x0d).
+linefeed (ASCII/UTF-8 {\tt 0x0A}) or carriage return (ASCII/UTF-8 {\tt 0x0D}).
 The terminal emulator (e.g. miniterm, minicom, etc) should append such a line ending to every message for proper processing the the MMC.
 Note that this is \emph{not} the default behavior for many terminal emulators.
-After opening the connection in a terminal emulator (115200 baudrate, 8N1), type a question mark ('?') followed by a line ending to
+After opening the connection in a terminal emulator (115200 baudrate, 8N1), type a question mark ({\tt ?}) followed by a line ending to
 view a summary of available options.
 
 \subsection{I2C Tree}
