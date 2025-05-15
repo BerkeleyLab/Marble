@@ -7,7 +7,7 @@
 \usepackage{enumitem}
 \usepackage{listings}
 \usepackage[svgnames]{xcolor}
-\usepackage{background}
+%\usepackage{background}
 
 
 
@@ -29,9 +29,9 @@
 \usepackage{hyperref}
 \graphicspath{{figures/}} %Setting the graphicspath
 \renewcommand\abstractname{Introduction}
-\backgroundsetup{contents=Not for v1.4.x}
+%\backgroundsetup{contents=Not for v1.4.x}
 
-\title{Marble -- Factory Acceptance Tests\\ \small{v1.0 2020}}
+\title{Marble -- Factory Acceptance Tests\\ \small{v1.4 2025}}
 
 \begin{document}
 
@@ -72,7 +72,7 @@ To perform all tests the following hardware is required:
     \item QSFP loopback module.
     \item FMC Tester module.
     \item Multimeter.
-    \item MMC JTAG (example: SEGGER J-LINK mini).
+    \item MMC JTAG (either SEGGER J-LINK mini or STMicroelectronics ST-Link V2).
     \item FPGA JTAG (example: Digilent JTAG HS3).
 \end{enumerate}
 
@@ -80,7 +80,8 @@ To perform all tests the following hardware is required:
 To perform all tests the following software is required:
 \begin{enumerate}
     \item Vivado 19.1.
-    \item Serial port terminal. Example Miniterm, can be installed by:	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
+    \item Serial port terminal. Example Miniterm, can be installed by:
+	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
 $ sudo apt-get install python3-serial
 	\end{lstlisting}
 	\item OpenOCD, can be installed by:
@@ -89,8 +90,34 @@ $ sudo apt-get install openocd
 	\end{lstlisting}
 \end{enumerate}
 
-\section{Power connection}
-Before connecting the power supply for the first time, check that the main bus is not shorted. Using a multimeter set in resistance measurement mode, measure the resistance between metal pads of the J19 connector (Figure \ref{01}).
+\section{Power connection}\label{sec:Power_Connection}
+Before connecting the power supply for the first time, it is highly recommended to verify that there are no shorts on the power rails.
+First, use a multimeter set in resistance measurement mode to measure the resistance between metal pads of the J19 connector (Figure \ref{01})
+and ensure it is not electrically shorted (should not be <200 Ohms).
+
+Next, measure the resistance between the power supply test points:
+
+\begin{enumerate}
+    \item \textbf{TP12 (GND)} and \textbf{TP7 (+2V0)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP9 (+1V0)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP10 (+2V5)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP8 (+1V8)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)}.
+    \item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)}.
+\end{enumerate}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=1\linewidth]{Marble_TP.png}
+ \caption{Test points. }\label{tp}
+\end{center}
+\end{figure}
+
+
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{J19.png}
@@ -115,7 +142,7 @@ This should result in the \textit{3.3V} and \textit{12V} LEDs lighting up as sho
 
 Download the latest version of the microcontroller testing code from GitHub:
 \begin{leftbar}
-https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/unified\_marble
+https://github.com/BerkeleyLab/Marble-MMC
 \end{leftbar}
 
 A recent version of OpenOCD (v0.10.0 or later) is required.
@@ -142,50 +169,33 @@ $ make marble_download
 \end{figure}
 
 
+\section{Power Supply Programing}
 
-\section{Power Supply programing}
-Before doing the steps below it is highly recommended to verify that there are no shorts on the power rails. This can be done by measuring the resistance between the test points:
+\textbf{Warning:} Only perform the following steps if there are no shorts on the power rails (see section \ref{sec:Power_Connection}).
 
 \begin{enumerate}
-    \item \textbf{TP12 (GND)} and \textbf{TP7 (+2V0)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP9 (+1V0)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP10 (+2V5)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP8 (+1V8)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)}.
-    \item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)}.
-\end{enumerate}
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=1\linewidth]{Marble_TP.png}
- \caption{Test points. }\label{tp}
-\end{center}
-\end{figure}
-
-\textbf{Warning:} Only perform the following steps if there are no shorts on the power rails.
-\begin{enumerate}
-    \item Connect the micro USB cable and, using the serial terminal, connect to the last serial port for the new device listed in the operating system. Use 115200 baudrate.
+    \item Connect the micro USB cable and note the serial device name assigned to it (i.e. /dev/ttyUSB3).  It will always be the last port of a group of 4 associated with the Marble's FT4232 USB-to-UART.
     \item Set up voltage to 12V and the current limit to 1A on a lab power supply.
     \item Power up the board.
-    \item From the menu displayed in the serial terminal, select the option \menu{g) XRP7724 go}.
+    \item Open a terminal in the Marble-MMC repository downloaded in section 3.
+    \item Run the LTM4673 programming script (where \$TTY is the serial device name noted above):
+      \begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
+$ sh scripts/program_ltm4673.sh $TTY -f LTM4673_reglist.txt -s
+      \end{lstlisting}
     \item Power cycle by turning the lab power supply Off and then On.
     \item All power LED indicators should be On (Figure \ref{leds}).
     \item Using multimeter measure the voltage between the test points:
     \begin{enumerate}
-    	\item \textbf{TP12 (GND)} and \textbf{TP7 (+2V0)} - expected voltage: +2.0V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP9 (+1V0)} - expected voltage: +1.0V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP10 (+2V5)} - expected voltage: +2.5V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP8 (+1V8)} - expected voltage: +1.8V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)} - expected voltage: +1.5V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)} - expected voltage: +1.2V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)} - expected voltage: +3.3V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)} - expected voltage: +3.3V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)} - expected voltage: +3.3V.
-    	\item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)} - expected voltage: +1.05V.
+	\item \textbf{TP12 (GND)} and \textbf{TP7 (+2V0)} - expected voltage: +2.0V.
+	\item \textbf{TP12 (GND)} and \textbf{TP9 (+1V0)} - expected voltage: +1.0V.
+	\item \textbf{TP12 (GND)} and \textbf{TP10 (+2V5)} - expected voltage: +2.5V.
+	\item \textbf{TP12 (GND)} and \textbf{TP8 (+1V8)} - expected voltage: +1.8V.
+	\item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)} - expected voltage: +1.5V.
+	\item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)} - expected voltage: +1.2V.
+	\item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)} - expected voltage: +3.3V.
+	\item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)} - expected voltage: +3.3V.
+	\item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)} - expected voltage: +3.3V.
+	\item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)} - expected voltage: +1.05V.
 \end{enumerate}
 \end{enumerate}
 

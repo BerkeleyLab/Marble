@@ -34,7 +34,7 @@
 \graphicspath{{figures/}} %Setting the graphicspath
 \renewcommand\abstractname{Introduction}
 
-\title{Marble -- User Guide\\ \small{v1.0 2021}}
+\title{Marble -- User Guide\\ \small{v1.4 2025}}
 \author{}
 
 \begin{document}
@@ -46,7 +46,8 @@
 \begin{abstract}
 %\includegraphics[width=1.0\linewidth]{PhysLogger.png}\\
 Marble is a fully open source dual FMC carrier board designed for the Accelerator Technologies Group of the Engineering Division of Lawrence Berkeley National Laboratory. This document presents the technical documentation of the Marble module divided into individual functional sections.
-Design files are made in KiCad and are licensed under the CERN OHL v.~1.2.
+Design files are made in KiCad 6 and are licensed under the CERN OHL \hbox{v.~1.2}.
+This guide primarily applies to Marble v1.4.x.
 \end{abstract}
 
 \clearpage
@@ -56,76 +57,90 @@ Design files are made in KiCad and are licensed under the CERN OHL v.~1.2.
 
 \section{Overview}
 
-\begin{leftbar}
 Design files are open source and can be downloaded from GitHub:
 
-https://github.com/BerkeleyLab/Marble
+\begin{leftbar}
+\url{https://github.com/BerkeleyLab/Marble}
 \end{leftbar}
 
-Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram of the module is shown in figure \ref{block}.
+Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram of the module is shown in figure \ref{fig:block}.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\linewidth]{block_k3.png}
- \caption{Marble block diagram.}\label{block}
+ \caption{Marble block diagram.}\label{fig:block}
 \end{center}
 \end{figure}
+
+Supporting FPGA code can be found in LBNL's Bedrock project
+
+\begin{leftbar}
+\url{https://github.com/BerkeleyLab/Bedrock}
+\end{leftbar}
+
+and microcontroller code in LBNL's Marble-MMC project
+
+\begin{leftbar}
+\url{https://github.com/BerkeleyLab/Marble-MMC}
+\end{leftbar}
+
+While you are not required to use those code bases, they are useful for
+getting started, and some of this document assumes that you use them,
+or at least code based on them.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\linewidth]{marble_references.png}
- \caption{Marble board components.}\label{block}
+ \caption{Marble board components.}\label{fig:components}
 \end{center}
 \end{figure}
 
-\begin{longtable}[htbp]{@{}ccp{0.3\linewidth}p{0.3\linewidth}c@{}}
+\begin{longtable}[htbp]{@{}ccp{0.4\linewidth}p{0.3\linewidth}}
 \toprule
 \textbf{Callout} &
   \textbf{\begin{tabular}[c]{@{}c@{}}Reference\\ Designator\end{tabular}} &
   \textbf{Component Description} &
-  \textbf{Notes} &
-  \textbf{\begin{tabular}[c]{@{}c@{}}Schematic \\ Page\end{tabular}} \\ \midrule
-
-1  & U1  & FPGA Xilinx Kintex-7      & XC7K160T-2FFG676C &  \\
-2  & SK1 & DD3 SO-DIMM memory module & VR7PU286458FBAMJT &  \\
-3  & U4  & 10/100/1000 Ethernet PHY  & 88E1512-A0-NNP2I000  &  \\
-4  & J14, J6 & Microcontroller programing connectors         &                   &  \\
-5  & U2  & 8x8 Clock Crosspoint Switch   & ADN4600ACPZ	     &  \\
-6  & U35  & Power Management      & XRP7724ILBTR-F   &  \\
-7  & J1, J19 & 12V power input       & FC68148(DC-10A), 641119-2  &  \\
-8  & J11    & FPGA JTAG connector    & 87831-1420   &  \\
-9  & U40  &  PoE module              & AG5300          &  \\
-10 & M1, M2 & 3-pin PC fan connectors & SWR25X-NRTC-S03-ST-BA &  \\
-11 & J8  & QSFP connector    		 & QSFP8-038-01-L-D-RA1 &  \\
-12 & J17 & QSFP connector            & QSFP8-038-01-L-D-RA1   &  \\
-13 & P2  & FMC HPC connector         & ASP-134486-01 &  \\
-14 & P1  & FMC HPC connector         & ASP-134486-01     &  \\
-15 & J12 & Pmod connected to FPGA    & PPTC062LJBN-RC     &  \\
-16 & J16 & Pmod connected to microcontroller  & PPTC062LJBN-RC    &  \\
-17 & J13 & Pmod connected to FPGA    & PPTC062LJBN-RC    &  \\
-18 & SW3 & User button connected to microcontroller      &  KSS241GLFS  &  \\
-19 & SW5 & FPGA reset button   		 & KSS241GLFS      &  \\
-20 & LD13, LD14 & User LEDs connected to shared I2C bus & KPH-1608CGCK &  \\
-21 & LD11-12, LD15 & User LEDs connected to microcontroller &  KPH-1608CGCK  &  \\
-22 & LD16, LD17    & User LEDs connected to FPGA &  KPH-1608CGCK     &  \\
-23 & SW1 & Memory write protection switch  & A6SN-1101 &  \\
-24 & Y6  & 10-280MHz Clock generator   & SI570  &  \\
-25 & J2, J5    & External clock source input & U.FL      &  \\
-26 & J3, J7 &  External clock source input &   U.FL       &  \\
-27 & U44-U50    & GTX Transceivers Mux & PI3DBS12212AZBSEX  &  \\
-28 & J9  & Power Management programming header & 0.1 inch male 4-pin header &  \\
-29 & Y1-Y3, U20 & Internal 125 MHz \& 20MHz clock sources & CDCM61004RHBT &  \\
-30 & U30 &  FPGA SPI flash memory  & S25FL128SAGMFIR01 &  \\
-31 & U5  &  I2C multiplexer    & TCA9548ARGER   &  \\
-32 & U23 &  Double USB - UART bridge, USB-JTAG bridge for FPGA & FT4232H-56Q   &  \\
-33 & U54 & Housekeeping Microcontroller  & STM32F207VCTx  &  \\
-34 & J10 & Micro USB connector for U23  & 10103594-0001LF  &  \\
-35 & SW2 & \textcolor{red}{Not populated user button (physically connected to SW3)}  & SKHHLQA010  &  \\
-36 & U60 & Over-voltage and Under-voltage Reset IC & TPS3703A7330DSERQ1 &  \\
-37 & LD4-10, LD18-19 & Power rails indicator LEDs & KPH-1608CGCK &  \\ \bottomrule
+  \textbf{Notes} \\ \midrule
+1  & U1  & FPGA Xilinx Kintex-7      & XC7K160T-2FFG676C \\
+2  & SK1 & DD3 SO-DIMM memory module & VR7PU286458FBAMJT \\
+3  & U4  & 10/100/1000 Ethernet PHY  & 88E1512-A0-NNP2I000  \\
+4  & J14, J6 & Microcontroller programing connectors         &  \\
+5  & U2  & 8x8 Clock Crosspoint Switch   & ADN4600ACPZ     \\
+6  & U35 & Power Management          & LTM4673IY\#PBF   \\
+7  & J1, J19 & 12V power input       & FC68148(DC-10A), 641119-2  \\
+8  & J11 & FPGA JTAG connector       & 87831-1420   \\
+9  & U40 & PoE module (optional)     & AG5300          \\
+10 & M1, M2 & 3-pin PC fan connectors & SWR25X-NRTC-S03-ST-BA \\
+11 & J8  & QSFP connector            & QSFP8-038-01-L-D-RA1 \\
+12 & J17 & QSFP connector            & QSFP8-038-01-L-D-RA1   \\
+13 & P2  & FMC HPC connector         & ASP-134486-01 \\
+14 & P1  & FMC HPC connector         & ASP-134486-01     \\
+15 & J12 & Pmod connected to FPGA    & PPTC062LJBN-RC     \\
+16 & J16 & Pmod connected to microcontroller  & PPTC062LJBN-RC    \\
+17 & J13 & Pmod connected to FPGA    & PPTC062LJBN-RC    \\
+18 & SW3 & User button connected to microcontroller      &  KSS241GLFS  \\
+19 & SW5 & FPGA reset button         & KSS241GLFS      \\
+20 & LD13, LD14 & User LEDs connected to shared I2C bus & KPH-1608CGCK \\
+21 & LD11-12, LD15 & User LEDs connected to microcontroller &  KPH-1608CGCK  \\
+22 & LD16, LD17    & User LEDs connected to FPGA &  KPH-1608CGCK     \\
+23 & SW1 & Memory write protection switch  & A6SN-1101 \\
+24 & Y6  & 10-280MHz Clock generator   & SI570  \\
+25 & J2, J5    & External clock source input & U.FL      \\
+26 & J3, J7 &  External clock source input &   U.FL       \\
+27 & U44-U50    & GTX Transceivers Mux & PI3DBS12212AZBSEX  \\
+28 & J9  & Power Management programming header & 0.1 inch male 4-pin header \\
+29 & Y1-Y3, U20 & Internal 125 MHz \& 20MHz clock sources & CDCM61004RHBT \\
+30 & U30 &  FPGA SPI flash memory  & S25FL128SAGMFIR01 \\
+31 & U5  &  I2C multiplexer    & TCA9548ARGER   \\
+32 & U23 &  USB bridge: UART and JTAG & FT4232H-56Q   \\
+33 & U54 & Housekeeping Microcontroller  & STM32F207VCTx  \\
+34 & J10 & Micro USB connector for U23  & 10103594-0001LF  \\
+35 & SW2 & \textcolor{red}{Not populated user button (physically connected to SW3)}  & SKHHLQA010  \\
+36 & U60 & Over-voltage and Under-voltage Reset IC & TPS3703A7330DSERQ1 \\
+37 & LD4-10, LD18-19 & Power rails indicator LEDs & KPH-1608CGCK \\ \bottomrule
 
 \caption{}
-\label{tab:my-table}
+\label{tab:callouts}
 \end{longtable}
 
 The board has the following functionalities and features:
@@ -161,12 +176,29 @@ Bank 34 HP & +1.5V             & DDR3       \\ \bottomrule
 \label{tab:banks}
 \end{table}
 
-The S25FL128SAGMFIR01 configuration memory is connected to the FPGA chip. By default, the FPGA chip loads the configuration from the flash memory after correct power cycle. The module is equipped with a switch (fig \ref{bootsw}) that blocks the programming of the configuration memory. When the switch is in the ON position, Write Protection is enabled. WP signal status can be read via I2C IO expander.
+\subsection{Configuration Memory}\label{sec:Overview:Configuration}
+
+A 16 Mbyte SPI flash memory chip (Infineon S25FL128SAGMFIR01) is directly connected to the FPGA,
+and the FPGA is configured with M[2:0] = 001 for Master SPI Mode.
+The configuration is automatically loaded from the lowest address of flash memory after a power cycle or reset.
+The board is equipped with a switch (fig \ref{fig:bootsw}) that can block the programming of the configuration memory.
+When the switch is in the ON position, Write Protection is enabled. WP signal status can be read via I2C IO expander.
+This write-protect feature is a key part of the board's `unbrickable' feature.
+
+To write to configuration memory the first time, an FPGA image must be loaded some other way
+(on-board USB JTAG, or external JTAG pod on J11).
+That image then acts as a bridge between the host computer and the flash IC over its SPI interface,
+allowing a ``golden image'' to be written to flash (with the WP switch OFF).
+An example implementation of such a bridge (from Ethernet) is provided in Bedrock.
+See its {\tt badger/spi\_flash.v} and {\tt badger/tests/spi\_test.py} files.
+The default Marble image (built in its\hfil\break
+{\tt projects/test\_marble\_family} directory)
+provides this interface on Ethernet port 804 for configuration memory programming.
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.8\linewidth]{bootsw.png}
- \caption{Memory write protection switch.}\label{bootsw}
+\includegraphics[width=0.5\linewidth]{bootsw.png}
+ \caption{Memory write protection switch.}\label{fig:bootsw}
 \end{center}
 \end{figure}
 
@@ -193,7 +225,8 @@ Internal USB-JTAG is done by using the first data channel of FT4232, which can w
 from USB bus switches the multiplexer to pass data from FT4232 to FPGA.
 
 \subsubsection{Self-JTAG}
-Internal self-JTAG can be used only when USB cable and external JTAG are not connected. In this configuration FPGA JTAG signals are connected to FPGA Bank 12:
+Internal self-JTAG can be used only when USB cable and external JTAG are not connected. In this configuration FPGA JTAG signals are connected to FPGA Bank 12.
+Self-JTAG has not been tested; no known bitfiles or software supports it.
 
 \begin{table}[htbp]
 \centering
@@ -210,36 +243,38 @@ JTAG TDO & Self\_FPGA\_TDO & IO\_L20N \\ \bottomrule
 \end{table}
 
 \subsection{LEDs}
-Two general purpose LEDs are connected to the FPGA chip:
+Two general purpose LEDs are directly connected to the FPGA chip:
 \begin{enumerate}
 	\item LD16 - connected to pin IO\_L18P\_33
 	\item LD17 - connected to pin IO\_25\_33
 \end{enumerate}
 
 \subsection{FPGA Programming}
-Vivado reference design with a constraint file can be found here:
+A reference design with a constraint file, ready for synthesis with Vivado 2020.2 or newer,
+can be found here:
 \begin{leftbar}
-https://github.com/BerkeleyLab/bedrock
+\url{https://github.com/BerkeleyLab/Bedrock}
 \end{leftbar}
-See its projects/test\_marble\_family directory.
+With your build environment setup according to the documentation in Bedrock's\hfil\break
+{\tt dependencies.txt}, a bitfile can be built with:
+	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]
+$ cd projects/test_marble_family
+$ make marble2.bit
+	\end{lstlisting}
 
 \subsubsection{Internal JTAG}
-Download the latest version of the FPGA testing code from GitHub:
-\begin{leftbar}
-https://github.com/BerkeleyLab/Bedrock
-\end{leftbar}
 
 \begin{leftbar}
-Before testing the FPGA, it is recommended to set up the current limit to 2A on the lab power supply.
+Before testing the FPGA, it is recommended to set up the current limit to 2\thinspace A on the lab power supply.
 \end{leftbar}
 
-Program the FPGA using the following steps:
+The easiest way to program the FPGA the first time is with the following steps:
 \begin{enumerate}
-	\item Plug micro USB cable
-	\item Go to the folder \textbf{Bedrock/projects/test\_marble\_family/}
+	\item Attach the Marble board to your workstation with a micro USB cable to J10
+	\item Go to the Bedrock directory {\tt projects/test\_marble\_family}
 	\item Open command terminal and run command:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
-$ mutil usb
+$ BITFILE=marble2.$GITID.bit ./mutil usb
 	\end{lstlisting}
 	\item After the successful programming, LEDs LD16 and LD17 should blink alternately.
 \end{enumerate}
@@ -251,8 +286,7 @@ Programming FPGA using Vivado and Digilent JTAG HS3 connected to J11:
 		\item Go to \menu{Flow>Open Hardware Manager} and then  \menu{Tools>Auto Connect}
 		\item Click \menu{Tools>Program Device>xc7k160t\_0} to open the programming window.
 		\item Choose the \textit{bitstream file} and click \menu{Program}
-
-	\item After the successful programming, LEDs LD16 and LD17 should blink alternately.
+		\item After the successful programming, LEDs LD16 and LD17 should blink alternately.
 \end{enumerate}
 
 \section{SO-DIMM}
@@ -261,9 +295,10 @@ The size of the DDR3 memory can be determined by the user by assembling the appr
 
 A reference design with a memory controller and a constraint file can be found here:
 \begin{leftbar}
-https://github.com/BerkeleyLab/bedrock
+\url{https://github.com/enjoy-digital/litex}
 \end{leftbar}
-See its projects/test\_marble\_family directory.
+Bedrock's CI process has a job (marble\_ddr3\_test) that uses LiteX to build a valid bitfile.
+You can follow along by peeking in .gitlab/ci/oscope.gitlab-ci.yml.
 
 \section{GTX Routing}
 Gigabit transceivers routing can be configured by the microcontroller. Transceivers from Bank 116 are permanently connected to module QSFP1. Transceivers from Bank 115 can be routed in 3 ways:
@@ -273,7 +308,11 @@ Gigabit transceivers routing can be configured by the microcontroller. Transceiv
     \item 2 transceivers connected to FMC P2 and 2 transceivers connected to FMC P1
 \end{enumerate}
 
-Transceiver routing configuration can be set by the microcontroller. Three signals control the multiplexers which provide high quality signal switching. Gigabit multiplexer switching can be done from the UART console. By default, the multiplexers are set to route signals to the second QSFP connector. In the table \ref{table}, the MUXx columns correspond to the controlling logical state.
+Transceiver routing configuration is controlled by the microcontroller via control of three select signals to onboard gigabit multiplexers.
+To query or set the routing multiplexers' state, use the UART console or the MMC's mailbox interface to the FPGA (see section \ref{sec:MMC:Mailbox}).
+Three signals control the multiplexers which provide high quality signal switching.
+By default, the multiplexers are set to route signals to the second QSFP connector.
+In the table \ref{tab:gtx_routing}, the MUXx columns correspond to the controlling logical state.
 
 % Please add the following required packages to your document preamble:
 % \usepackage{booktabs}
@@ -287,7 +326,7 @@ Transceiver routing configuration can be set by the microcontroller. Three signa
  & 0    & 1    & 1    & FCM2-DP0   & FMC2-DP1   & FMC1-DP0   & FMC2-DP3  \\
  & 1    & X    & X    & QSFP2:3/10 & QSFP2:1/12 & QSFP2:2/11 & QSFP2:4/9 \\ \bottomrule
 \end{tabular}
-\caption{GTX transceivers routing table}\label{table}
+\caption{GTX transceivers routing table}\label{tab:gtx_routing}
 \end{table}
 
 \begin{figure}[H]
@@ -296,8 +335,6 @@ Transceiver routing configuration can be set by the microcontroller. Three signa
  \caption{Transceivers routing block diagram.}\label{highspeed}
 \end{center}
 \end{figure}
-
-Use UART console to change the transceiver routing style.
 
 \section{Clocking}
 This section describes how and where clock signals are routed. There are 7 on-board clock sources:
@@ -343,7 +380,7 @@ Marble supports external clock sources from FMC and from U.FL connectors. Thanks
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=1\linewidth]{clocking.png}
+\includegraphics[width=0.8\linewidth]{clocking.png}
  \caption{Marble clocking scheme}\label{clocking}
 \end{center}
 \end{figure}
@@ -393,7 +430,11 @@ Marble is equipped with 2 QSFP cages (\ref{qsfp}). Each can support 40 Gb/s of d
 	\item QSFP number 2 - high-speed lines are connected to the FPGA bank 115 through the gigabit multiplexer.
 \end{enumerate}
 
-QSFPs control signals are connected to the I2C IO expander (U34)(\ref{qsfpio}) which is accessible from FPGA or MMC. The connection of the differential signals to the FPGA is shown in the tables (\ref{tab:qsfp1-table})(\ref{tab:qsfp2-table}). QSFP2 is not directly connected to the FPGA chip. It is connected via a gigabit multiplexer which is controlled from the MMC. By default, the multiplexer is configured to connect the QSFP2 to the FPGA. In order to choose a different configuration or restore the default, select the appropriate option from the MMC console.
+QSFPs control signals are connected to the I2C IO expander (U34)(\ref{qsfpio}) which is accessible from FPGA or MMC.
+The connection of the differential signals to the FPGA is shown in the tables (\ref{tab:qsfp1-table})(\ref{tab:qsfp2-table}).
+QSFP2 is not directly connected to the FPGA chip, but is instead connected via a gigabit multiplexer which is controlled from the MMC.
+By default, the multiplexer is configured to connect the QSFP2 to the FPGA.
+To select a different configuration or restore the default, select the appropriate option from the MMC console or use the MMC's mailbox interface (\ref{sec:MMC:Mailbox}).
 
 \begin{figure}[H]
 \begin{center}
@@ -462,7 +503,10 @@ MGTXRXN3\_115 & QSFP1\_RX\_4\_N \\ \bottomrule
 \end{table}
 
 \section{Ethernet}
-Marble is equipped with Ethernet PHY (88E1512) which supports 10/100/1000BASE-T. PHY is connected to the FPGA bank 16 via RGMII interface:
+Marble is equipped with one Ethernet PHY chip (Marvell 88E1512) which supports\hfil\break
+10/100/1000BASE-T
+(Bedrock firmware only supports 1000BASE-T) and connects to a network via RJ45 connector \hbox{J4}.
+It attaches to FPGA bank 16 via an RGMII interface:
 
 \begin{table}[htbp]
 \centering
@@ -486,8 +530,14 @@ PHY\_RSTn                          & IO\_L10N\_16                     \\ \bottom
 \caption{RGMII pins assignment}
 \label{tab:rgmii}
 \end{table}
-The Ethernet PHY can be monitored over MDIO by the MMC. IP address and MAC address are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash). To read the internal PHY configuration registers, select the appropriate option from the MMC console.
-By default, the MDIO address is set to 1 but it can be changed by changing the resistor on the module. To set address to 1, desolder resistor R80 and solder resistor R65 with value 0R.
+
+The Ethernet PHY can be monitored over MDIO by the MMC. To read the internal PHY configuration registers, select the appropriate option from the MMC console.
+% By default, the MDIO address is set to 1, but it can be changed by changing the resistor on the module. To set address to 0, desolder resistor R80 and solder resistor R65 with value 0R.
+% Note that this would require commensurate customization of the MMC's firmware.
+
+The IP and MAC addresses are stored in the MMC's internal EEPROM memory (EEPROM functionality is emulated in the internal flash).
+After the FPGA boots, this information is passed to the FPGA over the pseudo-SPI mailbox (\ref{sec:MMC:Mailbox}).
+This feature depends, of course, on having a bitfile that implements it; this is a standard part of Bedrock's test\_marble\_family bitfiles.
 
 \section{FMC}
 Both FMC sockets are equipped with HPC (High Pin Count) type connector but not all signals were connected to FPGA and MMC.
@@ -528,12 +578,13 @@ FPGA UART occupies FT4232's channel 3. UART signals are connected to bank 15 pin
 	\item RX output IO\_0\_15
 \end{enumerate}
 \subsection{MMC UART}
-MMC UART occupies FT4232's channel 4 and is used as the MMC serial console. Terminal configuraton is 1N8 115200 baudrate. The FT4232's channel 2 DTR signal can be used to provide a reset signal for the microcontroller.
+MMC UART occupies FT4232's channel 4 and is used as the MMC serial console. Terminal configuration is 1N8 115200 baudrate. The FT4232's channel 2 DTR signal can be used to provide a reset signal for the microcontroller.
+See \ref{sec:MMC:Console} for details about the console interface.
 
 
 \section{Power}
 Several hardware options are available to provide the nominal +12V power to the board.
-It can come from TE Connector (3-641119-2) - J19 (fig. \ref{j19}) or by standard barrel connector (Type A: 5.5 mm OD, 2.1 mm ID) - J1. Input voltage range: 10V - 18V. Additionally, PoE can be used to power the module.
+It can come from TE Connector (3-641119-2) - J19 (fig. \ref{j19}) or by standard barrel connector (Type A: 5.5 mm OD, 2.1 mm ID) - J1. Input voltage range: 6V - 15V. Additionally, PoE can be used to power the module.
 
 \begin{figure}[H]
 \begin{center}
@@ -548,7 +599,7 @@ Block diagram of Marble's power tree is shown in figure \ref{pwr}. The USB-UART 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=1.1\linewidth]{m_power.png}
+\includegraphics[width=1.0\linewidth]{m_power.png}
  \caption{Marble power routing}\label{pwr}
 \end{center}
 \end{figure}
@@ -557,7 +608,7 @@ Power supply features:
 \begin{enumerate}
 	\item Over-temperature protection.
 	\item Power rails for the FPGA can be switched off and on by the microcontroller.
-	\item All power rails generated by XRP7724 can be monitored by the microcontroller and they are equipped with over-current protection.
+	\item All power rails generated by the LTM4673 can be monitored by the microcontroller and they are equipped with over-current protection.
 	\item Current consumption, voltage and rails status can be read by microcontroller.
 	\item The presence of the power rails is indicated by LED diodes
 	\item 12V power supply for both FMCs can be controlled independently by the microcontroller. Additionally,  current can be measured.
@@ -570,7 +621,7 @@ Two additional temperature sensors based on the LM75 chip provide temperature me
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.6\linewidth]{fans.png}
- \caption{FANs connectors}\label{fans}
+ \caption{Fan connectors}\label{fans}
 \end{center}
 \end{figure}
 
@@ -584,10 +635,10 @@ Two additional temperature sensors based on the LM75 chip provide temperature me
 3            & Tacho            & 3            & Tacho            \\ \bottomrule
 \end{tabular}
 \caption{}
-\label{tab:my-table}
+\label{tab:fan_connectors}
 \end{table}
 
-\section{MMC}
+\section{MMC}\label{sec:MMC}
 Module Management Controller (MMC) is based on STM32F207 microcontroller and provides housekeeping functions such as:
 \begin{enumerate}
 	\item Simple UART console over USB-UART bridge to control all functions
@@ -603,7 +654,7 @@ Module Management Controller (MMC) is based on STM32F207 microcontroller and pro
 	\item Ensuring communication over SPI with FPGA
 \end{enumerate}
 
-\subsection{Programing}
+\subsection{Programing}\label{sec:MMC:Programming}
 MMC programing can be done by using external tools such as STM Nucleo-SWD programmer, SEGGER J-LINK Mini (Fig. \ref{mmcjtag}, Fig. \ref{mmcjtagswd}).
 
 \begin{figure}[H]
@@ -622,7 +673,7 @@ MMC programing can be done by using external tools such as STM Nucleo-SWD progra
 
 Download the latest version of the microcontroller testing code from GitHub:
 \begin{leftbar}
-https://https://gitlab.lbl.gov/spaiagua/marble\_mmc/-/tree/unified\_marble
+\url{https://github.com/BerkeleyLab/Marble-MMC}
 \end{leftbar}
 
 A recent version of OpenOCD (v0.10.0 or later) is required.
@@ -648,6 +699,15 @@ Three general purpose LEDs are connected to the MMC chip:
 	\item LED15 - connected to pin PE0
 \end{enumerate}
 
+\subsection{Console}\label{sec:MMC:Console}
+The MMC implements a console interface over its UART serial connection, intended primarily for human (as opposed to machine) interface.
+The interface is line-based, meaning it processes text input after receiving a line-ending character, which can be one or both of
+linefeed (ASCII/UTF-8 {\tt 0x0A}) or carriage return (ASCII/UTF-8 {\tt 0x0D}).
+The terminal emulator (e.g. miniterm, minicom, etc) should append such a line ending to every message for proper processing the the MMC.
+Note that this is \emph{not} the default behavior for many terminal emulators.
+After opening the connection in a terminal emulator (115200 baudrate, 8N1), type a question mark ({\tt ?}) followed by a line ending to
+view a summary of available options.
+
 \subsection{I2C Tree}
 Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c}):
 \begin{enumerate}
@@ -667,6 +727,12 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
  \caption{I2C map}\label{i2c}
 \end{center}
 \end{figure}
+
+\subsection{Pseudo-SPI Mailbox}\label{sec:MMC:Mailbox}
+  The MMC can communicate with the FPGA via a dedicated SPI bus between the two ICs.
+  The standard firmware image for Marble boards (at \url{https://github.com/BerkeleyLab/Marble-MMC}) implements a mailbox
+  interface over this SPI bus which provides board information and configuration options to the FPGA application.
+  For details, see that repo's {\tt doc/mailbox.md}.
 
 \section{Mechanical dimensions}
 
@@ -730,7 +796,5 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
 Test points 12-15 are not present on Marble v1.0.
 
 \begin{thebibliography}{99}
-%\bibitem{web1} \url{http://bit.ly/PhysLab_Link01}
-%\bibitem{web2} \url{http://bit.ly/PhysLab_Link02}
 \end{thebibliography}
 \end{document}
