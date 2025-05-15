@@ -3,6 +3,7 @@
 Marble is a dual FMC FPGA carrier board developed for general purpose use in particle accelerator electronics instrumentation. It is currently under development and the base platform for two accelerator projects at DOE: ALS-U (the Advanced Light Source Upgrade at LBNL) and LCLS-II HE (the Linac Coherent Light Source II High Energy upgrade).
 
 ![marble](docs/marble.jpg)
+_Photo Credit: Thor Swift, LBL_
 
 The design responds to deployment needs in an accelerator environment: reliability, ability to be remotely programmed, safety watchdog, self monitoring, etc. It is intended to be the base digital design for instrumentation electronics, with the capability of connecting to different I/O or analog front ends through the FMC connectors. It targets cost-effectiveness for deployments of hundreds of units. It is based on a Network Attached Device (NAD) approach, where high-speed serial links serve as the communication backbone with other systems in the accelerator.
 
