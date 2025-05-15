@@ -57,10 +57,10 @@ This guide primarily applies to Marble v1.4.x.
 
 \section{Overview}
 
-\begin{leftbar}
 Design files are open source and can be downloaded from GitHub:
 
-https://github.com/BerkeleyLab/Marble
+\begin{leftbar}
+\url{https://github.com/BerkeleyLab/Marble}
 \end{leftbar}
 
 Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram of the module is shown in figure \ref{fig:block}.
@@ -71,6 +71,22 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
  \caption{Marble block diagram.}\label{fig:block}
 \end{center}
 \end{figure}
+
+Supporting FPGA code can be found in LBNL's Bedrock project
+
+\begin{leftbar}
+\url{https://github.com/BerkeleyLab/Bedrock}
+\end{leftbar}
+
+and microcontroller code in LBNL's Marble-MMC project
+
+\begin{leftbar}
+\url{https://github.com/BerkeleyLab/Marble-MMC}
+\end{leftbar}
+
+While you are not required to use those code bases, they are useful for
+getting started, and some of this document assumes that you use them,
+or at least code based on them.
 
 \begin{figure}[H]
 \begin{center}
@@ -88,7 +104,7 @@ Marble is a dual FMC carrier module based on an Kintex-7 FPGA. The block diagram
 1  & U1  & FPGA Xilinx Kintex-7      & XC7K160T-2FFG676C \\
 2  & SK1 & DD3 SO-DIMM memory module & VR7PU286458FBAMJT \\
 3  & U4  & 10/100/1000 Ethernet PHY  & 88E1512-A0-NNP2I000  \\
-4  & J14, J6 & Microcontroller programing connectors         &                   \\
+4  & J14, J6 & Microcontroller programing connectors         &  \\
 5  & U2  & 8x8 Clock Crosspoint Switch   & ADN4600ACPZ     \\
 6  & U35 & Power Management          & LTM4673IY\#PBF   \\
 7  & J1, J19 & 12V power input       & FC68148(DC-10A), 641119-2  \\
@@ -173,10 +189,11 @@ To write to configuration memory the first time, an FPGA image must be loaded so
 (on-board USB JTAG, or external JTAG pod on J11).
 That image then acts as a bridge between the host computer and the flash IC over its SPI interface,
 allowing a ``golden image'' to be written to flash (with the WP switch OFF).
-An example implementation of such a bridge (from Ethernet) is provided in bedrock.
-See ``bedrock/badger/spi\_flash.v'' and ``bedrock/badger/tests/spi\_test.py''.
-The default Marble image (``bedrock/projects/test\_marble\_family'') provides this interface on Ethernet port 804
-for configuration memory programming.
+An example implementation of such a bridge (from Ethernet) is provided in Bedrock.
+See its {\tt badger/spi\_flash.v} and {\tt badger/tests/spi\_test.py} files.
+The default Marble image (built in its\hfil\break
+{\tt projects/test\_marble\_family} directory)
+provides this interface on Ethernet port 804 for configuration memory programming.
 
 \begin{figure}[H]
 \begin{center}
@@ -233,31 +250,28 @@ Two general purpose LEDs are directly connected to the FPGA chip:
 \end{enumerate}
 
 \subsection{FPGA Programming}
-Vivado reference design with a constraint file can be found here:
+A reference design with a constraint file, ready for synthesis with Vivado 2020.2 or newer,
+can be found here:
 \begin{leftbar}
-https://github.com/BerkeleyLab/bedrock
+\url{https://github.com/BerkeleyLab/Bedrock}
 \end{leftbar}
-See its projects/test\_marble\_family directory.
-
-\subsubsection{Internal JTAG}
-Download the latest version of the FPGA testing code from GitHub:
-\begin{leftbar}
-https://github.com/BerkeleyLab/bedrock
-\end{leftbar}
-A bitfile for Marble testing can be built with Vivado 2020.2 or newer.  With build environment setup
-according to the documentation in bedrock/dependencies.txt, a bitfile can be built with:
+With your build environment setup according to the documentation in Bedrock's\hfil\break
+{\tt dependencies.txt}, a bitfile can be built with:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]
-$ cd bedrock/projects/test_marble_family
+$ cd projects/test_marble_family
+$ make marble2.bit
 	\end{lstlisting}
 
+\subsubsection{Internal JTAG}
+
 \begin{leftbar}
-Before testing the FPGA, it is recommended to set up the current limit to 2A on the lab power supply.
+Before testing the FPGA, it is recommended to set up the current limit to 2\thinspace A on the lab power supply.
 \end{leftbar}
 
-Program the FPGA using the following steps:
+The easiest way to program the FPGA the first time is with the following steps:
 \begin{enumerate}
-	\item Plug micro USB cable
-	\item Go to the folder \textbf{bedrock/projects/test\_marble\_family/}
+	\item Attach the Marble board to your workstation with a micro USB cable to J10
+	\item Go to the Bedrock directory {\tt projects/test\_marble\_family}
 	\item Open command terminal and run command:
 	\begin{lstlisting}[backgroundcolor = \color{Gainsboro}, language=bash, frame=none]]
 $ BITFILE=marble2.$GITID.bit ./mutil usb
@@ -281,7 +295,7 @@ The size of the DDR3 memory can be determined by the user by assembling the appr
 
 A reference design with a memory controller and a constraint file can be found here:
 \begin{leftbar}
-https://github.com/enjoy-digital/litex
+\url{https://github.com/enjoy-digital/litex}
 \end{leftbar}
 Bedrock's CI process has a job (marble\_ddr3\_test) that uses LiteX to build a valid bitfile.
 You can follow along by peeking in .gitlab/ci/oscope.gitlab-ci.yml.
@@ -489,8 +503,9 @@ MGTXRXN3\_115 & QSFP1\_RX\_4\_N \\ \bottomrule
 \end{table}
 
 \section{Ethernet}
-Marble is equipped with one Ethernet PHY chip (Marvell 88E1512) which supports 10/100/1000BASE-T
-(bedrock firmware only supports 1000BASE-T) and connects to a network via RJ45 connector \hbox{J4}.
+Marble is equipped with one Ethernet PHY chip (Marvell 88E1512) which supports\hfil\break
+10/100/1000BASE-T
+(Bedrock firmware only supports 1000BASE-T) and connects to a network via RJ45 connector \hbox{J4}.
 It attaches to FPGA bank 16 via an RGMII interface:
 
 \begin{table}[htbp]
@@ -563,7 +578,7 @@ FPGA UART occupies FT4232's channel 3. UART signals are connected to bank 15 pin
 	\item RX output IO\_0\_15
 \end{enumerate}
 \subsection{MMC UART}
-MMC UART occupies FT4232's channel 4 and is used as the MMC serial console. Terminal configuraton is 1N8 115200 baudrate. The FT4232's channel 2 DTR signal can be used to provide a reset signal for the microcontroller.
+MMC UART occupies FT4232's channel 4 and is used as the MMC serial console. Terminal configuration is 1N8 115200 baudrate. The FT4232's channel 2 DTR signal can be used to provide a reset signal for the microcontroller.
 See \ref{sec:MMC:Console} for details about the console interface.
 
 
@@ -658,7 +673,7 @@ MMC programing can be done by using external tools such as STM Nucleo-SWD progra
 
 Download the latest version of the microcontroller testing code from GitHub:
 \begin{leftbar}
-https://github.com/BerkeleyLab/Marble-MMC
+\url{https://github.com/BerkeleyLab/Marble-MMC}
 \end{leftbar}
 
 A recent version of OpenOCD (v0.10.0 or later) is required.
@@ -715,9 +730,9 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
 
 \subsection{Pseudo-SPI Mailbox}\label{sec:MMC:Mailbox}
   The MMC can communicate with the FPGA via a dedicated SPI bus between the two ICs.
-  The standard firmware image for Marble boards (at ``https://github.com/BerkeleyLab/Marble-MMC'') implements a mailbox
+  The standard firmware image for Marble boards (at \url{https://github.com/BerkeleyLab/Marble-MMC}) implements a mailbox
   interface over this SPI bus which provides board information and configuration options to the FPGA application.
-  For details, see ``Marble-MMC/doc/mailbox.md''.
+  For details, see that repo's {\tt doc/mailbox.md}.
 
 \section{Mechanical dimensions}
 
@@ -781,7 +796,5 @@ Marble is equipped with two I2C buses (block diagram is shown in fig. \ref{i2c})
 Test points 12-15 are not present on Marble v1.0.
 
 \begin{thebibliography}{99}
-%\bibitem{web1} \url{http://bit.ly/PhysLab_Link01}
-%\bibitem{web2} \url{http://bit.ly/PhysLab_Link02}
 \end{thebibliography}
 \end{document}
