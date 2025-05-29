@@ -1,0 +1,67 @@
+name: KiBot
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  diffpr:
+    name: Pull Request Difference
+    runs-on: ubuntu-latest
+    if: ${{ github.base_ref }}
+    strategy:
+      fail-fast: false
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Tag PR base
+      run: |
+        git tag xxBASE ${{ github.event.pull_request.base.sha }}
+        git log -n1 xxBASE
+    - uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        dir: diff
+        config: .github/kibot-diff.yml
+        schema: design/Marble.kicad_sch
+        board: design/Marble.kicad_pcb
+        verbose: 3
+    - name: Upload Diff
+      id: diff
+      uses: actions/upload-artifact@v4
+      with:
+        name: pr-diff
+        compression-level: 9
+        if-no-files-found: 'error'
+        path: diff
+
+  basepr:
+    name: Difference since ${{ matrix.base }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # update me after each release!
+        base: ["v1.4.3"]
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        fetch-tags: true
+    - name: Tag PR base
+      run: |
+        git tag xxBASE ${{ matrix.base }}
+        git log -n1 xxBASE
+    - uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        dir: diff
+        config: .github/kibot-diff.yml
+        schema: design/Marble.kicad_sch
+        board: design/Marble.kicad_pcb
+        verbose: 3
+    - name: Upload Diff
+      id: diff
+      uses: actions/upload-artifact@v4
+      with:
+        name: base-diff
+        compression-level: 9
+        if-no-files-found: 'error'
+        path: diff
