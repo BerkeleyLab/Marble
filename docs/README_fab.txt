@@ -10,9 +10,27 @@ Gerber, Drill, IPC-D-356, Board stackup, BoM, and X-Y placement.
 The design is created in, and these manufacturing files are mostly
 exported from, KiCad version 6.0.11.
 
-This is a 12-layer, 1.72mm (nominal) board.  Materials and thicknesses
+The overall board size is 150 mm x 180 mm, similar to the
+AMC double-width standard.
+
+This is a 12-layer, 1.72mm (nominal) board. 
+- PCB Material: FR4
+- Soldermask color: Black
+- Silkscreen color: White
+- Copper weight for inner layers is 0.5 oz and for outer layers is 1oz + 0.5oz = 1.5oz
+
+The SI conversion of the traditional PCB industry unit "1 oz" (really ounce/square-foot)
+is 305.15 g/m^2.  That _might_ convert to 34.15 micrometers layer thickness,
+but only if the copper plating has the density of pure bulk material at 20 C,
+Materials and thicknesses
 according to the board stackup description:
   marble-stack.txt
+
+Two Class 2 via types are utilized: 
+- 0.152mm (6mil) finished hole size, +0.0762mm/-0.152mm(+3mil/-6mil), with a 0.35mm (13.7mil) pad
+- 0.35mm (13.7mil) finished hole size, +0.0762mm/-0.35mm (+3mil/-13.7mil), with a 0.6mm (23.6mil) pad
+The above standard hole size toleracing indicates that the via thickness after plating is not critical, in fact, it is acceptable if the via is completely filled. 
+Vias are to be filled with non-conducive epoxy and capped according to IPC-4761.
 
 Three heat sinks are called out in the BOM and shown on the schematic:
   HS1  for U1 FPGA
@@ -29,18 +47,6 @@ Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
 (0.35mm pad).  Solder mask pad clearance is set to 0.024 mm,
 allowing 0.152 mm soldermask dams between pads that are separated
 by 0.200 mm.
-
-The overall board size is 150 mm x 180 mm, similar to the
-AMC double-width standard.
-
-- PCB Material: FR4
-- Soldermask color: Black
-- Silkscreen color: White
-- Copper weight for inner layers is 0.5 oz and for outer layers is 1oz + 0.5oz = 1.5oz
-
-The SI conversion of the traditional PCB industry unit "1 oz" (really ounce/square-foot)
-is 305.15 g/m^2.  That _might_ convert to 34.15 micrometers layer thickness,
-but only if the copper plating has the density of pure bulk material at 20 C,
 
 Copper Gerber files, in order:
   marble-F_Cu.gbr
