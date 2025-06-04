@@ -26,7 +26,7 @@ Materials and thicknesses according to the board stackup description:
   marble-stack.txt
 
 Two Class 2 via types are utilized:
-- 0.152mm (6.0mil) finished hole size, +0.076mm/-0.152mm(+3mil/-6mil), with a 0.35mm (13.7mil) pad
+- 0.152mm (6.0mil) finished hole size, +0.076mm/-0.152mm (+3mil/-6mil), with a 0.35mm (13.7mil) pad
 - 0.350mm (13.8mil) finished hole size, +0.076mm/-0.350mm (+3mil/-13.8mil), with a 0.60mm (23.6mil) pad
 The standard hole size tolerances above indicate that the via hole diameter after
 plating is not critical, in fact, it is acceptable if the via is completely filled.

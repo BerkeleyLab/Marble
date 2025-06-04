@@ -72,7 +72,7 @@ To perform all tests the following hardware is required:
     \item QSFP loopback module.
     \item FMC Tester module.
     \item Multimeter.
-    \item MMC JTAG (either SEGGER J-LINK mini or STMicroelectronics ST-Link V2).
+    \item MMC JTAG (either SEGGER J-Link Mini or STMicroelectronics ST-Link V2).
     \item FPGA JTAG (example: Digilent JTAG HS3).
 \end{enumerate}
 
@@ -129,14 +129,15 @@ Measured resistance should be around \textbf{{\color{red}200 kOhm}}
 \end{leftbar}
 
 It is also highly recommended at this point to attach silicone feet (bumpers) to the bottom of the board to avoid
-short circuits from resting on a conductive surface.  See \texttt{doc/README\_fab.txt} for details.
+both mechanical component damage in general and short circuits if resting on a conductive surface.
+See \texttt{doc/README\_fab.txt} for details.
 
-If the resistance is correct, connect the main power. For this purpose, the current limitation on the power supply should be set to 100mA and the voltage to 12V. \textbf{Make sure that the current limit of the laboratory power supply is on.} Now the power cable can be connected to the board and the used laboratory power supply channel can be switched on.
-This should result in the \textit{3.3V} and \textit{12V} LEDs lighting up as shown  on Figure \ref{02}. Now it is recommended to go to section \nameref{microcontroller}.
+If the resistance is correct, connect the main power. For this purpose, the current limitation on the power supply should be set to 100\thinspace mA and the voltage to \hbox{12\thinspace V}. \textbf{Make sure that the current limit of the laboratory power supply is on.} Now the power cable can be connected to the board and the used laboratory power supply channel can be switched on.
+This should result in the \textit{3.3V} and \textit{12V} LEDs lighting up as shown on Figure \ref{fig:12V_led}. Now it is recommended to go to section \nameref{microcontroller}.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.8\linewidth, angle = 180]{xrpoff.png}
- \caption{12V indicator LED is on. }\label{02}
+ \caption{12V indicator LED is on. }\label{fig:12V_led}
 \end{center}
 \end{figure}
 
@@ -150,7 +151,7 @@ https://github.com/BerkeleyLab/Marble-MMC
 
 A recent version of OpenOCD (v0.10.0 or later) is required.
 \begin{enumerate}
-	\item Connect JTAG module to \textbf{J14} as shown on Figure \ref{23}.
+	\item Connect JTAG module to \textbf{J14} as shown on Figure \ref{fig:j14}.
 	\item Connect the micro USB cable and using the serial terminal, connect to the last serial port for the new listed device in the operating system. Use 115200 baudrate.
 	\item Power up the board.
 	\item Program the microcontroller using the following commands:
@@ -167,7 +168,7 @@ $ make marble_download
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.8\linewidth]{mmcjtag.png}
- \caption{J14 connector. }\label{23}
+ \caption{J14 connector. }\label{fig:j14}
 \end{center}
 \end{figure}
 
@@ -178,7 +179,7 @@ $ make marble_download
 
 \begin{enumerate}
     \item Connect the micro USB cable and note the serial device name assigned to it (i.e. /dev/ttyUSB3).  It will always be the last port of a group of 4 associated with the Marble's FT4232 USB-to-UART.
-    \item Set up voltage to 12V and the current limit to 1A on a lab power supply.
+    \item Set up voltage to 12\thinspace V and the current limit to 1\thinspace A on a lab power supply.
     \item Power up the board.
     \item Open a terminal in the Marble-MMC repository downloaded in section 3.
     \item Run the LTM4673 programming script (where \$TTY is the serial device name noted above):
@@ -186,26 +187,26 @@ $ make marble_download
 $ sh scripts/program_ltm4673.sh $TTY -f LTM4673_reglist.txt -s
       \end{lstlisting}
     \item Power cycle by turning the lab power supply Off and then On.
-    \item All power LED indicators should be On (Figure \ref{leds}).
+    \item All power LED indicators should be On (Figure \ref{fig:leds}).
     \item Using multimeter measure the voltage between the test points:
     \begin{enumerate}
-	\item \textbf{TP12 (GND)} and \textbf{TP7 (+2V0)} - expected voltage: +2.0V.
-	\item \textbf{TP12 (GND)} and \textbf{TP9 (+1V0)} - expected voltage: +1.0V.
-	\item \textbf{TP12 (GND)} and \textbf{TP10 (+2V5)} - expected voltage: +2.5V.
-	\item \textbf{TP12 (GND)} and \textbf{TP8 (+1V8)} - expected voltage: +1.8V.
-	\item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)} - expected voltage: +1.5V.
-	\item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)} - expected voltage: +1.2V.
-	\item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)} - expected voltage: +3.3V.
-	\item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)} - expected voltage: +3.3V.
-	\item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)} - expected voltage: +3.3V.
-	\item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)} - expected voltage: +1.05V.
+	\item \textbf{TP12 (GND)} and \textbf{TP7 (+2V0)} - expected voltage: +2.0\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP9 (+1V0)} - expected voltage: +1.0\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP10 (+2V5)} - expected voltage: +2.5\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP8 (+1V8)} - expected voltage: +1.8\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP6 (+1V5)} - expected voltage: +1.5\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP4 (+1V2)} - expected voltage: +1.2\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP11 (+3V3)} - expected voltage: +3.3\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP15 (+3V3USB)} - expected voltage: +3.3\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP14 (+3V3P)} - expected voltage: +3.3\thinspace V.
+	\item \textbf{TP12 (GND)} and \textbf{TP5 (+1V05)} - expected voltage: +1.05\thinspace V.
 \end{enumerate}
 \end{enumerate}
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.7\linewidth]{leds.png}
- \caption{Power LED indicators after a successful power cycle.}\label{leds}
+ \caption{Power LED indicators after a successful power cycle.}\label{fig:leds}
 \end{center}
 \end{figure}
 
@@ -272,20 +273,20 @@ Board power should be turned off when inserting and removing the QSFP module.
 	\item Configure FPGA using \texttt{marble\_ibert.bit} bit file.
 	\begin{enumerate}
 		\item Run Vivado
-		\item Go to \menu{Flow>Open Hardware Manager} and then  \menu{Tools>Auto Connect}
+		\item Go to \menu{Flow>Open Hardware Manager} and then \menu{Tools>Auto Connect}
 		\item Click \menu{Tools>Program Device>xc7k160t\_0} to open the programming window.
 		\item Choose the \textit{bitstream file} and click \menu{Program}
 	\end{enumerate}
 	\item After successful programming, the Dashboard should start automatically.
 	\item Detect links by clicking \menu{Serial I/O Links>Auto-detect links}
-	\item Correctly detected and working links should appear as shown in figure \ref{links}.
+	\item Correctly detected and working links should appear as shown in figure \ref{fig:links}.
 	\item Connect the QSFP loopback module to the other QSFP connector and repeat the steps above.
 \end{enumerate}
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=1\linewidth]{links.png}
- \caption{Working links.}\label{links}
+ \caption{Working links.}\label{fig:links}
 \end{center}
 \end{figure}
 
@@ -331,7 +332,7 @@ $ iperf -c 192.168.9.10 -u -b 1000M -p 802
 Programming FPGA using Vivado and Digilent JTAG HS3:
 \begin{enumerate}
 		\item Run Vivado
-		\item Go to \menu{Flow>Open Hardware Manager} and then  \menu{Tools>Auto Connect}
+		\item Go to \menu{Flow>Open Hardware Manager} and then \menu{Tools>Auto Connect}
 		\item Click \menu{Tools>Program Device>xc7k160t\_0} to open the programming window.
 		\item Choose the \textit{bitstream file} and click \menu{Program}
 
