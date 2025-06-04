@@ -13,7 +13,7 @@ exported from, KiCad version 6.0.11.
 The overall board size is 150 mm x 180 mm, similar to the
 AMC double-width standard.
 
-This is a 12-layer, 1.72mm (nominal) board. 
+This is a 12-layer, 1.72mm (nominal) board.
 - PCB Material: FR4
 - Soldermask color: Black
 - Silkscreen color: White
@@ -26,11 +26,11 @@ Materials and thicknesses
 according to the board stackup description:
   marble-stack.txt
 
-Two Class 2 via types are utilized: 
+Two Class 2 via types are utilized:
 - 0.152mm (6mil) finished hole size, +0.0762mm/-0.152mm(+3mil/-6mil), with a 0.35mm (13.7mil) pad
 - 0.35mm (13.7mil) finished hole size, +0.0762mm/-0.35mm (+3mil/-13.7mil), with a 0.6mm (23.6mil) pad
-The above standard hole size toleracing indicates that the via thickness after plating is not critical, in fact, it is acceptable if the via is completely filled. 
-Vias are to be filled with non-conducive epoxy and capped according to IPC-4761.
+The above standard hole size tolerating indicates that the via hole diameter after plating is not critical, in fact, it is acceptable if the via is completely filled.
+Vias are to be filled with non-conductive epoxy and capped according to IPC-4761.
 
 Three heat sinks are called out in the BOM and shown on the schematic:
   HS1  for U1 FPGA
@@ -87,7 +87,7 @@ Bill-of-material, X-Y placement, and IPC-D-356 files:
 Two more oddball files, not used for fab:
   testpoint_map.gbr
   testpoint_map.gvp
-They are there to produce a PDF that might help troublehsooting:
+They are there to produce a PDF that might help troubleshooting:
 gerbv -p testpoint_map.gvp -x pdf -o testpoint_map.pdf
 
 SHA-256 signature file, which can be used to verify the integrity
