@@ -92,7 +92,7 @@ $ sudo apt-get install openocd
 
 \section{Power connection}\label{sec:Power_Connection}
 Before connecting the power supply for the first time, it is highly recommended to verify that there are no shorts on the power rails.
-First, use a multimeter set in resistance measurement mode to measure the resistance between metal pads of the J19 connector (Figure \ref{01})
+First, use a multimeter set in resistance measurement mode to measure the resistance between metal pads of the \textbf{J19} connector (Figure \ref{fig:j19})
 and ensure it is not electrically shorted (should not be <200 Ohms).
 
 Next, measure the resistance between the power supply test points:
@@ -121,12 +121,15 @@ Next, measure the resistance between the power supply test points:
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{J19.png}
- \caption{Connector's terminals. }\label{01}
+ \caption{Connector's terminals. }\label{fig:j19}
 \end{center}
 \end{figure}
 \begin{leftbar}
 Measured resistance should be around \textbf{{\color{red}200 kOhm}}
 \end{leftbar}
+
+It is also highly recommended at this point to attach silicone feet (bumpers) to the bottom of the board to avoid
+short circuits from resting on a conductive surface.  See \texttt{doc/README\_fab.txt} for details.
 
 If the resistance is correct, connect the main power. For this purpose, the current limitation on the power supply should be set to 100mA and the voltage to 12V. \textbf{Make sure that the current limit of the laboratory power supply is on.} Now the power cable can be connected to the board and the used laboratory power supply channel can be switched on.
 This should result in the \textit{3.3V} and \textit{12V} LEDs lighting up as shown  on Figure \ref{02}. Now it is recommended to go to section \nameref{microcontroller}.
@@ -137,7 +140,7 @@ This should result in the \textit{3.3V} and \textit{12V} LEDs lighting up as sho
 \end{center}
 \end{figure}
 
-\section{Microcontroller programing}
+\section{Microcontroller Programming}
 \label{microcontroller}
 
 Download the latest version of the microcontroller testing code from GitHub:
@@ -158,7 +161,7 @@ A recent version of OpenOCD (v0.10.0 or later) is required.
 $ make marble_download
 	\end{lstlisting}
 	\end{enumerate}
-	\item After successful programming, a menu in the serial terminal should appear and LEDs (LD15, LD11, LD12) should blink.
+\item After successful programming, a menu in the serial terminal should appear and LEDs (\textbf{LD15}, \textbf{LD11}, \textbf{LD12}) should blink.
 \end{enumerate}
 
 \begin{figure}[H]
@@ -169,7 +172,7 @@ $ make marble_download
 \end{figure}
 
 
-\section{Power Supply Programing}
+\section{Power Supply Programming}
 
 \textbf{Warning:} Only perform the following steps if there are no shorts on the power rails (see section \ref{sec:Power_Connection}).
 
@@ -206,7 +209,7 @@ $ sh scripts/program_ltm4673.sh $TTY -f LTM4673_reglist.txt -s
 \end{center}
 \end{figure}
 
-\section{FPGA programing}
+\section{FPGA Programming}
 Download the latest version of the FPGA testing code from GitHub:
 \begin{leftbar}
 https://github.com/BerkeleyLab/Bedrock/
@@ -220,13 +223,13 @@ Before testing the FPGA it is recommended to set up the current limit to 2A on t
 Board power should be turned off when inserting and removing the FMC module.
 \end{leftbar}
 \begin{enumerate}
-	\item Plug FMC Tester module to one of the FMC connectors as shown on Figure \ref{fig:example}.
+	\item Plug FMC Tester module to one of the FMC connectors as shown on Figure \ref{fig:FMC_tester}.
 	\item Connect the micro USB cable and, using the serial terminal, connect to the last serial port for the new device listed in the operating system. Use 115200 baudrate.
 	\item Change the network adapter settings to connect with static IP address \textbf{192.168.9.10}.
-    \item Connect Marble to the computer using an Ethernet cable.
-    \item Power up the board.
-    \item In the serial terminal menu choose \menu{4) GPIO control
->a) FMC power} to turn on power to the FMCs.
+	\item Connect Marble to the computer using an Ethernet cable.
+	\item Power up the board.
+	\item In the serial terminal menu choose \menu{4) GPIO control
+>A) FMC power} to turn on power to the FMCs.
 	\item Program the FPGA using the following steps:
 	\begin{enumerate}
 	\item Go to the folder \textbf{Bedrock/projects/test\_marble\_family/}
@@ -254,7 +257,7 @@ $ PYTHONPATH=../../badger:../../periphera\l_drivers
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{fmc_tester.png}
- \caption{FMC connectors FMC Tester board plugged in.}
+  \caption{FMC connectors FMC Tester board plugged in.}\label{fig:FMC_tester}
 \end{center}
 \end{figure}
 
