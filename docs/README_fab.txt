@@ -22,15 +22,19 @@ This is a 12-layer, 1.72mm (nominal) board.
 The SI conversion of the traditional PCB industry unit "1 oz" (really ounce/square-foot)
 is 305.15 g/m^2.  That _might_ convert to 34.15 micrometers layer thickness,
 but only if the copper plating has the density of pure bulk material at 20 C,
-Materials and thicknesses
-according to the board stackup description:
+Materials and thicknesses according to the board stackup description:
   marble-stack.txt
 
 Two Class 2 via types are utilized:
-- 0.152mm (6mil) finished hole size, +0.0762mm/-0.152mm(+3mil/-6mil), with a 0.35mm (13.7mil) pad
-- 0.35mm (13.7mil) finished hole size, +0.0762mm/-0.35mm (+3mil/-13.7mil), with a 0.6mm (23.6mil) pad
-The above standard hole size tolerating indicates that the via hole diameter after plating is not critical, in fact, it is acceptable if the via is completely filled.
+- 0.152mm (6.0mil) finished hole size, +0.076mm/-0.152mm(+3mil/-6mil), with a 0.35mm (13.7mil) pad
+- 0.350mm (13.8mil) finished hole size, +0.076mm/-0.350mm (+3mil/-13.8mil), with a 0.60mm (23.6mil) pad
+The standard hole size tolerances above indicate that the via hole diameter after
+plating is not critical, in fact, it is acceptable if the via is completely filled.
 Vias are to be filled with non-conductive epoxy and capped according to IPC-4761.
+
+Design rules are 0.10 mm space, 0.10 mm trace.  Vias as described above.
+Solder mask pad clearance is set to 0.024 mm, allowing 0.152 mm soldermask dams
+between pads that are separated by 0.200 mm.
 
 Three heat sinks are called out in the BOM and shown on the schematic:
   HS1  for U1 FPGA
@@ -43,10 +47,13 @@ understands the importance of thermal grease, and has a tube on their shelf.
 Dow 340 seems to be the general-issue grease these days, but any known-good
 thermal grease is acceptable.
 
-Design rules are 0.10 mm space, 0.10 mm trace, 0.152 mm drill
-(0.35mm pad).  Solder mask pad clearance is set to 0.024 mm,
-allowing 0.152 mm soldermask dams between pads that are separated
-by 0.200 mm.
+Not shown in the BOM are silicone feet.  There are five circles marked
+on the board's bottom side, showing spots where 8mm diameter x 4mm thick
+hemispherical silicone adhesive bumper pads can be attached.
+Such pads are cheap and available on e.g., Amazon (B08NX9KXQP) or AliExpress.
+It's strongly recommended to apply such feet if the board will rest
+on an engineer's desk for development and testing.
+They will not interfere with conventional chassis mounting.
 
 Copper Gerber files, in order:
   marble-F_Cu.gbr
